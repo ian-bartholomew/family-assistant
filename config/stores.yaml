@@ -1,0 +1,25 @@
+stores:
+  - name: Whole Foods
+    url: https://www.wholefoodsmarket.com
+    search_url: https://www.wholefoodsmarket.com/search?text={query}
+  - name: Vons
+    url: https://www.vons.com
+    search_url: https://www.vons.com/shop/search-results.html?q={query}
+  - name: Sprouts
+    url: https://www.sprouts.com
+    search_url: https://www.sprouts.com/search/?search_term={query}
+  - name: Amazon Fresh
+    url: https://www.amazon.com/fresh
+    search_url: https://www.amazon.com/s?k={query}&i=amazonfresh
+  - name: Costco
+    url: https://www.costco.com
+    search_url: https://www.costco.com/CatalogSearch?dept=All&keyword={query}
+
+preferences:
+  prefer_organic: true
+  delivery: true
+  zip_code: ""
+  consolidation_threshold_dollars: 5
+
+grocery_list:
+  vault_path: ~/Documents/Home/Groceries/Grocery lists/Grocery Store
