@@ -1,0 +1,19 @@
+{
+  "name": "family-assistant",
+  "version": "1.0.0",
+  "description": "Family productivity plugin — grocery price comparison, meal planning, and more",
+  "author": {
+    "name": "Ian Bartholomew",
+    "email": "ian@ianbartholomew.com"
+  },
+  "repository": "https://github.com/ian-bartholomew/family-assistant",
+  "homepage": "https://github.com/ian-bartholomew/family-assistant",
+  "license": "MIT",
+  "keywords": [
+    "grocery",
+    "price-comparison",
+    "family",
+    "meal-planning",
+    "obsidian"
+  ]
+}
