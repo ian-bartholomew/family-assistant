@@ -1,0 +1,13 @@
+{
+  "name": "ian-bartholomew-family-assistant",
+  "owner": {
+    "name": "Ian Bartholomew"
+  },
+  "plugins": [
+    {
+      "name": "family-assistant",
+      "source": "./",
+      "description": "Family productivity plugin — grocery price comparison, meal planning, and more"
+    }
+  ]
+}
