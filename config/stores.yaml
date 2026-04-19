@@ -1,25 +1,33 @@
 stores:
   - name: Whole Foods
-    url: https://www.wholefoodsmarket.com
-    search_url: https://www.wholefoodsmarket.com/search?text={query}
+    url: https://www.amazon.com/alm/storefront?almBrandId=QW1hem9uIEZyZXNo&ref_=ewc_wf
+    search_url: https://www.amazon.com/s?k={query}&i=wholefoods
+    delivery_fee: 0
+    tip_percent: 20
   - name: Vons
     url: https://www.instacart.com/store/vons
     search_url: https://www.instacart.com/store/vons/search/{query}
+    tip_percent: 20
   - name: Sprouts
     url: https://www.sprouts.com
     search_url: https://www.sprouts.com/search/?search_term={query}
+    tip_percent: 20
   - name: Amazon Fresh
     url: https://www.amazon.com/fresh
     search_url: https://www.amazon.com/s?k={query}&i=amazonfresh
+    delivery_fee: 0
+    tip_percent: 20
   - name: Costco
     url: https://www.instacart.com/store/costco
     search_url: https://www.instacart.com/store/costco/search/{query}
+    tip_percent: 20
 
 preferences:
   prefer_organic: true
   delivery: true
   zip_code: ""
   consolidation_threshold_dollars: 5
+  default_tip_percent: 20
 
 grocery_list:
   vault_path: ~/Documents/Home/Groceries/Grocery lists/Grocery Store

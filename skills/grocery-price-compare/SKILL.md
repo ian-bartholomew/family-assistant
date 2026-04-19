@@ -24,8 +24,8 @@ If there are no unchecked items, tell the user and stop.
 
 Read `${CLAUDE_PLUGIN_ROOT}/config/stores.yaml` and parse:
 
-- The list of stores (each with `name` and `search_url`)
-- Preferences (`prefer_organic`, `delivery`, `zip_code`)
+- The list of stores (each with `name`, `search_url`, optional `delivery_fee`, and `tip_percent`)
+- Preferences (`prefer_organic`, `delivery`, `zip_code`, `default_tip_percent`)
 
 ## Step 3: Dispatch Store Scraper Agents
 
@@ -88,14 +88,21 @@ For each store's `delivery_fee`, use the first non-"unknown" value reported by a
 
 ## Step 5: Optimize Fulfillment Strategies
 
-Generate multiple fulfillment options ranked by total cost (item prices + delivery fees):
+Generate multiple fulfillment options ranked by total cost (item prices + delivery fee + tip per store):
+
+**Cost calculation per store:**
+
+- **Item subtotal** = sum of item prices at that store
+- **Delivery fee** = use `delivery_fee` from config if set (e.g., 0 for Prime stores), otherwise use the fee scraped by agents, otherwise "unknown"
+- **Tip** = item subtotal * (`tip_percent` from store config, or `default_tip_percent` from preferences) / 100
+- **Store total** = item subtotal + delivery fee + tip
 
 **Algorithm:**
 
 1. For each item, collect all stores where `status` is `found` or `substituted`, with their prices.
-2. **Cheapest overall:** For each item, pick the cheapest store. Sum item prices + delivery fees for each unique store used. This may use 1 to N stores.
-3. **Best single-store:** For each store that has all (or most) items available, calculate total = sum of item prices + delivery fee. Pick the cheapest single store. Note any missing items.
-4. **Intermediate splits:** Try all 2-store combinations, 3-store combinations, etc. For each combination, assign each item to the cheapest store in that subset. Calculate total = item prices + delivery fees for stores used. Keep any combination that is cheaper than the best single-store option.
+2. **Cheapest overall:** For each item, pick the cheapest store. Sum store totals (items + delivery + tip) for each unique store used. This may use 1 to N stores.
+3. **Best single-store:** For each store that has all (or most) items available, calculate store total. Pick the cheapest single store. Note any missing items.
+4. **Intermediate splits:** Try all 2-store combinations, 3-store combinations, etc. For each combination, assign each item to the cheapest store in that subset. Calculate total across all stores used. Keep any combination that is cheaper than the best single-store option.
 5. **Rank** all options by total cost (ascending). Always include at least the cheapest overall and the best single-store. Include intermediate splits that represent meaningful savings breakpoints.
 
 If a store's delivery fee is "unknown", note it in the report and exclude it from the total (with a warning).
@@ -112,13 +119,14 @@ Build the markdown report and append it to the original grocery list file.
 
 ### Option {N}: {Label} (${total}) — {Store1} + {Store2}
 
-#### {Store1} — ${subtotal} (incl. ${delivery} delivery)
+#### {Store1} — ${store_total} (items ${item_subtotal} + ${delivery} delivery + ${tip} tip)
 | Item | Product | Price | Link | Notes |
 |------|---------|-------|------|-------|
 | {item} | {product_name} | ${price} | [link]({url}) | {notes} |
 | *Delivery* | | ${fee} | | |
+| *Tip ({tip_percent}%)* | | ${tip} | | |
 
-#### {Store2} — ${subtotal} (incl. ${delivery} delivery)
+#### {Store2} — ${store_total} (items ${item_subtotal} + ${delivery} delivery + ${tip} tip)
 | Item | Product | Price | Link | Notes |
 |------|---------|-------|------|-------|
 ...
