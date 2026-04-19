@@ -3,7 +3,7 @@ stores:
     url: https://www.amazon.com/alm/storefront?almBrandId=QW1hem9uIEZyZXNo&ref_=ewc_wf
     search_url: https://www.amazon.com/s?k={query}&i=wholefoods
     delivery_fee: 0
-    tip_percent: 20
+    tip_flat: 10
   - name: Vons
     url: https://www.instacart.com/store/vons
     search_url: https://www.instacart.com/store/vons/search/{query}
@@ -16,7 +16,7 @@ stores:
     url: https://www.amazon.com/fresh
     search_url: https://www.amazon.com/s?k={query}&i=amazonfresh
     delivery_fee: 0
-    tip_percent: 20
+    tip_flat: 10
   - name: Costco
     url: https://www.instacart.com/store/costco
     search_url: https://www.instacart.com/store/costco/search/{query}

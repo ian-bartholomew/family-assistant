@@ -94,7 +94,7 @@ Generate multiple fulfillment options ranked by total cost (item prices + delive
 
 - **Item subtotal** = sum of item prices at that store
 - **Delivery fee** = use `delivery_fee` from config if set (e.g., 0 for Prime stores), otherwise use the fee scraped by agents, otherwise "unknown"
-- **Tip** = item subtotal * (`tip_percent` from store config, or `default_tip_percent` from preferences) / 100
+- **Tip** = if store has `tip_flat`, use that fixed amount; otherwise item subtotal * (`tip_percent` from store config, or `default_tip_percent` from preferences) / 100
 - **Store total** = item subtotal + delivery fee + tip
 
 **Algorithm:**
