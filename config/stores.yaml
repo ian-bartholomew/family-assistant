@@ -3,8 +3,8 @@ stores:
     url: https://www.wholefoodsmarket.com
     search_url: https://www.wholefoodsmarket.com/search?text={query}
   - name: Vons
-    url: https://www.vons.com
-    search_url: https://www.vons.com/shop/search-results.html?q={query}
+    url: https://www.instacart.com/store/vons
+    search_url: https://www.instacart.com/store/vons/search/{query}
   - name: Sprouts
     url: https://www.sprouts.com
     search_url: https://www.sprouts.com/search/?search_term={query}
@@ -12,8 +12,8 @@ stores:
     url: https://www.amazon.com/fresh
     search_url: https://www.amazon.com/s?k={query}&i=amazonfresh
   - name: Costco
-    url: https://www.costco.com
-    search_url: https://www.costco.com/CatalogSearch?dept=All&keyword={query}
+    url: https://www.instacart.com/store/costco
+    search_url: https://www.instacart.com/store/costco/search/{query}
 
 preferences:
   prefer_organic: true

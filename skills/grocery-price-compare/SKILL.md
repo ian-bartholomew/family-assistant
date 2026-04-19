@@ -29,19 +29,19 @@ Read `${CLAUDE_PLUGIN_ROOT}/config/stores.yaml` and parse:
 
 ## Step 3: Dispatch Store Scraper Agents
 
-For each store in the config, launch a `store-scraper` agent using the Agent tool. **Dispatch all agents in parallel** (all Agent tool calls in a single message).
+For each store AND each item, launch a separate `store-scraper` agent using the Agent tool. **Dispatch ALL agents in parallel** (all Agent tool calls in a single message). This means if there are 5 stores and 5 items, you dispatch 25 agents simultaneously.
 
 Each agent prompt must include:
 
 - The store name and search URL template
-- The full list of unchecked grocery items
+- A **single** grocery item to search for
 - The preferences (organic, etc.)
 - Instructions to return results in the structured format defined in the agent
 
-Example prompt for one agent:
+Example prompts (all dispatched in one message):
 
 ```
-You are scraping prices from Whole Foods.
+You are scraping a price from Whole Foods.
 
 Store: Whole Foods
 Search URL template: https://www.wholefoodsmarket.com/search?text={query}
@@ -49,19 +49,30 @@ Search URL template: https://www.wholefoodsmarket.com/search?text={query}
 Preferences:
 - Prefer organic: yes
 
-Items to search for:
-1. butter
-2. Organic strawberries
-3. Fresh blueberries
-4. 2 dozen eggs
-5. English muffins
+Item to search for: butter
 
-Search for each item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Return results in the structured format from your instructions.
+Search for this item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Also note the delivery fee if visible. Return results in the structured format from your instructions.
 ```
+
+```
+You are scraping a price from Whole Foods.
+
+Store: Whole Foods
+Search URL template: https://www.wholefoodsmarket.com/search?text={query}
+
+Preferences:
+- Prefer organic: yes
+
+Item to search for: Organic strawberries
+
+Search for this item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Also note the delivery fee if visible. Return results in the structured format from your instructions.
+```
+
+...and so on for every store + item combination.
 
 ## Step 4: Parse Agent Results
 
-Collect the structured text output from each agent. Parse each block into structured data:
+Collect the structured text output from each agent. Each agent returns a single item result for a single store. Parse and group by store:
 
 For each store, build a list of items with:
 
@@ -73,7 +84,7 @@ For each store, build a list of items with:
 - `url`: link to the product
 - `notes`: any explanation
 
-Also capture each store's `delivery_fee` (numeric or "unknown").
+For each store's `delivery_fee`, use the first non-"unknown" value reported by any of that store's agents (since all agents for the same store see the same delivery fee). If all report "unknown", use "unknown".
 
 ## Step 5: Optimize Fulfillment Strategies
 
