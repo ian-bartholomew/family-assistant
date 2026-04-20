@@ -1,3 +1,0 @@
-[    1261ms] [ERROR] Unable to download payment manifest "https://cdn2.forter.com/manifest.json". @ https://shop.sprouts.com/store:0
-[    1261ms] [ERROR] Unable to download payment manifest "https://cdn2.forter.com/manifest.json". @ https://shop.sprouts.com/store:0
-[    1956ms] [WARNING] Rise Client bootstrapConfig failed, using fallback config {app: store, side: client, buildSystem: rspack, reason: Failed to fetch, owner: customers_critical} @ https://d2guulkeunn7d8.cloudfront.net/assets/rspack/sentry-bundle.min-e758b2a5efb6b457-v3.js:3

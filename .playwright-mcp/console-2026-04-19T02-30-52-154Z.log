@@ -1,2 +1,0 @@
-[      15ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://www.google.com/recaptcha/enterprise/bframe?hl=en&v=gTpTIWhbKpxADzTzkcabhXN4&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO&bft=0dAFcWeA7ffu1GaVOlLcx3Eag2pgMhdlF29g2UZsFrVP-SjS0n7bGhJ_lawUrjQE3GLwJIPzgKATYZH3b8Sl_BXecIVhkU-kaulw:0
-[     917ms] [ERROR] Failed to load resource: net::ERR_TRUST_TOKEN_OPERATION_FAILED @ https://www.amazon.com/tt/i:0

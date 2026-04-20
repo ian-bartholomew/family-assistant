@@ -1,5 +1,0 @@
-[     217ms] [LOG] nothing to redirect @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-onload.min.f9ea08c5ace33771345d4cabcd506a8c.js:187
-[     332ms] [WARNING] --------- Target deps ran ------ @ :7
-[     339ms] [WARNING] Wine Shop Enabled @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-onload.min.f9ea08c5ace33771345d4cabcd506a8c.js:31
-[     440ms] [WARNING] [TEMP DO NOT DELETE] THis is to check the value if data-success-email-checkbox-label is coming or component is triggering  Email me offers, surveys, and special promotions. @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-home.min.93e8ce06d8a6a62290bbb6f1c8f3b756.js:0
-[     442ms] [WARNING] [TEMP DO NOT DELETE] THis is to check the value if data-success-email-checkbox-label is coming or component is triggering  Email me offers, surveys, and special promotions. @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-home.min.93e8ce06d8a6a62290bbb6f1c8f3b756.js:0

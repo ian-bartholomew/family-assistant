@@ -1,3 +1,0 @@
-[     142ms] [ERROR] Unable to download payment manifest "https://cdn2.forter.com/manifest.json". @ chrome-error://chromewebdata/:0
-[     142ms] [ERROR] Unable to download payment manifest "https://cdn2.forter.com/manifest.json". @ chrome-error://chromewebdata/:0
-[    1187ms] [ERROR] Failed to load resource: net::ERR_TRUST_TOKEN_OPERATION_FAILED @ https://www.amazon.com/tt/i:0

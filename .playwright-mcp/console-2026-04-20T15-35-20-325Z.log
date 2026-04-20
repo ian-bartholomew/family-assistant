@@ -1,9 +1,0 @@
-[      12ms] [WARNING] No placement beacons found for video ad @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
-[      12ms] [WARNING] No response found for video ad @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
-[     107ms] [WARNING] AT: request failed Error: Network request failed
-    at e.onerror (https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:7:1015) @ https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:5
-[     107ms] [WARNING] [Target Error]:at-request-failed :  @ :86
-[     107ms] [WARNING] ========> AB TESTING ====> AdobeTarget-Complete event listener called @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
-[     108ms] [WARNING] AT: [page-init] View delivery error Error: Network request failed
-    at e.onerror (https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:7:1015) @ https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:5
-[     108ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://safewayinc.tt.omtrdc.net/rest/v1/delivery?client=safewayinc&sessionId=40be41a6128844fc8615ddb071ce4172&version=2.11.3:0

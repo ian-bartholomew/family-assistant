@@ -1,7 +1,0 @@
-[      31ms] [ERROR] Error initializing CloudWatch RUM web client: missing environment variables @ https://www.wholefoodsmarket.com/_next/static/chunks/pages/_app-d5a96733ff45e62a.js:93
-[      38ms] [LOG] %cThis page was rendered by Brazil font-size: large; color: green; @ https://www.wholefoodsmarket.com/_next/static/chunks/pages/_app-d5a96733ff45e62a.js:84
-[     242ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://www.wholefoodsmarket.com/api/stores/10145/summary:0
-[     408ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://www.wholefoodsmarket.com/api/wwos/weblab?weblabId=WFMCX_STOREFRONT_SIGNIN_PROMPT_1380836:0
-[     409ms] [ERROR] Failed to fetch weblab data FetcherError: FetcherError - non 2xx status returned
-    at fetcher (https://www.wholefoodsmarket.com/_next/static/chunks/pages/_app-d5a96733ff45e62a.js:94:91248) @ https://www.wholefoodsmarket.com/_next/static/chunks/pages/_app-d5a96733ff45e62a.js:84
-[    1093ms] [ERROR] Failed to load resource: net::ERR_TRUST_TOKEN_OPERATION_FAILED @ https://www.amazon.com/tt/i:0
