@@ -59,7 +59,7 @@ Items to search for:
 Search for each item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Return results in the structured format from your instructions.
 ```
 
-## Step 4: Parse Agent Results
+## Step 4: Parse Agent Results and Log Errors
 
 Collect the structured text output from each agent. Parse each block into structured data:
 
@@ -74,6 +74,30 @@ For each store, build a list of items with:
 - `notes`: any explanation
 
 Also capture each store's `delivery_fee` (numeric or "unknown").
+
+**Error handling:** If any agent fails, times out, returns unparseable output, or encounters an error (CAPTCHA, blocked, crash, etc.):
+
+1. **Do not fail the entire run.** Continue with results from agents that succeeded.
+2. **Log the error** to a file in the same directory as the grocery list, named `errors-YYYY-MM-DD.md`. Create or append to this file.
+3. **Error log format:**
+
+```markdown
+# Grocery Price Compare — Error Log — {YYYY-MM-DD HH:MM}
+
+## {Store Name}
+- **Error type:** {agent_failed | timeout | unparseable_output | blocked | other}
+- **Items affected:** {list of items that could not be scraped}
+- **Details:** {error message or description of what went wrong}
+- **Agent output (if any):**
+```
+
+{raw agent output}
+
+```
+```
+
+1. Treat errored items as `not_found` for that store in the optimization step, with a note referencing the error log.
+2. Mention the error log path in the terminal summary if any errors occurred.
 
 ## Step 5: Optimize Fulfillment Strategies
 
