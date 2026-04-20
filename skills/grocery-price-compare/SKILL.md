@@ -12,6 +12,8 @@ Compare prices for unchecked grocery list items across multiple stores, find the
 
 **Run logging:** Every run writes a detailed log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. Use the `obsidian-cli` skill to create notes in the vault (this ensures proper Obsidian integration). This log is designed to be reviewed later to improve the skill — it captures what worked, what didn't, and why.
 
+**Script violation tracking:** If at any point during the run — in any step or any agent — a script is generated or executed (Python, JavaScript, bash code beyond simple `rm -rf` cleanup), this is a violation. Track it and log it in the "Script Violations" section of the run log. If the user had to deny a script permission prompt, note that too. This is the highest priority improvement item.
+
 ## Step 1: Read the Grocery List
 
 Find the latest grocery list file:
@@ -251,6 +253,15 @@ Write the run log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. This log is i
 - **Options generated:** {count}
 - **Cheapest option:** {label} — ${total}
 - **Best single-store:** {store} — ${total}
+
+## Script Violations
+{If any agent or step generated or attempted to run a script (Python, JavaScript, bash code, etc.) instead of using Playwright MCP tools and reasoning, log each violation here. This is a HIGH PRIORITY issue — the skill and agents must not generate scripts.}
+
+- **Step/Agent:** {which step or store agent}
+- **Script type:** {Python | JavaScript | bash | other}
+- **What it tried to do:** {e.g., "wrote Python to parse accessibility snapshot JSON", "generated JS to extract prices from HTML"}
+- **Why it happened:** {e.g., "agent tried to parse snapshot data programmatically instead of using browser_take_screenshot"}
+- **Suggested fix:** {e.g., "strengthen no-scripts instruction in agent", "agent should use screenshot vision instead of snapshot parsing"}
 
 ## Issues & Improvement Notes
 {Note anything that could be improved for future runs:}
