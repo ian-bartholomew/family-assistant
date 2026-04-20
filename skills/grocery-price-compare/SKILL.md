@@ -101,6 +101,8 @@ Also capture each store's `delivery_fee` (numeric or "unknown").
 
 ## Step 5: Optimize Fulfillment Strategies
 
+**IMPORTANT: Do NOT write or run any scripts (Python, JavaScript, bash, etc.) for this step. Do all calculations using your own reasoning. The item counts are small enough to work through manually.**
+
 Generate multiple fulfillment options ranked by total cost (item prices + delivery fee + tip per store):
 
 **Cost calculation per store:**
@@ -110,13 +112,13 @@ Generate multiple fulfillment options ranked by total cost (item prices + delive
 - **Tip** = if store has `tip_flat`, use that fixed amount; otherwise item subtotal * (`tip_percent` from store config, or `default_tip_percent` from preferences) / 100
 - **Store total** = item subtotal + delivery fee + tip
 
-**Algorithm:**
+**Work through it step by step:**
 
-1. For each item, collect all stores where `status` is `found` or `substituted`, with their prices.
-2. **Cheapest overall:** For each item, pick the cheapest store. Sum store totals (items + delivery + tip) for each unique store used. This may use 1 to N stores.
-3. **Best single-store:** For each store that has all (or most) items available, calculate store total. Pick the cheapest single store. Note any missing items.
-4. **Intermediate splits:** Try all 2-store combinations, 3-store combinations, etc. For each combination, assign each item to the cheapest store in that subset. Calculate total across all stores used. Keep any combination that is cheaper than the best single-store option.
-5. **Rank** all options by total cost (ascending). Always include at least the cheapest overall and the best single-store. Include intermediate splits that represent meaningful savings breakpoints.
+1. First, build a simple price table in your response — for each item, list the price at each store (or "N/A" if not found/out of stock).
+2. **Best single-store:** For each store, add up all available item prices + that store's delivery fee + tip. Pick the cheapest. Note any missing items.
+3. **Cheapest overall:** For each item, identify which store has the lowest price. Group items by their cheapest store. Add up item prices + delivery fee + tip for each store used.
+4. **Check 2-store splits:** If the cheapest overall uses 3+ stores, check whether consolidating to just 2 stores saves on delivery/tip costs while still being cheaper than single-store. Only include if it's a meaningful savings breakpoint.
+5. **Rank** all options by total cost (ascending). Always include at least the cheapest overall and the best single-store.
 
 If a store's delivery fee is "unknown", note it in the report and exclude it from the total (with a warning).
 
