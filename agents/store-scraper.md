@@ -55,7 +55,7 @@ For each item in the list:
 4. **Analyze the screenshot** to find the best matching product:
    - Prefer organic versions if `prefer_organic` is true
    - Look for the closest match to the requested item
-   - Extract: product name, price, and product URL
+   - Extract: product name, price, size/quantity, and product URL
 5. **Classify the result**:
    - `found` + `exact_match: true` — the product closely matches what was requested
    - `found` + `exact_match: false` — a substitution was made (explain in notes)
@@ -89,12 +89,21 @@ STATUS: {found|substituted|out_of_stock|not_found}
 EXACT_MATCH: {true|false}
 PRODUCT_NAME: {actual product name from the store}
 PRICE: {price as number, e.g. 4.99}
+SIZE: {package size as shown on the product, e.g. "8 oz", "1 lb", "24 ct", "6 pack"}
+UNIT_PRICE: {price per standard unit, e.g. price per oz, per lb, per ct — calculate from PRICE and SIZE}
 URL: {direct URL to the product page, or the search results URL if no direct link}
 NOTES: {explanation of substitution, or why not found, or empty}
 
 ITEM: {next item}
 ...
 ```
+
+**Unit price calculation:** Always normalize to the smallest standard unit for comparison:
+
+- Weight items: price per oz (if listed in lb, divide price by 16)
+- Count items (eggs, muffins): price per count
+- Liquid items: price per fl oz
+- If the unit price is already shown on the page, use that. Otherwise calculate it from PRICE and SIZE.
 
 ## Important Rules
 

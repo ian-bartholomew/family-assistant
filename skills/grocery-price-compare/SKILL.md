@@ -75,6 +75,8 @@ For each store, build a list of items with:
 - `exact_match`: true / false
 - `product_name`: what the store calls it
 - `price`: numeric price
+- `size`: package size (e.g., "8 oz", "1 lb", "24 ct")
+- `unit_price`: price per standard unit (per oz, per ct, etc.)
 - `url`: link to the product
 - `notes`: any explanation
 
@@ -119,9 +121,9 @@ Generate multiple fulfillment options ranked by total cost (item prices + delive
 
 **Work through it step by step:**
 
-1. First, build a simple price table in your response — for each item, list the price at each store (or "N/A" if not found/out of stock).
+1. First, build a price comparison table in your response — for each item, list the price, size, and unit price at each store (or "N/A" if not found/out of stock).
 2. **Best single-store:** For each store, add up all available item prices + that store's delivery fee + tip. Pick the cheapest. Note any missing items.
-3. **Cheapest overall:** For each item, identify which store has the lowest price. Group items by their cheapest store. Add up item prices + delivery fee + tip for each store used.
+3. **Cheapest overall:** For each item, identify which store has the **lowest unit price** (not just lowest sticker price). A larger package at a lower per-unit cost is the better deal. Group items by their cheapest store. Add up item prices + delivery fee + tip for each store used.
 4. **Check 2-store splits:** If the cheapest overall uses 3+ stores, check whether consolidating to just 2 stores saves on delivery/tip costs while still being cheaper than single-store. Only include if it's a meaningful savings breakpoint.
 5. **Rank** all options by total cost (ascending). Always include at least the cheapest overall and the best single-store.
 
@@ -140,15 +142,15 @@ Build the markdown report and append it to the original grocery list file.
 ### Option {N}: {Label} (${total}) — {Store1} + {Store2}
 
 #### {Store1} — ${store_total} (items ${item_subtotal} + ${delivery} delivery + ${tip} tip)
-| Item | Product | Price | Link | Notes |
-|------|---------|-------|------|-------|
-| {item} | {product_name} | ${price} | [link]({url}) | {notes} |
-| *Delivery* | | ${fee} | | |
-| *Tip ({tip_percent}% or flat)* | | ${tip} | | |
+| Item | Product | Size | Price | Unit Price | Link | Notes |
+|------|---------|------|-------|------------|------|-------|
+| {item} | {product_name} | {size} | ${price} | ${unit_price}/oz | [link]({url}) | {notes — include "SUBSTITUTED" or "OUT OF STOCK" here if applicable} |
+| *Delivery* | | | ${fee} | | | |
+| *Tip ({tip_percent}% or flat)* | | | ${tip} | | | |
 
 #### {Store2} — ${store_total} (items ${item_subtotal} + ${delivery} delivery + ${tip} tip)
-| Item | Product | Price | Link | Notes |
-|------|---------|-------|------|-------|
+| Item | Product | Size | Price | Unit Price | Link | Notes |
+|------|---------|------|-------|------------|------|-------|
 ...
 
 ### Items Not Found
