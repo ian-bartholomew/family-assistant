@@ -149,6 +149,17 @@ Build the markdown report and append it to the original grocery list file.
 ---
 ## Price Comparison Report — {YYYY-MM-DD HH:MM}
 
+### Price Comparison Table
+
+This table shows every item across all stores for easy comparison. The **best unit price** for each item is marked with ✓.
+
+| Item | Vons | Sprouts | Costco | Whole Foods | Amazon Fresh |
+|------|------|---------|--------|-------------|--------------|
+| {item} | {product} {size} ${price} (${unit_price}/oz) | ... | ... | ... | ... |
+| | | | | | |
+
+For each cell: show product name, size, price, and unit price. Use "N/A" if not found, "OOS" if out of stock, or "SUB: {product}" if substituted. Mark the best unit price per row with ✓.
+
 ### Option {N}: {Label} (${total}) — {Store1} + {Store2}
 
 #### {Store1} — ${store_total} (items ${item_subtotal} + ${delivery} delivery + ${tip} tip)
