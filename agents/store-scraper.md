@@ -123,6 +123,7 @@ ITEM: {next item}
 
 ## Important Rules
 
+- **Do NOT write or run any scripts** (Python, JavaScript, bash, etc.). Use only Playwright MCP tools and your own reasoning to extract data from screenshots and snapshots. Never use Bash to run code.
 - Do NOT make up prices. Every price must come from what you see on the page.
 - If a store requires a zip code or location, note this in NOTES and try to proceed with whatever default is shown.
 - If the store blocks automated access or shows a CAPTCHA, report all items as `not_found` with a note explaining why.

@@ -65,6 +65,8 @@ Items to search for:
 
 Screenshots folder: ${CLAUDE_PLUGIN_ROOT}/screenshots/
 
+IMPORTANT: Do NOT write or run any scripts. Use only Playwright MCP tools and your own reasoning.
+
 Search for each item, take a screenshot of the results (save to the screenshots folder as {store-slug}-{item-slug}.png), extract the best matching product name, price, size, unit price, and URL. Prefer organic products. Return results in the structured format from your instructions.
 ```
 
