@@ -1,0 +1,4 @@
+[      48ms] [WARNING] ANGULAR - dynamically invoking targeted wrapper for targeted framework @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-home.min.93e8ce06d8a6a62290bbb6f1c8f3b756.js:0
+[     275ms] [WARNING] iHeart pixel started 57dedd45-ff41-4499-bcc9-bb8efbf626e5 @ :1
+[     275ms] [WARNING] iHeart  57dedd45-ff41-4499-bcc9-bb8efbf626e5 @ :1
+[     476ms] [WARNING] [Meta Pixel] - Removed parameters from custom data due to potential violations. Go to Events Manager to learn more. @ https://connect.facebook.net/en_US/fbevents.js:181

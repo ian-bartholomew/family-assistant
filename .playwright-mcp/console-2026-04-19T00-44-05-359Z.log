@@ -1,0 +1,7 @@
+[      31ms] [LOG] nothing to redirect @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-onload.min.f9ea08c5ace33771345d4cabcd506a8c.js:187
+[      32ms] TypeError: Cannot read properties of undefined (reading 'isReceiptsOnboardEventEnabled')
+    at Object.triggerOnboardingModal (https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-onload.min.f9ea08c5ace33771345d4cabcd506a8c.js:304:324)
+    at Object.init (https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-onload.min.f9ea08c5ace33771345d4cabcd506a8c.js:303:6)
+    at Object.performPageEnforcement (https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-onload.min.f9ea08c5ace33771345d4cabcd506a8c.js:309:140)
+    at https://www.vons.com/shop/search/fresh+blueberries.html:197:25
+[      55ms] [WARNING] --------- Target deps ran ------ @ :7

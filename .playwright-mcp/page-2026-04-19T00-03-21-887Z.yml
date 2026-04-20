@@ -1,0 +1,1184 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e9]:
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - generic:
+              - link "Skip to search" [ref=e17] [cursor=pointer]:
+                - /url: "#"
+              - link "Skip to main content" [ref=e18] [cursor=pointer]:
+                - /url: "#"
+              - link "Skip to cookie settings" [ref=e19] [cursor=pointer]:
+                - /url: "#"
+              - link "Skip to chat" [ref=e20] [cursor=pointer]:
+                - /url: "#"
+            - navigation "primary" [ref=e22]:
+              - list [ref=e23]:
+                - link "Grocery (opens in a new tab)" [ref=e24] [cursor=pointer]:
+                  - /url: https://www.vons.com
+                  - text: Grocery
+                - link "Health (opens in a new tab)" [ref=e25] [cursor=pointer]:
+                  - /url: /health.html
+                  - text: Health
+                - link "Pharmacy (opens in a new tab)" [ref=e26] [cursor=pointer]:
+                  - /url: /pharmacy.html?utm_source=groceryIngress
+                  - text: Pharmacy
+                - link "For Business (opens in a new tab)" [ref=e27] [cursor=pointer]:
+                  - /url: https://business.vons.com
+                  - text: For Business
+          - navigation "banner" [ref=e29]:
+            - generic [ref=e30]:
+              - link "vons Homepage" [ref=e31] [cursor=pointer]:
+                - /url: /
+                - img [ref=e32]
+              - region "Store Location" [ref=e33]:
+                - button "Instore at 3645 Midway Dr" [ref=e34] [cursor=pointer]:
+                  - generic "Instore at 3645 Midway Dr" [ref=e36]: 3645 Midway Dr
+                - link "Store hours & info" [ref=e40] [cursor=pointer]:
+                  - /url: https://local.vons.com/search.html
+                  - text: Hours & info
+              - search [ref=e44]:
+                - generic [ref=e46]:
+                  - combobox "Search combobox editable has autocomplete search everything at vons online in store" [ref=e47]
+                  - button "search" [ref=e48] [cursor=pointer]
+              - navigation "Account and Cart" [ref=e52]:
+                - list [ref=e53]:
+                  - listitem [ref=e54]:
+                    - button "Account menu" [ref=e55] [cursor=pointer]:
+                      - generic [ref=e56]: Sign in
+                  - listitem [ref=e58]:
+                    - button "Shopping Cart" [ref=e59] [cursor=pointer]
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - navigation "secondary" [ref=e65]:
+                - menubar "Categories" [ref=e66] [cursor=pointer]:
+                  - menuitem "Fresh" [ref=e67]
+                  - menuitem "Pantry" [ref=e68]
+                  - menuitem "Beverages" [ref=e69]
+                  - menuitem "Frozen" [ref=e70]
+                  - menuitem "Household" [ref=e71]
+                  - menuitem "Recipes" [ref=e72]
+                  - menuitem "Shop more" [ref=e73]
+              - navigation "campaign" [ref=e75] [cursor=pointer]:
+                - list [ref=e76]:
+                  - listitem [ref=e77]:
+                    - link "Seasonal favorites 🍇" [ref=e78]:
+                      - /url: /order/spring/events-holidays.html
+            - navigation "tertiary" [ref=e79]:
+              - list [ref=e80] [cursor=pointer]:
+                - listitem [ref=e81]:
+                  - link "Vons for U" [ref=e82]:
+                    - /url: /loyalty/coupons-deals
+                - listitem [ref=e83]:
+                  - link "Weekly Ad" [ref=e84]:
+                    - /url: /weeklyad
+                - listitem [ref=e85]:
+                  - link "click to view Meals AI" [ref=e86]:
+                    - /url: /assistant/
+                    - text: Vons AI
+        - heading "vons Home page" [level=1] [ref=e87]
+      - generic [ref=e91]:
+        - generic [ref=e93]:
+          - text: Unlimited Free Delivery with FreshPass®
+          - generic [ref=e94]:
+            - text: Plus score a $5 monthly credit with annual subscription – a $60 value! Restrictions apply.
+            - link "Start free trial" [ref=e95] [cursor=pointer]:
+              - /url: /freshpass/manage/subscribe
+        - button "Close Notification" [ref=e96] [cursor=pointer]:
+          - img [ref=e97]
+    - generic [ref=e102]:
+      - main [ref=e110]:
+        - generic [ref=e114]:
+          - generic [ref=e117]:
+            - generic [ref=e120]:
+              - link [ref=e123] [cursor=pointer]:
+                - /url: https://www.nourishingneighbors.com
+                - generic [ref=e129]:
+                  - heading [level=2] [ref=e131]: End hunger. Give today.
+                  - generic [ref=e132]: Nourishing Neighbors supports our communities.
+                  - link [ref=e133]:
+                    - /url: https://www.nourishingneighbors.com
+                    - text: Donate
+              - link "Spring made easy Fill your cart with simple solutions & more." [ref=e136] [cursor=pointer]:
+                - /url: /order/spring/events-holidays.html
+                - generic [ref=e139]:
+                  - img [ref=e142]
+                  - generic [ref=e143]:
+                    - heading [level=2] [ref=e145]: Spring made easy
+                    - generic [ref=e146]: Fill your cart with simple solutions & more.
+                    - link "Shop now" [ref=e147]:
+                      - /url: /order/spring/events-holidays.html
+              - iframe [ref=e155]:
+                - generic [ref=f5e5]:
+                  - link [ref=f5e6] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsv_FH9YigWsxlqybY_0vZwYYqrA4dD6xaW6YRdAIDxwMspYuq8cGaSGYXOhc_JdJTQ6y-fODCi7zD6sQEkhp1CIAwqm0r6otGdjcddMnDwxMJ2ey6BEZL1SPyGL31xngeBbYzmN1YLgHa2DsBtbshD_2bO2kAtkQnISXWRbSaMDoxtXDtIJPBPTqwH6mD7cydBdSnrXeSblAxiQCMH2pyyMr96GRoX09lREWuoeMSL9NiAE4oXB5e-mblfxxRbkBrdMnKhufSQhY9DUebCkK0DPLzoRQuMFfxg68SzjwP51m9DTbLEfV1iMesEFe888-zbzNK3avLNNPPvdPKR6WQx0r91oDfw6DxzB6MNsubgRFpLayW5Q4KrORHYlc2KV6JDDuMhWtjP3qG0&sai=AMfl-YQUxvuVtp9olsVVDgl6H51ZSIxipIU8bCb4M1ZG2f9PRJMLzENpTYBaTl2CY91M6RE0YwyjY0x4ZQKPxUOD7BSnWCvlw2dL-_kY-8jrU44odY0Q7YPowfDsIIMi7bI1_OC9mRgYbJ5tqnwPk0CNiDo6kNh2N72OIXzL0vC_yRJa9dcb5im8ka9WL4kCTK1hI2CvKm1NmlVKEuWob-4II6tGf9e-gi0sOJjPf8HzVTKdMeyaQEu6jag3siZ_I55sPKjV5Mz8GndDE5ZGDyOytMEXjJYOIBv2At0SHpH9y_lhYay08BFSIv3m_-Of4s-x3DamhCpm&sig=Cg0ArKJSzLUAOE-vYY5xEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.vons.com/shop/search-results.html?q=signature%20select%20bacon&sort=&brand=Signature%20SELECT~Signature%20Select&availability=false
+                  - generic [ref=f5e7]:
+                    - paragraph [ref=f5e9]:
+                      - text: Signature SELECT
+                      - superscript [ref=f5e10]: ®
+                    - paragraph [ref=f5e12]: Irresistibly crispy bacon at a value you'll love.
+                    - link "Signature SELECT<sup>®</sup> Shop now Sponsored" [ref=f5e13] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsv_FH9YigWsxlqybY_0vZwYYqrA4dD6xaW6YRdAIDxwMspYuq8cGaSGYXOhc_JdJTQ6y-fODCi7zD6sQEkhp1CIAwqm0r6otGdjcddMnDwxMJ2ey6BEZL1SPyGL31xngeBbYzmN1YLgHa2DsBtbshD_2bO2kAtkQnISXWRbSaMDoxtXDtIJPBPTqwH6mD7cydBdSnrXeSblAxiQCMH2pyyMr96GRoX09lREWuoeMSL9NiAE4oXB5e-mblfxxRbkBrdMnKhufSQhY9DUebCkK0DPLzoRQuMFfxg68SzjwP51m9DTbLEfV1iMesEFe888-zbzNK3avLNNPPvdPKR6WQx0r91oDfw6DxzB6MNsubgRFpLayW5Q4KrORHYlc2KV6JDDuMhWtjP3qG0&sai=AMfl-YQUxvuVtp9olsVVDgl6H51ZSIxipIU8bCb4M1ZG2f9PRJMLzENpTYBaTl2CY91M6RE0YwyjY0x4ZQKPxUOD7BSnWCvlw2dL-_kY-8jrU44odY0Q7YPowfDsIIMi7bI1_OC9mRgYbJ5tqnwPk0CNiDo6kNh2N72OIXzL0vC_yRJa9dcb5im8ka9WL4kCTK1hI2CvKm1NmlVKEuWob-4II6tGf9e-gi0sOJjPf8HzVTKdMeyaQEu6jag3siZ_I55sPKjV5Mz8GndDE5ZGDyOytMEXjJYOIBv2At0SHpH9y_lhYay08BFSIv3m_-Of4s-x3DamhCpm&sig=Cg0ArKJSzLUAOE-vYY5xEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.vons.com/shop/search-results.html?q=signature%20select%20bacon&sort=&brand=Signature%20SELECT~Signature%20Select&availability=false
+                      - generic [ref=f5e14]: Shop now
+                  - link [ref=f5e15] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsv_FH9YigWsxlqybY_0vZwYYqrA4dD6xaW6YRdAIDxwMspYuq8cGaSGYXOhc_JdJTQ6y-fODCi7zD6sQEkhp1CIAwqm0r6otGdjcddMnDwxMJ2ey6BEZL1SPyGL31xngeBbYzmN1YLgHa2DsBtbshD_2bO2kAtkQnISXWRbSaMDoxtXDtIJPBPTqwH6mD7cydBdSnrXeSblAxiQCMH2pyyMr96GRoX09lREWuoeMSL9NiAE4oXB5e-mblfxxRbkBrdMnKhufSQhY9DUebCkK0DPLzoRQuMFfxg68SzjwP51m9DTbLEfV1iMesEFe888-zbzNK3avLNNPPvdPKR6WQx0r91oDfw6DxzB6MNsubgRFpLayW5Q4KrORHYlc2KV6JDDuMhWtjP3qG0&sai=AMfl-YQUxvuVtp9olsVVDgl6H51ZSIxipIU8bCb4M1ZG2f9PRJMLzENpTYBaTl2CY91M6RE0YwyjY0x4ZQKPxUOD7BSnWCvlw2dL-_kY-8jrU44odY0Q7YPowfDsIIMi7bI1_OC9mRgYbJ5tqnwPk0CNiDo6kNh2N72OIXzL0vC_yRJa9dcb5im8ka9WL4kCTK1hI2CvKm1NmlVKEuWob-4II6tGf9e-gi0sOJjPf8HzVTKdMeyaQEu6jag3siZ_I55sPKjV5Mz8GndDE5ZGDyOytMEXjJYOIBv2At0SHpH9y_lhYay08BFSIv3m_-Of4s-x3DamhCpm&sig=Cg0ArKJSzLUAOE-vYY5xEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.vons.com/shop/search-results.html?q=signature%20select%20bacon&sort=&brand=Signature%20SELECT~Signature%20Select&availability=false
+                    - img [ref=f5e16]
+                  - generic [ref=f5e17]: Sponsored
+              - iframe [ref=e163]:
+                - generic [ref=f6e5]:
+                  - link [ref=f6e6] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvarMrNQjNX0Vi_5fcV1jn0H3EfM2IBxH9VcumoSTLUiH-B_NBeTQdHz8HKNdkGtA9HXSBqepEmSKr3L-UC2YSoYrub4y0blWGWtx7i_BF9g9RJSuznbBIkeDeLWWn_IykUuBhSsWQySXokVa443SqWXxfuz41WAjqDmiwzgDJbcd_IlvlSPU5bz69LQZMLoOPXP5-zJYzLq8dnhJ5S36RR4X3i-nyrOnpJd2beXsmZSAnRSlb5aQ0LZJvx38cLM0m1pEPsUTukWr3SFkY9at7iI6YafkPPL2Euwawbgl4Ii-MAtuiXvOoGUsrnZdoX_AK3q0apuI51Ua0ekttHBuEnk8sSDU2LCQKJjdn-YNFy9gqgdM3cwktDE4iCQ3AO1K5D4t7LwrgrnrA&sai=AMfl-YQqFH5jPfojsrPG_6EETawZTnwhOJIK9laP4OA3PfVA91t3wP4kQwonmYtw2T2Tc_-BsVAupF6MwCQQgaMKYANOyzvQKQOTNkl8xQyK597NMm-Jpiy9T3md7Veny5wKAo9ncmx7o9uzUrNrmoAEy--ISRvW6nOCwx9nWJVPu7XF5O6NywJZPj-SI1RSPhoq5Ny-J836T3JvmN3QLeKEcY9i-lbtNddheKtvEMzWS_2umhYFlHTZDlIgEZmZnxNuuuqmUB7PryN-Ois2MTkXMYvbxDZTBQNPtEg5lFyzzeKYCBD8kBIdkGUEer1u_s6b9wDJK2xV&sig=Cg0ArKJSzBR2Fp6sEn-0EAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.vons.com/shop/search-results.html?q=signature%20select%20bottled%20water&departmentName=Beverages&brand=Signature%20SELECT
+                  - generic [ref=f6e7]:
+                    - paragraph [ref=f6e9]: Refresh the family
+                    - paragraph [ref=f6e11]: Easy to grab and go for school lunches, outings or at home.
+                    - link "Refresh the family Shop now Sponsored" [ref=f6e12] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvarMrNQjNX0Vi_5fcV1jn0H3EfM2IBxH9VcumoSTLUiH-B_NBeTQdHz8HKNdkGtA9HXSBqepEmSKr3L-UC2YSoYrub4y0blWGWtx7i_BF9g9RJSuznbBIkeDeLWWn_IykUuBhSsWQySXokVa443SqWXxfuz41WAjqDmiwzgDJbcd_IlvlSPU5bz69LQZMLoOPXP5-zJYzLq8dnhJ5S36RR4X3i-nyrOnpJd2beXsmZSAnRSlb5aQ0LZJvx38cLM0m1pEPsUTukWr3SFkY9at7iI6YafkPPL2Euwawbgl4Ii-MAtuiXvOoGUsrnZdoX_AK3q0apuI51Ua0ekttHBuEnk8sSDU2LCQKJjdn-YNFy9gqgdM3cwktDE4iCQ3AO1K5D4t7LwrgrnrA&sai=AMfl-YQqFH5jPfojsrPG_6EETawZTnwhOJIK9laP4OA3PfVA91t3wP4kQwonmYtw2T2Tc_-BsVAupF6MwCQQgaMKYANOyzvQKQOTNkl8xQyK597NMm-Jpiy9T3md7Veny5wKAo9ncmx7o9uzUrNrmoAEy--ISRvW6nOCwx9nWJVPu7XF5O6NywJZPj-SI1RSPhoq5Ny-J836T3JvmN3QLeKEcY9i-lbtNddheKtvEMzWS_2umhYFlHTZDlIgEZmZnxNuuuqmUB7PryN-Ois2MTkXMYvbxDZTBQNPtEg5lFyzzeKYCBD8kBIdkGUEer1u_s6b9wDJK2xV&sig=Cg0ArKJSzBR2Fp6sEn-0EAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.vons.com/shop/search-results.html?q=signature%20select%20bottled%20water&departmentName=Beverages&brand=Signature%20SELECT
+                      - generic [ref=f6e13]: Shop now
+                  - link [ref=f6e14] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvarMrNQjNX0Vi_5fcV1jn0H3EfM2IBxH9VcumoSTLUiH-B_NBeTQdHz8HKNdkGtA9HXSBqepEmSKr3L-UC2YSoYrub4y0blWGWtx7i_BF9g9RJSuznbBIkeDeLWWn_IykUuBhSsWQySXokVa443SqWXxfuz41WAjqDmiwzgDJbcd_IlvlSPU5bz69LQZMLoOPXP5-zJYzLq8dnhJ5S36RR4X3i-nyrOnpJd2beXsmZSAnRSlb5aQ0LZJvx38cLM0m1pEPsUTukWr3SFkY9at7iI6YafkPPL2Euwawbgl4Ii-MAtuiXvOoGUsrnZdoX_AK3q0apuI51Ua0ekttHBuEnk8sSDU2LCQKJjdn-YNFy9gqgdM3cwktDE4iCQ3AO1K5D4t7LwrgrnrA&sai=AMfl-YQqFH5jPfojsrPG_6EETawZTnwhOJIK9laP4OA3PfVA91t3wP4kQwonmYtw2T2Tc_-BsVAupF6MwCQQgaMKYANOyzvQKQOTNkl8xQyK597NMm-Jpiy9T3md7Veny5wKAo9ncmx7o9uzUrNrmoAEy--ISRvW6nOCwx9nWJVPu7XF5O6NywJZPj-SI1RSPhoq5Ny-J836T3JvmN3QLeKEcY9i-lbtNddheKtvEMzWS_2umhYFlHTZDlIgEZmZnxNuuuqmUB7PryN-Ois2MTkXMYvbxDZTBQNPtEg5lFyzzeKYCBD8kBIdkGUEer1u_s6b9wDJK2xV&sig=Cg0ArKJSzBR2Fp6sEn-0EAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.vons.com/shop/search-results.html?q=signature%20select%20bottled%20water&departmentName=Beverages&brand=Signature%20SELECT
+                    - img [ref=f6e15]
+                  - generic [ref=f6e16]: Sponsored
+              - link [ref=e166] [cursor=pointer]:
+                - /url: https://www.vons.com/assistant
+                - generic [ref=e172]:
+                  - heading [level=2] [ref=e174]: ✨NEW! Your AI Assistant
+                  - generic [ref=e175]: Make meals from what’s in your fridge and more.
+                  - link [ref=e176]:
+                    - /url: https://www.vons.com/assistant
+                    - text: Chat now
+              - iframe [ref=e184]:
+                - generic [ref=f7e5]:
+                  - link [ref=f7e6] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstHwIQvoKjwOB2t3CqlNWI1BhVf0U1WZz9niPxkmktwKPV50lWPOh-DyiWjpltP6tTs9zG61uqaWSwWcfambddp3X4gWLSCxxvEt2go-CzNBmB4mAOe-xOqv9E6JKzYoQYRlI5Kf1hFtmkOunas3q3v20XtUEkYcw42LfBVMggekYAcEN_rfZ-pg0CbWLkWRxX7BnYs7iPmPMNgUuk9hpZKaDBQouS502GAjukdKlAu72G1hkn9mcNRiVYfqXuvU4l-1qbdfPiyVZgPYPAtf69zYavAM9qyfinPVFTxArc34klrRB3YEmlD2uIt1IH6EPWH8xqC23zEMfUNXFEgkrMVW9xDGA58BO8aNy8GmtbG-lY9afveuazFFZ3TRv4OmocR-dSsDwEabww&sai=AMfl-YRrhx-AHAGDIuJsfCw5NYN9r5nvzqGdeVfVIlVgtLHKOy2ZR8S7SWwhj7K5ksya8y65LCOX1s82Di66e8qfum_I0pu-vXAhF3GDNG_KAME-kssJGxD2hyJ1_TuK60i4vDBei5K3cEzfC80HNVZCQqnl4XLZOj2SH99R__cSJRt1gD_tFnDqjmuAPqo5L1XzJ_hoLACSirG1kznyhTppavvlNYMTRVCkhaYM-Je1rvLqfOqjlQnL8DGunXd6h7SLJeT9yrNDeBeb9OW0q1IHc5mKhRqep-pGi6eFWHdnYQ6PoPj-QfyU3j6FKq2nqdI98KE-t9oW&sig=Cg0ArKJSzO44F8riZr83EAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.vons.com/shop/search-results.html?q=deli%20meats&brand=Signature%20SELECT~Primo%20Taglio
+                  - generic [ref=f7e7]:
+                    - paragraph [ref=f7e9]: Flavor you'll love
+                    - paragraph [ref=f7e11]:
+                      - text: Serve premium-quality meats and cheeses from Primo Taglio
+                      - superscript [ref=f7e12]: ®
+                      - text: .
+                    - link "Flavor you'll love Shop now Sponsored" [ref=f7e13] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstHwIQvoKjwOB2t3CqlNWI1BhVf0U1WZz9niPxkmktwKPV50lWPOh-DyiWjpltP6tTs9zG61uqaWSwWcfambddp3X4gWLSCxxvEt2go-CzNBmB4mAOe-xOqv9E6JKzYoQYRlI5Kf1hFtmkOunas3q3v20XtUEkYcw42LfBVMggekYAcEN_rfZ-pg0CbWLkWRxX7BnYs7iPmPMNgUuk9hpZKaDBQouS502GAjukdKlAu72G1hkn9mcNRiVYfqXuvU4l-1qbdfPiyVZgPYPAtf69zYavAM9qyfinPVFTxArc34klrRB3YEmlD2uIt1IH6EPWH8xqC23zEMfUNXFEgkrMVW9xDGA58BO8aNy8GmtbG-lY9afveuazFFZ3TRv4OmocR-dSsDwEabww&sai=AMfl-YRrhx-AHAGDIuJsfCw5NYN9r5nvzqGdeVfVIlVgtLHKOy2ZR8S7SWwhj7K5ksya8y65LCOX1s82Di66e8qfum_I0pu-vXAhF3GDNG_KAME-kssJGxD2hyJ1_TuK60i4vDBei5K3cEzfC80HNVZCQqnl4XLZOj2SH99R__cSJRt1gD_tFnDqjmuAPqo5L1XzJ_hoLACSirG1kznyhTppavvlNYMTRVCkhaYM-Je1rvLqfOqjlQnL8DGunXd6h7SLJeT9yrNDeBeb9OW0q1IHc5mKhRqep-pGi6eFWHdnYQ6PoPj-QfyU3j6FKq2nqdI98KE-t9oW&sig=Cg0ArKJSzO44F8riZr83EAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.vons.com/shop/search-results.html?q=deli%20meats&brand=Signature%20SELECT~Primo%20Taglio
+                      - generic [ref=f7e14]: Shop now
+                  - link [ref=f7e15] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstHwIQvoKjwOB2t3CqlNWI1BhVf0U1WZz9niPxkmktwKPV50lWPOh-DyiWjpltP6tTs9zG61uqaWSwWcfambddp3X4gWLSCxxvEt2go-CzNBmB4mAOe-xOqv9E6JKzYoQYRlI5Kf1hFtmkOunas3q3v20XtUEkYcw42LfBVMggekYAcEN_rfZ-pg0CbWLkWRxX7BnYs7iPmPMNgUuk9hpZKaDBQouS502GAjukdKlAu72G1hkn9mcNRiVYfqXuvU4l-1qbdfPiyVZgPYPAtf69zYavAM9qyfinPVFTxArc34klrRB3YEmlD2uIt1IH6EPWH8xqC23zEMfUNXFEgkrMVW9xDGA58BO8aNy8GmtbG-lY9afveuazFFZ3TRv4OmocR-dSsDwEabww&sai=AMfl-YRrhx-AHAGDIuJsfCw5NYN9r5nvzqGdeVfVIlVgtLHKOy2ZR8S7SWwhj7K5ksya8y65LCOX1s82Di66e8qfum_I0pu-vXAhF3GDNG_KAME-kssJGxD2hyJ1_TuK60i4vDBei5K3cEzfC80HNVZCQqnl4XLZOj2SH99R__cSJRt1gD_tFnDqjmuAPqo5L1XzJ_hoLACSirG1kznyhTppavvlNYMTRVCkhaYM-Je1rvLqfOqjlQnL8DGunXd6h7SLJeT9yrNDeBeb9OW0q1IHc5mKhRqep-pGi6eFWHdnYQ6PoPj-QfyU3j6FKq2nqdI98KE-t9oW&sig=Cg0ArKJSzO44F8riZr83EAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.vons.com/shop/search-results.html?q=deli%20meats&brand=Signature%20SELECT~Primo%20Taglio
+                    - img [ref=f7e16]
+                  - generic [ref=f7e17]: Sponsored
+              - link [ref=e187] [cursor=pointer]:
+                - /url: https://www.nourishingneighbors.com
+                - generic [ref=e193]:
+                  - heading [level=2] [ref=e195]: End hunger. Give today.
+                  - generic [ref=e196]: Nourishing Neighbors supports our communities.
+                  - link [ref=e197]:
+                    - /url: https://www.nourishingneighbors.com
+                    - text: Donate
+              - link [ref=e200] [cursor=pointer]:
+                - /url: /order/spring/events-holidays.html
+                - generic [ref=e203]:
+                  - img [ref=e206]
+                  - generic [ref=e207]:
+                    - heading [level=2] [ref=e209]: Spring made easy
+                    - generic [ref=e210]: Fill your cart with simple solutions & more.
+                    - link [ref=e211]:
+                      - /url: /order/spring/events-holidays.html
+                      - text: Shop now
+              - generic [ref=e214]: Sponsored 3rd party ad content
+              - generic [ref=e217]: Sponsored 3rd party ad content
+              - link [ref=e220] [cursor=pointer]:
+                - /url: https://www.vons.com/assistant
+                - generic [ref=e226]:
+                  - heading [level=2] [ref=e228]: ✨NEW! Your AI Assistant
+                  - generic [ref=e229]: Make meals from what’s in your fridge and more.
+                  - link [ref=e230]:
+                    - /url: https://www.vons.com/assistant
+                    - text: Chat now
+              - generic [ref=e233]: Sponsored 3rd party ad content
+              - link [ref=e236] [cursor=pointer]:
+                - /url: https://www.nourishingneighbors.com
+                - generic [ref=e242]:
+                  - heading [level=2] [ref=e244]: End hunger. Give today.
+                  - generic [ref=e245]: Nourishing Neighbors supports our communities.
+                  - link [ref=e246]:
+                    - /url: https://www.nourishingneighbors.com
+                    - text: Donate
+            - generic [ref=e248]:
+              - button "Pause Carousel slide" [ref=e249] [cursor=pointer]
+              - generic [ref=e251]:
+                - generic [ref=e252]: Current Slide 1 of 6
+                - generic [ref=e253]: 1/6
+              - button "Next slide" [ref=e254] [cursor=pointer]
+          - generic [ref=e258]:
+            - link "Blackberry crisp - Shop now" [ref=e260] [cursor=pointer]:
+              - /url: /bundles/baked-blackberry-crisp
+              - generic [ref=e261]:
+                - img [ref=e264]
+                - generic [ref=e265]:
+                  - heading "Blackberry crisp" [level=3] [ref=e266]
+                  - link "Blackberry crisp - Shop now" [ref=e267]: Shop now
+            - generic [ref=e268]:
+              - link "Feel the joy - Shop now":
+                - /url: /shop/search-results.html?q=overjoyed&tab=products
+              - iframe [ref=e274]:
+                - generic [ref=f3e4]:
+                  - link [ref=f3e5] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssiQAqn1kcgaBejBQb4ZYqq4Qah54E45Rba1s93Y6WS4nnoQzvkgi7pWx8AwVAF6XRcmK4ZslaCoCvGcJfyaj5iOO4TvoNACv7ZJ9LyVjTlJAY-gsId9aFZlh3WKVcuulTADkO8z3N9yOS_ox-h5yzSNX6f3NDCsiYRhqvBQKAwJhL02IgvpRK57I-iCqJiiP5p_p76Q7ifU3OMJKx1nh1ZtRjrcI1qCToVU4ZGNqpsmAjaqKTbUVZBpMUQn3ir2wcSR5NmYFkaZB69oa8WBculsJxMpkn68r_1jDoWK_g7jBgIGrhM_wZFFY7vqXRHpOF3ozLLE_F3IdX-FoPH4imgkKEW5hFVcDoPDqPVhLV1kCIWVsIhAXcxOv0F-SRaSoqFZejNcSloPttdvfFKRzftxw&sai=AMfl-YT6ulDiuy19Q6GKtE3h2zPc7_vsYNyw4jcfPdsJKxi1e58BZIzRdkdprYjocH8S1Cn_xb7i1Y8kQemkixNOsBkfJ1_8EDefQacxZ32ZJe71ek_OkaD3Jj4dmrXcUqraiY9PsVLxbHxE2kIWwrAmrbYj6qZhrD9ldnFTmOy0163T0A-q06o0x6yVwlDP4hRCEAOMGfP0XsPMxZT_cjxzNDWPh8hBu_1MBdy8zCDpsmmPoD1NuUgY-uTklIfIF0KXSnrYNQisBRj5pqoY2PnWgY1XjScEfs628BORHk2y0O8L1lBu9bCpxiiK1SV07Z4RkIO945gn&sig=Cg0ArKJSzJBtk6eBr-EKEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.vons.com/sponsored/lp/sponsored~sargento~balancedbreaks~elp~balancedbreaks
+                  - generic [ref=f3e6]:
+                    - paragraph [ref=f3e8]:
+                      - text: Balanced Breaks
+                      - superscript [ref=f3e9]: ®
+                    - link "Balanced Breaks<sup>®</sup> Shop now Sponsored" [ref=f3e10] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssiQAqn1kcgaBejBQb4ZYqq4Qah54E45Rba1s93Y6WS4nnoQzvkgi7pWx8AwVAF6XRcmK4ZslaCoCvGcJfyaj5iOO4TvoNACv7ZJ9LyVjTlJAY-gsId9aFZlh3WKVcuulTADkO8z3N9yOS_ox-h5yzSNX6f3NDCsiYRhqvBQKAwJhL02IgvpRK57I-iCqJiiP5p_p76Q7ifU3OMJKx1nh1ZtRjrcI1qCToVU4ZGNqpsmAjaqKTbUVZBpMUQn3ir2wcSR5NmYFkaZB69oa8WBculsJxMpkn68r_1jDoWK_g7jBgIGrhM_wZFFY7vqXRHpOF3ozLLE_F3IdX-FoPH4imgkKEW5hFVcDoPDqPVhLV1kCIWVsIhAXcxOv0F-SRaSoqFZejNcSloPttdvfFKRzftxw&sai=AMfl-YT6ulDiuy19Q6GKtE3h2zPc7_vsYNyw4jcfPdsJKxi1e58BZIzRdkdprYjocH8S1Cn_xb7i1Y8kQemkixNOsBkfJ1_8EDefQacxZ32ZJe71ek_OkaD3Jj4dmrXcUqraiY9PsVLxbHxE2kIWwrAmrbYj6qZhrD9ldnFTmOy0163T0A-q06o0x6yVwlDP4hRCEAOMGfP0XsPMxZT_cjxzNDWPh8hBu_1MBdy8zCDpsmmPoD1NuUgY-uTklIfIF0KXSnrYNQisBRj5pqoY2PnWgY1XjScEfs628BORHk2y0O8L1lBu9bCpxiiK1SV07Z4RkIO945gn&sig=Cg0ArKJSzJBtk6eBr-EKEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.vons.com/sponsored/lp/sponsored~sargento~balancedbreaks~elp~balancedbreaks
+                      - generic [ref=f3e11]: Shop now
+                  - link [ref=f3e12] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssiQAqn1kcgaBejBQb4ZYqq4Qah54E45Rba1s93Y6WS4nnoQzvkgi7pWx8AwVAF6XRcmK4ZslaCoCvGcJfyaj5iOO4TvoNACv7ZJ9LyVjTlJAY-gsId9aFZlh3WKVcuulTADkO8z3N9yOS_ox-h5yzSNX6f3NDCsiYRhqvBQKAwJhL02IgvpRK57I-iCqJiiP5p_p76Q7ifU3OMJKx1nh1ZtRjrcI1qCToVU4ZGNqpsmAjaqKTbUVZBpMUQn3ir2wcSR5NmYFkaZB69oa8WBculsJxMpkn68r_1jDoWK_g7jBgIGrhM_wZFFY7vqXRHpOF3ozLLE_F3IdX-FoPH4imgkKEW5hFVcDoPDqPVhLV1kCIWVsIhAXcxOv0F-SRaSoqFZejNcSloPttdvfFKRzftxw&sai=AMfl-YT6ulDiuy19Q6GKtE3h2zPc7_vsYNyw4jcfPdsJKxi1e58BZIzRdkdprYjocH8S1Cn_xb7i1Y8kQemkixNOsBkfJ1_8EDefQacxZ32ZJe71ek_OkaD3Jj4dmrXcUqraiY9PsVLxbHxE2kIWwrAmrbYj6qZhrD9ldnFTmOy0163T0A-q06o0x6yVwlDP4hRCEAOMGfP0XsPMxZT_cjxzNDWPh8hBu_1MBdy8zCDpsmmPoD1NuUgY-uTklIfIF0KXSnrYNQisBRj5pqoY2PnWgY1XjScEfs628BORHk2y0O8L1lBu9bCpxiiK1SV07Z4RkIO945gn&sig=Cg0ArKJSzJBtk6eBr-EKEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.vons.com/sponsored/lp/sponsored~sargento~balancedbreaks~elp~balancedbreaks
+                    - img [ref=f3e13]
+                  - generic [ref=f3e14]: Sponsored
+      - generic [ref=e276]:
+        - generic [ref=e285]:
+          - generic [ref=e286]:
+            - generic [ref=e288]:
+              - heading "Lean proteins" [level=2] [ref=e289]
+              - link "View all - Lean proteins" [ref=e290] [cursor=pointer]:
+                - /url: /home/lean-proteins.html
+                - text: View all
+            - generic [ref=e291]:
+              - button "Previous set" [disabled] [ref=e292]
+              - generic [ref=e295]:
+                - region [ref=e298]:
+                  - generic [ref=e299]:
+                    - link "Signature Select Chicken Thigh Bone In Value Pack - 4.5 Lb ,price approximatly $12.11 , 1 of 14" [ref=e300] [cursor=pointer]:
+                      - /url: /shop/product-details.188320007.html
+                    - generic [ref=e301]:
+                      - img "Signature Select Chicken Thigh Bone In Value Pack - 4.5 Lb" [ref=e305]
+                      - button "Sign in to add 1 unit of Signature Select Chicken Thigh Bone In Value Pack - 4.5 Lb" [ref=e308] [cursor=pointer]:
+                        - generic [ref=e309]: Sign in to add
+                    - generic [ref=e311]:
+                      - generic [ref=e312]:
+                        - generic [ref=e314]: approx.
+                        - generic [ref=e316]:
+                          - generic [ref=e317]: Your Price $12.11
+                          - text: $12.11
+                      - link "Signature Select Chicken Thigh Bone In Value Pack - 4.5 Lb" [ref=e319] [cursor=pointer]:
+                        - /url: /shop/product-details.188320007.html
+                - region [ref=e322]:
+                  - generic [ref=e323]:
+                    - link "80% Lean 20% Fat Ground Beef Value Pack - 3 Lb ,price approximatly $17.97 , 2 of 14" [ref=e324] [cursor=pointer]:
+                      - /url: /shop/product-details.188100109.html
+                    - generic [ref=e325]:
+                      - img "80% Lean 20% Fat Ground Beef Value Pack - 3 Lb" [ref=e329]
+                      - button "Sign in to add 1 unit of 80% Lean 20% Fat Ground Beef Value Pack - 3 Lb" [ref=e332] [cursor=pointer]:
+                        - generic [ref=e333]: Sign in to add
+                    - generic [ref=e335]:
+                      - generic [ref=e336]:
+                        - generic [ref=e338]: approx.
+                        - generic [ref=e339]:
+                          - generic [ref=e340]:
+                            - generic [ref=e341]: Your Price $17.97
+                            - text: $17.97
+                          - deletion [ref=e342]:
+                            - generic [ref=e343]: Original Price $20.97
+                            - text: $20.97
+                      - link "80% Lean 20% Fat Ground Beef Value Pack - 3 Lb" [ref=e345] [cursor=pointer]:
+                        - /url: /shop/product-details.188100109.html
+                - region [ref=e348]:
+                  - generic [ref=e349]:
+                    - link "Jennie-O 93% Lean 7% Fat Ground Turkey - 16 oz ,price approximatly $7.99 , 3 of 14" [ref=e350] [cursor=pointer]:
+                      - /url: /shop/product-details.960138390.html
+                    - generic [ref=e351]:
+                      - img "Jennie-O 93% Lean 7% Fat Ground Turkey - 16 oz" [ref=e355]
+                      - button "Sign in to add 1 unit of Jennie-O 93% Lean 7% Fat Ground Turkey - 16 oz" [ref=e358] [cursor=pointer]:
+                        - generic [ref=e359]: Sign in to add
+                    - generic [ref=e361]:
+                      - generic [ref=e365]:
+                        - generic [ref=e366]: Your Price $7.99
+                        - text: $7.99
+                      - link "Jennie-O 93% Lean 7% Fat Ground Turkey - 16 oz" [ref=e368] [cursor=pointer]:
+                        - /url: /shop/product-details.960138390.html
+                - region [ref=e371]:
+                  - generic [ref=e372]:
+                    - link "Signature Select/Farms Frozen Boneless Skinless Chicken Breasts - 40 Oz ,price approximatly $9.99 , 4 of 14" [ref=e373] [cursor=pointer]:
+                      - /url: /shop/product-details.960152369.html
+                    - generic [ref=e374]:
+                      - img "Signature Select/Farms Frozen Boneless Skinless Chicken Breasts - 40 Oz" [ref=e378]
+                      - button "Sign in to add 1 unit of Signature Select/Farms Frozen Boneless Skinless Chicken Breasts - 40 Oz" [ref=e381] [cursor=pointer]:
+                        - generic [ref=e382]: Sign in to add
+                    - generic [ref=e384]:
+                      - generic [ref=e387]:
+                        - generic [ref=e388]:
+                          - generic [ref=e389]: Your Price $9.99
+                          - text: $9.99
+                        - deletion [ref=e390]:
+                          - generic [ref=e391]: Original Price $10.99
+                          - text: $10.99
+                      - link "Signature Select/Farms Frozen Boneless Skinless Chicken Breasts - 40 Oz" [ref=e393] [cursor=pointer]:
+                        - /url: /shop/product-details.960152369.html
+                        - text: Signature Select/Farms Frozen ...cken Breasts - 40 Oz
+                - region [ref=e396]:
+                  - generic [ref=e397]:
+                    - link "O Organics 85% Lean 15% Fat Ground Beef - 16 Oz ,price approximatly $9.99 , 5 of 14" [ref=e398] [cursor=pointer]:
+                      - /url: /shop/product-details.960111725.html
+                    - generic [ref=e399]:
+                      - img "O Organics 85% Lean 15% Fat Ground Beef - 16 Oz" [ref=e403]
+                      - button "Sign in to add 1 unit of O Organics 85% Lean 15% Fat Ground Beef - 16 Oz" [ref=e406] [cursor=pointer]:
+                        - generic [ref=e407]: Sign in to add
+                    - generic [ref=e409]:
+                      - generic [ref=e412]:
+                        - generic [ref=e413]:
+                          - generic [ref=e414]: Your Price $9.99
+                          - text: $9.99
+                        - deletion [ref=e415]:
+                          - generic [ref=e416]: Original Price $11.99
+                          - text: $11.99
+                      - link "O Organics 85% Lean 15% Fat Ground Beef - 16 Oz" [ref=e418] [cursor=pointer]:
+                        - /url: /shop/product-details.960111725.html
+                - region [ref=e421]:
+                  - generic [ref=e422]:
+                    - link "Signature SELECT Boneless Pork Top Loin Chops - 1.5 Lb ,price approximatly $7.49 , 6 of 14" [ref=e423] [cursor=pointer]:
+                      - /url: /shop/product-details.188260029.html
+                    - generic [ref=e424]: Bestseller
+                    - generic [ref=e425]:
+                      - img "Signature SELECT Boneless Pork Top Loin Chops - 1.5 Lb" [ref=e429]
+                      - button "Sign in to add 1 unit of Signature SELECT Boneless Pork Top Loin Chops - 1.5 Lb" [ref=e432] [cursor=pointer]:
+                        - generic [ref=e433]: Sign in to add
+                    - generic [ref=e435]:
+                      - generic [ref=e436]:
+                        - generic [ref=e438]: approx.
+                        - generic [ref=e439]:
+                          - generic [ref=e440]:
+                            - generic [ref=e441]: Your Price $7.49
+                            - text: $7.49
+                          - deletion [ref=e442]:
+                            - generic [ref=e443]: Original Price $11.99
+                            - text: $11.99
+                      - link "Signature SELECT Boneless Pork Top Loin Chops - 1.5 Lb" [ref=e445] [cursor=pointer]:
+                        - /url: /shop/product-details.188260029.html
+                - region [ref=e448]:
+                  - generic [ref=e449]:
+                    - link [ref=e450] [cursor=pointer]:
+                      - /url: /shop/product-details.971285562.html
+                    - generic [ref=e451]:
+                      - img [ref=e455]
+                      - button [ref=e458] [cursor=pointer]:
+                        - generic [ref=e459]: Sign in to add
+                    - generic [ref=e461]:
+                      - generic [ref=e462]:
+                        - generic [ref=e464]: approx.
+                        - generic [ref=e466]:
+                          - generic [ref=e467]: Your Price $20.97
+                          - text: $20.97
+                      - link [ref=e469] [cursor=pointer]:
+                        - /url: /shop/product-details.971285562.html
+                        - text: Signature Select Chicken Breas...th Rib Meat - 3.5 Lb
+                - region [ref=e472]:
+                  - generic [ref=e473]:
+                    - link [ref=e474] [cursor=pointer]:
+                      - /url: /shop/product-details.188020017.html
+                    - generic [ref=e475]:
+                      - img [ref=e479]
+                      - button [ref=e482] [cursor=pointer]:
+                        - generic [ref=e483]: Sign in to add
+                    - generic [ref=e485]:
+                      - generic [ref=e486]:
+                        - generic [ref=e488]: approx.
+                        - generic [ref=e490]:
+                          - generic [ref=e491]: Your Price $25.99
+                          - text: $25.99
+                      - link [ref=e493] [cursor=pointer]:
+                        - /url: /shop/product-details.188020017.html
+                        - text: USDA Choice Beef Tenderloin Filet Mignon Steak - 1 Lb
+                - region [ref=e496]:
+                  - generic [ref=e497]:
+                    - link [ref=e498] [cursor=pointer]:
+                      - /url: /shop/product-details.960149890.html
+                    - generic [ref=e499]:
+                      - img [ref=e503]
+                      - button [ref=e506] [cursor=pointer]:
+                        - generic [ref=e507]: Sign in to add
+                    - generic [ref=e509]:
+                      - generic [ref=e513]:
+                        - generic [ref=e514]: Your Price $11.99
+                        - text: $11.99
+                      - link [ref=e516] [cursor=pointer]:
+                        - /url: /shop/product-details.960149890.html
+                        - text: Signature Select/Farms Frozen Chicken Wings - 48 Oz.
+                - region [ref=e519]:
+                  - generic [ref=e520]:
+                    - link [ref=e521] [cursor=pointer]:
+                      - /url: /shop/product-details.960139991.html
+                    - generic [ref=e522]:
+                      - img [ref=e526]
+                      - button [ref=e529] [cursor=pointer]:
+                        - generic [ref=e530]: Sign in to add
+                    - generic [ref=e532]:
+                      - generic [ref=e533]:
+                        - generic [ref=e535]: approx.
+                        - generic [ref=e537]:
+                          - generic [ref=e538]: Your Price $17.97
+                          - text: $17.97
+                      - link [ref=e540] [cursor=pointer]:
+                        - /url: /shop/product-details.960139991.html
+                        - text: Signature Select Chicken Thigh...ss Value Pack - 3 lb
+                - region [ref=e543]:
+                  - generic [ref=e544]:
+                    - link [ref=e545] [cursor=pointer]:
+                      - /url: /shop/product-details.971290124.html
+                    - generic [ref=e546]: Bestseller
+                    - generic [ref=e547]:
+                      - img [ref=e551]
+                      - button [ref=e554] [cursor=pointer]:
+                        - generic [ref=e555]: Sign in to add
+                    - generic [ref=e557]:
+                      - generic [ref=e558]:
+                        - generic [ref=e560]: approx.
+                        - generic [ref=e561]:
+                          - generic [ref=e562]:
+                            - generic [ref=e563]: Your Price $6.97
+                            - text: $6.97
+                          - deletion [ref=e564]:
+                            - generic [ref=e565]: Original Price $17.47
+                            - text: $17.47
+                      - link [ref=e567] [cursor=pointer]:
+                        - /url: /shop/product-details.971290124.html
+                        - text: Boneless Skinless Chicken Breast Value Pack - 3.5 Lb
+                - region [ref=e570]:
+                  - generic [ref=e571]:
+                    - link [ref=e572] [cursor=pointer]:
+                      - /url: /shop/product-details.960109089.html
+                    - generic [ref=e573]:
+                      - img [ref=e577]
+                      - button [ref=e580] [cursor=pointer]:
+                        - generic [ref=e581]: Sign in to add
+                    - generic [ref=e583]:
+                      - generic [ref=e584]:
+                        - generic [ref=e586]: approx.
+                        - generic [ref=e587]:
+                          - generic [ref=e588]:
+                            - generic [ref=e589]: Your Price $35.97
+                            - text: $35.97
+                          - deletion [ref=e590]:
+                            - generic [ref=e591]: Original Price $50.97
+                            - text: $50.97
+                      - link [ref=e593] [cursor=pointer]:
+                        - /url: /shop/product-details.960109089.html
+                        - text: USDA Choice Beef Ribeye Steak Bone-In Value Pack - 3 Lb
+                - region [ref=e596]:
+                  - generic [ref=e597]:
+                    - link [ref=e598] [cursor=pointer]:
+                      - /url: /shop/product-details.970587964.html
+                    - generic [ref=e599]:
+                      - img [ref=e603]
+                      - button [ref=e606] [cursor=pointer]:
+                        - generic [ref=e607]: Sign in to add
+                    - generic [ref=e609]:
+                      - generic [ref=e613]:
+                        - generic [ref=e614]: Your Price $15.99
+                        - text: $15.99
+                      - link [ref=e616] [cursor=pointer]:
+                        - /url: /shop/product-details.970587964.html
+                        - text: Signature SELECT 85% Lean 15% Fat Ground Beef - 32 Oz
+                - region [ref=e619]:
+                  - generic [ref=e620]:
+                    - link [ref=e621] [cursor=pointer]:
+                      - /url: /shop/product-details.188020205.html
+                    - generic [ref=e622]:
+                      - img [ref=e626]
+                      - button [ref=e629] [cursor=pointer]:
+                        - generic [ref=e630]: Sign in to add
+                    - generic [ref=e632]:
+                      - generic [ref=e633]:
+                        - generic [ref=e635]: approx.
+                        - generic [ref=e637]:
+                          - generic [ref=e638]: Your Price $21.98
+                          - text: $21.98
+                      - link [ref=e640] [cursor=pointer]:
+                        - /url: /shop/product-details.188020205.html
+                        - text: USDA Choice Beef Loin Tri Tip Steak - 2 Lb
+              - button "Next set" [ref=e641] [cursor=pointer]
+          - generic [ref=e644]:
+            - heading "What’s in season" [level=2] [ref=e645]
+            - generic [ref=e646]:
+              - link "citrus Citrus" [ref=e648] [cursor=pointer]:
+                - /url: /shop/aisles/fruits-vegetables/fresh-fruits/citrus.html
+                - img [ref=e650]
+                - generic [ref=e652]: Citrus
+              - link "Melons Melons" [ref=e654] [cursor=pointer]:
+                - /url: /shop/aisles/fruits-vegetables/fresh-fruits/melons.html
+                - img [ref=e656]
+                - generic [ref=e658]: Melons
+              - link "Berries Berries" [ref=e660] [cursor=pointer]:
+                - /url: /shop/aisles/fruits-vegetables/fresh-fruits/berries.html
+                - img [ref=e662]
+                - generic [ref=e664]: Berries
+              - link "Grapes" [ref=e666] [cursor=pointer]:
+                - /url: /shop/aisles/fruits-vegetables/fresh-fruits/grapes.html
+                - img [ref=e668]
+                - generic [ref=e670]: Grapes
+          - generic [ref=e671]:
+            - generic [ref=e673]:
+              - heading "Vegetables" [level=2] [ref=e674]
+              - link "View all - Vegetables" [ref=e675] [cursor=pointer]:
+                - /url: /order/spring/easter/vegetables.html
+                - text: View all
+            - generic [ref=e676]:
+              - button "Previous set" [disabled] [ref=e677]
+              - generic [ref=e680]:
+                - region [ref=e683]:
+                  - generic [ref=e684]:
+                    - link "Signature SELECT Corn On The Cob Mini - 12 Count ,price approximatly $5.99 , 1 of 14" [ref=e685] [cursor=pointer]:
+                      - /url: /shop/product-details.147010663.html
+                    - generic [ref=e686]:
+                      - img "Signature SELECT Corn On The Cob Mini - 12 Count" [ref=e690]
+                      - button "Sign in to add 1 unit of Signature SELECT Corn On The Cob Mini - 12 Count" [ref=e693] [cursor=pointer]:
+                        - generic [ref=e694]: Sign in to add
+                    - generic [ref=e696]:
+                      - generic [ref=e700]:
+                        - generic [ref=e701]: Your Price $5.99
+                        - text: $5.99
+                      - link "Signature SELECT Corn On The Cob Mini - 12 Count" [ref=e703] [cursor=pointer]:
+                        - /url: /shop/product-details.147010663.html
+                      - generic [ref=e706]:
+                        - generic [ref=e707]: 12 Count
+                        - text: 12 ct
+                - region [ref=e710]:
+                  - generic [ref=e711]:
+                    - link "Green Beans ,price approximatly $0.75 , 2 of 14" [ref=e712] [cursor=pointer]:
+                      - /url: /shop/product-details.184270078.html
+                    - generic [ref=e713]: Bestseller
+                    - generic [ref=e714]:
+                      - img "Green Beans" [ref=e718]
+                      - button "select weight Green Beans" [ref=e722] [cursor=pointer]:
+                        - generic [ref=e723]: Select wt
+                    - generic [ref=e726]:
+                      - generic [ref=e727]:
+                        - generic [ref=e729]: approx.
+                        - generic [ref=e731]:
+                          - generic [ref=e732]: Your Price $0.75
+                          - text: $0.75 / .25 lb
+                      - link "Green Beans" [ref=e734] [cursor=pointer]:
+                        - /url: /shop/product-details.184270078.html
+                - region [ref=e737]:
+                  - generic [ref=e738]:
+                    - link "Carrots ,price approximatly $0.25 , 3 of 14" [ref=e739] [cursor=pointer]:
+                      - /url: /shop/product-details.184320053.html
+                    - generic [ref=e740]: Bestseller
+                    - generic [ref=e741]:
+                      - img "Carrots" [ref=e745]
+                      - button "select weight Carrots" [ref=e749] [cursor=pointer]:
+                        - generic [ref=e750]: Select wt
+                    - generic [ref=e753]:
+                      - generic [ref=e754]:
+                        - generic [ref=e756]: approx.
+                        - generic [ref=e758]:
+                          - generic [ref=e759]: Your Price $0.25
+                          - text: $0.25 / .25 lb
+                      - link "Carrots" [ref=e761] [cursor=pointer]:
+                        - /url: /shop/product-details.184320053.html
+                - region [ref=e764]:
+                  - generic [ref=e765]:
+                    - link "Broccoli Crown ,price approximatly $1.87 , 4 of 14" [ref=e766] [cursor=pointer]:
+                      - /url: /shop/product-details.184290007.html
+                    - generic [ref=e767]: Bestseller
+                    - generic [ref=e768]:
+                      - img "Broccoli Crown" [ref=e772]
+                      - button "Sign in to add 1 unit of Broccoli Crown" [ref=e775] [cursor=pointer]:
+                        - generic [ref=e776]: Sign in to add
+                    - generic [ref=e778]:
+                      - generic [ref=e779]:
+                        - generic [ref=e781]: approx.
+                        - generic [ref=e783]:
+                          - generic [ref=e784]: Your Price $1.87
+                          - text: $1.87 / ea
+                      - link "Broccoli Crown" [ref=e786] [cursor=pointer]:
+                        - /url: /shop/product-details.184290007.html
+                - region [ref=e789]:
+                  - generic [ref=e790]:
+                    - link "Signature SELECT/FARMS Trimmed Celery Stalks Washed Prepacked - 16 Oz ,price approximatly $2.99 , 5 of 14" [ref=e791] [cursor=pointer]:
+                      - /url: /shop/product-details.960273486.html
+                    - generic [ref=e792]:
+                      - img "Signature SELECT/FARMS Trimmed Celery Stalks Washed Prepacked - 16 Oz" [ref=e796]
+                      - button "Sign in to add 1 unit of Signature SELECT/FARMS Trimmed Celery Stalks Washed Prepacked - 16 Oz" [ref=e799] [cursor=pointer]:
+                        - generic [ref=e800]: Sign in to add
+                    - generic [ref=e802]:
+                      - generic [ref=e806]:
+                        - generic [ref=e807]: Your Price $2.99
+                        - text: $2.99
+                      - link "Signature SELECT/FARMS Trimmed Celery Stalks Washed Prepacked - 16 Oz" [ref=e809] [cursor=pointer]:
+                        - /url: /shop/product-details.960273486.html
+                        - text: Signature SELECT/FARMS Trimmed...ed Prepacked - 16 Oz
+                - region [ref=e812]:
+                  - generic [ref=e813]:
+                    - link "Signature SELECT Beans Green Cut - 14.5 Oz ,price approximatly $1.29 , 6 of 14" [ref=e814] [cursor=pointer]:
+                      - /url: /shop/product-details.121100014.html
+                    - generic [ref=e815]:
+                      - img "Signature SELECT Beans Green Cut - 14.5 Oz" [ref=e819]
+                      - button "Sign in to add 1 unit of Signature SELECT Beans Green Cut - 14.5 Oz" [ref=e822] [cursor=pointer]:
+                        - generic [ref=e823]: Sign in to add
+                    - generic [ref=e825]:
+                      - generic [ref=e829]:
+                        - generic [ref=e830]: Your Price $1.29
+                        - text: $1.29
+                      - link "Signature SELECT Beans Green Cut - 14.5 Oz" [ref=e832] [cursor=pointer]:
+                        - /url: /shop/product-details.121100014.html
+                      - generic [ref=e835]:
+                        - generic [ref=e836]: 14.5 Ounce
+                        - text: 14.5 oz
+                - region [ref=e839]:
+                  - generic [ref=e840]:
+                    - link [ref=e841] [cursor=pointer]:
+                      - /url: /shop/product-details.184580004.html
+                    - generic [ref=e842]:
+                      - img [ref=e846]
+                      - button [ref=e849] [cursor=pointer]:
+                        - generic [ref=e850]: Sign in to add
+                    - generic [ref=e852]:
+                      - generic [ref=e853]:
+                        - generic [ref=e855]: approx.
+                        - generic [ref=e857]:
+                          - generic [ref=e858]: Your Price $1.99
+                          - text: $1.99
+                      - link [ref=e860] [cursor=pointer]:
+                        - /url: /shop/product-details.184580004.html
+                        - text: Red Sweet Potato/Yam With Red Skin & Orange Flesh
+                - region [ref=e863]:
+                  - generic [ref=e864]:
+                    - link [ref=e865] [cursor=pointer]:
+                      - /url: /shop/product-details.147010061.html
+                    - generic [ref=e866]:
+                      - img [ref=e870]
+                      - button [ref=e873] [cursor=pointer]:
+                        - generic [ref=e874]: Sign in to add
+                    - generic [ref=e876]:
+                      - generic [ref=e879]:
+                        - generic [ref=e880]:
+                          - generic [ref=e881]: Your Price $3.49
+                          - text: $3.49
+                        - deletion [ref=e882]:
+                          - generic [ref=e883]: Original Price $4.99
+                          - text: $4.99
+                      - link [ref=e885] [cursor=pointer]:
+                        - /url: /shop/product-details.147010061.html
+                        - text: Signature SELECT Peas Green - 32 Oz
+                      - generic [ref=e888]:
+                        - generic [ref=e889]: 32 Ounce
+                        - text: 32 oz
+                - region [ref=e892]:
+                  - generic [ref=e893]:
+                    - link [ref=e894] [cursor=pointer]:
+                      - /url: /shop/product-details.121150012.html
+                    - generic [ref=e895]:
+                      - img [ref=e899]
+                      - button [ref=e902] [cursor=pointer]:
+                        - generic [ref=e903]: Sign in to add
+                    - generic [ref=e905]:
+                      - generic [ref=e909]:
+                        - generic [ref=e910]: Your Price $1.29
+                        - text: $1.29
+                      - link [ref=e912] [cursor=pointer]:
+                        - /url: /shop/product-details.121150012.html
+                        - text: Signature SELECT Whole Kernel Corn Can - 15.25 Oz
+                      - generic [ref=e915]:
+                        - generic [ref=e916]: 15.25 Ounce
+                        - text: 15.25 oz
+                - region [ref=e919]:
+                  - generic [ref=e920]:
+                    - link [ref=e921] [cursor=pointer]:
+                      - /url: /shop/product-details.184560105.html
+                    - generic [ref=e922]: Bestseller
+                    - generic [ref=e923]:
+                      - img [ref=e927]
+                      - button [ref=e930] [cursor=pointer]:
+                        - generic [ref=e931]: Sign in to add
+                    - generic [ref=e933]:
+                      - generic [ref=e934]:
+                        - generic [ref=e936]: approx.
+                        - generic [ref=e938]:
+                          - generic [ref=e939]: Your Price $0.72
+                          - text: $0.72 / ea
+                      - link [ref=e941] [cursor=pointer]:
+                        - /url: /shop/product-details.184560105.html
+                        - text: Green Zucchini Squash
+                - region [ref=e944]:
+                  - generic [ref=e945]:
+                    - link [ref=e946] [cursor=pointer]:
+                      - /url: /shop/product-details.184500022.html
+                    - generic [ref=e947]: Bestseller
+                    - generic [ref=e948]:
+                      - img [ref=e952]
+                      - button [ref=e955] [cursor=pointer]:
+                        - generic [ref=e956]: Sign in to add
+                    - generic [ref=e958]:
+                      - generic [ref=e959]:
+                        - generic [ref=e961]: approx.
+                        - generic [ref=e963]:
+                          - generic [ref=e964]: Your Price $0.85
+                          - text: $0.85 / ea
+                      - link [ref=e966] [cursor=pointer]:
+                        - /url: /shop/product-details.184500022.html
+                        - text: Russet Potatoes
+                - region [ref=e969]:
+                  - generic [ref=e970]:
+                    - link [ref=e971] [cursor=pointer]:
+                      - /url: /shop/product-details.121250008.html
+                    - generic [ref=e972]: Bestseller
+                    - generic [ref=e973]:
+                      - img [ref=e977]
+                      - button [ref=e980] [cursor=pointer]:
+                        - generic [ref=e981]: Sign in to add
+                    - generic [ref=e983]:
+                      - generic [ref=e987]:
+                        - generic [ref=e988]: Your Price $1.49
+                        - text: $1.49
+                      - link [ref=e990] [cursor=pointer]:
+                        - /url: /shop/product-details.121250008.html
+                        - text: Signature SELECT Mixed Vegetables - 15 Oz
+                      - generic [ref=e993]:
+                        - generic [ref=e994]: 15 Ounce
+                        - text: 15 oz
+                - region [ref=e997]:
+                  - generic [ref=e998]:
+                    - link [ref=e999] [cursor=pointer]:
+                      - /url: /shop/product-details.184420001.html
+                    - generic [ref=e1000]:
+                      - img [ref=e1004]
+                      - button [ref=e1007] [cursor=pointer]:
+                        - generic [ref=e1008]: Sign in to add
+                    - generic [ref=e1010]:
+                      - generic [ref=e1014]:
+                        - generic [ref=e1015]: Your Price $1.99
+                        - text: $1.99
+                      - link [ref=e1017] [cursor=pointer]:
+                        - /url: /shop/product-details.184420001.html
+                        - text: Iceberg Lettuce
+                - region [ref=e1020]:
+                  - generic [ref=e1021]:
+                    - link [ref=e1022] [cursor=pointer]:
+                      - /url: /shop/product-details.960143719.html
+                    - generic [ref=e1023]:
+                      - img [ref=e1027]
+                      - button [ref=e1030] [cursor=pointer]:
+                        - generic [ref=e1031]: Sign in to add
+                    - generic [ref=e1033]:
+                      - generic [ref=e1037]:
+                        - generic [ref=e1038]: Your Price $4.99
+                        - text: $4.99
+                      - link [ref=e1040] [cursor=pointer]:
+                        - /url: /shop/product-details.960143719.html
+                        - text: Signature SELECT/FARMS Gold Potatoes Prepackaged - 5 Lb
+              - button "Next set" [ref=e1041] [cursor=pointer]
+          - generic [ref=e1044]:
+            - heading "Spring salads" [ref=e1047]
+            - generic [ref=e1048]:
+              - button "Show previous set of Spring salads" [disabled] [ref=e1049] [cursor=pointer]
+              - generic [ref=e1051]:
+                - link "Strawberry spinach salad, , 4 products" [ref=e1056] [cursor=pointer]:
+                  - /url: /bundles/spring-strawberry-salad?modelConfigurationId=8c827c4c-0ded-47d4-90d5-2d580df984e6&bundleId=65f92e765240b0e6303db339
+                  - generic [ref=e1057]:
+                    - generic [ref=e1058]: Strawberry spinach salad
+                    - paragraph [ref=e1059]
+                    - link [ref=e1060]:
+                      - img [ref=e1061]
+                  - img [ref=e1064]:
+                    - img [ref=e1066]
+                  - generic [ref=e1067]:
+                    - img [ref=e1068]:
+                      - img [ref=e1070]
+                    - img [ref=e1071]:
+                      - img [ref=e1073]
+                    - img [ref=e1074]:
+                      - img [ref=e1076]
+                    - img [ref=e1077]:
+                      - img [ref=e1079]
+                - link "Fennel & orange salad, , 4 products" [ref=e1084] [cursor=pointer]:
+                  - /url: /bundles/fennel-orange-salad?modelConfigurationId=8c827c4c-0ded-47d4-90d5-2d580df984e6&bundleId=679d556fbbf29010b4629531
+                  - generic [ref=e1085]:
+                    - generic [ref=e1086]: Fennel & orange salad
+                    - paragraph [ref=e1087]
+                    - link [ref=e1088]:
+                      - img [ref=e1089]
+                  - img [ref=e1092]:
+                    - img [ref=e1094]
+                  - generic [ref=e1095]:
+                    - img [ref=e1096]:
+                      - img [ref=e1098]
+                    - img [ref=e1099]:
+                      - img [ref=e1101]
+                    - img [ref=e1102]:
+                      - img [ref=e1104]
+                    - img [ref=e1105]:
+                      - img [ref=e1107]
+                - link "Apple pecan salad, , 4 products" [ref=e1112] [cursor=pointer]:
+                  - /url: /bundles/apple-pecan-salad?modelConfigurationId=8c827c4c-0ded-47d4-90d5-2d580df984e6&bundleId=670eba9602c3a99aef83b986
+                  - generic [ref=e1113]:
+                    - generic [ref=e1114]: Apple pecan salad
+                    - paragraph [ref=e1115]
+                    - link [ref=e1116]:
+                      - img [ref=e1117]
+                  - img [ref=e1120]:
+                    - img [ref=e1122]
+                  - generic [ref=e1123]:
+                    - img [ref=e1124]:
+                      - img [ref=e1126]
+                    - img [ref=e1127]:
+                      - img [ref=e1129]
+                    - img [ref=e1130]:
+                      - img [ref=e1132]
+                    - img [ref=e1133]:
+                      - img [ref=e1135]
+                - link [ref=e1140] [cursor=pointer]:
+                  - /url: /bundles/pear-gorgonzola-salad?modelConfigurationId=8c827c4c-0ded-47d4-90d5-2d580df984e6&bundleId=670eb8e202c3a99aef83b6ee
+                  - generic [ref=e1141]:
+                    - generic [ref=e1142]: Pear & gorgonzola salad
+                    - paragraph [ref=e1143]
+                    - link [ref=e1144]:
+                      - img [ref=e1145]
+                  - img [ref=e1148]:
+                    - img [ref=e1150]
+                  - generic [ref=e1151]:
+                    - img [ref=e1152]:
+                      - img [ref=e1154]
+                    - img [ref=e1155]:
+                      - img [ref=e1157]
+                    - img [ref=e1158]:
+                      - img [ref=e1160]
+                    - img [ref=e1161]:
+                      - img [ref=e1163]
+                - link [ref=e1168] [cursor=pointer]:
+                  - /url: /bundles/citrus-pomegranate-salad?modelConfigurationId=8c827c4c-0ded-47d4-90d5-2d580df984e6&bundleId=679d55edbbf29010b4629552
+                  - generic [ref=e1169]:
+                    - generic [ref=e1170]: Citrus pomegranate salad
+                    - paragraph [ref=e1171]
+                    - link [ref=e1172]:
+                      - img [ref=e1173]
+                  - img [ref=e1176]:
+                    - img [ref=e1178]
+                  - generic [ref=e1179]:
+                    - img [ref=e1180]:
+                      - img [ref=e1182]
+                    - img [ref=e1183]:
+                      - img [ref=e1185]
+                    - img [ref=e1186]:
+                      - img [ref=e1188]
+                    - img [ref=e1189]:
+                      - img [ref=e1191]
+              - button "Show next set of Spring salads" [ref=e1192] [cursor=pointer]
+        - generic [ref=e1200]:
+          - heading "Shop what’s fresh" [level=2] [ref=e1212]
+          - generic [ref=e1213]:
+            - heading [level=2]
+            - generic [ref=e1214]:
+              - link "Meat & seafood" [ref=e1216] [cursor=pointer]:
+                - /url: /shop/aisles/meat-seafood.html?loc=2053
+                - img [ref=e1218]
+                - paragraph [ref=e1220]: Meat & seafood
+              - link "Produce" [ref=e1222] [cursor=pointer]:
+                - /url: /shop/aisles/fruits-vegetables.html?loc=2053
+                - img [ref=e1224]
+                - paragraph [ref=e1226]: Produce
+              - link "Deli" [ref=e1228] [cursor=pointer]:
+                - /url: /shop/aisles/deli.html?loc=2053
+                - img [ref=e1230]
+                - paragraph [ref=e1232]: Deli
+              - link "Bakery" [ref=e1234] [cursor=pointer]:
+                - /url: /shop/aisles/bread-bakery.html?loc=2053
+                - img [ref=e1236]
+                - paragraph [ref=e1238]: Bakery
+          - heading "Shop by category" [level=2] [ref=e1242]
+        - list [ref=e1253]:
+          - listitem [ref=e1254]:
+            - link "Buy It Again" [ref=e1255] [cursor=pointer]:
+              - /url: /shop/purchases/buy-it-again.html
+              - generic [ref=e1257]: BI
+              - generic [ref=e1259]: Buy It Again
+          - listitem [ref=e1260]:
+            - link "Deals" [ref=e1261] [cursor=pointer]:
+              - /url: /shop/deals/member-specials.html
+              - generic [ref=e1263]: D
+              - generic [ref=e1265]: Deals
+          - listitem [ref=e1266]:
+            - link "Recipes & Meals" [ref=e1267] [cursor=pointer]:
+              - /url: /meal-plans-recipes
+              - generic [ref=e1269]: RM
+              - generic [ref=e1271]: Recipes & Meals
+          - listitem [ref=e1272]:
+            - link "Flowers, Cards, Occasion" [ref=e1273] [cursor=pointer]:
+              - /url: /shop/aisles/flowers-cards-occasion.html?loc=2053
+              - generic [ref=e1275]: FC
+              - generic [ref=e1277]: Flowers, Cards, Occasion
+          - listitem [ref=e1278]:
+            - link "Dairy, Eggs & Cheese" [ref=e1279] [cursor=pointer]:
+              - /url: /shop/aisles/dairy-eggs-cheese.html?loc=2053
+              - generic [ref=e1281]: DE
+              - generic [ref=e1283]: Dairy, Eggs & Cheese
+          - listitem [ref=e1284]:
+            - link "Beverages" [ref=e1285] [cursor=pointer]:
+              - /url: /shop/aisles/beverages.html?loc=2053
+              - generic [ref=e1287]: B
+              - generic [ref=e1289]: Beverages
+          - listitem [ref=e1290]:
+            - link "Frozen Foods" [ref=e1291] [cursor=pointer]:
+              - /url: /shop/aisles/frozen-foods.html?loc=2053
+              - generic [ref=e1293]: FF
+              - generic [ref=e1295]: Frozen Foods
+          - listitem [ref=e1296]:
+            - link "Cookies, Snacks & Candy" [ref=e1297] [cursor=pointer]:
+              - /url: /shop/aisles/cookies-snacks-candy.html?loc=2053
+              - generic [ref=e1299]: CS
+              - generic [ref=e1301]: Cookies, Snacks & Candy
+          - listitem [ref=e1302]:
+            - link "Breakfast & Cereal" [ref=e1303] [cursor=pointer]:
+              - /url: /shop/aisles/breakfast-cereal.html?loc=2053
+              - generic [ref=e1305]: BC
+              - generic [ref=e1307]: Breakfast & Cereal
+          - listitem [ref=e1308]:
+            - link "Wine, Beer & Spirits" [ref=e1309] [cursor=pointer]:
+              - /url: /shop/aisles/wine-beer-spirits.html?loc=2053
+              - generic [ref=e1311]: WB
+              - generic [ref=e1313]: Wine, Beer & Spirits
+          - listitem [ref=e1314]:
+            - link "Paper, Cleaning & Home" [ref=e1315] [cursor=pointer]:
+              - /url: /shop/aisles/paper-cleaning-home.html?loc=2053
+              - generic [ref=e1317]: PC
+              - generic [ref=e1319]: Paper, Cleaning & Home
+          - listitem [ref=e1320]:
+            - link "Personal Care & Health" [ref=e1321] [cursor=pointer]:
+              - /url: /shop/aisles/personal-care-health.html?loc=2053
+              - generic [ref=e1323]: PC
+              - generic [ref=e1325]: Personal Care & Health
+          - listitem [ref=e1326]:
+            - link "Pet Care" [ref=e1327] [cursor=pointer]:
+              - /url: /shop/aisles/pet-care.html?loc=2053
+              - generic [ref=e1329]: PC
+              - generic [ref=e1331]: Pet Care
+          - listitem [ref=e1332]:
+            - link "Condiments, Spice & Bake" [ref=e1333] [cursor=pointer]:
+              - /url: /shop/aisles/condiments-spice-bake.html?loc=2053
+              - generic [ref=e1335]: CS
+              - generic [ref=e1337]: Condiments, Spice & Bake
+          - listitem [ref=e1338]:
+            - link "Grains, Pasta & Sides" [ref=e1339] [cursor=pointer]:
+              - /url: /shop/aisles/grains-pasta-sides.html?loc=2053
+              - generic [ref=e1341]: GP
+              - generic [ref=e1343]: Grains, Pasta & Sides
+      - generic [ref=e1367]:
+        - heading "Packed with flavor" [level=2] [ref=e1368]
+        - generic [ref=e1369]:
+          - link "Citrus recipes" [ref=e1371] [cursor=pointer]:
+            - /url: /recipes/bright-citrus-recipes
+            - paragraph [ref=e1374]: Citrus recipes
+          - link "Herb recipes" [ref=e1376] [cursor=pointer]:
+            - /url: /recipes/herby-recipes
+            - paragraph [ref=e1379]: Herb recipes
+          - link "Spicy recipes" [ref=e1381] [cursor=pointer]:
+            - /url: /recipes/spicy-recipes
+            - paragraph [ref=e1384]: Spicy recipes
+      - generic [ref=e1405]: Sponsored 3rd party ad content
+      - generic [ref=e1431]:
+        - generic [ref=e1443]:
+          - link [ref=e1444] [cursor=pointer]:
+            - /url: /about-us/our-brands.html
+            - img [ref=e1446]
+          - generic [ref=e1447]:
+            - paragraph [ref=e1449]: Our brands
+            - paragraph [ref=e1451]: Discover our exclusive brands.
+            - link "Click to browse Pringles ." [ref=e1452] [cursor=pointer]:
+              - /url: /about-us/our-brands.html
+              - generic [ref=e1453]: Shop now
+        - generic [ref=e1464]:
+          - img [ref=e1468]
+          - link [ref=e1469] [cursor=pointer]:
+            - img [ref=e1471]
+          - link [ref=e1473] [cursor=pointer]
+        - generic [ref=e1483]:
+          - link [ref=e1484] [cursor=pointer]:
+            - /url: https://business.vons.com?utm_source=Vons&utm_medium=Homepage&utm_campaign=MoretoDiscover
+            - img [ref=e1486]
+          - generic [ref=e1487]:
+            - paragraph [ref=e1489]: Now serving businesses
+            - paragraph [ref=e1491]: Explore Vons for business.
+            - link "Click to shop for your business ." [ref=e1492] [cursor=pointer]:
+              - /url: https://business.vons.com?utm_source=Vons&utm_medium=Homepage&utm_campaign=MoretoDiscover
+              - generic [ref=e1493]: Shop now
+        - generic [ref=e1500]:
+          - generic [ref=e1501]:
+            - paragraph
+            - paragraph [ref=e1502]: New Lower Prices Terms & Conditions
+            - paragraph [ref=e1503]: "*New Lower Price (“NLP”) items are identified as items currently tagged with a base retail price of at least 8% or $1 lower than the item’s previous base retail price. NLP classification does not account for or reflect temporary price reductions, sales, special offers or other item or basket level discounts of an item which may have been applicable to certain items before or may be applicable after the NLP classification."
+            - paragraph [ref=e1504]: NLP classification varies by Albertsons Companies division and stores but is applied across hundreds of retail items in a cross-section reflecting many of the main food and merchandise product categories throughout each participating store. NLP classification may apply only to certain item and/or brand sizes, flavors or denominations but not others of the same item and/or brand. The number of items and percentage of total SKUs with NLP classification may change daily with the NLP tag providing official status for an item. NLP classification is not applied to certain categories of items, including but not limited to, most alcohol, dairy & egg, floral & gift candy, and vehicle service (including car wash and gasoline) products as well as in-store and digital service offerings.
+            - paragraph [ref=e1505]: NLP classified items may vary by Albertsons Companies divisions, banners, or stores and are subject to additional price changes in the course of business. See all NLP classified items by looking in-store or on-line for any item shown with an official “New Lower Price” tag.
+            - paragraph
+          - generic [ref=e1517]:
+            - paragraph
+            - paragraph [ref=e1518]:
+              - text: $30 Off
+              - text: on your first online pickup or delivery order when you spend $75 or more**
+              - text: Enter promo code SAVE30 at checkout
+              - text: "**OFFER DETAILS: TO SAVE $30 YOU MUST SPEND $75 OR MORE IN A SINGLE TRANSACTION FOR YOUR FIRST ONLINE PICKUP OR DELIVERY ORDER OF QUALIFYING ITEMS PURCHASED VIA A COMPANY-OWNED CHANNEL (i.e. THE Vons WEBSITE OR MOBILE APP). OFFER DOES NOT APPLY TO ONLINE ORDERS PLACED THROUGH A THIRD-PARTY SUCH AS Instacart, UberEats, DoorDash, ETC. OR ON ORDERS SCHEDULED FOR PICKUP OR DELIVERY AFTER THE OFFER EXPIRATION DATE. Must select PICKUP or DELIVERY option and enter Promo Code SAVE30 at checkout. VALID FOR 1ST TIME ONLINE GROCERY ORDER. LIMIT 1 TIME USE PER HOUSEHOLD ONLY. Eligibility and prior promo code usage will be validated before final application to Order. If we identify from user information submitted or obtained with Order that Promo Code has previously been used by user or household, submission by user is ineligible for promotion and Promo Code will be invalidated for submitted Order. This determination will be at our sole discretion and user of invalidated Promo Code will receive a message that coupon has been invalidated prior to Order finalization. Minimum purchase amount is calculated based on subtotal of all qualifying items at checkout after deduction of all other promotions, offers, discounts, and savings and excludes alcoholic beverages, tobacco, and fluid dairy products, bottle/container deposits, and any fees, charges, and taxes. Offer may not be combined with any other promotion, offer, discount or savings and other restrictions may apply. We reserve the right to modify or cancel offers/orders and/or to correct typographical, pictorial, and other ad or pricing errors. Please review our"
+              - link "Online Ordering Services Terms - opens in a new tab" [ref=e1519] [cursor=pointer]:
+                - /url: https://www.albertsonscompanies.com/policies-and-disclosures/terms-of-use/default.aspx#toc-2
+                - text: Online Ordering Services Terms
+              - text: for specific information related to online delivery and pickup purchases.
+            - paragraph
+          - generic [ref=e1531]:
+            - paragraph
+            - paragraph [ref=e1532]:
+              - text: Guaranteed Fresh disclaimer
+              - text: All produce, meat, seafood, bakery, deli and floral items are covered under our money back guarantee. If you’re not 100% satisfied, you can request a full refund. A full refund will be issued when the product and receipt are presented. Refund will be issued based on the method of payment. Refunds without a receipt that are over $10 require are subject to manager approval. Approved funds will be issued as merchandise credit for the lowest selling price in the past 30 days. EBT refunds will be credited to the account. WIC refunds may be exchanged for the same product or other approved WIC item for the same or lesser value. Talk to a store associate in one of our locations or contact us via phone, web, mail or chat. If you ordered through a 3rd party, you may request a refund through that party or come into any one of our stores.
+            - paragraph
+          - generic [ref=e1544]:
+            - paragraph
+            - paragraph [ref=e1545]:
+              - text: Pick up or delivery in as soon as 30 min
+              - text: Must select Flash for service in as soon as 30 minutes. Service available only in select areas; operating hours of Flash Grocery Delivery and Pickup vary by store. Maximum basket size up to 35 items in a purchase and will vary by location. (Areas further from store location subject to reduced maximum for Delivery). Select items only eligible for Flash Delivery. Fulfillment time is not a guarantee and is subject to traffic and weather conditions. Varying service fees may apply.
+            - paragraph
+      - generic [ref=e1554]: Sponsored 3rd party ad content
+    - generic [ref=e1559]:
+      - region "Feedback" [ref=e1561]:
+        - generic [ref=e1562]:
+          - heading "We'd love to hear what you think of our website!" [level=2] [ref=e1563]
+          - button "Share feedback" [ref=e1565] [cursor=pointer]
+      - contentinfo [ref=e1566]:
+        - generic [ref=e1569]:
+          - generic [ref=e1571]:
+            - list [ref=e1573]:
+              - listitem [ref=e1574]: Quick Links
+              - listitem [ref=e1575]:
+                - link "FreshPass" [ref=e1576] [cursor=pointer]:
+                  - /url: /lp/subscriptions-delivery.html
+              - listitem [ref=e1577]:
+                - link "Our Brands" [ref=e1578] [cursor=pointer]:
+                  - /url: /about-us/our-brands.html
+              - listitem [ref=e1579]:
+                - link "Mobile Apps" [ref=e1580] [cursor=pointer]:
+                  - /url: /about-us/mobile-apps.html
+              - listitem [ref=e1581]:
+                - link "Gift and Prepaid Cards" [ref=e1582] [cursor=pointer]:
+                  - /url: /gifts-and-prepaid-cards.html
+              - listitem [ref=e1583]:
+                - link "Find Your Local Vons opens in a new tab" [ref=e1584] [cursor=pointer]:
+                  - /url: https://local.vons.com/
+                  - text: Find Your Local Vons
+              - listitem [ref=e1585]:
+                - link "Vons Pharmacy" [ref=e1586] [cursor=pointer]:
+                  - /url: /pharmacy.html
+              - listitem [ref=e1587]:
+                - link "All Brands List" [ref=e1588] [cursor=pointer]:
+                  - /url: /shop/brands/landing
+              - listitem [ref=e1589]:
+                - link "Entertaining Guide opens in a new tab" [ref=e1590] [cursor=pointer]:
+                  - /url: https://www.vons.com/content/dam/docs/vons-deli-catering-brochure.pdf
+                  - text: Entertaining Guide
+              - listitem [ref=e1591]:
+                - link "Vons Business" [ref=e1592] [cursor=pointer]:
+                  - /url: https://business.vons.com?utm_source=Vons&utm_medium=Footer
+            - list [ref=e1594]:
+              - listitem [ref=e1595]: Company Info
+              - listitem [ref=e1596]:
+                - link "Contact Us" [ref=e1597] [cursor=pointer]:
+                  - /url: /help
+              - listitem [ref=e1598]:
+                - link "FAQ" [ref=e1599] [cursor=pointer]:
+                  - /url: /faq.html
+              - listitem [ref=e1600]:
+                - link "About Us" [ref=e1601] [cursor=pointer]:
+                  - /url: /about-us.html
+              - listitem [ref=e1602]:
+                - link "Albertsons Companies opens in a new tab" [ref=e1603] [cursor=pointer]:
+                  - /url: https://www.albertsonscompanies.com/home.html
+                  - text: Albertsons Companies
+              - listitem [ref=e1604]:
+                - link "Careers opens in a new tab" [ref=e1605] [cursor=pointer]:
+                  - /url: https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/pages/5002
+                  - text: Careers
+              - listitem [ref=e1606]:
+                - link "Suppliers opens in a new tab" [ref=e1607] [cursor=pointer]:
+                  - /url: https://www.albertsonscompanies.com/suppliers.html
+                  - text: Suppliers
+              - listitem [ref=e1608]:
+                - link "For Employees" [ref=e1609] [cursor=pointer]:
+                  - /url: /employee-resource-center.html
+              - listitem [ref=e1610]:
+                - link "Foundation opens in a new tab" [ref=e1611] [cursor=pointer]:
+                  - /url: https://www.albertsonscompanies.com/about-aci/our-impact/Albertsons-Foundation/default.aspx
+                  - text: Foundation
+              - listitem [ref=e1612]:
+                - link "Product Recalls opens in a new tab" [ref=e1613] [cursor=pointer]:
+                  - /url: https://www.albertsonscompanies.com/product-recalls.html
+                  - text: Product Recalls
+            - list [ref=e1615]:
+              - listitem [ref=e1616]: Policies & Disclosures
+              - listitem [ref=e1617]:
+                - link "Terms of Use opens in a new tab" [ref=e1618] [cursor=pointer]:
+                  - /url: /terms-of-use.html
+                  - text: Terms of Use
+              - listitem [ref=e1619]:
+                - link "Privacy Policy opens in a new tab" [ref=e1620] [cursor=pointer]:
+                  - /url: https://www.albertsonscompanies.com/about-us/our-policies/privacy-policy.html
+                  - text: Privacy Policy
+              - listitem [ref=e1621]:
+                - link "Do Not Sell or Share My Personal Information opens in a new tab" [ref=e1622] [cursor=pointer]:
+                  - /url: https://privacyportal.onetrust.com/webform/ea30fd57-7c9b-4aa0-b3c2-5ff790e3550f/4235c968-b986-43b7-934a-ded2923a08ac
+                  - text: Do Not Sell or Share My Personal Information
+              - listitem [ref=e1623]:
+                - link "Accessibility Statement opens in a new tab" [ref=e1624] [cursor=pointer]:
+                  - /url: https://www.albertsonscompanies.com/about-us/our-policies/accessibility-statement.html
+                  - text: Accessibility Statement
+              - listitem [ref=e1625]:
+                - link "HIPAA Notice of Privacy Practices opens in a new tab" [ref=e1626] [cursor=pointer]:
+                  - /url: https://www.albertsonscompanies.com/about-us/our-policies/hipaa-notice-of-privacy-practices.html
+                  - text: HIPAA Notice of Privacy Practices
+              - listitem [ref=e1627]:
+                - link "Supply Chain Transparency opens in a new tab" [ref=e1628] [cursor=pointer]:
+                  - /url: https://www.albertsonscompanies.com/policies-and-disclosures/supply-chain-transparency/default.aspx
+                  - text: Supply Chain Transparency
+              - listitem [ref=e1629]:
+                - link "Other Policies & Disclosures opens in a new tab" [ref=e1630] [cursor=pointer]:
+                  - /url: https://www.albertsonscompanies.com/about-us/our-policies.html
+                  - text: Other Policies & Disclosures
+          - generic [ref=e1632]:
+            - listitem [ref=e1633]: Connect
+            - generic [ref=e1634]:
+              - listitem [ref=e1635]:
+                - link "Vons Facebook page" [ref=e1636] [cursor=pointer]:
+                  - /url: https://www.facebook.com/vons/
+                  - img [ref=e1637]
+              - listitem [ref=e1639]:
+                - link "Vons Twitter page" [ref=e1640] [cursor=pointer]:
+                  - /url: https://twitter.com/vons
+                  - img [ref=e1641]
+              - listitem [ref=e1643]:
+                - link "Vons Pinterest Page" [ref=e1644] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/vons/
+                  - img [ref=e1645]
+              - listitem [ref=e1647]:
+                - link "Vons Instagram page" [ref=e1648] [cursor=pointer]:
+                  - /url: https://www.instagram.com/vons/
+                  - img [ref=e1649]
+              - listitem [ref=e1651]:
+                - link "Vons YouTube page" [ref=e1652] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCgIrA_oQnUUfJihnjbwVclw
+                  - img [ref=e1653]
+              - listitem [ref=e1655]:
+                - link "Vons TikTok page" [ref=e1656] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@vons
+        - paragraph [ref=e1661]: © 2026 Albertsons Companies, Inc. All rights reserved.
+  - generic:
+    - region "Cookie banner" [active] [ref=e1663]:
+      - dialog "Privacy" [ref=e1664]:
+        - generic [ref=e1666]:
+          - generic [ref=e1669]:
+            - text: We and our partners use cookies and other technologies to operate and enhance our websites, analyze site usage, and assist with advertising. Choose an option or
+            - link "Customize" [ref=e1670] [cursor=pointer]:
+              - /url: "#"
+            - text: . See our
+            - link "Privacy Policy" [ref=e1671] [cursor=pointer]:
+              - /url: https://www.albertsonscompanies.com/policies-and-disclosures/privacy-policy/default.aspx
+            - text: for details.
+          - generic [ref=e1673]:
+            - button "Necessary only" [ref=e1674] [cursor=pointer]
+            - button "Continue with all" [ref=e1675] [cursor=pointer]
+    - text: Customize
+  - iframe [ref=e1677]:
+    - button [ref=f18e3] [cursor=pointer]:
+      - img [ref=f18e4]
+      - img
+      - img

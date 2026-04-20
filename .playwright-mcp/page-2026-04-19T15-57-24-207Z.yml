@@ -1,0 +1,1260 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e8]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: "#store-wrapper"
+          - text: Skip Navigation
+        - button [ref=e11] [cursor=pointer]:
+          - img [ref=e13]
+        - link [ref=e15] [cursor=pointer]:
+          - /url: /store/
+          - img [ref=e16]
+        - search [ref=e416]:
+          - button:
+            - img
+          - text: Explore popular searches with arrow keys or begin typing in the search field, and the app will offer suggestions. Use the arrow keys to navigate to a suggestion and then use the Enter key to select it. Once you press Enter, navigate to the search results that appear.
+          - paragraph [ref=e417]
+          - generic [ref=e418]:
+            - textbox [ref=e419]:
+              - /placeholder: Search Sprouts Farmers Market...
+              - text: organic eggs
+            - button [ref=e422] [cursor=pointer]:
+              - img [ref=e424]
+        - group [ref=e18]:
+          - button [ref=e19] [cursor=pointer]:
+            - generic [ref=e21]: Delivery
+          - button [ref=e22] [cursor=pointer]:
+            - generic [ref=e24]: Pickup
+        - generic [ref=e25]:
+          - img [ref=e426]
+          - generic [ref=e26]:
+            - button [ref=e428] [cursor=pointer]:
+              - generic [ref=e430]:
+                - generic [ref=e431]: Delivery by 9:25am
+                - img [ref=e432]
+            - generic [ref=e32]:
+              - button [ref=e33] [cursor=pointer]:
+                - generic [ref=e34]:
+                  - generic [ref=e435]: "90039"
+                  - img [ref=e35]
+              - textbox [ref=e37]
+        - button [ref=e436] [cursor=pointer]:
+          - generic [ref=e437]: Log in
+        - button [ref=e439] [cursor=pointer]:
+          - generic [ref=e442]:
+            - paragraph [ref=e444]: $0 delivery fee, spend $10
+            - generic [ref=e448]:
+              - img [ref=e449]
+              - generic [ref=e453]: "0"
+        - tooltip:
+          - generic:
+            - img
+          - text: $0 delivery fee, spend $10
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e41]:
+          - link [ref=e43] [cursor=pointer]:
+            - /url: /store/sprouts/storefront
+            - img [ref=e48]
+            - heading [level=2] [ref=e49]: Sprouts Farmers Market
+          - button [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - generic [ref=e52]: No markups
+              - img [ref=e53]
+          - button [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+            - text: Add loyalty
+        - list [ref=e59]:
+          - listitem [ref=e60]:
+            - link [ref=e61] [cursor=pointer]:
+              - /url: /store/sprouts/storefront
+              - img [ref=e63]
+              - generic [ref=e65]: Shop
+          - listitem [ref=e66]:
+            - link [ref=e67] [cursor=pointer]:
+              - /url: /store/sprouts/flyer
+              - img [ref=e69]
+              - generic [ref=e72]: Flyers
+          - listitem [ref=e73]:
+            - link [ref=e74] [cursor=pointer]:
+              - /url: /store/sprouts/recipes?source_type=tab_recipes
+              - img [ref=e76]
+              - generic [ref=e78]: Recipes
+          - listitem [ref=e79]:
+            - link [ref=e80] [cursor=pointer]:
+              - /url: /store/sprouts/your-lists?source_type=storefront
+              - img [ref=e82]
+              - generic [ref=e84]: Lists
+        - navigation [ref=e85]:
+          - heading [level=2] [ref=e87]: Browse aisles
+          - list [ref=e89]:
+            - listitem [ref=e90]:
+              - link [ref=e91] [cursor=pointer]:
+                - /url: /store/sprouts/collections/produce
+                - generic [ref=e92]: Produce
+            - listitem [ref=e93]:
+              - link [ref=e94] [cursor=pointer]:
+                - /url: /store/sprouts/collections/meat-and-seafood
+                - generic [ref=e95]: Meat & Seafood
+            - listitem [ref=e96]:
+              - link [ref=e97] [cursor=pointer]:
+                - /url: /store/sprouts/collections/3095-prepared-foods
+                - generic [ref=e98]: Prepared Foods
+            - listitem [ref=e99]:
+              - link [ref=e100] [cursor=pointer]:
+                - /url: /store/sprouts/collections/dairy
+                - generic [ref=e101]: Dairy & Eggs
+            - listitem [ref=e102]:
+              - link [ref=e103] [cursor=pointer]:
+                - /url: /store/sprouts/collections/snacks-and-candy
+                - generic [ref=e104]: Snacks & Candy
+            - listitem [ref=e105]:
+              - link [ref=e106] [cursor=pointer]:
+                - /url: /store/sprouts/collections/frozen
+                - generic [ref=e107]: Frozen
+            - listitem [ref=e108]:
+              - link [ref=e109] [cursor=pointer]:
+                - /url: /store/sprouts/collections/baked-goods
+                - generic [ref=e110]: Bakery
+            - listitem [ref=e111]:
+              - link [ref=e112] [cursor=pointer]:
+                - /url: /store/sprouts/collections/3089-deli
+                - generic [ref=e113]: Deli
+            - listitem [ref=e114]:
+              - link [ref=e115] [cursor=pointer]:
+                - /url: /store/sprouts/collections/beverages
+                - generic [ref=e116]: Beverages
+            - listitem [ref=e117]:
+              - link [ref=e118] [cursor=pointer]:
+                - /url: /store/sprouts/collections/canned-goods
+                - generic [ref=e119]: Canned Goods & Soups
+            - listitem [ref=e120]:
+              - link [ref=e121] [cursor=pointer]:
+                - /url: /store/sprouts/collections/breakfast-foods
+                - generic [ref=e122]: Breakfast
+            - listitem [ref=e123]:
+              - link [ref=e124] [cursor=pointer]:
+                - /url: /store/sprouts/collections/oils-vinegars-spices
+                - generic [ref=e125]: Oils, Vinegars, & Spices
+            - listitem [ref=e126]:
+              - link [ref=e127] [cursor=pointer]:
+                - /url: /store/sprouts/collections/dry-goods-pasta
+                - generic [ref=e128]: Dry Goods & Pasta
+            - listitem [ref=e129]:
+              - link [ref=e130] [cursor=pointer]:
+                - /url: /store/sprouts/collections/household
+                - generic [ref=e131]: Household
+            - listitem [ref=e132]:
+              - link [ref=e133] [cursor=pointer]:
+                - /url: /store/sprouts/collections/condiments-sauces
+                - generic [ref=e134]: Condiments & Sauces
+            - listitem [ref=e135]:
+              - link [ref=e136] [cursor=pointer]:
+                - /url: /store/sprouts/collections/pets
+                - generic [ref=e137]: Pets
+            - listitem [ref=e138]:
+              - link [ref=e139] [cursor=pointer]:
+                - /url: /store/sprouts/collections/personal-care
+                - generic [ref=e140]: Personal Care
+            - listitem [ref=e141]:
+              - link [ref=e142] [cursor=pointer]:
+                - /url: /store/sprouts/collections/baking-essentials
+                - generic [ref=e143]: Baking Essentials
+            - listitem [ref=e144]:
+              - link [ref=e145] [cursor=pointer]:
+                - /url: /store/sprouts/collections/health-care
+                - generic [ref=e146]: Health Care
+            - listitem [ref=e147]:
+              - link [ref=e148] [cursor=pointer]:
+                - /url: /store/sprouts/collections/baby
+                - generic [ref=e149]: Baby
+            - listitem [ref=e150]:
+              - link [ref=e151] [cursor=pointer]:
+                - /url: /store/sprouts/collections/kitchen-supplies
+                - generic [ref=e152]: Kitchen Supplies
+            - listitem [ref=e153]:
+              - link [ref=e154] [cursor=pointer]:
+                - /url: /store/sprouts/collections/857-miscellaneous-grocery
+                - generic [ref=e155]: Miscellaneous
+            - listitem [ref=e156]:
+              - link [ref=e157] [cursor=pointer]:
+                - /url: /store/sprouts/collections/41367-floral
+                - generic [ref=e158]: Floral
+            - listitem [ref=e159]:
+              - link [ref=e160] [cursor=pointer]:
+                - /url: /store/sprouts/collections/36314-flowers-gifts-for-mom
+                - generic [ref=e161]: Gifts for Mom
+            - listitem [ref=e162]:
+              - link [ref=e163] [cursor=pointer]:
+                - /url: /store/sprouts/collections/35548-paper-goods-and-laundry
+                - generic [ref=e164]: Paper Goods & Laundry
+            - listitem [ref=e165]:
+              - link [ref=e166] [cursor=pointer]:
+                - /url: /store/sprouts/collections/dynamic_collection-sales
+                - generic [ref=e167]: Sales
+            - listitem [ref=e168]:
+              - link [ref=e169] [cursor=pointer]:
+                - /url: /store/sprouts/collections/n-sprouts-brands-83847
+                - generic [ref=e170]: Sprouts Brands
+            - listitem [ref=e171]:
+              - link [ref=e172] [cursor=pointer]:
+                - /url: /store/sprouts/collections/n-deli-prepared-foods-89750
+                - generic [ref=e173]: Deli & Prepared Foods
+            - listitem [ref=e174]:
+              - link [ref=e175] [cursor=pointer]:
+                - /url: /store/sprouts/collections/n-vitamins-supplements-88844
+                - generic [ref=e176]: Vitamins & Supplements
+            - listitem [ref=e177]:
+              - link [ref=e178] [cursor=pointer]:
+                - /url: /store/sprouts/collections/n-bath-body-care-17424
+                - generic [ref=e179]: Bath & Body Care
+            - listitem [ref=e180]:
+              - link [ref=e181] [cursor=pointer]:
+                - /url: /store/sprouts/collections/n-meal-solutions-4790
+                - generic [ref=e182]: Meal Solutions
+      - main [ref=e184]:
+        - generic [ref=e186]:
+          - region [ref=e456]:
+            - generic [ref=e457]: Use next and previous buttons to navigate. Activating elements within this carousel will change the search results
+            - list [ref=e458]:
+              - listitem [ref=e459]:
+                - button [ref=e464] [cursor=pointer]:
+                  - generic [ref=e466]:
+                    - img [ref=e467]
+                    - text: Sort
+                    - img [ref=e469]
+              - listitem [ref=e471]:
+                - button [ref=e476] [cursor=pointer]:
+                  - generic [ref=e478]:
+                    - text: Ingredient Preferences
+                    - img [ref=e479]
+              - listitem [ref=e481]:
+                - button [ref=e486] [cursor=pointer]:
+                  - generic [ref=e488]:
+                    - text: Size
+                    - img [ref=e489]
+              - listitem [ref=e491]:
+                - button [ref=e494] [cursor=pointer]:
+                  - generic [ref=e495]: On Sale
+              - listitem [ref=e496]:
+                - button [ref=e501] [cursor=pointer]:
+                  - generic [ref=e503]:
+                    - text: Brands
+                    - img [ref=e504]
+              - listitem [ref=e506]:
+                - button [ref=e511] [cursor=pointer]:
+                  - generic [ref=e513]:
+                    - text: Animal Practices
+                    - img [ref=e514]
+              - listitem [ref=e516]:
+                - button [ref=e521] [cursor=pointer]:
+                  - generic [ref=e523]:
+                    - text: Dietary
+                    - img [ref=e524]
+            - button [ref=e527] [cursor=pointer]:
+              - img [ref=e528]
+          - heading [level=1] [ref=e532]: Results for "organic eggs"
+          - list [ref=e534]:
+            - listitem [ref=e535]:
+              - group [ref=e537]:
+                - button [ref=e538] [cursor=pointer]:
+                  - img [ref=e543]
+                  - generic [ref=e544]:
+                    - generic [ref=e547]:
+                      - generic [ref=e548]: "Current price: $12.99"
+                      - generic [ref=e549]: $1299
+                    - heading [level=3] [ref=e550]: Sprouts Organic Pasture Raised Large Brown Grade A Eggs
+                    - generic [ref=e553]: 24 ct
+                    - generic [ref=e554]:
+                      - img [ref=e556]
+                      - generic [ref=e558]: Many in stock
+                - button [ref=e562] [cursor=pointer]:
+                  - generic [ref=e564]:
+                    - img [ref=e565]
+                    - generic [ref=e567]: Add
+            - listitem [ref=e568]:
+              - group [ref=e570]:
+                - button [ref=e571] [cursor=pointer]:
+                  - generic [ref=e575]:
+                    - img [ref=e576]
+                    - list [ref=e577]:
+                      - listitem [ref=e578]: Best seller
+                  - generic [ref=e579]:
+                    - generic [ref=e580]:
+                      - generic [ref=e581]:
+                        - generic [ref=e582]:
+                          - generic [ref=e583]: "Current price: $9.99"
+                          - generic [ref=e584]: $999
+                        - generic [ref=e587]:
+                          - generic [ref=e588]: "Original Price: $12.49"
+                          - paragraph [ref=e589]: $12.49
+                      - generic [ref=e590]: 20% off
+                    - heading [level=3] [ref=e591]: Vital Farms Organic Pasture-Raised Large Grade A Eggs
+                    - generic [ref=e594]: 12 ct
+                    - generic [ref=e595]:
+                      - img [ref=e597]
+                      - generic [ref=e599]: Many in stock
+                - button [ref=e603] [cursor=pointer]:
+                  - generic [ref=e605]:
+                    - img [ref=e606]
+                    - generic [ref=e608]: Add
+            - listitem [ref=e609]:
+              - group [ref=e611]:
+                - button [ref=e612] [cursor=pointer]:
+                  - generic [ref=e616]:
+                    - img [ref=e617]
+                    - list [ref=e618]:
+                      - listitem [ref=e619]: Best seller
+                  - generic [ref=e620]:
+                    - generic [ref=e621]:
+                      - generic [ref=e622]:
+                        - generic [ref=e623]:
+                          - generic [ref=e624]: "Current price: $13.99"
+                          - generic [ref=e625]: $1399
+                        - generic [ref=e628]:
+                          - generic [ref=e629]: "Original Price: $16.99"
+                          - paragraph [ref=e630]: $16.99
+                      - generic [ref=e631]: 18% off
+                    - heading [level=3] [ref=e632]: Vital Farms Organic Pasture-Raised Large Grade A Eggs
+                    - generic [ref=e635]: 18 ct
+                    - generic [ref=e636]:
+                      - img [ref=e638]
+                      - generic [ref=e640]: Many in stock
+                - button [ref=e644] [cursor=pointer]:
+                  - generic [ref=e646]:
+                    - img [ref=e647]
+                    - generic [ref=e649]: Add
+          - list [ref=e651]:
+            - listitem [ref=e652]:
+              - group [ref=e654]:
+                - button [ref=e655] [cursor=pointer]:
+                  - generic [ref=e659]:
+                    - img [ref=e660]
+                    - list [ref=e661]:
+                      - listitem [ref=e662]: Cage free
+                  - generic [ref=e663]:
+                    - generic [ref=e666]:
+                      - generic [ref=e667]: "Current price: $4.99"
+                      - generic [ref=e668]: $499
+                    - heading [level=3] [ref=e669]: Sprouts Organic Cage Free Large Grade A Brown Eggs
+                    - generic [ref=e670]:
+                      - generic [ref=e672]: 12 ct
+                      - generic [ref=e673]: • 2 sizes
+                - button [ref=e677] [cursor=pointer]:
+                  - generic [ref=e679]:
+                    - img [ref=e680]
+                    - generic [ref=e682]: Add
+            - listitem [ref=e683]:
+              - group [ref=e685]:
+                - button [ref=e686] [cursor=pointer]:
+                  - generic [ref=e690]:
+                    - img [ref=e691]
+                    - list [ref=e692]:
+                      - listitem [ref=e693]: Organic
+                  - generic [ref=e694]:
+                    - generic [ref=e695]:
+                      - generic [ref=e696]:
+                        - generic [ref=e697]:
+                          - generic [ref=e698]: "Current price: $9.99"
+                          - generic [ref=e699]: $999
+                        - generic [ref=e702]:
+                          - generic [ref=e703]: "Original Price: $11.49"
+                          - paragraph [ref=e704]: $11.49
+                      - generic [ref=e705]: 13% off
+                    - heading [level=3] [ref=e706]: Happy Egg Organic Free Range Large Grade A Brown Eggs
+                    - generic [ref=e707]:
+                      - generic [ref=e709]: 18 ct
+                      - generic [ref=e710]: • 2 sizes
+                - button [ref=e714] [cursor=pointer]:
+                  - generic [ref=e716]:
+                    - img [ref=e717]
+                    - generic [ref=e719]: Add
+            - listitem [ref=e720]:
+              - group [ref=e722]:
+                - button [ref=e723] [cursor=pointer]:
+                  - generic [ref=e727]:
+                    - img [ref=e728]
+                    - list [ref=e729]:
+                      - listitem [ref=e730]: Organic
+                  - generic [ref=e731]:
+                    - generic [ref=e732]:
+                      - generic [ref=e733]:
+                        - generic [ref=e734]:
+                          - generic [ref=e735]: "Current price: $6.99"
+                          - generic [ref=e736]: $699
+                        - generic [ref=e739]:
+                          - generic [ref=e740]: "Original Price: $7.99"
+                          - paragraph [ref=e741]: $7.99
+                      - generic [ref=e742]: 13% off
+                    - heading [level=3] [ref=e743]: Happy Egg Organic Free Range Large Grade A Brown Eggs
+                    - generic [ref=e744]:
+                      - generic [ref=e746]: 12 ct
+                      - generic [ref=e747]: • 2 sizes
+                    - generic [ref=e748]:
+                      - img [ref=e750]
+                      - generic [ref=e752]: Many in stock
+                - button [ref=e756] [cursor=pointer]:
+                  - generic [ref=e758]:
+                    - img [ref=e759]
+                    - generic [ref=e761]: Add
+          - list [ref=e763]:
+            - listitem [ref=e764]:
+              - group [ref=e766]:
+                - button [ref=e767] [cursor=pointer]:
+                  - generic [ref=e771]:
+                    - img [ref=e772]
+                    - list [ref=e773]:
+                      - listitem [ref=e774]: Organic
+                  - generic [ref=e775]:
+                    - generic [ref=e778]:
+                      - generic [ref=e779]: "Current price: $6.99"
+                      - generic [ref=e780]: $699
+                    - heading [level=3] [ref=e781]: Sprouts Organic Pasture Raised Large Brown Grade A Eggs
+                    - generic [ref=e784]: 12 ct
+                - button [ref=e788] [cursor=pointer]:
+                  - generic [ref=e790]:
+                    - img [ref=e791]
+                    - generic [ref=e793]: Add
+            - listitem [ref=e794]:
+              - group [ref=e796]:
+                - button [ref=e797] [cursor=pointer]:
+                  - generic [ref=e801]:
+                    - img [ref=e802]
+                    - list [ref=e803]:
+                      - listitem [ref=e804]: Cage free
+                  - generic [ref=e805]:
+                    - generic [ref=e808]:
+                      - generic [ref=e809]: "Current price: $7.29"
+                      - generic [ref=e810]: $729
+                    - heading [level=3] [ref=e811]: Sprouts Organic Cage Free Large Grade A Brown Eggs
+                    - generic [ref=e812]:
+                      - generic [ref=e814]: 18 ct
+                      - generic [ref=e815]: • 2 sizes
+                    - generic [ref=e816]:
+                      - img [ref=e818]
+                      - generic [ref=e820]: Many in stock
+                - button [ref=e824] [cursor=pointer]:
+                  - generic [ref=e826]:
+                    - img [ref=e827]
+                    - generic [ref=e829]: Add
+            - listitem [ref=e830]:
+              - group [ref=e832]:
+                - button [ref=e833] [cursor=pointer]:
+                  - generic [ref=e837]:
+                    - img [ref=e838]
+                    - list [ref=e839]:
+                      - listitem [ref=e840]: Organic
+                  - generic [ref=e841]:
+                    - generic [ref=e844]:
+                      - generic [ref=e845]: "Current price: $5.29"
+                      - generic [ref=e846]: $529
+                    - heading [level=3] [ref=e847]: Sprouts Organic Free Range Large Grade A Brown Eggs
+                    - generic [ref=e850]: 12 ct
+                - button [ref=e854] [cursor=pointer]:
+                  - generic [ref=e856]:
+                    - img [ref=e857]
+                    - generic [ref=e859]: Add
+          - list [ref=e861]:
+            - listitem [ref=e862]:
+              - group [ref=e864]:
+                - button [ref=e865] [cursor=pointer]:
+                  - generic [ref=e869]:
+                    - img [ref=e870]
+                    - list [ref=e871]:
+                      - listitem [ref=e872]: Organic
+                  - generic [ref=e873]:
+                    - generic [ref=e874]:
+                      - generic [ref=e875]:
+                        - generic [ref=e876]:
+                          - generic [ref=e877]: "Current price: $7.49"
+                          - generic [ref=e878]: $749
+                        - generic [ref=e881]:
+                          - generic [ref=e882]: "Original Price: $9.49"
+                          - paragraph [ref=e883]: $9.49
+                      - generic [ref=e884]: 21% off
+                    - heading [level=3] [ref=e885]: Vital Farms Organic Pasture Raised Large Eggs
+                    - generic [ref=e888]: 6 ct
+                    - generic [ref=e889]:
+                      - img [ref=e891]
+                      - generic [ref=e893]: Many in stock
+                - button [ref=e897] [cursor=pointer]:
+                  - generic [ref=e899]:
+                    - img [ref=e900]
+                    - generic [ref=e902]: Add
+            - listitem [ref=e903]:
+              - group [ref=e905]:
+                - button [ref=e906] [cursor=pointer]:
+                  - generic [ref=e910]:
+                    - img [ref=e911]
+                    - list [ref=e912]:
+                      - listitem [ref=e913]: Organic
+                  - generic [ref=e914]:
+                    - generic [ref=e915]:
+                      - generic [ref=e916]:
+                        - generic [ref=e917]:
+                          - generic [ref=e918]: "Current price: $10.49"
+                          - generic [ref=e919]: $1049
+                        - generic [ref=e922]:
+                          - generic [ref=e923]: "Original Price: $12.99"
+                          - paragraph [ref=e924]: $12.99
+                      - generic [ref=e925]: 19% off
+                    - heading [level=3] [ref=e926]: Vital Farms Organic Pasture Raised Extra Large Grade A Eggs
+                    - generic [ref=e929]: 12 ct
+                    - generic [ref=e930]:
+                      - img [ref=e932]
+                      - generic [ref=e934]: Many in stock
+                - button [ref=e938] [cursor=pointer]:
+                  - generic [ref=e940]:
+                    - img [ref=e941]
+                    - generic [ref=e943]: Add
+            - listitem [ref=e944]:
+              - group [ref=e946]:
+                - button [ref=e947] [cursor=pointer]:
+                  - generic [ref=e951]:
+                    - img [ref=e952]
+                    - list [ref=e953]:
+                      - listitem [ref=e954]: Organic
+                  - generic [ref=e955]:
+                    - generic [ref=e958]:
+                      - generic [ref=e959]: "Current price: $7.99"
+                      - generic [ref=e960]: $799
+                    - heading [level=3] [ref=e961]: Organick Pastures Organic Regenerative Pasture-Raised Large Grade A Brown Eggs
+                    - generic [ref=e964]: 12 ct
+                - button [ref=e968] [cursor=pointer]:
+                  - generic [ref=e970]:
+                    - img [ref=e971]
+                    - generic [ref=e973]: Add
+          - list [ref=e975]:
+            - listitem [ref=e976]:
+              - group [ref=e978]:
+                - button [ref=e979] [cursor=pointer]:
+                  - generic [ref=e983]:
+                    - img [ref=e984]
+                    - list [ref=e985]:
+                      - listitem [ref=e986]: Pasture raised
+                  - generic [ref=e987]:
+                    - generic [ref=e988]:
+                      - generic [ref=e989]:
+                        - generic [ref=e990]:
+                          - generic [ref=e991]: "Current price: $10.99"
+                          - generic [ref=e992]: $1099
+                        - generic [ref=e995]:
+                          - generic [ref=e996]: "Original Price: $13.99"
+                          - paragraph [ref=e997]: $13.99
+                      - generic [ref=e998]: 21% off
+                    - heading [level=3] [ref=e999]: Vital Farms Pasture-Raised Large Grade A Eggs
+                    - generic [ref=e1000]:
+                      - generic [ref=e1002]: 18 ct
+                      - generic [ref=e1003]: • 2 sizes
+                    - generic [ref=e1004]:
+                      - img [ref=e1006]
+                      - generic [ref=e1008]: Many in stock
+                - button [ref=e1012] [cursor=pointer]:
+                  - generic [ref=e1014]:
+                    - img [ref=e1015]
+                    - generic [ref=e1017]: Add
+            - listitem [ref=e1018]:
+              - group [ref=e1020]:
+                - button [ref=e1021] [cursor=pointer]:
+                  - generic [ref=e1025]:
+                    - img [ref=e1026]
+                    - list [ref=e1027]:
+                      - listitem [ref=e1028]: Organic
+                  - generic [ref=e1029]:
+                    - generic [ref=e1032]:
+                      - generic [ref=e1033]: "Current price: $7.99"
+                      - generic [ref=e1034]: $799
+                    - heading [level=3] [ref=e1035]: Organick Pastures Organic Holly's Heritage Corn & Soy Feed Free Regeneratively Farmed Pasture-Raised Large Grade A Brown Eggs
+                    - generic [ref=e1038]: 12 ct
+                - button [ref=e1042] [cursor=pointer]:
+                  - generic [ref=e1044]:
+                    - img [ref=e1045]
+                    - generic [ref=e1047]: Add
+            - listitem [ref=e1048]:
+              - group [ref=e1050]:
+                - button [ref=e1051] [cursor=pointer]:
+                  - generic [ref=e1055]:
+                    - img [ref=e1056]
+                    - list [ref=e1057]:
+                      - listitem [ref=e1058]: Organic
+                  - generic [ref=e1059]:
+                    - generic [ref=e1062]:
+                      - generic [ref=e1063]: "Current price: $5.49"
+                      - generic [ref=e1064]: $549
+                    - heading [level=3] [ref=e1065]: Sprouts Organic Large Brown Grade A Omega-3 Eggs
+                    - generic [ref=e1068]: 12 ct
+                    - generic [ref=e1069]:
+                      - img [ref=e1071]
+                      - generic [ref=e1073]: Many in stock
+                - button [ref=e1077] [cursor=pointer]:
+                  - generic [ref=e1079]:
+                    - img [ref=e1080]
+                    - generic [ref=e1082]: Add
+          - list [ref=e1084]:
+            - listitem [ref=e1085]:
+              - group [ref=e1087]:
+                - button [ref=e1088] [cursor=pointer]:
+                  - generic [ref=e1092]:
+                    - img [ref=e1093]
+                    - list [ref=e1094]:
+                      - listitem [ref=e1095]: Pasture raised
+                  - generic [ref=e1096]:
+                    - generic [ref=e1097]:
+                      - generic [ref=e1098]:
+                        - generic [ref=e1099]:
+                          - generic [ref=e1100]: "Current price: $5.49"
+                          - generic [ref=e1101]: $549
+                        - generic [ref=e1104]:
+                          - generic [ref=e1105]: "Original Price: $6.99"
+                          - paragraph [ref=e1106]: $6.99
+                      - generic [ref=e1107]: 21% off
+                    - heading [level=3] [ref=e1108]: Vital Farms Pasture-Raised Large Grade A Eggs
+                    - generic [ref=e1111]: 6 ct
+                - button [ref=e1115] [cursor=pointer]:
+                  - generic [ref=e1117]:
+                    - img [ref=e1118]
+                    - generic [ref=e1120]: Add
+            - listitem [ref=e1121]:
+              - group [ref=e1123]:
+                - button [ref=e1124] [cursor=pointer]:
+                  - generic [ref=e1128]:
+                    - img [ref=e1129]
+                    - list [ref=e1130]:
+                      - listitem [ref=e1131]: Organic
+                  - generic [ref=e1132]:
+                    - generic [ref=e1135]:
+                      - generic [ref=e1136]: "Current price: $6.99"
+                      - generic [ref=e1137]: $699
+                    - heading [level=3] [ref=e1138]: Vital Farms Organic Pasture Raised Hard Boiled Eggs 6 Count
+                    - generic [ref=e1141]: 6 ct
+                - button [ref=e1145] [cursor=pointer]:
+                  - generic [ref=e1147]:
+                    - img [ref=e1148]
+                    - generic [ref=e1150]: Add
+            - listitem [ref=e1151]:
+              - group [ref=e1153]:
+                - button [ref=e1154] [cursor=pointer]:
+                  - generic [ref=e1158]:
+                    - img [ref=e1159]
+                    - list [ref=e1160]:
+                      - listitem [ref=e1161]: Organic
+                  - generic [ref=e1162]:
+                    - generic [ref=e1163]:
+                      - generic [ref=e1164]:
+                        - generic [ref=e1165]:
+                          - generic [ref=e1166]: "Current price: $5.99"
+                          - generic [ref=e1167]: $599
+                        - generic [ref=e1170]:
+                          - generic [ref=e1171]: "Original Price: $7.29"
+                          - paragraph [ref=e1172]: $7.29
+                      - generic [ref=e1173]: 18% off
+                    - heading [level=3] [ref=e1174]: Organick Pastures Organic Pasture-Raised Large Grade A Brown Eggs
+                    - generic [ref=e1177]: 12 ct
+                    - generic [ref=e1178]:
+                      - img [ref=e1180]
+                      - generic [ref=e1183]: Likely out of stock
+                - button [ref=e1187] [cursor=pointer]:
+                  - generic [ref=e1189]: Request
+          - list [ref=e1195]:
+            - listitem [ref=e1196]
+            - listitem [ref=e1208]
+            - listitem [ref=e1220]
+            - listitem [ref=e1232]
+            - listitem [ref=e1244]
+            - listitem [ref=e1256]
+            - listitem [ref=e1268]
+            - listitem [ref=e1280]
+          - heading [level=1] [ref=e1294]: Related items
+          - list [ref=e1296]:
+            - listitem [ref=e1297]:
+              - group [ref=e1299]:
+                - button [ref=e1300] [cursor=pointer]:
+                  - generic [ref=e1304]:
+                    - img [ref=e1305]
+                    - list [ref=e1306]:
+                      - listitem [ref=e1307]: Free range
+                  - generic [ref=e1308]:
+                    - generic [ref=e1309]:
+                      - generic [ref=e1310]:
+                        - generic [ref=e1311]:
+                          - generic [ref=e1312]: "Current price: $7.99"
+                          - generic [ref=e1313]: $799
+                        - generic [ref=e1316]:
+                          - generic [ref=e1317]: "Original Price: $8.99"
+                          - paragraph [ref=e1318]: $8.99
+                      - generic [ref=e1319]: 11% off
+                    - heading [level=3] [ref=e1320]: Happy Egg Large Grade A Free Range Blue & Brown Heritage Breed Eggs
+                    - generic [ref=e1323]: 12 ct
+                    - generic [ref=e1324]:
+                      - img [ref=e1326]
+                      - generic [ref=e1328]: Many in stock
+                - button [ref=e1332] [cursor=pointer]:
+                  - generic [ref=e1334]:
+                    - img [ref=e1335]
+                    - generic [ref=e1337]: Add
+            - listitem [ref=e1338]:
+              - group [ref=e1340]:
+                - button [ref=e1341] [cursor=pointer]:
+                  - generic [ref=e1345]:
+                    - img [ref=e1346]
+                    - list [ref=e1347]:
+                      - listitem [ref=e1348]: Organic
+                  - generic [ref=e1349]:
+                    - generic [ref=e1351]:
+                      - generic [ref=e1352]:
+                        - generic [ref=e1353]: "Current price: $2.28 each (estimated)"
+                        - generic [ref=e1354]: $228
+                      - paragraph [ref=e1358]: each (est.)
+                    - heading [level=3] [ref=e1360]: Organic Banana Bunch, 4 - 7 Bananas
+                    - generic [ref=e1362]:
+                      - generic [ref=e1363]: $0.95 / lb
+                      - generic [ref=e1364]: About 2.4 lb each
+                    - generic [ref=e1365]:
+                      - img [ref=e1367]
+                      - generic [ref=e1369]: Many in stock
+                - button [ref=e1373] [cursor=pointer]:
+                  - generic [ref=e1375]:
+                    - img [ref=e1376]
+                    - generic [ref=e1378]: Add
+            - listitem [ref=e1379]:
+              - group [ref=e1381]:
+                - button [ref=e1382] [cursor=pointer]:
+                  - generic [ref=e1386]:
+                    - img [ref=e1387]
+                    - list [ref=e1388]:
+                      - listitem [ref=e1389]: Pasture raised
+                  - generic [ref=e1390]:
+                    - generic [ref=e1391]:
+                      - generic [ref=e1392]:
+                        - generic [ref=e1393]:
+                          - generic [ref=e1394]: "Current price: $7.99"
+                          - generic [ref=e1395]: $799
+                        - generic [ref=e1398]:
+                          - generic [ref=e1399]: "Original Price: $9.99"
+                          - paragraph [ref=e1400]: $9.99
+                      - mark [ref=e1402]: Spend $14, save $4
+                    - heading [level=3] [ref=e1403]: Vital Farms Pasture-Raised Large Grade A Eggs
+                    - generic [ref=e1404]:
+                      - generic [ref=e1406]: 12 ct
+                      - generic [ref=e1407]: • 2 sizes
+                    - generic [ref=e1408]:
+                      - img [ref=e1410]
+                      - generic [ref=e1412]: Many in stock
+                - button [ref=e1414] [cursor=pointer]:
+                  - generic [ref=e1415]:
+                    - generic [ref=e1416]: See eligible items
+                    - img [ref=e1417]
+                - button [ref=e1422] [cursor=pointer]:
+                  - generic [ref=e1424]:
+                    - img [ref=e1425]
+                    - generic [ref=e1427]: Add
+          - list [ref=e1435]:
+            - listitem [ref=e1436]:
+              - group [ref=e1438]:
+                - button [ref=e1439] [cursor=pointer]:
+                  - img [ref=e1444]
+                  - generic [ref=e1445]:
+                    - generic [ref=e1448]:
+                      - generic [ref=e1449]: "Current price: $3.29"
+                      - generic [ref=e1450]: $329
+                    - heading [level=3] [ref=e1451]: Sprouts Pasture Raised Grade A Large Brown Eggs
+                    - generic [ref=e1454]: 6 ct
+                    - generic [ref=e1455]:
+                      - img [ref=e1457]
+                      - generic [ref=e1459]: Many in stock
+                - button [ref=e1463] [cursor=pointer]:
+                  - generic [ref=e1465]:
+                    - img [ref=e1466]
+                    - generic [ref=e1468]: Add
+            - listitem [ref=e1469]:
+              - group [ref=e1471]:
+                - button [ref=e1472] [cursor=pointer]:
+                  - generic [ref=e1476]:
+                    - img [ref=e1477]
+                    - list [ref=e1478]:
+                      - listitem [ref=e1479]: Cage free
+                  - generic [ref=e1480]:
+                    - generic [ref=e1483]:
+                      - generic [ref=e1484]: "Current price: $3.99"
+                      - generic [ref=e1485]: $399
+                    - heading [level=3] [ref=e1486]: Sprouts Cage Free Large Grade AA White Eggs
+                    - generic [ref=e1489]: 12 ct
+                - button [ref=e1493] [cursor=pointer]:
+                  - generic [ref=e1495]:
+                    - img [ref=e1496]
+                    - generic [ref=e1498]: Add
+            - listitem [ref=e1499]:
+              - group [ref=e1501]:
+                - button [ref=e1502] [cursor=pointer]:
+                  - generic [ref=e1506]:
+                    - img [ref=e1507]
+                    - list [ref=e1508]:
+                      - listitem [ref=e1509]: Non GMO
+                  - generic [ref=e1510]:
+                    - generic [ref=e1513]:
+                      - generic [ref=e1514]: "Current price: $7.29"
+                      - generic [ref=e1515]: $729
+                    - heading [level=3] [ref=e1516]: Sprouts Pasture Raised Large Brown Grade A Eggs
+                    - generic [ref=e1519]: 18 ct
+                    - generic [ref=e1520]:
+                      - img [ref=e1522]
+                      - generic [ref=e1524]: Many in stock
+                - button [ref=e1528] [cursor=pointer]:
+                  - generic [ref=e1530]:
+                    - img [ref=e1531]
+                    - generic [ref=e1533]: Add
+          - list [ref=e1541]:
+            - listitem [ref=e1542]:
+              - group [ref=e1544]:
+                - button [ref=e1545] [cursor=pointer]:
+                  - generic [ref=e1549]:
+                    - img [ref=e1550]
+                    - list [ref=e1551]:
+                      - listitem [ref=e1552]: Pasture raised
+                  - generic [ref=e1553]:
+                    - generic [ref=e1556]:
+                      - generic [ref=e1557]: "Current price: $5.29"
+                      - generic [ref=e1558]: $529
+                    - heading [level=3] [ref=e1559]: Sprouts Pasture Raised Large Grade A Brown Eggs
+                    - generic [ref=e1562]: 12 ct
+                    - generic [ref=e1563]:
+                      - img [ref=e1565]
+                      - generic [ref=e1567]: Many in stock
+                - button [ref=e1571] [cursor=pointer]:
+                  - generic [ref=e1573]:
+                    - img [ref=e1574]
+                    - generic [ref=e1576]: Add
+            - listitem [ref=e1577]:
+              - group [ref=e1579]:
+                - button [ref=e1580] [cursor=pointer]:
+                  - generic [ref=e1584]:
+                    - img [ref=e1585]
+                    - list [ref=e1586]:
+                      - listitem [ref=e1587]: In season
+                  - generic [ref=e1588]:
+                    - generic [ref=e1590]:
+                      - generic [ref=e1591]:
+                        - generic [ref=e1592]: "Current price: $1.59 each (estimated)"
+                        - generic [ref=e1593]: $159
+                      - paragraph [ref=e1597]: each (est.)
+                    - heading [level=3] [ref=e1599]: Organic Red Onion
+                    - generic [ref=e1601]:
+                      - generic [ref=e1602]: $2.49 / lb
+                      - generic [ref=e1603]: About 0.64 lb each
+                    - generic [ref=e1604]:
+                      - img [ref=e1606]
+                      - generic [ref=e1608]: Many in stock
+                - button [ref=e1612] [cursor=pointer]:
+                  - generic [ref=e1614]:
+                    - img [ref=e1615]
+                    - generic [ref=e1617]: Add
+            - listitem [ref=e1618]:
+              - group [ref=e1620]:
+                - button [ref=e1621] [cursor=pointer]:
+                  - generic [ref=e1625]:
+                    - img [ref=e1626]
+                    - list [ref=e1627]:
+                      - listitem [ref=e1628]: Organic
+                  - generic [ref=e1629]:
+                    - generic [ref=e1630]:
+                      - generic [ref=e1631]:
+                        - generic [ref=e1632]:
+                          - generic [ref=e1633]: "Current price: $7.99"
+                          - generic [ref=e1634]: $799
+                        - generic [ref=e1637]:
+                          - generic [ref=e1638]: "Original Price: $8.99"
+                          - paragraph [ref=e1639]: $8.99
+                      - generic [ref=e1640]: 11% off
+                    - heading [level=3] [ref=e1641]: Sprouts Organic 100% Liquid Egg Whites
+                    - generic [ref=e1642]:
+                      - generic [ref=e1644]: 32 oz
+                      - generic [ref=e1645]: • 2 sizes
+                    - generic [ref=e1646]:
+                      - img [ref=e1648]
+                      - generic [ref=e1650]: Many in stock
+                - button [ref=e1654] [cursor=pointer]:
+                  - generic [ref=e1656]:
+                    - img [ref=e1657]
+                    - generic [ref=e1659]: Add
+          - list [ref=e1661]:
+            - listitem [ref=e1662]:
+              - group [ref=e1664]:
+                - button [ref=e1665] [cursor=pointer]:
+                  - generic [ref=e1669]:
+                    - img [ref=e1670]
+                    - list [ref=e1671]:
+                      - listitem [ref=e1672]: In season
+                  - generic [ref=e1673]:
+                    - generic [ref=e1674]:
+                      - generic [ref=e1676]:
+                        - generic [ref=e1677]: "Current price: $6.99"
+                        - generic [ref=e1678]: $699
+                      - mark [ref=e1680]: Buy 1, get 1 50% off
+                    - heading [level=3] [ref=e1681]: Organic Strawberries
+                    - generic [ref=e1684]: 1 lb container
+                    - generic [ref=e1685]:
+                      - img [ref=e1687]
+                      - generic [ref=e1689]: Many in stock
+                - button [ref=e1691] [cursor=pointer]:
+                  - generic [ref=e1692]:
+                    - generic [ref=e1693]: See eligible items
+                    - img [ref=e1694]
+                - button [ref=e1699] [cursor=pointer]:
+                  - generic [ref=e1701]:
+                    - img [ref=e1702]
+                    - generic [ref=e1704]: Add
+            - listitem [ref=e1705]:
+              - group [ref=e1707]:
+                - button [ref=e1708] [cursor=pointer]:
+                  - generic [ref=e1712]:
+                    - img [ref=e1713]
+                    - list [ref=e1714]:
+                      - listitem [ref=e1715]: No artificial flavors
+                  - generic [ref=e1716]:
+                    - generic [ref=e1719]:
+                      - generic [ref=e1720]: "Current price: $6.99"
+                      - generic [ref=e1721]: $699
+                    - heading [level=3] [ref=e1722]: good culture Organic Whole Milk Cottage Cheese
+                    - generic [ref=e1725]: 16 oz
+                - button [ref=e1729] [cursor=pointer]:
+                  - generic [ref=e1731]:
+                    - img [ref=e1732]
+                    - generic [ref=e1734]: Add
+            - listitem [ref=e1735]:
+              - group [ref=e1737]:
+                - button [ref=e1738] [cursor=pointer]:
+                  - generic [ref=e1742]:
+                    - img [ref=e1743]
+                    - list [ref=e1744]:
+                      - listitem [ref=e1745]: In season
+                  - generic [ref=e1746]:
+                    - generic [ref=e1748]:
+                      - generic [ref=e1749]:
+                        - generic [ref=e1750]: "Current price: $1.43 each (estimated)"
+                        - generic [ref=e1751]: $143
+                      - paragraph [ref=e1755]: each (est.)
+                    - heading [level=3] [ref=e1757]: Organic Yellow Onion
+                    - generic [ref=e1759]:
+                      - generic [ref=e1760]: $1.99 / lb
+                      - generic [ref=e1761]: About 0.72 lb each
+                    - generic [ref=e1762]:
+                      - img [ref=e1764]
+                      - generic [ref=e1766]: Many in stock
+                - button [ref=e1770] [cursor=pointer]:
+                  - generic [ref=e1772]:
+                    - img [ref=e1773]
+                    - generic [ref=e1775]: Add
+          - list [ref=e1777]:
+            - listitem [ref=e1778]:
+              - group [ref=e1780]:
+                - button [ref=e1781] [cursor=pointer]:
+                  - generic [ref=e1785]:
+                    - img [ref=e1786]
+                    - list [ref=e1787]:
+                      - listitem [ref=e1788]: Cage free
+                  - generic [ref=e1789]:
+                    - generic [ref=e1792]:
+                      - generic [ref=e1793]: "Current price: $3.99"
+                      - generic [ref=e1794]: $399
+                    - heading [level=3] [ref=e1795]: Sprouts Cage Free Large Brown Grade A Eggs
+                    - generic [ref=e1796]:
+                      - generic [ref=e1798]: 12 ct
+                      - generic [ref=e1799]: • 2 sizes
+                    - generic [ref=e1800]:
+                      - img [ref=e1802]
+                      - generic [ref=e1804]: Many in stock
+                - button [ref=e1808] [cursor=pointer]:
+                  - generic [ref=e1810]:
+                    - img [ref=e1811]
+                    - generic [ref=e1813]: Add
+            - listitem [ref=e1814]:
+              - group [ref=e1816]:
+                - button [ref=e1817] [cursor=pointer]:
+                  - generic [ref=e1821]:
+                    - img [ref=e1822]
+                    - list [ref=e1823]:
+                      - listitem [ref=e1824]: Free range
+                  - generic [ref=e1825]:
+                    - generic [ref=e1826]:
+                      - generic [ref=e1827]:
+                        - generic [ref=e1828]:
+                          - generic [ref=e1829]: "Current price: $5.99"
+                          - generic [ref=e1830]: $599
+                        - generic [ref=e1833]:
+                          - generic [ref=e1834]: "Original Price: $6.99"
+                          - paragraph [ref=e1835]: $6.99
+                      - generic [ref=e1836]: 14% off
+                    - heading [level=3] [ref=e1837]: Happy Egg Large Brown Grade A Eggs
+                    - generic [ref=e1840]: 12 ct
+                    - generic [ref=e1841]:
+                      - img [ref=e1843]
+                      - generic [ref=e1845]: Many in stock
+                - button [ref=e1849] [cursor=pointer]:
+                  - generic [ref=e1851]:
+                    - img [ref=e1852]
+                    - generic [ref=e1854]: Add
+            - listitem [ref=e1855]:
+              - group [ref=e1857]:
+                - button [ref=e1858] [cursor=pointer]:
+                  - generic [ref=e1862]:
+                    - img [ref=e1863]
+                    - list [ref=e1864]:
+                      - listitem [ref=e1865]: Organic
+                  - generic [ref=e1866]:
+                    - generic [ref=e1867]:
+                      - generic [ref=e1868]:
+                        - generic [ref=e1869]:
+                          - generic [ref=e1870]: "Current price: $4.49"
+                          - generic [ref=e1871]: $449
+                        - generic [ref=e1874]:
+                          - generic [ref=e1875]: "Original Price: $4.99"
+                          - paragraph [ref=e1876]: $4.99
+                      - generic [ref=e1877]: 10% off
+                    - heading [level=3] [ref=e1878]: Sprouts Organic 100% Liquid Egg Whites
+                    - generic [ref=e1879]:
+                      - generic [ref=e1881]: 16 oz
+                      - generic [ref=e1882]: • 2 sizes
+                    - generic [ref=e1883]:
+                      - img [ref=e1885]
+                      - generic [ref=e1887]: Many in stock
+                - button [ref=e1891] [cursor=pointer]:
+                  - generic [ref=e1893]:
+                    - img [ref=e1894]
+                    - generic [ref=e1896]: Add
+          - list [ref=e1898]:
+            - listitem [ref=e1899]:
+              - group [ref=e1901]:
+                - button [ref=e1902] [cursor=pointer]:
+                  - generic [ref=e1906]:
+                    - img [ref=e1907]
+                    - list [ref=e1908]:
+                      - listitem [ref=e1909]: Free range
+                  - generic [ref=e1910]:
+                    - generic [ref=e1911]:
+                      - generic [ref=e1912]:
+                        - generic [ref=e1913]:
+                          - generic [ref=e1914]: "Current price: $9.99"
+                          - generic [ref=e1915]: $999
+                        - generic [ref=e1918]:
+                          - generic [ref=e1919]: "Original Price: $11.49"
+                          - paragraph [ref=e1920]: $11.49
+                      - generic [ref=e1921]: 13% off
+                    - heading [level=3] [ref=e1922]: Happy Egg Medium Grade A Brown Free Range Eggs
+                    - generic [ref=e1925]: 24 ct
+                    - generic [ref=e1926]:
+                      - img [ref=e1928]
+                      - generic [ref=e1930]: Many in stock
+                - button [ref=e1934] [cursor=pointer]:
+                  - generic [ref=e1936]:
+                    - img [ref=e1937]
+                    - generic [ref=e1939]: Add
+            - listitem [ref=e1940]:
+              - group [ref=e1942]:
+                - button [ref=e1943] [cursor=pointer]:
+                  - img [ref=e1948]
+                  - generic [ref=e1949]:
+                    - generic [ref=e1950]:
+                      - generic [ref=e1951]:
+                        - generic [ref=e1952]:
+                          - generic [ref=e1953]: "Current price: $11.49"
+                          - generic [ref=e1954]: $1149
+                        - generic [ref=e1957]:
+                          - generic [ref=e1958]: "Original Price: $12.99"
+                          - paragraph [ref=e1959]: $12.99
+                      - generic [ref=e1960]: 12% off
+                    - heading [level=3] [ref=e1961]: Happy Egg Large Grade A Blue & Brown Free Range Heritage Eggs
+                    - generic [ref=e1964]: 18 ct
+                    - generic [ref=e1965]:
+                      - img [ref=e1967]
+                      - generic [ref=e1969]: Many in stock
+                - button [ref=e1973] [cursor=pointer]:
+                  - generic [ref=e1975]:
+                    - img [ref=e1976]
+                    - generic [ref=e1978]: Add
+            - listitem [ref=e1979]:
+              - group [ref=e1981]:
+                - button [ref=e1982] [cursor=pointer]:
+                  - generic [ref=e1986]:
+                    - img [ref=e1987]
+                    - list [ref=e1988]:
+                      - listitem [ref=e1989]: Cage free
+                  - generic [ref=e1990]:
+                    - generic [ref=e1993]:
+                      - generic [ref=e1994]: "Current price: $5.79"
+                      - generic [ref=e1995]: $579
+                    - heading [level=3] [ref=e1996]: Sprouts Large Cage Free Grade A Brown Eggs
+                    - generic [ref=e1997]:
+                      - generic [ref=e1999]: 18 ct
+                      - generic [ref=e2000]: • 2 sizes
+                    - generic [ref=e2001]:
+                      - img [ref=e2003]
+                      - generic [ref=e2005]: Many in stock
+                - button [ref=e2009] [cursor=pointer]:
+                  - generic [ref=e2011]:
+                    - img [ref=e2012]
+                    - generic [ref=e2014]: Add
+          - list [ref=e2016]:
+            - listitem [ref=e2017]:
+              - group [ref=e2019]:
+                - button [ref=e2020] [cursor=pointer]:
+                  - generic [ref=e2024]:
+                    - img [ref=e2025]
+                    - list [ref=e2026]:
+                      - listitem [ref=e2027]: In season
+                  - generic [ref=e2028]:
+                    - generic [ref=e2031]:
+                      - generic [ref=e2032]: "Current price: $4.99"
+                      - generic [ref=e2033]: $499
+                    - heading [level=3] [ref=e2034]: Organic Yellow Onions Bag
+                    - generic [ref=e2037]: 3 lb
+                    - generic [ref=e2038]:
+                      - img [ref=e2040]
+                      - generic [ref=e2042]: Many in stock
+                - button [ref=e2046] [cursor=pointer]:
+                  - generic [ref=e2048]:
+                    - img [ref=e2049]
+                    - generic [ref=e2051]: Add
+            - listitem [ref=e2052]:
+              - group [ref=e2054]:
+                - button [ref=e2055] [cursor=pointer]:
+                  - generic [ref=e2059]:
+                    - img [ref=e2060]
+                    - list [ref=e2061]:
+                      - listitem [ref=e2062]: Non GMO
+                  - generic [ref=e2063]:
+                    - generic [ref=e2065]:
+                      - generic [ref=e2066]:
+                        - generic [ref=e2067]: "Current price: $9.68 per package (estimated)"
+                        - generic [ref=e2068]: $968
+                      - paragraph [ref=e2072]: /pkg (est.)
+                    - heading [level=3] [ref=e2074]: Sprouts Organic Fresh Boneless Skinless Chicken Thigh
+                    - generic [ref=e2076]:
+                      - generic [ref=e2077]: $8.49 / lb
+                      - generic [ref=e2078]: About 1.14 lb / package
+                    - generic [ref=e2079]:
+                      - img [ref=e2081]
+                      - generic [ref=e2083]: Many in stock
+                - button [ref=e2087] [cursor=pointer]:
+                  - generic [ref=e2089]:
+                    - img [ref=e2090]
+                    - generic [ref=e2092]: Add
+            - listitem [ref=e2093]:
+              - group [ref=e2095]:
+                - button [ref=e2096] [cursor=pointer]:
+                  - generic [ref=e2100]:
+                    - img [ref=e2101]
+                    - list [ref=e2102]:
+                      - listitem [ref=e2103]: Organic
+                  - generic [ref=e2104]:
+                    - generic [ref=e2107]:
+                      - generic [ref=e2108]: "Current price: $9.99"
+                      - generic [ref=e2109]: $999
+                    - heading [level=3] [ref=e2110]: Horizon Organic Organic Half & Half
+                    - generic [ref=e2113]: 0.5 gal
+                    - generic [ref=e2114]:
+                      - img [ref=e2116]
+                      - generic [ref=e2118]: Many in stock
+                - button [ref=e2122] [cursor=pointer]:
+                  - generic [ref=e2124]:
+                    - img [ref=e2125]
+                    - generic [ref=e2127]: Add
+          - list [ref=e2129]:
+            - listitem [ref=e2130]:
+              - group [ref=e2132]:
+                - button [ref=e2133] [cursor=pointer]:
+                  - generic [ref=e2137]:
+                    - img [ref=e2138]
+                    - list [ref=e2139]:
+                      - listitem [ref=e2140]: In season
+                  - generic [ref=e2141]:
+                    - generic [ref=e2143]:
+                      - generic [ref=e2144]:
+                        - generic [ref=e2145]: "Current price: $1.72 each (estimated)"
+                        - generic [ref=e2146]: $172
+                      - paragraph [ref=e2150]: each (est.)
+                    - heading [level=3] [ref=e2152]: Organic Sweet Yellow Onions
+                    - generic [ref=e2154]:
+                      - generic [ref=e2155]: $2.49 / lb
+                      - generic [ref=e2156]: About 0.69 lb each
+                    - generic [ref=e2157]:
+                      - img [ref=e2159]
+                      - generic [ref=e2161]: Many in stock
+                - button [ref=e2165] [cursor=pointer]:
+                  - generic [ref=e2167]:
+                    - img [ref=e2168]
+                    - generic [ref=e2170]: Add
+            - listitem [ref=e2171]:
+              - group [ref=e2173]:
+                - button [ref=e2174] [cursor=pointer]:
+                  - generic [ref=e2178]:
+                    - img [ref=e2179]
+                    - list [ref=e2180]:
+                      - listitem [ref=e2181]: Organic
+                  - generic [ref=e2182]:
+                    - generic [ref=e2185]:
+                      - generic [ref=e2186]: "Current price: $6.99"
+                      - generic [ref=e2187]: $699
+                    - heading [level=3] [ref=e2188]: Sprouts Organic Grade A Ultra Pasteurized Homogenized Half & Half
+                    - generic [ref=e2191]: 64 fl oz
+                - button [ref=e2195] [cursor=pointer]:
+                  - generic [ref=e2197]:
+                    - img [ref=e2198]
+                    - generic [ref=e2200]: Add
+            - listitem [ref=e2201]:
+              - group [ref=e2203]:
+                - button [ref=e2204] [cursor=pointer]:
+                  - generic [ref=e2208]:
+                    - img [ref=e2209]
+                    - list [ref=e2210]:
+                      - listitem [ref=e2211]: Organic
+                  - generic [ref=e2212]:
+                    - generic [ref=e2213]:
+                      - generic [ref=e2214]:
+                        - generic [ref=e2215]:
+                          - generic [ref=e2216]: "Current price: $6.99"
+                          - generic [ref=e2217]: $699
+                        - generic [ref=e2220]:
+                          - generic [ref=e2221]: "Original Price: $7.99"
+                          - paragraph [ref=e2222]: $7.99
+                      - generic [ref=e2223]: 13% off
+                    - heading [level=3] [ref=e2224]: Bellwether Farms Organic A2 Plain Whole Milk Yogurt
+                    - generic [ref=e2225]:
+                      - generic [ref=e2227]: 32 oz
+                      - generic [ref=e2228]: • 2 flavors
+                - button [ref=e2232] [cursor=pointer]:
+                  - generic [ref=e2234]:
+                    - img [ref=e2235]
+                    - generic [ref=e2237]: Add
+          - button [ref=e2238] [cursor=pointer]:
+            - generic [ref=e2239]: Load more
+  - generic [ref=e399]:
+    - dialog "Log in" [active]:
+      - generic [ref=e401]:
+        - generic [ref=e2240]:
+          - button "Back" [ref=e2300] [cursor=pointer]:
+            - img [ref=e2301]
+          - button "Sign up" [ref=e2304] [cursor=pointer]:
+            - generic [ref=e2305]: Sign up
+        - generic [ref=e2307]:
+          - heading "Log in" [level=2] [ref=e2309]
+          - generic [ref=e2310]:
+            - generic [ref=e2314]:
+              - textbox "Enter your email address" [ref=e2315]
+              - generic: Enter your email address
+            - button "Continue" [ref=e2317] [cursor=pointer]:
+              - generic [ref=e2318]: Continue
+          - generic [ref=e2321]: Or continue with
+          - generic [ref=e2322]:
+            - button "Google" [ref=e2323] [cursor=pointer]:
+              - generic [ref=e2325]:
+                - img [ref=e2326]
+                - text: Google
+            - button "Facebook" [ref=e2331] [cursor=pointer]:
+              - generic [ref=e2333]:
+                - img [ref=e2334]
+                - text: Facebook
+            - button "Phone" [ref=e2337] [cursor=pointer]:
+              - generic [ref=e2339]:
+                - img [ref=e2340]
+                - text: Phone

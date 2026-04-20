@@ -1,0 +1,54 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Accessibility Feedback
+    - generic [ref=e9]:
+      - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: sprouts farmers market organic butter price
+        - button "Search using an image" [ref=e19] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e21]:
+      - button "Microsoft Rewards"
+      - link "Sign in" [ref=e22] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e23]
+    - navigation "Search Filter" [ref=e24]:
+      - list [ref=e25]:
+        - listitem [ref=e26]:
+          - link "All" [ref=e27] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e28]:
+          - link "Search" [ref=e29] [cursor=pointer]:
+            - /url: /copilotsearch?q=sprouts+farmers+market+organic+butter+price&FORM=CSSCOP
+            - img [ref=e30]
+            - text: Search
+        - listitem [ref=e32]:
+          - link "Images" [ref=e33] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=68432c83f5e3f1104f685a03ade062aafbd0589d428b08daf8e0960e2fd6bf5cJmltdHM9MTc3NjQ3MDQwMA&ptn=3&ver=2&hsh=4&fclid=36bf7d76-e6c3-64d7-01a7-6a36e7b5653d&u=a1L2ltYWdlcy9zZWFyY2g_cT1zcHJvdXRzK2Zhcm1lcnMrbWFya2V0K29yZ2FuaWMrYnV0dGVyK3ByaWNlJkZPUk09SERSU0My&ntb=1
+        - listitem [ref=e34]:
+          - link "Videos" [ref=e35] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=308a2e0ad7739e7b96032f484d6b650894e81e6ff0343f9aa53465f025026764JmltdHM9MTc3NjQ3MDQwMA&ptn=3&ver=2&hsh=4&fclid=36bf7d76-e6c3-64d7-01a7-6a36e7b5653d&u=a1L3ZpZGVvcy9zZWFyY2g_cT1zcHJvdXRzK2Zhcm1lcnMrbWFya2V0K29yZ2FuaWMrYnV0dGVyK3ByaWNlJkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=e36]:
+          - link "Maps" [ref=e37] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=cc5660ed480d041e799dc81041a6bd2fa76126bf3a038bf07a1a453998ab21dbJmltdHM9MTc3NjQ3MDQwMA&ptn=3&ver=2&hsh=4&fclid=36bf7d76-e6c3-64d7-01a7-6a36e7b5653d&u=a1L21hcHM_cT1zcHJvdXRzK2Zhcm1lcnMrbWFya2V0K29yZ2FuaWMrYnV0dGVyK3ByaWNlJkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=e38]:
+          - link "News" [ref=e39] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=58ccf16bc53c6e5d79d87f4bec0f14d4dd98e8d8476fa188c90cd3af8b3e627fJmltdHM9MTc3NjQ3MDQwMA&ptn=3&ver=2&hsh=4&fclid=36bf7d76-e6c3-64d7-01a7-6a36e7b5653d&u=a1L25ld3Mvc2VhcmNoP3E9c3Byb3V0cytmYXJtZXJzK21hcmtldCtvcmdhbmljK2J1dHRlcitwcmljZSZGT1JNPUhEUlNDNg&ntb=1
+        - listitem [ref=e40]:
+          - button "More" [ref=e41] [cursor=pointer]:
+            - img [ref=e43]
+            - text: More
+  - contentinfo [ref=e45]:
+    - generic [ref=e46]:
+      - list:
+        - listitem [ref=e47]:
+          - link "Privacy" [ref=e48] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b99864c0e289200483b5f969fa6dcce6281f3a269757561582c6666227d4262bJmltdHM9MTc3NjQ3MDQwMA&ptn=3&ver=2&hsh=4&fclid=36bf7d76-e6c3-64d7-01a7-6a36e7b5653d&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e49]:
+          - link "Terms" [ref=e50] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=72e5ccaa28fb900083ed0e3dab1202eacb83466edcc803e4c3c94e23c60db341JmltdHM9MTc3NjQ3MDQwMA&ptn=3&ver=2&hsh=4&fclid=36bf7d76-e6c3-64d7-01a7-6a36e7b5653d&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

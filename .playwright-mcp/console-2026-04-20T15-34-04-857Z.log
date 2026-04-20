@@ -1,0 +1,32 @@
+[     854ms] [LOG] nothing to redirect @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-onload.min.f9ea08c5ace33771345d4cabcd506a8c.js:187
+[     884ms] [WARNING] --------- Target deps ran ------ @ :7
+[     922ms] [WARNING] Wine Shop Enabled @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-onload.min.f9ea08c5ace33771345d4cabcd506a8c.js:31
+[    1085ms] [WARNING] [TEMP DO NOT DELETE] THis is to check the value if data-success-email-checkbox-label is coming or component is triggering  Email me offers, surveys, and special promotions. @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
+[    1090ms] [WARNING] [TEMP DO NOT DELETE] THis is to check the value if data-success-email-checkbox-label is coming or component is triggering  Email me offers, surveys, and special promotions. @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
+[    1096ms] [WARNING] ========> AB TESTING ====> target flag is not loaded @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
+[    1134ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'length')
+    at e.refreshCrossSell (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:4071146)
+    at Object.next (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:4063394)
+    at lt.next (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:238088)
+    at ct._next (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:237771)
+    at ct.next (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:237464)
+    at Pt._subscribe (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:244573)
+    at Pt._trySubscribe (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:239551)
+    at Pt._trySubscribe (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:243422)
+    at https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:239495
+    at rt (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:237214) @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
+[    1134ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://ciam.albertsons.com/api/v1/sessions/me/lifecycle/refresh:0
+[    1272ms] [WARNING] AT: request failed Error: Network request failed
+    at e.onerror (https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:7:1015) @ https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:5
+[    1272ms] [WARNING] [Target Error]:at-request-failed :  @ :86
+[    1272ms] [WARNING] ========> AB TESTING ====> AdobeTarget-Complete event listener called @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
+[    1273ms] [WARNING] AT: [page-init] View delivery error Error: Network request failed
+    at e.onerror (https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:7:1015) @ https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:5
+[    1274ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://safewayinc.tt.omtrdc.net/rest/v1/delivery?client=safewayinc&sessionId=40be41a6128844fc8615ddb071ce4172&version=2.11.3:0
+[    1306ms] [WARNING] No placement beacons found for video ad @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
+[    1306ms] [WARNING] No response found for video ad @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
+[    1381ms] [WARNING] == GLOBAL FLAG NOT ON OR NOT AUTHORIZED @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-header/vons.min.f2ba65def567317fb1deea3b1c90d7c7.js:1
+[    1382ms] [WARNING] == AR FINAL FLAG IS SET false v2 @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-header/vons.min.f2ba65def567317fb1deea3b1c90d7c7.js:1
+[    1382ms] [WARNING] == AR FINAL FLAG IS SET false DISPATCHED THE EVENT @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-header/vons.min.f2ba65def567317fb1deea3b1c90d7c7.js:1
+[    1479ms] [WARNING] GAM Array: 1 @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-header/vons.min.f2ba65def567317fb1deea3b1c90d7c7.js:4878
+[    1519ms] [WARNING] test order details @ https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:22

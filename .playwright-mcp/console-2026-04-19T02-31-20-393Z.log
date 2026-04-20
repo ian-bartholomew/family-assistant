@@ -1,0 +1,2 @@
+[    1570ms] [ERROR] User has arrived at search results page without a term. {app: store, side: client, buildSystem: rspack, owner: customers_search, location: Object} @ https://d2guulkeunn7d8.cloudfront.net/assets/rspack/sentry-bundle.min-e758b2a5efb6b457-v3.js:3
+[    1843ms] [ERROR] User has arrived at search results page without a term. {app: store, side: client, buildSystem: rspack, owner: customers_search, location: Object} @ https://d2guulkeunn7d8.cloudfront.net/assets/rspack/sentry-bundle.min-e758b2a5efb6b457-v3.js:3

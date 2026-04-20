@@ -1,0 +1,2326 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Results" [ref=e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+      - listitem [ref=e10]:
+        - link "Filters" [ref=e11] [cursor=pointer]:
+          - /url: "#s-refinements > div.a-section > div:first-child"
+    - separator [ref=e12]
+    - heading "Keyboard shortcuts" [level=2] [ref=e13]
+    - list "Keyboard shortcuts" [ref=e14]:
+      - listitem [ref=e15]:
+        - link "Search, option, forward slash" [ref=e16] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e17]:
+            - generic [ref=e18]: Search
+            - generic [ref=e19]:
+              - generic [ref=e20]: opt
+              - generic [ref=e21]: +
+              - generic [ref=e22]: /
+      - listitem [ref=e23]:
+        - link "Cart, shift, option, c" [ref=e24] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e25]:
+            - generic [ref=e26]: Cart
+            - generic [ref=e27]:
+              - generic [ref=e28]: shift
+              - generic [ref=e29]: +
+              - generic [ref=e30]: opt
+              - generic [ref=e31]: +
+              - generic [ref=e32]: C
+      - listitem [ref=e33]:
+        - link "Home, shift, option, h" [ref=e34] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e35]:
+            - generic [ref=e36]: Home
+            - generic [ref=e37]:
+              - generic [ref=e38]: shift
+              - generic [ref=e39]: +
+              - generic [ref=e40]: opt
+              - generic [ref=e41]: +
+              - generic [ref=e42]: H
+      - listitem [ref=e43]:
+        - link "Your orders, shift, option, o" [ref=e44] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e45]:
+            - generic [ref=e46]: Orders
+            - generic [ref=e47]:
+              - generic [ref=e48]: shift
+              - generic [ref=e49]: +
+              - generic [ref=e50]: opt
+              - generic [ref=e51]: +
+              - generic [ref=e52]: O
+      - listitem [ref=e53]:
+        - button "Show/hide shortcuts, shift, option, z" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: Show/Hide shortcuts
+            - generic [ref=e57]:
+              - generic [ref=e58]: shift
+              - generic [ref=e59]: +
+              - generic [ref=e60]: opt
+              - generic [ref=e61]: +
+              - generic [ref=e62]: Z
+    - generic [ref=e68]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e69]:
+    - navigation "Primary" [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - link "Amazon" [ref=e74] [cursor=pointer]:
+            - /url: /ref=nav_logo
+          - button "Delivering to Los Angeles 90039 Update location" [ref=e77] [cursor=pointer]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: Delivering to Los Angeles 90039
+              - generic [ref=e81]: Update location
+        - search [ref=e84]:
+          - generic [ref=e87]:
+            - generic [ref=e89]: Grocery & Gourmet Food
+            - combobox "Select the department you want to search in" [ref=e91] [cursor=pointer]:
+              - option "All Departments"
+              - option "Alexa Skills"
+              - option "Amazon Autos"
+              - option "Amazon Devices"
+              - option "Amazon Fresh"
+              - option "Amazon Global Store"
+              - option "Amazon Haul"
+              - option "Amazon One Medical"
+              - option "Amazon Pharmacy"
+              - option "Amazon Resale"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Arts, Crafts & Sewing"
+              - option "Audible Books & Originals"
+              - option "Automotive Parts & Accessories"
+              - option "Baby"
+              - option "Beauty & Personal Care"
+              - option "Books"
+              - option "Bristol Farms"
+              - option "CDs & Vinyl"
+              - option "Cell Phones & Accessories"
+              - option "Clothing, Shoes & Jewelry"
+              - option "Women's Clothing, Shoes & Jewelry"
+              - option "Men's Clothing, Shoes & Jewelry"
+              - option "Girl's Clothing, Shoes & Jewelry"
+              - option "Boy's Clothing, Shoes & Jewelry"
+              - option "Baby Clothing, Shoes & Jewelry"
+              - option "Collectibles & Fine Art"
+              - option "Computers"
+              - option "Credit and Payment Cards"
+              - option "Digital Music"
+              - option "Electronics"
+              - option "Garden & Outdoor"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Food" [selected]
+              - option "Handmade"
+              - option "Health, Household & Baby Care"
+              - option "Home & Business Services"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Just for Prime"
+              - option "Kindle Store"
+              - option "Luggage & Travel Gear"
+              - option "Luxury Stores"
+              - option "Magazine Subscriptions"
+              - option "Mission Wine & Spirits"
+              - option "Movies & TV"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Food Express"
+              - option "Pet Supplies"
+              - option "Premium Beauty"
+              - option "Prime Video"
+              - option "Same-Day Store"
+              - option "Smart Home"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Subscribe & Save"
+              - option "Subscription Boxes"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under $10"
+              - option "Video Games"
+              - option "Whole Foods Market"
+          - searchbox "Search Amazon" [ref=e94]: organic butter
+          - generic "Go" [ref=e97] [cursor=pointer]:
+            - button "Go" [ref=e98]
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - link "Choose a language for shopping in Amazon United States. The current selection is English (EN)." [ref=e102] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e105]:
+                - img "United States" [ref=e106]
+                - generic [ref=e107]: EN
+            - button "Expand to Change Language or Country" [ref=e108] [cursor=pointer]
+          - generic [ref=e109]:
+            - link "Hello, sign in Account & Lists" [ref=e110] [cursor=pointer]:
+              - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%3Fk%3Dorganic%2Bbutter%26rh%3Dn%253A16310101%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e112]: Hello, sign in
+              - generic [ref=e113]: Account & Lists
+            - button "Expand Account and Lists" [ref=e114] [cursor=pointer]
+          - link "Returns & Orders" [ref=e115] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e116]: Returns
+            - generic [ref=e117]: "& Orders"
+          - link "0 items in cart" [ref=e118] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e120]: "0"
+            - generic [ref=e123]: Cart
+      - generic [ref=e124]:
+        - button "Open All Categories Menu" [ref=e126] [cursor=pointer]:
+          - generic [ref=e128]: All
+        - list [ref=e132]:
+          - listitem [ref=e133]:
+            - link "Amazon Haul" [ref=e135] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=e136]:
+            - generic [ref=e137]:
+              - link "Medical Care" [ref=e138] [cursor=pointer]:
+                - /url: https://health.amazon.com/prime?ref_=nav_cs_all_health_ingress_onem_h
+              - button "Medical Care Details" [ref=e139] [cursor=pointer]
+          - listitem [ref=e140]:
+            - link "Amazon Basics" [ref=e142] [cursor=pointer]:
+              - /url: /Amazon_Basics?channel=discovbar&field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=e143]:
+            - link "Best Sellers" [ref=e145] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e146]:
+            - link "Books" [ref=e148] [cursor=pointer]:
+              - /url: /books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books
+          - listitem [ref=e149]:
+            - link "Today's Deals" [ref=e151] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e152]:
+            - generic [ref=e153]:
+              - link "Prime" [ref=e154] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e155] [cursor=pointer]
+          - listitem [ref=e156]:
+            - generic [ref=e157]:
+              - link "Gift Cards" [ref=e158] [cursor=pointer]:
+                - /url: /gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+              - button "Gift Cards Details" [ref=e159] [cursor=pointer]
+          - listitem [ref=e160]:
+            - link "Sell" [ref=e162] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=e163]:
+            - link "Groceries" [ref=e165] [cursor=pointer]:
+              - /url: /fmc/grocery-gateway?gsc=fe16aGPfFs46S&ref_=nav_cs_groceries
+          - listitem [ref=e166]:
+            - link "New Releases" [ref=e168] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e169]:
+            - link "Registry" [ref=e171] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - listitem [ref=e172]:
+            - link "Smart Home" [ref=e174] [cursor=pointer]:
+              - /url: /Smart-Home/b/?ie=UTF8&node=6563140011&ref_=nav_cs_smart_home
+          - listitem [ref=e175]:
+            - link "Music" [ref=e177] [cursor=pointer]:
+              - /url: /music/player?ref_=nav_cs_music
+          - listitem [ref=e178]:
+            - link "Fashion" [ref=e180] [cursor=pointer]:
+              - /url: /amazon-fashion/b/?ie=UTF8&node=7141123011&ref_=nav_cs_fashion
+          - listitem [ref=e181]:
+            - link "Amazon Home" [ref=e183] [cursor=pointer]:
+              - /url: /home-garden-kitchen-furniture-bedding/b/?ie=UTF8&node=1055398&ref_=nav_cs_home
+          - listitem [ref=e184]:
+            - link "Automotive" [ref=e186] [cursor=pointer]:
+              - /url: /automotive-auto-truck-replacements-parts/b/?ie=UTF8&node=15684181&ref_=nav_cs_automotive
+          - listitem [ref=e187]:
+            - link "Sports & Outdoors" [ref=e189] [cursor=pointer]:
+              - /url: /sports-outdoors/b/?ie=UTF8&node=3375251&ref_=nav_cs_sports
+          - listitem [ref=e190]:
+            - link "Toys & Games" [ref=e192] [cursor=pointer]:
+              - /url: /toys/b/?ie=UTF8&node=165793011&ref_=nav_cs_toys
+          - listitem [ref=e193]:
+            - link "Baby" [ref=e195] [cursor=pointer]:
+              - /url: /baby-car-seats-strollers-bedding/b/?ie=UTF8&node=165796011&ref_=nav_cs_baby
+          - listitem [ref=e196]:
+            - link "Home Improvement" [ref=e198] [cursor=pointer]:
+              - /url: /Tools-and-Home-Improvement/b/?ie=UTF8&node=228013&ref_=nav_cs_hi
+          - listitem [ref=e199]:
+            - link "Shop By Interest" [ref=e201] [cursor=pointer]:
+              - /url: /finds?ref_=nav_cs_foundit
+          - listitem [ref=e202]:
+            - link "Pharmacy" [ref=e204] [cursor=pointer]:
+              - /url: https://pharmacy.amazon.com/?nodl=0&ref_=nav_cs_pharmacy
+          - listitem [ref=e205]:
+            - link "Kindle Books" [ref=e207] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=154606011&ref_=nav_cs_kindle_books
+          - listitem [ref=e208]:
+            - link "Beauty & Personal Care" [ref=e210] [cursor=pointer]:
+              - /url: /Beauty-Makeup-Skin-Hair-Products/b/?ie=UTF8&node=3760911&ref_=nav_cs_beauty
+        - link "Watch NBA Hawks vs. Knicks Live now" [ref=e214] [cursor=pointer]:
+          - /url: /gp/video/detail/B0GD5CNYR7/ref=dvm_crs_gat_us_se_dt_swm_l_al_76NBA2026_tp/?ie=UTF8&ref_=nav_swm_dvm_crs_gat_us_se_dt_swm_l_al_76NBA2026_tp&pf_rd_p=c5894c58-c9e8-4930-9f85-592208c3b89c&pf_rd_s=nav-sitewide-msg-text&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=3X7PDS113BQGPYZFD0EE
+          - img "Watch NBA Hawks vs. Knicks Live now" [ref=e215]
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - link "Grocery" [ref=e218] [cursor=pointer]:
+            - /url: /grocery-breakfast-foods-snacks-organic/b/?ie=UTF8&node=16310101&ref_=topnav_storetab_grocery_sn_fo
+          - link "Deals" [ref=e219] [cursor=pointer]:
+            - /url: /Sales-Grocery/b/?ie=UTF8&node=52129011&ref_=sv_grocery_sn_fo_1
+          - link "Snacks, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e220] [cursor=pointer]:
+            - /url: /Snacks-Chips-Cookies-Gum-Gluten-Free/b/?ie=UTF8&node=16322721&ref_=sv_grocery_sn_fo_2
+            - text: Snacks
+          - link "Breakfast, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e222] [cursor=pointer]:
+            - /url: /Breakfast-Foods-Grocery/b/?ie=UTF8&node=16310251&ref_=sv_grocery_sn_fo_3
+            - text: Breakfast
+          - link "Warm Beverages" [ref=e224] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16521305011&ref_=sv_grocery_sn_fo_4
+          - link "Cold Beverages" [ref=e225] [cursor=pointer]:
+            - /url: /Cold-Beverages/b/?ie=UTF8&node=14808787011&ref_=sv_grocery_sn_fo_5
+          - link "Cooking Staples, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e226] [cursor=pointer]:
+            - /url: /Canned-Jarred-Packaged-Foods/b/?ie=UTF8&node=6464939011&ref_=sv_grocery_sn_fo_6
+            - text: Cooking Staples
+          - link "Baby Food, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e228] [cursor=pointer]:
+            - /url: /Baby-Food-Formula-Pouches/b/?ie=UTF8&node=16323111&ref_=sv_grocery_sn_fo_7
+            - text: Baby Food
+          - link "Candy & Chocolate, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e230] [cursor=pointer]:
+            - /url: /Candy-Chocolate/b/?ie=UTF8&node=16322461&ref_=sv_grocery_sn_fo_8
+            - text: Candy & Chocolate
+          - link "Subscribe & Save" [ref=e232] [cursor=pointer]:
+            - /url: /Subscribe-Save/b/?ie=UTF8&node=5856181011&ref_=sv_grocery_sn_fo_9
+          - link "International Foods" [ref=e233] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=17428419011&ref_=sv_grocery_sn_fo_10
+          - link "SNAP-eligible Groceries" [ref=e234] [cursor=pointer]:
+            - /url: /snap-ebt/b/?ie=UTF8&node=19097785011&ref_=sv_grocery_sn_fo_11
+        - generic [ref=e238]:
+          - link "Sign in" [ref=e239] [cursor=pointer]:
+            - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%3Fk%3Dorganic%2Bbutter%26rh%3Dn%253A16310101%26ref%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - generic [ref=e240]: Sign in
+          - generic [ref=e241]:
+            - text: New customer?
+            - link "New to Amazon? Start here to create an account" [ref=e242] [cursor=pointer]:
+              - /url: https://www.amazon.com/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%2F%3F_encoding%3DUTF8%26k%3Dorganic%2520butter%26ref%3Dnb_sb_noss%26rh%3Dn%253A16310101%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - text: Start here.
+      - dialog [ref=e247]
+  - generic [ref=e249]:
+    - 'heading "1-24 of over 5,000 results for \"organic butter\" Sort by: Featured" [level=1] [ref=e252]':
+      - generic [ref=e253]:
+        - heading "1-24 of over 5,000 results for \"organic butter\"" [level=2] [ref=e256]
+        - generic [ref=e261]:
+          - generic [ref=e262]: "Sort by:"
+          - combobox "Sort by:" [ref=e263]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Best Sellers"
+          - generic [ref=e266] [cursor=pointer]: Sort by:Featured
+    - generic [ref=e268]:
+      - generic [ref=e270]:
+        - generic [ref=e272]:
+          - generic [ref=e274]:
+            - generic [ref=e277]:
+              - heading "Results" [level=2] [ref=e278]
+              - generic [ref=e279]: Check each product page for other buying options.
+            - generic:
+              - list:
+                - listitem [ref=e280]:
+                  - generic [ref=e285]:
+                    - link [ref=e289] [cursor=pointer]:
+                      - /url: /365-Everyday-Value-Organic-Butter/dp/B074V3VT8V/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-1
+                      - img [ref=e291]
+                    - generic [ref=e292]:
+                      - generic [ref=e293]:
+                        - link "365 by Whole Foods Market, Organic Butter Salted, 1 lb" [ref=e296] [cursor=pointer]:
+                          - /url: /365-Everyday-Value-Organic-Butter/dp/B074V3VT8V/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-1
+                          - heading "365 by Whole Foods Market, Organic Butter Salted, 1 lb" [level=2] [ref=e297]
+                        - generic [ref=e299]:
+                          - generic [ref=e300]: Natural
+                          - generic [ref=e303]: 16 Ounce
+                      - generic [ref=e304]:
+                        - generic [ref=e305]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e307] [cursor=pointer]:
+                            - generic [ref=e309]: 4.8 out of 5 stars
+                          - link "3,693 ratings" [ref=e313] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Butter/dp/B074V3VT8V/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-1#customerReviews
+                            - text: (3.6K)
+                        - generic [ref=e314]: 10K+ bought in past month
+                      - generic [ref=e315]:
+                        - generic [ref=e317]:
+                          - generic [ref=e318]: Price, product page
+                          - link "$7.49 ( $0.47 /ounce)" [ref=e319] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Butter/dp/B074V3VT8V/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-1
+                            - generic [ref=e320]:
+                              - generic [ref=e321]: $7.49
+                              - generic [ref=e322]:
+                                - text: $
+                                - generic [ref=e323]:
+                                  - text: "7"
+                                  - generic [ref=e324]: .
+                                - text: "49"
+                            - generic [ref=e325]:
+                              - text: (
+                              - generic [ref=e326]:
+                                - generic [ref=e327]: $0.47
+                                - text: $0.47
+                              - text: /ounce)
+                        - generic [ref=e328]: SNAP EBT eligible
+                      - button "Organic content" [ref=e340] [cursor=pointer]:
+                        - generic [ref=e341]: Organic content
+                      - button "Add to cart" [ref=e356] [cursor=pointer]
+                - listitem [ref=e357]:
+                  - generic [ref=e362]:
+                    - link [ref=e366] [cursor=pointer]:
+                      - /url: /365-Everyday-Value-Organic-Unsalted/dp/B074V3V1V3/ref=sr_1_2?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-2
+                      - img [ref=e368]
+                    - generic [ref=e369]:
+                      - generic [ref=e370]:
+                        - link "365 by Whole Foods Market, Organic Butter Unsalted, 1 lb" [ref=e373] [cursor=pointer]:
+                          - /url: /365-Everyday-Value-Organic-Unsalted/dp/B074V3V1V3/ref=sr_1_2?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-2
+                          - heading "365 by Whole Foods Market, Organic Butter Unsalted, 1 lb" [level=2] [ref=e374]
+                        - generic [ref=e377]: Natural
+                      - generic [ref=e378]:
+                        - generic [ref=e379]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e381] [cursor=pointer]:
+                            - generic [ref=e383]: 4.8 out of 5 stars
+                          - link "4,127 ratings" [ref=e387] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Unsalted/dp/B074V3V1V3/ref=sr_1_2?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-2#customerReviews
+                            - text: (4.1K)
+                        - generic [ref=e388]: 10K+ bought in past month
+                      - generic [ref=e389]:
+                        - generic [ref=e391]:
+                          - generic [ref=e392]: Price, product page
+                          - link "$7.49 ( $0.47 /ounce)" [ref=e393] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Unsalted/dp/B074V3V1V3/ref=sr_1_2?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-2
+                            - generic [ref=e394]:
+                              - generic [ref=e395]: $7.49
+                              - generic [ref=e396]:
+                                - text: $
+                                - generic [ref=e397]:
+                                  - text: "7"
+                                  - generic [ref=e398]: .
+                                - text: "49"
+                            - generic [ref=e399]:
+                              - text: (
+                              - generic [ref=e400]:
+                                - generic [ref=e401]: $0.47
+                                - text: $0.47
+                              - text: /ounce)
+                        - generic [ref=e402]: SNAP EBT eligible
+                      - button "Organic content" [ref=e414] [cursor=pointer]:
+                        - generic [ref=e415]: Organic content
+                      - button "Add to cart" [ref=e430] [cursor=pointer]
+                - listitem [ref=e431]:
+                  - generic [ref=e436]:
+                    - link [ref=e440] [cursor=pointer]:
+                      - /url: /Organic-Valley-Butter-Salted-Pound/dp/B000O6EG6Y/ref=sr_1_3?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-3
+                      - img [ref=e442]
+                    - generic [ref=e443]:
+                      - generic [ref=e444]:
+                        - link "Organic Valley Organic Butter Salted, 1 LB (Pack of 1)" [ref=e447] [cursor=pointer]:
+                          - /url: /Organic-Valley-Butter-Salted-Pound/dp/B000O6EG6Y/ref=sr_1_3?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-3
+                          - heading "Organic Valley Organic Butter Salted, 1 LB (Pack of 1)" [level=2] [ref=e448]
+                        - generic [ref=e450]:
+                          - generic [ref=e451]: Salted
+                          - generic [ref=e454]: 1 Pound (Pack of 1)
+                      - generic [ref=e455]:
+                        - generic [ref=e456]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e458] [cursor=pointer]:
+                            - generic [ref=e460]: 4.8 out of 5 stars
+                          - link "2,084 ratings" [ref=e464] [cursor=pointer]:
+                            - /url: /Organic-Valley-Butter-Salted-Pound/dp/B000O6EG6Y/ref=sr_1_3?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-3#customerReviews
+                            - text: (2K)
+                        - generic [ref=e465]: 3K+ bought in past month
+                      - generic [ref=e466]:
+                        - generic [ref=e468]:
+                          - generic [ref=e469]: Price, product page
+                          - link "$9.99 ( $0.62 /ounce)" [ref=e470] [cursor=pointer]:
+                            - /url: /Organic-Valley-Butter-Salted-Pound/dp/B000O6EG6Y/ref=sr_1_3?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-3
+                            - generic [ref=e471]:
+                              - generic [ref=e472]: $9.99
+                              - generic [ref=e473]:
+                                - text: $
+                                - generic [ref=e474]:
+                                  - text: "9"
+                                  - generic [ref=e475]: .
+                                - text: "99"
+                            - generic [ref=e476]:
+                              - text: (
+                              - generic [ref=e477]:
+                                - generic [ref=e478]: $0.62
+                                - text: $0.62
+                              - text: /ounce)
+                        - generic [ref=e479]: SNAP EBT eligible
+                      - button "Organic content" [ref=e491] [cursor=pointer]:
+                        - generic [ref=e492]: Organic content
+                      - button "Add to cart" [ref=e507] [cursor=pointer]
+                - listitem [ref=e508]:
+                  - generic [ref=e513]:
+                    - link [ref=e517] [cursor=pointer]:
+                      - /url: /Organic-Valley-Unsalted-Butter-Pasture/dp/B08X9LB2F3/ref=sr_1_4?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-4
+                      - img [ref=e519]
+                    - generic [ref=e520]:
+                      - generic [ref=e521]:
+                        - link "Organic Valley® Butter (Unsalted) — Organic, Pasture Raised, Non GMO — 4 Sticks — 16 oz" [ref=e524] [cursor=pointer]:
+                          - /url: /Organic-Valley-Unsalted-Butter-Pasture/dp/B08X9LB2F3/ref=sr_1_4?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-4
+                          - heading "Organic Valley® Butter (Unsalted) — Organic, Pasture Raised, Non GMO — 4 Sticks — 16 oz" [level=2] [ref=e525]
+                        - generic [ref=e527]:
+                          - generic [ref=e528]: Unsalted
+                          - generic [ref=e531]: 1 Pound
+                      - generic [ref=e532]:
+                        - generic [ref=e533]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e535] [cursor=pointer]:
+                            - generic [ref=e537]: 4.7 out of 5 stars
+                          - link "1,114 ratings" [ref=e541] [cursor=pointer]:
+                            - /url: /Organic-Valley-Unsalted-Butter-Pasture/dp/B08X9LB2F3/ref=sr_1_4?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-4#customerReviews
+                            - text: (1.1K)
+                        - generic [ref=e542]: 3K+ bought in past month
+                      - generic [ref=e543]:
+                        - generic [ref=e545]:
+                          - generic [ref=e546]: Price, product page
+                          - link "$9.99 ( $0.62 /ounce)" [ref=e547] [cursor=pointer]:
+                            - /url: /Organic-Valley-Unsalted-Butter-Pasture/dp/B08X9LB2F3/ref=sr_1_4?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-4
+                            - generic [ref=e548]:
+                              - generic [ref=e549]: $9.99
+                              - generic [ref=e550]:
+                                - text: $
+                                - generic [ref=e551]:
+                                  - text: "9"
+                                  - generic [ref=e552]: .
+                                - text: "99"
+                            - generic [ref=e553]:
+                              - text: (
+                              - generic [ref=e554]:
+                                - generic [ref=e555]: $0.62
+                                - text: $0.62
+                              - text: /ounce)
+                        - generic [ref=e556]: SNAP EBT eligible
+                      - button "Organic content" [ref=e568] [cursor=pointer]:
+                        - generic [ref=e569]: Organic content
+                      - button "Add to cart" [ref=e584] [cursor=pointer]
+                - listitem [ref=e585]:
+                  - generic [ref=e590]:
+                    - link [ref=e594] [cursor=pointer]:
+                      - /url: /Clover-Butter-Salted-Organic-Ounce/dp/B01BTDNNCI/ref=sr_1_5_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-5
+                      - img [ref=e596]
+                    - generic [ref=e597]:
+                      - generic [ref=e598]:
+                        - link "Clover Sonoma, Organic Salted Butter Quarters, 1 lb" [ref=e601] [cursor=pointer]:
+                          - /url: /Clover-Butter-Salted-Organic-Ounce/dp/B01BTDNNCI/ref=sr_1_5_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-5
+                          - heading "Clover Sonoma, Organic Salted Butter Quarters, 1 lb" [level=2] [ref=e602]
+                        - generic [ref=e605]: Salted
+                      - generic [ref=e606]:
+                        - generic [ref=e607]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e609] [cursor=pointer]:
+                            - generic [ref=e611]: 4.8 out of 5 stars
+                          - link "387 ratings" [ref=e615] [cursor=pointer]:
+                            - /url: /Clover-Butter-Salted-Organic-Ounce/dp/B01BTDNNCI/ref=sr_1_5_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-5#customerReviews
+                            - text: (387)
+                        - generic [ref=e616]: 600+ bought in past month
+                      - generic [ref=e617]:
+                        - generic [ref=e619]:
+                          - generic [ref=e620]: Price, product page
+                          - link "$9.99 ( $9.99 /lb)" [ref=e621] [cursor=pointer]:
+                            - /url: /Clover-Butter-Salted-Organic-Ounce/dp/B01BTDNNCI/ref=sr_1_5_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-5
+                            - generic [ref=e622]:
+                              - generic [ref=e623]: $9.99
+                              - generic [ref=e624]:
+                                - text: $
+                                - generic [ref=e625]:
+                                  - text: "9"
+                                  - generic [ref=e626]: .
+                                - text: "99"
+                            - generic [ref=e627]:
+                              - text: (
+                              - generic [ref=e628]:
+                                - generic [ref=e629]: $9.99
+                                - text: $9.99
+                              - text: /lb)
+                        - generic [ref=e630]: SNAP EBT eligible
+                      - generic [ref=e632]:
+                        - link "Whole Foods Market" [ref=e634] [cursor=pointer]:
+                          - /url: /Clover-Butter-Salted-Organic-Ounce/dp/B01BTDNNCI/ref=sr_1_5_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-5
+                          - img "Whole Foods Market" [ref=e636]
+                        - generic [ref=e638]:
+                          - generic [ref=e640]: $9.95 delivery Today 8 PM - 10 PM with Prime
+                          - generic [ref=e642]: Or FREE pickup
+                      - button "Organic content" [ref=e649] [cursor=pointer]:
+                        - generic [ref=e650]: Organic content
+                      - link "See options" [ref=e657] [cursor=pointer]:
+                        - /url: /Clover-Butter-Salted-Organic-Ounce/dp/B01BTDNNCI/ref=sr_1_5_so_DAIRY_BASED_BUTTER?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-5
+                - listitem [ref=e658]:
+                  - generic [ref=e663]:
+                    - link [ref=e667] [cursor=pointer]:
+                      - /url: /Horizon-Organic-Butter-Unsalted-Sticks/dp/B000O0LXSO/ref=sr_1_6?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-6
+                      - img [ref=e669]
+                    - generic [ref=e670]:
+                      - generic [ref=e671]:
+                        - link "Horizon Organic Unsalted Butter Sticks, Made with Organic Sweet Cream, Great for Baking, Cooking and Caramelizing, 16 oz, 4 Sticks" [ref=e674] [cursor=pointer]:
+                          - /url: /Horizon-Organic-Butter-Unsalted-Sticks/dp/B000O0LXSO/ref=sr_1_6?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-6
+                          - heading "Horizon Organic Unsalted Butter Sticks, Made with Organic Sweet Cream, Great for Baking, Cooking and Caramelizing, 16 oz, 4 Sticks" [level=2] [ref=e675]
+                        - generic [ref=e677]:
+                          - generic [ref=e678]: Unsalted
+                          - generic [ref=e681]: 16 Ounce
+                      - generic [ref=e682]:
+                        - generic [ref=e683]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e685] [cursor=pointer]:
+                            - generic [ref=e687]: 4.8 out of 5 stars
+                          - link "2,915 ratings" [ref=e691] [cursor=pointer]:
+                            - /url: /Horizon-Organic-Butter-Unsalted-Sticks/dp/B000O0LXSO/ref=sr_1_6?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-6#customerReviews
+                            - text: (2.9K)
+                        - generic [ref=e692]: 2K+ bought in past month
+                      - generic [ref=e693]:
+                        - generic [ref=e695]:
+                          - generic [ref=e696]: Price, product page
+                          - link "$10.99 ( $0.69 /ounce)" [ref=e697] [cursor=pointer]:
+                            - /url: /Horizon-Organic-Butter-Unsalted-Sticks/dp/B000O0LXSO/ref=sr_1_6?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-6
+                            - generic [ref=e698]:
+                              - generic [ref=e699]: $10.99
+                              - generic [ref=e700]:
+                                - text: $
+                                - generic [ref=e701]:
+                                  - text: "10"
+                                  - generic [ref=e702]: .
+                                - text: "99"
+                            - generic [ref=e703]:
+                              - text: (
+                              - generic [ref=e704]:
+                                - generic [ref=e705]: $0.69
+                                - text: $0.69
+                              - text: /ounce)
+                        - generic [ref=e706]: SNAP EBT eligible
+                      - button "Organic content" [ref=e718] [cursor=pointer]:
+                        - generic [ref=e719]: Organic content
+                      - button "Add to cart" [ref=e734] [cursor=pointer]
+                - listitem [ref=e735]:
+                  - generic [ref=e740]:
+                    - link [ref=e744] [cursor=pointer]:
+                      - /url: /Kerrygold-Grass-Fed-Salted-Butter-Sticks/dp/B09XZFDRRK/ref=sr_1_7?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-7
+                      - img [ref=e746]
+                    - generic [ref=e747]:
+                      - generic [ref=e748]:
+                        - link "Kerrygold Grass-Fed Pure Irish Salted Butter Sticks, 16 OZ" [ref=e751] [cursor=pointer]:
+                          - /url: /Kerrygold-Grass-Fed-Salted-Butter-Sticks/dp/B09XZFDRRK/ref=sr_1_7?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-7
+                          - heading "Kerrygold Grass-Fed Pure Irish Salted Butter Sticks, 16 OZ" [level=2] [ref=e752]
+                        - generic [ref=e754]:
+                          - generic [ref=e755]: Salted
+                          - generic [ref=e758]: 16 Ounce
+                      - generic [ref=e759]:
+                        - generic [ref=e760]:
+                          - text: "4.9"
+                          - button "4.9 out of 5 stars, rating details" [ref=e762] [cursor=pointer]:
+                            - generic [ref=e764]: 4.9 out of 5 stars
+                          - link "834 ratings" [ref=e768] [cursor=pointer]:
+                            - /url: /Kerrygold-Grass-Fed-Salted-Butter-Sticks/dp/B09XZFDRRK/ref=sr_1_7?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-7#customerReviews
+                            - text: (834)
+                        - generic [ref=e769]: 10K+ bought in past month
+                      - generic [ref=e770]:
+                        - generic [ref=e772]:
+                          - generic [ref=e773]: Price, product page
+                          - link "$12.99 ( $0.81 /ounce)" [ref=e774] [cursor=pointer]:
+                            - /url: /Kerrygold-Grass-Fed-Salted-Butter-Sticks/dp/B09XZFDRRK/ref=sr_1_7?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-7
+                            - generic [ref=e775]:
+                              - generic [ref=e776]: $12.99
+                              - generic [ref=e777]:
+                                - text: $
+                                - generic [ref=e778]:
+                                  - text: "12"
+                                  - generic [ref=e779]: .
+                                - text: "99"
+                            - generic [ref=e780]:
+                              - text: (
+                              - generic [ref=e781]:
+                                - generic [ref=e782]: $0.81
+                                - text: $0.81
+                              - text: /ounce)
+                        - generic [ref=e783]: SNAP EBT eligible
+                      - button "Add to cart" [ref=e802] [cursor=pointer]
+                - listitem [ref=e803]:
+                  - generic [ref=e808]:
+                    - link [ref=e812] [cursor=pointer]:
+                      - /url: /Horizon-Organic-Salted-Butter-Count/dp/B000O0JZNO/ref=sr_1_8?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-8
+                      - img [ref=e814]
+                    - generic [ref=e815]:
+                      - generic [ref=e816]:
+                        - link "Horizon Organic, Butter Salted Organic, 16 Ounce" [ref=e819] [cursor=pointer]:
+                          - /url: /Horizon-Organic-Salted-Butter-Count/dp/B000O0JZNO/ref=sr_1_8?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-8
+                          - heading "Horizon Organic, Butter Salted Organic, 16 Ounce" [level=2] [ref=e820]
+                        - generic [ref=e822]:
+                          - generic [ref=e823]: Salted
+                          - generic [ref=e826]: 16 Ounce
+                      - generic [ref=e827]:
+                        - generic [ref=e828]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e830] [cursor=pointer]:
+                            - generic [ref=e832]: 4.8 out of 5 stars
+                          - link "2,915 ratings" [ref=e836] [cursor=pointer]:
+                            - /url: /Horizon-Organic-Salted-Butter-Count/dp/B000O0JZNO/ref=sr_1_8?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-8#customerReviews
+                            - text: (2.9K)
+                        - generic [ref=e837]: 200+ bought in past month
+                      - generic [ref=e838]:
+                        - generic [ref=e840]:
+                          - generic [ref=e841]: Price, product page
+                          - link "$8.28 ( $0.52 /ounce)" [ref=e842] [cursor=pointer]:
+                            - /url: /Horizon-Organic-Salted-Butter-Count/dp/B000O0JZNO/ref=sr_1_8?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-8
+                            - generic [ref=e843]:
+                              - generic [ref=e844]: $8.28
+                              - generic [ref=e845]:
+                                - text: $
+                                - generic [ref=e846]:
+                                  - text: "8"
+                                  - generic [ref=e847]: .
+                                - text: "28"
+                            - generic [ref=e848]:
+                              - text: (
+                              - generic [ref=e849]:
+                                - generic [ref=e850]: $0.52
+                                - text: $0.52
+                              - text: /ounce)
+                        - generic [ref=e851]: SNAP EBT eligible
+                      - button "Organic content" [ref=e863] [cursor=pointer]:
+                        - generic [ref=e864]: Organic content
+                      - button "Add to cart" [ref=e879] [cursor=pointer]
+                - listitem [ref=e880]:
+                  - generic [ref=e885]:
+                    - link [ref=e889] [cursor=pointer]:
+                      - /url: /Maple-Hill-Creamery-Organic-Salted/dp/B08T7JKNSK/ref=sr_1_9_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-9
+                      - img [ref=e891]
+                    - generic [ref=e892]:
+                      - generic [ref=e893]:
+                        - link "Maple Hill Creamery, Organic Salted Butter, 8 Ounce" [ref=e896] [cursor=pointer]:
+                          - /url: /Maple-Hill-Creamery-Organic-Salted/dp/B08T7JKNSK/ref=sr_1_9_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-9
+                          - heading "Maple Hill Creamery, Organic Salted Butter, 8 Ounce" [level=2] [ref=e897]
+                        - generic [ref=e900]: Organic
+                      - generic [ref=e901]:
+                        - generic [ref=e902]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e904] [cursor=pointer]:
+                            - generic [ref=e906]: 4.8 out of 5 stars
+                          - link "977 ratings" [ref=e910] [cursor=pointer]:
+                            - /url: /Maple-Hill-Creamery-Organic-Salted/dp/B08T7JKNSK/ref=sr_1_9_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-9#customerReviews
+                            - text: (977)
+                        - generic [ref=e911]: 7K+ bought in past month
+                      - generic [ref=e912]:
+                        - generic [ref=e914]:
+                          - generic [ref=e915]: Price, product page
+                          - link "$6.49 ( $6.49 /count)" [ref=e916] [cursor=pointer]:
+                            - /url: /Maple-Hill-Creamery-Organic-Salted/dp/B08T7JKNSK/ref=sr_1_9_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-9
+                            - generic [ref=e917]:
+                              - generic [ref=e918]: $6.49
+                              - generic [ref=e919]:
+                                - text: $
+                                - generic [ref=e920]:
+                                  - text: "6"
+                                  - generic [ref=e921]: .
+                                - text: "49"
+                            - generic [ref=e922]:
+                              - text: (
+                              - generic [ref=e923]:
+                                - generic [ref=e924]: $6.49
+                                - text: $6.49
+                              - text: /count)
+                        - generic [ref=e925]: SNAP EBT eligible
+                      - generic [ref=e927]:
+                        - link "Whole Foods Market" [ref=e929] [cursor=pointer]:
+                          - /url: /Maple-Hill-Creamery-Organic-Salted/dp/B08T7JKNSK/ref=sr_1_9_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-9
+                          - img "Whole Foods Market" [ref=e931]
+                        - generic [ref=e933]:
+                          - generic [ref=e935]: $9.95 delivery Today 8 PM - 10 PM with Prime
+                          - generic [ref=e937]: Or FREE pickup
+                      - button "Organic content" [ref=e944] [cursor=pointer]:
+                        - generic [ref=e945]: Organic content
+                      - link "See options" [ref=e952] [cursor=pointer]:
+                        - /url: /Maple-Hill-Creamery-Organic-Salted/dp/B08T7JKNSK/ref=sr_1_9_so_DAIRY_BASED_BUTTER?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-9
+                - listitem [ref=e953]:
+                  - generic [ref=e958]:
+                    - link [ref=e962] [cursor=pointer]:
+                      - /url: /Kerrygold-Naturally-Softer-All-Natural-Grass-Fed/dp/B00FTC7DR2/ref=sr_1_10?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-10
+                      - img [ref=e964]
+                    - generic [ref=e965]:
+                      - generic [ref=e966]:
+                        - link "Kerrygold Naturally Softer Pure Irish Butter, 8 oz" [ref=e969] [cursor=pointer]:
+                          - /url: /Kerrygold-Naturally-Softer-All-Natural-Grass-Fed/dp/B00FTC7DR2/ref=sr_1_10?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-10
+                          - heading "Kerrygold Naturally Softer Pure Irish Butter, 8 oz" [level=2] [ref=e970]
+                        - generic [ref=e972]:
+                          - generic [ref=e973]: Buttery
+                          - generic [ref=e976]: 8 Ounce
+                      - generic [ref=e977]:
+                        - generic [ref=e978]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e980] [cursor=pointer]:
+                            - generic [ref=e982]: 4.8 out of 5 stars
+                          - link "10,342 ratings" [ref=e986] [cursor=pointer]:
+                            - /url: /Kerrygold-Naturally-Softer-All-Natural-Grass-Fed/dp/B00FTC7DR2/ref=sr_1_10?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-10#customerReviews
+                            - text: (10.3K)
+                        - generic [ref=e987]: 30K+ bought in past month
+                      - generic [ref=e988]:
+                        - generic [ref=e990]:
+                          - generic [ref=e991]: Price, product page
+                          - link "$5.03 ( $0.63 /ounce)" [ref=e992] [cursor=pointer]:
+                            - /url: /Kerrygold-Naturally-Softer-All-Natural-Grass-Fed/dp/B00FTC7DR2/ref=sr_1_10?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-10
+                            - generic [ref=e993]:
+                              - generic [ref=e994]: $5.03
+                              - generic [ref=e995]:
+                                - text: $
+                                - generic [ref=e996]:
+                                  - text: "5"
+                                  - generic [ref=e997]: .
+                                - text: "03"
+                            - generic [ref=e998]:
+                              - text: (
+                              - generic [ref=e999]:
+                                - generic [ref=e1000]: $0.63
+                                - text: $0.63
+                              - text: /ounce)
+                        - generic [ref=e1001]: SNAP EBT eligible
+                      - button "Add to cart" [ref=e1020] [cursor=pointer]
+                - listitem [ref=e1021]:
+                  - generic [ref=e1026]:
+                    - link [ref=e1030] [cursor=pointer]:
+                      - /url: /Kerrygold-Butter-Salted-all-natural-Grass-Fed/dp/B0011EKWBQ/ref=sr_1_11?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-11
+                      - img [ref=e1032]
+                    - generic [ref=e1033]:
+                      - generic [ref=e1034]:
+                        - link "Kerrygold Pure Irish Butter, Salted, 8 oz" [ref=e1037] [cursor=pointer]:
+                          - /url: /Kerrygold-Butter-Salted-all-natural-Grass-Fed/dp/B0011EKWBQ/ref=sr_1_11?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-11
+                          - heading "Kerrygold Pure Irish Butter, Salted, 8 oz" [level=2] [ref=e1038]
+                        - generic [ref=e1040]:
+                          - generic [ref=e1041]: Salted
+                          - generic [ref=e1044]: 8 Ounce
+                      - generic [ref=e1045]:
+                        - generic [ref=e1048]: Top Reviewed for Ingredients
+                        - generic [ref=e1049]:
+                          - text: "4.9"
+                          - button "4.9 out of 5 stars, rating details" [ref=e1051] [cursor=pointer]:
+                            - generic [ref=e1053]: 4.9 out of 5 stars
+                          - link "20,889 ratings" [ref=e1057] [cursor=pointer]:
+                            - /url: /Kerrygold-Butter-Salted-all-natural-Grass-Fed/dp/B0011EKWBQ/ref=sr_1_11?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-11#customerReviews
+                            - text: (20.8K)
+                        - generic [ref=e1058]: 30K+ bought in past month
+                      - generic [ref=e1059]:
+                        - generic [ref=e1061]:
+                          - generic [ref=e1062]: Price, product page
+                          - link "$4.84 ( $0.61 /ounce)" [ref=e1063] [cursor=pointer]:
+                            - /url: /Kerrygold-Butter-Salted-all-natural-Grass-Fed/dp/B0011EKWBQ/ref=sr_1_11?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-11
+                            - generic [ref=e1064]:
+                              - generic [ref=e1065]: $4.84
+                              - generic [ref=e1066]:
+                                - text: $
+                                - generic [ref=e1067]:
+                                  - text: "4"
+                                  - generic [ref=e1068]: .
+                                - text: "84"
+                            - generic [ref=e1069]:
+                              - text: (
+                              - generic [ref=e1070]:
+                                - generic [ref=e1071]: $0.61
+                                - text: $0.61
+                              - text: /ounce)
+                        - generic [ref=e1072]: SNAP EBT eligible
+                      - button "Add to cart" [ref=e1091] [cursor=pointer]
+                - listitem [ref=e1092]:
+                  - generic [ref=e1097]:
+                    - link [ref=e1101] [cursor=pointer]:
+                      - /url: /Maple-Hill-Creamery-Grassfed-Unsalted/dp/B09XCJKHKN/ref=sr_1_12_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-12
+                      - img [ref=e1103]
+                    - generic [ref=e1104]:
+                      - generic [ref=e1105]:
+                        - link "Maple Hill Creamery, Butter Unsalted Organic, 8 Ounce" [ref=e1108] [cursor=pointer]:
+                          - /url: /Maple-Hill-Creamery-Grassfed-Unsalted/dp/B09XCJKHKN/ref=sr_1_12_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-12
+                          - heading "Maple Hill Creamery, Butter Unsalted Organic, 8 Ounce" [level=2] [ref=e1109]
+                        - generic [ref=e1112]: Organic
+                      - generic [ref=e1113]:
+                        - generic [ref=e1114]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e1116] [cursor=pointer]:
+                            - generic [ref=e1118]: 4.8 out of 5 stars
+                          - link "509 ratings" [ref=e1122] [cursor=pointer]:
+                            - /url: /Maple-Hill-Creamery-Grassfed-Unsalted/dp/B09XCJKHKN/ref=sr_1_12_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-12#customerReviews
+                            - text: (509)
+                        - generic [ref=e1123]: 7K+ bought in past month
+                      - generic [ref=e1124]:
+                        - generic [ref=e1126]:
+                          - generic [ref=e1127]: Price, product page
+                          - link "$6.49 ( $0.81 /ounce)" [ref=e1128] [cursor=pointer]:
+                            - /url: /Maple-Hill-Creamery-Grassfed-Unsalted/dp/B09XCJKHKN/ref=sr_1_12_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-12
+                            - generic [ref=e1129]:
+                              - generic [ref=e1130]: $6.49
+                              - generic [ref=e1131]:
+                                - text: $
+                                - generic [ref=e1132]:
+                                  - text: "6"
+                                  - generic [ref=e1133]: .
+                                - text: "49"
+                            - generic [ref=e1134]:
+                              - text: (
+                              - generic [ref=e1135]:
+                                - generic [ref=e1136]: $0.81
+                                - text: $0.81
+                              - text: /ounce)
+                        - generic [ref=e1137]: SNAP EBT eligible
+                      - generic [ref=e1139]:
+                        - link "Whole Foods Market" [ref=e1141] [cursor=pointer]:
+                          - /url: /Maple-Hill-Creamery-Grassfed-Unsalted/dp/B09XCJKHKN/ref=sr_1_12_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-12
+                          - img "Whole Foods Market" [ref=e1143]
+                        - generic [ref=e1145]:
+                          - generic [ref=e1147]: $9.95 delivery Today 8 PM - 10 PM with Prime
+                          - generic [ref=e1149]: Or FREE pickup
+                      - button "Organic content" [ref=e1156] [cursor=pointer]:
+                        - generic [ref=e1157]: Organic content
+                      - link "See options" [ref=e1164] [cursor=pointer]:
+                        - /url: /Maple-Hill-Creamery-Grassfed-Unsalted/dp/B09XCJKHKN/ref=sr_1_12_so_DAIRY_BASED_BUTTER?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-12
+                - listitem [ref=e1165]:
+                  - generic [ref=e1170]:
+                    - link [ref=e1174] [cursor=pointer]:
+                      - /url: /Kerrygold-Grass-Fed-Unsalted-Butter-Sticks/dp/B0CPF1W6B5/ref=sr_1_13?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-13
+                      - img [ref=e1176]
+                    - generic [ref=e1177]:
+                      - generic [ref=e1178]:
+                        - link "Kerrygold Grass-Fed Pure Irish Unsalted Butter Sticks, 16 OZ" [ref=e1181] [cursor=pointer]:
+                          - /url: /Kerrygold-Grass-Fed-Unsalted-Butter-Sticks/dp/B0CPF1W6B5/ref=sr_1_13?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-13
+                          - heading "Kerrygold Grass-Fed Pure Irish Unsalted Butter Sticks, 16 OZ" [level=2] [ref=e1182]
+                        - generic [ref=e1184]:
+                          - generic [ref=e1185]: Unsalted
+                          - generic [ref=e1188]: 16 Ounce
+                      - generic [ref=e1189]:
+                        - generic [ref=e1190]:
+                          - text: "4.9"
+                          - button "4.9 out of 5 stars, rating details" [ref=e1192] [cursor=pointer]:
+                            - generic [ref=e1194]: 4.9 out of 5 stars
+                          - link "326 ratings" [ref=e1198] [cursor=pointer]:
+                            - /url: /Kerrygold-Grass-Fed-Unsalted-Butter-Sticks/dp/B0CPF1W6B5/ref=sr_1_13?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-13#customerReviews
+                            - text: (326)
+                        - generic [ref=e1199]: 4K+ bought in past month
+                      - generic [ref=e1200]:
+                        - generic [ref=e1202]:
+                          - generic [ref=e1203]: Price, product page
+                          - link "$12.99 ( $0.81 /ounce)" [ref=e1204] [cursor=pointer]:
+                            - /url: /Kerrygold-Grass-Fed-Unsalted-Butter-Sticks/dp/B0CPF1W6B5/ref=sr_1_13?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-13
+                            - generic [ref=e1205]:
+                              - generic [ref=e1206]: $12.99
+                              - generic [ref=e1207]:
+                                - text: $
+                                - generic [ref=e1208]:
+                                  - text: "12"
+                                  - generic [ref=e1209]: .
+                                - text: "99"
+                            - generic [ref=e1210]:
+                              - text: (
+                              - generic [ref=e1211]:
+                                - generic [ref=e1212]: $0.81
+                                - text: $0.81
+                              - text: /ounce)
+                        - generic [ref=e1213]: SNAP EBT eligible
+                      - button "Add to cart" [ref=e1232] [cursor=pointer]
+                - listitem [ref=e1233]:
+                  - generic [ref=e1238]:
+                    - link [ref=e1242] [cursor=pointer]:
+                      - /url: /Straus-Family-Creamery-European-Lightly/dp/B000QJDYUI/ref=sr_1_14_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-14
+                      - img [ref=e1244]
+                    - generic [ref=e1245]:
+                      - generic [ref=e1246]:
+                        - link "Straus Family Creamery Butter, European Style, Lightly Salted, Organic, 1 lb" [ref=e1249] [cursor=pointer]:
+                          - /url: /Straus-Family-Creamery-European-Lightly/dp/B000QJDYUI/ref=sr_1_14_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-14
+                          - heading "Straus Family Creamery Butter, European Style, Lightly Salted, Organic, 1 lb" [level=2] [ref=e1250]
+                        - generic [ref=e1253]: Salted
+                      - generic [ref=e1254]:
+                        - generic [ref=e1255]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e1257] [cursor=pointer]:
+                            - generic [ref=e1259]: 4.8 out of 5 stars
+                          - link "276 ratings" [ref=e1263] [cursor=pointer]:
+                            - /url: /Straus-Family-Creamery-European-Lightly/dp/B000QJDYUI/ref=sr_1_14_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-14#customerReviews
+                            - text: (276)
+                        - generic [ref=e1264]: 600+ bought in past month
+                      - generic [ref=e1265]:
+                        - generic [ref=e1267]:
+                          - generic [ref=e1268]: Price, product page
+                          - link "$9.99 ( $0.62 /ounce)" [ref=e1269] [cursor=pointer]:
+                            - /url: /Straus-Family-Creamery-European-Lightly/dp/B000QJDYUI/ref=sr_1_14_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-14
+                            - generic [ref=e1270]:
+                              - generic [ref=e1271]: $9.99
+                              - generic [ref=e1272]:
+                                - text: $
+                                - generic [ref=e1273]:
+                                  - text: "9"
+                                  - generic [ref=e1274]: .
+                                - text: "99"
+                            - generic [ref=e1275]:
+                              - text: (
+                              - generic [ref=e1276]:
+                                - generic [ref=e1277]: $0.62
+                                - text: $0.62
+                              - text: /ounce)
+                        - generic [ref=e1278]: SNAP EBT eligible
+                      - generic [ref=e1280]:
+                        - link "Whole Foods Market" [ref=e1282] [cursor=pointer]:
+                          - /url: /Straus-Family-Creamery-European-Lightly/dp/B000QJDYUI/ref=sr_1_14_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-14
+                          - img "Whole Foods Market" [ref=e1284]
+                        - generic [ref=e1286]:
+                          - generic [ref=e1288]: $9.95 delivery Today 8 PM - 10 PM with Prime
+                          - generic [ref=e1290]: Or FREE pickup
+                      - button "Organic content" [ref=e1297] [cursor=pointer]:
+                        - generic [ref=e1298]: Organic content
+                      - link "See options" [ref=e1305] [cursor=pointer]:
+                        - /url: /Straus-Family-Creamery-European-Lightly/dp/B000QJDYUI/ref=sr_1_14_so_DAIRY_BASED_BUTTER?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-14
+                - listitem [ref=e1306]:
+                  - generic [ref=e1311]:
+                    - link [ref=e1315] [cursor=pointer]:
+                      - /url: /vital-Butter-Sticks-Salted-sticks/dp/B01AXSVE6M/ref=sr_1_15?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-15
+                      - img [ref=e1317]
+                    - generic [ref=e1318]:
+                      - generic [ref=e1319]:
+                        - link "Vital Farms Salted Butter, 8oz" [ref=e1322] [cursor=pointer]:
+                          - /url: /vital-Butter-Sticks-Salted-sticks/dp/B01AXSVE6M/ref=sr_1_15?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-15
+                          - heading "Vital Farms Salted Butter, 8oz" [level=2] [ref=e1323]
+                        - generic [ref=e1325]:
+                          - generic [ref=e1326]: Salted
+                          - generic [ref=e1329]: 8 Ounce (Pack of 1)
+                      - generic [ref=e1330]:
+                        - generic [ref=e1331]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e1333] [cursor=pointer]:
+                            - generic [ref=e1335]: 4.8 out of 5 stars
+                          - link "5,217 ratings" [ref=e1339] [cursor=pointer]:
+                            - /url: /vital-Butter-Sticks-Salted-sticks/dp/B01AXSVE6M/ref=sr_1_15?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-15#customerReviews
+                            - text: (5.2K)
+                        - generic [ref=e1340]: 7K+ bought in past month
+                      - generic [ref=e1341]:
+                        - generic [ref=e1343]:
+                          - generic [ref=e1344]: Price, product page
+                          - link "$4.99 ( $0.62 /ounce)" [ref=e1345] [cursor=pointer]:
+                            - /url: /vital-Butter-Sticks-Salted-sticks/dp/B01AXSVE6M/ref=sr_1_15?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-15
+                            - generic [ref=e1346]:
+                              - generic [ref=e1347]: $4.99
+                              - generic [ref=e1348]:
+                                - text: $
+                                - generic [ref=e1349]:
+                                  - text: "4"
+                                  - generic [ref=e1350]: .
+                                - text: "99"
+                            - generic [ref=e1351]:
+                              - text: (
+                              - generic [ref=e1352]:
+                                - generic [ref=e1353]: $0.62
+                                - text: $0.62
+                              - text: /ounce)
+                        - generic [ref=e1354]: SNAP EBT eligible
+                      - button "Add to cart" [ref=e1373] [cursor=pointer]
+                - listitem [ref=e1374]:
+                  - generic [ref=e1379]:
+                    - link [ref=e1383] [cursor=pointer]:
+                      - /url: /Kerrygold-Unsalted-Butter-All-Natural-Grass-Fed/dp/B01HXZ022A/ref=sr_1_16?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-16
+                      - img [ref=e1385]
+                    - generic [ref=e1386]:
+                      - generic [ref=e1387]:
+                        - link "Kerrygold Butter Sticks, Unsalted, 8 oz" [ref=e1390] [cursor=pointer]:
+                          - /url: /Kerrygold-Unsalted-Butter-All-Natural-Grass-Fed/dp/B01HXZ022A/ref=sr_1_16?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-16
+                          - heading "Kerrygold Butter Sticks, Unsalted, 8 oz" [level=2] [ref=e1391]
+                        - generic [ref=e1393]:
+                          - generic [ref=e1394]: Unsalted
+                          - generic [ref=e1397]: 8 Ounce
+                      - generic [ref=e1398]:
+                        - generic [ref=e1399]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e1401] [cursor=pointer]:
+                            - generic [ref=e1403]: 4.8 out of 5 stars
+                          - link "5,217 ratings" [ref=e1407] [cursor=pointer]:
+                            - /url: /Kerrygold-Unsalted-Butter-All-Natural-Grass-Fed/dp/B01HXZ022A/ref=sr_1_16?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-16#customerReviews
+                            - text: (5.2K)
+                        - generic [ref=e1408]: 10K+ bought in past month
+                      - generic [ref=e1409]:
+                        - generic [ref=e1411]:
+                          - generic [ref=e1412]: Price, product page
+                          - link "$4.84 ( $0.61 /ounce)" [ref=e1413] [cursor=pointer]:
+                            - /url: /Kerrygold-Unsalted-Butter-All-Natural-Grass-Fed/dp/B01HXZ022A/ref=sr_1_16?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-16
+                            - generic [ref=e1414]:
+                              - generic [ref=e1415]: $4.84
+                              - generic [ref=e1416]:
+                                - text: $
+                                - generic [ref=e1417]:
+                                  - text: "4"
+                                  - generic [ref=e1418]: .
+                                - text: "84"
+                            - generic [ref=e1419]:
+                              - text: (
+                              - generic [ref=e1420]:
+                                - generic [ref=e1421]: $0.61
+                                - text: $0.61
+                              - text: /ounce)
+                        - generic [ref=e1422]: SNAP EBT eligible
+                      - button "Add to cart" [ref=e1441] [cursor=pointer]
+                - listitem [ref=e1442]:
+                  - generic [ref=e1447]:
+                    - link [ref=e1451] [cursor=pointer]:
+                      - /url: /Vital-Farms-Butter-Salted-Count/dp/B07WQY9W11/ref=sr_1_17_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-17
+                      - img [ref=e1453]
+                    - generic [ref=e1454]:
+                      - generic [ref=e1455]:
+                        - link "Vital Farms Salted Butter, 16oz" [ref=e1458] [cursor=pointer]:
+                          - /url: /Vital-Farms-Butter-Salted-Count/dp/B07WQY9W11/ref=sr_1_17_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-17
+                          - heading "Vital Farms Salted Butter, 16oz" [level=2] [ref=e1459]
+                        - generic [ref=e1462]: Salted
+                      - generic [ref=e1463]:
+                        - generic [ref=e1464]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e1466] [cursor=pointer]:
+                            - generic [ref=e1468]: 4.8 out of 5 stars
+                          - link "950 ratings" [ref=e1472] [cursor=pointer]:
+                            - /url: /Vital-Farms-Butter-Salted-Count/dp/B07WQY9W11/ref=sr_1_17_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-17#customerReviews
+                            - text: (950)
+                        - generic [ref=e1473]: 5K+ bought in past month
+                      - generic [ref=e1474]:
+                        - generic [ref=e1476]:
+                          - generic [ref=e1477]: Price, product page
+                          - link "$8.99 ( $0.56 /ounce)" [ref=e1478] [cursor=pointer]:
+                            - /url: /Vital-Farms-Butter-Salted-Count/dp/B07WQY9W11/ref=sr_1_17_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-17
+                            - generic [ref=e1479]:
+                              - generic [ref=e1480]: $8.99
+                              - generic [ref=e1481]:
+                                - text: $
+                                - generic [ref=e1482]:
+                                  - text: "8"
+                                  - generic [ref=e1483]: .
+                                - text: "99"
+                            - generic [ref=e1484]:
+                              - text: (
+                              - generic [ref=e1485]:
+                                - generic [ref=e1486]: $0.56
+                                - text: $0.56
+                              - text: /ounce)
+                        - generic [ref=e1487]: SNAP EBT eligible
+                      - generic [ref=e1489]:
+                        - link "Whole Foods Market" [ref=e1491] [cursor=pointer]:
+                          - /url: /Vital-Farms-Butter-Salted-Count/dp/B07WQY9W11/ref=sr_1_17_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-17
+                          - img "Whole Foods Market" [ref=e1493]
+                        - generic [ref=e1495]:
+                          - generic [ref=e1497]: $9.95 delivery Today 8 PM - 10 PM with Prime
+                          - generic [ref=e1499]: Or FREE pickup
+                      - link "See options" [ref=e1505] [cursor=pointer]:
+                        - /url: /Vital-Farms-Butter-Salted-Count/dp/B07WQY9W11/ref=sr_1_17_so_DAIRY_BASED_BUTTER?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-17
+                - listitem [ref=e1506]:
+                  - generic [ref=e1511]:
+                    - link [ref=e1515] [cursor=pointer]:
+                      - /url: /Kerrygold-Salted-Irish-Butter-Sticks/dp/B01HXZ021G/ref=sr_1_18?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-18
+                      - img [ref=e1517]
+                    - generic [ref=e1518]:
+                      - generic [ref=e1519]:
+                        - link "Kerrygold Butter Sticks, Salted, 8 oz" [ref=e1522] [cursor=pointer]:
+                          - /url: /Kerrygold-Salted-Irish-Butter-Sticks/dp/B01HXZ021G/ref=sr_1_18?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-18
+                          - heading "Kerrygold Butter Sticks, Salted, 8 oz" [level=2] [ref=e1523]
+                        - generic [ref=e1525]:
+                          - generic [ref=e1526]: Salted
+                          - generic [ref=e1529]: 8 Ounce
+                      - generic [ref=e1530]:
+                        - generic [ref=e1531]:
+                          - text: "4.9"
+                          - button "4.9 out of 5 stars, rating details" [ref=e1533] [cursor=pointer]:
+                            - generic [ref=e1535]: 4.9 out of 5 stars
+                          - link "8,608 ratings" [ref=e1539] [cursor=pointer]:
+                            - /url: /Kerrygold-Salted-Irish-Butter-Sticks/dp/B01HXZ021G/ref=sr_1_18?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-18#customerReviews
+                            - text: (8.6K)
+                        - generic [ref=e1540]: 30K+ bought in past month
+                      - generic [ref=e1541]:
+                        - generic [ref=e1543]:
+                          - generic [ref=e1544]: Price, product page
+                          - link "$4.84 ( $0.61 /ounce)" [ref=e1545] [cursor=pointer]:
+                            - /url: /Kerrygold-Salted-Irish-Butter-Sticks/dp/B01HXZ021G/ref=sr_1_18?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-18
+                            - generic [ref=e1546]:
+                              - generic [ref=e1547]: $4.84
+                              - generic [ref=e1548]:
+                                - text: $
+                                - generic [ref=e1549]:
+                                  - text: "4"
+                                  - generic [ref=e1550]: .
+                                - text: "84"
+                            - generic [ref=e1551]:
+                              - text: (
+                              - generic [ref=e1552]:
+                                - generic [ref=e1553]: $0.61
+                                - text: $0.61
+                              - text: /ounce)
+                        - generic [ref=e1554]: SNAP EBT eligible
+                      - button "Add to cart" [ref=e1573] [cursor=pointer]
+                - listitem [ref=e1574]:
+                  - generic [ref=e1579]:
+                    - link [ref=e1583] [cursor=pointer]:
+                      - /url: /Horizon-Organic-Butter-Salted-Ounce/dp/B00B03Z19G/ref=sr_1_19_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-19
+                      - img [ref=e1585]
+                    - generic [ref=e1586]:
+                      - generic [ref=e1587]:
+                        - link "Horizon Organic Salted Butter, 16 oz., 4 Sticks" [ref=e1590] [cursor=pointer]:
+                          - /url: /Horizon-Organic-Butter-Salted-Ounce/dp/B00B03Z19G/ref=sr_1_19_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-19
+                          - heading "Horizon Organic Salted Butter, 16 oz., 4 Sticks" [level=2] [ref=e1591]
+                        - generic [ref=e1594]: Salted
+                      - generic [ref=e1595]:
+                        - generic [ref=e1596]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e1598] [cursor=pointer]:
+                            - generic [ref=e1600]: 4.7 out of 5 stars
+                          - link "401 ratings" [ref=e1604] [cursor=pointer]:
+                            - /url: /Horizon-Organic-Butter-Salted-Ounce/dp/B00B03Z19G/ref=sr_1_19_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-19#customerReviews
+                            - text: (401)
+                        - generic [ref=e1605]: 1K+ bought in past month
+                      - generic [ref=e1606]:
+                        - generic [ref=e1608]:
+                          - generic [ref=e1609]: Price, product page
+                          - link "$9.99 ( $0.62 /ounce)" [ref=e1610] [cursor=pointer]:
+                            - /url: /Horizon-Organic-Butter-Salted-Ounce/dp/B00B03Z19G/ref=sr_1_19_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-19
+                            - generic [ref=e1611]:
+                              - generic [ref=e1612]: $9.99
+                              - generic [ref=e1613]:
+                                - text: $
+                                - generic [ref=e1614]:
+                                  - text: "9"
+                                  - generic [ref=e1615]: .
+                                - text: "99"
+                            - generic [ref=e1616]:
+                              - text: (
+                              - generic [ref=e1617]:
+                                - generic [ref=e1618]: $0.62
+                                - text: $0.62
+                              - text: /ounce)
+                        - generic [ref=e1619]: SNAP EBT eligible
+                      - generic [ref=e1621]:
+                        - link "Whole Foods Market" [ref=e1623] [cursor=pointer]:
+                          - /url: /Horizon-Organic-Butter-Salted-Ounce/dp/B00B03Z19G/ref=sr_1_19_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-19
+                          - img "Whole Foods Market" [ref=e1625]
+                        - generic [ref=e1629]: $9.95 delivery Today 8 PM - 10 PM with Prime
+                      - button "Organic content" [ref=e1636] [cursor=pointer]:
+                        - generic [ref=e1637]: Organic content
+                      - link "See options" [ref=e1644] [cursor=pointer]:
+                        - /url: /Horizon-Organic-Butter-Salted-Ounce/dp/B00B03Z19G/ref=sr_1_19_so_DAIRY_BASED_BUTTER?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-19
+                - listitem [ref=e1645]:
+                  - generic [ref=e1650]:
+                    - link [ref=e1654] [cursor=pointer]:
+                      - /url: /Vermont-Creamery-Butter-Cultured-Stick/dp/B07NR3LF2F/ref=sr_1_20_us_f3_0g_fs?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-20
+                      - img [ref=e1656]
+                    - generic [ref=e1657]:
+                      - generic [ref=e1658]:
+                        - link "Vermont Creamery® Cultured Butter Sea Salt, 8 oz in 2 Sticks" [ref=e1661] [cursor=pointer]:
+                          - /url: /Vermont-Creamery-Butter-Cultured-Stick/dp/B07NR3LF2F/ref=sr_1_20_us_f3_0g_fs?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-20
+                          - heading "Vermont Creamery® Cultured Butter Sea Salt, 8 oz in 2 Sticks" [level=2] [ref=e1662]
+                        - generic [ref=e1665]: Sea Salt
+                      - generic [ref=e1666]:
+                        - generic [ref=e1667]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e1669] [cursor=pointer]:
+                            - generic [ref=e1671]: 4.8 out of 5 stars
+                          - link "1,679 ratings" [ref=e1675] [cursor=pointer]:
+                            - /url: /Vermont-Creamery-Butter-Cultured-Stick/dp/B07NR3LF2F/ref=sr_1_20_us_f3_0g_fs?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-20#customerReviews
+                            - text: (1.6K)
+                        - generic [ref=e1676]: 2K+ bought in past month
+                      - generic [ref=e1677]:
+                        - generic [ref=e1679]:
+                          - generic [ref=e1680]: Price, product page
+                          - link "$6.49 ( $0.81 /ounce)" [ref=e1681] [cursor=pointer]:
+                            - /url: /Vermont-Creamery-Butter-Cultured-Stick/dp/B07NR3LF2F/ref=sr_1_20_us_f3_0g_fs?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-20
+                            - generic [ref=e1682]:
+                              - generic [ref=e1683]: $6.49
+                              - generic [ref=e1684]:
+                                - text: $
+                                - generic [ref=e1685]:
+                                  - text: "6"
+                                  - generic [ref=e1686]: .
+                                - text: "49"
+                            - generic [ref=e1687]:
+                              - text: (
+                              - generic [ref=e1688]:
+                                - generic [ref=e1689]: $0.81
+                                - text: $0.81
+                              - text: /ounce)
+                        - generic [ref=e1690]: SNAP EBT eligible
+                      - generic [ref=e1691]:
+                        - generic [ref=e1692]:
+                          - link "Amazon Fresh" [ref=e1694] [cursor=pointer]:
+                            - /url: /Vermont-Creamery-Butter-Cultured-Stick/dp/B07NR3LF2F/ref=sr_1_20_us_f3_0g_fs?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-20
+                            - img "Amazon Fresh" [ref=e1696]
+                          - generic [ref=e1700]: FREE delivery on orders over $100 with Prime
+                        - generic "Out of Stock" [ref=e1702]
+                      - link "See options" [ref=e1708] [cursor=pointer]:
+                        - /url: /Vermont-Creamery-Butter-Cultured-Stick/dp/B07NR3LF2F/ref=sr_1_20_so_DAIRY_BASED_BUTTER?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-20
+                - listitem [ref=e1709]:
+                  - generic [ref=e1714]:
+                    - link [ref=e1718] [cursor=pointer]:
+                      - /url: /Vital-Farms-Unsalted-Pasture-Raised-Alfresco/dp/B01AXSVE4E/ref=sr_1_21?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-21
+                      - img [ref=e1720]
+                    - generic [ref=e1721]:
+                      - generic [ref=e1722]:
+                        - link "Vital Farms Unsalted Butter, 8oz" [ref=e1725] [cursor=pointer]:
+                          - /url: /Vital-Farms-Unsalted-Pasture-Raised-Alfresco/dp/B01AXSVE4E/ref=sr_1_21?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-21
+                          - heading "Vital Farms Unsalted Butter, 8oz" [level=2] [ref=e1726]
+                        - generic [ref=e1728]:
+                          - generic [ref=e1729]: Unsalted
+                          - generic [ref=e1732]: 8 Ounce
+                      - generic [ref=e1733]:
+                        - generic [ref=e1734]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e1736] [cursor=pointer]:
+                            - generic [ref=e1738]: 4.8 out of 5 stars
+                          - link "3,890 ratings" [ref=e1742] [cursor=pointer]:
+                            - /url: /Vital-Farms-Unsalted-Pasture-Raised-Alfresco/dp/B01AXSVE4E/ref=sr_1_21?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-21#customerReviews
+                            - text: (3.8K)
+                        - generic [ref=e1743]: 5K+ bought in past month
+                      - generic [ref=e1744]:
+                        - generic [ref=e1746]:
+                          - generic [ref=e1747]: Price, product page
+                          - link "$4.99 ( $4.99 /count)" [ref=e1748] [cursor=pointer]:
+                            - /url: /Vital-Farms-Unsalted-Pasture-Raised-Alfresco/dp/B01AXSVE4E/ref=sr_1_21?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-21
+                            - generic [ref=e1749]:
+                              - generic [ref=e1750]: $4.99
+                              - generic [ref=e1751]:
+                                - text: $
+                                - generic [ref=e1752]:
+                                  - text: "4"
+                                  - generic [ref=e1753]: .
+                                - text: "99"
+                            - generic [ref=e1754]:
+                              - text: (
+                              - generic [ref=e1755]:
+                                - generic [ref=e1756]: $4.99
+                                - text: $4.99
+                              - text: /count)
+                        - generic [ref=e1757]: SNAP EBT eligible
+                      - button "Add to cart" [ref=e1776] [cursor=pointer]
+                - listitem [ref=e1777]:
+                  - generic [ref=e1782]:
+                    - link [ref=e1786] [cursor=pointer]:
+                      - /url: /Straus-Organic-Butter-Unsalted-16/dp/B00NAJ0I2S/ref=sr_1_22_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-22
+                      - img [ref=e1788]
+                    - generic [ref=e1789]:
+                      - generic [ref=e1790]:
+                        - link "Straus Organic Butter - Unsalted, 16 oz" [ref=e1793] [cursor=pointer]:
+                          - /url: /Straus-Organic-Butter-Unsalted-16/dp/B00NAJ0I2S/ref=sr_1_22_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-22
+                          - heading "Straus Organic Butter - Unsalted, 16 oz" [level=2] [ref=e1794]
+                        - generic [ref=e1797]: Unsalted
+                      - generic [ref=e1798]:
+                        - generic [ref=e1799]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e1801] [cursor=pointer]:
+                            - generic [ref=e1803]: 4.8 out of 5 stars
+                          - link "264 ratings" [ref=e1807] [cursor=pointer]:
+                            - /url: /Straus-Organic-Butter-Unsalted-16/dp/B00NAJ0I2S/ref=sr_1_22_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-22#customerReviews
+                            - text: (264)
+                        - generic [ref=e1808]: 600+ bought in past month
+                      - generic [ref=e1809]:
+                        - generic [ref=e1811]:
+                          - generic [ref=e1812]: Price, product page
+                          - link "$9.99 ( $0.62 /ounce)" [ref=e1813] [cursor=pointer]:
+                            - /url: /Straus-Organic-Butter-Unsalted-16/dp/B00NAJ0I2S/ref=sr_1_22_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-22
+                            - generic [ref=e1814]:
+                              - generic [ref=e1815]: $9.99
+                              - generic [ref=e1816]:
+                                - text: $
+                                - generic [ref=e1817]:
+                                  - text: "9"
+                                  - generic [ref=e1818]: .
+                                - text: "99"
+                            - generic [ref=e1819]:
+                              - text: (
+                              - generic [ref=e1820]:
+                                - generic [ref=e1821]: $0.62
+                                - text: $0.62
+                              - text: /ounce)
+                        - generic [ref=e1822]: SNAP EBT eligible
+                      - generic [ref=e1824]:
+                        - link "Whole Foods Market" [ref=e1826] [cursor=pointer]:
+                          - /url: /Straus-Organic-Butter-Unsalted-16/dp/B00NAJ0I2S/ref=sr_1_22_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-22
+                          - img "Whole Foods Market" [ref=e1828]
+                        - generic [ref=e1830]:
+                          - generic [ref=e1832]: $9.95 delivery Today 8 PM - 10 PM with Prime
+                          - generic [ref=e1834]: Or FREE pickup
+                      - button "Organic content" [ref=e1841] [cursor=pointer]:
+                        - generic [ref=e1842]: Organic content
+                      - link "See options" [ref=e1849] [cursor=pointer]:
+                        - /url: /Straus-Organic-Butter-Unsalted-16/dp/B00NAJ0I2S/ref=sr_1_22_so_DAIRY_BASED_BUTTER?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-22
+                - listitem [ref=e1850]:
+                  - generic [ref=e1855]:
+                    - link [ref=e1859] [cursor=pointer]:
+                      - /url: /ORGANIC-VALLEY-Organic-Salted-Butter/dp/B0FMKK73QS/ref=sr_1_23_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-23
+                      - img [ref=e1861]
+                    - generic [ref=e1862]:
+                      - link "ORGANIC VALLEY Organic Two Stick Salted Butter, 8 OZ" [ref=e1866] [cursor=pointer]:
+                        - /url: /ORGANIC-VALLEY-Organic-Salted-Butter/dp/B0FMKK73QS/ref=sr_1_23_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-23
+                        - heading "ORGANIC VALLEY Organic Two Stick Salted Butter, 8 OZ" [level=2] [ref=e1867]
+                      - generic [ref=e1868]:
+                        - generic [ref=e1869]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e1871] [cursor=pointer]:
+                            - generic [ref=e1873]: 4.7 out of 5 stars
+                          - link "4 ratings" [ref=e1877] [cursor=pointer]:
+                            - /url: /ORGANIC-VALLEY-Organic-Salted-Butter/dp/B0FMKK73QS/ref=sr_1_23_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-23#customerReviews
+                            - text: (4)
+                        - generic [ref=e1878]: 2K+ bought in past month
+                      - generic [ref=e1879]:
+                        - generic [ref=e1881]:
+                          - generic [ref=e1882]: Price, product page
+                          - link "$5.49 ( $0.69 /ounce)" [ref=e1883] [cursor=pointer]:
+                            - /url: /ORGANIC-VALLEY-Organic-Salted-Butter/dp/B0FMKK73QS/ref=sr_1_23_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-23
+                            - generic [ref=e1884]:
+                              - generic [ref=e1885]: $5.49
+                              - generic [ref=e1886]:
+                                - text: $
+                                - generic [ref=e1887]:
+                                  - text: "5"
+                                  - generic [ref=e1888]: .
+                                - text: "49"
+                            - generic [ref=e1889]:
+                              - text: (
+                              - generic [ref=e1890]:
+                                - generic [ref=e1891]: $0.69
+                                - text: $0.69
+                              - text: /ounce)
+                        - generic [ref=e1892]: SNAP EBT eligible
+                      - generic [ref=e1894]:
+                        - link "Whole Foods Market" [ref=e1896] [cursor=pointer]:
+                          - /url: /ORGANIC-VALLEY-Organic-Salted-Butter/dp/B0FMKK73QS/ref=sr_1_23_us_f3_0g_wf?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-23
+                          - img "Whole Foods Market" [ref=e1898]
+                        - generic [ref=e1900]:
+                          - generic [ref=e1902]: $9.95 delivery Today 8 PM - 10 PM with Prime
+                          - generic [ref=e1904]: Or FREE pickup
+                      - button "Organic content" [ref=e1911] [cursor=pointer]:
+                        - generic [ref=e1912]: Organic content
+                      - link "See options" [ref=e1919] [cursor=pointer]:
+                        - /url: /ORGANIC-VALLEY-Organic-Salted-Butter/dp/B0FMKK73QS/ref=sr_1_23_so_DAIRY_BASED_BUTTER?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-23
+                - listitem [ref=e1920]:
+                  - generic [ref=e1925]:
+                    - link [ref=e1929] [cursor=pointer]:
+                      - /url: /Kerrygold-Grassfed-Naturally-Softer-Butter/dp/B0DH8JYX8P/ref=sr_1_24?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-24
+                      - img [ref=e1931]
+                    - generic [ref=e1932]:
+                      - generic [ref=e1933]:
+                        - link "Kerrygold Grassfed Pure Irish Naturally Softer Butter Tub, 14oz" [ref=e1936] [cursor=pointer]:
+                          - /url: /Kerrygold-Grassfed-Naturally-Softer-Butter/dp/B0DH8JYX8P/ref=sr_1_24?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-24
+                          - heading "Kerrygold Grassfed Pure Irish Naturally Softer Butter Tub, 14oz" [level=2] [ref=e1937]
+                        - generic [ref=e1940]: Salted
+                      - generic [ref=e1941]:
+                        - generic [ref=e1942]:
+                          - text: "4.9"
+                          - button "4.9 out of 5 stars, rating details" [ref=e1944] [cursor=pointer]:
+                            - generic [ref=e1946]: 4.9 out of 5 stars
+                          - link "186 ratings" [ref=e1950] [cursor=pointer]:
+                            - /url: /Kerrygold-Grassfed-Naturally-Softer-Butter/dp/B0DH8JYX8P/ref=sr_1_24?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-24#customerReviews
+                            - text: (186)
+                        - generic [ref=e1951]: 3K+ bought in past month
+                      - generic [ref=e1952]:
+                        - generic [ref=e1954]:
+                          - generic [ref=e1955]: Price, product page
+                          - link "$8.99 ( $8.99 /count)" [ref=e1956] [cursor=pointer]:
+                            - /url: /Kerrygold-Grassfed-Naturally-Softer-Butter/dp/B0DH8JYX8P/ref=sr_1_24?dib=eyJ2IjoiMSJ9.rQoSWWflvh5eO3SArqBuuZsA_Zaa8ja9LaC1QBtCP1CMYux1jmpHNfNBip3TOu632rr-g11TxxGzHf2JQhifjXE0oeOzuFqiHzKi0oLjcEbKgrB87UFsUUtI4IUBE9R892K-GZFSWS35B3grZGdjUIVG23w4MDXNo0m2ByCL2hLsCvKc1HZhews7_dwPu38oeud0My5xdGQc1e8TXeuEcseJc8-iHuHvpTGQE0pJF1gXDPAfjrrMcgVp3vJsEcFQm_WvZrzPiE7cKIC-advLPpAggjhwK1V7iSCLJDbd9sE.q_majH5L6uF10o_lQg65MF09Q1MzM0L2XxwKd07xbfQ&dib_tag=se&keywords=organic+butter&qid=1776556985&s=grocery&sr=1-24
+                            - generic [ref=e1957]:
+                              - generic [ref=e1958]: $8.99
+                              - generic [ref=e1959]:
+                                - text: $
+                                - generic [ref=e1960]:
+                                  - text: "8"
+                                  - generic [ref=e1961]: .
+                                - text: "99"
+                            - generic [ref=e1962]:
+                              - text: (
+                              - generic [ref=e1963]:
+                                - generic [ref=e1964]: $8.99
+                                - text: $8.99
+                              - text: /count)
+                        - generic [ref=e1965]: SNAP EBT eligible
+                      - button "Add to cart" [ref=e1984] [cursor=pointer]
+          - navigation "pagination" [ref=e1987]:
+            - list [ref=e1989]:
+              - listitem [ref=e1990]:
+                - button "Previous" [disabled] [ref=e1992]:
+                  - img [ref=e1993]
+                  - text: Previous
+              - listitem [ref=e1995]:
+                - button "Page 1" [ref=e1997]: "1"
+              - listitem [ref=e1998]:
+                - button "Go to page 2" [ref=e2000] [cursor=pointer]: "2"
+              - listitem [ref=e2001]:
+                - button "Go to page 3" [ref=e2003] [cursor=pointer]: "3"
+              - button [disabled] [ref=e2004]:
+                - img [ref=e2005]: ...
+              - button "247" [disabled] [ref=e2007]
+              - listitem [ref=e2008]:
+                - button "Go to next page, page 2" [ref=e2010] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=e2011]
+          - generic [ref=e2018]:
+            - heading "Need help?" [level=2] [ref=e2021]
+            - generic [ref=e2022]:
+              - link "Visit the help section" [ref=e2023] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=468556
+              - text: or
+              - link "contact us" [ref=e2024] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+        - link "Go back to filtering menu" [ref=e2025] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - generic [ref=e2027]:
+        - link "Skip to main search results" [ref=e2028] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForMainSearchResults"
+        - generic [ref=e2034]:
+          - group "Eligible for Free Shipping" [ref=e2035]:
+            - heading "Eligible for Free Shipping" [level=2] [ref=e2036]
+            - list "Eligible for Free Shipping" [ref=e2037]:
+              - listitem [ref=e2038]:
+                - link "Apply Free Shipping by Amazon filter to narrow results" [ref=e2040] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_76%3A1249146011&dc&qid=1776556985&rnid=1249144011&ref=sr_nr_p_76_1&ds=v1%3AOvJ8ryU5mfEfYhdRqK1Jn8cO0Q4KSILBV9ti3DZG6FY
+                  - checkbox [ref=e2043]
+                  - text: Free Shipping by Amazon
+                  - generic [ref=e2045]: Get FREE Shipping on eligible orders shipped by Amazon
+          - group "Delivery Day" [ref=e2046]:
+            - heading "Delivery Day" [level=2] [ref=e2047]
+            - list "Delivery Day" [ref=e2048]:
+              - listitem [ref=e2049]:
+                - link "Apply Get It Today filter to narrow results" [ref=e2051] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_90%3A8308920011&dc&qid=1776556985&rnid=8308919011&ref=sr_nr_p_90_1&ds=v1%3AvITjjDeCchkjVrodnPcvPjPRq2rL%2F4CqBVUHSTwfEYw
+                  - checkbox [ref=e2054]
+                  - text: Get It Today
+              - listitem [ref=e2056]:
+                - link "Apply Get It by Tomorrow filter to narrow results" [ref=e2058] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_90%3A8308921011&dc&qid=1776556985&rnid=8308919011&ref=sr_nr_p_90_2&ds=v1%3Awtq7cZklqySbJ9SMqszEswAMwZDkV29UzREzHHnYaSw
+                  - checkbox [ref=e2061]
+                  - text: Get It by Tomorrow
+            - heading "Pick Up" [level=2] [ref=e2063]
+            - list "Pick Up" [ref=e2064]:
+              - listitem [ref=e2065]:
+                - link "Apply FREE Pickup filter to narrow results" [ref=e2067] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_fulfillment_type%3A122177606011&dc&qid=1776556985&rnid=122177605011&ref=sr_nr_p_n_fulfillment_type_1&ds=v1%3Aopa3W58sDduMGZ%2BnGn9FrUVR7RZOHPnvWjYmdV%2F8h%2FE
+                  - checkbox [ref=e2070]
+                  - text: FREE Pickup
+          - group "Dairy Specialty" [ref=e2072]:
+            - heading "Dairy Specialty" [level=2] [ref=e2073]
+            - list "Dairy Specialty" [ref=e2074]:
+              - listitem [ref=e2075]:
+                - link "Apply Organic filter to narrow results" [ref=e2077] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1004228310091%3A17035080011&dc&qid=1776556985&rnid=17035075011&ref=sr_nr_p_n_g-1004228310091_1&ds=v1%3ATJkNq6H%2B%2FqxSB7KU%2Fr7sowD5k9JckASvuy1YhHAS8zQ
+                  - checkbox [ref=e2080]
+                  - text: Organic
+          - group "Customer Reviews" [ref=e2082]:
+            - heading "Customer Reviews" [level=2] [ref=e2083]
+            - list "Customer Reviews" [ref=e2084]:
+              - listitem [ref=e2085]:
+                - link "Apply 4 Stars & Up filter to narrow results" [ref=e2088] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_72%3A1248897011&dc&qid=1776556985&rnid=1248895011&ref=sr_nr_p_72_1&ds=v1%3ANRiqfBrBz76si8gUDprIbAsr3EkiX45ruEkyrRsg1DE
+                  - generic [ref=e2090]: 4 Stars
+                  - text: "& Up"
+          - group "Local Stores" [ref=e2091]:
+            - heading "Local Stores" [level=2] [ref=e2092]
+            - list "Local Stores" [ref=e2093]:
+              - listitem [ref=e2094]:
+                - link "Apply Amazon Fresh filter to narrow results" [ref=e2096] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_alm_brand_id%3A18075438011&dc&qid=1776556985&rnid=18075436011&ref=sr_nr_p_n_alm_brand_id_1&ds=v1%3AbI9zMARhXx1FIaM1ljdtFQHN4nPNGYcvVCoW%2FVaD5pQ
+                  - checkbox [ref=e2099]
+                  - text: Amazon Fresh
+              - listitem [ref=e2101]:
+                - link "Apply Bristol Farms filter to narrow results" [ref=e2103] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_alm_brand_id%3A21176609011&dc&qid=1776556985&rnid=18075436011&ref=sr_nr_p_n_alm_brand_id_2&ds=v1%3AJuYK4Axd2b9OfMEJ%2B%2Ffuc4xUf1BW%2BWyBxxfxQCb6QIo
+                  - checkbox [ref=e2106]
+                  - text: Bristol Farms
+              - listitem [ref=e2108]:
+                - link "Apply Whole Foods Market filter to narrow results" [ref=e2110] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_alm_brand_id%3A18075437011&dc&qid=1776556985&rnid=18075436011&ref=sr_nr_p_n_alm_brand_id_3&ds=v1%3As4wZEoPyu9%2FxIeNd8Hhr%2FTz19zkE3vT1Gfwef1zcqt0
+                  - checkbox [ref=e2113]
+                  - text: Whole Foods Market
+          - group "SNAP EBT" [ref=e2115]:
+            - heading "SNAP EBT" [level=2] [ref=e2116]
+            - list "SNAP EBT" [ref=e2117]:
+              - listitem [ref=e2118]:
+                - link "Apply SNAP EBT Eligible filter to narrow results" [ref=e2120] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_program_participation%3A17428820011&dc&qid=1776556985&rnid=17428819011&ref=sr_nr_p_n_program_participation_1&ds=v1%3AVPniCRQGVVMe%2B5B5yy1Mfp1NLxRWlLdBytBoZTkARKM
+                  - checkbox [ref=e2123]
+                  - text: SNAP EBT Eligible
+          - group "Top Brands in Grocery" [ref=e2125]:
+            - heading "Top Brands in Grocery" [level=2] [ref=e2126]
+            - list "Top Brands in Grocery" [ref=e2127]:
+              - listitem [ref=e2128]:
+                - link "Apply Top Brands filter to narrow results" [ref=e2130] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-101014971069111%3A119653281011&dc&qid=1776556985&rnid=119653280011&ref=sr_nr_p_n_g-101014971069111_1&ds=v1%3AOPbNAhGeoh60T0ndWMYDSJfL3aOHvh6Pta%2F5HpPA%2FAY
+                  - checkbox [ref=e2133]
+                  - text: Top Brands
+          - group "From Our Brands" [ref=e2135]:
+            - heading "From Our Brands" [level=2] [ref=e2136]
+            - list "From Our Brands" [ref=e2137]:
+              - listitem [ref=e2138]:
+                - link "Apply Amazon Brands filter to narrow results" [ref=e2140] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001321510111%3A24677333011&dc&qid=1776556985&rnid=21180941011&ref=sr_nr_p_n_g-1001321510111_1&ds=v1%3ACz8ITtZ4XVWyH7WHeykbRz1p930yIOWuVBrUwc6%2FdA0
+                  - checkbox [ref=e2143]
+                  - text: Amazon Brands
+          - group "Nutrition Facts" [ref=e2145]:
+            - heading "Nutrition Facts" [level=2] [ref=e2146]
+            - list "Nutrition Facts" [ref=e2147]:
+              - listitem [ref=e2148]:
+                - link "Apply Fat Free (<0.5g) filter to narrow results" [ref=e2150] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907325111%3A2288328011&dc&qid=1776556985&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_1&ds=v1%3AwazsZ%2FsY9WuoWndYG%2FKUazOH5qDj3Pr3YnuIgZKk1n4
+                  - checkbox [ref=e2153]
+                  - text: Fat Free (<0.5g)
+              - listitem [ref=e2155]:
+                - link "Apply Low Fat (<3g) filter to narrow results" [ref=e2157] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907325111%3A2288329011&dc&qid=1776556985&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_2&ds=v1%3AIm4%2BGVzI9j4zwUSoxsFFm3flzWwA1U%2Fc2g%2Fjvlir%2F88
+                  - checkbox [ref=e2160]
+                  - text: Low Fat (<3g)
+              - listitem [ref=e2162]:
+                - link "Apply Free of Saturated Fat (<0.5g) filter to narrow results" [ref=e2164] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907325111%3A10434599011&dc&qid=1776556985&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_3&ds=v1%3AGFEPeeF4AKLH771aVwAcQ3sBrJTER5mo9fm6O891b58
+                  - checkbox [ref=e2167]
+                  - text: Free of Saturated Fat (<0.5g)
+              - listitem [ref=e2169]:
+                - link "Apply Free of Trans Fat (0g) filter to narrow results" [ref=e2171] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907325111%3A11139484011&dc&qid=1776556985&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_4&ds=v1%3AHcCvoWHzBijmVnCDe3rralLnukuTVc3sGTd2Vn60Go4
+                  - checkbox [ref=e2174]
+                  - text: Free of Trans Fat (0g)
+              - listitem [ref=e2176]:
+                - link "Apply Cholesterol Free (<2mg) filter to narrow results" [ref=e2178] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907325111%3A11139485011&dc&qid=1776556985&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_5&ds=v1%3A7%2FiIsLjuO8JkSGFe787ZT4hXbcNmHHy4sleLlwCP%2BS0
+                  - checkbox [ref=e2181]
+                  - text: Cholesterol Free (<2mg)
+              - listitem [ref=e2183]:
+                - link "Apply Sodium Free (<5mg) filter to narrow results" [ref=e2185] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907325111%3A2288330011&dc&qid=1776556985&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_6&ds=v1%3A89kXPXA0c7uM%2BuTem4C5heP1m6vzR9saCV1Uu%2FfMNj0
+                  - checkbox [ref=e2188]
+                  - text: Sodium Free (<5mg)
+              - listitem [ref=e2190]:
+                - link "Apply Low Sodium (<140mg) filter to narrow results" [ref=e2192] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907325111%3A2288331011&dc&qid=1776556985&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_7&ds=v1%3A1NUhvEWyW5ydJCv7mfA5k%2FcFH89c2dPK85zQmudBJaM
+                  - checkbox [ref=e2195]
+                  - text: Low Sodium (<140mg)
+              - listitem [ref=e2197]:
+                - link "Apply Carbohydrate Free (<0.5g) filter to narrow results" [ref=e2199] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907325111%3A11139487011&dc&qid=1776556985&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_8&ds=v1%3ANS%2BND%2BVcoDiQWTyiLHJ4kEEnFUxt7nsi5Kcf5LfJdLE
+                  - checkbox [ref=e2202]
+                  - text: Carbohydrate Free (<0.5g)
+              - listitem [ref=e2204]:
+                - link "Apply Sugar Free (<0.5g) filter to narrow results" [ref=e2206] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907325111%3A2288334011&dc&qid=1776556985&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_9&ds=v1%3AtjFocW79vdIi5RVzdwboiZx27Y3ace%2BmF9wGZu9%2Bj%2Fk
+                  - checkbox [ref=e2209]
+                  - text: Sugar Free (<0.5g)
+              - listitem [ref=e2211]:
+                - link "Apply Dietary Fiber (>10g) filter to narrow results" [ref=e2213] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907325111%3A10434601011&dc&qid=1776556985&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_10&ds=v1%3AdjzwBHHQbOMpb91Z6CXEkY6%2Fe%2BHPwfqzjBMYwlQb%2BDU
+                  - checkbox [ref=e2216]
+                  - text: Dietary Fiber (>10g)
+              - listitem [ref=e2218]:
+                - link "Apply Protein (>10g) filter to narrow results" [ref=e2220] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907325111%3A10434600011&dc&qid=1776556985&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_11&ds=v1%3A%2BF9jlBC1pVEbfjdISDTDnIRMl7RilZ4FSdy80UHrfW8
+                  - checkbox [ref=e2223]
+                  - text: Protein (>10g)
+          - group "Brands" [ref=e2225]:
+            - heading "Brands" [level=2] [ref=e2226]
+            - list "Brands" [ref=e2227]:
+              - listitem [ref=e2228]:
+                - link "Apply 365 by Whole Foods Market filter to narrow results" [ref=e2230] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_123%3A613378&dc&qid=1776556985&rnid=85457740011&ref=sr_nr_p_123_1&ds=v1%3AKNPGtjmWOT4pg5Omn98N%2BlP0iNnqwGQYi8ZXF59rNBw
+                  - checkbox [ref=e2233]
+                  - text: 365 by Whole Foods Market
+              - listitem [ref=e2235]:
+                - link "Apply Organic Valley filter to narrow results" [ref=e2237] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_123%3A233912&dc&qid=1776556985&rnid=85457740011&ref=sr_nr_p_123_2&ds=v1%3AI%2FELloUIxwvWL%2B46jZ%2BF7Y3izbxiENNBv78MlSaZ4KA
+                  - checkbox [ref=e2240]
+                  - text: Organic Valley
+              - listitem [ref=e2242]:
+                - link "Apply Vital Farms filter to narrow results" [ref=e2244] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_123%3A411897&dc&qid=1776556985&rnid=85457740011&ref=sr_nr_p_123_3&ds=v1%3A1ju6giAHItYo7Bud8XU%2FLbcMxETeXENEA%2BHoVuOlMIA
+                  - checkbox [ref=e2247]
+                  - text: Vital Farms
+              - listitem [ref=e2249]:
+                - link "Apply Land O Lakes filter to narrow results" [ref=e2251] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_123%3A312897&dc&qid=1776556985&rnid=85457740011&ref=sr_nr_p_123_4&ds=v1%3A11Cd4Q%2F0afK102t%2Fa8O06hbcZD5lvY2OZjAzIJA4S9E
+                  - checkbox [ref=e2254]
+                  - text: Land O Lakes
+              - listitem [ref=e2256]:
+                - link "Apply Vermont Creamery filter to narrow results" [ref=e2258] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_123%3A314902&dc&qid=1776556985&rnid=85457740011&ref=sr_nr_p_123_5&ds=v1%3AxGo%2F0XDFRyYHqiZn5PUw8O6H7iamTysaTkpfSyrivkA
+                  - checkbox [ref=e2261]
+                  - text: Vermont Creamery
+              - listitem [ref=e2263]:
+                - link "Apply Amazon Grocery filter to narrow results" [ref=e2265] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_123%3A15936091&dc&qid=1776556985&rnid=85457740011&ref=sr_nr_p_123_6&ds=v1%3AdzIrqEEHun5Ytzga8GMuBZn4Is2c9dF6uFZWK9xQus8
+                  - checkbox [ref=e2268]
+                  - text: Amazon Grocery
+              - listitem [ref=e2270]:
+                - link "Apply Pacific Foods filter to narrow results" [ref=e2272] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_123%3A638574&dc&qid=1776556985&rnid=85457740011&ref=sr_nr_p_123_7&ds=v1%3ANWj0VKtLfueRL0pmmpTBimYrZ3QooLt2nckjUelQygg
+                  - checkbox [ref=e2275]
+                  - text: Pacific Foods
+              - listitem [ref=e2277]:
+                - button "See more, Brands" [ref=e2280] [cursor=pointer]: See more
+          - group [ref=e2282]:
+            - generic [ref=e2283]:
+              - generic [ref=e2284]: Price
+              - generic [ref=e2287]:
+                - generic [ref=e2288]:
+                  - generic [ref=e2289]: $0
+                  - generic [ref=e2290]: –
+                  - generic [ref=e2291]: $640+
+                - generic [ref=e2293]:
+                  - generic:
+                    - slider "Minimum price": "0"
+                  - generic [ref=e2294]:
+                    - slider "Maximum price": "137"
+            - list [ref=e2295]:
+              - listitem [ref=e2296]:
+                - link "Up to $5" [ref=e2298] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_36%3A-500&dc&qid=1776556985&rnid=386454011&ref=sr_nr_p_36_1&ds=v1%3AmSqkX532yDTiOlR%2BtMLs7YnZI3nFKFveXyVFBjbsSuo
+              - listitem [ref=e2299]:
+                - link "$5 to $10" [ref=e2301] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_36%3A500-1000&dc&qid=1776556985&rnid=386454011&ref=sr_nr_p_36_2&ds=v1%3AR8pg97HG8vPHPmOCyo8SeCqvFmYrmlJ8vF2vUCX6Kjs
+              - listitem [ref=e2302]:
+                - link "$10 to $15" [ref=e2304] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_36%3A1000-1500&dc&qid=1776556985&rnid=386454011&ref=sr_nr_p_36_3&ds=v1%3ADQ2ZqiBL0GyRMpqPdlyPVKaNEeA7RdvG6NS%2Fux98%2B%2Fc
+              - listitem [ref=e2305]:
+                - link "$15 & above" [ref=e2307] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_36%3A1500-&dc&qid=1776556985&rnid=386454011&ref=sr_nr_p_36_4&ds=v1%3AJf6j3bCd%2BgerKZxyVm7uDjIfEOYVJ1wdKIPTC6V7yMA
+            - heading "Deals & Discounts" [level=2] [ref=e2308]
+            - list "Deals & Discounts" [ref=e2309]:
+              - listitem [ref=e2310]:
+                - link "All Discounts" [ref=e2312] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_deal_type%3A23566065011&dc&qid=1776556985&rnid=23566063011&ref=sr_nr_p_n_deal_type_1&ds=v1%3ACC%2BzUeonXqyFQpSOnlD7p36I0J595BERkakCutnGBGg
+              - listitem [ref=e2313]:
+                - link "Buy More, Save More" [ref=e2315] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_deal_type%3A210906365011&dc&qid=1776556985&rnid=23566063011&ref=sr_nr_p_n_deal_type_2&ds=v1%3A%2FyKAnup9WYbWdwHppeKlW0%2FY6xutfEUcYr6FYmOygNQ
+              - listitem [ref=e2316]:
+                - link "Coupons" [ref=e2318] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_deal_type%3A210906366011&dc&qid=1776556985&rnid=23566063011&ref=sr_nr_p_n_deal_type_3&ds=v1%3Ahtel0TWEt1ZEkzpd%2FqwF5IdT1CxEdHh7U5fNNbhShuY
+              - listitem [ref=e2319]:
+                - link "Today's Deals" [ref=e2321] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_deal_type%3A23566064011&dc&qid=1776556985&rnid=23566063011&ref=sr_nr_p_n_deal_type_4&ds=v1%3AUvxa9%2BQZzQ1qpC2bvPPtz1zBoSEgHRjQqn1wbyjxLrE
+          - group "Seller" [ref=e2322]:
+            - heading "Seller" [level=2] [ref=e2323]
+            - list "Seller" [ref=e2324]:
+              - listitem [ref=e2325]:
+                - link "Apply Amazon.com filter to narrow results" [ref=e2327] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_6%3AATVPDKIKX0DER&dc&qid=1776556985&rnid=698480011&ref=sr_nr_p_6_1&ds=v1%3AHIoD54YfG4A9%2BjanCfXwtGdVWsYYCXkSC0kFXw37VuM
+                  - checkbox [ref=e2330]
+                  - text: Amazon.com
+              - listitem [ref=e2332]:
+                - link "Apply Whole Foods Market filter to narrow results" [ref=e2334] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_6%3AA2FXH8800HRSJK&dc&qid=1776556985&rnid=698480011&ref=sr_nr_p_6_2&ds=v1%3AixMHPce2%2FlQBqhF%2BDqqqnnZMznHEuIO3oAcFIgiGQcs
+                  - checkbox [ref=e2337]
+                  - text: Whole Foods Market
+              - listitem [ref=e2339]:
+                - button "See more, Seller" [ref=e2342] [cursor=pointer]: See more
+          - group "Attributes" [ref=e2344]:
+            - heading "Attributes" [level=2] [ref=e2345]
+            - list "Attributes" [ref=e2346]:
+              - listitem [ref=e2347]:
+                - link "Apply European-style filter to narrow results" [ref=e2349] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_feature_three_browse-bin%3A17551897011&dc&qid=1776556985&rnid=7476223011&ref=sr_nr_p_n_feature_three_browse-bin_1&ds=v1%3ACnzSgovYONRGho3PdS7Fk0eKOvbN8DFvl%2FY9qIZBqj4
+                  - checkbox [ref=e2352]
+                  - text: European-style
+              - listitem [ref=e2354]:
+                - link "Apply Salted filter to narrow results" [ref=e2356] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_feature_three_browse-bin%3A7476224011&dc&qid=1776556985&rnid=7476223011&ref=sr_nr_p_n_feature_three_browse-bin_2&ds=v1%3ApbOCKJQOD19rwtYQKtp4RU%2FV8OxV1k9kpgdi84NI8ak
+                  - checkbox [ref=e2359]
+                  - text: Salted
+              - listitem [ref=e2361]:
+                - link "Apply Unsalted filter to narrow results" [ref=e2363] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_feature_three_browse-bin%3A7476225011&dc&qid=1776556985&rnid=7476223011&ref=sr_nr_p_n_feature_three_browse-bin_3&ds=v1%3AqSeWmnHDcMRJ3TvbwBsBzmVReSqB94ADMC1AqMCpAWo
+                  - checkbox [ref=e2366]
+                  - text: Unsalted
+          - group "Subscribe & Save" [ref=e2368]:
+            - heading "Subscribe & Save" [level=2] [ref=e2369]
+            - list "Subscribe & Save" [ref=e2370]:
+              - listitem [ref=e2371]:
+                - link "Apply Subscribe & Save Eligible filter to narrow results" [ref=e2373] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_is_sns_available%3A2617006011&dc&qid=1776556985&rnid=2617005011&ref=sr_nr_p_n_is_sns_available_1&ds=v1%3ABpoaffiolILK8m8s8rtEl3Ui%2B8A82BBysWeHDqNZnlA
+                  - checkbox [ref=e2376]
+                  - text: Subscribe & Save Eligible
+          - group "Calories Per Serving" [ref=e2378]:
+            - heading "Calories Per Serving" [level=2] [ref=e2379]
+            - list "Calories Per Serving" [ref=e2380]:
+              - listitem [ref=e2381]:
+                - link "Apply 0 Calories filter to narrow results" [ref=e2383] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907561111%3A10434594011&dc&qid=1776556985&rnid=10434593011&ref=sr_nr_p_n_g-1001907561111_1&ds=v1%3ACbQuKRqRMoQzciFwTCz4n4xGhtAqo911j%2BBAk9x56kI
+                  - checkbox [ref=e2386]
+                  - text: 0 Calories
+              - listitem [ref=e2388]:
+                - link "Apply 1 to 40 Calories filter to narrow results" [ref=e2390] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907561111%3A10434595011&dc&qid=1776556985&rnid=10434593011&ref=sr_nr_p_n_g-1001907561111_2&ds=v1%3ABm9Wr6gwwawmEwHyA%2B0INNqEjeWi%2BoaDoQxq62bp0jU
+                  - checkbox [ref=e2393]
+                  - text: 1 to 40 Calories
+              - listitem [ref=e2395]:
+                - link "Apply 41 to 100 Calories filter to narrow results" [ref=e2397] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907561111%3A10434596011&dc&qid=1776556985&rnid=10434593011&ref=sr_nr_p_n_g-1001907561111_3&ds=v1%3ATSdJdqdFy0179zbGxPzfmvq8xbQs%2BW6VswxDQ71SJ4o
+                  - checkbox [ref=e2400]
+                  - text: 41 to 100 Calories
+              - listitem [ref=e2402]:
+                - link "Apply 101 to 200 Calories filter to narrow results" [ref=e2404] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907561111%3A10434597011&dc&qid=1776556985&rnid=10434593011&ref=sr_nr_p_n_g-1001907561111_4&ds=v1%3Az2oER3OdeQUKbdcjvl6Cm4wvTc%2F5kRve3gDKNncqnUA
+                  - checkbox [ref=e2407]
+                  - text: 101 to 200 Calories
+              - listitem [ref=e2409]:
+                - link "Apply 201 to 300 Calories filter to narrow results" [ref=e2411] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1001907561111%3A10434598011&dc&qid=1776556985&rnid=10434593011&ref=sr_nr_p_n_g-1001907561111_5&ds=v1%3ANMoug325G0nd1ULaL8HABy16DNJ8ZR6PMfCgUDJ0dKE
+                  - checkbox [ref=e2414]
+                  - text: 201 to 300 Calories
+          - group "Count" [ref=e2416]:
+            - heading "Count" [level=2] [ref=e2417]
+            - list "Count" [ref=e2418]:
+              - listitem [ref=e2419]:
+                - link "Apply 1 filter to narrow results" [ref=e2421] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1003554683111%3A50296832011&dc&qid=1776556985&rnid=50296824011&ref=sr_nr_p_n_g-1003554683111_1&ds=v1%3AojY3dthzqOdNP8FD0iRqx4gV00AWgd6bQqzDlpOcqww
+                  - checkbox [ref=e2424]
+                  - text: "1"
+              - listitem [ref=e2426]:
+                - link "Apply 2 filter to narrow results" [ref=e2428] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1003554683111%3A50296828011&dc&qid=1776556985&rnid=50296824011&ref=sr_nr_p_n_g-1003554683111_2&ds=v1%3A0uCLmgBcKKMT997oOLpN990ufrbmlUt0YtkmuHfqY%2BQ
+                  - checkbox [ref=e2431]
+                  - text: "2"
+              - listitem [ref=e2433]:
+                - link "Apply 3 & above filter to narrow results" [ref=e2435] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1003554683111%3A50296830011&dc&qid=1776556985&rnid=50296824011&ref=sr_nr_p_n_g-1003554683111_3&ds=v1%3AcpUsnWXaEu8cLDPNNedvNuH8yf7FFE9ZeoPRrYi8YT4
+                  - checkbox [ref=e2438]
+                  - text: 3 & above
+          - group "Item Form" [ref=e2440]:
+            - heading "Item Form" [level=2] [ref=e2441]
+            - list "Item Form" [ref=e2442]:
+              - listitem [ref=e2443]:
+                - link "Apply Bar filter to narrow results" [ref=e2445] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-101014853210111%3A117987526011&dc&qid=1776556985&rnid=117987458011&ref=sr_nr_p_n_g-101014853210111_1&ds=v1%3Ab3HChh0y6xRMj5sc9b%2B5pZRAnEHwvH%2Fi%2BYpGAeDdXKk
+                  - checkbox [ref=e2448]
+                  - text: Bar
+              - listitem [ref=e2450]:
+                - link "Apply Cream filter to narrow results" [ref=e2452] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-101014853210111%3A117987530011&dc&qid=1776556985&rnid=117987458011&ref=sr_nr_p_n_g-101014853210111_2&ds=v1%3AHvMuEaUE3oFF6SlaD7qkxPoRWzkuMUjQ%2Bsw2zj%2BiYjQ
+                  - checkbox [ref=e2455]
+                  - text: Cream
+              - listitem [ref=e2457]:
+                - link "Apply Liquid filter to narrow results" [ref=e2459] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-101014853210111%3A117987528011&dc&qid=1776556985&rnid=117987458011&ref=sr_nr_p_n_g-101014853210111_3&ds=v1%3AmZv%2B%2B28Zi8g1as5GrYSWzPIUIIUi4YpsHp0T%2F%2BvDYdM
+                  - checkbox [ref=e2462]
+                  - text: Liquid
+              - listitem [ref=e2464]:
+                - link "Apply Stick filter to narrow results" [ref=e2466] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-101014853210111%3A117987527011&dc&qid=1776556985&rnid=117987458011&ref=sr_nr_p_n_g-101014853210111_4&ds=v1%3AOQGa%2Bv4u2H5BywRby6eu0kuVufudBoZAzGP4ktNSnjA
+                  - checkbox [ref=e2469]
+                  - text: Stick
+          - group "Premium Brands" [ref=e2471]:
+            - heading "Premium Brands" [level=2] [ref=e2472]
+            - list "Premium Brands" [ref=e2473]:
+              - listitem [ref=e2474]:
+                - link "Apply Premium Brands filter to narrow results" [ref=e2476] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-101015887018111%3A204376014011&dc&qid=1776556985&rnid=204376013011&ref=sr_nr_p_n_g-101015887018111_1&ds=v1%3AWWqBAJdQSoTwaNmyLnOgkUY1d3JQIFn%2B3RuTzTPrgTQ
+                  - checkbox [ref=e2479]
+                  - text: Premium Brands
+          - group "Sustainability Features" [ref=e2481]:
+            - heading "Sustainability Features" [level=2] [ref=e2482]
+            - list "Sustainability Features" [ref=e2483]:
+              - listitem [ref=e2484]:
+                - link "Any Feature" [ref=e2486] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_cpf_labels%3A121136630011&dc&qid=1776556985&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_1&ds=v1%3A8uVyIpp9uSNcGCK4Lmyky6HeBWmD4fE9jk9g3pI0%2Blo
+              - listitem [ref=e2487]:
+                - link "Biodiversity" [ref=e2489] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_cpf_labels%3A116845691011&dc&qid=1776556985&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_2&ds=v1%3AuYPEJmhqeORqqRrH2aXw70Lr2UUAjol4vztveZ2%2B5Rk
+              - listitem [ref=e2490]:
+                - button "See more, Sustainability Features" [ref=e2493] [cursor=pointer]: See more
+          - group "Milk Type" [ref=e2495]:
+            - heading "Milk Type" [level=2] [ref=e2496]
+            - list "Milk Type" [ref=e2497]:
+              - listitem [ref=e2498]:
+                - link "Apply Buffalo filter to narrow results" [ref=e2500] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1004179177091%3A383585011&dc&qid=1776556985&rnid=383584011&ref=sr_nr_p_n_g-1004179177091_1&ds=v1%3AAjhSH%2BW25i%2BNwFNOPtuK06hZNBHHVWJo2BBAUKLN4Ck
+                  - checkbox [ref=e2503]
+                  - text: Buffalo
+              - listitem [ref=e2505]:
+                - link "Apply Cow filter to narrow results" [ref=e2507] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cp_n_g-1004179177091%3A383586011&dc&qid=1776556985&rnid=383584011&ref=sr_nr_p_n_g-1004179177091_2&ds=v1%3Aa79%2B11QeMJ5KGOSSHRjYVPvHTnvUuFHe0M5ic5K%2FKJc
+                  - checkbox [ref=e2510]
+                  - text: Cow
+          - group "Department" [ref=e2512]:
+            - heading "Department" [level=2] [ref=e2513]
+            - list "Department" [ref=e2514]:
+              - listitem [ref=e2515]:
+                - link "Any Department" [ref=e2517] [cursor=pointer]:
+                  - /url: /s?k=organic+butter&dc&qid=1776556985&ref=sr_ex_n_0&ds=v1%3AcglfI%2BBcqFmjgX%2Bifyf2m6TVszTy6ezVXNv09%2Bpz9wo
+                  - text: Any Department
+              - list
+              - listitem [ref=e2519]:
+                - generic [ref=e2520]: Grocery & Gourmet Food
+              - list [ref=e2521]:
+                - listitem [ref=e2522]:
+                  - link "Alcoholic Beverages" [ref=e2524] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A2983371011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_1&ds=v1%3AvkS3hBmKYF0zQDqRto17HDoMNKeGtrWwp93O%2BNsZ%2BIs
+                - list
+                - listitem [ref=e2525]:
+                  - link "Baby Foods" [ref=e2527] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A16323111&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_2&ds=v1%3ASCalvb3qF5mnZbm741LkWCLO9pYKkKfbE5cIospc2A4
+                - list
+                - listitem [ref=e2528]:
+                  - link "Beverages" [ref=e2530] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A16310231&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_3&ds=v1%3ASWod2dVpSTuPWbcdtJXQhcGpXWES31ZpfGJW8rbQnEc
+                - list
+                - listitem [ref=e2531]:
+                  - link "Breads & Bakery" [ref=e2533] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A16318751&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_4&ds=v1%3ANuhgzK3SxNa9aJ0w8%2FDnoyCyLlUHlT%2Bm8xZGcsDPOkg
+                - list
+                - listitem [ref=e2534]:
+                  - link "Breakfast Cereal" [ref=e2536] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A118518014011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_5&ds=v1%3AT%2BUh2xAkBrgC9FtnuXhLZu%2BKcNNiNc9BpbzncQCs%2Fbc
+                - list
+                - listitem [ref=e2537]:
+                  - link "Breakfast Foods" [ref=e2539] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A16310251&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_6&ds=v1%3AzvhrNBl9fuwtoCh4QsV%2FKMP%2B9D1ZVpLEQ%2FDbFRfzG4s
+                - list
+                - listitem [ref=e2540]:
+                  - link "Dairy, Eggs & Plant-Based Alternatives" [ref=e2542] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A371460011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_7&ds=v1%3AeHHGQflqhX66BvMVw9zv%2FufmRMIDoNf5QfIX%2FZUWdiM
+                - list
+                - listitem [ref=e2543]:
+                  - link "Deli & Prepared Foods" [ref=e2545] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A18773724011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_8&ds=v1%3ArJmI0SlZSV13xMasVNOX5XPPL6wUPHZO9U7EndEEgnk
+                - list
+                - listitem [ref=e2546]:
+                  - link "Food & Beverage Gifts" [ref=e2548] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A2255571011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_9&ds=v1%3AhdCf4ppBb8RwFW4Nt%2BKxTTTvbt0DqzFI46KkahRUQ6A
+                - list
+                - listitem [ref=e2549]:
+                  - link "Fresh Flowers & Live Indoor Plants" [ref=e2551] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A3745171&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_10&ds=v1%3Am3A1mxxyXSXAvBfKBfWCiTcuz%2B%2FFxL6Z3flP9xsC1ck
+                - list
+                - listitem [ref=e2552]:
+                  - link "Fresh Meal Kits" [ref=e2554] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A15709227011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_11&ds=v1%3AmzFLL41sNRS8zGvL3uVnerAx0mSuEaegOAUqpYKYrA0
+                - list
+                - listitem [ref=e2555]:
+                  - link "Frozen" [ref=e2557] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A6459122011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_12&ds=v1%3AIM3BqkFhj7E2kC54mguckyU4QzOVR27cjoRispg%2BUvg
+                - list
+                - listitem [ref=e2558]:
+                  - link "Home Brewing & Winemaking" [ref=e2560] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A979861011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_13&ds=v1%3AbGXevoCZbPactcpyzqDkc6IXmnRFwWLJ5DiKQkm6nVg
+                - list
+                - listitem [ref=e2561]:
+                  - link "Meat & Seafood" [ref=e2563] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A371469011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_14&ds=v1%3AXiJYXo3xlL%2BMWSRwUnCVhgKvrTaZ2rc0oOjE%2BCBxZvM
+                - list
+                - listitem [ref=e2564]:
+                  - link "Meat Substitutes" [ref=e2566] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A6518859011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_15&ds=v1%3AIKwQXNDlBFC0QyMT3KyefJF7Qt75r44i%2B5VyRu2PtWw
+                - list
+                - listitem [ref=e2567]:
+                  - link "Pantry Staples" [ref=e2569] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A18787303011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_16&ds=v1%3AnWwZq2YUIIUf84jVR9%2FUv5mgUzWJ21zkce8rqhMTYXA
+                - list
+                - listitem [ref=e2570]:
+                  - link "Produce" [ref=e2572] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A6506977011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_17&ds=v1%3A09rgEWPw9WieBgmStWukWslDPwNdy4b0iWOTCfBwrYQ
+                - list
+                - listitem [ref=e2573]:
+                  - link "Snacks & Sweets" [ref=e2575] [cursor=pointer]:
+                    - /url: /s?k=organic+butter&i=grocery&rh=n%3A16310101%2Cn%3A23759921011&dc&qid=1776556985&rnid=16310101&ref=sr_nr_n_18&ds=v1%3AemrDrdPGa%2F%2Bi5TV7y9j2jXYGHx6zCHQpQ7y37I6JJD8
+                - list
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e2576]:
+    - button "Back to top" [ref=e2577] [cursor=pointer]:
+      - generic [ref=e2578]: Back to top
+    - generic [ref=e2579]:
+      - generic [ref=e2580]:
+        - heading "Get to Know Us" [level=6] [ref=e2581]
+        - list [ref=e2582]:
+          - listitem [ref=e2583]:
+            - link "Careers" [ref=e2584] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e2585]:
+            - link "Amazon Newsletter" [ref=e2586] [cursor=pointer]:
+              - /url: https://email.aboutamazon.com/l/637851/2020-10-29/pd87g?utm_source=gateway&utm_medium=amazonfooters&utm_campaign=newslettersubscribers&utm_content=amazonnewssignup
+          - listitem [ref=e2587]:
+            - link "About Amazon" [ref=e2588] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer&token=about
+          - listitem [ref=e2589]:
+            - link "Accessibility" [ref=e2590] [cursor=pointer]:
+              - /url: https://www.amazon.com/b?node=15701038011&ie=UTF8
+          - listitem [ref=e2591]:
+            - link "Sustainability" [ref=e2592] [cursor=pointer]:
+              - /url: https://sustainability.aboutamazon.com/?utm_source=gateway&utm_medium=footer&ref_=susty_footer
+          - listitem [ref=e2593]:
+            - link "Press Center" [ref=e2594] [cursor=pointer]:
+              - /url: https://www.amazon.com/pr
+          - listitem [ref=e2595]:
+            - link "Investor Relations" [ref=e2596] [cursor=pointer]:
+              - /url: https://www.amazon.com/ir
+          - listitem [ref=e2597]:
+            - link "Amazon Devices" [ref=e2598] [cursor=pointer]:
+              - /url: /gp/browse.html?node=2102313011&ref_=footer_devices
+          - listitem [ref=e2599]:
+            - link "Amazon Science" [ref=e2600] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e2602]:
+        - heading "Make Money with Us" [level=6] [ref=e2603]
+        - list [ref=e2604]:
+          - listitem [ref=e2605]:
+            - link "Sell on Amazon" [ref=e2606] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZFSSOA_FTSELL-C&ref_=footer_soa
+          - listitem [ref=e2607]:
+            - link "Sell apps on Amazon" [ref=e2608] [cursor=pointer]:
+              - /url: https://developer.amazon.com
+          - listitem [ref=e2609]:
+            - link "Supply to Amazon" [ref=e2610] [cursor=pointer]:
+              - /url: https://supply.amazon.com
+          - listitem [ref=e2611]:
+            - link "Protect & Build Your Brand" [ref=e2612] [cursor=pointer]:
+              - /url: https://sell.amazon.com/brand-registry?ld=AZUSSOA_ABR-FT
+          - listitem [ref=e2613]:
+            - link "Become an Affiliate" [ref=e2614] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.com/
+          - listitem [ref=e2615]:
+            - link "Become a Delivery Driver" [ref=e2616] [cursor=pointer]:
+              - /url: https://dspjobhub.com/
+          - listitem [ref=e2617]:
+            - link "Start a Package Delivery Business" [ref=e2618] [cursor=pointer]:
+              - /url: https://logistics.amazon.com/marketing?utm_source=amzn&utm_medium=footer&utm_campaign=home
+          - listitem [ref=e2619]:
+            - link "Advertise Your Products" [ref=e2620] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=ext_amzn_ftr
+          - listitem [ref=e2621]:
+            - link "Self-Publish with Us" [ref=e2622] [cursor=pointer]:
+              - /url: /gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&topic=200260520&ref_=footer_publishing
+          - listitem [ref=e2623]:
+            - link "Become an Amazon Hub Partner" [ref=e2624] [cursor=pointer]:
+              - /url: https://www.amazon.com/b?node=216188543011
+          - listitem [ref=e2625]:
+            - text: ›
+            - link "See More Ways to Make Money" [ref=e2626] [cursor=pointer]:
+              - /url: /b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore
+      - generic [ref=e2628]:
+        - heading "Amazon Payment Products" [level=6] [ref=e2629]
+        - list [ref=e2630]:
+          - listitem [ref=e2631]:
+            - link "Amazon Visa" [ref=e2632] [cursor=pointer]:
+              - /url: /iss/credit/rewardscardmember?plattr=CBFOOT&ref_=footer_cbcc
+          - listitem [ref=e2633]:
+            - link "Amazon Store Card" [ref=e2634] [cursor=pointer]:
+              - /url: /credit/storecard/member?plattr=PLCCFOOT&ref_=footer_plcc
+          - listitem [ref=e2635]:
+            - link "Amazon Secured Card" [ref=e2636] [cursor=pointer]:
+              - /url: /dp/product/B084KP3NG6?plattr=SCFOOT&ref_=footer_ACB
+          - listitem [ref=e2637]:
+            - link "Amazon Business Card" [ref=e2638] [cursor=pointer]:
+              - /url: /dp/B0DVBL912R?plattr=ACOMFO&ie=UTF-8
+          - listitem [ref=e2639]:
+            - link "Shop with Points" [ref=e2640] [cursor=pointer]:
+              - /url: https://www.amazon.com/hp/shopwithpoints/servicing
+          - listitem [ref=e2641]:
+            - link "Credit Card Marketplace" [ref=e2642] [cursor=pointer]:
+              - /url: /gp/browse.html?node=3561432011&ref_=footer_ccmp
+          - listitem [ref=e2643]:
+            - link "Reload Your Balance" [ref=e2644] [cursor=pointer]:
+              - /url: /gp/browse.html?node=10232440011&ref_=footer_reload_us
+          - listitem [ref=e2645]:
+            - link "Gift Cards" [ref=e2646] [cursor=pointer]:
+              - /url: https://www.amazon.com/b/?node=2238192011&ref=shop_footer_payments_gc_desktop
+          - listitem [ref=e2647]:
+            - link "Amazon Currency Converter" [ref=e2648] [cursor=pointer]:
+              - /url: /gp/browse.html?node=388305011&ref_=footer_tfx
+      - generic [ref=e2650]:
+        - heading "Let Us Help You" [level=6] [ref=e2651]
+        - list [ref=e2652]:
+          - listitem [ref=e2653]:
+            - link "Your Account" [ref=e2654] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e2655]:
+            - link "Your Orders" [ref=e2656] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/order-history?ref_=footer_yo
+          - listitem [ref=e2657]:
+            - link "Shipping Rates & Policies" [ref=e2658] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates
+          - listitem [ref=e2659]:
+            - link "Amazon Prime" [ref=e2660] [cursor=pointer]:
+              - /url: /gp/prime?ref_=footer_prime
+          - listitem [ref=e2661]:
+            - link "Returns & Replacements" [ref=e2662] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e2663]:
+            - link "Manage Your Content and Devices" [ref=e2664] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e2665]:
+            - link "Recalls and Product Safety Alerts" [ref=e2666] [cursor=pointer]:
+              - /url: https://www.amazon.com/product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e2667]:
+            - link "Registry & Gift List" [ref=e2668] [cursor=pointer]:
+              - /url: /registries?ref_=nav_footer_registry_giftlist_desktop
+          - listitem [ref=e2669]:
+            - link "Help" [ref=e2670] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e2672]:
+      - link "Amazon US Home" [ref=e2675] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=e2678]:
+        - generic [ref=e2679]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e2680] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e2682]: English
+          - button "Expand to Change Language or Country" [ref=e2683] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is United States." [ref=e2684] [cursor=pointer]:
+          - generic [ref=e2686]: United States
+    - navigation "More on Amazon" [ref=e2687]:
+      - generic "More on Amazon" [ref=e2688]:
+        - list [ref=e2689]:
+          - listitem [ref=e2690]:
+            - link "Amazon Music Stream millions of songs" [ref=e2691] [cursor=pointer]:
+              - /url: https://music.amazon.com?ref=dm_aff_amz_com
+              - heading "Amazon Music" [level=5] [ref=e2692]
+              - generic [ref=e2693]:
+                - text: Stream millions
+                - text: of songs
+          - listitem [ref=e2694]
+          - listitem [ref=e2695]:
+            - link "Amazon Ads Reach customers wherever they spend their time" [ref=e2696] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=footer_advtsing_amzn_com
+              - heading "Amazon Ads" [level=5] [ref=e2697]
+              - generic [ref=e2698]:
+                - text: Reach customers
+                - text: wherever they
+                - text: spend their time
+          - listitem [ref=e2699]
+          - listitem [ref=e2700]:
+            - link "6pm Score deals on fashion brands" [ref=e2701] [cursor=pointer]:
+              - /url: https://www.6pm.com
+              - heading "6pm" [level=5] [ref=e2702]
+              - generic [ref=e2703]:
+                - text: Score deals
+                - text: on fashion brands
+          - listitem [ref=e2704]
+          - listitem [ref=e2705]:
+            - link "AbeBooks Books, art & collectibles" [ref=e2706] [cursor=pointer]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=e2707]
+              - generic [ref=e2708]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e2709]
+          - listitem [ref=e2710]:
+            - link "ACX Audiobook Publishing Made Easy" [ref=e2711] [cursor=pointer]:
+              - /url: https://www.acx.com/
+              - heading "ACX" [level=5] [ref=e2712]
+              - generic [ref=e2713]:
+                - text: Audiobook Publishing
+                - text: Made Easy
+          - listitem [ref=e2714]
+          - listitem [ref=e2715]:
+            - link "Sell on Amazon Start a Selling Account" [ref=e2716] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell
+              - heading "Sell on Amazon" [level=5] [ref=e2717]
+              - generic [ref=e2718]: Start a Selling Account
+          - listitem [ref=e2719]
+          - listitem [ref=e2720]:
+            - link "Veeqo Shipping Software Inventory Management" [ref=e2721] [cursor=pointer]:
+              - /url: https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer
+              - heading "Veeqo" [level=5] [ref=e2722]
+              - generic [ref=e2723]:
+                - text: Shipping Software
+                - text: Inventory Management
+        - list [ref=e2724]:
+          - listitem [ref=e2725]:
+            - link "Amazon Business Everything For Your Business" [ref=e2726] [cursor=pointer]:
+              - /url: /business?ref_=footer_retail_b2b
+              - heading "Amazon Business" [level=5] [ref=e2727]
+              - generic [ref=e2728]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e2729]
+          - listitem [ref=e2730]:
+            - link "Amazon Fresh Groceries & More Right To Your Door" [ref=e2731] [cursor=pointer]:
+              - /url: /alm/storefront?almBrandId=QW1hem9uIEZyZXNo&ref_=footer_aff_fresh
+              - heading "Amazon Fresh" [level=5] [ref=e2732]
+              - generic [ref=e2733]:
+                - text: Groceries & More
+                - text: Right To Your Door
+          - listitem [ref=e2734]
+          - listitem [ref=e2735]:
+            - link "AmazonGlobal Ship Orders Internationally" [ref=e2736] [cursor=pointer]:
+              - /url: /gp/browse.html?node=230659011&ref_=footer_amazonglobal
+              - heading "AmazonGlobal" [level=5] [ref=e2737]
+              - generic [ref=e2738]:
+                - text: Ship Orders
+                - text: Internationally
+          - listitem [ref=e2739]
+          - listitem [ref=e2740]:
+            - link "Home Services Experienced Pros Happiness Guarantee" [ref=e2741] [cursor=pointer]:
+              - /url: /services?ref_=footer_services
+              - heading "Home Services" [level=5] [ref=e2742]
+              - generic [ref=e2743]:
+                - text: Experienced Pros
+                - text: Happiness Guarantee
+          - listitem [ref=e2744]
+          - listitem [ref=e2745]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e2746] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e2747]
+              - generic [ref=e2748]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e2749]
+          - listitem [ref=e2750]:
+            - link "Audible Listen to Books & Original Audio Performances" [ref=e2751] [cursor=pointer]:
+              - /url: https://www.audible.com
+              - heading "Audible" [level=5] [ref=e2752]
+              - generic [ref=e2753]:
+                - text: Listen to Books & Original
+                - text: Audio Performances
+          - listitem [ref=e2754]
+          - listitem [ref=e2755]:
+            - link "Box Office Mojo Find Movie Box Office Data" [ref=e2756] [cursor=pointer]:
+              - /url: https://www.boxofficemojo.com/?ref_=amzn_nav_ftr
+              - heading "Box Office Mojo" [level=5] [ref=e2757]
+              - generic [ref=e2758]:
+                - text: Find Movie
+                - text: Box Office Data
+        - list [ref=e2759]:
+          - listitem [ref=e2760]:
+            - link "Goodreads Book reviews & recommendations" [ref=e2761] [cursor=pointer]:
+              - /url: https://www.goodreads.com
+              - heading "Goodreads" [level=5] [ref=e2762]
+              - generic [ref=e2763]:
+                - text: Book reviews
+                - text: "& recommendations"
+          - listitem [ref=e2764]
+          - listitem [ref=e2765]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e2766] [cursor=pointer]:
+              - /url: https://www.imdb.com
+              - heading "IMDb" [level=5] [ref=e2767]
+              - generic [ref=e2768]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+          - listitem [ref=e2769]
+          - listitem [ref=e2770]:
+            - link "IMDbPro Get Info Entertainment Professionals Need" [ref=e2771] [cursor=pointer]:
+              - /url: https://pro.imdb.com?ref_=amzn_nav_ftr
+              - heading "IMDbPro" [level=5] [ref=e2772]
+              - generic [ref=e2773]:
+                - text: Get Info Entertainment
+                - text: Professionals Need
+          - listitem [ref=e2774]
+          - listitem [ref=e2775]:
+            - link "Kindle Direct Publishing Indie Digital & Print Publishing Made Easy" [ref=e2776] [cursor=pointer]:
+              - /url: https://kdp.amazon.com
+              - heading "Kindle Direct Publishing" [level=5] [ref=e2777]
+              - generic [ref=e2778]:
+                - text: Indie Digital & Print Publishing
+                - text: Made Easy
+          - listitem [ref=e2779]
+          - listitem [ref=e2780]:
+            - link "Amazon Photos Unlimited Photo Storage Free With Prime" [ref=e2781] [cursor=pointer]:
+              - /url: /gp/browse.html?node=13234696011&ref_=_gno_p_foot
+              - heading "Amazon Photos" [level=5] [ref=e2782]
+              - generic [ref=e2783]:
+                - text: Unlimited Photo Storage
+                - text: Free With Prime
+          - listitem [ref=e2784]
+          - listitem [ref=e2785]:
+            - link "Prime Video Direct Video Distribution Made Easy" [ref=e2786] [cursor=pointer]:
+              - /url: https://videodirect.amazon.com/home/landing
+              - heading "Prime Video Direct" [level=5] [ref=e2787]
+              - generic [ref=e2788]:
+                - text: Video Distribution
+                - text: Made Easy
+          - listitem [ref=e2789]
+          - listitem [ref=e2790]:
+            - link "Shopbop Designer Fashion Brands" [ref=e2791] [cursor=pointer]:
+              - /url: https://www.shopbop.com
+              - heading "Shopbop" [level=5] [ref=e2792]
+              - generic [ref=e2793]:
+                - text: Designer
+                - text: Fashion Brands
+        - list [ref=e2794]:
+          - listitem [ref=e2795]:
+            - link "Amazon Resale Great Deals on Quality Used Products" [ref=e2796] [cursor=pointer]:
+              - /url: /gp/browse.html?node=10158976011&ref_=footer_wrhsdls
+              - heading "Amazon Resale" [level=5] [ref=e2797]
+              - generic [ref=e2798]:
+                - text: Great Deals on
+                - text: Quality Used Products
+          - listitem [ref=e2799]
+          - listitem [ref=e2800]:
+            - link "Whole Foods Market America’s Healthiest Grocery Store" [ref=e2801] [cursor=pointer]:
+              - /url: https://www.wholefoodsmarket.com
+              - heading "Whole Foods Market" [level=5] [ref=e2802]
+              - generic [ref=e2803]:
+                - text: America’s Healthiest
+                - text: Grocery Store
+          - listitem [ref=e2804]
+          - listitem [ref=e2805]:
+            - link "Woot! Deals and Shenanigans" [ref=e2806] [cursor=pointer]:
+              - /url: https://www.woot.com/
+              - heading "Woot!" [level=5] [ref=e2807]
+              - generic [ref=e2808]:
+                - text: Deals and
+                - text: Shenanigans
+          - listitem [ref=e2809]
+          - listitem [ref=e2810]:
+            - link "Zappos Shoes & Clothing" [ref=e2811] [cursor=pointer]:
+              - /url: https://www.zappos.com
+              - heading "Zappos" [level=5] [ref=e2812]
+              - generic [ref=e2813]:
+                - text: Shoes &
+                - text: Clothing
+          - listitem [ref=e2814]
+          - listitem [ref=e2815]:
+            - link "Ring Smart Home Security Systems" [ref=e2816] [cursor=pointer]:
+              - /url: https://ring.com
+              - heading "Ring" [level=5] [ref=e2817]
+              - generic [ref=e2818]:
+                - text: Smart Home
+                - text: Security Systems
+          - listitem [ref=e2819]
+          - listitem [ref=e2820]:
+            - link "eero WiFi Stream 4K Video in Every Room" [ref=e2821] [cursor=pointer]:
+              - /url: https://eero.com/
+              - heading "eero WiFi" [level=5] [ref=e2822]
+              - generic [ref=e2823]:
+                - text: Stream 4K Video
+                - text: in Every Room
+          - listitem [ref=e2824]
+          - listitem [ref=e2825]:
+            - link "Blink Smart Security for Every Home" [ref=e2826] [cursor=pointer]:
+              - /url: https://blinkforhome.com/?ref=nav_footer
+              - heading "Blink" [level=5] [ref=e2827]
+              - generic [ref=e2828]:
+                - text: Smart Security
+                - text: for Every Home
+        - list [ref=e2829]:
+          - listitem [ref=e2830]
+          - listitem [ref=e2831]
+          - listitem [ref=e2832]
+          - listitem [ref=e2833]
+          - listitem [ref=e2834]:
+            - link "Neighbors App Real-Time Crime & Safety Alerts" [ref=e2835] [cursor=pointer]:
+              - /url: https://shop.ring.com/pages/neighbors-app
+              - heading "Neighbors App" [level=5] [ref=e2836]
+              - generic [ref=e2837]:
+                - text: Real-Time Crime
+                - text: "& Safety Alerts"
+          - listitem [ref=e2838]
+          - listitem [ref=e2839]:
+            - link "PillPack Pharmacy Simplified" [ref=e2840] [cursor=pointer]:
+              - /url: https://www.pillpack.com
+              - heading "PillPack" [level=5] [ref=e2841]
+              - generic [ref=e2842]: Pharmacy Simplified
+          - listitem [ref=e2843]
+          - listitem [ref=e2844]:
+            - link "Amazon Renewed Refurbished tech you can trust" [ref=e2845] [cursor=pointer]:
+              - /url: /gp/browse.html?node=12653393011&ref_=footer_usrenew
+              - heading "Amazon Renewed" [level=5] [ref=e2846]
+              - generic [ref=e2847]:
+                - text: Refurbished tech
+                - text: you can trust
+          - listitem [ref=e2848]
+          - listitem [ref=e2849]
+          - listitem [ref=e2850]
+          - listitem [ref=e2851]
+    - generic [ref=e2852]:
+      - list [ref=e2853]:
+        - listitem [ref=e2854]:
+          - link "Conditions of Use" [ref=e2855] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=508088&ref_=footer_cou
+        - listitem [ref=e2856]:
+          - link "Privacy Notice" [ref=e2857] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy
+        - listitem [ref=e2858]:
+          - link "Consumer Health Data Privacy Disclosure" [ref=e2859] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy
+        - listitem [ref=e2860]:
+          - link "Your Ads Privacy Choices" [ref=e2861] [cursor=pointer]:
+            - /url: /privacyprefs?ref_=footer_iba
+        - listitem [ref=e2862]
+      - generic [ref=e2864]: © 1996-2026, Amazon.com, Inc. or its affiliates

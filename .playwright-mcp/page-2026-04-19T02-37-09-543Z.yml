@@ -1,0 +1,221 @@
+- generic [active] [ref=e15]:
+  - textbox [ref=e14]
+  - generic [ref=e16]:
+    - generic [ref=e17]:
+      - banner [ref=e18]:
+        - generic [ref=e20]:
+          - link "Skip Navigation" [ref=e21] [cursor=pointer]:
+            - /url: "#store-wrapper"
+          - button "Main Menu" [ref=e23] [cursor=pointer]:
+            - img [ref=e25]
+          - link "Instacart logo" [ref=e27] [cursor=pointer]:
+            - /url: /store/
+            - img "Instacart logo" [ref=e28]
+          - group "service type" [ref=e30]:
+            - button "Delivery" [ref=e31] [cursor=pointer]:
+              - generic [ref=e33]: Delivery
+            - button "Pickup" [ref=e34] [cursor=pointer]:
+              - generic [ref=e36]: Pickup
+          - generic [ref=e44]:
+            - button [ref=e45] [cursor=pointer]:
+              - img [ref=e47]
+            - textbox [ref=e49]
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e53]:
+            - link "Sprouts Farmers Market logo Sprouts Farmers Market" [ref=e55] [cursor=pointer]:
+              - /url: /store/sprouts/storefront
+              - img "Sprouts Farmers Market logo" [ref=e60]
+              - heading "Sprouts Farmers Market" [level=2] [ref=e61]
+            - button "No markups" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]:
+                - generic [ref=e64]: No markups
+                - img [ref=e65]
+            - button "Add loyalty" [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - text: Add loyalty
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Shop" [ref=e73] [cursor=pointer]:
+                - /url: /store/sprouts/storefront
+                - img [ref=e75]
+                - generic [ref=e77]: Shop
+            - listitem [ref=e78]:
+              - link "Flyers" [ref=e79] [cursor=pointer]:
+                - /url: /store/sprouts/flyer
+                - img [ref=e81]
+                - generic [ref=e84]: Flyers
+            - listitem [ref=e85]:
+              - link "Recipes" [ref=e86] [cursor=pointer]:
+                - /url: /store/sprouts/recipes?source_type=tab_recipes
+                - img [ref=e88]
+                - generic [ref=e90]: Recipes
+            - listitem [ref=e91]:
+              - link "Lists" [ref=e92] [cursor=pointer]:
+                - /url: /store/sprouts/your-lists?source_type=storefront
+                - img [ref=e94]
+                - generic [ref=e96]: Lists
+          - navigation "Browse aisles" [ref=e97]:
+            - heading "Browse aisles" [level=2] [ref=e99]
+            - list [ref=e101]:
+              - listitem [ref=e102]:
+                - link "Produce" [ref=e103] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/produce
+                  - generic [ref=e104]: Produce
+              - listitem [ref=e105]:
+                - link "Meat & Seafood" [ref=e106] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/meat-and-seafood
+                  - generic [ref=e107]: Meat & Seafood
+              - listitem [ref=e108]:
+                - link "Prepared Foods" [ref=e109] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/3095-prepared-foods
+                  - generic [ref=e110]: Prepared Foods
+              - listitem [ref=e111]:
+                - link "Dairy & Eggs" [ref=e112] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/dairy
+                  - generic [ref=e113]: Dairy & Eggs
+              - listitem [ref=e114]:
+                - link "Snacks & Candy" [ref=e115] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/snacks-and-candy
+                  - generic [ref=e116]: Snacks & Candy
+              - listitem [ref=e117]:
+                - link "Frozen" [ref=e118] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/frozen
+                  - generic [ref=e119]: Frozen
+              - listitem [ref=e120]:
+                - link "Bakery" [ref=e121] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/baked-goods
+                  - generic [ref=e122]: Bakery
+              - listitem [ref=e123]:
+                - link "Deli" [ref=e124] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/3089-deli
+                  - generic [ref=e125]: Deli
+              - listitem [ref=e126]:
+                - link "Beverages" [ref=e127] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/beverages
+                  - generic [ref=e128]: Beverages
+              - listitem [ref=e129]:
+                - link "Canned Goods & Soups" [ref=e130] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/canned-goods
+                  - generic [ref=e131]: Canned Goods & Soups
+              - listitem [ref=e132]:
+                - link "Breakfast" [ref=e133] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/breakfast-foods
+                  - generic [ref=e134]: Breakfast
+              - listitem [ref=e135]:
+                - link "Oils, Vinegars, & Spices" [ref=e136] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/oils-vinegars-spices
+                  - generic [ref=e137]: Oils, Vinegars, & Spices
+              - listitem [ref=e138]:
+                - link "Dry Goods & Pasta" [ref=e139] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/dry-goods-pasta
+                  - generic [ref=e140]: Dry Goods & Pasta
+              - listitem [ref=e141]:
+                - link "Household" [ref=e142] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/household
+                  - generic [ref=e143]: Household
+              - listitem [ref=e144]:
+                - link "Condiments & Sauces" [ref=e145] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/condiments-sauces
+                  - generic [ref=e146]: Condiments & Sauces
+              - listitem [ref=e147]:
+                - link "Pets" [ref=e148] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/pets
+                  - generic [ref=e149]: Pets
+              - listitem [ref=e150]:
+                - link "Personal Care" [ref=e151] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/personal-care
+                  - generic [ref=e152]: Personal Care
+              - listitem [ref=e153]:
+                - link "Baking Essentials" [ref=e154] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/baking-essentials
+                  - generic [ref=e155]: Baking Essentials
+              - listitem [ref=e156]:
+                - link "Health Care" [ref=e157] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/health-care
+                  - generic [ref=e158]: Health Care
+              - listitem [ref=e159]:
+                - link "Baby" [ref=e160] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/baby
+                  - generic [ref=e161]: Baby
+              - listitem [ref=e162]:
+                - link "Kitchen Supplies" [ref=e163] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/kitchen-supplies
+                  - generic [ref=e164]: Kitchen Supplies
+              - listitem [ref=e165]:
+                - link "Miscellaneous" [ref=e166] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/857-miscellaneous-grocery
+                  - generic [ref=e167]: Miscellaneous
+              - listitem [ref=e168]:
+                - link "Floral" [ref=e169] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/41367-floral
+                  - generic [ref=e170]: Floral
+              - listitem [ref=e171]:
+                - link "Gifts for Mom" [ref=e172] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/36314-flowers-gifts-for-mom
+                  - generic [ref=e173]: Gifts for Mom
+              - listitem [ref=e174]:
+                - link "Paper Goods & Laundry" [ref=e175] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/35548-paper-goods-and-laundry
+                  - generic [ref=e176]: Paper Goods & Laundry
+              - listitem [ref=e177]:
+                - link "Sales" [ref=e178] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/dynamic_collection-sales
+                  - generic [ref=e179]: Sales
+              - listitem [ref=e180]:
+                - link "Sprouts Brands" [ref=e181] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/n-sprouts-brands-83847
+                  - generic [ref=e182]: Sprouts Brands
+              - listitem [ref=e183]:
+                - link "Deli & Prepared Foods" [ref=e184] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/n-deli-prepared-foods-89750
+                  - generic [ref=e185]: Deli & Prepared Foods
+              - listitem [ref=e186]:
+                - link "Vitamins & Supplements" [ref=e187] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/n-vitamins-supplements-88844
+                  - generic [ref=e188]: Vitamins & Supplements
+              - listitem [ref=e189]:
+                - link "Bath & Body Care" [ref=e190] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/n-bath-body-care-17424
+                  - generic [ref=e191]: Bath & Body Care
+              - listitem [ref=e192]:
+                - link "Meal Solutions" [ref=e193] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/n-meal-solutions-4790
+                  - generic [ref=e194]: Meal Solutions
+        - main [ref=e196]:
+          - generic [ref=e198]:
+            - region [ref=e201]:
+              - list [ref=e202]
+            - list [ref=e215]:
+              - listitem [ref=e216]:
+                - generic "Loading-item" [ref=e217]
+              - listitem [ref=e229]:
+                - generic "Loading-item" [ref=e230]
+              - listitem [ref=e242]:
+                - generic "Loading-item" [ref=e243]
+              - listitem [ref=e255]:
+                - generic "Loading-item" [ref=e256]
+              - listitem [ref=e268]:
+                - generic "Loading-item" [ref=e269]
+              - listitem [ref=e281]:
+                - generic "Loading-item" [ref=e282]
+              - listitem [ref=e294]:
+                - generic "Loading-item" [ref=e295]
+              - listitem [ref=e307]:
+                - generic "Loading-item" [ref=e308]
+              - listitem [ref=e320]:
+                - generic "Loading-item" [ref=e321]
+              - listitem [ref=e333]:
+                - generic "Loading-item" [ref=e334]
+              - listitem [ref=e346]:
+                - generic "Loading-item" [ref=e347]
+              - listitem [ref=e359]:
+                - generic "Loading-item" [ref=e360]
+              - listitem [ref=e372]:
+                - generic "Loading-item" [ref=e373]
+              - listitem [ref=e385]:
+                - generic "Loading-item" [ref=e386]
+              - listitem [ref=e398]:
+                - generic "Loading-item" [ref=e399]
+    - generic:
+      - list

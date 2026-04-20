@@ -1,0 +1,334 @@
+- generic [active] [ref=e1]:
+  - generic: X
+  - link "Enable Accessibility" [ref=e5] [cursor=pointer]:
+    - /url: "#"
+  - navigation [ref=e6]:
+    - generic [ref=e7]:
+      - link "Skip Navigation" [ref=e8] [cursor=pointer]:
+        - /url: "#ubermenu-main-4-top-bar-r-2-skipnav"
+      - navigation [ref=e9]:
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "Welcome to Sprouts Farmers Market" [ref=e12] [cursor=pointer]:
+              - /url: https://www.sprouts.com/
+              - img "Sprouts Logo" [ref=e13]
+          - listitem [ref=e14]:
+            - generic [ref=e15] [cursor=pointer]:
+              - generic [ref=e16]: Explore
+              - text: 
+          - listitem [ref=e17]:
+            - generic [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: Save
+              - text: 
+          - listitem [ref=e20]:
+            - generic [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: Shop
+              - text: 
+          - listitem
+  - main [ref=e30]:
+    - article [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e37]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: Shop The
+            - generic [ref=e41]:
+              - text: Organic Sale
+              - superscript [ref=e42]: "*"
+          - generic [ref=e43]:
+            - paragraph [ref=e44]:
+              - text: Save on 700+ USDA Certified Organic items
+              - strong [ref=e45]: now through April 21st!
+            - paragraph [ref=e46]: "*Select items only."
+          - link "Pre-Order Today" [ref=e48] [cursor=pointer]:
+            - /url: https://shop.sprouts.com/store/sprouts/pages/organic-sale?utm_source=sprouts.com&utm_medium=Homepage+Hero&utm_campaign=Organic+Sale
+        - generic [ref=e50]:
+          - link "Pickup" [ref=e52] [cursor=pointer]:
+            - /url: https://shop.sprouts.com/store/sprouts/pickup?redirectUrl=https%3A%2F%2Fwww.sprouts.com%2F%3Fic-update-shops&utm_source=sprouts.com&utm_medium=Shopping+Contex+-+HP+Button&utm_campaign=Pickup
+            - generic [ref=e53]: Pickup
+          - link "Delivery" [ref=e55] [cursor=pointer]:
+            - /url: https://shop.sprouts.com/store/sprouts/delivery?redirectUrl=https%3A%2F%2Fwww.sprouts.com%2F%3Fic-update-shops&utm_source=sprouts.com&utm_medium=Shopping+Context+-+HP+Button&utm_campaign=Delivery
+            - generic [ref=e56]: Delivery
+          - link "Catering" [ref=e58] [cursor=pointer]:
+            - /url: https://catering.sprouts.com/?utm_source=sprouts.com&utm_medium=Shopping+Mode&utm_campaign=Catering
+            - generic [ref=e59]: Catering
+          - link "Shopping list" [ref=e61] [cursor=pointer]:
+            - /url: https://shop.sprouts.com/store/sprouts/instore?redirectUrl=https%3A%2F%2Fwww.sprouts.com%2F%3Fic-update-shops&utm_source=sprouts.com&utm_medium=Shopping+Context+-+HP+Button&utm_campaign=Shopping+List
+            - generic [ref=e62]: Shopping list
+        - link "Avocadoly Delicious. Boldy flavorful kettle-cooked chips. Shop Now" [ref=e64] [cursor=pointer]:
+          - /url: https://shop.sprouts.com/store/sprouts/collections/rc-kettle-rm?utm_source=shop.sprouts.com&utm_medium=RMN&utm_campaign=Kettle&utm_id=ITT5vVJ3z9
+          - img "Avocadoly Delicious. Boldy flavorful kettle-cooked chips. Shop Now" [ref=e65]
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - heading "Discoveries for Every Table" [level=1] [ref=e71]
+            - generic [ref=e72]: Explore fresh, healthy and delicious products for your unique lifestyle.
+          - generic [ref=e73]:
+            - link "A link to Organic Organic" [ref=e75] [cursor=pointer]:
+              - /url: https://shop.sprouts.com/store/sprouts/collections/rc-organic?utm_source=sprouts.com&utm_medium=Dietary+Attributes&utm_campaign=Organic
+              - img "A link to Organic" [ref=e77]
+              - generic [ref=e78]: Organic
+            - link "A link to Gluten-free Gluten-free" [ref=e80] [cursor=pointer]:
+              - /url: https://shop.sprouts.com/store/sprouts/collections/rc-gluten-free?utm_source=sprouts.com&utm_medium=Dietary+Attributes&utm_campaign=Gluten-Free
+              - img "A link to Gluten-free" [ref=e82]
+              - generic [ref=e83]: Gluten-free
+            - link "A link to Plant-based Plant-based" [ref=e85] [cursor=pointer]:
+              - /url: https://shop.sprouts.com/store/sprouts/collections/rc-plant-based?utm_source=sprouts.com&utm_medium=Dietary+Attributes&utm_campaign=Plant-Based
+              - img "A link to Plant-based" [ref=e87]
+              - generic [ref=e88]: Plant-based
+            - link "A link to Keto Keto" [ref=e90] [cursor=pointer]:
+              - /url: https://shop.sprouts.com/store/sprouts/collections/rc-keto?utm_source=sprouts.com&utm_medium=Dietary+Attributes&utm_campaign=Keto
+              - img "A link to Keto" [ref=e92]
+              - generic [ref=e93]: Keto
+            - link "A link to Paleo Paleo" [ref=e95] [cursor=pointer]:
+              - /url: https://shop.sprouts.com/store/sprouts/collections/rc-paleo?utm_source=sprouts.com&utm_medium=Dietary+Attributes&utm_campaign=Paleo
+              - img "A link to Paleo" [ref=e97]
+              - generic [ref=e98]: Paleo
+            - link "A link to Non-GMO Non-GMO" [ref=e100] [cursor=pointer]:
+              - /url: https://shop.sprouts.com/store/sprouts/collections/rc-non-gmo?tags=non-gmo&utm_source=sprouts.com&utm_medium=Dietary+Attributes&utm_campaign=Non-GMO
+              - img "A link to Non-GMO" [ref=e102]
+              - generic [ref=e103]: Non-GMO
+        - generic [ref=e106]:
+          - heading "Find it at Sprouts" [level=2] [ref=e107]
+          - generic [ref=e108]:
+            - heading "Discover Sprouts Brand" [level=3] [ref=e110]
+            - generic [ref=e111]:
+              - generic [ref=e113]:
+                - generic [ref=e114]: Discover your new favorite unique and better-for-you finds, only at Sprouts!
+                - link "Shop now" [ref=e116] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pages/sprouts-brand?utm_source=sprouts.com&utm_medium=Exclusive+Cards&utm_campaign=Sprouts+Brand
+              - img "Kombucha & pasta" [ref=e119]
+          - generic [ref=e120]:
+            - heading "Forager Find" [level=3] [ref=e122]
+            - generic [ref=e123]:
+              - generic [ref=e125]:
+                - paragraph [ref=e127]: Our foragers have searched far and wide to bring you the latest and most fabulous finds.
+                - link "Shop Now" [ref=e129] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pages/new-at-sprouts?utm_source=sprouts.com&utm_medium=Exclusive+Cards&utm_campaign=Forager+Finds
+              - img "new for you products" [ref=e132]
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - link "Deals of The Month" [ref=e139] [cursor=pointer]:
+              - /url: https://shop.sprouts.com/store/sprouts/flyers/view/monthly/print?auto_locate=true&auto_flyer=true&auto_store=true&utm_source=sprouts.com&utm_medium=Dynamic+Promo+Cards&utm_campaign=Deals+of+the+Month
+              - img "Deals of The Month" [ref=e140]
+            - link "Digital Coupons" [ref=e142] [cursor=pointer]:
+              - /url: https://shop.sprouts.com/store/sprouts/pages/in-store-deals?utm_source=sprouts.com&utm_medium=Dynamic+Promo+Cards&utm_campaign=Digital+Coupons
+              - img "Digital Coupons" [ref=e143]
+          - generic [ref=e145]:
+            - img "Phone with weekly ad open on screen" [ref=e147]
+            - generic [ref=e148]:
+              - paragraph [ref=e150]: Discover un-beet-able deals and add your favorite items to your cart or shopping list directly from the weekly ad.
+              - link "View weekly ad" [ref=e151] [cursor=pointer]:
+                - /url: https://shop.sprouts.com/store/sprouts/flyers/view/weekly/print?utm_source=sprouts.com&utm_medium=Dynamic+Promo+Cards&utm_campaign=Weekly+Ad
+                - generic [ref=e153]: View weekly ad
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e158]:
+              - img "Sprouts app open on a phone screen" [ref=e159]
+              - heading "Earn points faster with member-only events" [level=3] [ref=e160]:
+                - generic [ref=e161]: Earn points faster with member-only events
+              - paragraph [ref=e163]: Sprouts Rewards just got better, with point multipliers, bonus points personalized to you & more!
+              - link "Join Now" [ref=e164] [cursor=pointer]:
+                - /url: https://account.sprouts.com/shared/sign-up?utm_source=sprouts.com&utm_medium=Deals+%26+Products+Content+Card&utm_campaign=Rewards+Signup
+            - generic [ref=e166]:
+              - img "Peak Season logo surrounded by produce" [ref=e167]
+              - heading "Peak season Produce" [level=3] [ref=e168]:
+                - generic [ref=e169]: Peak season Produce
+              - paragraph [ref=e171]: When you buy peak season produce, you’re biting into the best in fresh — according to nature!
+              - link "Shop Now" [ref=e172] [cursor=pointer]:
+                - /url: https://www.sprouts.com/peak-season-produce/?utm_source=sprouts.com&utm_medium=Merch+Promo&utm_campaign=Peak+Season+Produce
+          - heading "Shop Healthy Meals, No Prep Required!" [level=2] [ref=e175]
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - 'heading "The Dish: Sprouts Recipes & Fresh Finds" [level=2] [ref=e181]'
+            - paragraph [ref=e183]: Explore seasonal kitchen inspiration for healthy, delicious living all year long.
+            - generic [ref=e185]:
+              - img "Enjoy Smooth Sips with Illy & Malk" [ref=e188]
+              - generic [ref=e189]:
+                - heading "Enjoy Smooth Sips with Illy & Malk" [level=3] [ref=e190]
+                - paragraph [ref=e192]: Start your morning with responsibly sourced brews & plant-based milks.
+                - link "Learn More" [ref=e194] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/healthy-living/shop-illy-malk?utm_source=sprouts.com&utm_medium=Homepage+Articles&utm_campaign=Shop+Illy+Malk
+            - generic [ref=e196]:
+              - img "Quick Tips for Picking Produce" [ref=e199]
+              - generic [ref=e200]:
+                - heading "Quick Tips for Picking Produce" [level=3] [ref=e201]
+                - paragraph [ref=e203]: Taste the best in fresh & minimize food waste with these organic shopping tips.
+                - link "Learn More" [ref=e205] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/healthy-living/tips-for-choosing-produce/?utm_source=sprouts.com&utm_medium=Homepage+Articles&utm_campaign=Tips+For+Choosing+Produce
+            - generic [ref=e207]:
+              - img "Nutritious Spinach & Berry Salad" [ref=e210]
+              - generic [ref=e211]:
+                - heading "Nutritious Spinach & Berry Salad" [level=3] [ref=e212]
+                - paragraph [ref=e214]: This bright spring salad is packed with fresh berries & tangy feta crumbles.
+                - link "View Recipe" [ref=e216] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/recipes/2898563-spinach-and-berry-salad-with-feta?utm_source=sprouts.com&utm_medium=Homepage+Articles&utm_campaign=Spinach+Berry+Salad
+            - generic [ref=e218]:
+              - 'img "Founders & Foragers: <br>GoMacro Macrobars" [ref=e221]'
+              - generic [ref=e222]:
+                - 'heading "Founders & Foragers: GoMacro Macrobars" [level=3] [ref=e223]':
+                  - text: "Founders & Foragers:"
+                  - text: GoMacro Macrobars
+                - paragraph [ref=e225]: Discover the unique story of the mother-daughter team behind GoMacro Macrobars.
+                - link "Learn More" [ref=e227] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pages/founders-foragers?utm_source=sprouts.com&utm_medium=Homepage+Articles&utm_campaign=Founders+Foragers
+          - generic [ref=e229]:
+            - generic [ref=e230]:
+              - 'img "Meal of the Week: Honey Citrus Sheet Pan Chicken" [ref=e233]'
+              - 'heading "Meal of the Week: Honey Citrus Sheet Pan Chicken" [level=3] [ref=e234]'
+              - generic [ref=e235]:
+                - paragraph
+                - paragraph [ref=e236]: Save on easy weeknight meals with Buy One, Get One 50% off select chicken breasts this week.
+              - link "View Recipe" [ref=e238] [cursor=pointer]:
+                - /url: https://shop.sprouts.com/store/sprouts/recipes/2898247-honey-citrus-sheet-pan-chicken?utm_source=sprouts.com&utm_medium=Homepage+Recipes&utm_campaign=Honey+Sheet+Pan+Chicken
+            - generic [ref=e239]:
+              - img "How to Eat More Organics" [ref=e242]
+              - heading "How to Eat More Organics" [level=3] [ref=e243]
+              - paragraph [ref=e245]: Eating organic is easy when you find the right swaps, shop with the seasons & look for certified labels.
+              - link "View Recipe" [ref=e247] [cursor=pointer]:
+                - /url: https://www.sprouts.com/healthy-living/why-does-it-matter-to-eat-organic/?categoryIds=1?utm_source=sprouts.com&utm_medium=Homepage+Recipes&utm_campaign=Eat+Organic
+        - generic [ref=e249]:
+          - link "ACFC Team Angel City Football Club (ACFC) Together, Sprouts and ACFC will create greater access to fresh foods and provide nutrition education for children throughout Los Angeles. Learn More" [ref=e250] [cursor=pointer]:
+            - /url: https://www.instagram.com/reel/CkwMSCBDanx/?utm_source=ig_web_copy_link
+            - img "ACFC Team" [ref=e252]
+            - heading "Angel City Football Club (ACFC)" [level=3] [ref=e253]
+            - generic [ref=e254]: Together, Sprouts and ACFC will create greater access to fresh foods and provide nutrition education for children throughout Los Angeles.
+            - strong [ref=e257]: Learn More
+          - link "PowHERed by Sprouts logo PowHERed by Sprouts We’re on a mission to power women on and off the field whether it’s through healthy groceries or partnerships with the powerhouse athletes and organizations changing the game in women’s sports. Learn More" [ref=e258] [cursor=pointer]:
+            - /url: https://www.sprouts.com/women-in-sports-nutrition/?utm_source=sprouts.com&utm_medium=Teaser+Cards&utm_campaign=PowHERed+by+Sprouts
+            - img "PowHERed by Sprouts logo" [ref=e260]
+            - heading "PowHERed by Sprouts" [level=3] [ref=e261]
+            - generic [ref=e262]: We’re on a mission to power women on and off the field whether it’s through healthy groceries or partnerships with the powerhouse athletes and organizations changing the game in women’s sports.
+            - strong [ref=e265]: Learn More
+          - link "storefront with now open sign above door Find a Store Near You! Sprouts offers a unique grocery experience featuring an open layout with fresh produce at the heart of the store. Learn more about our locations and upcoming grand opening celebrations! Find a Store" [ref=e266] [cursor=pointer]:
+            - /url: https://www.sprouts.com/stores/?utm_source=sprouts.com&utm_medium=Teaser+Cards&utm_campaign=Find+a+Store%2FGOs
+            - img "storefront with now open sign above door" [ref=e268]
+            - heading "Find a Store Near You!" [level=3] [ref=e269]
+            - generic [ref=e270]: Sprouts offers a unique grocery experience featuring an open layout with fresh produce at the heart of the store. Learn more about our locations and upcoming grand opening celebrations!
+            - strong [ref=e273]: Find a Store
+        - generic: "> >"
+  - generic [ref=e274]:
+    - contentinfo [ref=e276]:
+      - generic [ref=e278]:
+        - generic [ref=e279]:
+          - generic [ref=e280]:
+            - heading "Shop" [level=4] [ref=e281]
+            - list [ref=e283]:
+              - listitem [ref=e284]:
+                - link "Sprouts Brands" [ref=e285] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pages/sprouts-brand
+              - listitem [ref=e286]:
+                - link "Weekly Deals" [ref=e287] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/flyers/view/weekly/print
+              - listitem [ref=e288]:
+                - link "Deals of the Month" [ref=e289] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/flyers/view/monthly/print
+              - listitem [ref=e290]:
+                - link "New For You" [ref=e291] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/collections/rc-sprouts-new-items
+              - listitem [ref=e292]:
+                - link "Gift Cards" [ref=e293] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/gift-cards/
+          - generic [ref=e294]:
+            - heading "Get Sprouts" [level=4] [ref=e295]
+            - list [ref=e297]:
+              - listitem [ref=e298]:
+                - link "Pickup" [ref=e299] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pickup?redirectUrl=https://www.sprouts.com&utm_source=sprouts.com&utm_medium=Shopping+Context+-+Footer&utm_campaign=Pickup
+              - listitem [ref=e300]:
+                - link "Delivery" [ref=e301] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/delivery?redirectUrl=https://www.sprouts.com&utm_source=sprouts.com&utm_medium=Shopping+Context+-+Footer&utm_campaign=Delivery
+              - listitem [ref=e302]:
+                - link "Catering" [ref=e303] [cursor=pointer]:
+                  - /url: https://catering.sprouts.com/
+        - generic [ref=e304]:
+          - generic [ref=e305]:
+            - heading "About" [level=4] [ref=e306]
+            - list [ref=e308]:
+              - listitem [ref=e309]:
+                - link "Community" [ref=e310] [cursor=pointer]:
+                  - /url: /about/sprouts-foundation/
+              - listitem [ref=e311]:
+                - link "Sustainability" [ref=e312] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/about/sustainability/
+              - listitem [ref=e313]:
+                - link "Careers" [ref=e314] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/careers/
+              - listitem [ref=e315]:
+                - link "Stores" [ref=e316] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/stores/
+              - listitem [ref=e317]:
+                - link "New Vendors" [ref=e318] [cursor=pointer]:
+                  - /url: https://about.sprouts.com/new-vendors/
+              - listitem [ref=e319]:
+                - link "Sprouts Foundation" [ref=e320] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/about/sprouts-foundation/
+              - listitem [ref=e321]:
+                - link "Investors" [ref=e322] [cursor=pointer]:
+                  - /url: https://investors.sprouts.com/
+              - listitem [ref=e323]:
+                - link "Press Releases" [ref=e324] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/newsroom/press-releases/
+          - generic [ref=e325]:
+            - heading "Customer Care" [level=4] [ref=e326]
+            - list [ref=e328]:
+              - listitem [ref=e329]:
+                - link "FAQs" [ref=e330] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/faq/
+              - listitem [ref=e331]:
+                - link "Product Recalls" [ref=e332] [cursor=pointer]:
+                  - /url: /product-recall/
+              - listitem [ref=e333]:
+                - link "Contact Us" [ref=e334] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/contact/
+        - generic [ref=e336]:
+          - heading "Socials" [level=4] [ref=e337]
+          - list [ref=e339]:
+            - listitem [ref=e340]:
+              - link "Facebook" [ref=e341] [cursor=pointer]:
+                - /url: https://www.facebook.com/SproutsFarmersMarket
+            - listitem [ref=e342]:
+              - link "Instagram" [ref=e343] [cursor=pointer]:
+                - /url: https://www.instagram.com/sprouts
+            - listitem [ref=e344]:
+              - link "Tiktok" [ref=e345] [cursor=pointer]:
+                - /url: https://tiktok.com/@sproutsfarmersmarket
+            - listitem [ref=e346]:
+              - link "Youtube" [ref=e347] [cursor=pointer]:
+                - /url: https://youtube.com/user/SproutsFarmersMarket
+            - listitem [ref=e348]:
+              - link "Pinterest" [ref=e349] [cursor=pointer]:
+                - /url: https://pinterest.com/sproutsfm
+            - listitem [ref=e350]:
+              - link "Threads" [ref=e351] [cursor=pointer]:
+                - /url: https://www.threads.net/@sprouts
+        - generic [ref=e353]:
+          - heading "Sign up & Save" [level=4] [ref=e354]
+          - link "Subscribe" [ref=e357] [cursor=pointer]:
+            - /url: https://account.sprouts.com/account
+    - generic [ref=e360]:
+      - article [ref=e361]:
+        - list [ref=e363]:
+          - listitem [ref=e364]:
+            - generic [ref=e365]: © 2026 SFM LLC.
+          - listitem [ref=e366]:
+            - link "Accessibility Statement" [ref=e367] [cursor=pointer]:
+              - /url: https://www.sprouts.com/accessibility-policy-page/
+          - listitem [ref=e368]:
+            - link "Privacy Policy" [ref=e369] [cursor=pointer]:
+              - /url: https://www.sprouts.com/privacy/
+          - listitem [ref=e370]:
+            - link "Terms" [ref=e371] [cursor=pointer]:
+              - /url: https://www.sprouts.com/terms/
+          - listitem [ref=e372]:
+            - link "Sitemap" [ref=e373] [cursor=pointer]:
+              - /url: /sitemap_index.xml
+          - listitem [ref=e374]:
+            - link "Disclosures" [ref=e375] [cursor=pointer]:
+              - /url: https://www.sprouts.com/disclosures/
+          - listitem [ref=e376]:
+            - link "Home" [ref=e377] [cursor=pointer]:
+              - /url: https://www.sprouts.com/
+            - text: "Version: 2.5.1"
+      - article [ref=e378]:
+        - heading "Communication Preferences" [level=6] [ref=e379]
+        - link "Cookie Preferences" [ref=e382] [cursor=pointer]
+  - img [ref=e383]

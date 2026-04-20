@@ -1,0 +1,313 @@
+- generic [active] [ref=e1]:
+  - textbox [ref=e3]
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e8]:
+          - link "Skip Navigation" [ref=e9] [cursor=pointer]:
+            - /url: "#store-wrapper"
+          - button "Main Menu" [ref=e11] [cursor=pointer]:
+            - img [ref=e13]
+          - link "Instacart" [ref=e15] [cursor=pointer]:
+            - /url: /store/
+            - img "Instacart" [ref=e16]
+          - search [ref=e19]:
+            - button:
+              - img
+            - paragraph [ref=e20]
+            - textbox [ref=e22]
+          - generic [ref=e24]:
+            - 'button "current address: 90039. Or select a new address." [ref=e25] [cursor=pointer]':
+              - generic [ref=e26]:
+                - img [ref=e27]
+                - generic [ref=e29]: "90039"
+                - img [ref=e30]
+            - textbox [ref=e32]
+          - 'button "View Cart. Items in cart: 0" [disabled]':
+            - generic:
+              - img
+              - generic: "0"
+      - generic [ref=e33]:
+        - navigation [ref=e35]:
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Home" [ref=e38] [cursor=pointer]:
+                - /url: /store/?categoryFilter=homeTabForYou
+                - img [ref=e40]
+                - generic [ref=e42]: Home
+            - listitem [ref=e43]:
+              - link "EBT" [ref=e44] [cursor=pointer]:
+                - /url: /store/?categoryFilter=homeTabEbt
+                - img [ref=e46]
+                - generic [ref=e49]: EBT
+            - listitem [ref=e50]:
+              - link "Offers" [ref=e51] [cursor=pointer]:
+                - /url: /store/?categoryFilter=homeTabOffers
+                - img [ref=e53]
+                - generic [ref=e55]: Offers
+            - listitem [ref=e56]:
+              - link "Grocery" [ref=e57] [cursor=pointer]:
+                - /url: /store/?categoryFilter=homeTabGrocery
+                - img [ref=e59]
+                - generic [ref=e61]: Grocery
+            - listitem [ref=e62]:
+              - link "Convenience" [ref=e63] [cursor=pointer]:
+                - /url: /store/?categoryFilter=homeTabConvenience
+                - img [ref=e65]
+                - generic [ref=e68]: Convenience
+            - listitem [ref=e69]:
+              - link "Alcohol" [ref=e70] [cursor=pointer]:
+                - /url: /store/?categoryFilter=homeTabAlcohol
+                - img [ref=e72]
+                - generic [ref=e74]: Alcohol
+            - listitem [ref=e75]:
+              - link "Retail" [ref=e76] [cursor=pointer]:
+                - /url: /store/?categoryFilter=homeTabRetail
+                - img [ref=e78]
+                - generic [ref=e81]: Retail
+            - listitem [ref=e82]:
+              - button "Show more" [ref=e83] [cursor=pointer]:
+                - generic [ref=e84]: Show more
+                - img [ref=e87]
+          - generic [ref=e89]:
+            - separator [ref=e91]
+            - generic [ref=e92]:
+              - heading "You" [level=2] [ref=e93]
+              - list [ref=e94]:
+                - listitem [ref=e95]:
+                  - link "Flyers" [ref=e96] [cursor=pointer]:
+                    - /url: /store/?categoryFilter=homeTabFlyers
+                    - img [ref=e98]
+                    - generic [ref=e103]: Flyers
+                - listitem [ref=e104]:
+                  - button "Account" [ref=e105] [cursor=pointer]:
+                    - img [ref=e107]
+                    - generic [ref=e110]: Account
+        - main [ref=e111]:
+          - generic [ref=e113]:
+            - heading "Home" [level=1] [ref=e114]
+            - generic [ref=e115]:
+              - heading "Your stores" [level=2] [ref=e117]
+              - list [ref=e118]:
+                - listitem [ref=e119]:
+                  - link "Vons logo Vons" [ref=e122] [cursor=pointer]:
+                    - /url: /store/vons/storefront
+                    - generic [ref=e123]:
+                      - img "Vons logo" [ref=e127]
+                      - generic [ref=e128]: Vons
+                - listitem [ref=e129]:
+                  - link "Sprouts Farmers Market logo Sprouts Farmers Market" [ref=e132] [cursor=pointer]:
+                    - /url: /store/sprouts/storefront
+                    - generic [ref=e133]:
+                      - img "Sprouts Farmers Market logo" [ref=e137]
+                      - generic [ref=e138]: Sprouts Farmers Market
+                - listitem [ref=e139]:
+                  - link "Costco logo Costco" [ref=e142] [cursor=pointer]:
+                    - /url: /store/costco/storefront
+                    - generic [ref=e143]:
+                      - img "Costco logo" [ref=e147]
+                      - generic [ref=e148]: Costco
+                - listitem [ref=e149]:
+                  - link "Stater Bros. logo Stater Bros." [ref=e152] [cursor=pointer]:
+                    - /url: /store/stater-bros/storefront
+                    - generic [ref=e153]:
+                      - img "Stater Bros. logo" [ref=e157]
+                      - generic [ref=e158]: Stater Bros.
+                - listitem [ref=e159]:
+                  - link "Ralphs logo Ralphs" [ref=e162] [cursor=pointer]:
+                    - /url: /store/ralphs/storefront
+                    - generic [ref=e163]:
+                      - img "Ralphs logo" [ref=e167]
+                      - generic [ref=e168]: Ralphs
+                - listitem [ref=e169]:
+                  - link "Walmart logo Walmart" [ref=e172] [cursor=pointer]:
+                    - /url: /store/walmart/storefront
+                    - generic [ref=e173]:
+                      - img "Walmart logo" [ref=e177]
+                      - generic [ref=e178]: Walmart
+                - listitem [ref=e179]:
+                  - link "Food4Less logo Food4Less" [ref=e182] [cursor=pointer]:
+                    - /url: /store/food-4-less-kroger/storefront
+                    - generic [ref=e183]:
+                      - img "Food4Less logo" [ref=e187]
+                      - generic [ref=e188]: Food4Less
+                - listitem [ref=e189]:
+                  - link "Target logo Target" [ref=e192] [cursor=pointer]:
+                    - /url: /store/target/storefront
+                    - generic [ref=e193]:
+                      - img "Target logo" [ref=e197]
+                      - generic [ref=e198]: Target
+                - listitem [ref=e199]:
+                  - link "Show all 366 stores" [ref=e200] [cursor=pointer]:
+                    - /url: /store/directory
+                    - img [ref=e203]
+                    - generic [ref=e205]:
+                      - text: Show all
+                      - generic [ref=e206]: 366 stores
+              - generic [ref=e207]: Offers subject to terms and eligibility
+            - generic [ref=e208]:
+              - heading "Beyond grocery" [level=2] [ref=e210]
+              - list [ref=e211]:
+                - listitem [ref=e212]:
+                  - link "Sally Beauty logo Sally Beauty" [ref=e215] [cursor=pointer]:
+                    - /url: /store/sally-beauty/storefront
+                    - generic [ref=e216]:
+                      - img "Sally Beauty logo" [ref=e220]
+                      - generic [ref=e221]: Sally Beauty
+                - listitem [ref=e222]:
+                  - link "Best Buy logo Best Buy" [ref=e225] [cursor=pointer]:
+                    - /url: /store/best-buy/storefront
+                    - generic [ref=e226]:
+                      - img "Best Buy logo" [ref=e230]
+                      - generic [ref=e231]: Best Buy
+                - listitem [ref=e232]:
+                  - link "The Container Store logo The Container Store" [ref=e235] [cursor=pointer]:
+                    - /url: /store/the-container-store/storefront
+                    - generic [ref=e236]:
+                      - img "The Container Store logo" [ref=e240]
+                      - generic [ref=e241]: The Container Store
+                - listitem [ref=e242]:
+                  - link "The Vitamin Shoppe® logo The Vitamin Shoppe®" [ref=e245] [cursor=pointer]:
+                    - /url: /store/vitamin-shoppe/storefront
+                    - generic [ref=e246]:
+                      - img "The Vitamin Shoppe® logo" [ref=e250]
+                      - generic [ref=e251]: The Vitamin Shoppe®
+                - listitem [ref=e252]:
+                  - link "DICK'S Sporting Goods logo DICK'S Sporting Goods" [ref=e255] [cursor=pointer]:
+                    - /url: /store/dicks-sporting-goods/storefront
+                    - generic [ref=e256]:
+                      - img "DICK'S Sporting Goods logo" [ref=e260]
+                      - generic [ref=e261]: DICK'S Sporting Goods
+                - listitem [ref=e262]:
+                  - link "BevMo! logo BevMo!" [ref=e265] [cursor=pointer]:
+                    - /url: /store/bevmo/storefront
+                    - generic [ref=e266]:
+                      - img "BevMo! logo" [ref=e270]
+                      - generic [ref=e271]: BevMo!
+                - listitem [ref=e272]:
+                  - link "Staples logo Staples" [ref=e275] [cursor=pointer]:
+                    - /url: /store/staples/storefront
+                    - generic [ref=e276]:
+                      - img "Staples logo" [ref=e280]
+                      - generic [ref=e281]: Staples
+                - listitem [ref=e282]:
+                  - link "Five Below logo Five Below" [ref=e285] [cursor=pointer]:
+                    - /url: /store/five-below/storefront
+                    - generic [ref=e286]:
+                      - img "Five Below logo" [ref=e290]
+                      - generic [ref=e291]: Five Below
+                - listitem [ref=e292]:
+                  - link "Show all 289 stores" [ref=e293] [cursor=pointer]:
+                    - /url: /store/directory?filter=retail
+                    - img [ref=e296]
+                    - generic [ref=e298]:
+                      - text: Show all
+                      - generic [ref=e299]: 289 stores
+            - generic [ref=e368]:
+              - generic [ref=e369]:
+                - heading "Stores to help you save" [level=2] [ref=e371]
+                - button "Show all" [ref=e372] [cursor=pointer]
+              - list [ref=e374]:
+                - listitem [ref=e375]:
+                  - group "retailer" [ref=e376]:
+                    - generic [ref=e377]:
+                      - img "Ralphs logo" [ref=e380]
+                      - generic [ref=e381]:
+                        - link "Ralphs" [ref=e383] [cursor=pointer]:
+                          - /url: /store/ralphs/storefront
+                          - heading "Ralphs" [level=3] [ref=e384]
+                        - generic [ref=e386]:
+                          - img [ref=e387]
+                          - generic [ref=e389]: Delivery available
+                        - list [ref=e390]:
+                          - listitem [ref=e391]: Organic•
+                          - listitem [ref=e392]: Butcher Shop•
+                          - listitem [ref=e393]: Farmer's Market
+                - listitem [ref=e394]:
+                  - group "retailer" [ref=e395]:
+                    - generic [ref=e396]:
+                      - img "Walmart logo" [ref=e399]
+                      - generic [ref=e400]:
+                        - link "Walmart" [ref=e402] [cursor=pointer]:
+                          - /url: /store/walmart/storefront
+                          - heading "Walmart" [level=3] [ref=e403]
+                        - generic [ref=e405]:
+                          - img [ref=e406]
+                          - generic [ref=e408]: Delivery available
+                        - list [ref=e409]:
+                          - listitem [ref=e410]: Groceries•
+                          - listitem [ref=e411]: Home•
+                          - listitem [ref=e412]: Electronics
+                - listitem [ref=e413]:
+                  - group "retailer" [ref=e414]:
+                    - generic [ref=e415]:
+                      - img "Sprouts Farmers Market logo" [ref=e418]
+                      - generic [ref=e419]:
+                        - link "Sprouts Farmers Market" [ref=e421] [cursor=pointer]:
+                          - /url: /store/sprouts/storefront
+                          - heading "Sprouts Farmers Market" [level=3] [ref=e422]
+                        - generic [ref=e424]:
+                          - img [ref=e425]
+                          - generic [ref=e427]: Delivery available
+                        - generic [ref=e429]:
+                          - img [ref=e430]
+                          - generic [ref=e432]: Pickup available
+                        - list [ref=e433]:
+                          - listitem [ref=e434]: Organic•
+                          - listitem [ref=e435]: Groceries•
+                          - listitem [ref=e436]: Butcher Shop
+                - listitem [ref=e437]:
+                  - group "retailer" [ref=e438]:
+                    - generic [ref=e439]:
+                      - img "Food4Less logo" [ref=e442]
+                      - generic [ref=e443]:
+                        - link "Food4Less" [ref=e445] [cursor=pointer]:
+                          - /url: /store/food-4-less-kroger/storefront
+                          - heading "Food4Less" [level=3] [ref=e446]
+                        - generic [ref=e448]:
+                          - img [ref=e449]
+                          - generic [ref=e451]: Delivery available
+                        - list [ref=e452]:
+                          - listitem [ref=e453]: Pantry•
+                          - listitem [ref=e454]: Dairy•
+                          - listitem [ref=e455]: Frozen Food
+                - listitem [ref=e456]:
+                  - group "retailer" [ref=e457]:
+                    - generic [ref=e458]:
+                      - img "El Super logo" [ref=e461]
+                      - generic [ref=e462]:
+                        - link "El Super" [ref=e464] [cursor=pointer]:
+                          - /url: /store/el-super/storefront
+                          - heading "El Super" [level=3] [ref=e465]
+                        - generic [ref=e467]:
+                          - img [ref=e468]
+                          - generic [ref=e470]: Delivery available
+                        - list [ref=e471]:
+                          - listitem [ref=e472]: Produce•
+                          - listitem [ref=e473]: Butcher Shop•
+                          - listitem [ref=e474]: Bakery
+                - listitem [ref=e475]:
+                  - group "retailer" [ref=e476]:
+                    - generic [ref=e477]:
+                      - img "Super King logo" [ref=e480]
+                      - generic [ref=e481]:
+                        - link "Super King" [ref=e483] [cursor=pointer]:
+                          - /url: /store/super-king/storefront
+                          - heading "Super King" [level=3] [ref=e484]
+                        - generic [ref=e486]:
+                          - img [ref=e487]
+                          - generic [ref=e489]: Delivery available
+                        - list [ref=e490]:
+                          - listitem [ref=e491]: Ethnic•
+                          - listitem [ref=e492]: Household•
+                          - listitem [ref=e493]: Alcohol
+      - contentinfo [ref=e560]:
+        - img [ref=e561]
+        - heading "There's more to explore" [level=2] [ref=e564]
+        - heading "Shop 378 stores (and counting) in Los Angeles." [level=3] [ref=e565]
+        - link "View all stores" [ref=e566] [cursor=pointer]:
+          - /url: /store/directory/
+          - generic [ref=e567]: View all stores
+    - generic:
+      - list
+  - generic: • • • • • • • • • • • • • • • • • • • • • • • • •

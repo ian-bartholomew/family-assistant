@@ -1,0 +1,259 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=e8]
+  - banner [ref=e9]:
+    - navigation "Primary" [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - link "Amazon" [ref=e14] [cursor=pointer]:
+            - /url: /ref=nav_logo
+          - button "Delivering to Los Angeles 90039 Update location" [ref=e17] [cursor=pointer]:
+            - generic [ref=e19]:
+              - generic [ref=e20]: Delivering to Los Angeles 90039
+              - generic [ref=e21]: Update location
+        - search [ref=e24]:
+          - generic [ref=e27]:
+            - generic [ref=e29]: All
+            - combobox "Select the department you want to search in" [ref=e31] [cursor=pointer]:
+              - option "All Departments" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Autos"
+              - option "Amazon Devices"
+              - option "Amazon Fresh"
+              - option "Amazon Global Store"
+              - option "Amazon Haul"
+              - option "Amazon One Medical"
+              - option "Amazon Pharmacy"
+              - option "Amazon Resale"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Arts, Crafts & Sewing"
+              - option "Audible Books & Originals"
+              - option "Automotive Parts & Accessories"
+              - option "Baby"
+              - option "Beauty & Personal Care"
+              - option "Books"
+              - option "Bristol Farms"
+              - option "CDs & Vinyl"
+              - option "Cell Phones & Accessories"
+              - option "Clothing, Shoes & Jewelry"
+              - option "Women's Clothing, Shoes & Jewelry"
+              - option "Men's Clothing, Shoes & Jewelry"
+              - option "Girl's Clothing, Shoes & Jewelry"
+              - option "Boy's Clothing, Shoes & Jewelry"
+              - option "Baby Clothing, Shoes & Jewelry"
+              - option "Collectibles & Fine Art"
+              - option "Computers"
+              - option "Credit and Payment Cards"
+              - option "Digital Music"
+              - option "Electronics"
+              - option "Garden & Outdoor"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Food"
+              - option "Handmade"
+              - option "Health, Household & Baby Care"
+              - option "Home & Business Services"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Just for Prime"
+              - option "Kindle Store"
+              - option "Luggage & Travel Gear"
+              - option "Luxury Stores"
+              - option "Magazine Subscriptions"
+              - option "Mission Wine & Spirits"
+              - option "Movies & TV"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Food Express"
+              - option "Pet Supplies"
+              - option "Premium Beauty"
+              - option "Prime Video"
+              - option "Same-Day Store"
+              - option "Smart Home"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Subscribe & Save"
+              - option "Subscription Boxes"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under $10"
+              - option "Video Games"
+              - option "Whole Foods Market"
+          - searchbox "Search Amazon" [ref=e34]
+          - generic "Go" [ref=e37] [cursor=pointer]:
+            - button "Go" [ref=e38]
+        - generic [ref=e40]:
+          - link "Choose a language for shopping in Amazon United States. The current selection is English (EN)." [ref=e42] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+            - generic [ref=e45]:
+              - img "United States" [ref=e46]
+              - generic [ref=e47]: EN
+          - link "Hello, sign in Account & Lists" [ref=e49] [cursor=pointer]:
+            - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F_encoding%3DUTF8%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - generic [ref=e51]: Hello, sign in
+            - generic [ref=e52]: Account & Lists
+          - link "Returns & Orders" [ref=e53] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e54]: Returns
+            - generic [ref=e55]: "& Orders"
+          - link "0 items in cart" [ref=e56] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e58]: "0"
+            - generic [ref=e61]: Cart
+      - generic [ref=e62]:
+        - button "Open All Categories Menu" [ref=e64] [cursor=pointer]:
+          - generic [ref=e66]: All
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "Amazon Haul" [ref=e73] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=e74]:
+            - link "Medical Care" [ref=e76] [cursor=pointer]:
+              - /url: https://health.amazon.com/prime?ref_=nav_cs_all_health_ingress_onem_h
+          - listitem [ref=e77]:
+            - link "Amazon Basics" [ref=e79] [cursor=pointer]:
+              - /url: /Amazon_Basics?channel=discovbar&field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=e80]:
+            - link "Best Sellers" [ref=e82] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e83]:
+            - link "Books" [ref=e85] [cursor=pointer]:
+              - /url: /books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books
+          - listitem [ref=e86]:
+            - link "Today's Deals" [ref=e88] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e89]:
+            - link "Prime" [ref=e91] [cursor=pointer]:
+              - /url: /prime?ref_=nav_cs_primelink_nonmember
+          - listitem [ref=e92]:
+            - link "Gift Cards" [ref=e94] [cursor=pointer]:
+              - /url: /gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+          - listitem [ref=e95]:
+            - link "Sell" [ref=e97] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=e98]:
+            - link "Groceries" [ref=e100] [cursor=pointer]:
+              - /url: /fmc/grocery-gateway?gsc=fe16aGPfFs46S&ref_=nav_cs_groceries
+          - listitem [ref=e101]:
+            - link "New Releases" [ref=e103] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e104]:
+            - link "Registry" [ref=e106] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - listitem [ref=e107]:
+            - link "Smart Home" [ref=e109] [cursor=pointer]:
+              - /url: /Smart-Home/b/?ie=UTF8&node=6563140011&ref_=nav_cs_smart_home
+          - listitem [ref=e110]:
+            - link "Music" [ref=e112] [cursor=pointer]:
+              - /url: /music/player?ref_=nav_cs_music
+          - listitem [ref=e113]:
+            - link "Fashion" [ref=e115] [cursor=pointer]:
+              - /url: /amazon-fashion/b/?ie=UTF8&node=7141123011&ref_=nav_cs_fashion
+          - listitem [ref=e116]:
+            - link "Amazon Home" [ref=e118] [cursor=pointer]:
+              - /url: /home-garden-kitchen-furniture-bedding/b/?ie=UTF8&node=1055398&ref_=nav_cs_home
+          - listitem [ref=e119]:
+            - link "Automotive" [ref=e121] [cursor=pointer]:
+              - /url: /automotive-auto-truck-replacements-parts/b/?ie=UTF8&node=15684181&ref_=nav_cs_automotive
+          - listitem [ref=e122]:
+            - link "Sports & Outdoors" [ref=e124] [cursor=pointer]:
+              - /url: /sports-outdoors/b/?ie=UTF8&node=3375251&ref_=nav_cs_sports
+          - listitem [ref=e125]:
+            - link "Toys & Games" [ref=e127] [cursor=pointer]:
+              - /url: /toys/b/?ie=UTF8&node=165793011&ref_=nav_cs_toys
+          - listitem [ref=e128]:
+            - link "Baby" [ref=e130] [cursor=pointer]:
+              - /url: /baby-car-seats-strollers-bedding/b/?ie=UTF8&node=165796011&ref_=nav_cs_baby
+          - listitem [ref=e131]:
+            - link "Home Improvement" [ref=e133] [cursor=pointer]:
+              - /url: /Tools-and-Home-Improvement/b/?ie=UTF8&node=228013&ref_=nav_cs_hi
+          - listitem [ref=e134]:
+            - link "Shop By Interest" [ref=e136] [cursor=pointer]:
+              - /url: /finds?ref_=nav_cs_foundit
+          - listitem [ref=e137]:
+            - link "Pharmacy" [ref=e139] [cursor=pointer]:
+              - /url: https://pharmacy.amazon.com/?nodl=0&ref_=nav_cs_pharmacy
+          - listitem [ref=e140]:
+            - link "Kindle Books" [ref=e142] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=154606011&ref_=nav_cs_kindle_books
+          - listitem [ref=e143]:
+            - link "Beauty & Personal Care" [ref=e145] [cursor=pointer]:
+              - /url: /Beauty-Makeup-Skin-Hair-Products/b/?ie=UTF8&node=3760911&ref_=nav_cs_beauty
+        - link "Watch NBA Hawks vs. Knicks Live now" [ref=e149] [cursor=pointer]:
+          - /url: /gp/video/detail/B0GD5CNYR7/ref=dvm_crs_gat_us_se_dt_swm_l_al_76NBA2026_tp/?ie=UTF8&ref_=nav_swm_dvm_crs_gat_us_se_dt_swm_l_al_76NBA2026_tp&pf_rd_p=c5894c58-c9e8-4930-9f85-592208c3b89c&pf_rd_s=nav-sitewide-msg-text&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=KCZS3V795RWVXY1TRYNK
+          - img "Watch NBA Hawks vs. Knicks Live now" [ref=e150]
+  - main [ref=e152]:
+    - banner [ref=e154]:
+      - region "Featured content" [ref=e155]:
+        - list [ref=e160]:
+          - listitem [ref=e161]:
+            - link "Prime Video live event detail page" [ref=e170] [cursor=pointer]:
+              - /url: /gp/video/detail/B0GD5CNYR7/?ie=UTF8&pd_rd_w=Cbuew&content-id=amzn1.sym.3e0681d6-055e-4a96-8267-1a8f49439a29&pf_rd_p=3e0681d6-055e-4a96-8267-1a8f49439a29&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=GRgUU&pd_rd_r=a6a00bd5-16fd-4458-b0b1-360bd348dfb6&ref_=pd_hp_d_hero_unk
+          - listitem [ref=e171]
+          - listitem [ref=e173]
+          - listitem [ref=e175]
+          - listitem [ref=e177]
+          - listitem [ref=e179]
+    - generic [ref=e182]:
+      - generic [ref=e184]:
+        - heading "Continue shopping deals" [level=2] [ref=e186]:
+          - generic [ref=e188]: Continue shopping deals
+        - generic [ref=e190]:
+          - link "KIND Breakfast Protein Bars, Dark Chocolate Cocoa, Gluten Free, Low Sodium, Healthy Snacks, 8g Protein, 12 Count (12 Packs of 2 Bars)" [ref=e192] [cursor=pointer]:
+            - /url: /KIND-Breakfast-Protein-Chocolate-Healthy/dp/B0G59TYVLL/?_encoding=UTF8&pd_rd_w=Rw8Sj&content-id=amzn1.sym.150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_p=150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9&ref_=pd_hp_d_atf_dealz_cs
+            - img "KIND Breakfast Protein Bars, Dark Chocolate Cocoa, Gluten Free, Low Sodium, Healthy Snacks, 8g Protein, 12 Count (12 Packs of 2 Bars)" [ref=e194]
+          - link "PB2 Organic Powdered Peanut Butter | USDA Organic Certified, Non-GMO Project Verified, Gluten-Free Peanut Butter Powder | Vegan, Keto Friendly | 24oz Resealable Jar" [ref=e196] [cursor=pointer]:
+            - /url: /PB2-Organic-Powdered-Peanut-Butter/dp/B0CCJWPWZF/?_encoding=UTF8&pd_rd_w=Rw8Sj&content-id=amzn1.sym.150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_p=150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9&ref_=pd_hp_d_atf_dealz_cs
+            - img "PB2 Organic Powdered Peanut Butter | USDA Organic Certified, Non-GMO Project Verified, Gluten-Free Peanut Butter Powder | Vegan, Keto Friendly | 24oz Resealable Jar" [ref=e198]
+          - link "Quaker Old Fashioned Rolled Oats, USDA Organic, Non GMO Project Verified, 24oz Resealable Bags (Pack of 4)" [ref=e200] [cursor=pointer]:
+            - /url: /Quaker-Fashioned-Breakfast-Verified-Resealable/dp/B0747LWDCK/?_encoding=UTF8&pd_rd_w=Rw8Sj&content-id=amzn1.sym.150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_p=150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9&ref_=pd_hp_d_atf_dealz_cs
+            - img "Quaker Old Fashioned Rolled Oats, USDA Organic, Non GMO Project Verified, 24oz Resealable Bags (Pack of 4)" [ref=e202]
+          - link "Lenny & Larry's FITZELS Variety Pack, 3 Flavors, 12 Count- Savory Pretzel Snacks Incredibly Tasty, High Protein Salty, Vegan, 20 g's of Plant Based Protein, 3 oz Each" [ref=e204] [cursor=pointer]:
+            - /url: /Lenny-Larrys-FITZELS-Variety-Incredibly/dp/B0DLWYTSSJ/?_encoding=UTF8&pd_rd_w=Rw8Sj&content-id=amzn1.sym.150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_p=150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9&ref_=pd_hp_d_atf_dealz_cs
+            - img "Lenny & Larry's FITZELS Variety Pack, 3 Flavors, 12 Count- Savory Pretzel Snacks Incredibly Tasty, High Protein Salty, Vegan, 20 g's of Plant Based Protein, 3 oz Each" [ref=e206]
+        - link "See more deals" [ref=e208] [cursor=pointer]:
+          - /url: /events/deals/?_encoding=UTF8&_encoding=UTF8&ref_=dealz_cs_see_more&bubble-id=deals-contextual-link&dynamicBubble=%7B%2522collectionId%2522%3A%2522deals-contextual-link%2522%2C%2522departmentsIncluded%2522%3A%5B6524464011%2C345830011%2C118518014011%2C16323081%5D%7D&pd_rd_w=Rw8Sj&content-id=amzn1.sym.150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_p=150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9
+          - generic [ref=e210]: See more deals
+      - generic [ref=e212]:
+        - heading "Save on Amazon Devices" [level=2] [ref=e214]:
+          - generic [ref=e216]: Save on Amazon Devices
+        - generic [ref=e218]:
+          - link "Hisense 50\" E6 Cinema Series Hi-QLED 4K UHD Smart Fire TV (50E6QF, 2025 Model) - AI Light Sensor, Dolby Vision · Atmos, Voice Remote with Alexa, Motion Rate 120, HDR 10+ Adaptive, Game Mode Plus 38% off Limited time deal" [ref=e220] [cursor=pointer]:
+            - /url: /Hisense-Cinema-Hi-QLED-Smart-50E6QF/dp/B0FHLPYS84/?_encoding=UTF8&pd_rd_w=3ZnUy&content-id=amzn1.sym.050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_p=050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9&ref_=pd_hp_d_atf_dealz_sod
+            - img "Hisense 50\" E6 Cinema Series Hi-QLED 4K UHD Smart Fire TV (50E6QF, 2025 Model) - AI Light Sensor, Dolby Vision · Atmos, Voice Remote with Alexa, Motion Rate 120, HDR 10+ Adaptive, Game Mode Plus" [ref=e222]
+            - generic [ref=e224]: 38% off Limited time deal
+          - link "Ring Battery Doorbell, Home or business security with Head-to-Toe video, Live View with Two-Way Talk, and Motion Detection & Alerts, Venetian Bronze 20% off Limited time deal" [ref=e226] [cursor=pointer]:
+            - /url: /Ring-Battery-Doorbell-Head-to-Toe-Video-Venetian-Bronze/dp/B0BZWRLRLK/?_encoding=UTF8&pd_rd_w=3ZnUy&content-id=amzn1.sym.050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_p=050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9&ref_=pd_hp_d_atf_dealz_sod
+            - img "Ring Battery Doorbell, Home or business security with Head-to-Toe video, Live View with Two-Way Talk, and Motion Detection & Alerts, Venetian Bronze" [ref=e228]
+            - generic [ref=e230]: 20% off Limited time deal
+          - link "Like-New Ring Wired Doorbell Plus - Upgraded, with added security features and a sleek design (existing doorbell wiring required) 54% off Limited time deal" [ref=e232] [cursor=pointer]:
+            - /url: /Like-New-Ring-Wired-Doorbell-Plus/dp/B07GG3XXNX/?_encoding=UTF8&pd_rd_w=3ZnUy&content-id=amzn1.sym.050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_p=050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9&ref_=pd_hp_d_atf_dealz_sod
+            - img "Like-New Ring Wired Doorbell Plus - Upgraded, with added security features and a sleek design (existing doorbell wiring required)" [ref=e234]
+            - generic [ref=e236]: 54% off Limited time deal
+          - link "Ring Spotlight Cam Plus, Battery (newest model), Home or business security with HD video, Two-Way Talk, Color Night Vision, and Security Siren, White 27% off Limited time deal" [ref=e238] [cursor=pointer]:
+            - /url: /Ring-Spotlight-Cam-Plus-Battery-White/dp/B09JZ5BG26/?_encoding=UTF8&pd_rd_w=3ZnUy&content-id=amzn1.sym.050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_p=050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9&ref_=pd_hp_d_atf_dealz_sod
+            - img "Ring Spotlight Cam Plus, Battery (newest model), Home or business security with HD video, Two-Way Talk, Color Night Vision, and Security Siren, White" [ref=e240]
+            - generic [ref=e242]: 27% off Limited time deal
+        - link "Save on Amazon Devices - See more" [ref=e244] [cursor=pointer]:
+          - /url: /events/devicedeals/?_encoding=UTF8&ref_=dealz_sod_see_more&pd_rd_w=3ZnUy&content-id=amzn1.sym.050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_p=050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9
+          - generic [ref=e246]: See more
+      - generic [ref=e248]:
+        - heading "Curated Mother's Day gifts" [level=2] [ref=e250]
+        - generic [ref=e251]:
+          - generic [ref=e252]:
+            - link "Clutches" [ref=e254] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&i=luxury&rh=n%3A18981045011%2Cn%3A20722800011%2Cn%3A20722894011%2Cn%3A20722897011%2Cn%3A20722901011&s=exact-aware-popularity-rank&dc=&ds=v1%3AH3blYjP3%2F%2FF9yJVNQKfbJB3yAuFpq57vcRd6rlaVE0k&_encoding=UTF8&qid=1775499818&rnid=20722897011&ref_=sllx_qc_mday_clutch_spr26_gw&pd_rd_w=PHyZm&content-id=amzn1.sym.6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_p=6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9
+              - img "Clutches" [ref=e256]
+              - generic [ref=e258]: Clutches
+            - link "Jewelry" [ref=e260] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&i=luxury&bbn=121188216011&rh=n%3A18981045011%2Cn%3A121188216011%2Cn%3A20722800011&s=date-desc-rank&dc=&fs=true&ds=v1%3AIPnUD57n7dTa27xD4saHcjz13aTqB%2BnfGsl6zCYxbDk&_encoding=UTF8&_encoding=UTF8&qid=1775016820&rnid=121188216011&ref_=sllx_qc_mday_jewl_spr26_gw&pd_rd_w=PHyZm&content-id=amzn1.sym.6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_p=6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9
+              - img "Jewelry" [ref=e262]
+              - generic [ref=e264]: Jewelry
+          - link "Beauty" [ref=e267] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&i=luxury&rh=n%3A18981045011%2Cn%3A20657941011&s=date-desc-rank&dc=&ds=v1%3AT22ykKVQszCCW0xovA%2FKeyHeT0Rks87HV2qR%2BqidJ10&_encoding=UTF8&qid=1775089471&ref_=sllx_qc_mday_bty_spr26_gw&pd_rd_w=PHyZm&content-id=amzn1.sym.6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_p=6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_r=KCZS3V795RWVXY1TRYNK&pd_rd_wg=uoIdf&pd_rd_r=41baa856-514e-4bb7-abef-565b7bfdd2e9

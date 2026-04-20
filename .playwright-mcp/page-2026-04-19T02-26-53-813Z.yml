@@ -1,0 +1,212 @@
+- generic [ref=e15]:
+  - textbox [ref=e14]
+  - generic [ref=e17]:
+    - banner [ref=e18]:
+      - generic [ref=e20]:
+        - link [ref=e435] [cursor=pointer]:
+          - /url: "#store-wrapper"
+          - text: Skip Navigation
+        - button [ref=e436] [cursor=pointer]:
+          - img [ref=e25]
+        - link [ref=e437] [cursor=pointer]:
+          - /url: /store/
+          - img [ref=e438]
+        - group [ref=e439]:
+          - button [ref=e440] [cursor=pointer]:
+            - generic [ref=e108]: Delivery
+          - button [ref=e441] [cursor=pointer]:
+            - generic [ref=e111]: Pickup
+        - generic [ref=e119]:
+          - button [ref=e120] [cursor=pointer]:
+            - img [ref=e122]
+          - textbox [ref=e124]
+    - generic [ref=e125]:
+      - generic [ref=e32]:
+        - generic [ref=e34]:
+          - link [ref=e442] [cursor=pointer]:
+            - /url: /store/vons/storefront
+            - img [ref=e443]
+            - heading [level=2] [ref=e444]: Vons
+          - button [ref=e445] [cursor=pointer]:
+            - generic [ref=e44]:
+              - generic [ref=e45]: Pricing & fees
+              - img [ref=e46]
+          - button [ref=e446] [cursor=pointer]:
+            - img [ref=e50]
+            - text: Add loyalty
+        - list [ref=e52]:
+          - listitem [ref=e53]:
+            - link [ref=e447] [cursor=pointer]:
+              - /url: /store/vons/storefront
+              - img [ref=e56]
+              - generic [ref=e58]: Shop
+          - listitem [ref=e59]:
+            - link [ref=e448] [cursor=pointer]:
+              - /url: /store/vons/flyer
+              - img [ref=e62]
+              - generic [ref=e65]: Flyers
+          - listitem [ref=e66]:
+            - link [ref=e449] [cursor=pointer]:
+              - /url: /store/vons/recipes?source_type=tab_recipes
+              - img [ref=e69]
+              - generic [ref=e71]: Recipes
+          - listitem [ref=e72]:
+            - link [ref=e450] [cursor=pointer]:
+              - /url: /store/vons/your-lists?source_type=storefront
+              - img [ref=e75]
+              - generic [ref=e77]: Lists
+        - navigation [ref=e451]:
+          - heading [level=2] [ref=e452]: Browse aisles
+          - list [ref=e82]:
+            - listitem [ref=e126]:
+              - link [ref=e453] [cursor=pointer]:
+                - /url: /store/vons/collections/produce
+                - generic [ref=e128]: Produce
+            - listitem [ref=e129]:
+              - link [ref=e454] [cursor=pointer]:
+                - /url: /store/vons/collections/meat-and-seafood
+                - generic [ref=e131]: Meat & Seafood
+            - listitem [ref=e132]:
+              - link [ref=e455] [cursor=pointer]:
+                - /url: /store/vons/collections/dairy
+                - generic [ref=e134]: Dairy & Eggs
+            - listitem [ref=e135]:
+              - link [ref=e456] [cursor=pointer]:
+                - /url: /store/vons/collections/frozen
+                - generic [ref=e137]: Frozen
+            - listitem [ref=e138]:
+              - link [ref=e457] [cursor=pointer]:
+                - /url: /store/vons/collections/snacks-and-candy
+                - generic [ref=e140]: Snacks & Candy
+            - listitem [ref=e141]:
+              - link [ref=e458] [cursor=pointer]:
+                - /url: /store/vons/collections/3095-prepared-foods
+                - generic [ref=e143]: Prepared Foods
+            - listitem [ref=e144]:
+              - link [ref=e459] [cursor=pointer]:
+                - /url: /store/vons/collections/baked-goods
+                - generic [ref=e146]: Bakery
+            - listitem [ref=e147]:
+              - link [ref=e460] [cursor=pointer]:
+                - /url: /store/vons/collections/beverages
+                - generic [ref=e149]: Beverages
+            - listitem [ref=e150]:
+              - link [ref=e461] [cursor=pointer]:
+                - /url: /store/vons/collections/household
+                - generic [ref=e152]: Household
+            - listitem [ref=e153]:
+              - link [ref=e462] [cursor=pointer]:
+                - /url: /store/vons/collections/3089-deli
+                - generic [ref=e155]: Deli
+            - listitem [ref=e156]:
+              - link [ref=e463] [cursor=pointer]:
+                - /url: /store/vons/collections/canned-goods
+                - generic [ref=e158]: Canned Goods & Soups
+            - listitem [ref=e159]:
+              - link [ref=e464] [cursor=pointer]:
+                - /url: /store/vons/collections/personal-care
+                - generic [ref=e161]: Personal Care
+            - listitem [ref=e162]:
+              - link [ref=e465] [cursor=pointer]:
+                - /url: /store/vons/collections/37861-alcohol
+                - generic [ref=e164]: Alcohol
+            - listitem [ref=e165]:
+              - link [ref=e466] [cursor=pointer]:
+                - /url: /store/vons/collections/pets
+                - generic [ref=e167]: Pets
+            - listitem [ref=e168]:
+              - link [ref=e467] [cursor=pointer]:
+                - /url: /store/vons/collections/condiments-sauces
+                - generic [ref=e170]: Condiments & Sauces
+            - listitem [ref=e171]:
+              - link [ref=e468] [cursor=pointer]:
+                - /url: /store/vons/collections/breakfast-foods
+                - generic [ref=e173]: Breakfast
+            - listitem [ref=e174]:
+              - link [ref=e469] [cursor=pointer]:
+                - /url: /store/vons/collections/health-care
+                - generic [ref=e176]: Health Care
+            - listitem [ref=e177]:
+              - link [ref=e470] [cursor=pointer]:
+                - /url: /store/vons/collections/dry-goods-pasta
+                - generic [ref=e179]: Dry Goods & Pasta
+            - listitem [ref=e180]:
+              - link [ref=e471] [cursor=pointer]:
+                - /url: /store/vons/collections/baking-essentials
+                - generic [ref=e182]: Baking Essentials
+            - listitem [ref=e183]:
+              - link [ref=e472] [cursor=pointer]:
+                - /url: /store/vons/collections/kitchen-supplies
+                - generic [ref=e185]: Kitchen Supplies
+            - listitem [ref=e186]:
+              - link [ref=e473] [cursor=pointer]:
+                - /url: /store/vons/collections/oils-vinegars-spices
+                - generic [ref=e188]: Oils, Vinegars, & Spices
+            - listitem [ref=e189]:
+              - link [ref=e474] [cursor=pointer]:
+                - /url: /store/vons/collections/857-miscellaneous-grocery
+                - generic [ref=e191]: Miscellaneous
+            - listitem [ref=e192]:
+              - link [ref=e475] [cursor=pointer]:
+                - /url: /store/vons/collections/party-gifts
+                - generic [ref=e194]: Party & Gift Supplies
+            - listitem [ref=e195]:
+              - link [ref=e476] [cursor=pointer]:
+                - /url: /store/vons/collections/office-craft
+                - generic [ref=e197]: Office & Craft
+            - listitem [ref=e198]:
+              - link [ref=e477] [cursor=pointer]:
+                - /url: /store/vons/collections/35548-paper-goods-and-laundry
+                - generic [ref=e200]: Paper Goods & Laundry
+            - listitem [ref=e201]:
+              - link [ref=e478] [cursor=pointer]:
+                - /url: /store/vons/collections/36314-flowers-gifts-for-mom
+                - generic [ref=e203]: Gifts for Mom
+            - listitem [ref=e204]:
+              - link [ref=e479] [cursor=pointer]:
+                - /url: /store/vons/collections/baby
+                - generic [ref=e206]: Baby
+            - listitem [ref=e207]:
+              - link [ref=e480] [cursor=pointer]:
+                - /url: /store/vons/collections/41367-floral
+                - generic [ref=e209]: Floral
+            - listitem [ref=e210]:
+              - link [ref=e481] [cursor=pointer]:
+                - /url: /store/vons/collections/dynamic_collection-sales
+                - generic [ref=e212]: Sales
+            - listitem [ref=e213]:
+              - link [ref=e482] [cursor=pointer]:
+                - /url: /store/vons/collections/n-open-nature-16255
+                - generic [ref=e215]: Open Nature ®
+            - listitem [ref=e216]:
+              - link [ref=e483] [cursor=pointer]:
+                - /url: /store/vons/collections/n-exclusively-at-vons-15116
+                - generic [ref=e218]: Exclusively at Vons
+      - main [ref=e220]:
+        - generic [ref=e222]:
+          - region [ref=e225]:
+            - list [ref=e226]
+          - list [ref=e239]:
+            - listitem [ref=e240]
+            - listitem [ref=e253]
+            - listitem [ref=e266]
+            - listitem [ref=e279]
+            - listitem [ref=e292]
+            - listitem [ref=e305]
+            - listitem [ref=e318]
+            - listitem [ref=e331]
+            - listitem [ref=e344]
+            - listitem [ref=e357]
+            - listitem [ref=e370]
+            - listitem [ref=e383]
+            - listitem [ref=e396]
+            - listitem [ref=e409]
+            - listitem [ref=e422]
+  - generic [ref=e499]:
+    - dialog [active]:
+      - progressbar "loading" [ref=e503]:
+        - generic [ref=e504]:
+          - img [ref=e505]
+          - img [ref=e507]
+          - img [ref=e509]
+          - img [ref=e511]

@@ -1,0 +1,246 @@
+- generic [ref=e4]:
+  - generic [ref=e9]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic:
+          - link "Skip to search" [ref=e17] [cursor=pointer]:
+            - /url: "#"
+          - link "Skip to main content" [ref=e18] [cursor=pointer]:
+            - /url: "#"
+          - link "Skip to cookie settings" [ref=e19] [cursor=pointer]:
+            - /url: "#"
+          - link "Skip to chat" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+        - navigation "primary" [ref=e22]:
+          - list [ref=e23]:
+            - link "Grocery (opens in a new tab)" [ref=e24] [cursor=pointer]:
+              - /url: https://www.vons.com
+              - text: Grocery
+            - link "Health (opens in a new tab)" [ref=e25] [cursor=pointer]:
+              - /url: /health.html
+              - text: Health
+            - link "Pharmacy (opens in a new tab)" [ref=e26] [cursor=pointer]:
+              - /url: /pharmacy.html?utm_source=groceryIngress
+              - text: Pharmacy
+            - link "For Business (opens in a new tab)" [ref=e27] [cursor=pointer]:
+              - /url: https://business.vons.com
+              - text: For Business
+      - navigation "banner" [ref=e29]:
+        - generic [ref=e30]:
+          - link "vons Homepage" [ref=e31] [cursor=pointer]:
+            - /url: /
+            - img [ref=e32]
+          - region "Store Location" [ref=e33]:
+            - button "Instore at 3645 Midway Dr" [ref=e34] [cursor=pointer]:
+              - generic "Instore at 3645 Midway Dr" [ref=e36]: 3645 Midway Dr
+            - link "Store hours & info" [ref=e40] [cursor=pointer]:
+              - /url: https://local.vons.com/search.html
+              - text: Hours & info
+          - search [ref=e44]:
+            - generic [ref=e46]:
+              - combobox "Search combobox editable has autocomplete search everything at vons online in store" [ref=e47]: butter
+              - button "clear search" [ref=e48] [cursor=pointer]
+          - navigation "Account and Cart" [ref=e52]:
+            - list [ref=e53]:
+              - listitem [ref=e54]:
+                - button "Account menu" [ref=e55] [cursor=pointer]:
+                  - generic [ref=e56]: Sign in
+              - listitem [ref=e58]:
+                - button "Shopping Cart" [ref=e59] [cursor=pointer]
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - navigation "secondary" [ref=e65]:
+            - menubar "Categories" [ref=e66] [cursor=pointer]:
+              - menuitem "Fresh" [ref=e67]
+              - menuitem "Pantry" [ref=e68]
+              - menuitem "Beverages" [ref=e69]
+              - menuitem "Frozen" [ref=e70]
+              - menuitem "Household" [ref=e71]
+              - menuitem "Recipes" [ref=e72]
+              - menuitem "Shop more" [ref=e73]
+          - navigation "campaign" [ref=e75] [cursor=pointer]:
+            - list [ref=e76]:
+              - listitem [ref=e77]:
+                - link "Seasonal favorites 🍇" [ref=e78]:
+                  - /url: /order/spring/events-holidays.html
+        - navigation "tertiary" [ref=e79]:
+          - list [ref=e80] [cursor=pointer]:
+            - listitem [ref=e81]:
+              - link "Vons for U" [ref=e82]:
+                - /url: /loyalty/coupons-deals
+            - listitem [ref=e83]:
+              - link "Weekly Ad" [ref=e84]:
+                - /url: /weeklyad
+            - listitem [ref=e85]:
+              - link "click to view Meals AI" [ref=e86]:
+                - /url: /assistant/
+                - text: Vons AI
+    - generic [ref=e90]:
+      - generic [ref=e92]:
+        - text: Unlimited Free Delivery with FreshPass®
+        - generic [ref=e93]:
+          - text: Plus score a $5 monthly credit with annual subscription – a $60 value! Restrictions apply.
+          - link "Start free trial" [ref=e94] [cursor=pointer]:
+            - /url: /freshpass/manage/subscribe
+      - button "Close Notification" [ref=e95] [cursor=pointer]:
+        - img [ref=e96]
+  - generic [ref=e101]:
+    - main [ref=e107]:
+      - region [ref=e111]
+    - region "Section for Searched Products and Recipes." [ref=e123]:
+      - tablist [ref=e124]:
+        - tab "Products" [active] [selected] [ref=e125] [cursor=pointer]
+        - tab "Recipes New" [ref=e126] [cursor=pointer]
+    - generic [ref=e131]:
+      - generic [ref=e138]:
+        - generic [ref=e139]: Filters
+        - button "Clear all filters" [ref=e140] [cursor=pointer]: Clear All
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=1]
+        - button "Sort by Best Match" [ref=e151] [cursor=pointer]:
+          - generic [ref=e152]: Sort by
+          - generic [ref=e153]: Best Match
+        - generic [ref=e154]:
+          - generic "Page is getting loaded" [ref=e157]
+          - generic [ref=e164]:
+            - status [ref=e165]:
+              - heading "No search results for \"butter\"" [level=1] [ref=e166]
+              - paragraph [ref=e167]: Please check your spelling or try different keywords
+            - img [ref=e168]
+    - generic [ref=e196]: Sponsored 3rd party ad content
+  - generic [ref=e201]:
+    - region "Feedback" [ref=e203]:
+      - generic [ref=e204]:
+        - heading "We'd love to hear what you think of our website!" [level=2] [ref=e205]
+        - button "Share feedback" [ref=e207] [cursor=pointer]
+    - contentinfo [ref=e208]:
+      - generic [ref=e211]:
+        - generic [ref=e213]:
+          - list [ref=e215]:
+            - listitem [ref=e216]: Quick Links
+            - listitem [ref=e217]:
+              - link "FreshPass" [ref=e218] [cursor=pointer]:
+                - /url: /lp/subscriptions-delivery.html
+            - listitem [ref=e219]:
+              - link "Our Brands" [ref=e220] [cursor=pointer]:
+                - /url: /about-us/our-brands.html
+            - listitem [ref=e221]:
+              - link "Mobile Apps" [ref=e222] [cursor=pointer]:
+                - /url: /about-us/mobile-apps.html
+            - listitem [ref=e223]:
+              - link "Gift and Prepaid Cards" [ref=e224] [cursor=pointer]:
+                - /url: /gifts-and-prepaid-cards.html
+            - listitem [ref=e225]:
+              - link "Find Your Local Vons opens in a new tab" [ref=e226] [cursor=pointer]:
+                - /url: https://local.vons.com/
+                - text: Find Your Local Vons
+            - listitem [ref=e227]:
+              - link "Vons Pharmacy" [ref=e228] [cursor=pointer]:
+                - /url: /pharmacy.html
+            - listitem [ref=e229]:
+              - link "All Brands List" [ref=e230] [cursor=pointer]:
+                - /url: /shop/brands/landing
+            - listitem [ref=e231]:
+              - link "Entertaining Guide opens in a new tab" [ref=e232] [cursor=pointer]:
+                - /url: https://www.vons.com/content/dam/docs/vons-deli-catering-brochure.pdf
+                - text: Entertaining Guide
+            - listitem [ref=e233]:
+              - link "Vons Business" [ref=e234] [cursor=pointer]:
+                - /url: https://business.vons.com?utm_source=Vons&utm_medium=Footer
+          - list [ref=e236]:
+            - listitem [ref=e237]: Company Info
+            - listitem [ref=e238]:
+              - link "Contact Us" [ref=e239] [cursor=pointer]:
+                - /url: /help
+            - listitem [ref=e240]:
+              - link "FAQ" [ref=e241] [cursor=pointer]:
+                - /url: /faq.html
+            - listitem [ref=e242]:
+              - link "About Us" [ref=e243] [cursor=pointer]:
+                - /url: /about-us.html
+            - listitem [ref=e244]:
+              - link "Albertsons Companies opens in a new tab" [ref=e245] [cursor=pointer]:
+                - /url: https://www.albertsonscompanies.com/home.html
+                - text: Albertsons Companies
+            - listitem [ref=e246]:
+              - link "Careers opens in a new tab" [ref=e247] [cursor=pointer]:
+                - /url: https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/pages/5002
+                - text: Careers
+            - listitem [ref=e248]:
+              - link "Suppliers opens in a new tab" [ref=e249] [cursor=pointer]:
+                - /url: https://www.albertsonscompanies.com/suppliers.html
+                - text: Suppliers
+            - listitem [ref=e250]:
+              - link "For Employees" [ref=e251] [cursor=pointer]:
+                - /url: /employee-resource-center.html
+            - listitem [ref=e252]:
+              - link "Foundation opens in a new tab" [ref=e253] [cursor=pointer]:
+                - /url: https://www.albertsonscompanies.com/about-aci/our-impact/Albertsons-Foundation/default.aspx
+                - text: Foundation
+            - listitem [ref=e254]:
+              - link "Product Recalls opens in a new tab" [ref=e255] [cursor=pointer]:
+                - /url: https://www.albertsonscompanies.com/product-recalls.html
+                - text: Product Recalls
+          - list [ref=e257]:
+            - listitem [ref=e258]: Policies & Disclosures
+            - listitem [ref=e259]:
+              - link "Terms of Use opens in a new tab" [ref=e260] [cursor=pointer]:
+                - /url: /terms-of-use.html
+                - text: Terms of Use
+            - listitem [ref=e261]:
+              - link "Privacy Policy opens in a new tab" [ref=e262] [cursor=pointer]:
+                - /url: https://www.albertsonscompanies.com/about-us/our-policies/privacy-policy.html
+                - text: Privacy Policy
+            - listitem [ref=e263]:
+              - link "Do Not Sell or Share My Personal Information opens in a new tab" [ref=e264] [cursor=pointer]:
+                - /url: https://privacyportal.onetrust.com/webform/ea30fd57-7c9b-4aa0-b3c2-5ff790e3550f/4235c968-b986-43b7-934a-ded2923a08ac
+                - text: Do Not Sell or Share My Personal Information
+            - listitem [ref=e265]:
+              - link "Accessibility Statement opens in a new tab" [ref=e266] [cursor=pointer]:
+                - /url: https://www.albertsonscompanies.com/about-us/our-policies/accessibility-statement.html
+                - text: Accessibility Statement
+            - listitem [ref=e267]:
+              - link "HIPAA Notice of Privacy Practices opens in a new tab" [ref=e268] [cursor=pointer]:
+                - /url: https://www.albertsonscompanies.com/about-us/our-policies/hipaa-notice-of-privacy-practices.html
+                - text: HIPAA Notice of Privacy Practices
+            - listitem [ref=e269]:
+              - link "Supply Chain Transparency opens in a new tab" [ref=e270] [cursor=pointer]:
+                - /url: https://www.albertsonscompanies.com/policies-and-disclosures/supply-chain-transparency/default.aspx
+                - text: Supply Chain Transparency
+            - listitem [ref=e271]:
+              - link "Other Policies & Disclosures opens in a new tab" [ref=e272] [cursor=pointer]:
+                - /url: https://www.albertsonscompanies.com/about-us/our-policies.html
+                - text: Other Policies & Disclosures
+        - generic [ref=e274]:
+          - listitem [ref=e275]: Connect
+          - generic [ref=e276]:
+            - listitem [ref=e277]:
+              - link "Vons Facebook page" [ref=e278] [cursor=pointer]:
+                - /url: https://www.facebook.com/vons/
+                - img [ref=e279]
+            - listitem [ref=e281]:
+              - link "Vons Twitter page" [ref=e282] [cursor=pointer]:
+                - /url: https://twitter.com/vons
+                - img [ref=e283]
+            - listitem [ref=e285]:
+              - link "Vons Pinterest Page" [ref=e286] [cursor=pointer]:
+                - /url: https://www.pinterest.com/vons/
+                - img [ref=e287]
+            - listitem [ref=e289]:
+              - link "Vons Instagram page" [ref=e290] [cursor=pointer]:
+                - /url: https://www.instagram.com/vons/
+                - img [ref=e291]
+            - listitem [ref=e293]:
+              - link "Vons YouTube page" [ref=e294] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCgIrA_oQnUUfJihnjbwVclw
+                - img [ref=e295]
+            - listitem [ref=e297]:
+              - link "Vons TikTok page" [ref=e298] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@vons
+      - paragraph [ref=e303]: © 2026 Albertsons Companies, Inc. All rights reserved.

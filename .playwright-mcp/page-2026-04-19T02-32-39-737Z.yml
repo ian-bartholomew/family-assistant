@@ -1,0 +1,169 @@
+- generic [active] [ref=e1]:
+  - generic: X
+  - link "Enable Accessibility" [ref=e5] [cursor=pointer]:
+    - /url: "#"
+  - navigation [ref=e6]:
+    - generic [ref=e7]:
+      - link "Skip Navigation" [ref=e8] [cursor=pointer]:
+        - /url: "#ubermenu-main-4-top-bar-r-2-skipnav"
+      - navigation [ref=e9]:
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "Welcome to Sprouts Farmers Market" [ref=e12] [cursor=pointer]:
+              - /url: https://www.sprouts.com/
+              - img "Sprouts Logo" [ref=e13]
+          - listitem [ref=e14]:
+            - generic [ref=e15] [cursor=pointer]:
+              - generic [ref=e16]: Explore
+              - text: 
+          - listitem [ref=e17]:
+            - generic [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: Save
+              - text: 
+          - listitem [ref=e20]:
+            - generic [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: Shop
+              - text: 
+          - listitem:
+            - generic [ref=e24]:
+              - link "Sign In / Register" [ref=e29] [cursor=pointer]:
+                - /url: https://shop.sprouts.com/rest/sso/auth/sprouts/init?return_to=https%3A%2F%2Faccount.sprouts.com%2Faccount
+              - search [ref=e34]:
+                - text: Explore popular searches with arrow keys or begin typing in the search field, and the app will offer suggestions. Use the arrow keys to navigate to a suggestion and then use the Enter key to select it.
+                - generic [ref=e35]:
+                  - combobox "Search Sprouts Farmers Market..." [ref=e36]
+                  - img [ref=e38]
+  - img [ref=e41]
+  - main [ref=e43]:
+    - article [ref=e44]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - heading "We're berry sorry!" [level=1] [ref=e49]
+          - paragraph [ref=e50]: Don't be blue, but the page you're looking for is out of season.
+        - img "A 404 image with a blueberry for the 0" [ref=e51]
+  - generic [ref=e52]:
+    - contentinfo [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - heading "Shop" [level=4] [ref=e59]
+            - list [ref=e61]:
+              - listitem [ref=e62]:
+                - link "Sprouts Brands" [ref=e63] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pages/sprouts-brand
+              - listitem [ref=e64]:
+                - link "Weekly Deals" [ref=e65] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/flyers/view/weekly/print
+              - listitem [ref=e66]:
+                - link "Deals of the Month" [ref=e67] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/flyers/view/monthly/print
+              - listitem [ref=e68]:
+                - link "New For You" [ref=e69] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/collections/rc-sprouts-new-items
+              - listitem [ref=e70]:
+                - link "Gift Cards" [ref=e71] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/gift-cards/
+          - generic [ref=e72]:
+            - heading "Get Sprouts" [level=4] [ref=e73]
+            - list [ref=e75]:
+              - listitem [ref=e76]:
+                - link "Pickup" [ref=e77] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pickup?redirectUrl=https://www.sprouts.com&utm_source=sprouts.com&utm_medium=Shopping+Context+-+Footer&utm_campaign=Pickup
+              - listitem [ref=e78]:
+                - link "Delivery" [ref=e79] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/delivery?redirectUrl=https://www.sprouts.com&utm_source=sprouts.com&utm_medium=Shopping+Context+-+Footer&utm_campaign=Delivery
+              - listitem [ref=e80]:
+                - link "Catering" [ref=e81] [cursor=pointer]:
+                  - /url: https://catering.sprouts.com/
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - heading "About" [level=4] [ref=e84]
+            - list [ref=e86]:
+              - listitem [ref=e87]:
+                - link "Community" [ref=e88] [cursor=pointer]:
+                  - /url: /about/sprouts-foundation/
+              - listitem [ref=e89]:
+                - link "Sustainability" [ref=e90] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/about/sustainability/
+              - listitem [ref=e91]:
+                - link "Careers" [ref=e92] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/careers/
+              - listitem [ref=e93]:
+                - link "Stores" [ref=e94] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/stores/
+              - listitem [ref=e95]:
+                - link "New Vendors" [ref=e96] [cursor=pointer]:
+                  - /url: https://about.sprouts.com/new-vendors/
+              - listitem [ref=e97]:
+                - link "Sprouts Foundation" [ref=e98] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/about/sprouts-foundation/
+              - listitem [ref=e99]:
+                - link "Investors" [ref=e100] [cursor=pointer]:
+                  - /url: https://investors.sprouts.com/
+              - listitem [ref=e101]:
+                - link "Press Releases" [ref=e102] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/newsroom/press-releases/
+          - generic [ref=e103]:
+            - heading "Customer Care" [level=4] [ref=e104]
+            - list [ref=e106]:
+              - listitem [ref=e107]:
+                - link "FAQs" [ref=e108] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/faq/
+              - listitem [ref=e109]:
+                - link "Product Recalls" [ref=e110] [cursor=pointer]:
+                  - /url: /product-recall/
+              - listitem [ref=e111]:
+                - link "Contact Us" [ref=e112] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/contact/
+        - generic [ref=e114]:
+          - heading "Socials" [level=4] [ref=e115]
+          - list [ref=e117]:
+            - listitem [ref=e118]:
+              - link "Facebook" [ref=e119] [cursor=pointer]:
+                - /url: https://www.facebook.com/SproutsFarmersMarket
+            - listitem [ref=e120]:
+              - link "Instagram" [ref=e121] [cursor=pointer]:
+                - /url: https://www.instagram.com/sprouts
+            - listitem [ref=e122]:
+              - link "Tiktok" [ref=e123] [cursor=pointer]:
+                - /url: https://tiktok.com/@sproutsfarmersmarket
+            - listitem [ref=e124]:
+              - link "Youtube" [ref=e125] [cursor=pointer]:
+                - /url: https://youtube.com/user/SproutsFarmersMarket
+            - listitem [ref=e126]:
+              - link "Pinterest" [ref=e127] [cursor=pointer]:
+                - /url: https://pinterest.com/sproutsfm
+            - listitem [ref=e128]:
+              - link "Threads" [ref=e129] [cursor=pointer]:
+                - /url: https://www.threads.net/@sprouts
+        - generic [ref=e131]:
+          - heading "Sign up & Save" [level=4] [ref=e132]
+          - link "Subscribe" [ref=e135] [cursor=pointer]:
+            - /url: https://account.sprouts.com/account
+    - generic [ref=e138]:
+      - article [ref=e139]:
+        - list [ref=e141]:
+          - listitem [ref=e142]:
+            - generic [ref=e143]: © 2026 SFM LLC.
+          - listitem [ref=e144]:
+            - link "Accessibility Statement" [ref=e145] [cursor=pointer]:
+              - /url: https://www.sprouts.com/accessibility-policy-page/
+          - listitem [ref=e146]:
+            - link "Privacy Policy" [ref=e147] [cursor=pointer]:
+              - /url: https://www.sprouts.com/privacy/
+          - listitem [ref=e148]:
+            - link "Terms" [ref=e149] [cursor=pointer]:
+              - /url: https://www.sprouts.com/terms/
+          - listitem [ref=e150]:
+            - link "Sitemap" [ref=e151] [cursor=pointer]:
+              - /url: /sitemap_index.xml
+          - listitem [ref=e152]:
+            - link "Disclosures" [ref=e153] [cursor=pointer]:
+              - /url: https://www.sprouts.com/disclosures/
+          - listitem [ref=e154]:
+            - link "Home" [ref=e155] [cursor=pointer]:
+              - /url: https://www.sprouts.com/
+            - text: "Version: 2.5.1"
+      - article [ref=e156]:
+        - heading "Communication Preferences" [level=6] [ref=e157]
+        - link "Cookie Preferences" [ref=e160] [cursor=pointer]

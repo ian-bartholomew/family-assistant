@@ -1,0 +1,2033 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Results" [ref=e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+      - listitem [ref=e10]:
+        - link "Filters" [ref=e11] [cursor=pointer]:
+          - /url: "#s-refinements > div.a-section > div:first-child"
+    - separator [ref=e12]
+    - heading "Keyboard shortcuts" [level=2] [ref=e13]
+    - list "Keyboard shortcuts" [ref=e14]:
+      - listitem [ref=e15]:
+        - link "Search, option, forward slash" [ref=e16] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e17]:
+            - generic [ref=e18]: Search
+            - generic [ref=e19]:
+              - generic [ref=e20]: opt
+              - generic [ref=e21]: +
+              - generic [ref=e22]: /
+      - listitem [ref=e23]:
+        - link "Cart, shift, option, c" [ref=e24] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e25]:
+            - generic [ref=e26]: Cart
+            - generic [ref=e27]:
+              - generic [ref=e28]: shift
+              - generic [ref=e29]: +
+              - generic [ref=e30]: opt
+              - generic [ref=e31]: +
+              - generic [ref=e32]: C
+      - listitem [ref=e33]:
+        - link "Home, shift, option, h" [ref=e34] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e35]:
+            - generic [ref=e36]: Home
+            - generic [ref=e37]:
+              - generic [ref=e38]: shift
+              - generic [ref=e39]: +
+              - generic [ref=e40]: opt
+              - generic [ref=e41]: +
+              - generic [ref=e42]: H
+      - listitem [ref=e43]:
+        - link "Your orders, shift, option, o" [ref=e44] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e45]:
+            - generic [ref=e46]: Orders
+            - generic [ref=e47]:
+              - generic [ref=e48]: shift
+              - generic [ref=e49]: +
+              - generic [ref=e50]: opt
+              - generic [ref=e51]: +
+              - generic [ref=e52]: O
+      - listitem [ref=e53]:
+        - button "Show/hide shortcuts, shift, option, z" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: Show/Hide shortcuts
+            - generic [ref=e57]:
+              - generic [ref=e58]: shift
+              - generic [ref=e59]: +
+              - generic [ref=e60]: opt
+              - generic [ref=e61]: +
+              - generic [ref=e62]: Z
+    - generic [ref=e68]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e69]:
+    - navigation "Primary" [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - link "Amazon" [ref=e74] [cursor=pointer]:
+            - /url: /ref=nav_logo
+          - button "Delivering to Los Angeles 90039 Update location" [ref=e77] [cursor=pointer]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: Delivering to Los Angeles 90039
+              - generic [ref=e81]: Update location
+        - search [ref=e84]:
+          - generic [ref=e87]:
+            - generic [ref=e89]: Whole Foods Market
+            - combobox "Select the department you want to search in" [ref=e91] [cursor=pointer]:
+              - option "Whole Foods Market" [selected]
+              - option "All Departments"
+              - option "Alexa Skills"
+              - option "Amazon Autos"
+              - option "Amazon Devices"
+              - option "Amazon Fresh"
+              - option "Amazon Global Store"
+              - option "Amazon Haul"
+              - option "Amazon One Medical"
+              - option "Amazon Pharmacy"
+              - option "Amazon Resale"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Arts, Crafts & Sewing"
+              - option "Audible Books & Originals"
+              - option "Automotive Parts & Accessories"
+              - option "Baby"
+              - option "Beauty & Personal Care"
+              - option "Books"
+              - option "Bristol Farms"
+              - option "CDs & Vinyl"
+              - option "Cell Phones & Accessories"
+              - option "Clothing, Shoes & Jewelry"
+              - option "Women's Clothing, Shoes & Jewelry"
+              - option "Men's Clothing, Shoes & Jewelry"
+              - option "Girl's Clothing, Shoes & Jewelry"
+              - option "Boy's Clothing, Shoes & Jewelry"
+              - option "Baby Clothing, Shoes & Jewelry"
+              - option "Collectibles & Fine Art"
+              - option "Computers"
+              - option "Credit and Payment Cards"
+              - option "Digital Music"
+              - option "Electronics"
+              - option "Garden & Outdoor"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Food"
+              - option "Handmade"
+              - option "Health, Household & Baby Care"
+              - option "Home & Business Services"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Just for Prime"
+              - option "Kindle Store"
+              - option "Luggage & Travel Gear"
+              - option "Luxury Stores"
+              - option "Magazine Subscriptions"
+              - option "Mission Wine & Spirits"
+              - option "Movies & TV"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Food Express"
+              - option "Pet Supplies"
+              - option "Premium Beauty"
+              - option "Prime Video"
+              - option "Same-Day Store"
+              - option "Smart Home"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Subscribe & Save"
+              - option "Subscription Boxes"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under $10"
+              - option "Video Games"
+          - searchbox "Search Amazon" [ref=e94]: organic strawberries
+          - generic "Go" [ref=e97] [cursor=pointer]:
+            - button "Go" [ref=e98]
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - link "Choose a language for shopping in Amazon United States. The current selection is English (EN)." [ref=e102] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e105]:
+                - img "United States" [ref=e106]
+                - generic [ref=e107]: EN
+            - button "Expand to Change Language or Country" [ref=e108] [cursor=pointer]
+          - generic [ref=e109]:
+            - link "Hello, sign in Account & Lists" [ref=e110] [cursor=pointer]:
+              - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%3Fk%3Dorganic%2Bstrawberries%26i%3Dwholefoods%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e112]: Hello, sign in
+              - generic [ref=e113]: Account & Lists
+            - button "Expand Account and Lists" [ref=e114] [cursor=pointer]
+          - link "Returns & Orders" [ref=e115] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e116]: Returns
+            - generic [ref=e117]: "& Orders"
+          - link "0 items in cart" [ref=e118] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e120]: "0"
+            - generic [ref=e123]: Cart
+      - generic [ref=e127]:
+        - link "Sign in" [ref=e128] [cursor=pointer]:
+          - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%3Fk%3Dorganic%2Bstrawberries%26i%3Dwholefoods%26ref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+          - generic [ref=e129]: Sign in
+        - generic [ref=e130]:
+          - text: New customer?
+          - link "New to Amazon? Start here to create an account" [ref=e131] [cursor=pointer]:
+            - /url: https://www.amazon.com/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%2F%3F_encoding%3DUTF8%26i%3Dwholefoods%26k%3Dorganic%2520strawberries%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - text: Start here.
+      - generic [ref=e136]:
+        - button "Open All Categories Menu" [ref=e138] [cursor=pointer]:
+          - generic [ref=e140]: All
+        - list [ref=e144]:
+          - listitem [ref=e145]:
+            - link "Amazon Haul" [ref=e147] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=e148]:
+            - generic [ref=e149]:
+              - link "Medical Care" [ref=e150] [cursor=pointer]:
+                - /url: https://health.amazon.com/prime?ref_=nav_cs_all_health_ingress_onem_h
+              - button "Medical Care Details" [ref=e151] [cursor=pointer]
+          - listitem [ref=e152]:
+            - link "Amazon Basics" [ref=e154] [cursor=pointer]:
+              - /url: /Amazon_Basics?channel=discovbar&field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=e155]:
+            - link "Best Sellers" [ref=e157] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e158]:
+            - link "Books" [ref=e160] [cursor=pointer]:
+              - /url: /books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books
+          - listitem [ref=e161]:
+            - link "Today's Deals" [ref=e163] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e164]:
+            - generic [ref=e165]:
+              - link "Prime" [ref=e166] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e167] [cursor=pointer]
+          - listitem [ref=e168]:
+            - generic [ref=e169]:
+              - link "Gift Cards" [ref=e170] [cursor=pointer]:
+                - /url: /gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+              - button "Gift Cards Details" [ref=e171] [cursor=pointer]
+          - listitem [ref=e172]:
+            - link "Sell" [ref=e174] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=e175]:
+            - link "Groceries" [ref=e177] [cursor=pointer]:
+              - /url: /fmc/grocery-gateway?gsc=fe16aGPfFs46S&ref_=nav_cs_groceries
+          - listitem [ref=e178]:
+            - link "New Releases" [ref=e180] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e181]:
+            - link "Registry" [ref=e183] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - listitem [ref=e184]:
+            - link "Smart Home" [ref=e186] [cursor=pointer]:
+              - /url: /Smart-Home/b/?ie=UTF8&node=6563140011&ref_=nav_cs_smart_home
+          - listitem [ref=e187]:
+            - link "Music" [ref=e189] [cursor=pointer]:
+              - /url: /music/player?ref_=nav_cs_music
+          - listitem [ref=e190]:
+            - link "Fashion" [ref=e192] [cursor=pointer]:
+              - /url: /amazon-fashion/b/?ie=UTF8&node=7141123011&ref_=nav_cs_fashion
+          - listitem [ref=e193]:
+            - link "Amazon Home" [ref=e195] [cursor=pointer]:
+              - /url: /home-garden-kitchen-furniture-bedding/b/?ie=UTF8&node=1055398&ref_=nav_cs_home
+          - listitem [ref=e196]:
+            - link "Automotive" [ref=e198] [cursor=pointer]:
+              - /url: /automotive-auto-truck-replacements-parts/b/?ie=UTF8&node=15684181&ref_=nav_cs_automotive
+          - listitem [ref=e199]:
+            - link "Sports & Outdoors" [ref=e201] [cursor=pointer]:
+              - /url: /sports-outdoors/b/?ie=UTF8&node=3375251&ref_=nav_cs_sports
+          - listitem [ref=e202]:
+            - link "Toys & Games" [ref=e204] [cursor=pointer]:
+              - /url: /toys/b/?ie=UTF8&node=165793011&ref_=nav_cs_toys
+          - listitem [ref=e205]:
+            - link "Baby" [ref=e207] [cursor=pointer]:
+              - /url: /baby-car-seats-strollers-bedding/b/?ie=UTF8&node=165796011&ref_=nav_cs_baby
+          - listitem [ref=e208]:
+            - link "Home Improvement" [ref=e210] [cursor=pointer]:
+              - /url: /Tools-and-Home-Improvement/b/?ie=UTF8&node=228013&ref_=nav_cs_hi
+          - listitem [ref=e211]:
+            - link "Shop By Interest" [ref=e213] [cursor=pointer]:
+              - /url: /finds?ref_=nav_cs_foundit
+          - listitem [ref=e214]:
+            - link "Pharmacy" [ref=e216] [cursor=pointer]:
+              - /url: https://pharmacy.amazon.com/?nodl=0&ref_=nav_cs_pharmacy
+          - listitem [ref=e217]:
+            - link "Kindle Books" [ref=e219] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=154606011&ref_=nav_cs_kindle_books
+          - listitem [ref=e220]:
+            - link "Beauty & Personal Care" [ref=e222] [cursor=pointer]:
+              - /url: /Beauty-Makeup-Skin-Hair-Products/b/?ie=UTF8&node=3760911&ref_=nav_cs_beauty
+        - link "Watch NBA Hawks vs. Knicks Live now" [ref=e226] [cursor=pointer]:
+          - /url: /gp/video/detail/B0GD5CNYR7/ref=dvm_crs_gat_us_se_dt_swm_l_al_76NBA2026_tp/?ie=UTF8&ref_=nav_swm_dvm_crs_gat_us_se_dt_swm_l_al_76NBA2026_tp&pf_rd_p=c5894c58-c9e8-4930-9f85-592208c3b89c&pf_rd_s=nav-sitewide-msg-text&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=P0FV8EBRWH7CBJ2JDKVH
+          - img "Watch NBA Hawks vs. Knicks Live now" [ref=e227]
+      - navigation [ref=e232]:
+        - link "Whole Foods" [ref=e235] [cursor=pointer]:
+          - /url: /alm/storefront/whole-foods-market?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref=wf_dsk_sn_logo-14ee8
+          - img "Whole Foods" [ref=e236]
+        - link "Past Purchases" [ref=e243] [cursor=pointer]:
+          - /url: /afx/lists/pastpurchases/whole-foods-market?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref=wf_dsk_sn_pastPurchases-d9ad7
+          - generic [ref=e244]: Past Purchases
+        - link "Repeat Items" [ref=e247] [cursor=pointer]:
+          - /url: /repeatitems/whole-foods-market?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref=wf_dsk_sn_repeatItems-34617
+          - generic [ref=e248]: Repeat Items
+        - link "Alexa Lists" [ref=e251] [cursor=pointer]:
+          - /url: /alexaquantum/sp/alexaShoppingList?shop=true&almBrandId=VUZHIFdob2xlIEZvb2Rz&ref=wf_dsk_sn_alexaLists-1f36e
+          - generic [ref=e252]: Alexa Lists
+        - link "Save" [ref=e258] [cursor=pointer]:
+          - /url: /fmc/deals?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref=wf_dsk_sn_Save-4c0a5
+          - generic [ref=e259]: Save
+        - generic [ref=e263]: Explore
+        - generic [ref=e267]: Shop Aisles
+        - link "Catering" [ref=e271] [cursor=pointer]:
+          - /url: /alm/storefront?almBrandId=aNHVc2Akvg&ref=wf_dsk_sn_springcatering-58268
+          - generic [ref=e272]: Catering
+      - dialog [ref=e273]
+  - generic [ref=e275]:
+    - 'heading "1-24 of 90 results for \"organic strawberries\" Sort by: Featured" [level=1] [ref=e278]':
+      - generic [ref=e279]:
+        - heading "1-24 of 90 results for \"organic strawberries\"" [level=2] [ref=e282]
+        - generic [ref=e287]:
+          - generic [ref=e288]: "Sort by:"
+          - combobox "Sort by:" [ref=e289]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Newest Arrivals"
+            - option "Best Sellers"
+          - generic [ref=e292] [cursor=pointer]: Sort by:Featured
+    - generic [ref=e294]:
+      - generic [ref=e296]:
+        - generic [ref=e298]:
+          - generic [ref=e300]:
+            - generic [ref=e303]:
+              - heading "Results" [level=2] [ref=e304]
+              - generic [ref=e305]: Check each product page for other buying options.
+            - generic:
+              - list:
+                - listitem [ref=e306]:
+                  - generic [ref=e311]:
+                    - link [ref=e315] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-Vary-040/dp/B002B8Z98W/ref=sr_1_1_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-1
+                      - img [ref=e317]
+                    - generic [ref=e318]:
+                      - link "Organic Strawberries, 1 Lb" [ref=e322] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-Vary-040/dp/B002B8Z98W/ref=sr_1_1_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-1
+                        - heading "Organic Strawberries, 1 Lb" [level=2] [ref=e323]
+                      - generic [ref=e324]:
+                        - generic [ref=e325]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e327] [cursor=pointer]:
+                            - generic [ref=e329]: 4.6 out of 5 stars
+                          - link "39,891 ratings" [ref=e333] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-Vary-040/dp/B002B8Z98W/ref=sr_1_1_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-1#customerReviews
+                            - text: (39.8K)
+                        - generic [ref=e334]: 100K+ bought in past month
+                      - generic [ref=e335]:
+                        - generic [ref=e337]:
+                          - generic [ref=e338]: Price, product page
+                          - 'link "$5.32 ( $5.32 /lb) Typical: $6.99 Typical: $6.99" [ref=e339] [cursor=pointer]':
+                            - /url: /Fresh-Produce-Brands-Vary-040/dp/B002B8Z98W/ref=sr_1_1_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-1
+                            - generic [ref=e340]:
+                              - generic [ref=e341]: $5.32
+                              - generic [ref=e342]:
+                                - text: $
+                                - generic [ref=e343]:
+                                  - text: "5"
+                                  - generic [ref=e344]: .
+                                - text: "32"
+                            - generic [ref=e345]:
+                              - text: (
+                              - generic [ref=e346]:
+                                - generic [ref=e347]: $5.32
+                                - text: $5.32
+                              - text: /lb)
+                            - generic [ref=e348]: "Typical: $6.99"
+                            - generic [ref=e349]:
+                              - text: "Typical:"
+                              - generic [ref=e350]:
+                                - generic [ref=e351]: $6.99
+                                - text: $6.99
+                        - generic [ref=e353]: 24% off
+                        - generic [ref=e354]: SNAP EBT eligible
+                      - generic [ref=e359]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Organic content" [ref=e366] [cursor=pointer]:
+                        - generic [ref=e367]: Organic content
+                - listitem [ref=e369]:
+                  - generic [ref=e374]:
+                    - link [ref=e378] [cursor=pointer]:
+                      - /url: /Driscolls-Organic-Sweetest-Batch-Blueberries/dp/B0CVS2DS5W/ref=sr_1_2_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-2
+                      - img [ref=e380]
+                    - generic [ref=e381]:
+                      - link "Driscoll'S Organic Sweetest Batch Blueberries - 11 Oz" [ref=e385] [cursor=pointer]:
+                        - /url: /Driscolls-Organic-Sweetest-Batch-Blueberries/dp/B0CVS2DS5W/ref=sr_1_2_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-2
+                        - heading "Driscoll'S Organic Sweetest Batch Blueberries - 11 Oz" [level=2] [ref=e386]
+                      - generic [ref=e387]:
+                        - generic [ref=e388]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e390] [cursor=pointer]:
+                            - generic [ref=e392]: 4.8 out of 5 stars
+                          - link "553 ratings" [ref=e396] [cursor=pointer]:
+                            - /url: /Driscolls-Organic-Sweetest-Batch-Blueberries/dp/B0CVS2DS5W/ref=sr_1_2_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-2#customerReviews
+                            - text: (553)
+                        - generic [ref=e397]: 50K+ bought in past month
+                      - generic [ref=e398]:
+                        - generic [ref=e400]:
+                          - generic [ref=e401]: Price, product page
+                          - link "$8.99 ( $0.82 /ounce)" [ref=e402] [cursor=pointer]:
+                            - /url: /Driscolls-Organic-Sweetest-Batch-Blueberries/dp/B0CVS2DS5W/ref=sr_1_2_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-2
+                            - generic [ref=e403]:
+                              - generic [ref=e404]: $8.99
+                              - generic [ref=e405]:
+                                - text: $
+                                - generic [ref=e406]:
+                                  - text: "8"
+                                  - generic [ref=e407]: .
+                                - text: "99"
+                            - generic [ref=e408]:
+                              - text: (
+                              - generic [ref=e409]:
+                                - generic [ref=e410]: $0.82
+                                - text: $0.82
+                              - text: /ounce)
+                        - generic [ref=e411]: SNAP EBT eligible
+                      - generic [ref=e416]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Organic content" [ref=e423] [cursor=pointer]:
+                        - generic [ref=e424]: Organic content
+                - listitem [ref=e426]:
+                  - generic [ref=e431]:
+                    - link [ref=e435] [cursor=pointer]:
+                      - /url: /produce-aisle-112042-Organic-Blueberries/dp/B077N7TR5G/ref=sr_1_3_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-3
+                      - img [ref=e437]
+                    - generic [ref=e438]:
+                      - link "Organic Blueberries Pint" [ref=e442] [cursor=pointer]:
+                        - /url: /produce-aisle-112042-Organic-Blueberries/dp/B077N7TR5G/ref=sr_1_3_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-3
+                        - heading "Organic Blueberries Pint" [level=2] [ref=e443]
+                      - generic [ref=e444]:
+                        - generic [ref=e445]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e447] [cursor=pointer]:
+                            - generic [ref=e449]: 4.7 out of 5 stars
+                          - link "26,661 ratings" [ref=e453] [cursor=pointer]:
+                            - /url: /produce-aisle-112042-Organic-Blueberries/dp/B077N7TR5G/ref=sr_1_3_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-3#customerReviews
+                            - text: (26.6K)
+                        - generic [ref=e454]: 100K+ bought in past month
+                      - generic [ref=e455]:
+                        - generic [ref=e457]:
+                          - generic [ref=e458]: Price, product page
+                          - link "$7.49 ( $9.99 /lb)" [ref=e459] [cursor=pointer]:
+                            - /url: /produce-aisle-112042-Organic-Blueberries/dp/B077N7TR5G/ref=sr_1_3_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-3
+                            - generic [ref=e460]:
+                              - generic [ref=e461]: $7.49
+                              - generic [ref=e462]:
+                                - text: $
+                                - generic [ref=e463]:
+                                  - text: "7"
+                                  - generic [ref=e464]: .
+                                - text: "49"
+                            - generic [ref=e465]:
+                              - text: (
+                              - generic [ref=e466]:
+                                - generic [ref=e467]: $9.99
+                                - text: $9.99
+                              - text: /lb)
+                        - generic [ref=e468]: SNAP EBT eligible
+                      - generic [ref=e473]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                - listitem [ref=e474]:
+                  - generic [ref=e479]:
+                    - link [ref=e483] [cursor=pointer]:
+                      - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H6G852/ref=sr_1_4_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-4
+                      - img [ref=e485]
+                    - generic [ref=e486]:
+                      - link "365 by Whole Foods Market, Organic Whole Strawberries, 32 oz, (Frozen)" [ref=e490] [cursor=pointer]:
+                        - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H6G852/ref=sr_1_4_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-4
+                        - heading "365 by Whole Foods Market, Organic Whole Strawberries, 32 oz, (Frozen)" [level=2] [ref=e491]
+                      - generic [ref=e494]:
+                        - generic [ref=e495]: "Options:"
+                        - 'link "Options: 2 sizes" [ref=e496] [cursor=pointer]':
+                          - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H6G852/ref=vo_sr_l_dp_f3_wg?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-4
+                          - generic [ref=e497]:
+                            - generic [ref=e498]: 2 sizes
+                            - generic [ref=e499]: 2 sizes
+                      - generic [ref=e500]:
+                        - generic [ref=e501]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e503] [cursor=pointer]:
+                            - generic [ref=e505]: 4.7 out of 5 stars
+                          - link "11,362 ratings" [ref=e509] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H6G852/ref=sr_1_4_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-4#customerReviews
+                            - text: (11.3K)
+                        - generic [ref=e510]: 20K+ bought in past month
+                      - generic [ref=e511]:
+                        - generic [ref=e513]:
+                          - generic [ref=e514]: Price, product page
+                          - link "$11.29 ( $0.35 /ounce)" [ref=e515] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H6G852/ref=sr_1_4_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-4
+                            - generic [ref=e516]:
+                              - generic [ref=e517]: $11.29
+                              - generic [ref=e518]:
+                                - text: $
+                                - generic [ref=e519]:
+                                  - text: "11"
+                                  - generic [ref=e520]: .
+                                - text: "29"
+                            - generic [ref=e521]:
+                              - text: (
+                              - generic [ref=e522]:
+                                - generic [ref=e523]: $0.35
+                                - text: $0.35
+                              - text: /ounce)
+                        - generic [ref=e524]: SNAP EBT eligible
+                      - generic [ref=e525]:
+                        - generic [ref=e529]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                        - generic "Low stock – order soon" [ref=e531]
+                      - button "Organic content" [ref=e538] [cursor=pointer]:
+                        - generic [ref=e539]: Organic content
+                - listitem [ref=e541]:
+                  - generic [ref=e546]:
+                    - link [ref=e550] [cursor=pointer]:
+                      - /url: /produce-aisle-040-01021-Organic-Blackberries/dp/B00E3JM7UU/ref=sr_1_5_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-5
+                      - img [ref=e552]
+                    - generic [ref=e553]:
+                      - link "Organic Blackberries, 6 oz" [ref=e557] [cursor=pointer]:
+                        - /url: /produce-aisle-040-01021-Organic-Blackberries/dp/B00E3JM7UU/ref=sr_1_5_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-5
+                        - heading "Organic Blackberries, 6 oz" [level=2] [ref=e558]
+                      - generic [ref=e559]:
+                        - generic [ref=e560]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e562] [cursor=pointer]:
+                            - generic [ref=e564]: 4.7 out of 5 stars
+                          - link "16,976 ratings" [ref=e568] [cursor=pointer]:
+                            - /url: /produce-aisle-040-01021-Organic-Blackberries/dp/B00E3JM7UU/ref=sr_1_5_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-5#customerReviews
+                            - text: (16.9K)
+                        - generic [ref=e569]: 100K+ bought in past month
+                      - generic [ref=e570]:
+                        - generic [ref=e572]:
+                          - generic [ref=e573]: Price, product page
+                          - link "$5.49 ( $14.64 /lb)" [ref=e574] [cursor=pointer]:
+                            - /url: /produce-aisle-040-01021-Organic-Blackberries/dp/B00E3JM7UU/ref=sr_1_5_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-5
+                            - generic [ref=e575]:
+                              - generic [ref=e576]: $5.49
+                              - generic [ref=e577]:
+                                - text: $
+                                - generic [ref=e578]:
+                                  - text: "5"
+                                  - generic [ref=e579]: .
+                                - text: "49"
+                            - generic [ref=e580]:
+                              - text: (
+                              - generic [ref=e581]:
+                                - generic [ref=e582]: $14.64
+                                - text: $14.64
+                              - text: /lb)
+                        - generic [ref=e583]: SNAP EBT eligible
+                      - generic [ref=e588]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                - listitem [ref=e589]:
+                  - generic [ref=e594]:
+                    - link [ref=e598] [cursor=pointer]:
+                      - /url: /Raspberry-Red-Organic-6-Ounce/dp/B079YXD4H2/ref=sr_1_6_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-6
+                      - img [ref=e600]
+                    - generic [ref=e601]:
+                      - link "Organic Raspberries" [ref=e605] [cursor=pointer]:
+                        - /url: /Raspberry-Red-Organic-6-Ounce/dp/B079YXD4H2/ref=sr_1_6_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-6
+                        - heading "Organic Raspberries" [level=2] [ref=e606]
+                      - generic [ref=e607]:
+                        - generic [ref=e608]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e610] [cursor=pointer]:
+                            - generic [ref=e612]: 4.6 out of 5 stars
+                          - link "18,594 ratings" [ref=e616] [cursor=pointer]:
+                            - /url: /Raspberry-Red-Organic-6-Ounce/dp/B079YXD4H2/ref=sr_1_6_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-6#customerReviews
+                            - text: (18.5K)
+                        - generic [ref=e617]: 90K+ bought in past month
+                      - generic [ref=e618]:
+                        - generic [ref=e620]:
+                          - generic [ref=e621]: Price, product page
+                          - 'link "$4.43 ( $0.74 /ounce) Typical: $5.99 Typical: $5.99" [ref=e622] [cursor=pointer]':
+                            - /url: /Raspberry-Red-Organic-6-Ounce/dp/B079YXD4H2/ref=sr_1_6_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-6
+                            - generic [ref=e623]:
+                              - generic [ref=e624]: $4.43
+                              - generic [ref=e625]:
+                                - text: $
+                                - generic [ref=e626]:
+                                  - text: "4"
+                                  - generic [ref=e627]: .
+                                - text: "43"
+                            - generic [ref=e628]:
+                              - text: (
+                              - generic [ref=e629]:
+                                - generic [ref=e630]: $0.74
+                                - text: $0.74
+                              - text: /ounce)
+                            - generic [ref=e631]: "Typical: $5.99"
+                            - generic [ref=e632]:
+                              - text: "Typical:"
+                              - generic [ref=e633]:
+                                - generic [ref=e634]: $5.99
+                                - text: $5.99
+                        - generic [ref=e636]: 26% off
+                        - generic [ref=e637]: SNAP EBT eligible
+                      - generic [ref=e642]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                - listitem [ref=e643]:
+                  - generic [ref=e648]:
+                    - link [ref=e652] [cursor=pointer]:
+                      - /url: /SOLELY-Organic-Mango-Strawberry-Gummies/dp/B0D92ZT7Y7/ref=sr_1_7_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-7
+                      - img [ref=e654]
+                    - generic [ref=e655]:
+                      - link "SOLELY - Organic Mango & Strawberry Whole Fruit Gummies (Pack of 1 Box, 5 Bags per Box) - Real Fresh Fruit - Healthy Snacks for Adults & Kids - Non GMO, Vegan Snacks, Shelf Stable - 5 Bags (3.5 oz)" [ref=e659] [cursor=pointer]:
+                        - /url: /SOLELY-Organic-Mango-Strawberry-Gummies/dp/B0D92ZT7Y7/ref=sr_1_7_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-7
+                        - heading "SOLELY - Organic Mango & Strawberry Whole Fruit Gummies (Pack of 1 Box, 5 Bags per Box) - Real Fresh Fruit - Healthy Snacks for Adults & Kids - Non GMO, Vegan Snacks, Shelf Stable - 5 Bags (3.5 oz)" [level=2] [ref=e660]
+                      - generic [ref=e661]:
+                        - generic [ref=e662]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e664] [cursor=pointer]:
+                            - generic [ref=e666]: 4.6 out of 5 stars
+                          - link "118 ratings" [ref=e670] [cursor=pointer]:
+                            - /url: /SOLELY-Organic-Mango-Strawberry-Gummies/dp/B0D92ZT7Y7/ref=sr_1_7_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-7#customerReviews
+                            - text: (118)
+                        - generic [ref=e671]: 8K+ bought in past month
+                      - generic [ref=e672]:
+                        - generic [ref=e674]:
+                          - generic [ref=e675]: Price, product page
+                          - 'link "$4.57 ( $1.31 /ounce) Typical: $5.49 Typical: $5.49" [ref=e676] [cursor=pointer]':
+                            - /url: /SOLELY-Organic-Mango-Strawberry-Gummies/dp/B0D92ZT7Y7/ref=sr_1_7_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-7
+                            - generic [ref=e677]:
+                              - generic [ref=e678]: $4.57
+                              - generic [ref=e679]:
+                                - text: $
+                                - generic [ref=e680]:
+                                  - text: "4"
+                                  - generic [ref=e681]: .
+                                - text: "57"
+                            - generic [ref=e682]:
+                              - text: (
+                              - generic [ref=e683]:
+                                - generic [ref=e684]: $1.31
+                                - text: $1.31
+                              - text: /ounce)
+                            - generic [ref=e685]: "Typical: $5.49"
+                            - generic [ref=e686]:
+                              - text: "Typical:"
+                              - generic [ref=e687]:
+                                - generic [ref=e688]: $5.49
+                                - text: $5.49
+                        - generic [ref=e690]: 17% off
+                        - generic [ref=e691]: SNAP EBT eligible
+                      - generic [ref=e696]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Organic content" [ref=e703] [cursor=pointer]:
+                        - generic [ref=e704]: Organic content
+                - listitem [ref=e706]:
+                  - generic [ref=e711]:
+                    - link [ref=e715] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-May-Vary/dp/B08VLD2XR7/ref=sr_1_8_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-8
+                      - img [ref=e717]
+                    - generic [ref=e718]:
+                      - link "Organic Raspberries, 12 OZ" [ref=e722] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-May-Vary/dp/B08VLD2XR7/ref=sr_1_8_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-8
+                        - heading "Organic Raspberries, 12 OZ" [level=2] [ref=e723]
+                      - generic [ref=e724]:
+                        - generic [ref=e725]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e727] [cursor=pointer]:
+                            - generic [ref=e729]: 4.6 out of 5 stars
+                          - link "359 ratings" [ref=e733] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-May-Vary/dp/B08VLD2XR7/ref=sr_1_8_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-8#customerReviews
+                            - text: (359)
+                        - generic [ref=e734]: 30K+ bought in past month
+                      - generic [ref=e735]:
+                        - generic [ref=e737]:
+                          - generic [ref=e738]: Price, product page
+                          - link "$7.89 ( $0.66 /oz)" [ref=e739] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-May-Vary/dp/B08VLD2XR7/ref=sr_1_8_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-8
+                            - generic [ref=e740]:
+                              - generic [ref=e741]: $7.89
+                              - generic [ref=e742]:
+                                - text: $
+                                - generic [ref=e743]:
+                                  - text: "7"
+                                  - generic [ref=e744]: .
+                                - text: "89"
+                            - generic [ref=e745]:
+                              - text: (
+                              - generic [ref=e746]:
+                                - generic [ref=e747]: $0.66
+                                - text: $0.66
+                              - text: /oz)
+                        - generic [ref=e748]: SNAP EBT eligible
+                      - generic [ref=e753]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Organic content" [ref=e760] [cursor=pointer]:
+                        - generic [ref=e761]: Organic content
+                - listitem [ref=e763]:
+                  - generic [ref=e768]:
+                    - link [ref=e772] [cursor=pointer]:
+                      - /url: /Driscolls-Sweetest-Batch-Blueberries-11/dp/B07YFDQXQ9/ref=sr_1_9_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-9
+                      - img [ref=e774]
+                    - generic [ref=e775]:
+                      - link "Driscoll's Sweetest Batch Blueberries - 11 Oz" [ref=e779] [cursor=pointer]:
+                        - /url: /Driscolls-Sweetest-Batch-Blueberries-11/dp/B07YFDQXQ9/ref=sr_1_9_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-9
+                        - heading "Driscoll's Sweetest Batch Blueberries - 11 Oz" [level=2] [ref=e780]
+                      - generic [ref=e781]:
+                        - generic [ref=e782]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e784] [cursor=pointer]:
+                            - generic [ref=e786]: 4.8 out of 5 stars
+                          - link "3,694 ratings" [ref=e790] [cursor=pointer]:
+                            - /url: /Driscolls-Sweetest-Batch-Blueberries-11/dp/B07YFDQXQ9/ref=sr_1_9_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-9#customerReviews
+                            - text: (3.6K)
+                        - generic [ref=e791]: 40K+ bought in past month
+                      - generic [ref=e792]:
+                        - generic [ref=e794]:
+                          - generic [ref=e795]: Price, product page
+                          - link "$7.99 ( $11.62 /lb)" [ref=e796] [cursor=pointer]:
+                            - /url: /Driscolls-Sweetest-Batch-Blueberries-11/dp/B07YFDQXQ9/ref=sr_1_9_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-9
+                            - generic [ref=e797]:
+                              - generic [ref=e798]: $7.99
+                              - generic [ref=e799]:
+                                - text: $
+                                - generic [ref=e800]:
+                                  - text: "7"
+                                  - generic [ref=e801]: .
+                                - text: "99"
+                            - generic [ref=e802]:
+                              - text: (
+                              - generic [ref=e803]:
+                                - generic [ref=e804]: $11.62
+                                - text: $11.62
+                              - text: /lb)
+                        - generic [ref=e805]: SNAP EBT eligible
+                      - generic [ref=e810]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                - listitem [ref=e811]:
+                  - generic [ref=e816]:
+                    - link [ref=e820] [cursor=pointer]:
+                      - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H7YHWR/ref=sr_1_10_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-10
+                      - img [ref=e822]
+                    - generic [ref=e823]:
+                      - link "365 by Whole Foods Market Organic Whole Strawberries, 10 OZ" [ref=e827] [cursor=pointer]:
+                        - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H7YHWR/ref=sr_1_10_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-10
+                        - heading "365 by Whole Foods Market Organic Whole Strawberries, 10 OZ" [level=2] [ref=e828]
+                      - generic [ref=e831]:
+                        - generic [ref=e832]: "Options:"
+                        - 'link "Options: 2 sizes" [ref=e833] [cursor=pointer]':
+                          - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H7YHWR/ref=vo_sr_l_dp_f3_wg?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-10
+                          - generic [ref=e834]:
+                            - generic [ref=e835]: 2 sizes
+                            - generic [ref=e836]: 2 sizes
+                      - generic [ref=e837]:
+                        - generic [ref=e838]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e840] [cursor=pointer]:
+                            - generic [ref=e842]: 4.7 out of 5 stars
+                          - link "11,362 ratings" [ref=e846] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H7YHWR/ref=sr_1_10_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-10#customerReviews
+                            - text: (11.3K)
+                        - generic [ref=e847]: 5K+ bought in past month
+                      - generic [ref=e848]:
+                        - generic [ref=e850]:
+                          - generic [ref=e851]: Price, product page
+                          - link "$4.29 ( $0.43 /ounce)" [ref=e852] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H7YHWR/ref=sr_1_10_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-10
+                            - generic [ref=e853]:
+                              - generic [ref=e854]: $4.29
+                              - generic [ref=e855]:
+                                - text: $
+                                - generic [ref=e856]:
+                                  - text: "4"
+                                  - generic [ref=e857]: .
+                                - text: "29"
+                            - generic [ref=e858]:
+                              - text: (
+                              - generic [ref=e859]:
+                                - generic [ref=e860]: $0.43
+                                - text: $0.43
+                              - text: /ounce)
+                        - generic [ref=e861]: SNAP EBT eligible
+                      - generic [ref=e866]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Organic content" [ref=e873] [cursor=pointer]:
+                        - generic [ref=e874]: Organic content
+                - listitem [ref=e876]:
+                  - generic [ref=e881]:
+                    - link [ref=e885] [cursor=pointer]:
+                      - /url: /365-EVERYDAY-VALUE-Organic-Berry/dp/B07B63T74N/ref=sr_1_11_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-11
+                      - img [ref=e887]
+                    - generic [ref=e888]:
+                      - link "365 by Whole Foods Market, Organic Berry Blend, 32 Ounce" [ref=e892] [cursor=pointer]:
+                        - /url: /365-EVERYDAY-VALUE-Organic-Berry/dp/B07B63T74N/ref=sr_1_11_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-11
+                        - heading "365 by Whole Foods Market, Organic Berry Blend, 32 Ounce" [level=2] [ref=e893]
+                      - generic [ref=e896]:
+                        - generic [ref=e897]: "Options:"
+                        - 'link "Options: 2 sizes" [ref=e898] [cursor=pointer]':
+                          - /url: /365-EVERYDAY-VALUE-Organic-Berry/dp/B07B63T74N/ref=vo_sr_l_dp_f3_wg?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-11
+                          - generic [ref=e899]:
+                            - generic [ref=e900]: 2 sizes
+                            - generic [ref=e901]: 2 sizes
+                      - generic [ref=e902]:
+                        - generic [ref=e903]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e905] [cursor=pointer]:
+                            - generic [ref=e907]: 4.7 out of 5 stars
+                          - link "10,709 ratings" [ref=e911] [cursor=pointer]:
+                            - /url: /365-EVERYDAY-VALUE-Organic-Berry/dp/B07B63T74N/ref=sr_1_11_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-11#customerReviews
+                            - text: (10.7K)
+                        - generic [ref=e912]: 30K+ bought in past month
+                      - generic [ref=e913]:
+                        - generic [ref=e915]:
+                          - generic [ref=e916]: Price, product page
+                          - link "$11.29 ( $0.35 /ounce)" [ref=e917] [cursor=pointer]:
+                            - /url: /365-EVERYDAY-VALUE-Organic-Berry/dp/B07B63T74N/ref=sr_1_11_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-11
+                            - generic [ref=e918]:
+                              - generic [ref=e919]: $11.29
+                              - generic [ref=e920]:
+                                - text: $
+                                - generic [ref=e921]:
+                                  - text: "11"
+                                  - generic [ref=e922]: .
+                                - text: "29"
+                            - generic [ref=e923]:
+                              - text: (
+                              - generic [ref=e924]:
+                                - generic [ref=e925]: $0.35
+                                - text: $0.35
+                              - text: /ounce)
+                        - generic [ref=e926]: SNAP EBT eligible
+                      - generic [ref=e931]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Organic content" [ref=e938] [cursor=pointer]:
+                        - generic [ref=e939]: Organic content
+                - listitem [ref=e941]:
+                  - generic [ref=e946]:
+                    - link [ref=e950] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-Vary-35468/dp/B001GIP2A8/ref=sr_1_12_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-12
+                      - img [ref=e952]
+                    - generic [ref=e953]:
+                      - link "Organic Honeycrisp Apple" [ref=e957] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-Vary-35468/dp/B001GIP2A8/ref=sr_1_12_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-12
+                        - heading "Organic Honeycrisp Apple" [level=2] [ref=e958]
+                      - generic [ref=e959]:
+                        - generic [ref=e960]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e962] [cursor=pointer]:
+                            - generic [ref=e964]: 4.6 out of 5 stars
+                          - link "17,412 ratings" [ref=e968] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-Vary-35468/dp/B001GIP2A8/ref=sr_1_12_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-12#customerReviews
+                            - text: (17.4K)
+                        - generic [ref=e969]: 100K+ bought in past month
+                      - generic [ref=e970]:
+                        - link "estimated $1.78 per each ( $3.88 /lb)" [ref=e973] [cursor=pointer]:
+                          - /url: /Fresh-Produce-Brands-Vary-35468/dp/B001GIP2A8/ref=sr_1_12_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-12
+                          - generic [ref=e974]: estimated $1.78 per each
+                          - generic [ref=e975]:
+                            - text: est.
+                            - generic [ref=e976]:
+                              - generic [ref=e977]: $1.78
+                              - generic [ref=e978]:
+                                - text: $
+                                - generic [ref=e979]:
+                                  - text: "1"
+                                  - generic [ref=e980]: .
+                                - text: "78"
+                            - text: /each
+                          - text: (
+                          - generic [ref=e981]:
+                            - generic [ref=e982]: $3.88
+                            - text: $3.88
+                          - text: /lb)
+                        - generic [ref=e983]: Join Prime to buy this item at $3.49
+                        - generic [ref=e984]: SNAP EBT eligible
+                      - generic [ref=e989]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                - listitem [ref=e990]:
+                  - generic [ref=e995]:
+                    - group "Best Sellerin Fresh Berries" [ref=e1000]:
+                      - generic "Best Seller" [ref=e1002]
+                    - link [ref=e1005] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-Vary-100174/dp/B003AYKYIG/ref=sr_1_13_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-13
+                      - img [ref=e1007]
+                    - generic [ref=e1008]:
+                      - link "Blueberries, 1 Pint" [ref=e1012] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-Vary-100174/dp/B003AYKYIG/ref=sr_1_13_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-13
+                        - heading "Blueberries, 1 Pint" [level=2] [ref=e1013]
+                      - generic [ref=e1014]:
+                        - generic [ref=e1015]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e1017] [cursor=pointer]:
+                            - generic [ref=e1019]: 4.7 out of 5 stars
+                          - link "57,544 ratings" [ref=e1023] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-Vary-100174/dp/B003AYKYIG/ref=sr_1_13_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-13#customerReviews
+                            - text: (57.5K)
+                        - generic [ref=e1024]: 100K+ bought in past month
+                      - generic [ref=e1025]:
+                        - generic [ref=e1027]:
+                          - generic [ref=e1028]: Price, product page
+                          - link "$6.29 ( $9.68 /lb)" [ref=e1029] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-Vary-100174/dp/B003AYKYIG/ref=sr_1_13_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-13
+                            - generic [ref=e1030]:
+                              - generic [ref=e1031]: $6.29
+                              - generic [ref=e1032]:
+                                - text: $
+                                - generic [ref=e1033]:
+                                  - text: "6"
+                                  - generic [ref=e1034]: .
+                                - text: "29"
+                            - generic [ref=e1035]:
+                              - text: (
+                              - generic [ref=e1036]:
+                                - generic [ref=e1037]: $9.68
+                                - text: $9.68
+                              - text: /lb)
+                        - generic [ref=e1038]: SNAP EBT eligible
+                      - generic [ref=e1043]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                - listitem [ref=e1044]:
+                  - generic [ref=e1049]:
+                    - link [ref=e1053] [cursor=pointer]:
+                      - /url: /365-Everyday-Value-Organic-Blueberries/dp/B074H5HFLZ/ref=sr_1_14_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-14
+                      - img [ref=e1055]
+                    - generic [ref=e1056]:
+                      - link "365 by Whole Foods Market, Organic Blueberries, 32 Ounce, (Frozen)" [ref=e1060] [cursor=pointer]:
+                        - /url: /365-Everyday-Value-Organic-Blueberries/dp/B074H5HFLZ/ref=sr_1_14_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-14
+                        - heading "365 by Whole Foods Market, Organic Blueberries, 32 Ounce, (Frozen)" [level=2] [ref=e1061]
+                      - generic [ref=e1062]:
+                        - generic [ref=e1063]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e1065] [cursor=pointer]:
+                            - generic [ref=e1067]: 4.8 out of 5 stars
+                          - link "7,419 ratings" [ref=e1071] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Blueberries/dp/B074H5HFLZ/ref=sr_1_14_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-14#customerReviews
+                            - text: (7.4K)
+                        - generic [ref=e1072]: 30K+ bought in past month
+                      - generic [ref=e1073]:
+                        - generic [ref=e1075]:
+                          - generic [ref=e1076]: Price, product page
+                          - link "$10.99 ( $0.34 /ounce)" [ref=e1077] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Blueberries/dp/B074H5HFLZ/ref=sr_1_14_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-14
+                            - generic [ref=e1078]:
+                              - generic [ref=e1079]: $10.99
+                              - generic [ref=e1080]:
+                                - text: $
+                                - generic [ref=e1081]:
+                                  - text: "10"
+                                  - generic [ref=e1082]: .
+                                - text: "99"
+                            - generic [ref=e1083]:
+                              - text: (
+                              - generic [ref=e1084]:
+                                - generic [ref=e1085]: $0.34
+                                - text: $0.34
+                              - text: /ounce)
+                        - generic [ref=e1086]: SNAP EBT eligible
+                      - generic [ref=e1091]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Organic content" [ref=e1098] [cursor=pointer]:
+                        - generic [ref=e1099]: Organic content
+                - listitem [ref=e1101]:
+                  - generic [ref=e1106]:
+                    - link [ref=e1110] [cursor=pointer]:
+                      - /url: /365-Whole-Foods-Market-Strawberries/dp/B09SW1M4SH/ref=sr_1_15_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-15
+                      - img [ref=e1112]
+                    - generic [ref=e1113]:
+                      - link "365 by Whole Foods Market Organic Sliced Strawberries and Bananas, 32 OZ" [ref=e1117] [cursor=pointer]:
+                        - /url: /365-Whole-Foods-Market-Strawberries/dp/B09SW1M4SH/ref=sr_1_15_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-15
+                        - heading "365 by Whole Foods Market Organic Sliced Strawberries and Bananas, 32 OZ" [level=2] [ref=e1118]
+                      - generic [ref=e1119]:
+                        - generic [ref=e1120]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e1122] [cursor=pointer]:
+                            - generic [ref=e1124]: 4.7 out of 5 stars
+                          - link "571 ratings" [ref=e1128] [cursor=pointer]:
+                            - /url: /365-Whole-Foods-Market-Strawberries/dp/B09SW1M4SH/ref=sr_1_15_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-15#customerReviews
+                            - text: (571)
+                        - generic [ref=e1129]: 8K+ bought in past month
+                      - generic [ref=e1130]:
+                        - generic [ref=e1132]:
+                          - generic [ref=e1133]: Price, product page
+                          - link "$8.99 ( $0.28 /ounce)" [ref=e1134] [cursor=pointer]:
+                            - /url: /365-Whole-Foods-Market-Strawberries/dp/B09SW1M4SH/ref=sr_1_15_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-15
+                            - generic [ref=e1135]:
+                              - generic [ref=e1136]: $8.99
+                              - generic [ref=e1137]:
+                                - text: $
+                                - generic [ref=e1138]:
+                                  - text: "8"
+                                  - generic [ref=e1139]: .
+                                - text: "99"
+                            - generic [ref=e1140]:
+                              - text: (
+                              - generic [ref=e1141]:
+                                - generic [ref=e1142]: $0.28
+                                - text: $0.28
+                              - text: /ounce)
+                        - generic [ref=e1143]: SNAP EBT eligible
+                      - generic [ref=e1148]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Organic content" [ref=e1155] [cursor=pointer]:
+                        - generic [ref=e1156]: Organic content
+                - listitem [ref=e1158]:
+                  - generic [ref=e1163]:
+                    - link [ref=e1167] [cursor=pointer]:
+                      - /url: /Pitaya-Regenerative-Strawberries-Pre-Packaged-Preservatives/dp/B0DPBHLBBP/ref=sr_1_16_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-16
+                      - img [ref=e1169]
+                    - generic [ref=e1170]:
+                      - link "Pitaya Foods® Regenerative Organic Strawberries Whole Berries, Pre-Packaged Frozen Fruit, No Added Sugar or Preservatives, Good Source of Fiber, High in Vitamin C & Antioxidants, 100% Fruit, Non-GMO (12 oz Per Bag)" [ref=e1174] [cursor=pointer]:
+                        - /url: /Pitaya-Regenerative-Strawberries-Pre-Packaged-Preservatives/dp/B0DPBHLBBP/ref=sr_1_16_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-16
+                        - heading "Pitaya Foods® Regenerative Organic Strawberries Whole Berries, Pre-Packaged Frozen Fruit, No Added Sugar or Preservatives, Good Source of Fiber, High in Vitamin C & Antioxidants, 100% Fruit, Non-GMO (12 oz Per Bag)" [level=2] [ref=e1175]
+                      - generic [ref=e1176]:
+                        - generic [ref=e1177]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e1179] [cursor=pointer]:
+                            - generic [ref=e1181]: 4.7 out of 5 stars
+                          - link "81 ratings" [ref=e1185] [cursor=pointer]:
+                            - /url: /Pitaya-Regenerative-Strawberries-Pre-Packaged-Preservatives/dp/B0DPBHLBBP/ref=sr_1_16_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-16#customerReviews
+                            - text: (81)
+                        - generic [ref=e1186]: 1K+ bought in past month
+                      - generic [ref=e1187]:
+                        - generic [ref=e1189]:
+                          - generic [ref=e1190]: Price, product page
+                          - link "$6.29 ( $8.39 /lb)" [ref=e1191] [cursor=pointer]:
+                            - /url: /Pitaya-Regenerative-Strawberries-Pre-Packaged-Preservatives/dp/B0DPBHLBBP/ref=sr_1_16_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-16
+                            - generic [ref=e1192]:
+                              - generic [ref=e1193]: $6.29
+                              - generic [ref=e1194]:
+                                - text: $
+                                - generic [ref=e1195]:
+                                  - text: "6"
+                                  - generic [ref=e1196]: .
+                                - text: "29"
+                            - generic [ref=e1197]:
+                              - text: (
+                              - generic [ref=e1198]:
+                                - generic [ref=e1199]: $8.39
+                                - text: $8.39
+                              - text: /lb)
+                        - generic [ref=e1200]: SNAP EBT eligible
+                      - generic [ref=e1205]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - generic [ref=e1208]:
+                        - button "Organic content" [ref=e1212] [cursor=pointer]:
+                          - generic [ref=e1213]: Organic content
+                        - button "Small Business" [ref=e1218] [cursor=pointer]:
+                          - generic [ref=e1219]: Small Business
+                - listitem [ref=e1221]:
+                  - generic [ref=e1226]:
+                    - link [ref=e1230] [cursor=pointer]:
+                      - /url: /Vital-Farms-Pasture-Organic-Raised/dp/B00M1QWODW/ref=sr_1_17_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-17
+                      - img [ref=e1232]
+                    - generic [ref=e1233]:
+                      - link "Vital Farms Organic Pasture-Raised Large Eggs 12ct" [ref=e1237] [cursor=pointer]:
+                        - /url: /Vital-Farms-Pasture-Organic-Raised/dp/B00M1QWODW/ref=sr_1_17_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-17
+                        - heading "Vital Farms Organic Pasture-Raised Large Eggs 12ct" [level=2] [ref=e1238]
+                      - generic [ref=e1239]:
+                        - generic [ref=e1240]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e1242] [cursor=pointer]:
+                            - generic [ref=e1244]: 4.8 out of 5 stars
+                          - link "15,969 ratings" [ref=e1248] [cursor=pointer]:
+                            - /url: /Vital-Farms-Pasture-Organic-Raised/dp/B00M1QWODW/ref=sr_1_17_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-17#customerReviews
+                            - text: (15.9K)
+                        - generic [ref=e1249]: 100K+ bought in past month
+                      - generic [ref=e1250]:
+                        - generic [ref=e1252]:
+                          - generic [ref=e1253]: Price, product page
+                          - link "$10.99 ( $0.92 /count)" [ref=e1254] [cursor=pointer]:
+                            - /url: /Vital-Farms-Pasture-Organic-Raised/dp/B00M1QWODW/ref=sr_1_17_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-17
+                            - generic [ref=e1255]:
+                              - generic [ref=e1256]: $10.99
+                              - generic [ref=e1257]:
+                                - text: $
+                                - generic [ref=e1258]:
+                                  - text: "10"
+                                  - generic [ref=e1259]: .
+                                - text: "99"
+                            - generic [ref=e1260]:
+                              - text: (
+                              - generic [ref=e1261]:
+                                - generic [ref=e1262]: $0.92
+                                - text: $0.92
+                              - text: /count)
+                        - generic [ref=e1263]: SNAP EBT eligible
+                      - generic [ref=e1268]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Organic content" [ref=e1275] [cursor=pointer]:
+                        - generic [ref=e1276]: Organic content
+                - listitem [ref=e1278]:
+                  - generic [ref=e1283]:
+                    - link [ref=e1287] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-Vary-0000000940115/dp/B0787Y4V6T/ref=sr_1_18_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-18
+                      - img [ref=e1289]
+                    - generic [ref=e1290]:
+                      - link "Organic Banana, 1 Each" [ref=e1294] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-Vary-0000000940115/dp/B0787Y4V6T/ref=sr_1_18_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-18
+                        - heading "Organic Banana, 1 Each" [level=2] [ref=e1295]
+                      - generic [ref=e1296]:
+                        - generic [ref=e1297]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e1299] [cursor=pointer]:
+                            - generic [ref=e1301]: 4.7 out of 5 stars
+                          - link "27,868 ratings" [ref=e1305] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-Vary-0000000940115/dp/B0787Y4V6T/ref=sr_1_18_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-18#customerReviews
+                            - text: (27.8K)
+                        - generic [ref=e1306]: 100K+ bought in past month
+                      - generic [ref=e1307]:
+                        - link "estimated $0.35 per each ( $0.95 /lb)" [ref=e1310] [cursor=pointer]:
+                          - /url: /Fresh-Produce-Brands-Vary-0000000940115/dp/B0787Y4V6T/ref=sr_1_18_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-18
+                          - generic [ref=e1311]: estimated $0.35 per each
+                          - generic [ref=e1312]:
+                            - text: est.
+                            - generic [ref=e1313]:
+                              - generic [ref=e1314]: $0.35
+                              - generic [ref=e1315]:
+                                - text: $
+                                - generic [ref=e1316]:
+                                  - text: "0"
+                                  - generic [ref=e1317]: .
+                                - text: "35"
+                            - text: /each
+                          - text: (
+                          - generic [ref=e1318]:
+                            - generic [ref=e1319]: $0.95
+                            - text: $0.95
+                          - text: /lb)
+                        - generic [ref=e1320]: SNAP EBT eligible
+                      - generic [ref=e1325]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                - listitem [ref=e1326]:
+                  - generic [ref=e1331]:
+                    - link [ref=e1335] [cursor=pointer]:
+                      - /url: /Bionaturae-Fruit-Spread-Organic-Strawberry/dp/B004KIAD64/ref=sr_1_19_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-19
+                      - img [ref=e1337]
+                    - generic [ref=e1338]:
+                      - link "Bionaturae Organic Strawberry Fruit Spread - Jelly Organic, Non-GMO, USDA Certified, No Sugar Added, No Preservatives, Organic Fruit Jam, Jam Organic, Made in Italy - 9 Oz, 12 Pack" [ref=e1342] [cursor=pointer]:
+                        - /url: /Bionaturae-Fruit-Spread-Organic-Strawberry/dp/B004KIAD64/ref=sr_1_19_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-19
+                        - heading "Bionaturae Organic Strawberry Fruit Spread - Jelly Organic, Non-GMO, USDA Certified, No Sugar Added, No Preservatives, Organic Fruit Jam, Jam Organic, Made in Italy - 9 Oz, 12 Pack" [level=2] [ref=e1343]
+                      - generic [ref=e1346]:
+                        - generic [ref=e1347]: "Options:"
+                        - 'link "Options: 2 sizes, 2 flavors" [ref=e1348] [cursor=pointer]':
+                          - /url: /Bionaturae-Fruit-Spread-Organic-Strawberry/dp/B004KIAD64/ref=vo_sr_l_dp_f3_wg?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-19
+                          - generic [ref=e1349]:
+                            - generic [ref=e1350]: 2 sizes, 2 flavors
+                            - generic [ref=e1351]: 2 sizes, 2 flavors
+                      - generic [ref=e1352]:
+                        - generic [ref=e1353]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=e1355] [cursor=pointer]:
+                            - generic [ref=e1357]: 4.5 out of 5 stars
+                          - link "761 ratings" [ref=e1361] [cursor=pointer]:
+                            - /url: /Bionaturae-Fruit-Spread-Organic-Strawberry/dp/B004KIAD64/ref=sr_1_19_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-19#customerReviews
+                            - text: (761)
+                        - generic [ref=e1362]: 1K+ bought in past month
+                      - generic [ref=e1363]:
+                        - generic [ref=e1365]:
+                          - generic [ref=e1366]: Price, product page
+                          - link "$6.79 ( $0.75 /ounce)" [ref=e1367] [cursor=pointer]:
+                            - /url: /Bionaturae-Fruit-Spread-Organic-Strawberry/dp/B004KIAD64/ref=sr_1_19_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-19
+                            - generic [ref=e1368]:
+                              - generic [ref=e1369]: $6.79
+                              - generic [ref=e1370]:
+                                - text: $
+                                - generic [ref=e1371]:
+                                  - text: "6"
+                                  - generic [ref=e1372]: .
+                                - text: "79"
+                            - generic [ref=e1373]:
+                              - text: (
+                              - generic [ref=e1374]:
+                                - generic [ref=e1375]: $0.75
+                                - text: $0.75
+                              - text: /ounce)
+                        - generic [ref=e1376]: SNAP EBT eligible
+                      - generic [ref=e1381]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - generic [ref=e1384]:
+                        - button "Made in Italy" [ref=e1388] [cursor=pointer]:
+                          - generic [ref=e1389]: Made in Italy
+                        - button "Organic content" [ref=e1394] [cursor=pointer]:
+                          - generic [ref=e1395]: Organic content
+                - listitem [ref=e1397]:
+                  - generic [ref=e1402]:
+                    - link [ref=e1406] [cursor=pointer]:
+                      - /url: /Oswald-Co-Smash-Strawberry-Ounce/dp/B083JR8KF3/ref=sr_1_20_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-20
+                      - img [ref=e1408]
+                    - generic [ref=e1409]:
+                      - link "Smash Foods Strawberry Jam | Low-Calorie, No Sugar Added Keto Jam with Upcycled Fruit & Chia Seeds | Vegan, Paleo Superfood Fruit Spread (1 Jar)" [ref=e1413] [cursor=pointer]:
+                        - /url: /Oswald-Co-Smash-Strawberry-Ounce/dp/B083JR8KF3/ref=sr_1_20_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-20
+                        - heading "Smash Foods Strawberry Jam | Low-Calorie, No Sugar Added Keto Jam with Upcycled Fruit & Chia Seeds | Vegan, Paleo Superfood Fruit Spread (1 Jar)" [level=2] [ref=e1414]
+                      - generic [ref=e1417]:
+                        - generic [ref=e1418]: "Options:"
+                        - 'link "Options: 5 flavors" [ref=e1419] [cursor=pointer]':
+                          - /url: /Oswald-Co-Smash-Strawberry-Ounce/dp/B083JR8KF3/ref=vo_sr_l_dp_f3_wg?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-20
+                          - generic [ref=e1420]:
+                            - generic [ref=e1421]: 5 flavors
+                            - generic [ref=e1422]: 5 flavors
+                      - generic [ref=e1423]:
+                        - generic [ref=e1424]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=e1426] [cursor=pointer]:
+                            - generic [ref=e1428]: 4.5 out of 5 stars
+                          - link "436 ratings" [ref=e1432] [cursor=pointer]:
+                            - /url: /Oswald-Co-Smash-Strawberry-Ounce/dp/B083JR8KF3/ref=sr_1_20_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-20#customerReviews
+                            - text: (436)
+                        - generic [ref=e1433]: 4K+ bought in past month
+                      - generic [ref=e1434]:
+                        - generic [ref=e1436]:
+                          - generic [ref=e1437]: Price, product page
+                          - link "$7.59 ( $7.59 /count)" [ref=e1438] [cursor=pointer]:
+                            - /url: /Oswald-Co-Smash-Strawberry-Ounce/dp/B083JR8KF3/ref=sr_1_20_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-20
+                            - generic [ref=e1439]:
+                              - generic [ref=e1440]: $7.59
+                              - generic [ref=e1441]:
+                                - text: $
+                                - generic [ref=e1442]:
+                                  - text: "7"
+                                  - generic [ref=e1443]: .
+                                - text: "59"
+                            - generic [ref=e1444]:
+                              - text: (
+                              - generic [ref=e1445]:
+                                - generic [ref=e1446]: $7.59
+                                - text: $7.59
+                              - text: /count)
+                        - generic [ref=e1447]: SNAP EBT eligible
+                      - generic [ref=e1452]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Small Business" [ref=e1459] [cursor=pointer]:
+                        - generic [ref=e1460]: Small Business
+                - listitem [ref=e1462]:
+                  - generic [ref=e1467]:
+                    - link [ref=e1471] [cursor=pointer]:
+                      - /url: /Crofters-Organic-Fruit-Spread-Strawberry/dp/B01E4UOFO8/ref=sr_1_21_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-21
+                      - img [ref=e1473]
+                    - generic [ref=e1474]:
+                      - link "CROFTERS Organic Strawberry Fruit Spread, 10 OZ" [ref=e1478] [cursor=pointer]:
+                        - /url: /Crofters-Organic-Fruit-Spread-Strawberry/dp/B01E4UOFO8/ref=sr_1_21_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-21
+                        - heading "CROFTERS Organic Strawberry Fruit Spread, 10 OZ" [level=2] [ref=e1479]
+                      - generic [ref=e1480]:
+                        - generic [ref=e1481]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e1483] [cursor=pointer]:
+                            - generic [ref=e1485]: 4.7 out of 5 stars
+                          - link "1,076 ratings" [ref=e1489] [cursor=pointer]:
+                            - /url: /Crofters-Organic-Fruit-Spread-Strawberry/dp/B01E4UOFO8/ref=sr_1_21_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-21#customerReviews
+                            - text: (1K)
+                        - generic [ref=e1490]: 4K+ bought in past month
+                      - generic [ref=e1491]:
+                        - generic [ref=e1493]:
+                          - generic [ref=e1494]: Price, product page
+                          - link "$5.99 ( $0.60 /ounce)" [ref=e1495] [cursor=pointer]:
+                            - /url: /Crofters-Organic-Fruit-Spread-Strawberry/dp/B01E4UOFO8/ref=sr_1_21_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-21
+                            - generic [ref=e1496]:
+                              - generic [ref=e1497]: $5.99
+                              - generic [ref=e1498]:
+                                - text: $
+                                - generic [ref=e1499]:
+                                  - text: "5"
+                                  - generic [ref=e1500]: .
+                                - text: "99"
+                            - generic [ref=e1501]:
+                              - text: (
+                              - generic [ref=e1502]:
+                                - generic [ref=e1503]: $0.60
+                                - text: $0.60
+                              - text: /ounce)
+                        - generic [ref=e1504]: SNAP EBT eligible
+                      - generic [ref=e1509]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Organic content" [ref=e1516] [cursor=pointer]:
+                        - generic [ref=e1517]: Organic content
+                - listitem [ref=e1519]:
+                  - generic [ref=e1524]:
+                    - link [ref=e1528] [cursor=pointer]:
+                      - /url: /produce-aisle-701920-Organic-Avocado/dp/B0014GLSE6/ref=sr_1_22_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-22
+                      - img [ref=e1530]
+                    - generic [ref=e1531]:
+                      - link "Large Organic Hass Avocado" [ref=e1535] [cursor=pointer]:
+                        - /url: /produce-aisle-701920-Organic-Avocado/dp/B0014GLSE6/ref=sr_1_22_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-22
+                        - heading "Large Organic Hass Avocado" [level=2] [ref=e1536]
+                      - generic [ref=e1537]:
+                        - generic [ref=e1538]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e1540] [cursor=pointer]:
+                            - generic [ref=e1542]: 4.6 out of 5 stars
+                          - link "20,898 ratings" [ref=e1546] [cursor=pointer]:
+                            - /url: /produce-aisle-701920-Organic-Avocado/dp/B0014GLSE6/ref=sr_1_22_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-22#customerReviews
+                            - text: (20.8K)
+                        - generic [ref=e1547]: 100K+ bought in past month
+                      - generic [ref=e1548]:
+                        - generic [ref=e1550]:
+                          - generic [ref=e1551]: Price, product page
+                          - link "$2.69 ( $2.69 /count)" [ref=e1552] [cursor=pointer]:
+                            - /url: /produce-aisle-701920-Organic-Avocado/dp/B0014GLSE6/ref=sr_1_22_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-22
+                            - generic [ref=e1553]:
+                              - generic [ref=e1554]: $2.69
+                              - generic [ref=e1555]:
+                                - text: $
+                                - generic [ref=e1556]:
+                                  - text: "2"
+                                  - generic [ref=e1557]: .
+                                - text: "69"
+                            - generic [ref=e1558]:
+                              - text: (
+                              - generic [ref=e1559]:
+                                - generic [ref=e1560]: $2.69
+                                - text: $2.69
+                              - text: /count)
+                        - generic [ref=e1561]: SNAP EBT eligible
+                      - generic [ref=e1566]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Organic content" [ref=e1573] [cursor=pointer]:
+                        - generic [ref=e1574]: Organic content
+                - listitem [ref=e1576]:
+                  - generic [ref=e1581]:
+                    - link [ref=e1585] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-Vary-B000P6L3QE/dp/B000P6L3QE/ref=sr_1_23_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-23
+                      - img [ref=e1587]
+                    - generic [ref=e1588]:
+                      - link "Organic D'Anjou Pear" [ref=e1592] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-Vary-B000P6L3QE/dp/B000P6L3QE/ref=sr_1_23_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-23
+                        - heading "Organic D'Anjou Pear" [level=2] [ref=e1593]
+                      - generic [ref=e1594]:
+                        - generic [ref=e1595]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e1597] [cursor=pointer]:
+                            - generic [ref=e1599]: 4.6 out of 5 stars
+                          - link "9,736 ratings" [ref=e1603] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-Vary-B000P6L3QE/dp/B000P6L3QE/ref=sr_1_23_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-23#customerReviews
+                            - text: (9.7K)
+                        - generic [ref=e1604]: 30K+ bought in past month
+                      - generic [ref=e1605]:
+                        - link "estimated $1.29 per each ( $2.99 /lb)" [ref=e1608] [cursor=pointer]:
+                          - /url: /Fresh-Produce-Brands-Vary-B000P6L3QE/dp/B000P6L3QE/ref=sr_1_23_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-23
+                          - generic [ref=e1609]: estimated $1.29 per each
+                          - generic [ref=e1610]:
+                            - text: est.
+                            - generic [ref=e1611]:
+                              - generic [ref=e1612]: $1.29
+                              - generic [ref=e1613]:
+                                - text: $
+                                - generic [ref=e1614]:
+                                  - text: "1"
+                                  - generic [ref=e1615]: .
+                                - text: "29"
+                            - text: /each
+                          - text: (
+                          - generic [ref=e1616]:
+                            - generic [ref=e1617]: $2.99
+                            - text: $2.99
+                          - text: /lb)
+                        - generic [ref=e1618]: SNAP EBT eligible
+                      - generic [ref=e1623]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                - listitem [ref=e1624]:
+                  - generic [ref=e1629]:
+                    - link [ref=e1633] [cursor=pointer]:
+                      - /url: /Annies-Homegrown-Organic-Strawberry-Fruit/dp/B0CXJ7HQHZ/ref=sr_1_24_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-24
+                      - img [ref=e1635]
+                    - generic [ref=e1636]:
+                      - link "Annie's Homegrown, Fruit Sauce Strawberry Organic, 32 Ounce, 10 Pack" [ref=e1640] [cursor=pointer]:
+                        - /url: /Annies-Homegrown-Organic-Strawberry-Fruit/dp/B0CXJ7HQHZ/ref=sr_1_24_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-24
+                        - heading "Annie's Homegrown, Fruit Sauce Strawberry Organic, 32 Ounce, 10 Pack" [level=2] [ref=e1641]
+                      - generic [ref=e1642]:
+                        - generic [ref=e1643]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e1645] [cursor=pointer]:
+                            - generic [ref=e1647]: 4.2 out of 5 stars
+                          - link "15 ratings" [ref=e1651] [cursor=pointer]:
+                            - /url: /Annies-Homegrown-Organic-Strawberry-Fruit/dp/B0CXJ7HQHZ/ref=sr_1_24_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-24#customerReviews
+                            - text: (15)
+                        - generic [ref=e1652]: 400+ bought in past month
+                      - generic [ref=e1653]:
+                        - generic [ref=e1655]:
+                          - generic [ref=e1656]: Price, product page
+                          - link "$9.99 ( $0.31 /ounce)" [ref=e1657] [cursor=pointer]:
+                            - /url: /Annies-Homegrown-Organic-Strawberry-Fruit/dp/B0CXJ7HQHZ/ref=sr_1_24_us_f3_wg_wf?almBrandId=VUZHIFdob2xlIEZvb2Rz&dib=eyJ2IjoiMSJ9.Xm79CJLgar6An9i8WC1v507U-v4FvaIFBJva3gw77EEQnAYdn3Ak-VhpAaYa4wah2kfl0Z6yyS86Si4DdeJ_TEQAq36gK3Cb64A3ZT0BBJO8cKeDfFtbskzfL6pI5t7JApBIl_QeF7jYgVWbDiTqE4RiA_YWWESyy8im_LIsSexg2iQMexUnetqry73nrY83KQcCSZMMtqdHbPBnDwQuoCUHfw-249pJ-hFGMP1Mc2u28cce-e9-gQC3sbGBJH8EvqJEU6RvfRmxZV81IcCJXrYNCYvXVTs91g4ES97kUKk.tIBO73nR8duXvtY27M2HPmDS6_WA82QVt5X-wlLL3cw&dib_tag=se&fpw=alm&keywords=organic+strawberries&qid=1776557517&s=wholefoods&sr=1-24
+                            - generic [ref=e1658]:
+                              - generic [ref=e1659]: $9.99
+                              - generic [ref=e1660]:
+                                - text: $
+                                - generic [ref=e1661]:
+                                  - text: "9"
+                                  - generic [ref=e1662]: .
+                                - text: "99"
+                            - generic [ref=e1663]:
+                              - text: (
+                              - generic [ref=e1664]:
+                                - generic [ref=e1665]: $0.31
+                                - text: $0.31
+                              - text: /ounce)
+                        - generic [ref=e1666]: SNAP EBT eligible
+                      - generic [ref=e1671]: $9.95 delivery Today 9 PM - 11 PM with Prime
+                      - button "Organic content" [ref=e1678] [cursor=pointer]:
+                        - generic [ref=e1679]: Organic content
+          - navigation "pagination" [ref=e1683]:
+            - list [ref=e1685]:
+              - listitem [ref=e1686]:
+                - button "Previous" [disabled] [ref=e1688]:
+                  - img [ref=e1689]
+                  - text: Previous
+              - listitem [ref=e1691]:
+                - button "Page 1" [ref=e1693]: "1"
+              - listitem [ref=e1694]:
+                - button "Go to page 2" [ref=e1696] [cursor=pointer]: "2"
+              - listitem [ref=e1697]:
+                - button "Go to page 3" [ref=e1699] [cursor=pointer]: "3"
+              - listitem [ref=e1700]:
+                - button "Go to page 4" [ref=e1702] [cursor=pointer]: "4"
+              - listitem [ref=e1703]:
+                - button "Go to next page, page 2" [ref=e1705] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=e1706]
+          - generic [ref=e1713]:
+            - heading "Need help?" [level=2] [ref=e1716]
+            - generic [ref=e1717]:
+              - link "Visit the help section" [ref=e1718] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=468556
+              - text: or
+              - link "contact us" [ref=e1719] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+        - link "Go back to filtering menu" [ref=e1720] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - generic [ref=e1722]:
+        - link "Skip to main search results" [ref=e1723] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForMainSearchResults"
+        - generic [ref=e1729]:
+          - group "Grocery Food Specialty" [ref=e1730]:
+            - heading "Grocery Food Specialty" [level=2] [ref=e1731]
+            - list "Grocery Food Specialty" [ref=e1732]:
+              - listitem [ref=e1733]:
+                - link "Apply Lactose-Free filter to narrow results" [ref=e1735] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1004179634091%3A16208706011&dc&qid=1776557517&rnid=114319011&ref=sr_nr_p_n_g-1004179634091_1&ds=v1%3AnBz8t5kAQGDYCjFPyCPWQlRnQpaQcIqa6bmNvHX4GXY
+                  - checkbox [ref=e1738]
+                  - text: Lactose-Free
+              - listitem [ref=e1740]:
+                - link "Apply Non-GMO filter to narrow results" [ref=e1742] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1004179634091%3A5712560011&dc&qid=1776557517&rnid=114319011&ref=sr_nr_p_n_g-1004179634091_2&ds=v1%3ALGmlk1Mop2kyWHTvPOSgL3uWq5H%2FMtL%2F0N432xhBSuE
+                  - checkbox [ref=e1745]
+                  - text: Non-GMO
+              - listitem [ref=e1747]:
+                - link "Apply Organic filter to narrow results" [ref=e1749] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1004179634091%3A114320011&dc&qid=1776557517&rnid=114319011&ref=sr_nr_p_n_g-1004179634091_3&ds=v1%3AhnY7j9MwJVYODibNjUDE1L6F8CEjA71HcYs7QQGXH5I
+                  - checkbox [ref=e1752]
+                  - text: Organic
+          - group "Customer Reviews" [ref=e1754]:
+            - heading "Customer Reviews" [level=2] [ref=e1755]
+            - list "Customer Reviews" [ref=e1756]:
+              - listitem [ref=e1757]:
+                - link "Apply 4 Stars & Up filter to narrow results" [ref=e1760] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_72%3A1248897011&dc&qid=1776557517&rnid=1248895011&ref=sr_nr_p_72_1&ds=v1%3AHX3NzNDumCj%2Ftpsxj%2FrfsE32V5wH%2FT4ZUdewmURQPI0
+                  - generic [ref=e1762]: 4 Stars
+                  - text: "& Up"
+          - group "From Our Brands" [ref=e1763]:
+            - heading "From Our Brands" [level=2] [ref=e1764]
+            - list "From Our Brands" [ref=e1765]:
+              - listitem [ref=e1766]:
+                - link "Apply Amazon Brands filter to narrow results" [ref=e1768] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001321510111%3A24677333011&dc&qid=1776557517&rnid=21180941011&ref=sr_nr_p_n_g-1001321510111_1&ds=v1%3AcKWdhGDNM9gL4W1Hdkf6mJh%2FjWTcG03vMj1QDxBCi4Y
+                  - checkbox [ref=e1771]
+                  - text: Amazon Brands
+          - group "Top Brands in Grocery" [ref=e1773]:
+            - heading "Top Brands in Grocery" [level=2] [ref=e1774]
+            - list "Top Brands in Grocery" [ref=e1775]:
+              - listitem [ref=e1776]:
+                - link "Apply Top Brands filter to narrow results" [ref=e1778] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-101014971069111%3A119653281011&dc&qid=1776557517&rnid=119653280011&ref=sr_nr_p_n_g-101014971069111_1&ds=v1%3A8sG%2BHDiH2hcY%2Bv0K9r0F1iqlpWxKdDs2aZbm8mFkQlE
+                  - checkbox [ref=e1781]
+                  - text: Top Brands
+          - group "SNAP EBT" [ref=e1783]:
+            - heading "SNAP EBT" [level=2] [ref=e1784]
+            - list "SNAP EBT" [ref=e1785]:
+              - listitem [ref=e1786]:
+                - link "Apply SNAP EBT Eligible filter to narrow results" [ref=e1788] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_program_participation%3A17428820011&dc&qid=1776557517&rnid=17428819011&ref=sr_nr_p_n_program_participation_1&ds=v1%3Af7K3YOOpg8gdI%2FndgwTCrlFJXSSQWXDceYhH1BuCURs
+                  - checkbox [ref=e1791]
+                  - text: SNAP EBT Eligible
+          - group "Nutrition Facts" [ref=e1793]:
+            - heading "Nutrition Facts" [level=2] [ref=e1794]
+            - list "Nutrition Facts" [ref=e1795]:
+              - listitem [ref=e1796]:
+                - link "Apply Fat Free (<0.5g) filter to narrow results" [ref=e1798] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907325111%3A2288328011&dc&qid=1776557517&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_1&ds=v1%3AIKaxYGiMHNLxRDXAuysNZV0SUgga7L108pviqbiFwGo
+                  - checkbox [ref=e1801]
+                  - text: Fat Free (<0.5g)
+              - listitem [ref=e1803]:
+                - link "Apply Low Fat (<3g) filter to narrow results" [ref=e1805] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907325111%3A2288329011&dc&qid=1776557517&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_2&ds=v1%3AgQFCQPm599yfCuog%2BUTkxWjSN6mjYJKzHYure8D8xIo
+                  - checkbox [ref=e1808]
+                  - text: Low Fat (<3g)
+              - listitem [ref=e1810]:
+                - link "Apply Free of Saturated Fat (<0.5g) filter to narrow results" [ref=e1812] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907325111%3A10434599011&dc&qid=1776557517&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_3&ds=v1%3AmwaOmz04HcGCkZT7LpCkf8YygEp3k0hKKdhN0eueGiI
+                  - checkbox [ref=e1815]
+                  - text: Free of Saturated Fat (<0.5g)
+              - listitem [ref=e1817]:
+                - link "Apply Free of Trans Fat (0g) filter to narrow results" [ref=e1819] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907325111%3A11139484011&dc&qid=1776557517&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_4&ds=v1%3ATIbXVmIH6FIZqipw4%2BwqQW%2B8fKJHdIoJVwT9vDTfZzw
+                  - checkbox [ref=e1822]
+                  - text: Free of Trans Fat (0g)
+              - listitem [ref=e1824]:
+                - link "Apply Cholesterol Free (<2mg) filter to narrow results" [ref=e1826] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907325111%3A11139485011&dc&qid=1776557517&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_5&ds=v1%3AdmNiDQhZADytVt7fLw04PVxXwi9jX4QC5U%2FkXAMaAJE
+                  - checkbox [ref=e1829]
+                  - text: Cholesterol Free (<2mg)
+              - listitem [ref=e1831]:
+                - link "Apply Sodium Free (<5mg) filter to narrow results" [ref=e1833] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907325111%3A2288330011&dc&qid=1776557517&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_6&ds=v1%3An2NNfrkUo5z%2BxnKossBiPJVCNH3i8cJ95rbwkTrYHBE
+                  - checkbox [ref=e1836]
+                  - text: Sodium Free (<5mg)
+              - listitem [ref=e1838]:
+                - link "Apply Low Sodium (<140mg) filter to narrow results" [ref=e1840] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907325111%3A2288331011&dc&qid=1776557517&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_7&ds=v1%3ANEKNz%2BQhrS63Lsp4ARLS2ip4%2FYh4xk95cBXGC86GGwg
+                  - checkbox [ref=e1843]
+                  - text: Low Sodium (<140mg)
+              - listitem [ref=e1845]:
+                - link "Apply Carbohydrate Free (<0.5g) filter to narrow results" [ref=e1847] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907325111%3A11139487011&dc&qid=1776557517&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_8&ds=v1%3Au6vVyC0MuY%2FVKxsEDbiWanUotEWh%2BoA9GFUL2L07WMM
+                  - checkbox [ref=e1850]
+                  - text: Carbohydrate Free (<0.5g)
+              - listitem [ref=e1852]:
+                - link "Apply Sugar Free (<0.5g) filter to narrow results" [ref=e1854] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907325111%3A2288334011&dc&qid=1776557517&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_9&ds=v1%3AWwLDFJMH%2BCRH3MS1Tn%2FJ9WR%2F2k8EJ9YvojhFwNI0pnQ
+                  - checkbox [ref=e1857]
+                  - text: Sugar Free (<0.5g)
+          - group "Brands" [ref=e1859]:
+            - heading "Brands" [level=2] [ref=e1860]
+            - list "Brands" [ref=e1861]:
+              - listitem [ref=e1862]:
+                - link "Apply Fresh Produce filter to narrow results" [ref=e1864] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_123%3A5108570&dc&qid=1776557517&rnid=85457740011&ref=sr_nr_p_123_1&ds=v1%3AbUV7gaKeJAdQdHn%2FHqgMBc77VFq14l5h2XfgBqFuCk4
+                  - checkbox [ref=e1867]
+                  - text: Fresh Produce
+              - listitem [ref=e1869]:
+                - link "Apply 365 by Whole Foods Market filter to narrow results" [ref=e1871] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_123%3A613378&dc&qid=1776557517&rnid=85457740011&ref=sr_nr_p_123_2&ds=v1%3ArWV6K%2BZq2eP9hDMzv7Y3%2FynHAvHxmUF%2FRcJT1BJ3idk
+                  - checkbox [ref=e1874]
+                  - text: 365 by Whole Foods Market
+              - listitem [ref=e1876]:
+                - link "Apply Driscoll's filter to narrow results" [ref=e1878] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_123%3A780159&dc&qid=1776557517&rnid=85457740011&ref=sr_nr_p_123_3&ds=v1%3AagoDa9CBo1aJtyLAn6lMUYIG7sH%2FjpzLCBo2wBW1IFI
+                  - checkbox [ref=e1881]
+                  - text: Driscoll's
+              - listitem [ref=e1883]:
+                - link "Apply Pitaya Foods filter to narrow results" [ref=e1885] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_123%3A1464922&dc&qid=1776557517&rnid=85457740011&ref=sr_nr_p_123_4&ds=v1%3Aii4COQuMbEHYN3VAIrpYiwXviUNaRbrybi2b%2BmvvgQ4
+                  - checkbox [ref=e1888]
+                  - text: Pitaya Foods
+              - listitem [ref=e1890]:
+                - link "Apply Vital Farms filter to narrow results" [ref=e1892] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_123%3A411897&dc&qid=1776557517&rnid=85457740011&ref=sr_nr_p_123_5&ds=v1%3AYAAN26m0XqdOr4JV%2Fl%2B4qvMOXnUiB9c4VpDGx9rzhIM
+                  - checkbox [ref=e1895]
+                  - text: Vital Farms
+              - listitem [ref=e1897]:
+                - link "Apply SOLELY filter to narrow results" [ref=e1899] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_123%3A374107&dc&qid=1776557517&rnid=85457740011&ref=sr_nr_p_123_6&ds=v1%3AlzZuzSrmWiL03B%2BE76UPlkI0Hidkj1xCyAoQyk81PKA
+                  - checkbox [ref=e1902]
+                  - text: SOLELY
+              - listitem [ref=e1904]:
+                - link "Apply Stonyfield Organic filter to narrow results" [ref=e1906] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_123%3A410292&dc&qid=1776557517&rnid=85457740011&ref=sr_nr_p_123_7&ds=v1%3AJbXHNiYbFmWp3qFifz2sXh77tJD9ju5wW%2FcepACQUwI
+                  - checkbox [ref=e1909]
+                  - text: Stonyfield Organic
+              - listitem [ref=e1911]:
+                - button "See more, Brands" [ref=e1914] [cursor=pointer]: See more
+          - group [ref=e1916]:
+            - generic [ref=e1917]:
+              - generic [ref=e1918]: Price
+              - generic [ref=e1921]:
+                - generic [ref=e1922]:
+                  - generic [ref=e1923]: $0
+                  - generic [ref=e1924]: –
+                  - generic [ref=e1925]: $16+
+                - generic [ref=e1927]:
+                  - generic:
+                    - slider "Minimum price": "0"
+                  - generic [ref=e1928]:
+                    - slider "Maximum price": "16"
+            - list [ref=e1929]:
+              - listitem [ref=e1930]:
+                - link "Up to $5" [ref=e1932] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=p_36%3A-500&dc&qid=1776557517&rnid=386454011&ref=sr_nr_p_36_1&ds=v1%3A8opOEkzGO8cBtXKr01cWmmOKtIHAwpkHHyPsj2PheRM
+              - listitem [ref=e1933]:
+                - link "$5 to $20" [ref=e1935] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=p_36%3A500-2000&dc&qid=1776557517&rnid=386454011&ref=sr_nr_p_36_2&ds=v1%3AyO8PVqPzaJifCKlK8FOll2%2BdStZCTmyHPt2efahWsQ4
+              - listitem [ref=e1936]:
+                - link "$20 & above" [ref=e1938] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=p_36%3A2000-&dc&qid=1776557517&rnid=386454011&ref=sr_nr_p_36_3&ds=v1%3AVxOD7pRmuh%2FMGi9nsH3dr%2BGummWaJs1zZbWnnfH4kmc
+          - group "Deals & Discounts" [ref=e1939]:
+            - heading "Deals & Discounts" [level=2] [ref=e1940]
+            - list "Deals & Discounts" [ref=e1941]:
+              - listitem [ref=e1942]:
+                - link "All Discounts" [ref=e1944] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_deal_type%3A23566065011&dc&qid=1776557517&rnid=23566063011&ref=sr_nr_p_n_deal_type_1&ds=v1%3Arl0lopkrpIsObQFdtMTf60gERDaYIT1MplgzV%2FuMMkc
+          - group "Calories Per Serving" [ref=e1945]:
+            - heading "Calories Per Serving" [level=2] [ref=e1946]
+            - list "Calories Per Serving" [ref=e1947]:
+              - listitem [ref=e1948]:
+                - generic [ref=e1949]:
+                  - checkbox [disabled] [ref=e1952]
+                  - text: 0 Calories
+              - listitem [ref=e1954]:
+                - link "Apply 1 to 40 Calories filter to narrow results" [ref=e1956] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907561111%3A10434595011&dc&qid=1776557517&rnid=10434593011&ref=sr_nr_p_n_g-1001907561111_2&ds=v1%3ARZuigfSSUu2iA55rOOH1XarKpN7PtQsFGsKEAVECin0
+                  - checkbox [ref=e1959]
+                  - text: 1 to 40 Calories
+              - listitem [ref=e1961]:
+                - link "Apply 41 to 100 Calories filter to narrow results" [ref=e1963] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907561111%3A10434596011&dc&qid=1776557517&rnid=10434593011&ref=sr_nr_p_n_g-1001907561111_3&ds=v1%3AcOK64JmhE2l8LZddDlbShsqdow29pMrQ%2BOIq70Tl%2BOI
+                  - checkbox [ref=e1966]
+                  - text: 41 to 100 Calories
+              - listitem [ref=e1968]:
+                - link "Apply 101 to 200 Calories filter to narrow results" [ref=e1970] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907561111%3A10434597011&dc&qid=1776557517&rnid=10434593011&ref=sr_nr_p_n_g-1001907561111_4&ds=v1%3Ac8Gykhbz1eCk0Zh8dabW%2BylkW7370xdrUD52251Z1Ms
+                  - checkbox [ref=e1973]
+                  - text: 101 to 200 Calories
+              - listitem [ref=e1975]:
+                - link "Apply 201 to 300 Calories filter to narrow results" [ref=e1977] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-1001907561111%3A10434598011&dc&qid=1776557517&rnid=10434593011&ref=sr_nr_p_n_g-1001907561111_5&ds=v1%3ANd1YtKBTMXFMmxcV28UKlEoXZOSp%2FQ5lEtNwnDVoMbI
+                  - checkbox [ref=e1980]
+                  - text: 201 to 300 Calories
+          - group "Premium Brands" [ref=e1982]:
+            - heading "Premium Brands" [level=2] [ref=e1983]
+            - list "Premium Brands" [ref=e1984]:
+              - listitem [ref=e1985]:
+                - link "Apply Premium Brands filter to narrow results" [ref=e1987] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_g-101015887018111%3A204376014011&dc&qid=1776557517&rnid=204376013011&ref=sr_nr_p_n_g-101015887018111_1&ds=v1%3AzA2iQtal%2B2ZShTZ6rNEIdES%2BbE%2Bs5ILEbysr7v6HA6E
+                  - checkbox [ref=e1990]
+                  - text: Premium Brands
+          - group "Sustainability Features" [ref=e1992]:
+            - heading "Sustainability Features" [level=2] [ref=e1993]
+            - list "Sustainability Features" [ref=e1994]:
+              - listitem [ref=e1995]:
+                - link "Any Feature" [ref=e1997] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_cpf_labels%3A121136630011&dc&qid=1776557517&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_1&ds=v1%3AKDFdK%2FCpYmA6h9w0mKlwBZiGr0fHpSEZ0SBN0Elrjtg
+              - listitem [ref=e1998]:
+                - link "Farming Practices" [ref=e2000] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cp_n_cpf_labels%3A121191385011&dc&qid=1776557517&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_2&ds=v1%3ASYNhHF9V78UyhyarK09BjXWZoiqVIMOMnHFyQjkNTFM
+              - listitem [ref=e2001]:
+                - button "See more, Sustainability Features" [ref=e2004] [cursor=pointer]: See more
+          - group "Department" [ref=e2006]:
+            - heading "Department" [level=2] [ref=e2007]
+            - list "Department" [ref=e2008]:
+              - listitem [ref=e2009]:
+                - link "Any Department" [ref=e2011] [cursor=pointer]:
+                  - /url: /s?k=organic+strawberries&dc&qid=1776557517&ref=sr_ex_n_0&ds=v1%3AKXacCcRaIQEXwOu0ELFaHVuZI7iMyxcrUWX7rvVn%2BYM
+                  - text: Any Department
+              - list
+              - listitem [ref=e2013]:
+                - generic [ref=e2014]: Whole Foods Market
+              - list [ref=e2015]:
+                - listitem [ref=e2016]:
+                  - link "Fresh Fruits" [ref=e2018] [cursor=pointer]:
+                    - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cn%3A16318981&dc&qid=1776557517&rnid=18473610011&ref=sr_nr_n_1&ds=v1%3At%2B5mncPdkISNMv1tPHReHKKW1nsek1pnCzcKuabVtmc
+                - list
+                - listitem [ref=e2019]:
+                  - link "Strawberries" [ref=e2021] [cursor=pointer]:
+                    - /url: /s?k=organic+strawberries&i=wholefoods&bbn=18473610011&rh=n%3A18473610011%2Cn%3A6459169011&dc&qid=1776557517&rnid=18473610011&ref=sr_nr_n_2&ds=v1%3ACZx6J43x46C5JdLMvQlIfWowUX8TW2r4kDfWMdY%2Fb6k
+                - list
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e2022]:
+    - button "Back to top" [ref=e2023] [cursor=pointer]:
+      - generic [ref=e2024]: Back to top
+    - generic [ref=e2025]:
+      - generic [ref=e2026]:
+        - heading "Get to Know Us" [level=6] [ref=e2027]
+        - list [ref=e2028]:
+          - listitem [ref=e2029]:
+            - link "Careers" [ref=e2030] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e2031]:
+            - link "Amazon Newsletter" [ref=e2032] [cursor=pointer]:
+              - /url: https://email.aboutamazon.com/l/637851/2020-10-29/pd87g?utm_source=gateway&utm_medium=amazonfooters&utm_campaign=newslettersubscribers&utm_content=amazonnewssignup
+          - listitem [ref=e2033]:
+            - link "About Amazon" [ref=e2034] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer&token=about
+          - listitem [ref=e2035]:
+            - link "Accessibility" [ref=e2036] [cursor=pointer]:
+              - /url: https://www.amazon.com/b?node=15701038011&ie=UTF8
+          - listitem [ref=e2037]:
+            - link "Sustainability" [ref=e2038] [cursor=pointer]:
+              - /url: https://sustainability.aboutamazon.com/?utm_source=gateway&utm_medium=footer&ref_=susty_footer
+          - listitem [ref=e2039]:
+            - link "Press Center" [ref=e2040] [cursor=pointer]:
+              - /url: https://www.amazon.com/pr
+          - listitem [ref=e2041]:
+            - link "Investor Relations" [ref=e2042] [cursor=pointer]:
+              - /url: https://www.amazon.com/ir
+          - listitem [ref=e2043]:
+            - link "Amazon Devices" [ref=e2044] [cursor=pointer]:
+              - /url: /gp/browse.html?node=2102313011&ref_=footer_devices
+          - listitem [ref=e2045]:
+            - link "Amazon Science" [ref=e2046] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e2048]:
+        - heading "Make Money with Us" [level=6] [ref=e2049]
+        - list [ref=e2050]:
+          - listitem [ref=e2051]:
+            - link "Sell on Amazon" [ref=e2052] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZFSSOA_FTSELL-C&ref_=footer_soa
+          - listitem [ref=e2053]:
+            - link "Sell apps on Amazon" [ref=e2054] [cursor=pointer]:
+              - /url: https://developer.amazon.com
+          - listitem [ref=e2055]:
+            - link "Supply to Amazon" [ref=e2056] [cursor=pointer]:
+              - /url: https://supply.amazon.com
+          - listitem [ref=e2057]:
+            - link "Protect & Build Your Brand" [ref=e2058] [cursor=pointer]:
+              - /url: https://sell.amazon.com/brand-registry?ld=AZUSSOA_ABR-FT
+          - listitem [ref=e2059]:
+            - link "Become an Affiliate" [ref=e2060] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.com/
+          - listitem [ref=e2061]:
+            - link "Become a Delivery Driver" [ref=e2062] [cursor=pointer]:
+              - /url: https://dspjobhub.com/
+          - listitem [ref=e2063]:
+            - link "Start a Package Delivery Business" [ref=e2064] [cursor=pointer]:
+              - /url: https://logistics.amazon.com/marketing?utm_source=amzn&utm_medium=footer&utm_campaign=home
+          - listitem [ref=e2065]:
+            - link "Advertise Your Products" [ref=e2066] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=ext_amzn_ftr
+          - listitem [ref=e2067]:
+            - link "Self-Publish with Us" [ref=e2068] [cursor=pointer]:
+              - /url: /gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&topic=200260520&ref_=footer_publishing
+          - listitem [ref=e2069]:
+            - link "Become an Amazon Hub Partner" [ref=e2070] [cursor=pointer]:
+              - /url: https://www.amazon.com/b?node=216188543011
+          - listitem [ref=e2071]:
+            - text: ›
+            - link "See More Ways to Make Money" [ref=e2072] [cursor=pointer]:
+              - /url: /b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore
+      - generic [ref=e2074]:
+        - heading "Amazon Payment Products" [level=6] [ref=e2075]
+        - list [ref=e2076]:
+          - listitem [ref=e2077]:
+            - link "Amazon Visa" [ref=e2078] [cursor=pointer]:
+              - /url: /iss/credit/rewardscardmember?plattr=CBFOOT&ref_=footer_cbcc
+          - listitem [ref=e2079]:
+            - link "Amazon Store Card" [ref=e2080] [cursor=pointer]:
+              - /url: /credit/storecard/member?plattr=PLCCFOOT&ref_=footer_plcc
+          - listitem [ref=e2081]:
+            - link "Amazon Secured Card" [ref=e2082] [cursor=pointer]:
+              - /url: /dp/product/B084KP3NG6?plattr=SCFOOT&ref_=footer_ACB
+          - listitem [ref=e2083]:
+            - link "Amazon Business Card" [ref=e2084] [cursor=pointer]:
+              - /url: /dp/B0DVBL912R?plattr=ACOMFO&ie=UTF-8
+          - listitem [ref=e2085]:
+            - link "Shop with Points" [ref=e2086] [cursor=pointer]:
+              - /url: https://www.amazon.com/hp/shopwithpoints/servicing
+          - listitem [ref=e2087]:
+            - link "Credit Card Marketplace" [ref=e2088] [cursor=pointer]:
+              - /url: /gp/browse.html?node=3561432011&ref_=footer_ccmp
+          - listitem [ref=e2089]:
+            - link "Reload Your Balance" [ref=e2090] [cursor=pointer]:
+              - /url: /gp/browse.html?node=10232440011&ref_=footer_reload_us
+          - listitem [ref=e2091]:
+            - link "Gift Cards" [ref=e2092] [cursor=pointer]:
+              - /url: https://www.amazon.com/b/?node=2238192011&ref=shop_footer_payments_gc_desktop
+          - listitem [ref=e2093]:
+            - link "Amazon Currency Converter" [ref=e2094] [cursor=pointer]:
+              - /url: /gp/browse.html?node=388305011&ref_=footer_tfx
+      - generic [ref=e2096]:
+        - heading "Let Us Help You" [level=6] [ref=e2097]
+        - list [ref=e2098]:
+          - listitem [ref=e2099]:
+            - link "Your Account" [ref=e2100] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e2101]:
+            - link "Your Orders" [ref=e2102] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/order-history?ref_=footer_yo
+          - listitem [ref=e2103]:
+            - link "Shipping Rates & Policies" [ref=e2104] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates
+          - listitem [ref=e2105]:
+            - link "Amazon Prime" [ref=e2106] [cursor=pointer]:
+              - /url: /gp/prime?ref_=footer_prime
+          - listitem [ref=e2107]:
+            - link "Returns & Replacements" [ref=e2108] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e2109]:
+            - link "Manage Your Content and Devices" [ref=e2110] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e2111]:
+            - link "Recalls and Product Safety Alerts" [ref=e2112] [cursor=pointer]:
+              - /url: https://www.amazon.com/product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e2113]:
+            - link "Registry & Gift List" [ref=e2114] [cursor=pointer]:
+              - /url: /registries?ref_=nav_footer_registry_giftlist_desktop
+          - listitem [ref=e2115]:
+            - link "Help" [ref=e2116] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e2118]:
+      - link "Amazon US Home" [ref=e2121] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=e2124]:
+        - generic [ref=e2125]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e2126] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e2128]: English
+          - button "Expand to Change Language or Country" [ref=e2129] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is United States." [ref=e2130] [cursor=pointer]:
+          - generic [ref=e2132]: United States
+    - navigation "More on Amazon" [ref=e2133]:
+      - generic "More on Amazon" [ref=e2134]:
+        - list [ref=e2135]:
+          - listitem [ref=e2136]:
+            - link "Amazon Music Stream millions of songs" [ref=e2137] [cursor=pointer]:
+              - /url: https://music.amazon.com?ref=dm_aff_amz_com
+              - heading "Amazon Music" [level=5] [ref=e2138]
+              - generic [ref=e2139]:
+                - text: Stream millions
+                - text: of songs
+          - listitem [ref=e2140]
+          - listitem [ref=e2141]:
+            - link "Amazon Ads Reach customers wherever they spend their time" [ref=e2142] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=footer_advtsing_amzn_com
+              - heading "Amazon Ads" [level=5] [ref=e2143]
+              - generic [ref=e2144]:
+                - text: Reach customers
+                - text: wherever they
+                - text: spend their time
+          - listitem [ref=e2145]
+          - listitem [ref=e2146]:
+            - link "6pm Score deals on fashion brands" [ref=e2147] [cursor=pointer]:
+              - /url: https://www.6pm.com
+              - heading "6pm" [level=5] [ref=e2148]
+              - generic [ref=e2149]:
+                - text: Score deals
+                - text: on fashion brands
+          - listitem [ref=e2150]
+          - listitem [ref=e2151]:
+            - link "AbeBooks Books, art & collectibles" [ref=e2152] [cursor=pointer]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=e2153]
+              - generic [ref=e2154]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e2155]
+          - listitem [ref=e2156]:
+            - link "ACX Audiobook Publishing Made Easy" [ref=e2157] [cursor=pointer]:
+              - /url: https://www.acx.com/
+              - heading "ACX" [level=5] [ref=e2158]
+              - generic [ref=e2159]:
+                - text: Audiobook Publishing
+                - text: Made Easy
+          - listitem [ref=e2160]
+          - listitem [ref=e2161]:
+            - link "Sell on Amazon Start a Selling Account" [ref=e2162] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell
+              - heading "Sell on Amazon" [level=5] [ref=e2163]
+              - generic [ref=e2164]: Start a Selling Account
+          - listitem [ref=e2165]
+          - listitem [ref=e2166]:
+            - link "Veeqo Shipping Software Inventory Management" [ref=e2167] [cursor=pointer]:
+              - /url: https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer
+              - heading "Veeqo" [level=5] [ref=e2168]
+              - generic [ref=e2169]:
+                - text: Shipping Software
+                - text: Inventory Management
+        - list [ref=e2170]:
+          - listitem [ref=e2171]:
+            - link "Amazon Business Everything For Your Business" [ref=e2172] [cursor=pointer]:
+              - /url: /business?ref_=footer_retail_b2b
+              - heading "Amazon Business" [level=5] [ref=e2173]
+              - generic [ref=e2174]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e2175]
+          - listitem [ref=e2176]:
+            - link "Amazon Fresh Groceries & More Right To Your Door" [ref=e2177] [cursor=pointer]:
+              - /url: /alm/storefront?almBrandId=QW1hem9uIEZyZXNo&ref_=footer_aff_fresh
+              - heading "Amazon Fresh" [level=5] [ref=e2178]
+              - generic [ref=e2179]:
+                - text: Groceries & More
+                - text: Right To Your Door
+          - listitem [ref=e2180]
+          - listitem [ref=e2181]:
+            - link "AmazonGlobal Ship Orders Internationally" [ref=e2182] [cursor=pointer]:
+              - /url: /gp/browse.html?node=230659011&ref_=footer_amazonglobal
+              - heading "AmazonGlobal" [level=5] [ref=e2183]
+              - generic [ref=e2184]:
+                - text: Ship Orders
+                - text: Internationally
+          - listitem [ref=e2185]
+          - listitem [ref=e2186]:
+            - link "Home Services Experienced Pros Happiness Guarantee" [ref=e2187] [cursor=pointer]:
+              - /url: /services?ref_=footer_services
+              - heading "Home Services" [level=5] [ref=e2188]
+              - generic [ref=e2189]:
+                - text: Experienced Pros
+                - text: Happiness Guarantee
+          - listitem [ref=e2190]
+          - listitem [ref=e2191]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e2192] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e2193]
+              - generic [ref=e2194]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e2195]
+          - listitem [ref=e2196]:
+            - link "Audible Listen to Books & Original Audio Performances" [ref=e2197] [cursor=pointer]:
+              - /url: https://www.audible.com
+              - heading "Audible" [level=5] [ref=e2198]
+              - generic [ref=e2199]:
+                - text: Listen to Books & Original
+                - text: Audio Performances
+          - listitem [ref=e2200]
+          - listitem [ref=e2201]:
+            - link "Box Office Mojo Find Movie Box Office Data" [ref=e2202] [cursor=pointer]:
+              - /url: https://www.boxofficemojo.com/?ref_=amzn_nav_ftr
+              - heading "Box Office Mojo" [level=5] [ref=e2203]
+              - generic [ref=e2204]:
+                - text: Find Movie
+                - text: Box Office Data
+        - list [ref=e2205]:
+          - listitem [ref=e2206]:
+            - link "Goodreads Book reviews & recommendations" [ref=e2207] [cursor=pointer]:
+              - /url: https://www.goodreads.com
+              - heading "Goodreads" [level=5] [ref=e2208]
+              - generic [ref=e2209]:
+                - text: Book reviews
+                - text: "& recommendations"
+          - listitem [ref=e2210]
+          - listitem [ref=e2211]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e2212] [cursor=pointer]:
+              - /url: https://www.imdb.com
+              - heading "IMDb" [level=5] [ref=e2213]
+              - generic [ref=e2214]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+          - listitem [ref=e2215]
+          - listitem [ref=e2216]:
+            - link "IMDbPro Get Info Entertainment Professionals Need" [ref=e2217] [cursor=pointer]:
+              - /url: https://pro.imdb.com?ref_=amzn_nav_ftr
+              - heading "IMDbPro" [level=5] [ref=e2218]
+              - generic [ref=e2219]:
+                - text: Get Info Entertainment
+                - text: Professionals Need
+          - listitem [ref=e2220]
+          - listitem [ref=e2221]:
+            - link "Kindle Direct Publishing Indie Digital & Print Publishing Made Easy" [ref=e2222] [cursor=pointer]:
+              - /url: https://kdp.amazon.com
+              - heading "Kindle Direct Publishing" [level=5] [ref=e2223]
+              - generic [ref=e2224]:
+                - text: Indie Digital & Print Publishing
+                - text: Made Easy
+          - listitem [ref=e2225]
+          - listitem [ref=e2226]:
+            - link "Amazon Photos Unlimited Photo Storage Free With Prime" [ref=e2227] [cursor=pointer]:
+              - /url: /gp/browse.html?node=13234696011&ref_=_gno_p_foot
+              - heading "Amazon Photos" [level=5] [ref=e2228]
+              - generic [ref=e2229]:
+                - text: Unlimited Photo Storage
+                - text: Free With Prime
+          - listitem [ref=e2230]
+          - listitem [ref=e2231]:
+            - link "Prime Video Direct Video Distribution Made Easy" [ref=e2232] [cursor=pointer]:
+              - /url: https://videodirect.amazon.com/home/landing
+              - heading "Prime Video Direct" [level=5] [ref=e2233]
+              - generic [ref=e2234]:
+                - text: Video Distribution
+                - text: Made Easy
+          - listitem [ref=e2235]
+          - listitem [ref=e2236]:
+            - link "Shopbop Designer Fashion Brands" [ref=e2237] [cursor=pointer]:
+              - /url: https://www.shopbop.com
+              - heading "Shopbop" [level=5] [ref=e2238]
+              - generic [ref=e2239]:
+                - text: Designer
+                - text: Fashion Brands
+        - list [ref=e2240]:
+          - listitem [ref=e2241]:
+            - link "Amazon Resale Great Deals on Quality Used Products" [ref=e2242] [cursor=pointer]:
+              - /url: /gp/browse.html?node=10158976011&ref_=footer_wrhsdls
+              - heading "Amazon Resale" [level=5] [ref=e2243]
+              - generic [ref=e2244]:
+                - text: Great Deals on
+                - text: Quality Used Products
+          - listitem [ref=e2245]
+          - listitem [ref=e2246]:
+            - link "Whole Foods Market America’s Healthiest Grocery Store" [ref=e2247] [cursor=pointer]:
+              - /url: https://www.wholefoodsmarket.com
+              - heading "Whole Foods Market" [level=5] [ref=e2248]
+              - generic [ref=e2249]:
+                - text: America’s Healthiest
+                - text: Grocery Store
+          - listitem [ref=e2250]
+          - listitem [ref=e2251]:
+            - link "Woot! Deals and Shenanigans" [ref=e2252] [cursor=pointer]:
+              - /url: https://www.woot.com/
+              - heading "Woot!" [level=5] [ref=e2253]
+              - generic [ref=e2254]:
+                - text: Deals and
+                - text: Shenanigans
+          - listitem [ref=e2255]
+          - listitem [ref=e2256]:
+            - link "Zappos Shoes & Clothing" [ref=e2257] [cursor=pointer]:
+              - /url: https://www.zappos.com
+              - heading "Zappos" [level=5] [ref=e2258]
+              - generic [ref=e2259]:
+                - text: Shoes &
+                - text: Clothing
+          - listitem [ref=e2260]
+          - listitem [ref=e2261]:
+            - link "Ring Smart Home Security Systems" [ref=e2262] [cursor=pointer]:
+              - /url: https://ring.com
+              - heading "Ring" [level=5] [ref=e2263]
+              - generic [ref=e2264]:
+                - text: Smart Home
+                - text: Security Systems
+          - listitem [ref=e2265]
+          - listitem [ref=e2266]:
+            - link "eero WiFi Stream 4K Video in Every Room" [ref=e2267] [cursor=pointer]:
+              - /url: https://eero.com/
+              - heading "eero WiFi" [level=5] [ref=e2268]
+              - generic [ref=e2269]:
+                - text: Stream 4K Video
+                - text: in Every Room
+          - listitem [ref=e2270]
+          - listitem [ref=e2271]:
+            - link "Blink Smart Security for Every Home" [ref=e2272] [cursor=pointer]:
+              - /url: https://blinkforhome.com/?ref=nav_footer
+              - heading "Blink" [level=5] [ref=e2273]
+              - generic [ref=e2274]:
+                - text: Smart Security
+                - text: for Every Home
+        - list [ref=e2275]:
+          - listitem [ref=e2276]
+          - listitem [ref=e2277]
+          - listitem [ref=e2278]
+          - listitem [ref=e2279]
+          - listitem [ref=e2280]:
+            - link "Neighbors App Real-Time Crime & Safety Alerts" [ref=e2281] [cursor=pointer]:
+              - /url: https://shop.ring.com/pages/neighbors-app
+              - heading "Neighbors App" [level=5] [ref=e2282]
+              - generic [ref=e2283]:
+                - text: Real-Time Crime
+                - text: "& Safety Alerts"
+          - listitem [ref=e2284]
+          - listitem [ref=e2285]:
+            - link "PillPack Pharmacy Simplified" [ref=e2286] [cursor=pointer]:
+              - /url: https://www.pillpack.com
+              - heading "PillPack" [level=5] [ref=e2287]
+              - generic [ref=e2288]: Pharmacy Simplified
+          - listitem [ref=e2289]
+          - listitem [ref=e2290]:
+            - link "Amazon Renewed Refurbished tech you can trust" [ref=e2291] [cursor=pointer]:
+              - /url: /gp/browse.html?node=12653393011&ref_=footer_usrenew
+              - heading "Amazon Renewed" [level=5] [ref=e2292]
+              - generic [ref=e2293]:
+                - text: Refurbished tech
+                - text: you can trust
+          - listitem [ref=e2294]
+          - listitem [ref=e2295]
+          - listitem [ref=e2296]
+          - listitem [ref=e2297]
+    - generic [ref=e2298]:
+      - list [ref=e2299]:
+        - listitem [ref=e2300]:
+          - link "Conditions of Use" [ref=e2301] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=508088&ref_=footer_cou
+        - listitem [ref=e2302]:
+          - link "Privacy Notice" [ref=e2303] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy
+        - listitem [ref=e2304]:
+          - link "Consumer Health Data Privacy Disclosure" [ref=e2305] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy
+        - listitem [ref=e2306]:
+          - link "Your Ads Privacy Choices" [ref=e2307] [cursor=pointer]:
+            - /url: /privacyprefs?ref_=footer_iba
+        - listitem [ref=e2308]
+      - generic [ref=e2310]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e2312]:
+    

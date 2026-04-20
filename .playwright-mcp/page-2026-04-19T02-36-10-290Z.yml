@@ -1,0 +1,1950 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Results" [ref=e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+      - listitem [ref=e10]:
+        - link "Filters" [ref=e11] [cursor=pointer]:
+          - /url: "#s-refinements > div.a-section > div:first-child"
+    - separator [ref=e12]
+    - heading "Keyboard shortcuts" [level=2] [ref=e13]
+    - list "Keyboard shortcuts" [ref=e14]:
+      - listitem [ref=e15]:
+        - link "Search, option, forward slash" [ref=e16] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e17]:
+            - generic [ref=e18]: Search
+            - generic [ref=e19]:
+              - generic [ref=e20]: opt
+              - generic [ref=e21]: +
+              - generic [ref=e22]: /
+      - listitem [ref=e23]:
+        - link "Cart, shift, option, c" [ref=e24] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e25]:
+            - generic [ref=e26]: Cart
+            - generic [ref=e27]:
+              - generic [ref=e28]: shift
+              - generic [ref=e29]: +
+              - generic [ref=e30]: opt
+              - generic [ref=e31]: +
+              - generic [ref=e32]: C
+      - listitem [ref=e33]:
+        - link "Home, shift, option, h" [ref=e34] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e35]:
+            - generic [ref=e36]: Home
+            - generic [ref=e37]:
+              - generic [ref=e38]: shift
+              - generic [ref=e39]: +
+              - generic [ref=e40]: opt
+              - generic [ref=e41]: +
+              - generic [ref=e42]: H
+      - listitem [ref=e43]:
+        - link "Your orders, shift, option, o" [ref=e44] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e45]:
+            - generic [ref=e46]: Orders
+            - generic [ref=e47]:
+              - generic [ref=e48]: shift
+              - generic [ref=e49]: +
+              - generic [ref=e50]: opt
+              - generic [ref=e51]: +
+              - generic [ref=e52]: O
+      - listitem [ref=e53]:
+        - button "Show/hide shortcuts, shift, option, z" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: Show/Hide shortcuts
+            - generic [ref=e57]:
+              - generic [ref=e58]: shift
+              - generic [ref=e59]: +
+              - generic [ref=e60]: opt
+              - generic [ref=e61]: +
+              - generic [ref=e62]: Z
+    - generic [ref=e68]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e69]:
+    - navigation "Primary" [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - link "Amazon" [ref=e74] [cursor=pointer]:
+            - /url: /ref=nav_logo
+          - button "Delivering to Los Angeles 90039 Update location" [ref=e77] [cursor=pointer]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: Delivering to Los Angeles 90039
+              - generic [ref=e81]: Update location
+        - search [ref=e84]:
+          - generic [ref=e87]:
+            - generic [ref=e89]: Amazon Fresh
+            - combobox "Select the department you want to search in" [ref=e91] [cursor=pointer]:
+              - option "Amazon Fresh" [selected]
+              - option "All Departments"
+              - option "Alexa Skills"
+              - option "Amazon Autos"
+              - option "Amazon Devices"
+              - option "Amazon Global Store"
+              - option "Amazon Haul"
+              - option "Amazon One Medical"
+              - option "Amazon Pharmacy"
+              - option "Amazon Resale"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Arts, Crafts & Sewing"
+              - option "Audible Books & Originals"
+              - option "Automotive Parts & Accessories"
+              - option "Baby"
+              - option "Beauty & Personal Care"
+              - option "Books"
+              - option "Bristol Farms"
+              - option "CDs & Vinyl"
+              - option "Cell Phones & Accessories"
+              - option "Clothing, Shoes & Jewelry"
+              - option "Women's Clothing, Shoes & Jewelry"
+              - option "Men's Clothing, Shoes & Jewelry"
+              - option "Girl's Clothing, Shoes & Jewelry"
+              - option "Boy's Clothing, Shoes & Jewelry"
+              - option "Baby Clothing, Shoes & Jewelry"
+              - option "Collectibles & Fine Art"
+              - option "Computers"
+              - option "Credit and Payment Cards"
+              - option "Digital Music"
+              - option "Electronics"
+              - option "Garden & Outdoor"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Food"
+              - option "Handmade"
+              - option "Health, Household & Baby Care"
+              - option "Home & Business Services"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Just for Prime"
+              - option "Kindle Store"
+              - option "Luggage & Travel Gear"
+              - option "Luxury Stores"
+              - option "Magazine Subscriptions"
+              - option "Mission Wine & Spirits"
+              - option "Movies & TV"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Food Express"
+              - option "Pet Supplies"
+              - option "Premium Beauty"
+              - option "Prime Video"
+              - option "Same-Day Store"
+              - option "Smart Home"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Subscribe & Save"
+              - option "Subscription Boxes"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under $10"
+              - option "Video Games"
+              - option "Whole Foods Market"
+          - searchbox "Search Amazon" [ref=e94]: organic blueberries
+          - generic "Go" [ref=e97] [cursor=pointer]:
+            - button "Go" [ref=e98]
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - link "Choose a language for shopping in Amazon United States. The current selection is English (EN)." [ref=e102] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e105]:
+                - img "United States" [ref=e106]
+                - generic [ref=e107]: EN
+            - button "Expand to Change Language or Country" [ref=e108] [cursor=pointer]
+          - generic [ref=e109]:
+            - link "Hello, sign in Account & Lists" [ref=e110] [cursor=pointer]:
+              - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%3Fk%3Dorganic%2Bblueberries%26i%3Damazonfresh%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e112]: Hello, sign in
+              - generic [ref=e113]: Account & Lists
+            - button "Expand Account and Lists" [ref=e114] [cursor=pointer]
+          - link "Returns & Orders" [ref=e115] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e116]: Returns
+            - generic [ref=e117]: "& Orders"
+          - link "0 items in cart" [ref=e118] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e120]: "0"
+            - generic [ref=e123]: Cart
+      - generic [ref=e127]:
+        - link "Sign in" [ref=e128] [cursor=pointer]:
+          - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%3Fk%3Dorganic%2Bblueberries%26i%3Damazonfresh%26ref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+          - generic [ref=e129]: Sign in
+        - generic [ref=e130]:
+          - text: New customer?
+          - link "New to Amazon? Start here to create an account" [ref=e131] [cursor=pointer]:
+            - /url: https://www.amazon.com/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%2F%3F_encoding%3DUTF8%26i%3Damazonfresh%26k%3Dorganic%2520blueberries%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - text: Start here.
+      - generic [ref=e136]:
+        - button "Open All Categories Menu" [ref=e138] [cursor=pointer]:
+          - generic [ref=e140]: All
+        - list [ref=e144]:
+          - listitem [ref=e145]:
+            - link "Amazon Haul" [ref=e147] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=e148]:
+            - generic [ref=e149]:
+              - link "Medical Care" [ref=e150] [cursor=pointer]:
+                - /url: https://health.amazon.com/prime?ref_=nav_cs_all_health_ingress_onem_h
+              - button "Medical Care Details" [ref=e151] [cursor=pointer]
+          - listitem [ref=e152]:
+            - link "Amazon Basics" [ref=e154] [cursor=pointer]:
+              - /url: /Amazon_Basics?channel=discovbar&field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=e155]:
+            - link "Best Sellers" [ref=e157] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e158]:
+            - link "Books" [ref=e160] [cursor=pointer]:
+              - /url: /books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books
+          - listitem [ref=e161]:
+            - link "Today's Deals" [ref=e163] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e164]:
+            - generic [ref=e165]:
+              - link "Prime" [ref=e166] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e167] [cursor=pointer]
+          - listitem [ref=e168]:
+            - generic [ref=e169]:
+              - link "Gift Cards" [ref=e170] [cursor=pointer]:
+                - /url: /gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+              - button "Gift Cards Details" [ref=e171] [cursor=pointer]
+          - listitem [ref=e172]:
+            - link "Sell" [ref=e174] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=e175]:
+            - link "Groceries" [ref=e177] [cursor=pointer]:
+              - /url: /fmc/grocery-gateway?gsc=fe16aGPfFs46S&ref_=nav_cs_groceries
+          - listitem [ref=e178]:
+            - link "New Releases" [ref=e180] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e181]:
+            - link "Registry" [ref=e183] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - listitem [ref=e184]:
+            - link "Smart Home" [ref=e186] [cursor=pointer]:
+              - /url: /Smart-Home/b/?ie=UTF8&node=6563140011&ref_=nav_cs_smart_home
+          - listitem [ref=e187]:
+            - link "Music" [ref=e189] [cursor=pointer]:
+              - /url: /music/player?ref_=nav_cs_music
+          - listitem [ref=e190]:
+            - link "Fashion" [ref=e192] [cursor=pointer]:
+              - /url: /amazon-fashion/b/?ie=UTF8&node=7141123011&ref_=nav_cs_fashion
+          - listitem [ref=e193]:
+            - link "Amazon Home" [ref=e195] [cursor=pointer]:
+              - /url: /home-garden-kitchen-furniture-bedding/b/?ie=UTF8&node=1055398&ref_=nav_cs_home
+          - listitem [ref=e196]:
+            - link "Automotive" [ref=e198] [cursor=pointer]:
+              - /url: /automotive-auto-truck-replacements-parts/b/?ie=UTF8&node=15684181&ref_=nav_cs_automotive
+          - listitem [ref=e199]:
+            - link "Sports & Outdoors" [ref=e201] [cursor=pointer]:
+              - /url: /sports-outdoors/b/?ie=UTF8&node=3375251&ref_=nav_cs_sports
+          - listitem [ref=e202]:
+            - link "Toys & Games" [ref=e204] [cursor=pointer]:
+              - /url: /toys/b/?ie=UTF8&node=165793011&ref_=nav_cs_toys
+          - listitem [ref=e205]:
+            - link "Baby" [ref=e207] [cursor=pointer]:
+              - /url: /baby-car-seats-strollers-bedding/b/?ie=UTF8&node=165796011&ref_=nav_cs_baby
+          - listitem [ref=e208]:
+            - link "Home Improvement" [ref=e210] [cursor=pointer]:
+              - /url: /Tools-and-Home-Improvement/b/?ie=UTF8&node=228013&ref_=nav_cs_hi
+          - listitem [ref=e211]:
+            - link "Shop By Interest" [ref=e213] [cursor=pointer]:
+              - /url: /finds?ref_=nav_cs_foundit
+          - listitem [ref=e214]:
+            - link "Pharmacy" [ref=e216] [cursor=pointer]:
+              - /url: https://pharmacy.amazon.com/?nodl=0&ref_=nav_cs_pharmacy
+          - listitem [ref=e217]:
+            - link "Kindle Books" [ref=e219] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=154606011&ref_=nav_cs_kindle_books
+          - listitem [ref=e220]:
+            - link "Beauty & Personal Care" [ref=e222] [cursor=pointer]:
+              - /url: /Beauty-Makeup-Skin-Hair-Products/b/?ie=UTF8&node=3760911&ref_=nav_cs_beauty
+      - navigation [ref=e229]:
+        - link "Amazon Fresh Logo" [ref=e232] [cursor=pointer]:
+          - /url: /alm/storefront/fresh?almBrandId=QW1hem9uIEZyZXNo&ref=fs_dsk_sn_logo-239db
+          - img "Amazon Fresh Logo" [ref=e233]
+        - link "Past Purchases" [ref=e240] [cursor=pointer]:
+          - /url: /afx/lists/pastpurchases/fresh?almBrandId=QW1hem9uIEZyZXNo&ref=fs_dsk_sn_pastPurchases-1e6f8
+          - generic [ref=e241]: Past Purchases
+        - link "Repeat Items" [ref=e244] [cursor=pointer]:
+          - /url: /repeatitems/fresh?almBrandId=QW1hem9uIEZyZXNo&ref=fs_dsk_sn_repeatItems-1b717
+          - generic [ref=e245]: Repeat Items
+        - link "Alexa Lists" [ref=e248] [cursor=pointer]:
+          - /url: /alexaquantum/sp/alexaShoppingList?shop=true&almBrandId=QW1hem9uIEZyZXNo&ref=fs_dsk_sn_alexaLists-b4b90
+          - generic [ref=e249]: Alexa Lists
+        - link "Savings" [ref=e255] [cursor=pointer]:
+          - /url: /fmc/deals?almBrandId=QW1hem9uIEZyZXNo&ref=fs_dsk_sn_savings-bef20
+          - generic [ref=e256]: Savings
+        - generic [ref=e260]: Explore
+        - generic [ref=e264]: Aisles
+        - link "Mother's Day" [ref=e268] [cursor=pointer]:
+          - /url: /fmc/m/40002740/fresh/2026MothersDay?almBrandId=QW1hem9uIEZyZXNo&ref=fs_dsk_sn_Mom26-712db
+          - generic [ref=e269]: Mother's Day
+      - dialog [ref=e270]
+  - generic [ref=e272]:
+    - 'heading "1-24 of 42 results for \"organic blueberries\" Sort by: Featured" [level=1] [ref=e275]':
+      - generic [ref=e276]:
+        - heading "1-24 of 42 results for \"organic blueberries\"" [level=2] [ref=e279]
+        - generic [ref=e284]:
+          - generic [ref=e285]: "Sort by:"
+          - combobox "Sort by:" [ref=e286]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Newest Arrivals"
+            - option "Best Sellers"
+          - generic [ref=e289] [cursor=pointer]: Sort by:Featured
+    - generic [ref=e291]:
+      - generic [ref=e293]:
+        - generic [ref=e295]:
+          - generic [ref=e297]:
+            - generic [ref=e300]:
+              - heading "Results" [level=2] [ref=e301]
+              - generic [ref=e302]: Check each product page for other buying options.
+            - generic:
+              - list:
+                - listitem [ref=e303]:
+                  - generic [ref=e308]:
+                    - link [ref=e312] [cursor=pointer]:
+                      - /url: /produce-aisle-112042-Organic-Blueberries/dp/B077N7TR5G/ref=sr_1_1_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-1
+                      - img [ref=e314]
+                    - generic [ref=e315]:
+                      - link "Organic Blueberries Pint" [ref=e319] [cursor=pointer]:
+                        - /url: /produce-aisle-112042-Organic-Blueberries/dp/B077N7TR5G/ref=sr_1_1_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-1
+                        - heading "Organic Blueberries Pint" [level=2] [ref=e320]
+                      - generic [ref=e321]:
+                        - generic [ref=e322]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e324] [cursor=pointer]:
+                            - generic [ref=e326]: 4.7 out of 5 stars
+                          - link "26,661 ratings" [ref=e330] [cursor=pointer]:
+                            - /url: /produce-aisle-112042-Organic-Blueberries/dp/B077N7TR5G/ref=sr_1_1_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-1#customerReviews
+                            - text: (26.6K)
+                        - generic [ref=e331]: 100K+ bought in past month
+                      - generic [ref=e332]:
+                        - generic [ref=e334]:
+                          - generic [ref=e335]: Price, product page
+                          - link "$7.86 ( $10.48 /lb)" [ref=e336] [cursor=pointer]:
+                            - /url: /produce-aisle-112042-Organic-Blueberries/dp/B077N7TR5G/ref=sr_1_1_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-1
+                            - generic [ref=e337]:
+                              - generic [ref=e338]: $7.86
+                              - generic [ref=e339]:
+                                - text: $
+                                - generic [ref=e340]:
+                                  - text: "7"
+                                  - generic [ref=e341]: .
+                                - text: "86"
+                            - generic [ref=e342]:
+                              - text: (
+                              - generic [ref=e343]:
+                                - generic [ref=e344]: $10.48
+                                - text: $10.48
+                              - text: /lb)
+                        - generic [ref=e345]: SNAP EBT eligible
+                - listitem [ref=e347]:
+                  - generic [ref=e352]:
+                    - group "Best Sellerin Fresh Berries" [ref=e357]:
+                      - generic "Best Seller" [ref=e359]
+                    - link [ref=e362] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-Vary-100174/dp/B003AYKYIG/ref=sr_1_2_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-2
+                      - img [ref=e364]
+                    - generic [ref=e365]:
+                      - link "Blueberries, 1 Pint" [ref=e369] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-Vary-100174/dp/B003AYKYIG/ref=sr_1_2_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-2
+                        - heading "Blueberries, 1 Pint" [level=2] [ref=e370]
+                      - generic [ref=e371]:
+                        - generic [ref=e372]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e374] [cursor=pointer]:
+                            - generic [ref=e376]: 4.7 out of 5 stars
+                          - link "57,544 ratings" [ref=e380] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-Vary-100174/dp/B003AYKYIG/ref=sr_1_2_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-2#customerReviews
+                            - text: (57.5K)
+                        - generic [ref=e381]: 100K+ bought in past month
+                      - generic [ref=e382]:
+                        - generic [ref=e384]:
+                          - generic [ref=e385]: Price, product page
+                          - 'link "$2.99 ( $4.60 /lb) Typical: $3.78 Typical: $3.78" [ref=e386] [cursor=pointer]':
+                            - /url: /Fresh-Produce-Brands-Vary-100174/dp/B003AYKYIG/ref=sr_1_2_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-2
+                            - generic [ref=e387]:
+                              - generic [ref=e388]: $2.99
+                              - generic [ref=e389]:
+                                - text: $
+                                - generic [ref=e390]:
+                                  - text: "2"
+                                  - generic [ref=e391]: .
+                                - text: "99"
+                            - generic [ref=e392]:
+                              - text: (
+                              - generic [ref=e393]:
+                                - generic [ref=e394]: $4.60
+                                - text: $4.60
+                              - text: /lb)
+                            - generic [ref=e395]: "Typical: $3.78"
+                            - generic [ref=e396]:
+                              - text: "Typical:"
+                              - generic [ref=e397]:
+                                - generic [ref=e398]: $3.78
+                                - text: $3.78
+                        - generic [ref=e400]: 21% off
+                        - generic [ref=e401]: SNAP EBT eligible
+                      - generic [ref=e406]: FREE delivery Overnight 4 AM - 6 AM on orders over $100 with Prime
+                - listitem [ref=e407]:
+                  - generic [ref=e412]:
+                    - link [ref=e416] [cursor=pointer]:
+                      - /url: /Driscolls-Sweetest-Batch-Blueberries-11/dp/B07YFDQXQ9/ref=sr_1_3_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-3
+                      - img [ref=e418]
+                    - generic [ref=e419]:
+                      - link "Driscoll's Sweetest Batch Blueberries - 11 Oz" [ref=e423] [cursor=pointer]:
+                        - /url: /Driscolls-Sweetest-Batch-Blueberries-11/dp/B07YFDQXQ9/ref=sr_1_3_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-3
+                        - heading "Driscoll's Sweetest Batch Blueberries - 11 Oz" [level=2] [ref=e424]
+                      - generic [ref=e425]:
+                        - generic [ref=e426]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e428] [cursor=pointer]:
+                            - generic [ref=e430]: 4.8 out of 5 stars
+                          - link "3,694 ratings" [ref=e434] [cursor=pointer]:
+                            - /url: /Driscolls-Sweetest-Batch-Blueberries-11/dp/B07YFDQXQ9/ref=sr_1_3_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-3#customerReviews
+                            - text: (3.6K)
+                        - generic [ref=e435]: 40K+ bought in past month
+                      - generic [ref=e436]:
+                        - generic [ref=e438]:
+                          - generic [ref=e439]: Price, product page
+                          - link "$7.99 ( $11.62 /lb)" [ref=e440] [cursor=pointer]:
+                            - /url: /Driscolls-Sweetest-Batch-Blueberries-11/dp/B07YFDQXQ9/ref=sr_1_3_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-3
+                            - generic [ref=e441]:
+                              - generic [ref=e442]: $7.99
+                              - generic [ref=e443]:
+                                - text: $
+                                - generic [ref=e444]:
+                                  - text: "7"
+                                  - generic [ref=e445]: .
+                                - text: "99"
+                            - generic [ref=e446]:
+                              - text: (
+                              - generic [ref=e447]:
+                                - generic [ref=e448]: $11.62
+                                - text: $11.62
+                              - text: /lb)
+                        - generic [ref=e449]: SNAP EBT eligible
+                      - generic [ref=e454]: FREE delivery Overnight 4 AM - 6 AM on orders over $100 with Prime
+                - listitem [ref=e455]:
+                  - generic [ref=e460]:
+                    - link [ref=e464] [cursor=pointer]:
+                      - /url: /365-Everyday-Value-Organic-Blueberries/dp/B074H5HFLZ/ref=sr_1_4_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-4
+                      - img [ref=e466]
+                    - generic [ref=e467]:
+                      - link "365 by Whole Foods Market, Organic Blueberries, 32 Ounce, (Frozen)" [ref=e471] [cursor=pointer]:
+                        - /url: /365-Everyday-Value-Organic-Blueberries/dp/B074H5HFLZ/ref=sr_1_4_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-4
+                        - heading "365 by Whole Foods Market, Organic Blueberries, 32 Ounce, (Frozen)" [level=2] [ref=e472]
+                      - generic [ref=e473]:
+                        - generic [ref=e474]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e476] [cursor=pointer]:
+                            - generic [ref=e478]: 4.8 out of 5 stars
+                          - link "7,419 ratings" [ref=e482] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Blueberries/dp/B074H5HFLZ/ref=sr_1_4_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-4#customerReviews
+                            - text: (7.4K)
+                        - generic [ref=e483]: 30K+ bought in past month
+                      - generic [ref=e484]:
+                        - generic [ref=e486]:
+                          - generic [ref=e487]: Price, product page
+                          - link "$10.99 ( $0.34 /ounce)" [ref=e488] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Blueberries/dp/B074H5HFLZ/ref=sr_1_4_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-4
+                            - generic [ref=e489]:
+                              - generic [ref=e490]: $10.99
+                              - generic [ref=e491]:
+                                - text: $
+                                - generic [ref=e492]:
+                                  - text: "10"
+                                  - generic [ref=e493]: .
+                                - text: "99"
+                            - generic [ref=e494]:
+                              - text: (
+                              - generic [ref=e495]:
+                                - generic [ref=e496]: $0.34
+                                - text: $0.34
+                              - text: /ounce)
+                        - generic [ref=e497]: SNAP EBT eligible
+                      - generic [ref=e502]: FREE delivery Overnight 4 AM - 6 AM on orders over $100 with Prime
+                      - button "Organic content" [ref=e509] [cursor=pointer]:
+                        - generic [ref=e510]: Organic content
+                - listitem [ref=e512]:
+                  - generic [ref=e517]:
+                    - link [ref=e521] [cursor=pointer]:
+                      - /url: /produce-aisle-040-01021-Organic-Blackberries/dp/B00E3JM7UU/ref=sr_1_5_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-5
+                      - img [ref=e523]
+                    - generic [ref=e524]:
+                      - link "Organic Blackberries, 6 oz" [ref=e528] [cursor=pointer]:
+                        - /url: /produce-aisle-040-01021-Organic-Blackberries/dp/B00E3JM7UU/ref=sr_1_5_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-5
+                        - heading "Organic Blackberries, 6 oz" [level=2] [ref=e529]
+                      - generic [ref=e530]:
+                        - generic [ref=e531]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e533] [cursor=pointer]:
+                            - generic [ref=e535]: 4.7 out of 5 stars
+                          - link "16,976 ratings" [ref=e539] [cursor=pointer]:
+                            - /url: /produce-aisle-040-01021-Organic-Blackberries/dp/B00E3JM7UU/ref=sr_1_5_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-5#customerReviews
+                            - text: (16.9K)
+                        - generic [ref=e540]: 100K+ bought in past month
+                      - generic [ref=e541]:
+                        - generic [ref=e543]:
+                          - generic [ref=e544]: Price, product page
+                          - link "$4.46 ( $11.89 /lb)" [ref=e545] [cursor=pointer]:
+                            - /url: /produce-aisle-040-01021-Organic-Blackberries/dp/B00E3JM7UU/ref=sr_1_5_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-5
+                            - generic [ref=e546]:
+                              - generic [ref=e547]: $4.46
+                              - generic [ref=e548]:
+                                - text: $
+                                - generic [ref=e549]:
+                                  - text: "4"
+                                  - generic [ref=e550]: .
+                                - text: "46"
+                            - generic [ref=e551]:
+                              - text: (
+                              - generic [ref=e552]:
+                                - generic [ref=e553]: $11.89
+                                - text: $11.89
+                              - text: /lb)
+                        - generic [ref=e554]: SNAP EBT eligible
+                - listitem [ref=e556]:
+                  - generic [ref=e561]:
+                    - link [ref=e565] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-May-Vary/dp/B08821BX1C/ref=sr_1_6_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-6
+                      - img [ref=e567]
+                    - generic [ref=e568]:
+                      - link "Jumbo Blueberries, 9.8 OZ" [ref=e572] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-May-Vary/dp/B08821BX1C/ref=sr_1_6_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-6
+                        - heading "Jumbo Blueberries, 9.8 OZ" [level=2] [ref=e573]
+                      - generic [ref=e574]:
+                        - generic [ref=e575]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e577] [cursor=pointer]:
+                            - generic [ref=e579]: 4.7 out of 5 stars
+                          - link "2,826 ratings" [ref=e583] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-May-Vary/dp/B08821BX1C/ref=sr_1_6_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-6#customerReviews
+                            - text: (2.8K)
+                        - generic [ref=e584]: 70K+ bought in past month
+                      - generic [ref=e585]:
+                        - generic [ref=e587]:
+                          - generic [ref=e588]: Price, product page
+                          - link "$6.75 ( $11.02 /lb)" [ref=e589] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-May-Vary/dp/B08821BX1C/ref=sr_1_6_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-6
+                            - generic [ref=e590]:
+                              - generic [ref=e591]: $6.75
+                              - generic [ref=e592]:
+                                - text: $
+                                - generic [ref=e593]:
+                                  - text: "6"
+                                  - generic [ref=e594]: .
+                                - text: "75"
+                            - generic [ref=e595]:
+                              - text: (
+                              - generic [ref=e596]:
+                                - generic [ref=e597]: $11.02
+                                - text: $11.02
+                              - text: /lb)
+                        - generic [ref=e598]: SNAP EBT eligible
+                - listitem [ref=e600]:
+                  - generic [ref=e605]:
+                    - link [ref=e609] [cursor=pointer]:
+                      - /url: /produce-aisle-040-01040-Organic-Raspberries/dp/B0031Q80UM/ref=sr_1_7_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-7
+                      - img [ref=e611]
+                    - generic [ref=e612]:
+                      - link "Organic Red Raspberries, 6 Oz" [ref=e616] [cursor=pointer]:
+                        - /url: /produce-aisle-040-01040-Organic-Raspberries/dp/B0031Q80UM/ref=sr_1_7_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-7
+                        - heading "Organic Red Raspberries, 6 Oz" [level=2] [ref=e617]
+                      - generic [ref=e618]:
+                        - generic [ref=e619]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e621] [cursor=pointer]:
+                            - generic [ref=e623]: 4.6 out of 5 stars
+                          - link "19,886 ratings" [ref=e627] [cursor=pointer]:
+                            - /url: /produce-aisle-040-01040-Organic-Raspberries/dp/B0031Q80UM/ref=sr_1_7_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-7#customerReviews
+                            - text: (19.8K)
+                        - generic [ref=e628]: 70K+ bought in past month
+                      - generic [ref=e629]:
+                        - generic [ref=e631]:
+                          - generic [ref=e632]: Price, product page
+                          - link "$4.76 ( $12.69 /lb)" [ref=e633] [cursor=pointer]:
+                            - /url: /produce-aisle-040-01040-Organic-Raspberries/dp/B0031Q80UM/ref=sr_1_7_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-7
+                            - generic [ref=e634]:
+                              - generic [ref=e635]: $4.76
+                              - generic [ref=e636]:
+                                - text: $
+                                - generic [ref=e637]:
+                                  - text: "4"
+                                  - generic [ref=e638]: .
+                                - text: "76"
+                            - generic [ref=e639]:
+                              - text: (
+                              - generic [ref=e640]:
+                                - generic [ref=e641]: $12.69
+                                - text: $12.69
+                              - text: /lb)
+                        - generic [ref=e642]: SNAP EBT eligible
+                - listitem [ref=e644]:
+                  - generic [ref=e649]:
+                    - link [ref=e653] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-Vary-040/dp/B002B8Z98W/ref=sr_1_8_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-8
+                      - img [ref=e655]
+                    - generic [ref=e656]:
+                      - link "Organic Strawberries, 1 Lb" [ref=e660] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-Vary-040/dp/B002B8Z98W/ref=sr_1_8_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-8
+                        - heading "Organic Strawberries, 1 Lb" [level=2] [ref=e661]
+                      - generic [ref=e662]:
+                        - generic [ref=e663]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e665] [cursor=pointer]:
+                            - generic [ref=e667]: 4.6 out of 5 stars
+                          - link "39,891 ratings" [ref=e671] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-Vary-040/dp/B002B8Z98W/ref=sr_1_8_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-8#customerReviews
+                            - text: (39.8K)
+                        - generic [ref=e672]: 100K+ bought in past month
+                      - generic [ref=e673]:
+                        - generic [ref=e675]:
+                          - generic [ref=e676]: Price, product page
+                          - 'link "$3.97 ( $3.97 /lb) Typical: $4.22 Typical: $4.22" [ref=e677] [cursor=pointer]':
+                            - /url: /Fresh-Produce-Brands-Vary-040/dp/B002B8Z98W/ref=sr_1_8_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-8
+                            - generic [ref=e678]:
+                              - generic [ref=e679]: $3.97
+                              - generic [ref=e680]:
+                                - text: $
+                                - generic [ref=e681]:
+                                  - text: "3"
+                                  - generic [ref=e682]: .
+                                - text: "97"
+                            - generic [ref=e683]:
+                              - text: (
+                              - generic [ref=e684]:
+                                - generic [ref=e685]: $3.97
+                                - text: $3.97
+                              - text: /lb)
+                            - generic [ref=e686]: "Typical: $4.22"
+                            - generic [ref=e687]:
+                              - text: "Typical:"
+                              - generic [ref=e688]:
+                                - generic [ref=e689]: $4.22
+                                - text: $4.22
+                        - generic [ref=e691]: 6% off
+                        - generic [ref=e692]: SNAP EBT eligible
+                      - generic "Out of Stock" [ref=e695]
+                      - button "Organic content" [ref=e702] [cursor=pointer]:
+                        - generic [ref=e703]: Organic content
+                - listitem [ref=e705]:
+                  - generic [ref=e710]:
+                    - link [ref=e714] [cursor=pointer]:
+                      - /url: /Wymans-Wild-Blueberries-Frozen/dp/B01FNLZU3W/ref=sr_1_9_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-9
+                      - img [ref=e716]
+                    - generic [ref=e717]:
+                      - link "Wyman's Wild Blueberries, 3 lb (Pack of 1)" [ref=e721] [cursor=pointer]:
+                        - /url: /Wymans-Wild-Blueberries-Frozen/dp/B01FNLZU3W/ref=sr_1_9_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-9
+                        - heading "Wyman's Wild Blueberries, 3 lb (Pack of 1)" [level=2] [ref=e722]
+                      - generic [ref=e723]:
+                        - generic [ref=e724]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e726] [cursor=pointer]:
+                            - generic [ref=e728]: 4.8 out of 5 stars
+                          - link "7,887 ratings" [ref=e732] [cursor=pointer]:
+                            - /url: /Wymans-Wild-Blueberries-Frozen/dp/B01FNLZU3W/ref=sr_1_9_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-9#customerReviews
+                            - text: (7.8K)
+                        - generic [ref=e733]: 8K+ bought in past month
+                      - generic [ref=e734]:
+                        - generic [ref=e736]:
+                          - generic [ref=e737]: Price, product page
+                          - link "$13.50 ( $0.28 /ounce)" [ref=e738] [cursor=pointer]:
+                            - /url: /Wymans-Wild-Blueberries-Frozen/dp/B01FNLZU3W/ref=sr_1_9_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-9
+                            - generic [ref=e739]:
+                              - generic [ref=e740]: $13.50
+                              - generic [ref=e741]:
+                                - text: $
+                                - generic [ref=e742]:
+                                  - text: "13"
+                                  - generic [ref=e743]: .
+                                - text: "50"
+                            - generic [ref=e744]:
+                              - text: (
+                              - generic [ref=e745]:
+                                - generic [ref=e746]: $0.28
+                                - text: $0.28
+                              - text: /ounce)
+                        - generic [ref=e747]: SNAP EBT eligible
+                      - button "Small Business" [ref=e755] [cursor=pointer]:
+                        - generic [ref=e756]: Small Business
+                - listitem [ref=e758]:
+                  - generic [ref=e763]:
+                    - link [ref=e767] [cursor=pointer]:
+                      - /url: /365-EVERYDAY-VALUE-Organic-Berry/dp/B07B63T74N/ref=sr_1_10_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-10
+                      - img [ref=e769]
+                    - generic [ref=e770]:
+                      - link "365 by Whole Foods Market, Organic Berry Blend, 32 Ounce" [ref=e774] [cursor=pointer]:
+                        - /url: /365-EVERYDAY-VALUE-Organic-Berry/dp/B07B63T74N/ref=sr_1_10_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-10
+                        - heading "365 by Whole Foods Market, Organic Berry Blend, 32 Ounce" [level=2] [ref=e775]
+                      - generic [ref=e776]:
+                        - generic [ref=e777]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e779] [cursor=pointer]:
+                            - generic [ref=e781]: 4.7 out of 5 stars
+                          - link "10,709 ratings" [ref=e785] [cursor=pointer]:
+                            - /url: /365-EVERYDAY-VALUE-Organic-Berry/dp/B07B63T74N/ref=sr_1_10_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-10#customerReviews
+                            - text: (10.7K)
+                        - generic [ref=e786]: 30K+ bought in past month
+                      - generic [ref=e787]:
+                        - generic [ref=e789]:
+                          - generic [ref=e790]: Price, product page
+                          - link "$10.79 ( $0.34 /ounce)" [ref=e791] [cursor=pointer]:
+                            - /url: /365-EVERYDAY-VALUE-Organic-Berry/dp/B07B63T74N/ref=sr_1_10_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-10
+                            - generic [ref=e792]:
+                              - generic [ref=e793]: $10.79
+                              - generic [ref=e794]:
+                                - text: $
+                                - generic [ref=e795]:
+                                  - text: "10"
+                                  - generic [ref=e796]: .
+                                - text: "79"
+                            - generic [ref=e797]:
+                              - text: (
+                              - generic [ref=e798]:
+                                - generic [ref=e799]: $0.34
+                                - text: $0.34
+                              - text: /ounce)
+                        - generic [ref=e800]: SNAP EBT eligible
+                      - button "Organic content" [ref=e808] [cursor=pointer]:
+                        - generic [ref=e809]: Organic content
+                - listitem [ref=e811]:
+                  - generic [ref=e816]:
+                    - link [ref=e820] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P717MI/ref=sr_1_11_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-11
+                      - img [ref=e822]
+                    - generic [ref=e823]:
+                      - link "Blackberries, 6 oz" [ref=e827] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P717MI/ref=sr_1_11_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-11
+                        - heading "Blackberries, 6 oz" [level=2] [ref=e828]
+                      - generic [ref=e829]:
+                        - generic [ref=e830]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e832] [cursor=pointer]:
+                            - generic [ref=e834]: 4.7 out of 5 stars
+                          - link "39,605 ratings" [ref=e838] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P717MI/ref=sr_1_11_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-11#customerReviews
+                            - text: (39.6K)
+                        - generic [ref=e839]: 100K+ bought in past month
+                      - generic [ref=e840]:
+                        - generic [ref=e842]:
+                          - generic [ref=e843]: Price, product page
+                          - link "$2.57 ( $6.85 /lb)" [ref=e844] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P717MI/ref=sr_1_11_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-11
+                            - generic [ref=e845]:
+                              - generic [ref=e846]: $2.57
+                              - generic [ref=e847]:
+                                - text: $
+                                - generic [ref=e848]:
+                                  - text: "2"
+                                  - generic [ref=e849]: .
+                                - text: "57"
+                            - generic [ref=e850]:
+                              - text: (
+                              - generic [ref=e851]:
+                                - generic [ref=e852]: $6.85
+                                - text: $6.85
+                              - text: /lb)
+                        - generic [ref=e853]: SNAP EBT eligible
+                - listitem [ref=e855]:
+                  - generic [ref=e860]:
+                    - link [ref=e864] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P6G12U/ref=sr_1_12_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-12
+                      - img [ref=e866]
+                    - generic [ref=e867]:
+                      - link "Red Raspberries, 6 oz" [ref=e871] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P6G12U/ref=sr_1_12_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-12
+                        - heading "Red Raspberries, 6 oz" [level=2] [ref=e872]
+                      - generic [ref=e873]:
+                        - generic [ref=e874]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e876] [cursor=pointer]:
+                            - generic [ref=e878]: 4.6 out of 5 stars
+                          - link "35,376 ratings" [ref=e882] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P6G12U/ref=sr_1_12_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-12#customerReviews
+                            - text: (35.3K)
+                        - generic [ref=e883]: 100K+ bought in past month
+                      - generic [ref=e884]:
+                        - generic [ref=e886]:
+                          - generic [ref=e887]: Price, product page
+                          - link "$3.17 ( $8.45 /lb)" [ref=e888] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P6G12U/ref=sr_1_12_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-12
+                            - generic [ref=e889]:
+                              - generic [ref=e890]: $3.17
+                              - generic [ref=e891]:
+                                - text: $
+                                - generic [ref=e892]:
+                                  - text: "3"
+                                  - generic [ref=e893]: .
+                                - text: "17"
+                            - generic [ref=e894]:
+                              - text: (
+                              - generic [ref=e895]:
+                                - generic [ref=e896]: $8.45
+                                - text: $8.45
+                              - text: /lb)
+                        - generic [ref=e897]: SNAP EBT eligible
+                - listitem [ref=e899]:
+                  - generic [ref=e904]:
+                    - link [ref=e908] [cursor=pointer]:
+                      - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H6G852/ref=sr_1_13_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-13
+                      - img [ref=e910]
+                    - generic [ref=e911]:
+                      - link "365 by Whole Foods Market, Organic Whole Strawberries, 32 oz, (Frozen)" [ref=e915] [cursor=pointer]:
+                        - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H6G852/ref=sr_1_13_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-13
+                        - heading "365 by Whole Foods Market, Organic Whole Strawberries, 32 oz, (Frozen)" [level=2] [ref=e916]
+                      - generic [ref=e917]:
+                        - generic [ref=e918]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e920] [cursor=pointer]:
+                            - generic [ref=e922]: 4.7 out of 5 stars
+                          - link "11,362 ratings" [ref=e926] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H6G852/ref=sr_1_13_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-13#customerReviews
+                            - text: (11.3K)
+                        - generic [ref=e927]: 20K+ bought in past month
+                      - generic [ref=e928]:
+                        - generic [ref=e930]:
+                          - generic [ref=e931]: Price, product page
+                          - link "$10.79 ( $0.34 /ounce)" [ref=e932] [cursor=pointer]:
+                            - /url: /365-Everyday-Value-Organic-Strawberries/dp/B074H6G852/ref=sr_1_13_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-13
+                            - generic [ref=e933]:
+                              - generic [ref=e934]: $10.79
+                              - generic [ref=e935]:
+                                - text: $
+                                - generic [ref=e936]:
+                                  - text: "10"
+                                  - generic [ref=e937]: .
+                                - text: "79"
+                            - generic [ref=e938]:
+                              - text: (
+                              - generic [ref=e939]:
+                                - generic [ref=e940]: $0.34
+                                - text: $0.34
+                              - text: /ounce)
+                        - generic [ref=e941]: SNAP EBT eligible
+                      - button "Organic content" [ref=e949] [cursor=pointer]:
+                        - generic [ref=e950]: Organic content
+                - listitem [ref=e952]:
+                  - generic [ref=e957]:
+                    - link [ref=e961] [cursor=pointer]:
+                      - /url: /Amazon-Fresh-Whole-Blueberries-Frozen/dp/B0BZTNLTXC/ref=sr_1_14_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-14
+                      - img [ref=e963]
+                    - generic [ref=e964]:
+                      - link "Amazon Grocery, Whole Blueberries, 48 Oz, Frozen" [ref=e968] [cursor=pointer]:
+                        - /url: /Amazon-Fresh-Whole-Blueberries-Frozen/dp/B0BZTNLTXC/ref=sr_1_14_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-14
+                        - heading "Amazon Grocery, Whole Blueberries, 48 Oz, Frozen" [level=2] [ref=e969]
+                      - generic [ref=e970]:
+                        - generic [ref=e971]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e973] [cursor=pointer]:
+                            - generic [ref=e975]: 4.6 out of 5 stars
+                          - link "378 ratings" [ref=e979] [cursor=pointer]:
+                            - /url: /Amazon-Fresh-Whole-Blueberries-Frozen/dp/B0BZTNLTXC/ref=sr_1_14_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-14#customerReviews
+                            - text: (378)
+                        - generic [ref=e980]: 3K+ bought in past month
+                      - generic [ref=e981]:
+                        - generic [ref=e983]:
+                          - generic [ref=e984]: Price, product page
+                          - 'link "$8.22 ( $0.17 /ounce) Typical: $10.49 Typical: $10.49" [ref=e985] [cursor=pointer]':
+                            - /url: /Amazon-Fresh-Whole-Blueberries-Frozen/dp/B0BZTNLTXC/ref=sr_1_14_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-14
+                            - generic [ref=e986]:
+                              - generic [ref=e987]: $8.22
+                              - generic [ref=e988]:
+                                - text: $
+                                - generic [ref=e989]:
+                                  - text: "8"
+                                  - generic [ref=e990]: .
+                                - text: "22"
+                            - generic [ref=e991]:
+                              - text: (
+                              - generic [ref=e992]:
+                                - generic [ref=e993]: $0.17
+                                - text: $0.17
+                              - text: /ounce)
+                            - generic [ref=e994]: "Typical: $10.49"
+                            - generic [ref=e995]:
+                              - text: "Typical:"
+                              - generic [ref=e996]:
+                                - generic [ref=e997]: $10.49
+                                - text: $10.49
+                        - generic [ref=e999]: 22% off
+                        - generic [ref=e1000]: SNAP EBT eligible
+                - listitem [ref=e1002]:
+                  - generic [ref=e1007]:
+                    - link [ref=e1011] [cursor=pointer]:
+                      - /url: /Amazon-Brand-Happy-Frozen-Blueberries/dp/B08YJ3D6CQ/ref=sr_1_15_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-15
+                      - img [ref=e1013]
+                    - generic [ref=e1014]:
+                      - link "Amazon Grocery, Whole Blueberries, 16 Oz, Frozen (Previously Happy Belly, Packaging May Vary)" [ref=e1018] [cursor=pointer]:
+                        - /url: /Amazon-Brand-Happy-Frozen-Blueberries/dp/B08YJ3D6CQ/ref=sr_1_15_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-15
+                        - heading "Amazon Grocery, Whole Blueberries, 16 Oz, Frozen (Previously Happy Belly, Packaging May Vary)" [level=2] [ref=e1019]
+                      - generic [ref=e1020]:
+                        - generic [ref=e1021]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e1023] [cursor=pointer]:
+                            - generic [ref=e1025]: 4.7 out of 5 stars
+                          - link "2,442 ratings" [ref=e1029] [cursor=pointer]:
+                            - /url: /Amazon-Brand-Happy-Frozen-Blueberries/dp/B08YJ3D6CQ/ref=sr_1_15_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-15#customerReviews
+                            - text: (2.4K)
+                        - generic [ref=e1030]: 10K+ bought in past month
+                      - generic [ref=e1031]:
+                        - generic [ref=e1033]:
+                          - generic [ref=e1034]: Price, product page
+                          - link "$3.12 ( $0.20 /ounce)" [ref=e1035] [cursor=pointer]:
+                            - /url: /Amazon-Brand-Happy-Frozen-Blueberries/dp/B08YJ3D6CQ/ref=sr_1_15_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-15
+                            - generic [ref=e1036]:
+                              - generic [ref=e1037]: $3.12
+                              - generic [ref=e1038]:
+                                - text: $
+                                - generic [ref=e1039]:
+                                  - text: "3"
+                                  - generic [ref=e1040]: .
+                                - text: "12"
+                            - generic [ref=e1041]:
+                              - text: (
+                              - generic [ref=e1042]:
+                                - generic [ref=e1043]: $0.20
+                                - text: $0.20
+                              - text: /ounce)
+                        - generic [ref=e1044]: SNAP EBT eligible
+                      - generic "Out of Stock" [ref=e1047]
+                - listitem [ref=e1048]:
+                  - generic [ref=e1053]:
+                    - link [ref=e1057] [cursor=pointer]:
+                      - /url: /Wymans-Triple-Berry-Blend-Frozen/dp/B01FNZH0XQ/ref=sr_1_16_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-16
+                      - img [ref=e1059]
+                    - generic [ref=e1060]:
+                      - link "Wymans Triple Berry, 3 lb (Pack of 1) - Wild Blueberries, Blackberries & Raspberries" [ref=e1064] [cursor=pointer]:
+                        - /url: /Wymans-Triple-Berry-Blend-Frozen/dp/B01FNZH0XQ/ref=sr_1_16_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-16
+                        - heading "Wymans Triple Berry, 3 lb (Pack of 1) - Wild Blueberries, Blackberries & Raspberries" [level=2] [ref=e1065]
+                      - generic [ref=e1066]:
+                        - generic [ref=e1067]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e1069] [cursor=pointer]:
+                            - generic [ref=e1071]: 4.7 out of 5 stars
+                          - link "2,630 ratings" [ref=e1075] [cursor=pointer]:
+                            - /url: /Wymans-Triple-Berry-Blend-Frozen/dp/B01FNZH0XQ/ref=sr_1_16_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-16#customerReviews
+                            - text: (2.6K)
+                        - generic [ref=e1076]: 5K+ bought in past month
+                      - generic [ref=e1077]:
+                        - generic [ref=e1079]:
+                          - generic [ref=e1080]: Price, product page
+                          - link "$13.50 ( $0.28 /ounce)" [ref=e1081] [cursor=pointer]:
+                            - /url: /Wymans-Triple-Berry-Blend-Frozen/dp/B01FNZH0XQ/ref=sr_1_16_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-16
+                            - generic [ref=e1082]:
+                              - generic [ref=e1083]: $13.50
+                              - generic [ref=e1084]:
+                                - text: $
+                                - generic [ref=e1085]:
+                                  - text: "13"
+                                  - generic [ref=e1086]: .
+                                - text: "50"
+                            - generic [ref=e1087]:
+                              - text: (
+                              - generic [ref=e1088]:
+                                - generic [ref=e1089]: $0.28
+                                - text: $0.28
+                              - text: /ounce)
+                        - generic [ref=e1090]: SNAP EBT eligible
+                      - button "Small Business" [ref=e1098] [cursor=pointer]:
+                        - generic [ref=e1099]: Small Business
+                - listitem [ref=e1101]:
+                  - generic [ref=e1106]:
+                    - link [ref=e1110] [cursor=pointer]:
+                      - /url: /produce-aisle-701920-Organic-Avocado/dp/B0014GLSE6/ref=sr_1_17_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-17
+                      - img [ref=e1112]
+                    - generic [ref=e1113]:
+                      - link "Large Organic Hass Avocado" [ref=e1117] [cursor=pointer]:
+                        - /url: /produce-aisle-701920-Organic-Avocado/dp/B0014GLSE6/ref=sr_1_17_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-17
+                        - heading "Large Organic Hass Avocado" [level=2] [ref=e1118]
+                      - generic [ref=e1119]:
+                        - generic [ref=e1120]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e1122] [cursor=pointer]:
+                            - generic [ref=e1124]: 4.6 out of 5 stars
+                          - link "20,898 ratings" [ref=e1128] [cursor=pointer]:
+                            - /url: /produce-aisle-701920-Organic-Avocado/dp/B0014GLSE6/ref=sr_1_17_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-17#customerReviews
+                            - text: (20.8K)
+                        - generic [ref=e1129]: 100K+ bought in past month
+                      - generic [ref=e1130]:
+                        - generic [ref=e1132]:
+                          - generic [ref=e1133]: Price, product page
+                          - 'link "$2.49 ( $2.49 /count) Typical: $2.79 Typical: $2.79" [ref=e1134] [cursor=pointer]':
+                            - /url: /produce-aisle-701920-Organic-Avocado/dp/B0014GLSE6/ref=sr_1_17_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-17
+                            - generic [ref=e1135]:
+                              - generic [ref=e1136]: $2.49
+                              - generic [ref=e1137]:
+                                - text: $
+                                - generic [ref=e1138]:
+                                  - text: "2"
+                                  - generic [ref=e1139]: .
+                                - text: "49"
+                            - generic [ref=e1140]:
+                              - text: (
+                              - generic [ref=e1141]:
+                                - generic [ref=e1142]: $2.49
+                                - text: $2.49
+                              - text: /count)
+                            - generic [ref=e1143]: "Typical: $2.79"
+                            - generic [ref=e1144]:
+                              - text: "Typical:"
+                              - generic [ref=e1145]:
+                                - generic [ref=e1146]: $2.79
+                                - text: $2.79
+                        - generic [ref=e1148]: 11% off
+                        - generic [ref=e1149]: SNAP EBT eligible
+                      - generic [ref=e1154]: FREE delivery Overnight 4 AM - 6 AM on orders over $100 with Prime
+                      - button "Organic content" [ref=e1161] [cursor=pointer]:
+                        - generic [ref=e1162]: Organic content
+                - listitem [ref=e1164]:
+                  - generic [ref=e1169]:
+                    - link [ref=e1173] [cursor=pointer]:
+                      - /url: /produce-aisle-135275-Organic-Lemons/dp/B0792P6WBP/ref=sr_1_18_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-18
+                      - img [ref=e1175]
+                    - generic [ref=e1176]:
+                      - link "Organic Lemons, 2 Lb Bag" [ref=e1180] [cursor=pointer]:
+                        - /url: /produce-aisle-135275-Organic-Lemons/dp/B0792P6WBP/ref=sr_1_18_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-18
+                        - heading "Organic Lemons, 2 Lb Bag" [level=2] [ref=e1181]
+                      - generic [ref=e1182]:
+                        - generic [ref=e1183]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e1185] [cursor=pointer]:
+                            - generic [ref=e1187]: 4.6 out of 5 stars
+                          - link "16,958 ratings" [ref=e1191] [cursor=pointer]:
+                            - /url: /produce-aisle-135275-Organic-Lemons/dp/B0792P6WBP/ref=sr_1_18_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-18#customerReviews
+                            - text: (16.9K)
+                        - generic [ref=e1192]: 100K+ bought in past month
+                      - generic [ref=e1193]:
+                        - generic [ref=e1195]:
+                          - generic [ref=e1196]: Price, product page
+                          - link "$4.92 ( $2.46 /lb)" [ref=e1197] [cursor=pointer]:
+                            - /url: /produce-aisle-135275-Organic-Lemons/dp/B0792P6WBP/ref=sr_1_18_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-18
+                            - generic [ref=e1198]:
+                              - generic [ref=e1199]: $4.92
+                              - generic [ref=e1200]:
+                                - text: $
+                                - generic [ref=e1201]:
+                                  - text: "4"
+                                  - generic [ref=e1202]: .
+                                - text: "92"
+                            - generic [ref=e1203]:
+                              - text: (
+                              - generic [ref=e1204]:
+                                - generic [ref=e1205]: $2.46
+                                - text: $2.46
+                              - text: /lb)
+                        - generic [ref=e1206]: SNAP EBT eligible
+                      - button "Organic content" [ref=e1214] [cursor=pointer]:
+                        - generic [ref=e1215]: Organic content
+                - listitem [ref=e1217]:
+                  - generic [ref=e1222]:
+                    - link [ref=e1226] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-Vary-35468/dp/B001GIP2A8/ref=sr_1_19_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-19
+                      - img [ref=e1228]
+                    - generic [ref=e1229]:
+                      - link "Organic Honeycrisp Apple" [ref=e1233] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-Vary-35468/dp/B001GIP2A8/ref=sr_1_19_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-19
+                        - heading "Organic Honeycrisp Apple" [level=2] [ref=e1234]
+                      - generic [ref=e1235]:
+                        - generic [ref=e1236]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e1238] [cursor=pointer]:
+                            - generic [ref=e1240]: 4.6 out of 5 stars
+                          - link "17,412 ratings" [ref=e1244] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-Vary-35468/dp/B001GIP2A8/ref=sr_1_19_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-19#customerReviews
+                            - text: (17.4K)
+                        - generic [ref=e1245]: 100K+ bought in past month
+                      - generic [ref=e1246]:
+                        - generic [ref=e1248]:
+                          - generic [ref=e1249]: Price, product page
+                          - 'link "$1.57 ( $1.57 /count) Typical: $1.69 Typical: $1.69" [ref=e1250] [cursor=pointer]':
+                            - /url: /Fresh-Produce-Brands-Vary-35468/dp/B001GIP2A8/ref=sr_1_19_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-19
+                            - generic [ref=e1251]:
+                              - generic [ref=e1252]: $1.57
+                              - generic [ref=e1253]:
+                                - text: $
+                                - generic [ref=e1254]:
+                                  - text: "1"
+                                  - generic [ref=e1255]: .
+                                - text: "57"
+                            - generic [ref=e1256]:
+                              - text: (
+                              - generic [ref=e1257]:
+                                - generic [ref=e1258]: $1.57
+                                - text: $1.57
+                              - text: /count)
+                            - generic [ref=e1259]: "Typical: $1.69"
+                            - generic [ref=e1260]:
+                              - text: "Typical:"
+                              - generic [ref=e1261]:
+                                - generic [ref=e1262]: $1.69
+                                - text: $1.69
+                        - generic [ref=e1264]: 7% off
+                        - generic [ref=e1265]: SNAP EBT eligible
+                      - generic [ref=e1270]: FREE delivery Overnight 4 AM - 6 AM on orders over $100 with Prime
+                - listitem [ref=e1271]:
+                  - generic [ref=e1276]:
+                    - link [ref=e1280] [cursor=pointer]:
+                      - /url: /produce-aisle-135275-Organic-Limes/dp/B0792NT1VJ/ref=sr_1_20_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-20
+                      - img [ref=e1282]
+                    - generic [ref=e1283]:
+                      - link "Organic Limes, 1 Lb Bag" [ref=e1287] [cursor=pointer]:
+                        - /url: /produce-aisle-135275-Organic-Limes/dp/B0792NT1VJ/ref=sr_1_20_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-20
+                        - heading "Organic Limes, 1 Lb Bag" [level=2] [ref=e1288]
+                      - generic [ref=e1289]:
+                        - generic [ref=e1290]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e1292] [cursor=pointer]:
+                            - generic [ref=e1294]: 4.7 out of 5 stars
+                          - link "13,404 ratings" [ref=e1298] [cursor=pointer]:
+                            - /url: /produce-aisle-135275-Organic-Limes/dp/B0792NT1VJ/ref=sr_1_20_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-20#customerReviews
+                            - text: (13.4K)
+                        - generic [ref=e1299]: 40K+ bought in past month
+                      - generic [ref=e1300]:
+                        - generic [ref=e1302]:
+                          - generic [ref=e1303]: Price, product page
+                          - link "$3.99 ( $3.99 /lb)" [ref=e1304] [cursor=pointer]:
+                            - /url: /produce-aisle-135275-Organic-Limes/dp/B0792NT1VJ/ref=sr_1_20_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-20
+                            - generic [ref=e1305]:
+                              - generic [ref=e1306]: $3.99
+                              - generic [ref=e1307]:
+                                - text: $
+                                - generic [ref=e1308]:
+                                  - text: "3"
+                                  - generic [ref=e1309]: .
+                                - text: "99"
+                            - generic [ref=e1310]:
+                              - text: (
+                              - generic [ref=e1311]:
+                                - generic [ref=e1312]: $3.99
+                                - text: $3.99
+                              - text: /lb)
+                        - generic [ref=e1313]: SNAP EBT eligible
+                      - button "Organic content" [ref=e1321] [cursor=pointer]:
+                        - generic [ref=e1322]: Organic content
+                - listitem [ref=e1324]:
+                  - generic [ref=e1329]:
+                    - link [ref=e1333] [cursor=pointer]:
+                      - /url: /PRODUCE-0725422000055-Dekopon-Mandarin-Lb/dp/B09PCLLC5J/ref=sr_1_21_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-21
+                      - img [ref=e1335]
+                    - generic [ref=e1336]:
+                      - link "Suntreat, Mandarin Dekopon Bag, 48 Ounce" [ref=e1340] [cursor=pointer]:
+                        - /url: /PRODUCE-0725422000055-Dekopon-Mandarin-Lb/dp/B09PCLLC5J/ref=sr_1_21_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-21
+                        - heading "Suntreat, Mandarin Dekopon Bag, 48 Ounce" [level=2] [ref=e1341]
+                      - generic [ref=e1342]:
+                        - generic [ref=e1343]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=e1345] [cursor=pointer]:
+                            - generic [ref=e1347]: 4.5 out of 5 stars
+                          - link "794 ratings" [ref=e1351] [cursor=pointer]:
+                            - /url: /PRODUCE-0725422000055-Dekopon-Mandarin-Lb/dp/B09PCLLC5J/ref=sr_1_21_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-21#customerReviews
+                            - text: (794)
+                        - generic [ref=e1352]: 40K+ bought in past month
+                      - generic [ref=e1353]:
+                        - generic [ref=e1355]:
+                          - generic [ref=e1356]: Price, product page
+                          - link "$8.59 ( $2.86 /lb)" [ref=e1357] [cursor=pointer]:
+                            - /url: /PRODUCE-0725422000055-Dekopon-Mandarin-Lb/dp/B09PCLLC5J/ref=sr_1_21_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-21
+                            - generic [ref=e1358]:
+                              - generic [ref=e1359]: $8.59
+                              - generic [ref=e1360]:
+                                - text: $
+                                - generic [ref=e1361]:
+                                  - text: "8"
+                                  - generic [ref=e1362]: .
+                                - text: "59"
+                            - generic [ref=e1363]:
+                              - text: (
+                              - generic [ref=e1364]:
+                                - generic [ref=e1365]: $2.86
+                                - text: $2.86
+                              - text: /lb)
+                        - generic [ref=e1366]: SNAP EBT eligible
+                - listitem [ref=e1368]:
+                  - generic [ref=e1373]:
+                    - link [ref=e1377] [cursor=pointer]:
+                      - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P6L3ZU/ref=sr_1_22_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-22
+                      - img [ref=e1379]
+                    - generic [ref=e1380]:
+                      - link "Organic Navel Orange" [ref=e1384] [cursor=pointer]:
+                        - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P6L3ZU/ref=sr_1_22_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-22
+                        - heading "Organic Navel Orange" [level=2] [ref=e1385]
+                      - generic [ref=e1386]:
+                        - generic [ref=e1387]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e1389] [cursor=pointer]:
+                            - generic [ref=e1391]: 4.6 out of 5 stars
+                          - link "5,596 ratings" [ref=e1395] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P6L3ZU/ref=sr_1_22_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-22#customerReviews
+                            - text: (5.5K)
+                        - generic [ref=e1396]: 60K+ bought in past month
+                      - generic [ref=e1397]:
+                        - generic [ref=e1399]:
+                          - generic [ref=e1400]: Price, product page
+                          - link "$1.49 ( $0.09 /ounce)" [ref=e1401] [cursor=pointer]:
+                            - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P6L3ZU/ref=sr_1_22_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-22
+                            - generic [ref=e1402]:
+                              - generic [ref=e1403]: $1.49
+                              - generic [ref=e1404]:
+                                - text: $
+                                - generic [ref=e1405]:
+                                  - text: "1"
+                                  - generic [ref=e1406]: .
+                                - text: "49"
+                            - generic [ref=e1407]:
+                              - text: (
+                              - generic [ref=e1408]:
+                                - generic [ref=e1409]: $0.09
+                                - text: $0.09
+                              - text: /ounce)
+                        - generic [ref=e1410]: SNAP EBT eligible
+                - listitem [ref=e1412]:
+                  - generic [ref=e1417]:
+                    - group "Best Sellerin Fruit Butters" [ref=e1422]:
+                      - generic "Best Seller" [ref=e1424]
+                    - link [ref=e1427] [cursor=pointer]:
+                      - /url: /365-Whole-Foods-Market-Blueberry/dp/B083CP7R15/ref=sr_1_23_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-23
+                      - img [ref=e1429]
+                    - generic [ref=e1430]:
+                      - link "365 by Whole Foods Market, Organic Wild Blueberry Fruit Spread, 17 Ounce" [ref=e1434] [cursor=pointer]:
+                        - /url: /365-Whole-Foods-Market-Blueberry/dp/B083CP7R15/ref=sr_1_23_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-23
+                        - heading "365 by Whole Foods Market, Organic Wild Blueberry Fruit Spread, 17 Ounce" [level=2] [ref=e1435]
+                      - generic [ref=e1436]:
+                        - generic [ref=e1437]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e1439] [cursor=pointer]:
+                            - generic [ref=e1441]: 4.6 out of 5 stars
+                          - link "2,768 ratings" [ref=e1445] [cursor=pointer]:
+                            - /url: /365-Whole-Foods-Market-Blueberry/dp/B083CP7R15/ref=sr_1_23_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-23#customerReviews
+                            - text: (2.7K)
+                        - generic [ref=e1446]: 4K+ bought in past month
+                      - generic [ref=e1447]:
+                        - generic [ref=e1449]:
+                          - generic [ref=e1450]: Price, product page
+                          - link "$4.79 ( $0.28 /ounce)" [ref=e1451] [cursor=pointer]:
+                            - /url: /365-Whole-Foods-Market-Blueberry/dp/B083CP7R15/ref=sr_1_23_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-23
+                            - generic [ref=e1452]:
+                              - generic [ref=e1453]: $4.79
+                              - generic [ref=e1454]:
+                                - text: $
+                                - generic [ref=e1455]:
+                                  - text: "4"
+                                  - generic [ref=e1456]: .
+                                - text: "79"
+                            - generic [ref=e1457]:
+                              - text: (
+                              - generic [ref=e1458]:
+                                - generic [ref=e1459]: $0.28
+                                - text: $0.28
+                              - text: /ounce)
+                        - generic [ref=e1460]: SNAP EBT eligible
+                      - generic [ref=e1465]: FREE delivery Overnight 4 AM - 6 AM on orders over $100 with Prime
+                      - button "Organic content" [ref=e1472] [cursor=pointer]:
+                        - generic [ref=e1473]: Organic content
+                - listitem [ref=e1475]:
+                  - generic [ref=e1480]:
+                    - link [ref=e1484] [cursor=pointer]:
+                      - /url: /Wonderful-Halos-California-Grown-Mandarins-3lb/dp/B00HT7U55W/ref=sr_1_24_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-24
+                      - img [ref=e1486]
+                    - generic [ref=e1487]:
+                      - link "Wonderful Halos Mandarins, Sweet, Seedless, Easy Peel Mandarin Oranges - Healthy Food, Fresh Fruit, 3lb Bag" [ref=e1491] [cursor=pointer]:
+                        - /url: /Wonderful-Halos-California-Grown-Mandarins-3lb/dp/B00HT7U55W/ref=sr_1_24_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-24
+                        - heading "Wonderful Halos Mandarins, Sweet, Seedless, Easy Peel Mandarin Oranges - Healthy Food, Fresh Fruit, 3lb Bag" [level=2] [ref=e1492]
+                      - generic [ref=e1493]:
+                        - generic [ref=e1494]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e1496] [cursor=pointer]:
+                            - generic [ref=e1498]: 4.6 out of 5 stars
+                          - link "55,712 ratings" [ref=e1502] [cursor=pointer]:
+                            - /url: /Wonderful-Halos-California-Grown-Mandarins-3lb/dp/B00HT7U55W/ref=sr_1_24_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-24#customerReviews
+                            - text: (55.7K)
+                        - generic [ref=e1503]: 100K+ bought in past month
+                      - generic [ref=e1504]:
+                        - generic [ref=e1506]:
+                          - generic [ref=e1507]: Price, product page
+                          - 'link "$3.99 ( $1.33 /lb) Typical: $4.99 Typical: $4.99" [ref=e1508] [cursor=pointer]':
+                            - /url: /Wonderful-Halos-California-Grown-Mandarins-3lb/dp/B00HT7U55W/ref=sr_1_24_us_f3_wg_fs?almBrandId=QW1hem9uIEZyZXNo&dib=eyJ2IjoiMSJ9.NPZcBBcU6fxE_mTGbrOO3_SaHiZfCcexZlq9NAff723fzSl7epT4AjG3VW9Df9yMhpU-ZEzLrxPM9whTeEKCZMNGhMHknbXS6O546E6ZaDc_u5YGOMRAvJsjHWsetPnbYJPV0I2cNuV7VeqUaJvgXVt9tlxPRZm0SP7FNVuKpwWwCmL0TP99_FSG3ll6Etlus5abAasRZUXhsQ-d4nFB2Ns0kdv3LztSQ6v_BKWA3Mz7tuvcHxYUJZp0rzJoL2XClGMDFdNVUZaH3RkesBzB5HZmNFs9lh2w7F7Dldq5KFU.nGRpOyF0rvMwVUKA4iU-EuZHxPwaMWH1lynPunb8ywQ&dib_tag=se&fpw=alm&keywords=organic+blueberries&qid=1776566169&s=amazonfresh&sr=1-24
+                            - generic [ref=e1509]:
+                              - generic [ref=e1510]: $3.99
+                              - generic [ref=e1511]:
+                                - text: $
+                                - generic [ref=e1512]:
+                                  - text: "3"
+                                  - generic [ref=e1513]: .
+                                - text: "99"
+                            - generic [ref=e1514]:
+                              - text: (
+                              - generic [ref=e1515]:
+                                - generic [ref=e1516]: $1.33
+                                - text: $1.33
+                              - text: /lb)
+                            - generic [ref=e1517]: "Typical: $4.99"
+                            - generic [ref=e1518]:
+                              - text: "Typical:"
+                              - generic [ref=e1519]:
+                                - generic [ref=e1520]: $4.99
+                                - text: $4.99
+                        - generic [ref=e1522]: 20% off
+                        - generic [ref=e1523]: SNAP EBT eligible
+                      - generic [ref=e1528]: FREE delivery Overnight 4 AM - 6 AM on orders over $100 with Prime
+          - navigation "pagination" [ref=e1531]:
+            - list [ref=e1533]:
+              - listitem [ref=e1534]:
+                - button "Previous" [disabled] [ref=e1536]:
+                  - img [ref=e1537]
+                  - text: Previous
+              - listitem [ref=e1539]:
+                - button "Page 1" [ref=e1541]: "1"
+              - listitem [ref=e1542]:
+                - button "Go to page 2" [ref=e1544] [cursor=pointer]: "2"
+              - listitem [ref=e1545]:
+                - button "Go to next page, page 2" [ref=e1547] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=e1548]
+          - generic [ref=e1555]:
+            - heading "Need help?" [level=2] [ref=e1558]
+            - generic [ref=e1559]:
+              - link "Visit the help section" [ref=e1560] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=468556
+              - text: or
+              - link "contact us" [ref=e1561] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+        - link "Go back to filtering menu" [ref=e1562] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - generic [ref=e1564]:
+        - link "Skip to main search results" [ref=e1565] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForMainSearchResults"
+        - generic [ref=e1571]:
+          - group "Grocery Food Specialty" [ref=e1572]:
+            - heading "Grocery Food Specialty" [level=2] [ref=e1573]
+            - list "Grocery Food Specialty" [ref=e1574]:
+              - listitem [ref=e1575]:
+                - link "Apply Non-GMO filter to narrow results" [ref=e1577] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1004179634091%3A5712560011&dc&qid=1776566169&rnid=114319011&ref=sr_nr_p_n_g-1004179634091_1&ds=v1%3AGDdj9wxkrQl711AaMmQS3BTVvB%2B%2Fjvw1KFC9uveeCyU
+                  - checkbox [ref=e1580]
+                  - text: Non-GMO
+              - listitem [ref=e1582]:
+                - link "Apply Organic filter to narrow results" [ref=e1584] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1004179634091%3A114320011&dc&qid=1776566169&rnid=114319011&ref=sr_nr_p_n_g-1004179634091_2&ds=v1%3AFJII2IzqN9cwCbA%2F2lEZrywCysMqLJpEX48V%2BLTVbbA
+                  - checkbox [ref=e1587]
+                  - text: Organic
+          - group "Customer Reviews" [ref=e1589]:
+            - heading "Customer Reviews" [level=2] [ref=e1590]
+            - list "Customer Reviews" [ref=e1591]:
+              - listitem [ref=e1592]:
+                - link "Apply 4 Stars & Up filter to narrow results" [ref=e1595] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_72%3A1248897011&dc&qid=1776566169&rnid=1248895011&ref=sr_nr_p_72_1&ds=v1%3A6JvJAEmC4aYHSXxG8fBpfhYaRNXJHCe5dZimYP0AdV4
+                  - generic [ref=e1597]: 4 Stars
+                  - text: "& Up"
+          - group "Top Brands in Grocery" [ref=e1598]:
+            - heading "Top Brands in Grocery" [level=2] [ref=e1599]
+            - list "Top Brands in Grocery" [ref=e1600]:
+              - listitem [ref=e1601]:
+                - link "Apply Top Brands filter to narrow results" [ref=e1603] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-101014971069111%3A119653281011&dc&qid=1776566169&rnid=119653280011&ref=sr_nr_p_n_g-101014971069111_1&ds=v1%3AIvCA5ywc03u8P9NlinEnQvEkQ2CrrKAUJaszcjLuxJg
+                  - checkbox [ref=e1606]
+                  - text: Top Brands
+          - group "SNAP EBT" [ref=e1608]:
+            - heading "SNAP EBT" [level=2] [ref=e1609]
+            - list "SNAP EBT" [ref=e1610]:
+              - listitem [ref=e1611]:
+                - link "Apply SNAP EBT Eligible filter to narrow results" [ref=e1613] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_program_participation%3A17428820011&dc&qid=1776566169&rnid=17428819011&ref=sr_nr_p_n_program_participation_1&ds=v1%3A%2BXn24Hn4dnWi%2FQ2WWVcQPxQIA0ymAO9UTX2MVQEvku8
+                  - checkbox [ref=e1616]
+                  - text: SNAP EBT Eligible
+          - group "From Our Brands" [ref=e1618]:
+            - heading "From Our Brands" [level=2] [ref=e1619]
+            - list "From Our Brands" [ref=e1620]:
+              - listitem [ref=e1621]:
+                - link "Apply Amazon Brands filter to narrow results" [ref=e1623] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1001321510111%3A24677333011&dc&qid=1776566169&rnid=21180941011&ref=sr_nr_p_n_g-1001321510111_1&ds=v1%3Ad98NFiFz7vjFmgv6U1m4O5mhkGclUAzC2M2fAaer4W4
+                  - checkbox [ref=e1626]
+                  - text: Amazon Brands
+          - group "Nutrition Facts" [ref=e1628]:
+            - heading "Nutrition Facts" [level=2] [ref=e1629]
+            - list "Nutrition Facts" [ref=e1630]:
+              - listitem [ref=e1631]:
+                - link "Apply Fat Free (<0.5g) filter to narrow results" [ref=e1633] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1001907325111%3A2288328011&dc&qid=1776566169&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_1&ds=v1%3AbhpXMTiCM2Kh02erU5TFZ7zl4BXJIT2czbEnjh%2B9eA8
+                  - checkbox [ref=e1636]
+                  - text: Fat Free (<0.5g)
+              - listitem [ref=e1638]:
+                - link "Apply Low Fat (<3g) filter to narrow results" [ref=e1640] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1001907325111%3A2288329011&dc&qid=1776566169&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_2&ds=v1%3AnYGeZYlE9D6VRnaS9cwxBcDr%2FB23MNsDtVempopYDvU
+                  - checkbox [ref=e1643]
+                  - text: Low Fat (<3g)
+              - listitem [ref=e1645]:
+                - link "Apply Free of Saturated Fat (<0.5g) filter to narrow results" [ref=e1647] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1001907325111%3A10434599011&dc&qid=1776566169&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_3&ds=v1%3AQayDC5FAkbVnuaQdG%2B90XYdDy1nuHe0uXEMqBwv2R18
+                  - checkbox [ref=e1650]
+                  - text: Free of Saturated Fat (<0.5g)
+              - listitem [ref=e1652]:
+                - link "Apply Free of Trans Fat (0g) filter to narrow results" [ref=e1654] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1001907325111%3A11139484011&dc&qid=1776566169&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_4&ds=v1%3AXHUd%2BbcEn4ojQd%2FPdA8W9NW8JWLNxv%2FtGCRJL7Efsko
+                  - checkbox [ref=e1657]
+                  - text: Free of Trans Fat (0g)
+              - listitem [ref=e1659]:
+                - link "Apply Cholesterol Free (<2mg) filter to narrow results" [ref=e1661] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1001907325111%3A11139485011&dc&qid=1776566169&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_5&ds=v1%3AGNI4Z1zHFfPquo4ONcbIKngCWFyXOTLFO3vw13PxDzo
+                  - checkbox [ref=e1664]
+                  - text: Cholesterol Free (<2mg)
+              - listitem [ref=e1666]:
+                - link "Apply Sodium Free (<5mg) filter to narrow results" [ref=e1668] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1001907325111%3A2288330011&dc&qid=1776566169&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_6&ds=v1%3Acm6ID8vJYLdnqo1VeeBz2ZwAb1eWqenvtxKaEDA2JkU
+                  - checkbox [ref=e1671]
+                  - text: Sodium Free (<5mg)
+              - listitem [ref=e1673]:
+                - link "Apply Low Sodium (<140mg) filter to narrow results" [ref=e1675] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1001907325111%3A2288331011&dc&qid=1776566169&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_7&ds=v1%3AVCPFFo2yShTS2qcYTfRbEZ9Ix%2BrR9GUlNcKnvztRZD8
+                  - checkbox [ref=e1678]
+                  - text: Low Sodium (<140mg)
+              - listitem [ref=e1680]:
+                - link "Apply Sugar Free (<0.5g) filter to narrow results" [ref=e1682] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1001907325111%3A2288334011&dc&qid=1776566169&rnid=2288325011&ref=sr_nr_p_n_g-1001907325111_8&ds=v1%3AWqEWRchIsJBVzGMraRyQVgiQxWIcNE3MGIwhU5Cqf%2B0
+                  - checkbox [ref=e1685]
+                  - text: Sugar Free (<0.5g)
+          - group [ref=e1687]:
+            - generic [ref=e1688]:
+              - generic [ref=e1689]: Price
+              - generic [ref=e1692]:
+                - generic [ref=e1693]:
+                  - generic [ref=e1694]: $1
+                  - generic [ref=e1695]: –
+                  - generic [ref=e1696]: $13+
+                - generic [ref=e1698]:
+                  - generic:
+                    - slider "Minimum price": "0"
+                  - generic [ref=e1699]:
+                    - slider "Maximum price": "12"
+            - list [ref=e1700]:
+              - listitem [ref=e1701]:
+                - link "Up to $5" [ref=e1703] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=p_36%3A-500&dc&qid=1776566169&rnid=386454011&ref=sr_nr_p_36_1&ds=v1%3AtVyGmpbKWkQ13p1LHeZ8quClFtnFMtCV2dqqPqesFfY
+              - listitem [ref=e1704]:
+                - link "$5 to $10" [ref=e1706] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=p_36%3A500-1000&dc&qid=1776566169&rnid=386454011&ref=sr_nr_p_36_2&ds=v1%3AOD%2B6fkrb%2Fj64loXGizw6HgrQUJ%2Bh1npR%2BlrF0GNNhI4
+              - listitem [ref=e1707]:
+                - link "$10 & above" [ref=e1709] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=p_36%3A1000-&dc&qid=1776566169&rnid=386454011&ref=sr_nr_p_36_3&ds=v1%3AKoA%2BLAkM8%2BH2LNw0YpWQzDwQcUaExkmf7hx6xfNMbyo
+          - group "Brands" [ref=e1710]:
+            - heading "Brands" [level=2] [ref=e1711]
+            - list "Brands" [ref=e1712]:
+              - listitem [ref=e1713]:
+                - link "Apply Fresh Produce filter to narrow results" [ref=e1715] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_123%3A5108570&dc&qid=1776566169&rnid=85457740011&ref=sr_nr_p_123_1&ds=v1%3A2etASOz%2BxfEZMi%2BT3w5hrngJDvE171u%2F3Pe6i%2BI00rw
+                  - checkbox [ref=e1718]
+                  - text: Fresh Produce
+              - listitem [ref=e1720]:
+                - link "Apply 365 by Whole Foods Market filter to narrow results" [ref=e1722] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_123%3A613378&dc&qid=1776566169&rnid=85457740011&ref=sr_nr_p_123_2&ds=v1%3ANw9By8rsjRCTN8IlHLfHeZwPN6sVC80VUVeYXCsOhYc
+                  - checkbox [ref=e1725]
+                  - text: 365 by Whole Foods Market
+              - listitem [ref=e1727]:
+                - link "Apply Driscoll's filter to narrow results" [ref=e1729] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_123%3A780159&dc&qid=1776566169&rnid=85457740011&ref=sr_nr_p_123_3&ds=v1%3AtIAKOGDUezld1kZeeW6LcAnwmX3ZiIqahnny5erRSKk
+                  - checkbox [ref=e1732]
+                  - text: Driscoll's
+              - listitem [ref=e1734]:
+                - link "Apply Amazon Grocery filter to narrow results" [ref=e1736] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_123%3A15936091&dc&qid=1776566169&rnid=85457740011&ref=sr_nr_p_123_4&ds=v1%3A522gmWliCi3rOmykflZw07LHBkyCr5p69oYaKZU9OO4
+                  - checkbox [ref=e1739]
+                  - text: Amazon Grocery
+              - listitem [ref=e1741]:
+                - link "Apply St. Dalfour filter to narrow results" [ref=e1743] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_123%3A1193289&dc&qid=1776566169&rnid=85457740011&ref=sr_nr_p_123_5&ds=v1%3ApN9achBQ6aFaiJ3JI%2BfjQF%2FYbk4zvvt9ZusnJwUtcSo
+                  - checkbox [ref=e1746]
+                  - text: St. Dalfour
+              - listitem [ref=e1748]:
+                - link "Apply Wyman’s filter to narrow results" [ref=e1750] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_123%3A663801&dc&qid=1776566169&rnid=85457740011&ref=sr_nr_p_123_6&ds=v1%3ATtuKbGrphMF%2BlpH0VclFBplBtEKJjakXesjTkiH%2FO1Q
+                  - checkbox [ref=e1753]
+                  - text: Wyman’s
+              - listitem [ref=e1755]:
+                - link "Apply Crofters filter to narrow results" [ref=e1757] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_123%3A495227&dc&qid=1776566169&rnid=85457740011&ref=sr_nr_p_123_7&ds=v1%3AB7jYtEUNZt8IeziDT2mXQesJlGw2t2QOAnYgwX7fRAE
+                  - checkbox [ref=e1760]
+                  - text: Crofters
+              - listitem [ref=e1762]:
+                - button "See more, Brands" [ref=e1765] [cursor=pointer]: See more
+          - group "Count" [ref=e1767]:
+            - heading "Count" [level=2] [ref=e1768]
+            - list "Count" [ref=e1769]:
+              - listitem [ref=e1770]:
+                - link "Apply 1 filter to narrow results" [ref=e1772] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1003560947111%3A55247051011&dc&qid=1776566169&rnid=55247010011&ref=sr_nr_p_n_g-1003560947111_1&ds=v1%3ARx6Os5%2FuIFQKByGqr2OJuGkm4LUN19YhHxJLew0XOI4
+                  - checkbox [ref=e1775]
+                  - text: "1"
+          - group "Calories Per Serving" [ref=e1777]:
+            - heading "Calories Per Serving" [level=2] [ref=e1778]
+            - list "Calories Per Serving" [ref=e1779]:
+              - listitem [ref=e1780]:
+                - generic [ref=e1781]:
+                  - checkbox [disabled] [ref=e1784]
+                  - text: 0 Calories
+              - listitem [ref=e1786]:
+                - link "Apply 1 to 40 Calories filter to narrow results" [ref=e1788] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1001907561111%3A10434595011&dc&qid=1776566169&rnid=10434593011&ref=sr_nr_p_n_g-1001907561111_2&ds=v1%3A3PiuTKOmPeBptYferlHqo6WJECz4kGtIDiUUBzCb984
+                  - checkbox [ref=e1791]
+                  - text: 1 to 40 Calories
+              - listitem [ref=e1793]:
+                - link "Apply 41 to 100 Calories filter to narrow results" [ref=e1795] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1001907561111%3A10434596011&dc&qid=1776566169&rnid=10434593011&ref=sr_nr_p_n_g-1001907561111_3&ds=v1%3A2EQvfmM3%2BYg%2BW36y36BfyScSJtO8qhHNMSM3%2FkSCj%2BQ
+                  - checkbox [ref=e1798]
+                  - text: 41 to 100 Calories
+              - listitem [ref=e1800]:
+                - link "Apply 101 to 200 Calories filter to narrow results" [ref=e1802] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_g-1001907561111%3A10434597011&dc&qid=1776566169&rnid=10434593011&ref=sr_nr_p_n_g-1001907561111_4&ds=v1%3AhR4veRIJixUiRc%2Bw3UUVSXn2GW0hneD9h6rxZqeY9Fk
+                  - checkbox [ref=e1805]
+                  - text: 101 to 200 Calories
+              - listitem [ref=e1807]:
+                - generic [ref=e1808]:
+                  - checkbox [disabled] [ref=e1811]
+                  - text: 201 to 300 Calories
+          - group "Sustainability Features" [ref=e1813]:
+            - heading "Sustainability Features" [level=2] [ref=e1814]
+            - list "Sustainability Features" [ref=e1815]:
+              - listitem [ref=e1816]:
+                - link "Any Feature" [ref=e1818] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_cpf_labels%3A121136630011&dc&qid=1776566169&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_1&ds=v1%3Aiy4q2g%2BJt8tU4L3ie%2BDsV%2BhfPX%2Fr4RUE5Yk%2Fyx4%2F48E
+              - listitem [ref=e1819]:
+                - link "Organic Content" [ref=e1821] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cp_n_cpf_labels%3A116845684011&dc&qid=1776566169&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_2&ds=v1%3AmmWSeHLkNi6xXPuB9Bwid5yfaKfAa%2FhxqVGTFHIJPbw
+          - group "Department" [ref=e1822]:
+            - heading "Department" [level=2] [ref=e1823]
+            - list "Department" [ref=e1824]:
+              - listitem [ref=e1825]:
+                - link "Any Department" [ref=e1827] [cursor=pointer]:
+                  - /url: /s?k=organic+blueberries&dc&qid=1776566169&ref=sr_ex_n_0&ds=v1%3AIjs7Ftt491%2FX1s%2F%2F5wYkSTmKyuRq7Mb%2B8IQz6h8PiGM
+                  - text: Any Department
+              - list
+              - listitem [ref=e1829]:
+                - generic [ref=e1830]: Amazon Fresh
+              - list [ref=e1831]:
+                - listitem [ref=e1832]:
+                  - link "Grocery & Gourmet Food" [ref=e1834] [cursor=pointer]:
+                    - /url: /s?k=organic+blueberries&i=amazonfresh&bbn=10329849011&rh=n%3A10329849011%2Cn%3A16310101&dc&qid=1776566169&rnid=10329849011&ref=sr_nr_n_1&ds=v1%3AT3AVYuej8RyPqr%2FT6sR6WrYg6%2BA%2ByMF47EPch%2B8nIy4
+                - list
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e1835]:
+    - button "Back to top" [ref=e1836] [cursor=pointer]:
+      - generic [ref=e1837]: Back to top
+    - generic [ref=e1838]:
+      - generic [ref=e1839]:
+        - heading "Get to Know Us" [level=6] [ref=e1840]
+        - list [ref=e1841]:
+          - listitem [ref=e1842]:
+            - link "Careers" [ref=e1843] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e1844]:
+            - link "Amazon Newsletter" [ref=e1845] [cursor=pointer]:
+              - /url: https://email.aboutamazon.com/l/637851/2020-10-29/pd87g?utm_source=gateway&utm_medium=amazonfooters&utm_campaign=newslettersubscribers&utm_content=amazonnewssignup
+          - listitem [ref=e1846]:
+            - link "About Amazon" [ref=e1847] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer&token=about
+          - listitem [ref=e1848]:
+            - link "Accessibility" [ref=e1849] [cursor=pointer]:
+              - /url: https://www.amazon.com/b?node=15701038011&ie=UTF8
+          - listitem [ref=e1850]:
+            - link "Sustainability" [ref=e1851] [cursor=pointer]:
+              - /url: https://sustainability.aboutamazon.com/?utm_source=gateway&utm_medium=footer&ref_=susty_footer
+          - listitem [ref=e1852]:
+            - link "Press Center" [ref=e1853] [cursor=pointer]:
+              - /url: https://www.amazon.com/pr
+          - listitem [ref=e1854]:
+            - link "Investor Relations" [ref=e1855] [cursor=pointer]:
+              - /url: https://www.amazon.com/ir
+          - listitem [ref=e1856]:
+            - link "Amazon Devices" [ref=e1857] [cursor=pointer]:
+              - /url: /gp/browse.html?node=2102313011&ref_=footer_devices
+          - listitem [ref=e1858]:
+            - link "Amazon Science" [ref=e1859] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1861]:
+        - heading "Make Money with Us" [level=6] [ref=e1862]
+        - list [ref=e1863]:
+          - listitem [ref=e1864]:
+            - link "Sell on Amazon" [ref=e1865] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZFSSOA_FTSELL-C&ref_=footer_soa
+          - listitem [ref=e1866]:
+            - link "Sell apps on Amazon" [ref=e1867] [cursor=pointer]:
+              - /url: https://developer.amazon.com
+          - listitem [ref=e1868]:
+            - link "Supply to Amazon" [ref=e1869] [cursor=pointer]:
+              - /url: https://supply.amazon.com
+          - listitem [ref=e1870]:
+            - link "Protect & Build Your Brand" [ref=e1871] [cursor=pointer]:
+              - /url: https://sell.amazon.com/brand-registry?ld=AZUSSOA_ABR-FT
+          - listitem [ref=e1872]:
+            - link "Become an Affiliate" [ref=e1873] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.com/
+          - listitem [ref=e1874]:
+            - link "Become a Delivery Driver" [ref=e1875] [cursor=pointer]:
+              - /url: https://dspjobhub.com/
+          - listitem [ref=e1876]:
+            - link "Start a Package Delivery Business" [ref=e1877] [cursor=pointer]:
+              - /url: https://logistics.amazon.com/marketing?utm_source=amzn&utm_medium=footer&utm_campaign=home
+          - listitem [ref=e1878]:
+            - link "Advertise Your Products" [ref=e1879] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=ext_amzn_ftr
+          - listitem [ref=e1880]:
+            - link "Self-Publish with Us" [ref=e1881] [cursor=pointer]:
+              - /url: /gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&topic=200260520&ref_=footer_publishing
+          - listitem [ref=e1882]:
+            - link "Become an Amazon Hub Partner" [ref=e1883] [cursor=pointer]:
+              - /url: https://www.amazon.com/b?node=216188543011
+          - listitem [ref=e1884]:
+            - text: ›
+            - link "See More Ways to Make Money" [ref=e1885] [cursor=pointer]:
+              - /url: /b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore
+      - generic [ref=e1887]:
+        - heading "Amazon Payment Products" [level=6] [ref=e1888]
+        - list [ref=e1889]:
+          - listitem [ref=e1890]:
+            - link "Amazon Visa" [ref=e1891] [cursor=pointer]:
+              - /url: /iss/credit/rewardscardmember?plattr=CBFOOT&ref_=footer_cbcc
+          - listitem [ref=e1892]:
+            - link "Amazon Store Card" [ref=e1893] [cursor=pointer]:
+              - /url: /credit/storecard/member?plattr=PLCCFOOT&ref_=footer_plcc
+          - listitem [ref=e1894]:
+            - link "Amazon Secured Card" [ref=e1895] [cursor=pointer]:
+              - /url: /dp/product/B084KP3NG6?plattr=SCFOOT&ref_=footer_ACB
+          - listitem [ref=e1896]:
+            - link "Amazon Business Card" [ref=e1897] [cursor=pointer]:
+              - /url: /dp/B0DVBL912R?plattr=ACOMFO&ie=UTF-8
+          - listitem [ref=e1898]:
+            - link "Shop with Points" [ref=e1899] [cursor=pointer]:
+              - /url: https://www.amazon.com/hp/shopwithpoints/servicing
+          - listitem [ref=e1900]:
+            - link "Credit Card Marketplace" [ref=e1901] [cursor=pointer]:
+              - /url: /gp/browse.html?node=3561432011&ref_=footer_ccmp
+          - listitem [ref=e1902]:
+            - link "Reload Your Balance" [ref=e1903] [cursor=pointer]:
+              - /url: /gp/browse.html?node=10232440011&ref_=footer_reload_us
+          - listitem [ref=e1904]:
+            - link "Gift Cards" [ref=e1905] [cursor=pointer]:
+              - /url: https://www.amazon.com/b/?node=2238192011&ref=shop_footer_payments_gc_desktop
+          - listitem [ref=e1906]:
+            - link "Amazon Currency Converter" [ref=e1907] [cursor=pointer]:
+              - /url: /gp/browse.html?node=388305011&ref_=footer_tfx
+      - generic [ref=e1909]:
+        - heading "Let Us Help You" [level=6] [ref=e1910]
+        - list [ref=e1911]:
+          - listitem [ref=e1912]:
+            - link "Your Account" [ref=e1913] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1914]:
+            - link "Your Orders" [ref=e1915] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/order-history?ref_=footer_yo
+          - listitem [ref=e1916]:
+            - link "Shipping Rates & Policies" [ref=e1917] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates
+          - listitem [ref=e1918]:
+            - link "Amazon Prime" [ref=e1919] [cursor=pointer]:
+              - /url: /gp/prime?ref_=footer_prime
+          - listitem [ref=e1920]:
+            - link "Returns & Replacements" [ref=e1921] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1922]:
+            - link "Manage Your Content and Devices" [ref=e1923] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e1924]:
+            - link "Recalls and Product Safety Alerts" [ref=e1925] [cursor=pointer]:
+              - /url: https://www.amazon.com/product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1926]:
+            - link "Registry & Gift List" [ref=e1927] [cursor=pointer]:
+              - /url: /registries?ref_=nav_footer_registry_giftlist_desktop
+          - listitem [ref=e1928]:
+            - link "Help" [ref=e1929] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e1931]:
+      - link "Amazon US Home" [ref=e1934] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=e1937]:
+        - generic [ref=e1938]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e1939] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e1941]: English
+          - button "Expand to Change Language or Country" [ref=e1942] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is United States." [ref=e1943] [cursor=pointer]:
+          - generic [ref=e1945]: United States
+    - navigation "More on Amazon" [ref=e1946]:
+      - generic "More on Amazon" [ref=e1947]:
+        - list [ref=e1948]:
+          - listitem [ref=e1949]:
+            - link "Amazon Music Stream millions of songs" [ref=e1950] [cursor=pointer]:
+              - /url: https://music.amazon.com?ref=dm_aff_amz_com
+              - heading "Amazon Music" [level=5] [ref=e1951]
+              - generic [ref=e1952]:
+                - text: Stream millions
+                - text: of songs
+          - listitem [ref=e1953]
+          - listitem [ref=e1954]:
+            - link "Amazon Ads Reach customers wherever they spend their time" [ref=e1955] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=footer_advtsing_amzn_com
+              - heading "Amazon Ads" [level=5] [ref=e1956]
+              - generic [ref=e1957]:
+                - text: Reach customers
+                - text: wherever they
+                - text: spend their time
+          - listitem [ref=e1958]
+          - listitem [ref=e1959]:
+            - link "6pm Score deals on fashion brands" [ref=e1960] [cursor=pointer]:
+              - /url: https://www.6pm.com
+              - heading "6pm" [level=5] [ref=e1961]
+              - generic [ref=e1962]:
+                - text: Score deals
+                - text: on fashion brands
+          - listitem [ref=e1963]
+          - listitem [ref=e1964]:
+            - link "AbeBooks Books, art & collectibles" [ref=e1965] [cursor=pointer]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=e1966]
+              - generic [ref=e1967]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e1968]
+          - listitem [ref=e1969]:
+            - link "ACX Audiobook Publishing Made Easy" [ref=e1970] [cursor=pointer]:
+              - /url: https://www.acx.com/
+              - heading "ACX" [level=5] [ref=e1971]
+              - generic [ref=e1972]:
+                - text: Audiobook Publishing
+                - text: Made Easy
+          - listitem [ref=e1973]
+          - listitem [ref=e1974]:
+            - link "Sell on Amazon Start a Selling Account" [ref=e1975] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell
+              - heading "Sell on Amazon" [level=5] [ref=e1976]
+              - generic [ref=e1977]: Start a Selling Account
+          - listitem [ref=e1978]
+          - listitem [ref=e1979]:
+            - link "Veeqo Shipping Software Inventory Management" [ref=e1980] [cursor=pointer]:
+              - /url: https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer
+              - heading "Veeqo" [level=5] [ref=e1981]
+              - generic [ref=e1982]:
+                - text: Shipping Software
+                - text: Inventory Management
+        - list [ref=e1983]:
+          - listitem [ref=e1984]:
+            - link "Amazon Business Everything For Your Business" [ref=e1985] [cursor=pointer]:
+              - /url: /business?ref_=footer_retail_b2b
+              - heading "Amazon Business" [level=5] [ref=e1986]
+              - generic [ref=e1987]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e1988]
+          - listitem [ref=e1989]:
+            - link "Amazon Fresh Groceries & More Right To Your Door" [ref=e1990] [cursor=pointer]:
+              - /url: /alm/storefront?almBrandId=QW1hem9uIEZyZXNo&ref_=footer_aff_fresh
+              - heading "Amazon Fresh" [level=5] [ref=e1991]
+              - generic [ref=e1992]:
+                - text: Groceries & More
+                - text: Right To Your Door
+          - listitem [ref=e1993]
+          - listitem [ref=e1994]:
+            - link "AmazonGlobal Ship Orders Internationally" [ref=e1995] [cursor=pointer]:
+              - /url: /gp/browse.html?node=230659011&ref_=footer_amazonglobal
+              - heading "AmazonGlobal" [level=5] [ref=e1996]
+              - generic [ref=e1997]:
+                - text: Ship Orders
+                - text: Internationally
+          - listitem [ref=e1998]
+          - listitem [ref=e1999]:
+            - link "Home Services Experienced Pros Happiness Guarantee" [ref=e2000] [cursor=pointer]:
+              - /url: /services?ref_=footer_services
+              - heading "Home Services" [level=5] [ref=e2001]
+              - generic [ref=e2002]:
+                - text: Experienced Pros
+                - text: Happiness Guarantee
+          - listitem [ref=e2003]
+          - listitem [ref=e2004]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e2005] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e2006]
+              - generic [ref=e2007]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e2008]
+          - listitem [ref=e2009]:
+            - link "Audible Listen to Books & Original Audio Performances" [ref=e2010] [cursor=pointer]:
+              - /url: https://www.audible.com
+              - heading "Audible" [level=5] [ref=e2011]
+              - generic [ref=e2012]:
+                - text: Listen to Books & Original
+                - text: Audio Performances
+          - listitem [ref=e2013]
+          - listitem [ref=e2014]:
+            - link "Box Office Mojo Find Movie Box Office Data" [ref=e2015] [cursor=pointer]:
+              - /url: https://www.boxofficemojo.com/?ref_=amzn_nav_ftr
+              - heading "Box Office Mojo" [level=5] [ref=e2016]
+              - generic [ref=e2017]:
+                - text: Find Movie
+                - text: Box Office Data
+        - list [ref=e2018]:
+          - listitem [ref=e2019]:
+            - link "Goodreads Book reviews & recommendations" [ref=e2020] [cursor=pointer]:
+              - /url: https://www.goodreads.com
+              - heading "Goodreads" [level=5] [ref=e2021]
+              - generic [ref=e2022]:
+                - text: Book reviews
+                - text: "& recommendations"
+          - listitem [ref=e2023]
+          - listitem [ref=e2024]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e2025] [cursor=pointer]:
+              - /url: https://www.imdb.com
+              - heading "IMDb" [level=5] [ref=e2026]
+              - generic [ref=e2027]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+          - listitem [ref=e2028]
+          - listitem [ref=e2029]:
+            - link "IMDbPro Get Info Entertainment Professionals Need" [ref=e2030] [cursor=pointer]:
+              - /url: https://pro.imdb.com?ref_=amzn_nav_ftr
+              - heading "IMDbPro" [level=5] [ref=e2031]
+              - generic [ref=e2032]:
+                - text: Get Info Entertainment
+                - text: Professionals Need
+          - listitem [ref=e2033]
+          - listitem [ref=e2034]:
+            - link "Kindle Direct Publishing Indie Digital & Print Publishing Made Easy" [ref=e2035] [cursor=pointer]:
+              - /url: https://kdp.amazon.com
+              - heading "Kindle Direct Publishing" [level=5] [ref=e2036]
+              - generic [ref=e2037]:
+                - text: Indie Digital & Print Publishing
+                - text: Made Easy
+          - listitem [ref=e2038]
+          - listitem [ref=e2039]:
+            - link "Amazon Photos Unlimited Photo Storage Free With Prime" [ref=e2040] [cursor=pointer]:
+              - /url: /gp/browse.html?node=13234696011&ref_=_gno_p_foot
+              - heading "Amazon Photos" [level=5] [ref=e2041]
+              - generic [ref=e2042]:
+                - text: Unlimited Photo Storage
+                - text: Free With Prime
+          - listitem [ref=e2043]
+          - listitem [ref=e2044]:
+            - link "Prime Video Direct Video Distribution Made Easy" [ref=e2045] [cursor=pointer]:
+              - /url: https://videodirect.amazon.com/home/landing
+              - heading "Prime Video Direct" [level=5] [ref=e2046]
+              - generic [ref=e2047]:
+                - text: Video Distribution
+                - text: Made Easy
+          - listitem [ref=e2048]
+          - listitem [ref=e2049]:
+            - link "Shopbop Designer Fashion Brands" [ref=e2050] [cursor=pointer]:
+              - /url: https://www.shopbop.com
+              - heading "Shopbop" [level=5] [ref=e2051]
+              - generic [ref=e2052]:
+                - text: Designer
+                - text: Fashion Brands
+        - list [ref=e2053]:
+          - listitem [ref=e2054]:
+            - link "Amazon Resale Great Deals on Quality Used Products" [ref=e2055] [cursor=pointer]:
+              - /url: /gp/browse.html?node=10158976011&ref_=footer_wrhsdls
+              - heading "Amazon Resale" [level=5] [ref=e2056]
+              - generic [ref=e2057]:
+                - text: Great Deals on
+                - text: Quality Used Products
+          - listitem [ref=e2058]
+          - listitem [ref=e2059]:
+            - link "Whole Foods Market America’s Healthiest Grocery Store" [ref=e2060] [cursor=pointer]:
+              - /url: https://www.wholefoodsmarket.com
+              - heading "Whole Foods Market" [level=5] [ref=e2061]
+              - generic [ref=e2062]:
+                - text: America’s Healthiest
+                - text: Grocery Store
+          - listitem [ref=e2063]
+          - listitem [ref=e2064]:
+            - link "Woot! Deals and Shenanigans" [ref=e2065] [cursor=pointer]:
+              - /url: https://www.woot.com/
+              - heading "Woot!" [level=5] [ref=e2066]
+              - generic [ref=e2067]:
+                - text: Deals and
+                - text: Shenanigans
+          - listitem [ref=e2068]
+          - listitem [ref=e2069]:
+            - link "Zappos Shoes & Clothing" [ref=e2070] [cursor=pointer]:
+              - /url: https://www.zappos.com
+              - heading "Zappos" [level=5] [ref=e2071]
+              - generic [ref=e2072]:
+                - text: Shoes &
+                - text: Clothing
+          - listitem [ref=e2073]
+          - listitem [ref=e2074]:
+            - link "Ring Smart Home Security Systems" [ref=e2075] [cursor=pointer]:
+              - /url: https://ring.com
+              - heading "Ring" [level=5] [ref=e2076]
+              - generic [ref=e2077]:
+                - text: Smart Home
+                - text: Security Systems
+          - listitem [ref=e2078]
+          - listitem [ref=e2079]:
+            - link "eero WiFi Stream 4K Video in Every Room" [ref=e2080] [cursor=pointer]:
+              - /url: https://eero.com/
+              - heading "eero WiFi" [level=5] [ref=e2081]
+              - generic [ref=e2082]:
+                - text: Stream 4K Video
+                - text: in Every Room
+          - listitem [ref=e2083]
+          - listitem [ref=e2084]:
+            - link "Blink Smart Security for Every Home" [ref=e2085] [cursor=pointer]:
+              - /url: https://blinkforhome.com/?ref=nav_footer
+              - heading "Blink" [level=5] [ref=e2086]
+              - generic [ref=e2087]:
+                - text: Smart Security
+                - text: for Every Home
+        - list [ref=e2088]:
+          - listitem [ref=e2089]
+          - listitem [ref=e2090]
+          - listitem [ref=e2091]
+          - listitem [ref=e2092]
+          - listitem [ref=e2093]:
+            - link "Neighbors App Real-Time Crime & Safety Alerts" [ref=e2094] [cursor=pointer]:
+              - /url: https://shop.ring.com/pages/neighbors-app
+              - heading "Neighbors App" [level=5] [ref=e2095]
+              - generic [ref=e2096]:
+                - text: Real-Time Crime
+                - text: "& Safety Alerts"
+          - listitem [ref=e2097]
+          - listitem [ref=e2098]:
+            - link "PillPack Pharmacy Simplified" [ref=e2099] [cursor=pointer]:
+              - /url: https://www.pillpack.com
+              - heading "PillPack" [level=5] [ref=e2100]
+              - generic [ref=e2101]: Pharmacy Simplified
+          - listitem [ref=e2102]
+          - listitem [ref=e2103]:
+            - link "Amazon Renewed Refurbished tech you can trust" [ref=e2104] [cursor=pointer]:
+              - /url: /gp/browse.html?node=12653393011&ref_=footer_usrenew
+              - heading "Amazon Renewed" [level=5] [ref=e2105]
+              - generic [ref=e2106]:
+                - text: Refurbished tech
+                - text: you can trust
+          - listitem [ref=e2107]
+          - listitem [ref=e2108]
+          - listitem [ref=e2109]
+          - listitem [ref=e2110]
+    - generic [ref=e2111]:
+      - list [ref=e2112]:
+        - listitem [ref=e2113]:
+          - link "Conditions of Use" [ref=e2114] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=508088&ref_=footer_cou
+        - listitem [ref=e2115]:
+          - link "Privacy Notice" [ref=e2116] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy
+        - listitem [ref=e2117]:
+          - link "Consumer Health Data Privacy Disclosure" [ref=e2118] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy
+        - listitem [ref=e2119]:
+          - link "Your Ads Privacy Choices" [ref=e2120] [cursor=pointer]:
+            - /url: /privacyprefs?ref_=footer_iba
+        - listitem [ref=e2121]
+      - generic [ref=e2123]: © 1996-2026, Amazon.com, Inc. or its affiliates

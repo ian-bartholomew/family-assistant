@@ -1,0 +1,55 @@
+- generic [active] [ref=e1]:
+  - textbox [ref=e3]
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e8]:
+          - link "Skip Navigation" [ref=e9] [cursor=pointer]:
+            - /url: "#store-wrapper"
+          - button "Main Menu" [ref=e11] [cursor=pointer]:
+            - img [ref=e13]
+          - link "Instacart logo" [ref=e15] [cursor=pointer]:
+            - /url: /store/
+            - img "Instacart logo" [ref=e16]
+      - generic:
+        - generic [ref=e20]:
+          - generic [ref=e22]:
+            - link "Sprouts Farmers Market logo Sprouts Farmers Market" [ref=e24] [cursor=pointer]:
+              - /url: /store/sprouts/storefront
+              - img "Sprouts Farmers Market logo" [ref=e29]
+              - heading "Sprouts Farmers Market" [level=2] [ref=e30]
+            - button "No markups" [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:
+                - generic [ref=e33]: No markups
+                - img [ref=e34]
+            - button "Add loyalty" [ref=e37] [cursor=pointer]:
+              - img [ref=e38]
+              - text: Add loyalty
+          - list [ref=e40]:
+            - listitem [ref=e41]:
+              - link "Shop" [ref=e42] [cursor=pointer]:
+                - /url: /store/sprouts/storefront
+                - img [ref=e44]
+                - generic [ref=e46]: Shop
+            - listitem [ref=e47]:
+              - link "Flyers" [ref=e48] [cursor=pointer]:
+                - /url: /store/sprouts/flyer
+                - img [ref=e50]
+                - generic [ref=e53]: Flyers
+            - listitem [ref=e54]:
+              - link "Recipes" [ref=e55] [cursor=pointer]:
+                - /url: /store/sprouts/recipes?source_type=tab_recipes
+                - img [ref=e57]
+                - generic [ref=e59]: Recipes
+            - listitem [ref=e60]:
+              - link "Lists" [ref=e61] [cursor=pointer]:
+                - /url: /store/sprouts/your-lists?source_type=storefront
+                - img [ref=e63]
+                - generic [ref=e65]: Lists
+          - navigation "Browse aisles" [ref=e66]:
+            - heading "Browse aisles" [level=2] [ref=e68]
+            - list [ref=e70]
+        - generic:
+          - main
+    - generic:
+      - list

@@ -1,0 +1,523 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - region "Announcement Banner" [ref=e438]:
+          - generic [ref=e439]:
+            - generic [ref=e440]: Save and Discover with Sprouts Rewards!
+            - button "Learn More" [ref=e441] [cursor=pointer]
+          - button "Dismiss banner" [ref=e443] [cursor=pointer]:
+            - img [ref=e445]
+        - generic [ref=e7]:
+          - generic:
+            - navigation:
+              - list
+          - generic [ref=e8]:
+            - navigation:
+              - list
+            - 'button "In-Store · open 7am - 10pm Cudahy (Store #467)" [ref=e447] [cursor=pointer]':
+              - generic [ref=e11]:
+                - img [ref=e12]
+                - generic [ref=e14]:
+                  - generic [ref=e15]: In-Store · open 7am - 10pm
+                  - generic [ref=e16]: "Cudahy (Store #467)"
+                - img [ref=e17]
+            - link "Sign In / Register" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20]: Sign In / Register
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - link "Sprouts Home" [ref=e23] [cursor=pointer]:
+              - /url: /store/sprouts/storefront
+              - img "Sprouts Home" [ref=e24]
+            - navigation "Primary navigation" [ref=e25]:
+              - list [ref=e26]:
+                - listitem [ref=e27]:
+                  - button "Explore" [ref=e29] [cursor=pointer]:
+                    - generic [ref=e30]:
+                      - text: Explore
+                      - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Save" [ref=e35] [cursor=pointer]:
+                    - generic [ref=e36]:
+                      - text: Save
+                      - img [ref=e37]
+                - listitem [ref=e39]:
+                  - button "Shop" [ref=e41] [cursor=pointer]:
+                    - generic [ref=e42]:
+                      - text: Shop
+                      - img [ref=e43]
+          - generic [ref=e45]:
+            - generic [ref=e47]:
+              - search [ref=e49]:
+                - generic [ref=e50]:
+                  - button "Search":
+                    - img
+                  - text: Explore popular searches with arrow keys or begin typing in the search field, and the app will offer suggestions. Use the arrow keys to navigate to a suggestion and then use the Enter key to select it. Once you press Enter, navigate to the search results that appear.
+                  - paragraph [ref=e51]: 14 entries
+                  - textbox "Search" [active] [ref=e448]:
+                    - /placeholder: Search Sprouts Farmers Market...
+              - listbox "search" [ref=e780]:
+                - group "Popular searches" [ref=e781]:
+                  - generic [ref=e783]: Popular searches
+                  - listbox "Popular searches" [ref=e784]:
+                    - generic [ref=e785]: 10 Popular searches results found
+                    - option "fruit" [ref=e786] [cursor=pointer]:
+                      - link "fruit" [ref=e788]:
+                        - /url: /store/sprouts/s?k=fruit
+                        - img "fruit" [ref=e791]
+                        - generic [ref=e793]: fruit
+                    - option "butter" [ref=e794] [cursor=pointer]:
+                      - link "butter" [ref=e796]:
+                        - /url: /store/sprouts/s?k=butter
+                        - img "butter" [ref=e799]
+                        - generic [ref=e801]: butter
+                    - option "zucchini" [ref=e802] [cursor=pointer]:
+                      - link "zucchini" [ref=e804]:
+                        - /url: /store/sprouts/s?k=zucchini
+                        - img "zucchini" [ref=e807]
+                        - generic [ref=e809]: zucchini
+                    - option "grapes" [ref=e810] [cursor=pointer]:
+                      - link "grapes" [ref=e812]:
+                        - /url: /store/sprouts/s?k=grapes
+                        - img "grapes" [ref=e815]
+                        - generic [ref=e817]: grapes
+                    - option "cheese" [ref=e818] [cursor=pointer]:
+                      - link "cheese" [ref=e820]:
+                        - /url: /store/sprouts/s?k=cheese
+                        - img "cheese" [ref=e823]
+                        - generic [ref=e825]: cheese
+                    - option "hummus" [ref=e826] [cursor=pointer]:
+                      - link "hummus" [ref=e828]:
+                        - /url: /store/sprouts/s?k=hummus
+                        - img "hummus" [ref=e831]
+                        - generic [ref=e833]: hummus
+                    - option "heavy cream" [ref=e834] [cursor=pointer]:
+                      - link "heavy cream" [ref=e836]:
+                        - /url: /store/sprouts/s?k=heavy+cream
+                        - img "heavy cream" [ref=e839]
+                        - generic [ref=e841]: heavy cream
+                    - option "ginger" [ref=e842] [cursor=pointer]:
+                      - link "ginger" [ref=e844]:
+                        - /url: /store/sprouts/s?k=ginger
+                        - img "ginger" [ref=e847]
+                        - generic [ref=e849]: ginger
+                    - option "cherry tomatoes" [ref=e850] [cursor=pointer]:
+                      - link "cherry tomatoes" [ref=e852]:
+                        - /url: /store/sprouts/s?k=cherry+tomatoes
+                        - img "cherry tomatoes" [ref=e855]
+                        - generic [ref=e857]: cherry tomatoes
+                    - option "bananas" [ref=e858] [cursor=pointer]:
+                      - link "bananas" [ref=e860]:
+                        - /url: /store/sprouts/s?k=bananas
+                        - img "bananas" [ref=e863]
+                        - generic [ref=e865]: bananas
+                - group "Easy dinners" [ref=e866]:
+                  - generic [ref=e868]: Easy dinners
+                  - listbox "Easy dinners" [ref=e869]:
+                    - generic [ref=e870]: 4 Easy dinners results found
+                    - option "pizza" [ref=e871] [cursor=pointer]:
+                      - link "pizza" [ref=e873]:
+                        - /url: /store/sprouts/s?k=pizza
+                        - img "pizza" [ref=e876]
+                        - generic [ref=e878]: pizza
+                    - option "rotisserie chicken" [ref=e879] [cursor=pointer]:
+                      - link "rotisserie chicken" [ref=e881]:
+                        - /url: /store/sprouts/s?k=rotisserie+chicken
+                        - img "rotisserie chicken" [ref=e884]
+                        - generic [ref=e886]: rotisserie chicken
+                    - option "salad kit" [ref=e887] [cursor=pointer]:
+                      - link "salad kit" [ref=e889]:
+                        - /url: /store/sprouts/s?k=salad+kit
+                        - img "salad kit" [ref=e892]
+                        - generic [ref=e894]: salad kit
+                    - option "lasagna" [ref=e895] [cursor=pointer]:
+                      - link "lasagna" [ref=e897]:
+                        - /url: /store/sprouts/s?k=lasagna
+                        - img "lasagna" [ref=e900]
+                        - generic [ref=e902]: lasagna
+            - navigation:
+              - list
+            - 'button "View Cart. Items in cart: 0" [ref=e450] [cursor=pointer]':
+              - img [ref=e451]
+              - generic [ref=e453]: "0"
+      - button "View Pricing Policy" [ref=e454] [cursor=pointer]:
+        - generic [ref=e455]:
+          - text: View Pricing Policy
+          - img [ref=e456]
+      - generic [ref=e57]:
+        - main [ref=e58]:
+          - heading "Sprouts Farmers Market - Shop" [level=1] [ref=e59]
+          - generic [ref=e61]:
+            - generic [ref=e63]:
+              - link "Sign Up/Log In" [ref=e65] [cursor=pointer]:
+                - /url: /rest/sso/auth/sprouts/init
+                - img [ref=e66]
+                - text: Sign Up/Log In
+              - link "Weekly Ad" [ref=e69] [cursor=pointer]:
+                - /url: /store/sprouts/flyers/view/weekly/print?utm_source=shop.sprouts.com&utm_medium=Quick+Link&utm_campaign=Quick+Link+-+Weekly+Ad
+                - img [ref=e70]
+                - text: Weekly Ad
+            - generic [ref=e72]:
+              - heading "What's Trending" [level=2] [ref=e73]
+              - generic [ref=e74]:
+                - link "Three day sale, limited time only. Click here to shop now. 3 Day Sale" [ref=e458] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pages/72-hour-sale?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=3+day+sale
+                  - img "Three day sale, limited time only. Click here to shop now." [ref=e460]
+                  - paragraph [ref=e461]: 3 Day Sale
+                - link "Buy One, Get One Free or Buy One, Get One 50% Off! Click here to shop now. Can’t-Miss Deals" [ref=e462] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pages/save?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=savings
+                  - img "Buy One, Get One Free or Buy One, Get One 50% Off! Click here to shop now." [ref=e464]
+                  - paragraph [ref=e465]: Can’t-Miss Deals
+                - link "A bottle of Sprouts Brand Organic Coconut Water and a pack of Hydration Energy mix on a green background. Click here to shop now. Hydration" [ref=e466] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/rc-hydration-functional-beverages/?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=hydration
+                  - img "A bottle of Sprouts Brand Organic Coconut Water and a pack of Hydration Energy mix on a green background. Click here to shop now." [ref=e468]
+                  - paragraph [ref=e469]: Hydration
+                - link "Gluten Free Gluten Free" [ref=e470] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/collections/rc-gluten-free?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=Gluten-Free
+                  - img "Gluten Free" [ref=e472]
+                  - paragraph [ref=e473]: Gluten Free
+                - link "Organic Organic" [ref=e474] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/collections/rc-organic?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=Organic
+                  - img "Organic" [ref=e476]
+                  - paragraph [ref=e477]: Organic
+                - link "Plant Based Plant-Based" [ref=e478] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/collections/rc-plant-based?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=Plant+Based
+                  - img "Plant Based" [ref=e480]
+                  - paragraph [ref=e481]: Plant-Based
+                - link "Prepared Foods Prepared Foods" [ref=e482] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pages/prepared-foods?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=Prepared+Foods
+                  - img "Prepared Foods" [ref=e484]
+                  - paragraph [ref=e485]: Prepared Foods
+            - region "carousel" [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]: Use Next and Previous buttons to navigate or jump to a slide with the progress bars. Progress bar shows the current slide and total slides.
+                - button "Previous item" [ref=e903] [cursor=pointer]:
+                  - img [ref=e905]
+                - generic [ref=e114]:
+                  - group [ref=e907]:
+                    - link [ref=e908] [cursor=pointer]:
+                      - /url: /rest/sso/auth/sprouts/init
+                      - img [ref=e909]
+                  - group "Slide 2 of 2" [ref=e910]:
+                    - link "3 Day Sale – Buy one, get one 50% off mix and match all organic granola and cereal, April 18th through April 20th. Click here to shop now. Regular retail. Of equal or lesser value. Discount taken at checkout. Excludes bulk department. Select items only." [ref=e911] [cursor=pointer]:
+                      - /url: /store/sprouts/pages/72-hour-sale
+                      - img "3 Day Sale – Buy one, get one 50% off mix and match all organic granola and cereal, April 18th through April 20th. Click here to shop now. Regular retail. Of equal or lesser value. Discount taken at checkout. Excludes bulk department. Select items only." [ref=e912]
+              - generic [ref=e131]:
+                - button "Stop animation" [ref=e133] [cursor=pointer]:
+                  - img
+                - list [ref=e134]:
+                  - listitem [ref=e135]:
+                    - button "Go to slide 1" [ref=e137] [cursor=pointer]:
+                      - generic [ref=e138]: Go to slide 1
+                  - listitem [ref=e139]:
+                    - button "Go to slide 2" [ref=e141] [cursor=pointer]:
+                      - generic [ref=e142]: Go to slide 2
+            - generic [ref=e146]:
+              - group "Slide 1 of 2" [ref=e147]:
+                - link "Organic Sale - now through April 14th. Select items. Click here to shop now." [ref=e148] [cursor=pointer]:
+                  - /url: /store/sprouts/pages/organic-sale
+                  - img "Organic Sale - now through April 14th. Select items. Click here to shop now." [ref=e150]
+              - group "Slide 2 of 2" [ref=e153]:
+                - link "Forager Finds - Our foragers' new favorite discoveries. Click here to shop now." [ref=e154] [cursor=pointer]:
+                  - /url: /store/sprouts/pages/new-at-sprouts
+                  - img "Forager Finds - Our foragers' new favorite discoveries. Click here to shop now." [ref=e156]
+            - region "Weekly Ad" [ref=e159]:
+              - generic [ref=e160]: This is a carousel. Use Next and Previous buttons to navigate on desktop or swipe with your finger on mobile.
+              - generic [ref=e161]:
+                - generic [ref=e163]:
+                  - heading "Weekly Ad" [level=2] [ref=e164]:
+                    - link "Weekly Ad" [ref=e165] [cursor=pointer]:
+                      - /url: /store/sprouts/flyers/weekly
+                  - generic [ref=e167]: Sale ends in 3 days
+                - generic [ref=e168]:
+                  - link "View all (700+)" [ref=e170] [cursor=pointer]:
+                    - /url: /store/sprouts/flyers/weekly
+                    - text: View all (700+)
+                    - img [ref=e171]
+                  - generic [ref=e173]:
+                    - button "Previous page" [disabled] [ref=e175]:
+                      - img [ref=e177]
+                    - button "Next page" [ref=e180] [cursor=pointer]:
+                      - img [ref=e182]
+              - generic [ref=e186]:
+                - group [ref=e487]:
+                  - 'button "Organic Blackberries Organic Current price: $5.00 Buy 1, get 1 free Organic Blackberries Average rating: 4.4 out of 5 stars, based on 275 reviews 5.6 oz" [ref=e488] [cursor=pointer]':
+                    - generic [ref=e492]:
+                      - img "Organic Blackberries" [ref=e493]
+                      - generic [ref=e495]: Organic
+                    - generic [ref=e497]:
+                      - generic [ref=e498]:
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: "Current price: $5.00"
+                          - generic [ref=e502]: $500
+                        - mark [ref=e504]: Buy 1, get 1 free
+                      - heading "Organic Blackberries" [level=3] [ref=e505]
+                      - generic [ref=e506]:
+                        - 'img "Average rating: 4.4 out of 5 stars, based on 275 reviews" [ref=e507]':
+                          - generic [ref=e508]: ★★★★★
+                          - generic [ref=e509]: ★★★★★
+                        - generic [ref=e510]: (275)
+                      - generic [ref=e513]: 5.6 oz
+                  - button "See eligible items" [ref=e515] [cursor=pointer]
+                  - button "Add 1 ct Organic Blackberries" [ref=e519] [cursor=pointer]:
+                    - img [ref=e522]
+                - group [ref=e525]:
+                  - 'button "Organic Strawberries Organic Current price: $6.99 Buy 1, get 1 50% off Organic Strawberries Average rating: 4.0 out of 5 stars, based on 546 reviews 1 lb container" [ref=e526] [cursor=pointer]':
+                    - generic [ref=e530]:
+                      - img "Organic Strawberries" [ref=e531]
+                      - generic [ref=e533]: Organic
+                    - generic [ref=e535]:
+                      - generic [ref=e536]:
+                        - generic [ref=e538]:
+                          - generic [ref=e539]: "Current price: $6.99"
+                          - generic [ref=e540]: $699
+                        - mark [ref=e542]: Buy 1, get 1 50% off
+                      - heading "Organic Strawberries" [level=3] [ref=e543]
+                      - generic [ref=e544]:
+                        - 'img "Average rating: 4.0 out of 5 stars, based on 546 reviews" [ref=e545]':
+                          - generic [ref=e546]: ★★★★★
+                          - generic [ref=e547]: ★★★★★
+                        - generic [ref=e548]: (546)
+                      - generic [ref=e551]: 1 lb container
+                  - button "See eligible items" [ref=e553] [cursor=pointer]
+                  - button "Add 1 ct Organic Strawberries" [ref=e557] [cursor=pointer]:
+                    - img [ref=e560]
+                - group [ref=e563]:
+                  - 'button "Organic Raspberries Organic Current price: $5.00 Buy 1, get 1 50% off Organic Raspberries Average rating: 4.2 out of 5 stars, based on 327 reviews 6 oz" [ref=e564] [cursor=pointer]':
+                    - generic [ref=e568]:
+                      - img "Organic Raspberries" [ref=e569]
+                      - generic [ref=e571]: Organic
+                    - generic [ref=e573]:
+                      - generic [ref=e574]:
+                        - generic [ref=e576]:
+                          - generic [ref=e577]: "Current price: $5.00"
+                          - generic [ref=e578]: $500
+                        - mark [ref=e580]: Buy 1, get 1 50% off
+                      - heading "Organic Raspberries" [level=3] [ref=e581]
+                      - generic [ref=e582]:
+                        - 'img "Average rating: 4.2 out of 5 stars, based on 327 reviews" [ref=e583]':
+                          - generic [ref=e584]: ★★★★★
+                          - generic [ref=e585]: ★★★★★
+                        - generic [ref=e586]: (327)
+                      - generic [ref=e589]: 6 oz
+                  - button "See eligible items" [ref=e591] [cursor=pointer]
+                  - button "Add 1 ct Organic Raspberries" [ref=e595] [cursor=pointer]:
+                    - img [ref=e598]
+                - group [ref=e601]:
+                  - 'button "Organic Cilantro Organic Current price: $1.79 Buy 1, get 1 50% off Organic Cilantro Average rating: 4.6 out of 5 stars, based on 289 reviews 1 bunch" [ref=e602] [cursor=pointer]':
+                    - generic [ref=e606]:
+                      - img "Organic Cilantro" [ref=e607]
+                      - generic [ref=e609]: Organic
+                    - generic [ref=e611]:
+                      - generic [ref=e612]:
+                        - generic [ref=e614]:
+                          - generic [ref=e615]: "Current price: $1.79"
+                          - generic [ref=e616]: $179
+                        - mark [ref=e618]: Buy 1, get 1 50% off
+                      - heading "Organic Cilantro" [level=3] [ref=e619]
+                      - generic [ref=e620]:
+                        - 'img "Average rating: 4.6 out of 5 stars, based on 289 reviews" [ref=e621]':
+                          - generic [ref=e622]: ★★★★★
+                          - generic [ref=e623]: ★★★★★
+                        - generic [ref=e624]: (289)
+                      - generic [ref=e627]: 1 bunch
+                  - button "See eligible items" [ref=e629] [cursor=pointer]
+                  - button "Add 1 ct Organic Cilantro" [ref=e633] [cursor=pointer]:
+                    - img [ref=e636]
+                - group [ref=e639]:
+                  - 'button "Organic Medium Avocado Bag Organic, +3 more attributes Current price: $6.99 Buy 1, get 1 50% off Organic Medium Avocado Bag Average rating: 3.6 out of 5 stars, based on 12 reviews 5 ct" [ref=e640] [cursor=pointer]':
+                    - generic [ref=e644]:
+                      - img "Organic Medium Avocado Bag" [ref=e645]
+                      - generic [ref=e647]:
+                        - text: Organic, +3
+                        - generic [ref=e649]: more attributes
+                    - generic [ref=e650]:
+                      - generic [ref=e651]:
+                        - generic [ref=e653]:
+                          - generic [ref=e654]: "Current price: $6.99"
+                          - generic [ref=e655]: $699
+                        - mark [ref=e657]: Buy 1, get 1 50% off
+                      - heading "Organic Medium Avocado Bag" [level=3] [ref=e658]
+                      - generic [ref=e659]:
+                        - 'img "Average rating: 3.6 out of 5 stars, based on 12 reviews" [ref=e660]':
+                          - generic [ref=e661]: ★★★★★
+                          - generic [ref=e662]: ★★★★★
+                        - generic [ref=e663]: (12)
+                      - generic [ref=e666]: 5 ct
+                  - button "See eligible items" [ref=e668] [cursor=pointer]
+                  - button "Add 1 ct Organic Medium Avocado Bag" [ref=e672] [cursor=pointer]:
+                    - img [ref=e675]
+                - group [ref=e678]:
+                  - 'button "Organic Asparagus Organic Current price: $3.86 each (estimated) each (est.) Original Price: $5.33 each (estimated) Organic Asparagus Average rating: 5 out of 5 stars, based on 1 reviews $3.98 / lb About 0.97 lb each" [ref=e679] [cursor=pointer]':
+                    - generic [ref=e683]:
+                      - img "Organic Asparagus" [ref=e684]
+                      - generic [ref=e686]: Organic
+                    - generic [ref=e688]:
+                      - generic [ref=e690]:
+                        - generic [ref=e691]:
+                          - generic [ref=e692]: "Current price: $3.86 each (estimated)"
+                          - generic [ref=e693]: $386
+                        - generic [ref=e694]:
+                          - paragraph [ref=e697]: each (est.)
+                          - generic [ref=e698]:
+                            - generic [ref=e699]: "Original Price: $5.33 each (estimated)"
+                            - paragraph [ref=e700]: $5.33
+                      - heading "Organic Asparagus" [level=3] [ref=e701]
+                      - generic [ref=e702]:
+                        - 'img "Average rating: 5 out of 5 stars, based on 1 reviews" [ref=e703]':
+                          - generic [ref=e704]: ★★★★★
+                          - generic [ref=e705]: ★★★★★
+                        - generic [ref=e706]: (1)
+                      - generic [ref=e708]:
+                        - generic [ref=e709]: $3.98 / lb
+                        - generic [ref=e710]: About 0.97 lb each
+                  - button "Add 1 ct Organic Asparagus" [ref=e714] [cursor=pointer]:
+                    - img [ref=e717]
+                - group [ref=e720]:
+                  - 'button "Organic Red Mango Organic Current price: $1.67 Original Price: $2.50 Organic Red Mango Average rating: 2.8 out of 5 stars, based on 7 reviews 1 each" [ref=e721] [cursor=pointer]':
+                    - generic [ref=e725]:
+                      - img "Organic Red Mango" [ref=e726]
+                      - generic [ref=e728]: Organic
+                    - generic [ref=e730]:
+                      - generic [ref=e732]:
+                        - generic [ref=e733]:
+                          - generic [ref=e734]: "Current price: $1.67"
+                          - generic [ref=e735]: $167
+                        - generic [ref=e738]:
+                          - generic [ref=e739]: "Original Price: $2.50"
+                          - paragraph [ref=e740]: $2.50
+                      - heading "Organic Red Mango" [level=3] [ref=e741]
+                      - generic [ref=e742]:
+                        - 'img "Average rating: 2.8 out of 5 stars, based on 7 reviews" [ref=e743]':
+                          - generic [ref=e744]: ★★★★★
+                          - generic [ref=e745]: ★★★★★
+                        - generic [ref=e746]: (7)
+                      - generic [ref=e749]: 1 each
+                  - button "Add 1 ct Organic Red Mango" [ref=e753] [cursor=pointer]:
+                    - img [ref=e756]
+        - contentinfo [ref=e341]:
+          - generic [ref=e343]:
+            - generic [ref=e344]:
+              - generic "Shop" [ref=e345]:
+                - heading "Shop" [level=2] [ref=e346]
+                - list [ref=e347]:
+                  - listitem [ref=e348]:
+                    - link "Sprouts Brands" [ref=e349] [cursor=pointer]:
+                      - /url: https://shop.sprouts.com/store/sprouts/pages/sprouts-brand
+                  - listitem [ref=e350]:
+                    - link "Weekly Deals" [ref=e351] [cursor=pointer]:
+                      - /url: https://shop.sprouts.com/store/sprouts/flyers/view/weekly/print
+                  - listitem [ref=e352]:
+                    - link "Deals of the Month" [ref=e353] [cursor=pointer]:
+                      - /url: https://shop.sprouts.com/store/sprouts/flyers/view/monthly/print
+                  - listitem [ref=e354]:
+                    - link "New For You" [ref=e355] [cursor=pointer]:
+                      - /url: https://shop.sprouts.com/store/sprouts/pages/exclusive-at-sprouts
+                  - listitem [ref=e356]:
+                    - link "Gift Cards" [ref=e357] [cursor=pointer]:
+                      - /url: https://www.sprouts.com/gift-cards/
+              - generic "Get Sprouts" [ref=e358]:
+                - heading "Get Sprouts" [level=2] [ref=e359]
+                - list [ref=e360]:
+                  - listitem [ref=e361]:
+                    - link "Pickup" [ref=e362] [cursor=pointer]:
+                      - /url: https://shop.sprouts.com/store/sprouts/pickup
+                  - listitem [ref=e363]:
+                    - link "Delivery" [ref=e364] [cursor=pointer]:
+                      - /url: https://shop.sprouts.com/store/sprouts/delivery
+                  - listitem [ref=e365]:
+                    - link "Catering" [ref=e366] [cursor=pointer]:
+                      - /url: https://catering.sprouts.com/
+            - generic [ref=e367]:
+              - generic "Socials" [ref=e368]:
+                - heading "Socials" [level=2] [ref=e369]
+                - list [ref=e370]:
+                  - listitem [ref=e371]:
+                    - link "Facebook" [ref=e372] [cursor=pointer]:
+                      - /url: https://www.facebook.com/SproutsFarmersMarket
+                  - listitem [ref=e373]:
+                    - link "Instagram" [ref=e374] [cursor=pointer]:
+                      - /url: https://www.instagram.com/sprouts/
+                  - listitem [ref=e375]:
+                    - link "Tiktok" [ref=e376] [cursor=pointer]:
+                      - /url: https://www.tiktok.com/@sproutsfarmersmarket
+                  - listitem [ref=e377]:
+                    - link "Youtube" [ref=e378] [cursor=pointer]:
+                      - /url: https://youtube.com/user/SproutsFarmersMarket
+                  - listitem [ref=e379]:
+                    - link "Pinterest" [ref=e380] [cursor=pointer]:
+                      - /url: https://pinterest.com/sproutsfm/
+                  - listitem [ref=e381]:
+                    - link "Threads" [ref=e382] [cursor=pointer]:
+                      - /url: https://www.threads.net/@sprouts
+              - generic "Customer Care" [ref=e383]:
+                - heading "Customer Care" [level=2] [ref=e384]
+                - list [ref=e385]:
+                  - listitem [ref=e386]:
+                    - link "FAQs" [ref=e387] [cursor=pointer]:
+                      - /url: https://www.sprouts.com/faq/
+                  - listitem [ref=e388]:
+                    - link "Product Recalls" [ref=e389] [cursor=pointer]:
+                      - /url: https://www.sprouts.com/product-recall/
+                  - listitem [ref=e390]:
+                    - link "Contact Us" [ref=e391] [cursor=pointer]:
+                      - /url: https://www.sprouts.com/contact/
+            - generic "About" [ref=e393]:
+              - heading "About" [level=2] [ref=e394]
+              - list [ref=e395]:
+                - listitem [ref=e396]:
+                  - link "Community" [ref=e397] [cursor=pointer]:
+                    - /url: https://about.sprouts.com/culture-and-community/
+                - listitem [ref=e398]:
+                  - link "Sustainability" [ref=e399] [cursor=pointer]:
+                    - /url: https://www.sprouts.com/about/sustainability/
+                - listitem [ref=e400]:
+                  - link "Careers" [ref=e401] [cursor=pointer]:
+                    - /url: https://www.sprouts.com/careers/
+                - listitem [ref=e402]:
+                  - link "Stores" [ref=e403] [cursor=pointer]:
+                    - /url: https://www.sprouts.com/stores/
+                - listitem [ref=e404]:
+                  - link "New Vendors" [ref=e405] [cursor=pointer]:
+                    - /url: https://about.sprouts.com/new-vendors/
+                - listitem [ref=e406]:
+                  - link "Sprouts Foundation" [ref=e407] [cursor=pointer]:
+                    - /url: https://www.sprouts.com/about/sprouts-foundation/
+                - listitem [ref=e408]:
+                  - link "Investors" [ref=e409] [cursor=pointer]:
+                    - /url: https://investors.sprouts.com/
+                - listitem [ref=e410]:
+                  - link "Press Releases" [ref=e411] [cursor=pointer]:
+                    - /url: https://www.sprouts.com/newsroom/press-releases/
+            - generic "Sign Up & Save" [ref=e413]:
+              - heading "Sign Up & Save" [level=2] [ref=e414]
+              - list [ref=e415]:
+                - listitem [ref=e416]:
+                  - link "Subscribe" [ref=e417] [cursor=pointer]:
+                    - /url: https://shop.sprouts.com/login
+          - generic [ref=e418]:
+            - list [ref=e420]:
+              - listitem [ref=e421]:
+                - link "Accessibility Statement" [ref=e422] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/accessibility-policy-page/
+              - listitem [ref=e423]:
+                - link "Disclosures" [ref=e424] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/disclosures/
+              - listitem [ref=e425]:
+                - link "Home" [ref=e426] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/
+              - listitem [ref=e427]:
+                - link "Privacy Policy" [ref=e428] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/privacy/
+              - listitem [ref=e429]:
+                - link "Sitemap" [ref=e430] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/#
+              - listitem [ref=e431]:
+                - link "Terms" [ref=e432] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/terms/
+            - generic [ref=e433]:
+              - link "Cookie Preferences" [ref=e435] [cursor=pointer]
+              - text: © 2026 SFM LLC.
+    - generic:
+      - list
+  - img [ref=e436]

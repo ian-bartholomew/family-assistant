@@ -1,0 +1,1723 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=e8]
+    - heading "Keyboard shortcuts" [level=2] [ref=e9]
+    - list "Keyboard shortcuts" [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Search, option, forward slash" [ref=e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e13]:
+            - generic [ref=e14]: Search
+            - generic [ref=e15]:
+              - generic [ref=e16]: opt
+              - generic [ref=e17]: +
+              - generic [ref=e18]: /
+      - listitem [ref=e19]:
+        - link "Cart, shift, option, c" [ref=e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e21]:
+            - generic [ref=e22]: Cart
+            - generic [ref=e23]:
+              - generic [ref=e24]: shift
+              - generic [ref=e25]: +
+              - generic [ref=e26]: opt
+              - generic [ref=e27]: +
+              - generic [ref=e28]: C
+      - listitem [ref=e29]:
+        - link "Home, shift, option, h" [ref=e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e31]:
+            - generic [ref=e32]: Home
+            - generic [ref=e33]:
+              - generic [ref=e34]: shift
+              - generic [ref=e35]: +
+              - generic [ref=e36]: opt
+              - generic [ref=e37]: +
+              - generic [ref=e38]: H
+      - listitem [ref=e39]:
+        - link "Your orders, shift, option, o" [ref=e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e41]:
+            - generic [ref=e42]: Orders
+            - generic [ref=e43]:
+              - generic [ref=e44]: shift
+              - generic [ref=e45]: +
+              - generic [ref=e46]: opt
+              - generic [ref=e47]: +
+              - generic [ref=e48]: O
+      - listitem [ref=e49]:
+        - button "Show/hide shortcuts, shift, option, z" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: Show/Hide shortcuts
+            - generic [ref=e53]:
+              - generic [ref=e54]: shift
+              - generic [ref=e55]: +
+              - generic [ref=e56]: opt
+              - generic [ref=e57]: +
+              - generic [ref=e58]: Z
+    - generic [ref=e64]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e65]:
+    - navigation "Primary" [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link "Amazon" [ref=e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+          - button "Delivering to Los Angeles 90039 Update location" [ref=e73] [cursor=pointer]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: Delivering to Los Angeles 90039
+              - generic [ref=e77]: Update location
+        - search [ref=e80]:
+          - generic [ref=e83]:
+            - generic [ref=e85]: All
+            - combobox "Select the department you want to search in" [ref=e87] [cursor=pointer]:
+              - option "All Departments" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Autos"
+              - option "Amazon Devices"
+              - option "Amazon Fresh"
+              - option "Amazon Global Store"
+              - option "Amazon Haul"
+              - option "Amazon One Medical"
+              - option "Amazon Pharmacy"
+              - option "Amazon Resale"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Arts, Crafts & Sewing"
+              - option "Audible Books & Originals"
+              - option "Automotive Parts & Accessories"
+              - option "Baby"
+              - option "Beauty & Personal Care"
+              - option "Books"
+              - option "Bristol Farms"
+              - option "CDs & Vinyl"
+              - option "Cell Phones & Accessories"
+              - option "Clothing, Shoes & Jewelry"
+              - option "Women's Clothing, Shoes & Jewelry"
+              - option "Men's Clothing, Shoes & Jewelry"
+              - option "Girl's Clothing, Shoes & Jewelry"
+              - option "Boy's Clothing, Shoes & Jewelry"
+              - option "Baby Clothing, Shoes & Jewelry"
+              - option "Collectibles & Fine Art"
+              - option "Computers"
+              - option "Credit and Payment Cards"
+              - option "Digital Music"
+              - option "Electronics"
+              - option "Garden & Outdoor"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Food"
+              - option "Handmade"
+              - option "Health, Household & Baby Care"
+              - option "Home & Business Services"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Just for Prime"
+              - option "Kindle Store"
+              - option "Luggage & Travel Gear"
+              - option "Luxury Stores"
+              - option "Magazine Subscriptions"
+              - option "Mission Wine & Spirits"
+              - option "Movies & TV"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Food Express"
+              - option "Pet Supplies"
+              - option "Premium Beauty"
+              - option "Prime Video"
+              - option "Same-Day Store"
+              - option "Smart Home"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Subscribe & Save"
+              - option "Subscription Boxes"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under $10"
+              - option "Video Games"
+              - option "Whole Foods Market"
+          - searchbox "Search Amazon" [ref=e90]
+          - generic "Go" [ref=e93] [cursor=pointer]:
+            - button "Go" [ref=e94]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - link "Choose a language for shopping in Amazon United States. The current selection is English (EN)." [ref=e98] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e101]:
+                - img "United States" [ref=e102]
+                - generic [ref=e103]: EN
+            - button "Expand to Change Language or Country" [ref=e1665] [cursor=pointer]
+          - generic [ref=e104]:
+            - link "Hello, sign in Account & Lists" [ref=e105] [cursor=pointer]:
+              - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e107]: Hello, sign in
+              - generic [ref=e108]: Account & Lists
+            - button "Expand Account and Lists" [ref=e109] [cursor=pointer]
+          - link "Returns & Orders" [ref=e110] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e111]: Returns
+            - generic [ref=e112]: "& Orders"
+          - link "0 items in cart" [ref=e113] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e115]: "0"
+            - generic [ref=e118]: Cart
+      - generic [ref=e122]:
+        - link "Sign in" [ref=e123] [cursor=pointer]:
+          - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+          - generic [ref=e124]: Sign in
+        - generic [ref=e125]:
+          - text: New customer?
+          - link "New to Amazon? Start here to create an account" [ref=e126] [cursor=pointer]:
+            - /url: https://www.amazon.com/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F_encoding%3DUTF8%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - text: Start here.
+      - generic [ref=e131]:
+        - button "Open All Categories Menu" [ref=e133] [cursor=pointer]:
+          - generic [ref=e135]: All
+        - list [ref=e139]:
+          - listitem [ref=e140]:
+            - link "Amazon Haul" [ref=e142] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=e143]:
+            - generic [ref=e144]:
+              - link "Medical Care" [ref=e145] [cursor=pointer]:
+                - /url: https://health.amazon.com/prime?ref_=nav_cs_all_health_ingress_onem_h
+              - button "Medical Care Details" [ref=e146] [cursor=pointer]
+          - listitem [ref=e147]:
+            - link "Amazon Basics" [ref=e149] [cursor=pointer]:
+              - /url: /Amazon_Basics?channel=discovbar&field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=e150]:
+            - link "Best Sellers" [ref=e152] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e153]:
+            - link "Books" [ref=e155] [cursor=pointer]:
+              - /url: /books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books
+          - listitem [ref=e156]:
+            - link "Today's Deals" [ref=e158] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e159]:
+            - generic [ref=e160]:
+              - link "Prime" [ref=e161] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e162] [cursor=pointer]
+          - listitem [ref=e163]:
+            - generic [ref=e164]:
+              - link "Gift Cards" [ref=e165] [cursor=pointer]:
+                - /url: /gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+              - button "Gift Cards Details" [ref=e166] [cursor=pointer]
+          - listitem [ref=e167]:
+            - link "Sell" [ref=e169] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=e170]:
+            - link "Groceries" [ref=e172] [cursor=pointer]:
+              - /url: /fmc/grocery-gateway?gsc=fe16aGPfFs46S&ref_=nav_cs_groceries
+          - listitem [ref=e173]:
+            - link "New Releases" [ref=e175] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e176]:
+            - link "Registry" [ref=e178] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - listitem [ref=e179]:
+            - link "Smart Home" [ref=e181] [cursor=pointer]:
+              - /url: /Smart-Home/b/?ie=UTF8&node=6563140011&ref_=nav_cs_smart_home
+          - listitem [ref=e182]:
+            - link "Music" [ref=e184] [cursor=pointer]:
+              - /url: /music/player?ref_=nav_cs_music
+          - listitem [ref=e185]:
+            - link "Fashion" [ref=e187] [cursor=pointer]:
+              - /url: /amazon-fashion/b/?ie=UTF8&node=7141123011&ref_=nav_cs_fashion
+          - listitem [ref=e188]:
+            - link "Amazon Home" [ref=e190] [cursor=pointer]:
+              - /url: /home-garden-kitchen-furniture-bedding/b/?ie=UTF8&node=1055398&ref_=nav_cs_home
+          - listitem [ref=e191]:
+            - link "Automotive" [ref=e193] [cursor=pointer]:
+              - /url: /automotive-auto-truck-replacements-parts/b/?ie=UTF8&node=15684181&ref_=nav_cs_automotive
+          - listitem [ref=e194]:
+            - link "Sports & Outdoors" [ref=e196] [cursor=pointer]:
+              - /url: /sports-outdoors/b/?ie=UTF8&node=3375251&ref_=nav_cs_sports
+          - listitem [ref=e197]:
+            - link "Toys & Games" [ref=e199] [cursor=pointer]:
+              - /url: /toys/b/?ie=UTF8&node=165793011&ref_=nav_cs_toys
+          - listitem [ref=e200]:
+            - link "Baby" [ref=e202] [cursor=pointer]:
+              - /url: /baby-car-seats-strollers-bedding/b/?ie=UTF8&node=165796011&ref_=nav_cs_baby
+          - listitem [ref=e203]:
+            - link "Home Improvement" [ref=e205] [cursor=pointer]:
+              - /url: /Tools-and-Home-Improvement/b/?ie=UTF8&node=228013&ref_=nav_cs_hi
+          - listitem [ref=e206]:
+            - link "Shop By Interest" [ref=e208] [cursor=pointer]:
+              - /url: /finds?ref_=nav_cs_foundit
+          - listitem [ref=e209]:
+            - link "Pharmacy" [ref=e211] [cursor=pointer]:
+              - /url: https://pharmacy.amazon.com/?nodl=0&ref_=nav_cs_pharmacy
+          - listitem [ref=e212]:
+            - link "Kindle Books" [ref=e214] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=154606011&ref_=nav_cs_kindle_books
+          - listitem [ref=e215]:
+            - link "Beauty & Personal Care" [ref=e217] [cursor=pointer]:
+              - /url: /Beauty-Makeup-Skin-Hair-Products/b/?ie=UTF8&node=3760911&ref_=nav_cs_beauty
+  - main [ref=e221]:
+    - banner [ref=e223]:
+      - group "Featured content" [ref=e224]:
+        - generic [ref=e226]:
+          - button "Previous slide" [disabled] [ref=e228] [cursor=pointer]:
+            - generic [ref=e230]: Previous slide
+          - group [ref=e232]:
+            - list [ref=e233]:
+              - text: 
+              - listitem [ref=e234]:
+                - generic [ref=e239]:
+                  - link "Fast, free shipping plus streaming":
+                    - /url: /prime/?_encoding=UTF8&ref_=_HO&pd_rd_w=IdPKH&content-id=amzn1.sym.c875bd4a-6ea1-4ca8-be25-f745274be270&pf_rd_p=c875bd4a-6ea1-4ca8-be25-f745274be270&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=Cg5r3&pd_rd_r=500372d7-3783-45ff-9025-61f84f3c5eb8
+                  - region "Video Player" [ref=e241]:
+                    - generic [ref=e244]:
+                      - button "Pause" [ref=e1666] [cursor=pointer]:
+                        - text: 
+                        - generic [ref=e246]: Pause
+                      - generic [ref=e247]:
+                        - button "Unmute" [ref=e248] [cursor=pointer]:
+                          - text: 
+                          - generic [ref=e249]: Unmute
+                        - text: 
+                    - text: 
+              - text: 
+          - button "Next slide" [ref=e252] [cursor=pointer]:
+            - generic [ref=e254]: Next slide
+    - generic [ref=e255]:
+      - generic [ref=e256]:
+        - generic [ref=e258]:
+          - heading "Continue shopping deals" [level=2] [ref=e260]:
+            - generic [ref=e261]:
+              - generic [ref=e262]: Continue shopping deals
+              - generic [ref=e263]: Continue shopping deals
+          - generic [ref=e265]:
+            - link "Bear Creek Soup Mix, Darn Good Chili, 8.8 Ounce" [ref=e267] [cursor=pointer]:
+              - /url: /Bear-Creek-Mixes-Chili-Ounce/dp/B09ZFBZH4F/?_encoding=UTF8&pd_rd_w=BYr7A&content-id=amzn1.sym.150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_p=150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c&ref_=pd_hp_d_atf_dealz_cs
+              - img "Bear Creek Soup Mix, Darn Good Chili, 8.8 Ounce" [ref=e269]
+            - link "Essentia Water LLC, Ionized Alkaline Bottled Water; 99.9% Pure, Infused with Electrolytes, 9.5 pH or Higher a Clean, Smooth Taste, 20 Fl Oz (Pack of 24)" [ref=e271] [cursor=pointer]:
+              - /url: /Essentia-Water-Electrolyte-99-9-Percent-Overachieving/dp/B005HG9ERW/?_encoding=UTF8&pd_rd_w=BYr7A&content-id=amzn1.sym.150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_p=150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c&ref_=pd_hp_d_atf_dealz_cs
+              - img "Essentia Water LLC, Ionized Alkaline Bottled Water; 99.9% Pure, Infused with Electrolytes, 9.5 pH or Higher a Clean, Smooth Taste, 20 Fl Oz (Pack of 24)" [ref=e273]
+            - link "Oregon Chai Vanilla Chai Concentrate, 32 Fluid Ounces (Pack of 1)" [ref=e275] [cursor=pointer]:
+              - /url: /Oregon-Chai-Tea-Vanilla-32/dp/B000GIO3OK/?_encoding=UTF8&pd_rd_w=BYr7A&content-id=amzn1.sym.150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_p=150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c&ref_=pd_hp_d_atf_dealz_cs
+              - img "Oregon Chai Vanilla Chai Concentrate, 32 Fluid Ounces (Pack of 1)" [ref=e277]
+            - link "Rubbermaid Brilliance Glass Food Storage Containers, 3.2 Cup, Set of 4, BPA-Free, Leak-Proof, Clear" [ref=e279] [cursor=pointer]:
+              - /url: /Rubbermaid-Brilliance-Storage-3-2-Cup-Containers/dp/B08B7GLYZC/?_encoding=UTF8&pd_rd_w=BYr7A&content-id=amzn1.sym.150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_p=150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c&ref_=pd_hp_d_atf_dealz_cs
+              - img "Rubbermaid Brilliance Glass Food Storage Containers, 3.2 Cup, Set of 4, BPA-Free, Leak-Proof, Clear" [ref=e281]
+          - link "See more deals" [ref=e283] [cursor=pointer]:
+            - /url: /events/deals/?_encoding=UTF8&_encoding=UTF8&ref_=dealz_cs_see_more&bubble-id=deals-contextual-link&dynamicBubble=%7B%2522collectionId%2522%3A%2522deals-contextual-link%2522%2C%2522departmentsIncluded%2522%3A%5B16319761%2C16318651%2C16318401%2C21551230011%5D%7D&pd_rd_w=BYr7A&content-id=amzn1.sym.150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_p=150040e1-e22e-4483-8a83-cee72f78ca0b&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c
+            - generic [ref=e284]:
+              - generic [ref=e285]: See more deals
+              - generic [ref=e286]: See more deals
+        - generic [ref=e288]:
+          - heading "Up to 15% off designer gifts for Mom" [level=2] [ref=e290]
+          - generic [ref=e291]:
+            - generic [ref=e292]:
+              - link "Cartier" [ref=e294] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=luxury&bbn=207247666011&rh=n%3A207247666011%2Cp_123%3A233930&s=featured-rank&dc=&fs=true&qid=1776269528&rnid=85457740011&ref_=sllx_desk_btf_MDayPL15_Cartier_spr26_gw&pd_rd_w=KouiS&content-id=amzn1.sym.06d859ff-b965-4d21-956f-8bb3c778135f&pf_rd_p=06d859ff-b965-4d21-956f-8bb3c778135f&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c
+                - img "Cartier" [ref=e296]
+                - generic [ref=e298]: Cartier
+              - link "Gucci" [ref=e300] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=luxury&bbn=207247666011&rh=n%3A207247666011%2Cp_123%3A359001&s=featured-rank&dc=&fs=true&qid=1776269484&rnid=85457740011&ref_=sllx_desk_btf_MDayPL15_Gucci_spr26_gw&pd_rd_w=KouiS&content-id=amzn1.sym.06d859ff-b965-4d21-956f-8bb3c778135f&pf_rd_p=06d859ff-b965-4d21-956f-8bb3c778135f&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c
+                - img "Gucci" [ref=e302]
+                - generic [ref=e304]: Gucci
+            - generic [ref=e305]:
+              - link "Louis Vuitton" [ref=e307] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=luxury&bbn=207247666011&rh=n%3A207247666011%2Cp_123%3A423616&s=featured-rank&dc=&fs=true&qid=1776269399&rnid=85457740011&ref_=sllx_desk_btf_MDayPL15_LV_spr26_gw&pd_rd_w=KouiS&content-id=amzn1.sym.06d859ff-b965-4d21-956f-8bb3c778135f&pf_rd_p=06d859ff-b965-4d21-956f-8bb3c778135f&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c
+                - img "Louis Vuitton" [ref=e309]
+                - generic [ref=e311]: Louis Vuitton
+              - link "Tiffany & Co." [ref=e313] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=luxury&bbn=207247666011&rh=n%3A207247666011%2Cp_123%3A235903&s=featured-rank&dc=&fs=true&qid=1776269323&rnid=85457740011%5C&ref_=sllx_desk_btf_MDayPL15_Tiffany_spr26_gw&pd_rd_w=KouiS&content-id=amzn1.sym.06d859ff-b965-4d21-956f-8bb3c778135f&pf_rd_p=06d859ff-b965-4d21-956f-8bb3c778135f&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c
+                - img "Tiffany & Co." [ref=e315]
+                - generic [ref=e317]: Tiffany & Co.
+          - link "Up to 15% off designer gifts for Mom - Shop pre-loved pieces" [ref=e319] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&i=luxury&bbn=207247666011&rh=n%3A207247666011&s=featured-rank&fs=true&ds=v1%3AmBMXYlW0RAnDZXqhzZOphRHu7cCY9xK0RwZQC3ujk5c&qid=1769533603&ref_=sllx_desk_btf_MDayPL15_spr26_gw&pd_rd_w=KouiS&content-id=amzn1.sym.06d859ff-b965-4d21-956f-8bb3c778135f&pf_rd_p=06d859ff-b965-4d21-956f-8bb3c778135f&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c
+            - generic [ref=e320]:
+              - generic [ref=e321]: Shop pre-loved pieces
+              - generic [ref=e322]: Shop pre-loved pieces
+        - generic [ref=e324]:
+          - heading "Save on Amazon Devices" [level=2] [ref=e326]:
+            - generic [ref=e327]:
+              - generic [ref=e328]: Save on Amazon Devices
+              - generic [ref=e329]: Save on Amazon Devices
+          - generic [ref=e331]:
+            - link "Ring Spotlight Cam Pro, Battery, Home or business security, Retinal 2K Video, Color Night Vision and Two-Way Talk with Audio+, White 30% off Limited time deal" [ref=e333] [cursor=pointer]:
+              - /url: /Ring-Spotlight-Cam-Pro-Battery-White/dp/B09DRX62ZV/?_encoding=UTF8&pd_rd_w=ylxGQ&content-id=amzn1.sym.050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_p=050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c&ref_=pd_hp_d_atf_dealz_sod
+              - img "Ring Spotlight Cam Pro, Battery, Home or business security, Retinal 2K Video, Color Night Vision and Two-Way Talk with Audio+, White" [ref=e335]
+              - generic [ref=e337]: 30% off Limited time deal
+            - link "Amazon Echo Dot Kids (newest model) - Designed for kids, Designed for Alexa+, parental controls, Includes 1 Year of Amazon Kids+, Owl 37% off Ends in 15:26:01" [ref=e1667] [cursor=pointer]:
+              - /url: /Amazon-Echo-Kids-newest-model/dp/B09B9CD1YB/?_encoding=UTF8&pd_rd_w=ylxGQ&content-id=amzn1.sym.050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_p=050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c&ref_=pd_hp_d_atf_dealz_sod
+              - img "Amazon Echo Dot Kids (newest model) - Designed for kids, Designed for Alexa+, parental controls, Includes 1 Year of Amazon Kids+, Owl" [ref=e341]
+              - generic [ref=e343]:
+                - text: 37% off Ends in
+                - generic [ref=e345]: 15:26:01
+            - link "Toshiba 55\" Z670R Series Mini-LED 4K UHD Smart Fire TV (55Z670R, 2026 New) - QLED, Native 144Hz, HDR10+, Dolby Vision IQ, REGZA Engine Zri, Dolby Atmos, Game Mode Pro, Alexa Built-in, Japan Quality 38% off Limited time deal" [ref=e347] [cursor=pointer]:
+              - /url: /Toshiba-Z670R-Mini-LED-55Z670R-Built/dp/B0GNTCJNTT/?_encoding=UTF8&pd_rd_w=ylxGQ&content-id=amzn1.sym.050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_p=050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c&ref_=pd_hp_d_atf_dealz_sod
+              - img "Toshiba 55\" Z670R Series Mini-LED 4K UHD Smart Fire TV (55Z670R, 2026 New) - QLED, Native 144Hz, HDR10+, Dolby Vision IQ, REGZA Engine Zri, Dolby Atmos, Game Mode Pro, Alexa Built-in, Japan Quality" [ref=e349]
+              - generic [ref=e351]: 38% off Limited time deal
+            - link "Ring Battery Doorbell, Home or business security with Head-to-Toe video, Live View with Two-Way Talk, and Motion Detection & Alerts, Venetian Bronze 20% off Limited time deal" [ref=e353] [cursor=pointer]:
+              - /url: /Ring-Battery-Doorbell-Head-to-Toe-Video-Venetian-Bronze/dp/B0BZWRLRLK/?_encoding=UTF8&pd_rd_w=ylxGQ&content-id=amzn1.sym.050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_p=050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c&ref_=pd_hp_d_atf_dealz_sod
+              - img "Ring Battery Doorbell, Home or business security with Head-to-Toe video, Live View with Two-Way Talk, and Motion Detection & Alerts, Venetian Bronze" [ref=e355]
+              - generic [ref=e357]: 20% off Limited time deal
+          - link "Save on Amazon Devices - See more" [ref=e359] [cursor=pointer]:
+            - /url: /events/devicedeals/?_encoding=UTF8&ref_=dealz_sod_see_more&pd_rd_w=ylxGQ&content-id=amzn1.sym.050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_p=050cd659-7175-41e7-9127-e6ee80b2a7b5&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c
+            - generic [ref=e360]:
+              - generic [ref=e361]: See more
+              - generic [ref=e362]: See more
+        - generic [ref=e364]:
+          - heading "Curated Mother's Day gifts" [level=2] [ref=e366]
+          - generic [ref=e367]:
+            - generic [ref=e368]:
+              - link "Clutches" [ref=e370] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=luxury&rh=n%3A18981045011%2Cn%3A20722800011%2Cn%3A20722894011%2Cn%3A20722897011%2Cn%3A20722901011&s=exact-aware-popularity-rank&dc=&ds=v1%3AH3blYjP3%2F%2FF9yJVNQKfbJB3yAuFpq57vcRd6rlaVE0k&_encoding=UTF8&qid=1775499818&rnid=20722897011&ref_=sllx_qc_mday_clutch_spr26_gw&pd_rd_w=JD4gk&content-id=amzn1.sym.6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_p=6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c
+                - img "Clutches" [ref=e372]
+                - generic [ref=e374]: Clutches
+              - link "Jewelry" [ref=e376] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=luxury&bbn=121188216011&rh=n%3A18981045011%2Cn%3A121188216011%2Cn%3A20722800011&s=date-desc-rank&dc=&fs=true&ds=v1%3AIPnUD57n7dTa27xD4saHcjz13aTqB%2BnfGsl6zCYxbDk&_encoding=UTF8&_encoding=UTF8&qid=1775016820&rnid=121188216011&ref_=sllx_qc_mday_jewl_spr26_gw&pd_rd_w=JD4gk&content-id=amzn1.sym.6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_p=6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c
+                - img "Jewelry" [ref=e378]
+                - generic [ref=e380]: Jewelry
+            - generic [ref=e381]:
+              - link "Beauty" [ref=e383] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=luxury&rh=n%3A18981045011%2Cn%3A20657941011&s=date-desc-rank&dc=&ds=v1%3AT22ykKVQszCCW0xovA%2FKeyHeT0Rks87HV2qR%2BqidJ10&_encoding=UTF8&qid=1775089471&ref_=sllx_qc_mday_bty_spr26_gw&pd_rd_w=JD4gk&content-id=amzn1.sym.6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_p=6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c
+                - img "Beauty" [ref=e385]
+                - generic [ref=e387]: Beauty
+              - link "Fragrance" [ref=e389] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=luxury&rh=n%3A18981045011%2Cn%3A20657941011%2Cn%3A20657942011%2Cn%3A20657953011&s=date-desc-rank&dc=&ds=v1%3AFEO3xKaDCRFqUGdKW4sMaYzYbEGVE%2F6s4ZsdjkPOizw&_encoding=UTF8&qid=1775089464&rnid=20657942011&ref_=sllx_qc_mday_frag_spr26_gw&pd_rd_w=JD4gk&content-id=amzn1.sym.6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_p=6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c
+                - img "Fragrance" [ref=e391]
+                - generic [ref=e393]: Fragrance
+          - link "Curated Mother's Day gifts - Shop the luxury gift guide" [ref=e395] [cursor=pointer]:
+            - /url: /stores/luxury/page/657B8BA3-D3FE-448F-97EA-8BD4FCB72EB7/?_encoding=UTF8&ref_=sllx_qc_mday_all_spr26_gw&pd_rd_w=JD4gk&content-id=amzn1.sym.6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_p=6f924f85-5041-4896-b98c-3b3cba878271&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=SlTHD&pd_rd_r=a3bf5466-4731-4333-88ae-e9bc97295f8c
+            - generic [ref=e396]:
+              - generic [ref=e397]: Shop the luxury gift guide
+              - generic [ref=e398]: Shop the luxury gift guide
+      - generic [ref=e400]:
+        - generic [ref=e403]:
+          - heading "Best Sellers in Computers & Accessories" [level=2] [ref=e405]
+          - generic [ref=e406]:
+            - list [ref=e408]:
+              - listitem [ref=e409]:
+                - link "Ailun Screen Protector for iPad 11th A16 2025 [11 Inch] / 10th Generation 2022 [10.9 Inch], Tempered Glass [Face ID &..." [ref=e411] [cursor=pointer]:
+                  - /url: /Ailun-Protector-Generation-Compatible-Sensitive/dp/B0BJPXXM7D/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Ailun Screen Protector for iPad 11th A16 2025 [11 Inch] / 10th Generation 2022 [10.9 Inch], Tempered Glass [Face ID &..." [ref=e412]
+              - listitem [ref=e413]:
+                - 'link "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera, Touch..." [ref=e415] [cursor=pointer]':
+                  - /url: /Apple-iPad-11-inch-Display-All-Day/dp/B0DZ7871B8/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - 'img "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera, Touch..." [ref=e416]'
+              - listitem [ref=e417]:
+                - link "MoKo for iPad (A16) 11th Generation Case 11 Inch 2025, iPad 10th Generation Case 10.9 Inch 2022, Slim Stand Hard PC..." [ref=e419] [cursor=pointer]:
+                  - /url: /MoKo-Generation-Stand-Translucent-Support/dp/B0B8STRJYJ/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "MoKo for iPad (A16) 11th Generation Case 11 Inch 2025, iPad 10th Generation Case 10.9 Inch 2022, Slim Stand Hard PC..." [ref=e420]
+              - listitem [ref=e421]:
+                - link "Taygeer Travel Backpack for Women, Carry On Backpack with Water Bottle Pocket & Shoe Pouch, TSA 15.6inch Laptop Mochila..." [ref=e423] [cursor=pointer]:
+                  - /url: /Backpack-Women%EF%BC%8CCarry-Approved-15-6inch-Weekender/dp/B09MQWWP87/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Taygeer Travel Backpack for Women, Carry On Backpack with Water Bottle Pocket & Shoe Pouch, TSA 15.6inch Laptop Mochila..." [ref=e424]
+              - listitem [ref=e425]:
+                - link "Metapen A8 iPad Pencil for Apple iPad 2018-2026, 4Min Fast Charge,Magnetic Attachment Stylus Pen for iPad..." [ref=e427] [cursor=pointer]:
+                  - /url: /Metapen-2018-2024-Precise-Sensitivity-13-inch/dp/B09ZTXVNVD/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Metapen A8 iPad Pencil for Apple iPad 2018-2026, 4Min Fast Charge,Magnetic Attachment Stylus Pen for iPad..." [ref=e428]
+              - listitem [ref=e429]:
+                - link "Bopomofo Stylus (5 Pcs), 2-in-1 Stylus Pen for Touch Screen, High Precision and Sensitivity, Suitable for..." [ref=e431] [cursor=pointer]:
+                  - /url: /Precision-Sensitivity-Suitable-Android-Compatible/dp/B0CLXJ2TY6/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Bopomofo Stylus (5 Pcs), 2-in-1 Stylus Pen for Touch Screen, High Precision and Sensitivity, Suitable for..." [ref=e432]
+              - listitem [ref=e433]:
+                - link "Anker Smart Display Charger,Anker Nano 45W Max GaN Fast Charging USB C Charger Block,180° Foldable Plug,Smart..." [ref=e435] [cursor=pointer]:
+                  - /url: /Anker-Charging-Foldable-Recognition-Non-Battery/dp/B0G1MRLXMV/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Anker Smart Display Charger,Anker Nano 45W Max GaN Fast Charging USB C Charger Block,180° Foldable Plug,Smart..." [ref=e436]
+              - listitem [ref=e437]:
+                - link "Stylus Pen for iPad 6th-11th Generation-2X Fast Charge Active Pencil Compatible with 2018-2026 Apple iPad Pro..." [ref=e439] [cursor=pointer]:
+                  - /url: /Rejection-Compatible-2018-2021-Precise-Writing/dp/B0831BF1FH/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Stylus Pen for iPad 6th-11th Generation-2X Fast Charge Active Pencil Compatible with 2018-2026 Apple iPad Pro..." [ref=e440]
+              - listitem [ref=e441]:
+                - link "SPARIN Screen Protector for iPad A16 2025 11th (11 Inch) /10th Generation 2022 (10.9 Inch), 2 Pack Tempered Glass for..." [ref=e443] [cursor=pointer]:
+                  - /url: /SPARIN-Compatible-iPad-10th-2022/dp/B0BKL7KD6Y/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "SPARIN Screen Protector for iPad A16 2025 11th (11 Inch) /10th Generation 2022 (10.9 Inch), 2 Pack Tempered Glass for..." [ref=e444]
+              - listitem [ref=e445]:
+                - link "ProCase 2 Pcs Screen Protector for iPad A16 2025 11th Generation 11 Inch/iPad 10th 2022 10.9 Inch, Tempered Glass Film..." [ref=e447] [cursor=pointer]:
+                  - /url: /ProCase-iPad-11th-10th-10-9/dp/B0BDKJFRX4/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "ProCase 2 Pcs Screen Protector for iPad A16 2025 11th Generation 11 Inch/iPad 10th 2022 10.9 Inch, Tempered Glass Film..." [ref=e448]
+              - listitem [ref=e449]:
+                - 'link "Apple Pencil Pro: Latest Model - Device Compatibility Check Required - Pixel-Perfect Precision, Tilt and Pressure..." [ref=e451] [cursor=pointer]':
+                  - /url: /Apple-Pencil-Pro-Pixel-Perfect-Industry-Leading/dp/B0D3J71RM7/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - 'img "Apple Pencil Pro: Latest Model - Device Compatibility Check Required - Pixel-Perfect Precision, Tilt and Pressure..." [ref=e452]'
+              - listitem [ref=e453]:
+                - link "OASO Stylus Pen for Touch Screens, Disc Tip & Magnet Cap Styli Pencil Compatible with Apple iPad pro/iPad..." [ref=e455] [cursor=pointer]:
+                  - /url: /Stylus-Compatible-Samsung-Chromebook-Screens/dp/B08Q7L85X2/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "OASO Stylus Pen for Touch Screens, Disc Tip & Magnet Cap Styli Pencil Compatible with Apple iPad pro/iPad..." [ref=e456]
+              - listitem [ref=e457]:
+                - 'link "Apple Pencil (USB-C): Device Compatibility Check Required - Pixel-Perfect Precision, Tilt Sensitivity, Perfect for..." [ref=e459] [cursor=pointer]':
+                  - /url: /Apple-MUWA3AM-A-Pencil-USB-C/dp/B0CL7J12YK/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - 'img "Apple Pencil (USB-C): Device Compatibility Check Required - Pixel-Perfect Precision, Tilt Sensitivity, Perfect for..." [ref=e460]'
+              - listitem [ref=e461]:
+                - link "INIU USB C Charger Block, 30W 2-Pack GaN Fast Charging Adapter with 5FT Cable & Advanced Protection, 2-Port Foldable..." [ref=e463] [cursor=pointer]:
+                  - /url: /INIU-Charger-Charging-Compact-Foldable/dp/B0DM1STHCN/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "INIU USB C Charger Block, 30W 2-Pack GaN Fast Charging Adapter with 5FT Cable & Advanced Protection, 2-Port Foldable..." [ref=e464]
+              - listitem [ref=e465]:
+                - link "Nelko Label Maker Machine with Tape, P21 Bluetooth Label Printer, Wireless Mini Label Makers with Multiple Templates for..." [ref=e467] [cursor=pointer]:
+                  - /url: /Nelko-P21-Bluetooth-Templates-Organizing/dp/B0C3L93F2Q/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Nelko Label Maker Machine with Tape, P21 Bluetooth Label Printer, Wireless Mini Label Makers with Multiple Templates for..." [ref=e468]
+              - listitem [ref=e469]:
+                - 'link "Apple 2026 MacBook Neo 13-inch Laptop with A18 Pro chip: Built for AI and Apple Intelligence, Liquid Retina Display, 8GB..." [ref=e471] [cursor=pointer]':
+                  - /url: /Apple-2026-MacBook-13-inch-Laptop/dp/B0GR6FHGXX/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - 'img "Apple 2026 MacBook Neo 13-inch Laptop with A18 Pro chip: Built for AI and Apple Intelligence, Liquid Retina Display, 8GB..." [ref=e472]'
+              - listitem [ref=e473]:
+                - link "MOSISO Laptop Case 13.3 inch, 13-13.3 inch Laptop Sleeve Compatible with MacBook Air/Pro 13/Pro 14 M5 M4 M3 M2 M1, HP..." [ref=e475] [cursor=pointer]:
+                  - /url: /MOSISO-Polyester-Vertical-Repellent-Compatible/dp/B01N6M1Y9N/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "MOSISO Laptop Case 13.3 inch, 13-13.3 inch Laptop Sleeve Compatible with MacBook Air/Pro 13/Pro 14 M5 M4 M3 M2 M1, HP..." [ref=e476]
+              - listitem [ref=e477]:
+                - link "Anker USB C Hub, 5-in-1 USBC to HDMI Splitter with 4K Display, 1 x Powered USB-C 5Gbps & 2×Powered USB-A 3.0 5Gbps Data..." [ref=e479] [cursor=pointer]:
+                  - /url: /Anker-Display-MacBook-Thinkpad-Laptops/dp/B0BQLLB61B/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Anker USB C Hub, 5-in-1 USBC to HDMI Splitter with 4K Display, 1 x Powered USB-C 5Gbps & 2×Powered USB-A 3.0 5Gbps Data..." [ref=e480]
+              - listitem [ref=e481]:
+                - link "MEKO 3 in 1 Stylus Pens for Touch Screens, High Sensitivity & Precision Capacitive Stylus for Apple iPad iPhone Tablets..." [ref=e483] [cursor=pointer]:
+                  - /url: /MEKO-Sensitivity-Capacitive-Touchscreen-Pack-Black/dp/B0C5SJ23HT/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "MEKO 3 in 1 Stylus Pens for Touch Screens, High Sensitivity & Precision Capacitive Stylus for Apple iPad iPhone Tablets..." [ref=e484]
+              - listitem [ref=e485]:
+                - link "Epson EcoTank ET-2803 Wireless Color All-in-One Cartridge-Free Supertank Printer with Scan, Copy and AirPrint Support" [ref=e487] [cursor=pointer]:
+                  - /url: /Epson-Wireless-Cartridge-Free-Supertank-AirPrint/dp/B0BHXNP6B1/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Epson EcoTank ET-2803 Wireless Color All-in-One Cartridge-Free Supertank Printer with Scan, Copy and AirPrint Support" [ref=e488]
+              - listitem [ref=e489]:
+                - link "MNN Portable Monitor 15.6inch FHD 1080P USB C HDMI Gaming Ultra-Slim IPS Display w/Smart Cover & Speakers,HDR Plug&Play,..." [ref=e491] [cursor=pointer]:
+                  - /url: /MNN-Portable-15-6inch-Ultra-Slim-Speakers/dp/B0B9NNWXVP/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "MNN Portable Monitor 15.6inch FHD 1080P USB C HDMI Gaming Ultra-Slim IPS Display w/Smart Cover & Speakers,HDR Plug&Play,..." [ref=e492]
+              - listitem [ref=e493]:
+                - link "ProCase for iPad 9th/ 8th/ 7th Generation Case 10.2 Inch (2021/2020/2019 Release), 10.2 iPad Case 9th/ 8th/ 7th Gen..." [ref=e495] [cursor=pointer]:
+                  - /url: /ProCase-Generation-Stand-Protective-Black/dp/B07XY28FZG/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "ProCase for iPad 9th/ 8th/ 7th Generation Case 10.2 Inch (2021/2020/2019 Release), 10.2 iPad Case 9th/ 8th/ 7th Gen..." [ref=e496]
+              - listitem [ref=e497]:
+                - link "Apple iPad, 10.2-Inch, Wi-Fi, 32GB, Space Gray (Renewed)" [ref=e499] [cursor=pointer]:
+                  - /url: /Apple-iPad-10-2-Inch-Wi-Fi-32GB/dp/B08264XHCZ/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Apple iPad, 10.2-Inch, Wi-Fi, 32GB, Space Gray (Renewed)" [ref=e500]
+              - listitem [ref=e501]:
+                - link "TP-Link Deco 7 BE25 Dual-Band BE5000 WiFi 7 Mesh Wi-Fi System | 4-Stream 5 Gbps, 240 Mhz | Covers up to 6,600 Sq.Ft | 2X..." [ref=e503] [cursor=pointer]:
+                  - /url: /TP-Link-Deco-BE25-AI-Roaming-3-Pack/dp/B0DKVDZXSN/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "TP-Link Deco 7 BE25 Dual-Band BE5000 WiFi 7 Mesh Wi-Fi System | 4-Stream 5 Gbps, 240 Mhz | Covers up to 6,600 Sq.Ft | 2X..." [ref=e504]
+              - listitem [ref=e505]:
+                - link "Hamile for iPad 11th 10th Generation Case with Keyboard - 7 Colors Backlit Wireless Detachable Folio Keyboard Cover with..." [ref=e507] [cursor=pointer]:
+                  - /url: /Hamile-iPad-10th-Generation-Keyboard/dp/B0C375272K/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Hamile for iPad 11th 10th Generation Case with Keyboard - 7 Colors Backlit Wireless Detachable Folio Keyboard Cover with..." [ref=e508]
+              - listitem [ref=e509]:
+                - 'link "Apple 2026 MacBook Air 13-inch Laptop with M5 chip: Built for AI, 13.6-inch Liquid Retina Display, 16GB Unified Memory,..." [ref=e511] [cursor=pointer]':
+                  - /url: /Apple-2026-MacBook-13-inch-Laptop/dp/B0GR1JTFP8/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - 'img "Apple 2026 MacBook Air 13-inch Laptop with M5 chip: Built for AI, 13.6-inch Liquid Retina Display, 16GB Unified Memory,..." [ref=e512]'
+              - listitem [ref=e513]:
+                - link "Charger Compatible with HP Laptop Computer 65W 45W Smart Blue Tip Power Adapter" [ref=e515] [cursor=pointer]:
+                  - /url: /Charger-Computer-Pavilion-Elitebook-touchsmart/dp/B089T1SX32/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Charger Compatible with HP Laptop Computer 65W 45W Smart Blue Tip Power Adapter" [ref=e516]
+              - listitem [ref=e517]:
+                - link "Anker Charger, 65W 3-Port Fast Compact Foldable USB C Charger Block for MacBook Pro/Air, iPad Pro, Galaxy S20, Dell XPS..." [ref=e519] [cursor=pointer]:
+                  - /url: /Anker-Charger-Compact-Foldable-MacBook/dp/B09C5RG6KV/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Anker Charger, 65W 3-Port Fast Compact Foldable USB C Charger Block for MacBook Pro/Air, iPad Pro, Galaxy S20, Dell XPS..." [ref=e520]
+              - listitem [ref=e521]:
+                - link "MOBDIK 2 Pack Paperfeel Screen Protector Compatible with iPad A16 11th/10th Generation 2025/2022 & iPad Air 11 M4/M3/M2..." [ref=e523] [cursor=pointer]:
+                  - /url: /MOBDIK-Paperfeel-Compatible-Generation-Installation/dp/B0BD9P8CFG/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "MOBDIK 2 Pack Paperfeel Screen Protector Compatible with iPad A16 11th/10th Generation 2025/2022 & iPad Air 11 M4/M3/M2..." [ref=e524]
+              - listitem [ref=e525]:
+                - link "Bopomofo 2PCS Stylus Pens for Touch Screens,Stylus Pen for iPhone/iPad/Tablet Android/Microsoft Surface,Compatible with..." [ref=e527] [cursor=pointer]:
+                  - /url: /Screens-Android-Microsoft-Surface-Compatible/dp/B0BXLZKPZ4/?_encoding=UTF8&pd_rd_w=O4scC&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_541966
+                  - img "Bopomofo 2PCS Stylus Pens for Touch Screens,Stylus Pen for iPhone/iPad/Tablet Android/Microsoft Surface,Compatible with..." [ref=e528]
+            - link [ref=e529] [cursor=pointer]:
+              - /url: "#"
+            - link [ref=e531] [cursor=pointer]:
+              - /url: "#"
+        - separator [ref=e535]
+        - generic [ref=e538]:
+          - heading "Best Sellers in Books" [level=2] [ref=e540]
+          - list [ref=e543]:
+            - listitem [ref=e544]:
+              - link "Untitled Empyrean (Not Book Four)" [ref=e546] [cursor=pointer]:
+                - /url: /Untitled-Empyrean-Not-Book-Four/dp/168281808X/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "Untitled Empyrean (Not Book Four)" [ref=e547]
+            - listitem [ref=e548]:
+              - 'link "The Jesus Discoveries: 10 Historic Finds That Bring Us Face-to-Face with Jesus" [ref=e550] [cursor=pointer]':
+                - /url: /Jesus-Discoveries-Historic-Face-Face/dp/0764243667/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "The Jesus Discoveries: 10 Historic Finds That Bring Us Face-to-Face with Jesus" [ref=e551]'
+            - listitem [ref=e552]:
+              - 'link "Theo of Golden: A Novel" [ref=e554] [cursor=pointer]':
+                - /url: /Theo-Golden-Novel-Allen-Levi/dp/1668236516/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Theo of Golden: A Novel" [ref=e555]'
+            - listitem [ref=e556]:
+              - 'link "Project Hail Mary: A Novel" [ref=e558] [cursor=pointer]':
+                - /url: /Project-Hail-Mary-Andy-Weir/dp/0593135229/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Project Hail Mary: A Novel" [ref=e559]'
+            - listitem [ref=e560]:
+              - 'link "Yesteryear: A GMA Book Club Pick: A Novel" [ref=e562] [cursor=pointer]':
+                - /url: /Yesteryear-Novel-Caro-Claire-Burke/dp/059380421X/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Yesteryear: A GMA Book Club Pick: A Novel" [ref=e563]'
+            - listitem [ref=e564]:
+              - 'link "The Correspondent: A Novel" [ref=e566] [cursor=pointer]':
+                - /url: /Correspondent-Novel-Virginia-Evans/dp/0593798430/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "The Correspondent: A Novel" [ref=e567]'
+            - listitem [ref=e568]:
+              - 'link "The Let Them Theory: A Life-Changing Tool That Millions of People Can''t Stop Talking About" [ref=e570] [cursor=pointer]':
+                - /url: /Let-Them-Theory-Life-Changing-Millions/dp/1401971369/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "The Let Them Theory: A Life-Changing Tool That Millions of People Can''t Stop Talking About" [ref=e571]'
+            - listitem [ref=e572]:
+              - link "I Love You to the Moon and Back" [ref=e574] [cursor=pointer]:
+                - /url: /I-Love-You-Moon-Back/dp/1589255518/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "I Love You to the Moon and Back" [ref=e575]
+            - listitem [ref=e576]:
+              - 'link "Strangers: A Memoir of Marriage" [ref=e578] [cursor=pointer]':
+                - /url: /Strangers-Memoir-Marriage-Belle-Burden/dp/0593733312/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Strangers: A Memoir of Marriage" [ref=e579]'
+            - listitem [ref=e580]:
+              - 'link "Start With Yourself: A New Vision for Work & Life" [ref=e582] [cursor=pointer]':
+                - /url: /Start-Yourself-Vision-Work-Life/dp/1668085488/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Start With Yourself: A New Vision for Work & Life" [ref=e583]'
+            - listitem [ref=e584]:
+              - 'link "London Falling: A Mysterious Death in a Gilded City and a Family''s Search for Truth" [ref=e586] [cursor=pointer]':
+                - /url: /London-Falling-Mysterious-Gilded-Familys/dp/0385548532/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "London Falling: A Mysterious Death in a Gilded City and a Family''s Search for Truth" [ref=e587]'
+            - listitem [ref=e588]:
+              - link "The Sixth Faction Deluxe Limited Edition" [ref=e590] [cursor=pointer]:
+                - /url: /Sixth-Faction-Deluxe-Limited/dp/0063462540/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "The Sixth Faction Deluxe Limited Edition" [ref=e591]
+            - listitem [ref=e592]:
+              - link "The Very Hungry Caterpillar" [ref=e594] [cursor=pointer]:
+                - /url: /Very-Hungry-Caterpillar-Eric-Carle/dp/0399226907/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "The Very Hungry Caterpillar" [ref=e595]
+            - listitem [ref=e596]:
+              - link "When We See You Again" [ref=e598] [cursor=pointer]:
+                - /url: /When-We-See-You-Again/dp/B0GFSNF8GV/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "When We See You Again" [ref=e599]
+            - listitem [ref=e600]:
+              - link "Oh, the Places You'll Go!" [ref=e602] [cursor=pointer]:
+                - /url: /Oh-Places-Youll-Dr-Seuss/dp/0679805273/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "Oh, the Places You'll Go!" [ref=e603]
+            - listitem [ref=e604]:
+              - 'link "Famesick: A Memoir" [ref=e606] [cursor=pointer]':
+                - /url: /Famesick-Memoir-Lena-Dunham/dp/0593129326/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Famesick: A Memoir" [ref=e607]'
+            - listitem [ref=e608]:
+              - 'link "Remarkably Bright Creatures: A Novel" [ref=e610] [cursor=pointer]':
+                - /url: /Remarkably-Bright-Creatures-Shelby-Pelt/dp/0063204169/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Remarkably Bright Creatures: A Novel" [ref=e611]'
+            - listitem [ref=e612]:
+              - link "Man's Search for Meaning" [ref=e614] [cursor=pointer]:
+                - /url: /Mans-Search-Meaning-Viktor-Frankl/dp/0807014273/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "Man's Search for Meaning" [ref=e615]
+            - listitem [ref=e616]:
+              - link "The Rainbow Fish" [ref=e618] [cursor=pointer]:
+                - /url: /Rainbow-Fish-Marcus-Pfister/dp/1558585362/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "The Rainbow Fish" [ref=e619]
+            - listitem [ref=e620]:
+              - 'link "The King Is Coming: It''s Time to Prepare for the Return of Christ" [ref=e622] [cursor=pointer]':
+                - /url: /King-Coming-Prepare-Return-Christ/dp/1400349672/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "The King Is Coming: It''s Time to Prepare for the Return of Christ" [ref=e623]'
+            - listitem [ref=e624]:
+              - 'link "Through Mom''s Eyes: Simple Wisdom From Mothers Who Raised Extraordinary Humans" [ref=e626] [cursor=pointer]':
+                - /url: /Through-Moms-Eyes-Mothers-Extraordinary/dp/0593719336/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Through Mom''s Eyes: Simple Wisdom From Mothers Who Raised Extraordinary Humans" [ref=e627]'
+            - listitem [ref=e628]:
+              - 'link "Burn of the Everflame: A Novel" [ref=e630] [cursor=pointer]':
+                - /url: /Burn-Everflame-Novel-Penn-Cole/dp/1668200228/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Burn of the Everflame: A Novel" [ref=e631]'
+            - listitem [ref=e632]:
+              - link "Hope Rises" [ref=e634] [cursor=pointer]:
+                - /url: /Hope-Rises-David-Baldacci/dp/1538758024/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "Hope Rises" [ref=e635]
+            - listitem [ref=e636]:
+              - link "Invincible Compendium Volume 1" [ref=e638] [cursor=pointer]:
+                - /url: /Invincible-Compendium-One-Robert-Kirkman/dp/1607064111/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "Invincible Compendium Volume 1" [ref=e639]
+            - listitem [ref=e640]:
+              - 'link "Brown Bear, Brown Bear, What Do You See?: 50th Anniversary Edition" [ref=e642] [cursor=pointer]':
+                - /url: /Brown-Bear-What-You-See/dp/0805047905/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Brown Bear, Brown Bear, What Do You See?: 50th Anniversary Edition" [ref=e643]'
+            - listitem [ref=e644]:
+              - 'link "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones" [ref=e646] [cursor=pointer]':
+                - /url: /Atomic-Habits-Proven-Build-Break/dp/0735211299/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones" [ref=e647]'
+            - listitem [ref=e648]:
+              - 'link "My First Library: Boxset of 10 Board Books for Kids" [ref=e650] [cursor=pointer]':
+                - /url: /My-First-Library-Boxset-Board/dp/9387779262/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "My First Library: Boxset of 10 Board Books for Kids" [ref=e651]'
+            - listitem [ref=e652]:
+              - 'link "My Husband''s Wife: A Novel" [ref=e654] [cursor=pointer]':
+                - /url: /My-Husbands-Wife-Alice-Feeney/dp/125033781X/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - 'img "My Husband''s Wife: A Novel" [ref=e655]'
+            - listitem [ref=e656]:
+              - link "The Going To Bed Book" [ref=e658] [cursor=pointer]:
+                - /url: /Going-Bed-Book-Sandra-Boynton/dp/0671449028/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "The Going To Bed Book" [ref=e659]
+            - listitem [ref=e660]:
+              - link "Dungeon Crawler Carl" [ref=e662] [cursor=pointer]:
+                - /url: /Dungeon-Crawler-Carl-Matt-Dinniman/dp/0593820258/?_encoding=UTF8&pd_rd_w=IWteq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_283155
+                - img "Dungeon Crawler Carl" [ref=e663]
+        - separator [ref=e665]
+        - generic [ref=e667]:
+          - heading "Mother's day edit" [level=2] [ref=e669]
+          - generic [ref=e670]:
+            - generic [ref=e671]:
+              - link "Jewelry" [ref=e673] [cursor=pointer]:
+                - /url: /stores/page/468E368A-DF18-46C1-B054-E18EF4879D15/?_encoding=UTF8&channel=quadcardjewelry&pd_rd_w=sKIOv&content-id=amzn1.sym.1ec7a30d-a415-4317-98f1-187b6e6f59cb&pf_rd_p=1ec7a30d-a415-4317-98f1-187b6e6f59cb&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+                - img "Jewelry" [ref=e675]
+                - generic [ref=e677]: Jewelry
+              - link "Sleepwear" [ref=e679] [cursor=pointer]:
+                - /url: /stores/page/A8711101-84FC-4EBC-8A5D-8C7F651A352B/?_encoding=UTF8&channel=quadsleepwear&pd_rd_w=sKIOv&content-id=amzn1.sym.1ec7a30d-a415-4317-98f1-187b6e6f59cb&pf_rd_p=1ec7a30d-a415-4317-98f1-187b6e6f59cb&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+                - img "Sleepwear" [ref=e681]
+                - generic [ref=e683]: Sleepwear
+            - generic [ref=e684]:
+              - link "shoes" [ref=e686] [cursor=pointer]:
+                - /url: /stores/page/E8793AC7-E86F-4946-9DC0-1FF5F980E8A3/?_encoding=UTF8&channel=quadcardshoes&pd_rd_w=sKIOv&content-id=amzn1.sym.1ec7a30d-a415-4317-98f1-187b6e6f59cb&pf_rd_p=1ec7a30d-a415-4317-98f1-187b6e6f59cb&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+                - img "shoes" [ref=e688]
+                - generic [ref=e690]: Shoes
+              - link "Shop all" [ref=e692] [cursor=pointer]:
+                - /url: /stores/page/CBFC36BB-5149-4823-9E99-188FDEBF8A41/?_encoding=UTF8&channel=quadmothersdayedit&pd_rd_w=sKIOv&content-id=amzn1.sym.1ec7a30d-a415-4317-98f1-187b6e6f59cb&pf_rd_p=1ec7a30d-a415-4317-98f1-187b6e6f59cb&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+                - img "Shop all" [ref=e694]
+                - generic [ref=e696]: Shop all
+          - link "Mother's day edit - See more gifts on Shopbop" [ref=e698] [cursor=pointer]:
+            - /url: /stores/page/135F2992-CF34-468F-B67F-101F73A197E3/?_encoding=UTF8&channel=quadcardtheshopbyshopbop&pd_rd_w=sKIOv&content-id=amzn1.sym.1ec7a30d-a415-4317-98f1-187b6e6f59cb&pf_rd_p=1ec7a30d-a415-4317-98f1-187b6e6f59cb&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+            - generic [ref=e699]:
+              - generic [ref=e700]: See more gifts on Shopbop
+              - generic [ref=e701]: See more gifts on Shopbop
+        - generic [ref=e703]:
+          - heading "Pet wellness must-haves" [level=2] [ref=e705]
+          - generic [ref=e706]:
+            - generic [ref=e707]:
+              - link "Dog flea & tick" [ref=e709] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=Dog%20Flea%20%26%20Tick%20Control&rh=n%3A2975384011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-top-slot-2&ref=nb_sb_noss&pd_rd_w=bVpx7&content-id=amzn1.sym.3d52a903-43ef-404d-b1ce-bd21fb65f6ee&pf_rd_p=3d52a903-43ef-404d-b1ce-bd21fb65f6ee&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+                - img "Dog flea & tick" [ref=e711]
+                - generic [ref=e713]: Dog flea & tick
+              - link "Cat flea & tick" [ref=e715] [cursor=pointer]:
+                - /url: /s/ref=null_3/?_encoding=UTF8&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-top-slot-2&pf_rd_t=&pf_rd_i=&k=Cat%20Flea%20%26%20Tick%20Control&rh=n%3A2975280011&ref=nb_sb_noss&pd_rd_w=bVpx7&content-id=amzn1.sym.3d52a903-43ef-404d-b1ce-bd21fb65f6ee&pf_rd_p=3d52a903-43ef-404d-b1ce-bd21fb65f6ee&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+                - img "Cat flea & tick" [ref=e717]
+                - generic [ref=e719]: Cat flea & tick
+            - generic [ref=e720]:
+              - link "Vitamins & Supplements" [ref=e722] [cursor=pointer]:
+                - /url: /s/ref=null_7/?_encoding=UTF8&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-top-slot-2&pf_rd_t=&pf_rd_i=&k=pet%20vitamins%20and%20supplements&crid=2D7ALOTM8JTM1&sprefix=pet%20vitamins%20and%20supplements%2Caps%2C192&ref=nb_sb_noss_1&pd_rd_w=bVpx7&content-id=amzn1.sym.3d52a903-43ef-404d-b1ce-bd21fb65f6ee&pf_rd_p=3d52a903-43ef-404d-b1ce-bd21fb65f6ee&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+                - img "Vitamins & Supplements" [ref=e724]
+                - generic [ref=e726]: Supplements
+              - link "Pet wellness deals" [ref=e728] [cursor=pointer]:
+                - /url: /b/ref=null_1/?_encoding=UTF8&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-top-slot-2&pf_rd_t=&pf_rd_i=&ie=UTF8&node=5799614011&ref_=sv_petsupplies_9&pd_rd_w=bVpx7&content-id=amzn1.sym.3d52a903-43ef-404d-b1ce-bd21fb65f6ee&pf_rd_p=3d52a903-43ef-404d-b1ce-bd21fb65f6ee&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e
+                - img "Pet wellness deals" [ref=e730]
+                - generic [ref=e732]: Pet wellness deals
+          - link "Pet wellness must-haves - Shop all pet wellness" [ref=e734] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&k=pet%20wellness&i=pets&crid=1VIB2LG60H6DC&sprefix=pet%20we%2Cpets%2C204&ref=nb_sb_ss_p13n-expert-pd-ops-ranker_1_6&pd_rd_w=bVpx7&content-id=amzn1.sym.3d52a903-43ef-404d-b1ce-bd21fb65f6ee&pf_rd_p=3d52a903-43ef-404d-b1ce-bd21fb65f6ee&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+            - generic [ref=e735]:
+              - generic [ref=e736]: Shop all pet wellness
+              - generic [ref=e737]: Shop all pet wellness
+        - generic [ref=e739]:
+          - heading "Boys' spring styles" [level=2] [ref=e741]
+          - generic [ref=e742]:
+            - generic [ref=e743]:
+              - link "sneakers" [ref=e745] [cursor=pointer]:
+                - /url: /stores/page/1F69C0F3-BFDE-4699-BB2A-7A7F606F4732/?_encoding=UTF8&pd_rd_w=AnRyo&content-id=amzn1.sym.56e3cdd8-dd0d-454f-8453-d6c641bb7d56&pf_rd_p=56e3cdd8-dd0d-454f-8453-d6c641bb7d56&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+                - img "sneakers" [ref=e747]
+                - generic [ref=e749]: Sneakers
+              - link "clogs" [ref=e751] [cursor=pointer]:
+                - /url: /stores/page/59B5A4B6-0522-475F-8F58-0B882A7D5503/?_encoding=UTF8&pd_rd_w=AnRyo&content-id=amzn1.sym.56e3cdd8-dd0d-454f-8453-d6c641bb7d56&pf_rd_p=56e3cdd8-dd0d-454f-8453-d6c641bb7d56&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+                - img "clogs" [ref=e753]
+                - generic [ref=e755]: Clogs
+            - generic [ref=e756]:
+              - link "rain boot" [ref=e758] [cursor=pointer]:
+                - /url: /stores/page/13B61AF5-F37C-4C95-972C-47129EB01366/?_encoding=UTF8&pd_rd_w=AnRyo&content-id=amzn1.sym.56e3cdd8-dd0d-454f-8453-d6c641bb7d56&pf_rd_p=56e3cdd8-dd0d-454f-8453-d6c641bb7d56&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+                - img "rain boot" [ref=e760]
+                - generic [ref=e762]: Rain boots
+              - link "sport shoes" [ref=e764] [cursor=pointer]:
+                - /url: /stores/page/840F8BBB-30AC-4C18-8F7A-3F3345410E6C/?_encoding=UTF8&pd_rd_w=AnRyo&content-id=amzn1.sym.56e3cdd8-dd0d-454f-8453-d6c641bb7d56&pf_rd_p=56e3cdd8-dd0d-454f-8453-d6c641bb7d56&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+                - img "sport shoes" [ref=e766]
+                - generic [ref=e768]: Sport shoes
+          - link "Boys' spring styles - Shop all Zappos" [ref=e770] [cursor=pointer]:
+            - /url: /stores/page/B5032B67-6A60-4FB3-94CE-CF078EA8D884/?_encoding=UTF8&ingress=0&visitId=cad27847-a481-4ead-8a1f-c489cd76cca7&pd_rd_w=AnRyo&content-id=amzn1.sym.56e3cdd8-dd0d-454f-8453-d6c641bb7d56&pf_rd_p=56e3cdd8-dd0d-454f-8453-d6c641bb7d56&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_unk
+            - generic [ref=e771]:
+              - generic [ref=e772]: Shop all Zappos
+              - generic [ref=e773]: Shop all Zappos
+        - generic [ref=e775]:
+          - heading "Small space solutions" [level=2] [ref=e777]
+          - link "Small space furniture solutions Shop small space furniture & décor" [ref=e778] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=21385226011&ref_=0824_smallspaces&pd_rd_w=V3WlX&content-id=amzn1.sym.2bdc546d-4f32-466e-afe2-d7c2e25c0f69&pf_rd_p=2bdc546d-4f32-466e-afe2-d7c2e25c0f69&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e
+            - img "Small space furniture solutions" [ref=e781]
+            - generic [ref=e783]:
+              - generic [ref=e784]: Shop small space furniture & décor
+              - generic [ref=e785]: Shop small space furniture & décor
+        - separator [ref=e786]
+        - generic [ref=e789]:
+          - heading "Best Sellers in Beauty & Personal Care" [level=2] [ref=e791]
+          - list [ref=e794]:
+            - listitem [ref=e795]:
+              - link "medicube Toner Pads Zero Pore Pad 2.0 | Dual-Textured Facial Pad for Exfoliation and Pore Care with 4.5% AHA Lactic..." [ref=e797] [cursor=pointer]:
+                - /url: /Medicube-Zero-Pore-Pads-Dual-Textured/dp/B09V7Z4TJG/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "medicube Toner Pads Zero Pore Pad 2.0 | Dual-Textured Facial Pad for Exfoliation and Pore Care with 4.5% AHA Lactic..." [ref=e798]
+            - listitem [ref=e799]:
+              - link "eos Shea Better Body Lotion Vanilla Cashmere, 24-Hour Moisture Skin Care, Lightweight & Non-Greasy, Natural Shea, Vegan,..." [ref=e801] [cursor=pointer]:
+                - /url: /eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "eos Shea Better Body Lotion Vanilla Cashmere, 24-Hour Moisture Skin Care, Lightweight & Non-Greasy, Natural Shea, Vegan,..." [ref=e802]
+            - listitem [ref=e803]:
+              - 'link "Mighty Patch Original Patch from Hero Cosmetics - #1 Hydrocolloid Acne Pimple Patches for Face, Shrinking Zits &..." [ref=e805] [cursor=pointer]':
+                - /url: /Mighty-Patch-Hydrocolloid-Absorbing-count/dp/B074PVTPBW/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - 'img "Mighty Patch Original Patch from Hero Cosmetics - #1 Hydrocolloid Acne Pimple Patches for Face, Shrinking Zits &..." [ref=e806]'
+            - listitem [ref=e807]:
+              - link "The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone" [ref=e809] [cursor=pointer]:
+                - /url: /Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B071914GGL/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone" [ref=e810]
+            - listitem [ref=e811]:
+              - link "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping,..." [ref=e813] [cursor=pointer]:
+                - /url: /Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping,..." [ref=e814]
+            - listitem [ref=e815]:
+              - link "Neutrogena Makeup Remover Wipes Micellar Alcohol-Free Face Towelettes Remove Waterproof Mascara & Oil, Compostable 100%..." [ref=e817] [cursor=pointer]:
+                - /url: /Neutrogena-Cleansing-Towelettes-Waterproof-Alcohol-Free/dp/B00U2VQZDS/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Neutrogena Makeup Remover Wipes Micellar Alcohol-Free Face Towelettes Remove Waterproof Mascara & Oil, Compostable 100%..." [ref=e818]
+            - listitem [ref=e819]:
+              - link "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted,..." [ref=e821] [cursor=pointer]:
+                - /url: /Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted,..." [ref=e822]
+            - listitem [ref=e823]:
+              - link "essence | Lash Princess False Lash Effect Mascara | Volumizing & Lengthening | Cruelty Free & Paraben Free" [ref=e825] [cursor=pointer]:
+                - /url: /essence-Princess-Effect-Mascara-Cruelty/dp/B00T0C9XRK/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "essence | Lash Princess False Lash Effect Mascara | Volumizing & Lengthening | Cruelty Free & Paraben Free" [ref=e826]
+            - listitem [ref=e827]:
+              - link "Maybelline Lash Sensational Sky High Washable Mascara Makeup, Volumizing, Lengthening, Defining, Curling, Multiplying,..." [ref=e829] [cursor=pointer]:
+                - /url: /Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Maybelline Lash Sensational Sky High Washable Mascara Makeup, Volumizing, Lengthening, Defining, Curling, Multiplying,..." [ref=e830]
+            - listitem [ref=e831]:
+              - link "MRS. MEYER'S CLEAN DAY Hand Soap Refill, Rain Water Scent, 33 Fl Oz Bottle" [ref=e833] [cursor=pointer]:
+                - /url: /MRS-MEYERS-CLEAN-DAY-Biodegradable/dp/B07MFMWFYL/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "MRS. MEYER'S CLEAN DAY Hand Soap Refill, Rain Water Scent, 33 Fl Oz Bottle" [ref=e834]
+            - listitem [ref=e835]:
+              - link "eos Body Wash, Vanilla, Moisturizing Creamy Gel Formula with Shea Butter, Glycerin, Vitamin E, pH Balanced, Sensitive..." [ref=e837] [cursor=pointer]:
+                - /url: /eos-Moisturizing-Nourishing-Phthalate-Sensitive/dp/B0DPHQRLJC/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "eos Body Wash, Vanilla, Moisturizing Creamy Gel Formula with Shea Butter, Glycerin, Vitamin E, pH Balanced, Sensitive..." [ref=e838]
+            - listitem [ref=e839]:
+              - link "Nizoral Anti-Dandruff Shampoo with 1% Ketoconazole, Fresh Scent, 7 Fl Oz" [ref=e841] [cursor=pointer]:
+                - /url: /Nizoral-Anti-Dandruff-Shampoo-Ketoconazole-Dandruff/dp/B00AINMFAC/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Nizoral Anti-Dandruff Shampoo with 1% Ketoconazole, Fresh Scent, 7 Fl Oz" [ref=e842]
+            - listitem [ref=e843]:
+              - link "The Ordinary Niacinamide 10% + Zinc 1%, Smoothing Serum for Blemish-Prone Skin" [ref=e845] [cursor=pointer]:
+                - /url: /Ordinary-Niacinamide-10-Zinc-30ml/dp/B01MDTVZTZ/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "The Ordinary Niacinamide 10% + Zinc 1%, Smoothing Serum for Blemish-Prone Skin" [ref=e846]
+            - listitem [ref=e847]:
+              - link "Amazon Basics Hypoallergenic Cotton Rounds for Makeup Removal and Skincare, 100 Count, 1 Pack" [ref=e849] [cursor=pointer]:
+                - /url: /Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Amazon Basics Hypoallergenic Cotton Rounds for Makeup Removal and Skincare, 100 Count, 1 Pack" [ref=e850]
+            - listitem [ref=e851]:
+              - link "The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides), Multi-Depth Hydration Serum for Plumper, Smoother Skin" [ref=e853] [cursor=pointer]:
+                - /url: /Ordinary-Hyaluronic-Acid-2-30ml/dp/B01MYEZPC8/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides), Multi-Depth Hydration Serum for Plumper, Smoother Skin" [ref=e854]
+            - listitem [ref=e855]:
+              - link "La Roche-Posay Toleriane Double Repair Face Moisturizer, Daily Moisturizer Face Cream with Ceramide & Niacinamide for..." [ref=e857] [cursor=pointer]:
+                - /url: /Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "La Roche-Posay Toleriane Double Repair Face Moisturizer, Daily Moisturizer Face Cream with Ceramide & Niacinamide for..." [ref=e858]
+            - listitem [ref=e859]:
+              - link "Q-tips Cotton Swabs For Hygiene and Beauty Care Original Cotton Swab Made With 100% Cotton 625 Count" [ref=e861] [cursor=pointer]:
+                - /url: /Q-tips-Cotton-Swabs-625-ct/dp/B01AXQP6AE/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Q-tips Cotton Swabs For Hygiene and Beauty Care Original Cotton Swab Made With 100% Cotton 625 Count" [ref=e862]
+            - listitem [ref=e863]:
+              - link "EltaMD UV Clear Face Sunscreen, Oil Free Sunscreen for Sensitive Skin with Zinc Oxide, Dermatologist Recommended" [ref=e865] [cursor=pointer]:
+                - /url: /EltaMD-Acne-Prone-Mineral-Based-Dermatologist-Recommended/dp/B002MSN3QQ/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "EltaMD UV Clear Face Sunscreen, Oil Free Sunscreen for Sensitive Skin with Zinc Oxide, Dermatologist Recommended" [ref=e866]
+            - listitem [ref=e867]:
+              - link "CeraVe Daily Moisturizing Lotion for Dry Skin, Body Lotion & Face Moisturizer with Hyaluronic Acid and Ceramides, Daily..." [ref=e869] [cursor=pointer]:
+                - /url: /CeraVe-Moisturizing-Lotion-Hyaluronic-Fragrance/dp/B07RK4HST7/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "CeraVe Daily Moisturizing Lotion for Dry Skin, Body Lotion & Face Moisturizer with Hyaluronic Acid and Ceramides, Daily..." [ref=e870]
+            - listitem [ref=e871]:
+              - link "Revlon ColorStay Pencil Waterproof Eyeliner, Smudge-Proof, Eye Makeup with Built-In Sharpener, 202 Black Brown, 0.01 oz" [ref=e873] [cursor=pointer]:
+                - /url: /ColorStay-Waterproof-Smudgeproof-Longwearing-Ultra-Fine/dp/B000H3I2JG/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Revlon ColorStay Pencil Waterproof Eyeliner, Smudge-Proof, Eye Makeup with Built-In Sharpener, 202 Black Brown, 0.01 oz" [ref=e874]
+            - listitem [ref=e875]:
+              - link "medicube Wrapping Mask Collagen Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness..." [ref=e877] [cursor=pointer]:
+                - /url: /Medicube-Collagen-Wrapping-Elasticity-Hydration/dp/B0BRMYHMS5/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "medicube Wrapping Mask Collagen Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness..." [ref=e878]
+            - listitem [ref=e879]:
+              - link "Vanicream Daily Facial Moisturizer With Ceramides and Hyaluronic Acid - Formulated Without Common Irritants for Those..." [ref=e881] [cursor=pointer]:
+                - /url: /Vanicream-Moisturizer-Hyaluronic-pH-Balanced-Dermatologist/dp/B08BW46XXK/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Vanicream Daily Facial Moisturizer With Ceramides and Hyaluronic Acid - Formulated Without Common Irritants for Those..." [ref=e882]
+            - listitem [ref=e883]:
+              - link "Salt & Stone Aluminum Free Deodorant | Extra Strength 48 Hour Protection for Women & Men | Made with Seaweed Extracts,..." [ref=e885] [cursor=pointer]:
+                - /url: /Salt-Stone-Deodorant-Aluminum-protection/dp/B08WYXNVQ7/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Salt & Stone Aluminum Free Deodorant | Extra Strength 48 Hour Protection for Women & Men | Made with Seaweed Extracts,..." [ref=e886]
+            - listitem [ref=e887]:
+              - link "Q-tips Cotton Swabs, Original, For Home, First Aid and Beauty, 100% Cotton, 500 Count" [ref=e889] [cursor=pointer]:
+                - /url: /Q-tips-Cotton-Swabs-Original-500/dp/B0014CZ16Q/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Q-tips Cotton Swabs, Original, For Home, First Aid and Beauty, 100% Cotton, 500 Count" [ref=e890]
+            - listitem [ref=e891]:
+              - link "Amazon Basics Gentle & Mild Clear Liquid Hand Soap Refill, Triclosan-Free, Dermatologist-Tested, pH Balanced,..." [ref=e893] [cursor=pointer]:
+                - /url: /Amazon-Basics-Gentle-Liquid-Triclosan-free/dp/B09HHDHXWX/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Amazon Basics Gentle & Mild Clear Liquid Hand Soap Refill, Triclosan-Free, Dermatologist-Tested, pH Balanced,..." [ref=e894]
+            - listitem [ref=e895]:
+              - link "Tree Hut Vanilla Shea Sugar Scrub, Mothers Day Gifts, Exfoliating & Hydrating Body Scrub with Shea Butter & Essential..." [ref=e897] [cursor=pointer]:
+                - /url: /Tree-Hut-Variety-Strawberry-Champaine/dp/B0BX2TZZWG/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Tree Hut Vanilla Shea Sugar Scrub, Mothers Day Gifts, Exfoliating & Hydrating Body Scrub with Shea Butter & Essential..." [ref=e898]
+            - listitem [ref=e899]:
+              - link "CeraVe Hydrating Facial Cleanser, Moisturizing Face Wash For Dry Skin, Hyaluronic Acid + Ceramides + Glycerin, Hydrating..." [ref=e901] [cursor=pointer]:
+                - /url: /CeraVe-Hydrating-Facial-Cleanser-Fragrance/dp/B01MSSDEPK/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "CeraVe Hydrating Facial Cleanser, Moisturizing Face Wash For Dry Skin, Hyaluronic Acid + Ceramides + Glycerin, Hydrating..." [ref=e902]
+            - listitem [ref=e903]:
+              - link "Amazon Basics Epsom Salt Soak, Unscented, Magnesium Sulfate USP, Muscle and Feet Relaxation, Resealable Bag, 3 Pound" [ref=e905] [cursor=pointer]:
+                - /url: /Amazon-Basics-Magnesium-Sulfate-1-Pack/dp/B0BXTS6L35/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "Amazon Basics Epsom Salt Soak, Unscented, Magnesium Sulfate USP, Muscle and Feet Relaxation, Resealable Bag, 3 Pound" [ref=e906]
+            - listitem [ref=e907]:
+              - link "medicube PDRN Pink Peptide Serum with Salmon DNA | Pink Glow Serum with Peptides & Niacinamide for Hydration &..." [ref=e909] [cursor=pointer]:
+                - /url: /medicube-Niacinamide-Hydrating-Moisturizing-Skincare/dp/B0DBF65JYY/?_encoding=UTF8&pd_rd_w=9eHMq&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_3760911
+                - img "medicube PDRN Pink Peptide Serum with Salmon DNA | Pink Glow Serum with Peptides & Niacinamide for Hydration &..." [ref=e910]
+        - separator [ref=e912]
+        - generic [ref=e915]:
+          - heading "Best Sellers in Grocery & Gourmet Food" [level=2] [ref=e917]
+          - list [ref=e920]:
+            - listitem [ref=e921]:
+              - link "CELSIUS Fizz Free Peach Mango Green Tea, Sugar Free Energy Drink, 12 Fl Oz (Pack of 12)" [ref=e923] [cursor=pointer]:
+                - /url: /CELSIUS-Peach-Mango-Non-Carbonated-Fitness/dp/B00AATAHY0/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "CELSIUS Fizz Free Peach Mango Green Tea, Sugar Free Energy Drink, 12 Fl Oz (Pack of 12)" [ref=e924]
+            - listitem [ref=e925]:
+              - link "Nespresso Capsules Vertuo, Variety Pack, Medium and Dark Roast Coffee, 30 Count Coffee Pods, Brews 7.8 oz." [ref=e927] [cursor=pointer]:
+                - /url: /Nespresso-Vertuoline-Seller-Assortment-Count/dp/B01N05APQY/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Nespresso Capsules Vertuo, Variety Pack, Medium and Dark Roast Coffee, 30 Count Coffee Pods, Brews 7.8 oz." [ref=e928]
+            - listitem [ref=e929]:
+              - link "Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Ounce | Pack of 15" [ref=e931] [cursor=pointer]:
+                - /url: /Monster-Energy-Ultra-Sugar-Drink/dp/B0BL7316GD/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Ounce | Pack of 15" [ref=e932]
+            - listitem [ref=e933]:
+              - link "Premier Protein Shake, Chocolate, 30g Protein, No Added Sugar, 24 Vitamins & Minerals to Support Immune Health, 11.5 fl..." [ref=e935] [cursor=pointer]:
+                - /url: /Premier-Protein-Shake-Chocolate-11-5/dp/B07MJL8NXR/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Premier Protein Shake, Chocolate, 30g Protein, No Added Sugar, 24 Vitamins & Minerals to Support Immune Health, 11.5 fl..." [ref=e936]
+            - listitem [ref=e937]:
+              - link "Premier Protein Shake, Chocolate, 30g Protein, No Added Sugar, 24 Vitamins & Minerals to Support Immune Health, 11 fl..." [ref=e939] [cursor=pointer]:
+                - /url: /Premier-Protein-High-Shake-Chocolate/dp/B008JGIZGS/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Premier Protein Shake, Chocolate, 30g Protein, No Added Sugar, 24 Vitamins & Minerals to Support Immune Health, 11 fl..." [ref=e940]
+            - listitem [ref=e941]:
+              - link "Sparkling Ice, Black Raspberry Sparkling Water, Zero Sugar Flavored Water, with Vitamins and Antioxidants, Low Calorie..." [ref=e943] [cursor=pointer]:
+                - /url: /Sparkling-Raspberry-Antioxidants-Vitamins-Bottles/dp/B003P02EGU/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Sparkling Ice, Black Raspberry Sparkling Water, Zero Sugar Flavored Water, with Vitamins and Antioxidants, Low Calorie..." [ref=e944]
+            - listitem [ref=e945]:
+              - link "Core Power Elite High Protein Shake, Chocolate, 42g Bottle, 14oz, 12 Pack" [ref=e947] [cursor=pointer]:
+                - /url: /Core-Power-fairlife-Protein-Chocolate/dp/B01DDIRDZA/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Core Power Elite High Protein Shake, Chocolate, 42g Bottle, 14oz, 12 Pack" [ref=e948]
+            - listitem [ref=e949]:
+              - link "Bloom Nutrition Sparkling Energy Drink - Variety Pack - Natural Caffeine, Zero Sugar, 180mg Caffeine - Antioxidant-Rich..." [ref=e951] [cursor=pointer]:
+                - /url: /Bloom-Nutrition-Sparkling-Energy-Drink/dp/B0DFNM6NVQ/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Bloom Nutrition Sparkling Energy Drink - Variety Pack - Natural Caffeine, Zero Sugar, 180mg Caffeine - Antioxidant-Rich..." [ref=e952]
+            - listitem [ref=e953]:
+              - link "DaVinci Gourmet Classic Blue Raspberry, 25.4 Fluid Ounces (Pack of 1)" [ref=e955] [cursor=pointer]:
+                - /url: /Kerry-Beverage-Raspberry-Syrup-Milliliter/dp/B0849N8W1M/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "DaVinci Gourmet Classic Blue Raspberry, 25.4 Fluid Ounces (Pack of 1)" [ref=e956]
+            - listitem [ref=e957]:
+              - link "Propel, Kiwi Strawberry, Zero Calorie Sports Drinking Water with Electrolytes and Vitamins C&E, 16.9 Fl Oz (12 Count)" [ref=e959] [cursor=pointer]:
+                - /url: /Propel-Strawberry-Flavored-Electrolytes-Vitamins/dp/B002U58PRI/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Propel, Kiwi Strawberry, Zero Calorie Sports Drinking Water with Electrolytes and Vitamins C&E, 16.9 Fl Oz (12 Count)" [ref=e960]
+            - listitem [ref=e961]:
+              - link "Core Power Protein Shake, Chocolate, 26g Bottle, 14oz, 12 Pack" [ref=e963] [cursor=pointer]:
+                - /url: /Core-Power-Protein-Shake-Chocolate/dp/B07LD2NV9X/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Core Power Protein Shake, Chocolate, 26g Bottle, 14oz, 12 Pack" [ref=e964]
+            - listitem [ref=e965]:
+              - link "Diet Coke Soda Soft Drink Fridge Pack Cans, 12 fl oz, 12 Pack" [ref=e967] [cursor=pointer]:
+                - /url: /Diet-Coke-12-Pack/dp/B000T9WLUY/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Diet Coke Soda Soft Drink Fridge Pack Cans, 12 fl oz, 12 Pack" [ref=e968]
+            - listitem [ref=e969]:
+              - link "Hint Infused Bottled, Best Sellers Variety Pack - Sugar Free Flavored with Zero Calories, Natural Essences, and No..." [ref=e971] [cursor=pointer]:
+                - /url: /Hint-Fruit-Infused-Variety-Bottles/dp/B01E6WOVX4/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Hint Infused Bottled, Best Sellers Variety Pack - Sugar Free Flavored with Zero Calories, Natural Essences, and No..." [ref=e972]
+            - listitem [ref=e973]:
+              - link "Alani Nu CHERRY SLUSH Ice Sugar Free, Low Calorie Energy Drinks | 200mg Caffeine | Antioxidants | Biotin, B Vitamins |..." [ref=e975] [cursor=pointer]:
+                - /url: /Alani-Nu-Caffeine-Vitamins-Calories/dp/B0CN3S8FXH/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Alani Nu CHERRY SLUSH Ice Sugar Free, Low Calorie Energy Drinks | 200mg Caffeine | Antioxidants | Biotin, B Vitamins |..." [ref=e976]
+            - listitem [ref=e977]:
+              - link "Monster Rehab Tea + Lemonade + Energy, Energy Drink 15.5 Ounce | Energy Iced Tea, Pack of 15" [ref=e979] [cursor=pointer]:
+                - /url: /Monster-Rehab-Lemonade-Energy-Drink/dp/B0BL756S36/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Monster Rehab Tea + Lemonade + Energy, Energy Drink 15.5 Ounce | Energy Iced Tea, Pack of 15" [ref=e980]
+            - listitem [ref=e981]:
+              - link "PUR Gum | Aspartame Free Chewing Gum | 100% Xylitol | Natural Spearmint Flavored Gum, 55 Pieces (Pack of 1)" [ref=e983] [cursor=pointer]:
+                - /url: /PUR-Gum-Spearmint-pieces-Aspartame/dp/B00ARABK20/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "PUR Gum | Aspartame Free Chewing Gum | 100% Xylitol | Natural Spearmint Flavored Gum, 55 Pieces (Pack of 1)" [ref=e984]
+            - listitem [ref=e985]:
+              - link "Nespresso Capsules Vertuo, Barista Flavored Pack, Medium Roast Coffee, 30 Count Coffee Pods, Brews 7.8oz." [ref=e987] [cursor=pointer]:
+                - /url: /Nespresso-Capsules-Vertuo-Barista-Flavored/dp/B0BZJVFFNM/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Nespresso Capsules Vertuo, Barista Flavored Pack, Medium Roast Coffee, 30 Count Coffee Pods, Brews 7.8oz." [ref=e988]
+            - listitem [ref=e989]:
+              - link "V8 Energy Pomegranate Blueberry Energy Drink, 8 fl oz Can (24 Pack)" [ref=e991] [cursor=pointer]:
+                - /url: /V8-Energy-Juice-Pomegranate-Blueberry/dp/B00CPTR7WS/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "V8 Energy Pomegranate Blueberry Energy Drink, 8 fl oz Can (24 Pack)" [ref=e992]
+            - listitem [ref=e993]:
+              - link "Blackberries, 6 oz" [ref=e995] [cursor=pointer]:
+                - /url: /Fresh-Produce-Brands-May-Vary/dp/B000P717MI/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Blackberries, 6 oz" [ref=e996]
+            - listitem [ref=e997]:
+              - link "Amazon Brand - Happy Belly Medium Roast Coffee Pods, Donut Style, Compatible with Keurig 2.0 K-Cup Brewers, 100 Count" [ref=e999] [cursor=pointer]:
+                - /url: /Amazon-Brand-Medium-Light-Compatible-Brewers/dp/B07P1ZFBRS/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Amazon Brand - Happy Belly Medium Roast Coffee Pods, Donut Style, Compatible with Keurig 2.0 K-Cup Brewers, 100 Count" [ref=e1000]
+            - listitem [ref=e1001]:
+              - link "GHOST Energy Drink - 12-Pack, Welch's Grape, 16oz Cans - Energy & Focus & No Artificial Colors - 200mg of Natural..." [ref=e1003] [cursor=pointer]:
+                - /url: /GHOST-Energy-Drink-Welchs-Grape-Caffeine/dp/B0DF1L929C/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "GHOST Energy Drink - 12-Pack, Welch's Grape, 16oz Cans - Energy & Focus & No Artificial Colors - 200mg of Natural..." [ref=e1004]
+            - listitem [ref=e1005]:
+              - link "Goldfish Crackers Big Smiles Variety Pack with Cheddar, Colors, and Pretzels, Snack Packs, 30 Ct" [ref=e1007] [cursor=pointer]:
+                - /url: /Pepperidge-Farm-Goldfish-Crackers-Classic/dp/B01GQ5GQEG/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Goldfish Crackers Big Smiles Variety Pack with Cheddar, Colors, and Pretzels, Snack Packs, 30 Ct" [ref=e1008]
+            - listitem [ref=e1009]:
+              - link "Lance Sandwich Crackers, Variety Pack, 3 Flavors, 20 Individually Wrapped Packs, 6 Sandwiches Each" [ref=e1011] [cursor=pointer]:
+                - /url: /Lance-Sandwich-Crackers-Individually-Sandwiches/dp/B01N7QS7JU/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Lance Sandwich Crackers, Variety Pack, 3 Flavors, 20 Individually Wrapped Packs, 6 Sandwiches Each" [ref=e1012]
+            - listitem [ref=e1013]:
+              - link "Cellucor C4 Performance Energy Drink | Strawberry Blast | Zero Sugar Carbonated Preworkout Energy | 200mg Caffeine with..." [ref=e1015] [cursor=pointer]:
+                - /url: /Cellucor-Strawberry-Carbonated-Performance-Artificial/dp/B09FXVQ8WN/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Cellucor C4 Performance Energy Drink | Strawberry Blast | Zero Sugar Carbonated Preworkout Energy | 200mg Caffeine with..." [ref=e1016]
+            - listitem [ref=e1017]:
+              - link "Frito-Lay Fun Times Mix Variety Pack, 2.37 Pounds, (Pack of 40)" [ref=e1019] [cursor=pointer]:
+                - /url: /Frito-Lay-Times-Variety-Pack-40Count/dp/B076H6F974/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "Frito-Lay Fun Times Mix Variety Pack, 2.37 Pounds, (Pack of 40)" [ref=e1020]
+            - listitem [ref=e1021]:
+              - link "CELSIUS On-The-Go Powder Stick Packs, Zero Sugar (14 Sticks per Pack), Berry, 2.5 Ounce" [ref=e1023] [cursor=pointer]:
+                - /url: /CELSIUS-Berry-Powder-Stick-Sticks/dp/B002RSRURY/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "CELSIUS On-The-Go Powder Stick Packs, Zero Sugar (14 Sticks per Pack), Berry, 2.5 Ounce" [ref=e1024]
+            - listitem [ref=e1025]:
+              - link "FIJI Artesian Bottled Water, 500 mL (16.9 fl oz), Pack of 24" [ref=e1027] [cursor=pointer]:
+                - /url: /FIJI-Natural-Artesian-Water-Bottles/dp/B004CQWWKY/?_encoding=UTF8&pd_rd_w=AFTvs&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_16310101
+                - img "FIJI Artesian Bottled Water, 500 mL (16.9 fl oz), Pack of 24" [ref=e1028]
+        - separator [ref=e1030]
+        - generic [ref=e1033]:
+          - heading "Best Sellers in Kitchen & Dining" [level=2] [ref=e1035]
+          - list [ref=e1038]:
+            - listitem [ref=e1039]:
+              - link "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, BPA-Free Sports Water Bottle, Great for Travel, 24 Oz,..." [ref=e1041] [cursor=pointer]:
+                - /url: /Owala-FreeSip-Insulated-Stainless-BPA-Free/dp/B0BZYCJK89/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, BPA-Free Sports Water Bottle, Great for Travel, 24 Oz,..." [ref=e1042]
+            - listitem [ref=e1043]:
+              - link "Amazon Basics Everyday Disposable Paper Plates, 8.62 Inch, Microwave-Safe, Cut Resistant, Soak-Proof, 100 Count,..." [ref=e1045] [cursor=pointer]:
+                - /url: /Amazon-Basics-Everyday-Plates-Disposable/dp/B0C2CY22B8/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Amazon Basics Everyday Disposable Paper Plates, 8.62 Inch, Microwave-Safe, Cut Resistant, Soak-Proof, 100 Count,..." [ref=e1046]
+            - listitem [ref=e1047]:
+              - link "Sparkle Pick-A-Size Paper Towels, 6 Double Rolls (660 Sheets Total) - Strong 2-Ply Towels for Kitchen Cleanup and..." [ref=e1049] [cursor=pointer]:
+                - /url: /Sparkle%C2%AE-Size%C2%AE-Towels-Double-Regular/dp/B09NW92T8Q/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Sparkle Pick-A-Size Paper Towels, 6 Double Rolls (660 Sheets Total) - Strong 2-Ply Towels for Kitchen Cleanup and..." [ref=e1050]
+            - listitem [ref=e1051]:
+              - link "Scott Paper Towels, Choose-A-Sheet, 6 Double Rolls = 12 Regular Rolls (108 Sheets Per Roll)" [ref=e1053] [cursor=pointer]:
+                - /url: /Scott-Towels-Choose-Sheet-Regular/dp/B0DF8RSVJK/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Scott Paper Towels, Choose-A-Sheet, 6 Double Rolls = 12 Regular Rolls (108 Sheets Per Roll)" [ref=e1054]
+            - listitem [ref=e1055]:
+              - link "Amazon Basics 2-Ply Flex-Sheets Paper Towels, 12 Basics Rolls = 40 Regular Rolls, Everyday Value with 150 Sheets per..." [ref=e1057] [cursor=pointer]:
+                - /url: /Amazon-Basics-Ply-Paper-Towel/dp/B09BWFX1L6/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Amazon Basics 2-Ply Flex-Sheets Paper Towels, 12 Basics Rolls = 40 Regular Rolls, Everyday Value with 150 Sheets per..." [ref=e1058]
+            - listitem [ref=e1059]:
+              - link "Brawny Tear-A-Square 3-Ply Paper Towels, 6 Double Rolls = 12 Regular Rolls, Strong, Absorbent, and Durable with 3 Sheet..." [ref=e1061] [cursor=pointer]:
+                - /url: /Brawny-Square-Regular-Absorbent-Durable/dp/B0DFHMZ922/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Brawny Tear-A-Square 3-Ply Paper Towels, 6 Double Rolls = 12 Regular Rolls, Strong, Absorbent, and Durable with 3 Sheet..." [ref=e1062]
+            - listitem [ref=e1063]:
+              - link "PGC96595CT - Quilted Napkins" [ref=e1065] [cursor=pointer]:
+                - /url: /Bounty-Paper-Napkins-200-Count/dp/B000VCFB0G/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "PGC96595CT - Quilted Napkins" [ref=e1066]
+            - listitem [ref=e1067]:
+              - link "Nespresso Capsules Vertuo, Barista Flavored Pack, Medium Roast Coffee, 30 Count Coffee Pods, Brews 7.8oz." [ref=e1069] [cursor=pointer]:
+                - /url: /Nespresso-Capsules-Vertuo-Barista-Flavored/dp/B0BZJVFFNM/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Nespresso Capsules Vertuo, Barista Flavored Pack, Medium Roast Coffee, 30 Count Coffee Pods, Brews 7.8oz." [ref=e1070]
+            - listitem [ref=e1071]:
+              - link "Dixie Large Paper Plates, 10 Inch, 150 Count, 2X Stronger*, Microwave-Safe, Soak-Proof, Cut Resistant, Disposable Plates..." [ref=e1073] [cursor=pointer]:
+                - /url: /Dixie-Microwave-Safe-Soak-Proof-Resistant-Breakfast/dp/B074PY4Y8Y/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Dixie Large Paper Plates, 10 Inch, 150 Count, 2X Stronger*, Microwave-Safe, Soak-Proof, Cut Resistant, Disposable Plates..." [ref=e1074]
+            - listitem [ref=e1075]:
+              - link "Dixie Medium Paper Plates, 8.5 Inch, 90 Count, 2X Stronger*, Microwave-Safe, Soak-Proof, Cut Resistant, Disposable..." [ref=e1077] [cursor=pointer]:
+                - /url: /Dixie-Plates-Printed-Disposable-Packaging/dp/B0748J34WZ/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Dixie Medium Paper Plates, 8.5 Inch, 90 Count, 2X Stronger*, Microwave-Safe, Soak-Proof, Cut Resistant, Disposable..." [ref=e1078]
+            - listitem [ref=e1079]:
+              - link "Amazon Brand - Happy Belly Medium Roast Coffee Pods, Donut Style, Compatible with Keurig 2.0 K-Cup Brewers, 100 Count" [ref=e1081] [cursor=pointer]:
+                - /url: /Amazon-Brand-Medium-Light-Compatible-Brewers/dp/B07P1ZFBRS/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Amazon Brand - Happy Belly Medium Roast Coffee Pods, Donut Style, Compatible with Keurig 2.0 K-Cup Brewers, 100 Count" [ref=e1082]
+            - listitem [ref=e1083]:
+              - link "Nespresso Capsules Vertuo, Double Espresso Chiaro, Medium Roast Espresso Coffee, 30-Count Coffee Pods, Brews 2.7oz." [ref=e1085] [cursor=pointer]:
+                - /url: /Nespresso-VertuoLine-Double-Espresso-Chiaro/dp/B07M8P8F73/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Nespresso Capsules Vertuo, Double Espresso Chiaro, Medium Roast Espresso Coffee, 30-Count Coffee Pods, Brews 2.7oz." [ref=e1086]
+            - listitem [ref=e1087]:
+              - link "MedPride Powder-Free Nitrile Exam Gloves, Iris Blue, Medium, Box/100" [ref=e1089] [cursor=pointer]:
+                - /url: /MedPride-Powder-Free-Nitrile-Gloves-Medium/dp/B00GS8W3T4/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "MedPride Powder-Free Nitrile Exam Gloves, Iris Blue, Medium, Box/100" [ref=e1090]
+            - listitem [ref=e1091]:
+              - link "Dixie Ultra, Large Paper Plates, 10 Inch, 172 Count (4 packs of 43 plates), 3X Stronger*, Heavy Duty, Microwave-Safe,..." [ref=e1093] [cursor=pointer]:
+                - /url: /Dixie-Stronger-Microwave-Safe-Soak-Proof-Resistant/dp/B099BWGZBP/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Dixie Ultra, Large Paper Plates, 10 Inch, 172 Count (4 packs of 43 plates), 3X Stronger*, Heavy Duty, Microwave-Safe,..." [ref=e1094]
+            - listitem [ref=e1095]:
+              - link "Peet's Coffee, Dark Roast Keurig K-Cup Pods, 100% Arabica Coffee - Major Dickason's Blend 75 Count (1 Box of 75 Pods)" [ref=e1097] [cursor=pointer]:
+                - /url: /Peets-Coffee-Dickasons-Complex-Layered/dp/B01N2KFHRS/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Peet's Coffee, Dark Roast Keurig K-Cup Pods, 100% Arabica Coffee - Major Dickason's Blend 75 Count (1 Box of 75 Pods)" [ref=e1098]
+            - listitem [ref=e1099]:
+              - link "Viva Signature Cloth Paper Towels, Choose-A-Sheet Size, 3 Double Rolls, 86 Sheets per Roll (Packaging May Vary)" [ref=e1101] [cursor=pointer]:
+                - /url: /Viva-Signature-Towels-Double-Sheets/dp/B0DF9BGP8S/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Viva Signature Cloth Paper Towels, Choose-A-Sheet Size, 3 Double Rolls, 86 Sheets per Roll (Packaging May Vary)" [ref=e1102]
+            - listitem [ref=e1103]:
+              - link "Owala FreeSip Sway Insulated Stainless Steel Water Bottle with Two-Way Spout, Built-In Straw and Bucket Handle, Made for..." [ref=e1105] [cursor=pointer]:
+                - /url: /Owala-FreeSip-Insulated-Stainless-Two-Way/dp/B0FK124QCT/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Owala FreeSip Sway Insulated Stainless Steel Water Bottle with Two-Way Spout, Built-In Straw and Bucket Handle, Made for..." [ref=e1106]
+            - listitem [ref=e1107]:
+              - link "Amazon Brand - Solimo Dark Roast Coffee Pods, Compatible with Keurig 2.0 K-Cup Brewers 100 Count(Pack of 1)" [ref=e1109] [cursor=pointer]:
+                - /url: /Amazon-Brand-Solimo-Compatible-Brewers/dp/B079V8CKDM/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Amazon Brand - Solimo Dark Roast Coffee Pods, Compatible with Keurig 2.0 K-Cup Brewers 100 Count(Pack of 1)" [ref=e1110]
+            - listitem [ref=e1111]:
+              - link "Starbucks K-Cup Coffee Pods, Dark Roast Hot or Iced Coffee, French Roast, 96 Keurig Pods" [ref=e1113] [cursor=pointer]:
+                - /url: /Starbucks-French-Single-Coffee-Brewers/dp/B006H7YDU8/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Starbucks K-Cup Coffee Pods, Dark Roast Hot or Iced Coffee, French Roast, 96 Keurig Pods" [ref=e1114]
+            - listitem [ref=e1115]:
+              - link "Etekcity Food Kitchen Scale, Digital Grams and Ounces for Weight Loss, Baking, Cooking, Keto and Meal Prep, LCD Display,..." [ref=e1117] [cursor=pointer]:
+                - /url: /Etekcity-Multifunction-Stainless-Batteries-Included/dp/B0113UZJE2/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Etekcity Food Kitchen Scale, Digital Grams and Ounces for Weight Loss, Baking, Cooking, Keto and Meal Prep, LCD Display,..." [ref=e1118]
+            - listitem [ref=e1119]:
+              - link "Lavazza Super Crema Whole Bean Coffee, Medium Espresso Roast, Arabica and Robusta Blend, 2.2 lb Bag, Package May Vary..." [ref=e1121] [cursor=pointer]:
+                - /url: /Lavazza-Coffee-Medium-Espresso-2-2-Pound/dp/B000SDKDM4/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Lavazza Super Crema Whole Bean Coffee, Medium Espresso Roast, Arabica and Robusta Blend, 2.2 lb Bag, Package May Vary..." [ref=e1122]
+            - listitem [ref=e1123]:
+              - link "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz | Flowstate 3-Position Lid | Cup Holder Compatible for Travel..." [ref=e1125] [cursor=pointer]:
+                - /url: /STANLEY-Flowstate-3-Position-Compatible-Insulated/dp/B0CV64341S/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz | Flowstate 3-Position Lid | Cup Holder Compatible for Travel..." [ref=e1126]
+            - listitem [ref=e1127]:
+              - link "McCafe Premium Roast Coffee, Keurig Single Serve K-Cup Pods, Medium Roast, 96 Count" [ref=e1129] [cursor=pointer]:
+                - /url: /McCaf%C3%A9-Premium-Keurig-Single-Medium/dp/B08DBYJKVW/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "McCafe Premium Roast Coffee, Keurig Single Serve K-Cup Pods, Medium Roast, 96 Count" [ref=e1130]
+            - listitem [ref=e1131]:
+              - link "NESCAFÉ Gold Espresso Blonde, Instant Coffee, 3.5 oz" [ref=e1133] [cursor=pointer]:
+                - /url: /NESCAF%C3%89-Espresso-Blonde-Instant-Coffee/dp/B0CS12LZLS/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "NESCAFÉ Gold Espresso Blonde, Instant Coffee, 3.5 oz" [ref=e1134]
+            - listitem [ref=e1135]:
+              - link "Zulay Kitchen Powerful Milk Frother Wand With 2 Duracell Batteries - Ultra Fast Handheld Drink Mixer - Electric Whisk..." [ref=e1137] [cursor=pointer]:
+                - /url: /Zulay-Original-Milk-Frother-Handheld/dp/B09D8T11YS/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Zulay Kitchen Powerful Milk Frother Wand With 2 Duracell Batteries - Ultra Fast Handheld Drink Mixer - Electric Whisk..." [ref=e1138]
+            - listitem [ref=e1139]:
+              - link "The Original Donut Shop Regular Keurig Single-Serve K-Cup Pods, Medium Roast Coffee, 96 Count" [ref=e1141] [cursor=pointer]:
+                - /url: /Donut-Shop-Regular-Portion-24-Count/dp/B007TJGY6O/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "The Original Donut Shop Regular Keurig Single-Serve K-Cup Pods, Medium Roast Coffee, 96 Count" [ref=e1142]
+            - listitem [ref=e1143]:
+              - link "Amazon Basics Everyday Disposable Paper Plates, 10 Inch, Microwave-Safe, Cut Resistant, Soak-Proof, 150 Count" [ref=e1145] [cursor=pointer]:
+                - /url: /Amazon-Basics-Everyday-Plates-Disposable/dp/B0C2CZJ1TK/?_encoding=UTF8&pd_rd_w=DL5Dh&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_284507
+                - img "Amazon Basics Everyday Disposable Paper Plates, 10 Inch, Microwave-Safe, Cut Resistant, Soak-Proof, 150 Count" [ref=e1146]
+        - separator [ref=e1148]
+        - generic [ref=e1151]:
+          - heading "Best Sellers in Cell Phones & Accessories" [level=2] [ref=e1153]
+          - list [ref=e1156]:
+            - listitem [ref=e1157]:
+              - link "Ailun Screen Protector for iPhone 16 / iPhone 15 / iPhone 15 Pro [6.1 Inch] Display 3 Pack Tempered Glass, Dynamic..." [ref=e1159] [cursor=pointer]:
+                - /url: /Ailun-iPhone-15-Protection-Compatible/dp/B0CCYM3F1V/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "Ailun Screen Protector for iPhone 16 / iPhone 15 / iPhone 15 Pro [6.1 Inch] Display 3 Pack Tempered Glass, Dynamic..." [ref=e1160]
+            - listitem [ref=e1161]:
+              - link "SUPFINE Magnetic for iPhone 14 Case & iPhone 13 Case (Compatible with MagSafe)(Military Grade Drop Protection)..." [ref=e1163] [cursor=pointer]:
+                - /url: /SUPFINE-Compatible-Protection-Translucent-Anti-Fingerprint/dp/B0D9VS4PV7/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "SUPFINE Magnetic for iPhone 14 Case & iPhone 13 Case (Compatible with MagSafe)(Military Grade Drop Protection)..." [ref=e1164]
+            - listitem [ref=e1165]:
+              - link "Ailun 3 Pack Screen Protector for iPhone 17 Pro Max [6.9 inch] + 3 Pack Camera Lens Protector with Installation..." [ref=e1167] [cursor=pointer]:
+                - /url: /Ailun-iPhone-Pro-Max-Installation/dp/B0FDQH511S/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "Ailun 3 Pack Screen Protector for iPhone 17 Pro Max [6.9 inch] + 3 Pack Camera Lens Protector with Installation..." [ref=e1168]
+            - listitem [ref=e1169]:
+              - 'link "FNTCASE for iPhone 17 Pro-Max Case: Clear Magnetic Phone Cases with Screen Protector Compatible with Magsafe Slim Anti..." [ref=e1171] [cursor=pointer]':
+                - /url: /FNTCASE-iPhone-17-Pro-Max-Case/dp/B0FDQ3PWCX/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - 'img "FNTCASE for iPhone 17 Pro-Max Case: Clear Magnetic Phone Cases with Screen Protector Compatible with Magsafe Slim Anti..." [ref=e1172]'
+            - listitem [ref=e1173]:
+              - link "iPhone 17 16 15 Charger Fast Charging Type C Chargers USB C Charger Block iPhone 17 16 15 Air Pro Max Chargers with 6FT..." [ref=e1175] [cursor=pointer]:
+                - /url: /Fast-Charger-USB-Wall-Charegr/dp/B09KR8P3L5/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "iPhone 17 16 15 Charger Fast Charging Type C Chargers USB C Charger Block iPhone 17 16 15 Air Pro Max Chargers with 6FT..." [ref=e1176]
+            - listitem [ref=e1177]:
+              - link "Ailun 3 Pack for iPhone 17 Pro Max Privacy Screen Protector [6.9 inch]+ 3 Pack Camera Lens Protector with Installation..." [ref=e1179] [cursor=pointer]:
+                - /url: /Ailun-iPhone-Pro-Max-Installation/dp/B0FDQH15KW/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "Ailun 3 Pack for iPhone 17 Pro Max Privacy Screen Protector [6.9 inch]+ 3 Pack Camera Lens Protector with Installation..." [ref=e1180]
+            - listitem [ref=e1181]:
+              - 'link "FNTCASE for iPhone 17 Pro-Max Case: [Compatible with Magsafe] Translucent Matte Cases with [Full Camera Protection]..." [ref=e1183] [cursor=pointer]':
+                - /url: /FNTCASE-iPhone-17-Pro-Max/dp/B0FCXX2ZLC/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - 'img "FNTCASE for iPhone 17 Pro-Max Case: [Compatible with Magsafe] Translucent Matte Cases with [Full Camera Protection]..." [ref=e1184]'
+            - listitem [ref=e1185]:
+              - link "PEHAEL 3+3 Pack for iPhone 17 Pro Max Privacy Screen Protector with Camera Lens Protector Full Coverage Anti-Spy..." [ref=e1187] [cursor=pointer]:
+                - /url: /PEHAEL-iPhone-Pro-Max-Installation/dp/B0FH4ZWQ6X/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "PEHAEL 3+3 Pack for iPhone 17 Pro Max Privacy Screen Protector with Camera Lens Protector Full Coverage Anti-Spy..." [ref=e1188]
+            - listitem [ref=e1189]:
+              - link "Misxi 2 Pack Tempered Glass Case Compatible for Apple Watch Series 11 (2025) Series 10 46mm, Screen Protector Cover for..." [ref=e1191] [cursor=pointer]:
+                - /url: /Misxi-Compatible-Protection-Lightweight-Scratch-Resistant/dp/B0DFVB13XF/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "Misxi 2 Pack Tempered Glass Case Compatible for Apple Watch Series 11 (2025) Series 10 46mm, Screen Protector Cover for..." [ref=e1192]
+            - listitem [ref=e1193]:
+              - link "Ailun Privacy Screen Protector for iPhone 16 / iPhone 15 / iPhone 15 Pro [6.1 Inch] 3 Pack Anti Spy Private Tempered..." [ref=e1195] [cursor=pointer]:
+                - /url: /Ailun-Protector-iPhone-15-Anti-Scratch/dp/B0CCYM3S2L/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "Ailun Privacy Screen Protector for iPhone 16 / iPhone 15 / iPhone 15 Pro [6.1 Inch] 3 Pack Anti Spy Private Tempered..." [ref=e1196]
+            - listitem [ref=e1197]:
+              - link "Miracase for iPhone 17e Case & iPhone 16e Case, Full-Body Phone with Built-in Glass Screen Protector, [Magnetic with..." [ref=e1199] [cursor=pointer]:
+                - /url: /Miracase-Magnetic-Full-Body-Protector-Compatible/dp/B0F1TNK61D/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "Miracase for iPhone 17e Case & iPhone 16e Case, Full-Body Phone with Built-in Glass Screen Protector, [Magnetic with..." [ref=e1200]
+            - listitem [ref=e1201]:
+              - link "NEW'C 3 Pack Designed for iPhone 17, 17 Pro, iPhone 16 Pro Screen Protector (6.3 inches), Enhanced Tempered Glass..." [ref=e1203] [cursor=pointer]:
+                - /url: /NEWC-Pro-6-3-inches-installation/dp/B0F8VZ7QVX/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "NEW'C 3 Pack Designed for iPhone 17, 17 Pro, iPhone 16 Pro Screen Protector (6.3 inches), Enhanced Tempered Glass..." [ref=e1204]
+            - listitem [ref=e1205]:
+              - link "TOCOL for iPhone 17 Pro Screen Protector/iPhone 16 Pro Sceen Protector 6.3 Inch 9H Hardness Military Grade Shatterproof..." [ref=e1207] [cursor=pointer]:
+                - /url: /TOCOL-iPhone-17-Pro-Shatterproof/dp/B0FDKLG8TP/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "TOCOL for iPhone 17 Pro Screen Protector/iPhone 16 Pro Sceen Protector 6.3 Inch 9H Hardness Military Grade Shatterproof..." [ref=e1208]
+            - listitem [ref=e1209]:
+              - link "INIU Portable Charger, Ultra Slim 45W Fast Charging with Attached USB C Cable, Flight-Safe 10000mAh PD Power Bank..." [ref=e1211] [cursor=pointer]:
+                - /url: /INIU-Portable-High-Speed-Flashlight-Compatible/dp/B0CB1FW5FC/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "INIU Portable Charger, Ultra Slim 45W Fast Charging with Attached USB C Cable, Flight-Safe 10000mAh PD Power Bank..." [ref=e1212]
+            - listitem [ref=e1213]:
+              - link "ESR for iPhone 17 Pro Max Case, Camera Control, Compatible with MagSafe, Shockproof Military-Grade Protection, Magnetic..." [ref=e1215] [cursor=pointer]:
+                - /url: /ESR-iPhone-Pro-Max-Military-Grade/dp/B0FCY7L7SZ/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "ESR for iPhone 17 Pro Max Case, Camera Control, Compatible with MagSafe, Shockproof Military-Grade Protection, Magnetic..." [ref=e1216]
+            - listitem [ref=e1217]:
+              - link "iPhone Charger Fast Charging 2 Pack Type C Wall Charger Block with 2 Pack [6FT&10FT] Long USB C to Lightning Cable for..." [ref=e1219] [cursor=pointer]:
+                - /url: /Charger-charging-Certified-lightning-AirPods/dp/B0B283QP2N/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "iPhone Charger Fast Charging 2 Pack Type C Wall Charger Block with 2 Pack [6FT&10FT] Long USB C to Lightning Cable for..." [ref=e1220]
+            - listitem [ref=e1221]:
+              - link "SuydanBox Magnetic for iPhone 17 Pro Max Case, Compatible with MagSafe, [Full Camera Protection][Screen Protector]..." [ref=e1223] [cursor=pointer]:
+                - /url: /SuydanBox-Compatible-Protection-Shockproof-Green/dp/B0FH6GTY53/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "SuydanBox Magnetic for iPhone 17 Pro Max Case, Compatible with MagSafe, [Full Camera Protection][Screen Protector]..." [ref=e1224]
+            - listitem [ref=e1225]:
+              - link "Ailun 3 Pack Camera Lens Protector for iPhone 16 Pro / 14 Pro & iPhone 16 Pro Max / 14 Pro Max,Tempered Glass,9H..." [ref=e1227] [cursor=pointer]:
+                - /url: /Ailun-Protector-Tempered-Hardness-Anti-Scratch/dp/B0B768XC42/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "Ailun 3 Pack Camera Lens Protector for iPhone 16 Pro / 14 Pro & iPhone 16 Pro Max / 14 Pro Max,Tempered Glass,9H..." [ref=e1228]
+            - listitem [ref=e1229]:
+              - link "charmast Portable Charger with Built in Cables, Power Bank with Cords Wires, Slim 10000mAh Travel Battery Pack 6 Outputs..." [ref=e1231] [cursor=pointer]:
+                - /url: /Portable-Charger-10000mAh-Essentials-Battery/dp/B0CY2JJ4WS/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "charmast Portable Charger with Built in Cables, Power Bank with Cords Wires, Slim 10000mAh Travel Battery Pack 6 Outputs..." [ref=e1232]
+            - listitem [ref=e1233]:
+              - link "ANDERY Car Phone Holder for Magsafe [78+LBS Strongest Suction & 2400gf Magnetic] 360° Adjustable Car Phone Mount, Phone..." [ref=e1235] [cursor=pointer]:
+                - /url: /Magsafe-Strongest-Suction-Magnetic-Adjustable/dp/B0DN1S1YLV/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "ANDERY Car Phone Holder for Magsafe [78+LBS Strongest Suction & 2400gf Magnetic] 360° Adjustable Car Phone Mount, Phone..." [ref=e1236]
+            - listitem [ref=e1237]:
+              - link "Miracase Magnetic for iPhone 17 Case, Compatible with MagSafe, Integrated Silicone Camera Control Cover, 3.0mm Thicken..." [ref=e1239] [cursor=pointer]:
+                - /url: /Miracase-Compatible-Integrated-Shockproof-Protection/dp/B0G19LH9T6/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "Miracase Magnetic for iPhone 17 Case, Compatible with MagSafe, Integrated Silicone Camera Control Cover, 3.0mm Thicken..." [ref=e1240]
+            - listitem [ref=e1241]:
+              - link "Ailun Glass Screen Protector for Galaxy S26 Ultra [6.9 Inch] 3Pack + 2Pack Camera Lens Tempered Glass Fingerprint Unlock..." [ref=e1243] [cursor=pointer]:
+                - /url: /Ailun-S26-Ultra-6-9-Anti-Scratch/dp/B0GCBMBGBX/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "Ailun Glass Screen Protector for Galaxy S26 Ultra [6.9 Inch] 3Pack + 2Pack Camera Lens Tempered Glass Fingerprint Unlock..." [ref=e1244]
+            - listitem [ref=e1245]:
+              - link "CANSHN Magnetic Compatible with iPhone 17 Pro Case, Upgraded [Full Camera Protection] [Compatible with Magsafe]..." [ref=e1247] [cursor=pointer]:
+                - /url: /CANSHN-Compatible-iPhone-Pro-Translucent/dp/B0FDWR2PPG/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "CANSHN Magnetic Compatible with iPhone 17 Pro Case, Upgraded [Full Camera Protection] [Compatible with Magsafe]..." [ref=e1248]
+            - listitem [ref=e1249]:
+              - link "UNBREAKcable 3-Pack Screen Protector for iPhone 17, Double Shatterproof Tempered Glass [Easy Installation Frame] [9H..." [ref=e1251] [cursor=pointer]:
+                - /url: /UNBREAKcable-Protector-Shatterproof-Tempered-Installation/dp/B0F9P8X89T/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "UNBREAKcable 3-Pack Screen Protector for iPhone 17, Double Shatterproof Tempered Glass [Easy Installation Frame] [9H..." [ref=e1252]
+            - listitem [ref=e1253]:
+              - link "2 Pack USB C Charger Block, Dual Port Type C Wall Charger Fast Charging 20W Power Adapter Cube for iPhone 14/14 Pro/14..." [ref=e1255] [cursor=pointer]:
+                - /url: /Charger-Charging-Adapter-iPhone-Samsung/dp/B0CPSBD68W/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "2 Pack USB C Charger Block, Dual Port Type C Wall Charger Fast Charging 20W Power Adapter Cube for iPhone 14/14 Pro/14..." [ref=e1256]
+            - listitem [ref=e1257]:
+              - link "FireNova Magnetic for iPhone 17 Pro Case, Compatible with MagSafe, [Integrated Silicone Camera Control Button] [Camera..." [ref=e1259] [cursor=pointer]:
+                - /url: /FireNova-iPhone-Pro-Case-Anti-Scratch/dp/B0FFT8P8XP/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "FireNova Magnetic for iPhone 17 Pro Case, Compatible with MagSafe, [Integrated Silicone Camera Control Button] [Camera..." [ref=e1260]
+            - listitem [ref=e1261]:
+              - link "Hiearcool Waterproof Phone Pouch, IPX8 Waterproof Phone Case for iPhone 17/16/15/14 Pro Max, Cell Phone Dry Bag for..." [ref=e1263] [cursor=pointer]:
+                - /url: /Hiearcool-Waterproof-Phone-Pouch-Underwater-2/dp/B079HV3TC9/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "Hiearcool Waterproof Phone Pouch, IPX8 Waterproof Phone Case for iPhone 17/16/15/14 Pro Max, Cell Phone Dry Bag for..." [ref=e1264]
+            - listitem [ref=e1265]:
+              - 'link "Apple 20W USB-C Compact Power Adapter: Fast and Convenient Charging, Type C Wall Charger" [ref=e1267] [cursor=pointer]':
+                - /url: /Apple-20W-USB-C-Power-Adapter/dp/B0DJFW7PNM/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - 'img "Apple 20W USB-C Compact Power Adapter: Fast and Convenient Charging, Type C Wall Charger" [ref=e1268]'
+            - listitem [ref=e1269]:
+              - link "Mkeke 3 Pack Screen Protector for iPhone 17 Pro Max 6.9\"，[9H+ Tempered Glass] [Easy Installation Frame][Military-Grade..." [ref=e1271] [cursor=pointer]:
+                - /url: /Mkeke-Installation-Military-Grade-Protection-Anti-Scratch/dp/B0FJRR3QPV/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "Mkeke 3 Pack Screen Protector for iPhone 17 Pro Max 6.9\"，[9H+ Tempered Glass] [Easy Installation Frame][Military-Grade..." [ref=e1272]
+            - listitem [ref=e1273]:
+              - link "Braided Stretchy Band Compatible with Apple Watch Bands 38mm 40mm 41mm 42mm 44mm 45mm 46mm 49mm Women Men, Soft Nylon..." [ref=e1275] [cursor=pointer]:
+                - /url: /Braided-Stretchy-Compatible-Magnetic-iWatch/dp/B0F3J1GXTD/?_encoding=UTF8&pd_rd_w=0vpXQ&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_2335752011
+                - img "Braided Stretchy Band Compatible with Apple Watch Bands 38mm 40mm 41mm 42mm 44mm 45mm 46mm 49mm Women Men, Soft Nylon..." [ref=e1276]
+        - separator [ref=e1278]
+        - generic [ref=e1281]:
+          - heading "Best Sellers in Clothing, Shoes & Jewelry" [level=2] [ref=e1283]
+          - list [ref=e1286]:
+            - listitem [ref=e1287]:
+              - link "Crocs Unisex-Adult Classic Clog, Clogs for Women and Men" [ref=e1289] [cursor=pointer]:
+                - /url: /crocs-Unisex-Classic-Black-Women/dp/B0014BYHJE/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Crocs Unisex-Adult Classic Clog, Clogs for Women and Men" [ref=e1290]
+            - listitem [ref=e1291]:
+              - link "Gildan Men's Crew T-Shirts, Multipack, Style G1100" [ref=e1293] [cursor=pointer]:
+                - /url: /Gildan-T-Shirt-Multipack-Black-X-Large/dp/B07JCS8NRC/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Gildan Men's Crew T-Shirts, Multipack, Style G1100" [ref=e1294]
+            - listitem [ref=e1295]:
+              - link "Hanes Men's Undershirt Packs, Stay-Tucked Soft Cotton Undershirts, Best Undershirts for Men, White/Black/Asstd Multipacks" [ref=e1297] [cursor=pointer]:
+                - /url: /Hanes-Available-Moisture-Wicking-Undershirts-Multipack/dp/B00D1ARZMC/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Hanes Men's Undershirt Packs, Stay-Tucked Soft Cotton Undershirts, Best Undershirts for Men, White/Black/Asstd Multipacks" [ref=e1298]
+            - listitem [ref=e1299]:
+              - link "Crocs Kid's Classic Clog" [ref=e1301] [cursor=pointer]:
+                - /url: /Crocs-Kids-Classic-Clog-Black/dp/B09643QGPD/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Crocs Kid's Classic Clog" [ref=e1302]
+            - listitem [ref=e1303]:
+              - link "Carhartt Men's Iconic K87 Pocket T-Shirt" [ref=e1305] [cursor=pointer]:
+                - /url: /Carhartt-Workwear-Pocket-Short-Sleeve-T-Shirt/dp/B0000ANHT7/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Carhartt Men's Iconic K87 Pocket T-Shirt" [ref=e1306]
+            - listitem [ref=e1307]:
+              - link "Comfort Colors Adult Heavyweight Short Sleeve Tee, Style G1717/G1745, Multipack" [ref=e1309] [cursor=pointer]:
+                - /url: /Comfort-Colors-Adult-Sleeve-1717/dp/B07M989JLF/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Comfort Colors Adult Heavyweight Short Sleeve Tee, Style G1717/G1745, Multipack" [ref=e1310]
+            - listitem [ref=e1311]:
+              - link "Wrangler Authentics Men's Classic Cargo Stretch Short" [ref=e1313] [cursor=pointer]:
+                - /url: /Wrangler-Authentics-Classic-Stretch-Gunmetal/dp/B0BT51D747/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Wrangler Authentics Men's Classic Cargo Stretch Short" [ref=e1314]
+            - listitem [ref=e1315]:
+              - link "J.VER Men's Dress Shirts Solid Long Sleeve Stretch Wrinkle-Free Formal Shirt Business Casual Button Down Shirts" [ref=e1317] [cursor=pointer]:
+                - /url: /J-Ver-Shirts-Stretch-Wrinkle-Free-Regular/dp/B09JFR8HTV/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "J.VER Men's Dress Shirts Solid Long Sleeve Stretch Wrinkle-Free Formal Shirt Business Casual Button Down Shirts" [ref=e1318]
+            - listitem [ref=e1319]:
+              - link "Trendy Queen Womens Stretchy Soft Opaque Basic T Shirts - Slim Fit Short Sleeve Y2k Cute Summer Crop Workout Tops" [ref=e1321] [cursor=pointer]:
+                - /url: /Trendy-Queen-Crewneck-Fashion-Clothes/dp/B0CYC5GDYP/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Trendy Queen Womens Stretchy Soft Opaque Basic T Shirts - Slim Fit Short Sleeve Y2k Cute Summer Crop Workout Tops" [ref=e1322]
+            - listitem [ref=e1323]:
+              - link "Project Cloud 100% Genuine Leather Flat Sandals For Women 2026 Cork Footbed Womens Sandals with Memory Foam and arch..." [ref=e1325] [cursor=pointer]:
+                - /url: /Project-Cloud-Comfortable-Essentials-Vacation/dp/B0CNYDF946/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Project Cloud 100% Genuine Leather Flat Sandals For Women 2026 Cork Footbed Womens Sandals with Memory Foam and arch..." [ref=e1326]
+            - listitem [ref=e1327]:
+              - link "Nike Unisex Adult Everyday Cushioned Training Crew Socks (6-Pack) | Mens and Womens" [ref=e1329] [cursor=pointer]:
+                - /url: /Nike-Unisex-Everyday-Cushion-Medium/dp/B07GBJWCY9/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Nike Unisex Adult Everyday Cushioned Training Crew Socks (6-Pack) | Mens and Womens" [ref=e1330]
+            - listitem [ref=e1331]:
+              - link "OFEEFAN Womens Tops Short Sleeve Shirts Buttons V Neck Spring Fashion Summer Outfits Plus Size Blouses Dressy Casual" [ref=e1333] [cursor=pointer]:
+                - /url: /Blouses-Business-Fashion-Clothing-Tshirts/dp/B0FNC4GM8V/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "OFEEFAN Womens Tops Short Sleeve Shirts Buttons V Neck Spring Fashion Summer Outfits Plus Size Blouses Dressy Casual" [ref=e1334]
+            - listitem [ref=e1335]:
+              - link "Women's Floral Print Puff Sleeve Kimono Cardigan Loose Cover Up Casual Blouse Tops 2026" [ref=e1337] [cursor=pointer]:
+                - /url: /Womens-Floral-Sleeve-Kimono-Cardigan/dp/B07SN9RS13/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Women's Floral Print Puff Sleeve Kimono Cardigan Loose Cover Up Casual Blouse Tops 2026" [ref=e1338]
+            - listitem [ref=e1339]:
+              - link "Dickies Men's Dri-tech Original Moisture Control Crew Socks, Available in M-xxl (6, 12, 18 Pairs)" [ref=e1341] [cursor=pointer]:
+                - /url: /Dickies-Multi-Pack-Dri-Tech-Moisture-Control/dp/B004QF0TFQ/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Dickies Men's Dri-tech Original Moisture Control Crew Socks, Available in M-xxl (6, 12, 18 Pairs)" [ref=e1342]
+            - listitem [ref=e1343]:
+              - link "KuaiLu Flip Flops for Women with Arch Support Yoga Mat Comfortable Summer Beach Walking Thong Cushion Sandals Slip On..." [ref=e1345] [cursor=pointer]:
+                - /url: /KuaiLu-Support-Comfortable-Walking-Sandals/dp/B0C5ZRQS2X/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "KuaiLu Flip Flops for Women with Arch Support Yoga Mat Comfortable Summer Beach Walking Thong Cushion Sandals Slip On..." [ref=e1346]
+            - listitem [ref=e1347]:
+              - link "Water Shoes for Women Men Quick-Dry Aqua Socks Swim Beach Barefoot Yoga Exercise Wear Sport Accessories Pool Camping..." [ref=e1349] [cursor=pointer]:
+                - /url: /ATHMILE-Quick-Dry-Barefoot-Exercise-Accessories/dp/B09Q3MYDQH/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Water Shoes for Women Men Quick-Dry Aqua Socks Swim Beach Barefoot Yoga Exercise Wear Sport Accessories Pool Camping..." [ref=e1350]
+            - listitem [ref=e1351]:
+              - link "Rustler Men's Classic Relaxed Fit" [ref=e1353] [cursor=pointer]:
+                - /url: /Rustler-Classic-Relaxed-Stonewash-36x32/dp/B07LGVSPKF/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Rustler Men's Classic Relaxed Fit" [ref=e1354]
+            - listitem [ref=e1355]:
+              - link "Sampeel Wide Leg Pants for Women Flowy Palazzo Drawstring Elastic Waist Trousers with Pockets Summer Beach Vacation Clothes" [ref=e1357] [cursor=pointer]:
+                - /url: /Sampeel-Palazzo-Vacation-Clothes-Clothing/dp/B0FP5BYXVR/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Sampeel Wide Leg Pants for Women Flowy Palazzo Drawstring Elastic Waist Trousers with Pockets Summer Beach Vacation Clothes" [ref=e1358]
+            - listitem [ref=e1359]:
+              - link "AUTOMET Womens Loose Fit Casual Flowy Tank Tops Square Neck Trendy Sleeveless Summer Tops Clothes Spring Outfits 2026" [ref=e1361] [cursor=pointer]:
+                - /url: /AUTOMET-Sleeveless-Clothing-Outfits-Fashion/dp/B0CXPXJKHN/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "AUTOMET Womens Loose Fit Casual Flowy Tank Tops Square Neck Trendy Sleeveless Summer Tops Clothes Spring Outfits 2026" [ref=e1362]
+            - listitem [ref=e1363]:
+              - link "Under Armour Men's Tech Golf Polo" [ref=e1365] [cursor=pointer]:
+                - /url: /Under-Armour-Black-Graphite-Large/dp/B01GH5KNR6/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Under Armour Men's Tech Golf Polo" [ref=e1366]
+            - listitem [ref=e1367]:
+              - link "Amazon Essentials Women's Regular-Fit Short-Sleeve T-Shirt (Crewneck and V-Neck Options), Multipacks" [ref=e1369] [cursor=pointer]:
+                - /url: /Amazon-Essentials-Short-Sleeve-Crewneck-T-Shirt/dp/B07762TMMM/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Amazon Essentials Women's Regular-Fit Short-Sleeve T-Shirt (Crewneck and V-Neck Options), Multipacks" [ref=e1370]
+            - listitem [ref=e1371]:
+              - link "Alimens & Gentle Men's Dress Shirt Regular Fit Stretch Stain Shield Long Sleeve Solid Business Wedding Button Down Shirts" [ref=e1373] [cursor=pointer]:
+                - /url: /Alimens-Gentle-Regular-Stretch-Business/dp/B0DGXYCKFW/?_encoding=UTF8&pd_rd_w=yO9RH&content-id=amzn1.sym.f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_p=f2128ffe-3407-4a64-95b5-696504f68ca1&pf_rd_r=WR9RSN753FD97V1YMHP1&pd_rd_wg=yFgD6&pd_rd_r=5d55f8ad-a390-47f3-b5c0-8cb7a9f2bf5e&ref_=pd_hp_d_btf_crs_zg_bs_7141123011
+                - img "Alimens & Gentle Men's Dress Shirt Regular Fit Stretch Stain Shield Long Sleeve Solid Business Wedding Button Down Shirts" [ref=e1374]
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e1376]:
+    - button "Back to top" [ref=e1377] [cursor=pointer]:
+      - generic [ref=e1378]: Back to top
+    - generic [ref=e1379]:
+      - generic [ref=e1380]:
+        - heading "Get to Know Us" [level=6] [ref=e1381]
+        - list [ref=e1382]:
+          - listitem [ref=e1383]:
+            - link "Careers" [ref=e1384] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e1385]:
+            - link "Amazon Newsletter" [ref=e1386] [cursor=pointer]:
+              - /url: https://email.aboutamazon.com/l/637851/2020-10-29/pd87g?utm_source=gateway&utm_medium=amazonfooters&utm_campaign=newslettersubscribers&utm_content=amazonnewssignup
+          - listitem [ref=e1387]:
+            - link "About Amazon" [ref=e1388] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer&token=about
+          - listitem [ref=e1389]:
+            - link "Accessibility" [ref=e1390] [cursor=pointer]:
+              - /url: https://www.amazon.com/b?node=15701038011&ie=UTF8
+          - listitem [ref=e1391]:
+            - link "Sustainability" [ref=e1392] [cursor=pointer]:
+              - /url: https://sustainability.aboutamazon.com/?utm_source=gateway&utm_medium=footer&ref_=susty_footer
+          - listitem [ref=e1393]:
+            - link "Press Center" [ref=e1394] [cursor=pointer]:
+              - /url: https://www.amazon.com/pr
+          - listitem [ref=e1395]:
+            - link "Investor Relations" [ref=e1396] [cursor=pointer]:
+              - /url: https://www.amazon.com/ir
+          - listitem [ref=e1397]:
+            - link "Amazon Devices" [ref=e1398] [cursor=pointer]:
+              - /url: /gp/browse.html?node=2102313011&ref_=footer_devices
+          - listitem [ref=e1399]:
+            - link "Amazon Science" [ref=e1400] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1402]:
+        - heading "Make Money with Us" [level=6] [ref=e1403]
+        - list [ref=e1404]:
+          - listitem [ref=e1405]:
+            - link "Sell on Amazon" [ref=e1406] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZFSSOA_FTSELL-C&ref_=footer_soa
+          - listitem [ref=e1407]:
+            - link "Sell apps on Amazon" [ref=e1408] [cursor=pointer]:
+              - /url: https://developer.amazon.com
+          - listitem [ref=e1409]:
+            - link "Supply to Amazon" [ref=e1410] [cursor=pointer]:
+              - /url: https://supply.amazon.com
+          - listitem [ref=e1411]:
+            - link "Protect & Build Your Brand" [ref=e1412] [cursor=pointer]:
+              - /url: https://sell.amazon.com/brand-registry?ld=AZUSSOA_ABR-FT
+          - listitem [ref=e1413]:
+            - link "Become an Affiliate" [ref=e1414] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.com/
+          - listitem [ref=e1415]:
+            - link "Become a Delivery Driver" [ref=e1416] [cursor=pointer]:
+              - /url: https://dspjobhub.com/
+          - listitem [ref=e1417]:
+            - link "Start a Package Delivery Business" [ref=e1418] [cursor=pointer]:
+              - /url: https://logistics.amazon.com/marketing?utm_source=amzn&utm_medium=footer&utm_campaign=home
+          - listitem [ref=e1419]:
+            - link "Advertise Your Products" [ref=e1420] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=ext_amzn_ftr
+          - listitem [ref=e1421]:
+            - link "Self-Publish with Us" [ref=e1422] [cursor=pointer]:
+              - /url: /gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&topic=200260520&ref_=footer_publishing
+          - listitem [ref=e1423]:
+            - link "Become an Amazon Hub Partner" [ref=e1424] [cursor=pointer]:
+              - /url: https://www.amazon.com/b?node=216188543011
+          - listitem [ref=e1425]:
+            - text: ›
+            - link "See More Ways to Make Money" [ref=e1426] [cursor=pointer]:
+              - /url: /b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore
+      - generic [ref=e1428]:
+        - heading "Amazon Payment Products" [level=6] [ref=e1429]
+        - list [ref=e1430]:
+          - listitem [ref=e1431]:
+            - link "Amazon Visa" [ref=e1432] [cursor=pointer]:
+              - /url: /iss/credit/rewardscardmember?plattr=CBFOOT&ref_=footer_cbcc
+          - listitem [ref=e1433]:
+            - link "Amazon Store Card" [ref=e1434] [cursor=pointer]:
+              - /url: /credit/storecard/member?plattr=PLCCFOOT&ref_=footer_plcc
+          - listitem [ref=e1435]:
+            - link "Amazon Secured Card" [ref=e1436] [cursor=pointer]:
+              - /url: /dp/product/B084KP3NG6?plattr=SCFOOT&ref_=footer_ACB
+          - listitem [ref=e1437]:
+            - link "Amazon Business Card" [ref=e1438] [cursor=pointer]:
+              - /url: /dp/B0DVBL912R?plattr=ACOMFO&ie=UTF-8
+          - listitem [ref=e1439]:
+            - link "Shop with Points" [ref=e1440] [cursor=pointer]:
+              - /url: https://www.amazon.com/hp/shopwithpoints/servicing
+          - listitem [ref=e1441]:
+            - link "Credit Card Marketplace" [ref=e1442] [cursor=pointer]:
+              - /url: /gp/browse.html?node=3561432011&ref_=footer_ccmp
+          - listitem [ref=e1443]:
+            - link "Reload Your Balance" [ref=e1444] [cursor=pointer]:
+              - /url: /gp/browse.html?node=10232440011&ref_=footer_reload_us
+          - listitem [ref=e1445]:
+            - link "Gift Cards" [ref=e1446] [cursor=pointer]:
+              - /url: https://www.amazon.com/b/?node=2238192011&ref=shop_footer_payments_gc_desktop
+          - listitem [ref=e1447]:
+            - link "Amazon Currency Converter" [ref=e1448] [cursor=pointer]:
+              - /url: /gp/browse.html?node=388305011&ref_=footer_tfx
+      - generic [ref=e1450]:
+        - heading "Let Us Help You" [level=6] [ref=e1451]
+        - list [ref=e1452]:
+          - listitem [ref=e1453]:
+            - link "Your Account" [ref=e1454] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1455]:
+            - link "Your Orders" [ref=e1456] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/order-history?ref_=footer_yo
+          - listitem [ref=e1457]:
+            - link "Shipping Rates & Policies" [ref=e1458] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates
+          - listitem [ref=e1459]:
+            - link "Amazon Prime" [ref=e1460] [cursor=pointer]:
+              - /url: /gp/prime?ref_=footer_prime
+          - listitem [ref=e1461]:
+            - link "Returns & Replacements" [ref=e1462] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1463]:
+            - link "Manage Your Content and Devices" [ref=e1464] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e1465]:
+            - link "Recalls and Product Safety Alerts" [ref=e1466] [cursor=pointer]:
+              - /url: https://www.amazon.com/product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1467]:
+            - link "Registry & Gift List" [ref=e1468] [cursor=pointer]:
+              - /url: /registries?ref_=nav_footer_registry_giftlist_desktop
+          - listitem [ref=e1469]:
+            - link "Help" [ref=e1470] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e1472]:
+      - link "Amazon US Home" [ref=e1475] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=e1478]:
+        - generic [ref=e1479]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e1480] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e1482]: English
+          - button "Expand to Change Language or Country" [ref=e1483] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is United States." [ref=e1484] [cursor=pointer]:
+          - generic [ref=e1486]: United States
+    - navigation "More on Amazon" [ref=e1487]:
+      - generic "More on Amazon" [ref=e1488]:
+        - list [ref=e1489]:
+          - listitem [ref=e1490]:
+            - link "Amazon Music Stream millions of songs" [ref=e1491] [cursor=pointer]:
+              - /url: https://music.amazon.com?ref=dm_aff_amz_com
+              - heading "Amazon Music" [level=5] [ref=e1492]
+              - generic [ref=e1493]:
+                - text: Stream millions
+                - text: of songs
+          - listitem [ref=e1494]
+          - listitem [ref=e1495]:
+            - link "Amazon Ads Reach customers wherever they spend their time" [ref=e1496] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=footer_advtsing_amzn_com
+              - heading "Amazon Ads" [level=5] [ref=e1497]
+              - generic [ref=e1498]:
+                - text: Reach customers
+                - text: wherever they
+                - text: spend their time
+          - listitem [ref=e1499]
+          - listitem [ref=e1500]:
+            - link "6pm Score deals on fashion brands" [ref=e1501] [cursor=pointer]:
+              - /url: https://www.6pm.com
+              - heading "6pm" [level=5] [ref=e1502]
+              - generic [ref=e1503]:
+                - text: Score deals
+                - text: on fashion brands
+          - listitem [ref=e1504]
+          - listitem [ref=e1505]:
+            - link "AbeBooks Books, art & collectibles" [ref=e1506] [cursor=pointer]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=e1507]
+              - generic [ref=e1508]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e1509]
+          - listitem [ref=e1510]:
+            - link "ACX Audiobook Publishing Made Easy" [ref=e1511] [cursor=pointer]:
+              - /url: https://www.acx.com/
+              - heading "ACX" [level=5] [ref=e1512]
+              - generic [ref=e1513]:
+                - text: Audiobook Publishing
+                - text: Made Easy
+          - listitem [ref=e1514]
+          - listitem [ref=e1515]:
+            - link "Sell on Amazon Start a Selling Account" [ref=e1516] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell
+              - heading "Sell on Amazon" [level=5] [ref=e1517]
+              - generic [ref=e1518]: Start a Selling Account
+          - listitem [ref=e1519]
+          - listitem [ref=e1520]:
+            - link "Veeqo Shipping Software Inventory Management" [ref=e1521] [cursor=pointer]:
+              - /url: https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer
+              - heading "Veeqo" [level=5] [ref=e1522]
+              - generic [ref=e1523]:
+                - text: Shipping Software
+                - text: Inventory Management
+        - list [ref=e1524]:
+          - listitem [ref=e1525]:
+            - link "Amazon Business Everything For Your Business" [ref=e1526] [cursor=pointer]:
+              - /url: /business?ref_=footer_retail_b2b
+              - heading "Amazon Business" [level=5] [ref=e1527]
+              - generic [ref=e1528]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e1529]
+          - listitem [ref=e1530]:
+            - link "Amazon Fresh Groceries & More Right To Your Door" [ref=e1531] [cursor=pointer]:
+              - /url: /alm/storefront?almBrandId=QW1hem9uIEZyZXNo&ref_=footer_aff_fresh
+              - heading "Amazon Fresh" [level=5] [ref=e1532]
+              - generic [ref=e1533]:
+                - text: Groceries & More
+                - text: Right To Your Door
+          - listitem [ref=e1534]
+          - listitem [ref=e1535]:
+            - link "AmazonGlobal Ship Orders Internationally" [ref=e1536] [cursor=pointer]:
+              - /url: /gp/browse.html?node=230659011&ref_=footer_amazonglobal
+              - heading "AmazonGlobal" [level=5] [ref=e1537]
+              - generic [ref=e1538]:
+                - text: Ship Orders
+                - text: Internationally
+          - listitem [ref=e1539]
+          - listitem [ref=e1540]:
+            - link "Home Services Experienced Pros Happiness Guarantee" [ref=e1541] [cursor=pointer]:
+              - /url: /services?ref_=footer_services
+              - heading "Home Services" [level=5] [ref=e1542]
+              - generic [ref=e1543]:
+                - text: Experienced Pros
+                - text: Happiness Guarantee
+          - listitem [ref=e1544]
+          - listitem [ref=e1545]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e1546] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e1547]
+              - generic [ref=e1548]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e1549]
+          - listitem [ref=e1550]:
+            - link "Audible Listen to Books & Original Audio Performances" [ref=e1551] [cursor=pointer]:
+              - /url: https://www.audible.com
+              - heading "Audible" [level=5] [ref=e1552]
+              - generic [ref=e1553]:
+                - text: Listen to Books & Original
+                - text: Audio Performances
+          - listitem [ref=e1554]
+          - listitem [ref=e1555]:
+            - link "Box Office Mojo Find Movie Box Office Data" [ref=e1556] [cursor=pointer]:
+              - /url: https://www.boxofficemojo.com/?ref_=amzn_nav_ftr
+              - heading "Box Office Mojo" [level=5] [ref=e1557]
+              - generic [ref=e1558]:
+                - text: Find Movie
+                - text: Box Office Data
+        - list [ref=e1559]:
+          - listitem [ref=e1560]:
+            - link "Goodreads Book reviews & recommendations" [ref=e1561] [cursor=pointer]:
+              - /url: https://www.goodreads.com
+              - heading "Goodreads" [level=5] [ref=e1562]
+              - generic [ref=e1563]:
+                - text: Book reviews
+                - text: "& recommendations"
+          - listitem [ref=e1564]
+          - listitem [ref=e1565]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e1566] [cursor=pointer]:
+              - /url: https://www.imdb.com
+              - heading "IMDb" [level=5] [ref=e1567]
+              - generic [ref=e1568]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+          - listitem [ref=e1569]
+          - listitem [ref=e1570]:
+            - link "IMDbPro Get Info Entertainment Professionals Need" [ref=e1571] [cursor=pointer]:
+              - /url: https://pro.imdb.com?ref_=amzn_nav_ftr
+              - heading "IMDbPro" [level=5] [ref=e1572]
+              - generic [ref=e1573]:
+                - text: Get Info Entertainment
+                - text: Professionals Need
+          - listitem [ref=e1574]
+          - listitem [ref=e1575]:
+            - link "Kindle Direct Publishing Indie Digital & Print Publishing Made Easy" [ref=e1576] [cursor=pointer]:
+              - /url: https://kdp.amazon.com
+              - heading "Kindle Direct Publishing" [level=5] [ref=e1577]
+              - generic [ref=e1578]:
+                - text: Indie Digital & Print Publishing
+                - text: Made Easy
+          - listitem [ref=e1579]
+          - listitem [ref=e1580]:
+            - link "Amazon Photos Unlimited Photo Storage Free With Prime" [ref=e1581] [cursor=pointer]:
+              - /url: /gp/browse.html?node=13234696011&ref_=_gno_p_foot
+              - heading "Amazon Photos" [level=5] [ref=e1582]
+              - generic [ref=e1583]:
+                - text: Unlimited Photo Storage
+                - text: Free With Prime
+          - listitem [ref=e1584]
+          - listitem [ref=e1585]:
+            - link "Prime Video Direct Video Distribution Made Easy" [ref=e1586] [cursor=pointer]:
+              - /url: https://videodirect.amazon.com/home/landing
+              - heading "Prime Video Direct" [level=5] [ref=e1587]
+              - generic [ref=e1588]:
+                - text: Video Distribution
+                - text: Made Easy
+          - listitem [ref=e1589]
+          - listitem [ref=e1590]:
+            - link "Shopbop Designer Fashion Brands" [ref=e1591] [cursor=pointer]:
+              - /url: https://www.shopbop.com
+              - heading "Shopbop" [level=5] [ref=e1592]
+              - generic [ref=e1593]:
+                - text: Designer
+                - text: Fashion Brands
+        - list [ref=e1594]:
+          - listitem [ref=e1595]:
+            - link "Amazon Resale Great Deals on Quality Used Products" [ref=e1596] [cursor=pointer]:
+              - /url: /gp/browse.html?node=10158976011&ref_=footer_wrhsdls
+              - heading "Amazon Resale" [level=5] [ref=e1597]
+              - generic [ref=e1598]:
+                - text: Great Deals on
+                - text: Quality Used Products
+          - listitem [ref=e1599]
+          - listitem [ref=e1600]:
+            - link "Whole Foods Market America’s Healthiest Grocery Store" [ref=e1601] [cursor=pointer]:
+              - /url: https://www.wholefoodsmarket.com
+              - heading "Whole Foods Market" [level=5] [ref=e1602]
+              - generic [ref=e1603]:
+                - text: America’s Healthiest
+                - text: Grocery Store
+          - listitem [ref=e1604]
+          - listitem [ref=e1605]:
+            - link "Woot! Deals and Shenanigans" [ref=e1606] [cursor=pointer]:
+              - /url: https://www.woot.com/
+              - heading "Woot!" [level=5] [ref=e1607]
+              - generic [ref=e1608]:
+                - text: Deals and
+                - text: Shenanigans
+          - listitem [ref=e1609]
+          - listitem [ref=e1610]:
+            - link "Zappos Shoes & Clothing" [ref=e1611] [cursor=pointer]:
+              - /url: https://www.zappos.com
+              - heading "Zappos" [level=5] [ref=e1612]
+              - generic [ref=e1613]:
+                - text: Shoes &
+                - text: Clothing
+          - listitem [ref=e1614]
+          - listitem [ref=e1615]:
+            - link "Ring Smart Home Security Systems" [ref=e1616] [cursor=pointer]:
+              - /url: https://ring.com
+              - heading "Ring" [level=5] [ref=e1617]
+              - generic [ref=e1618]:
+                - text: Smart Home
+                - text: Security Systems
+          - listitem [ref=e1619]
+          - listitem [ref=e1620]:
+            - link "eero WiFi Stream 4K Video in Every Room" [ref=e1621] [cursor=pointer]:
+              - /url: https://eero.com/
+              - heading "eero WiFi" [level=5] [ref=e1622]
+              - generic [ref=e1623]:
+                - text: Stream 4K Video
+                - text: in Every Room
+          - listitem [ref=e1624]
+          - listitem [ref=e1625]:
+            - link "Blink Smart Security for Every Home" [ref=e1626] [cursor=pointer]:
+              - /url: https://blinkforhome.com/?ref=nav_footer
+              - heading "Blink" [level=5] [ref=e1627]
+              - generic [ref=e1628]:
+                - text: Smart Security
+                - text: for Every Home
+        - list [ref=e1629]:
+          - listitem [ref=e1630]
+          - listitem [ref=e1631]
+          - listitem [ref=e1632]
+          - listitem [ref=e1633]
+          - listitem [ref=e1634]:
+            - link "Neighbors App Real-Time Crime & Safety Alerts" [ref=e1635] [cursor=pointer]:
+              - /url: https://shop.ring.com/pages/neighbors-app
+              - heading "Neighbors App" [level=5] [ref=e1636]
+              - generic [ref=e1637]:
+                - text: Real-Time Crime
+                - text: "& Safety Alerts"
+          - listitem [ref=e1638]
+          - listitem [ref=e1639]:
+            - link "PillPack Pharmacy Simplified" [ref=e1640] [cursor=pointer]:
+              - /url: https://www.pillpack.com
+              - heading "PillPack" [level=5] [ref=e1641]
+              - generic [ref=e1642]: Pharmacy Simplified
+          - listitem [ref=e1643]
+          - listitem [ref=e1644]:
+            - link "Amazon Renewed Refurbished tech you can trust" [ref=e1645] [cursor=pointer]:
+              - /url: /gp/browse.html?node=12653393011&ref_=footer_usrenew
+              - heading "Amazon Renewed" [level=5] [ref=e1646]
+              - generic [ref=e1647]:
+                - text: Refurbished tech
+                - text: you can trust
+          - listitem [ref=e1648]
+          - listitem [ref=e1649]
+          - listitem [ref=e1650]
+          - listitem [ref=e1651]
+    - generic [ref=e1652]:
+      - list [ref=e1653]:
+        - listitem [ref=e1654]:
+          - link "Conditions of Use" [ref=e1655] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=508088&ref_=footer_cou
+        - listitem [ref=e1656]:
+          - link "Privacy Notice" [ref=e1657] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy
+        - listitem [ref=e1658]:
+          - link "Consumer Health Data Privacy Disclosure" [ref=e1659] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy
+        - listitem [ref=e1660]:
+          - link "Your Ads Privacy Choices" [ref=e1661] [cursor=pointer]:
+            - /url: /privacyprefs?ref_=footer_iba
+        - listitem [ref=e1662]
+      - generic [ref=e1664]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e1669]:
+    - iframe [ref=f13e2]:
+      - generic [active] [ref=f14e1]:
+        - img [ref=f14e2]
+        - img [ref=f14e3]
+        - img [ref=f14e4]
+        - img [ref=f14e5]
+        - img [ref=f14e6]
+        - img [ref=f14e7]
+        - img [ref=f14e8]
+        - img [ref=f14e9]
+        - img [ref=f14e10]
+        - img [ref=f14e11]
+        - img [ref=f14e12]
+        - img [ref=f14e13]

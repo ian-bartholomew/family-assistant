@@ -24,65 +24,44 @@ If there are no unchecked items, tell the user and stop.
 
 Read `${CLAUDE_PLUGIN_ROOT}/config/stores.yaml` and parse:
 
-- The list of stores (each with `name`, `search_url`, optional `delivery_fee`, and `tip_percent`)
+- The list of stores (each with `name`, `search_url`, optional `delivery_fee`, and `tip_flat` or `tip_percent`)
 - Preferences (`prefer_organic`, `delivery`, `zip_code`, `default_tip_percent`)
 
 ## Step 3: Dispatch Store Scraper Agents
 
-There are **2 Playwright MCP instances** available: `playwright-1` and `playwright-2`. Each is an independent headless browser. Dispatch **at most 2 agents at a time total** (one per Playwright instance) to avoid browser conflicts.
-
-**Batching process:**
-
-1. Build the full list of (store, item) pairs to scrape.
-2. Process them in batches of 2. For each batch:
-   - Assign the first agent to `playwright-1` and the second to `playwright-2`.
-   - Dispatch both agents in parallel.
-   - Wait for both to complete before dispatching the next batch.
-3. Continue until all (store, item) pairs are scraped.
+For each store in the config, launch a `store-scraper` agent using the Agent tool. **Dispatch all agents in parallel** (all Agent tool calls in a single message).
 
 Each agent prompt must include:
 
 - The store name and search URL template
-- A **single** grocery item to search for
+- The full list of unchecked grocery items
 - The preferences (organic, etc.)
-- **Which Playwright instance to use** (`playwright-1` or `playwright-2`)
 - Instructions to return results in the structured format defined in the agent
 
-Example batch (2 agents dispatched in one message):
+Example prompt for one agent:
 
 ```
-You are scraping a price from Whole Foods.
+You are scraping prices from Whole Foods.
 
 Store: Whole Foods
-Search URL template: https://www.amazon.com/s?k={query}&i=wholefoods
-Playwright instance: playwright-1
+Search URL template: https://www.wholefoodsmarket.com/search?text={query}
 
 Preferences:
 - Prefer organic: yes
 
-Item to search for: butter
+Items to search for:
+1. butter
+2. Organic strawberries
+3. Fresh blueberries
+4. 2 dozen eggs
+5. English muffins
 
-Use ONLY mcp__playwright-1__browser_* tools. Search for this item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Also note the delivery fee if visible. Return results in the structured format from your instructions.
+Search for each item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Return results in the structured format from your instructions.
 ```
 
-```
-You are scraping a price from Vons.
+## Step 4: Parse Agent Results
 
-Store: Vons
-Search URL template: https://www.instacart.com/store/vons/search/{query}
-Playwright instance: playwright-2
-
-Preferences:
-- Prefer organic: yes
-
-Item to search for: butter
-
-Use ONLY mcp__playwright-2__browser_* tools. Search for this item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Also note the delivery fee if visible. Return results in the structured format from your instructions.
-```
-
-## Step 4: Parse Agent Results and Log Errors
-
-Collect the structured text output from each agent. Each agent returns a single item result for a single store. Parse and group by store:
+Collect the structured text output from each agent. Parse each block into structured data:
 
 For each store, build a list of items with:
 
@@ -94,33 +73,7 @@ For each store, build a list of items with:
 - `url`: link to the product
 - `notes`: any explanation
 
-For each store's `delivery_fee`, use the first non-"unknown" value reported by any of that store's agents (since all agents for the same store see the same delivery fee). If all report "unknown", use "unknown".
-
-**Error handling:** If any agent fails, times out, returns unparseable output, or encounters an error (CAPTCHA, blocked, crash, etc.):
-
-1. **Do not fail the entire run.** Continue with results from agents that succeeded.
-2. **Log the error** to a file in the same directory as the grocery list, named `errors-YYYY-MM-DD.md`. Create or append to this file using the Write/Edit tool.
-3. **Error log format:**
-
-```markdown
-# Grocery Price Compare — Error Log — {YYYY-MM-DD HH:MM}
-
-## {Store Name} — {Item Name}
-- **Error type:** {agent_failed | timeout | unparseable_output | blocked | other}
-- **Details:** {error message or description of what went wrong}
-- **Agent output (if any):**
-```
-
-{raw agent output}
-
-```
-
-## {Store Name} — {Item Name}
-...
-```
-
-1. Treat errored items as `not_found` for that store in the optimization step, with a note referencing the error log.
-2. Mention the error log path in the terminal summary if any errors occurred.
+Also capture each store's `delivery_fee` (numeric or "unknown").
 
 ## Step 5: Optimize Fulfillment Strategies
 
@@ -160,7 +113,7 @@ Build the markdown report and append it to the original grocery list file.
 |------|---------|-------|------|-------|
 | {item} | {product_name} | ${price} | [link]({url}) | {notes} |
 | *Delivery* | | ${fee} | | |
-| *Tip ({tip_percent}%)* | | ${tip} | | |
+| *Tip ({tip_percent}% or flat)* | | ${tip} | | |
 
 #### {Store2} — ${store_total} (items ${item_subtotal} + ${delivery} delivery + ${tip} tip)
 | Item | Product | Price | Link | Notes |

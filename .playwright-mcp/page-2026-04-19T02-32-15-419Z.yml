@@ -1,0 +1,228 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=e8]
+  - banner [ref=e9]:
+    - navigation "Primary" [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - link "Amazon" [ref=e14] [cursor=pointer]:
+            - /url: /ref=nav_logo
+          - button "Delivering to Los Angeles 90039 Update location" [ref=e17] [cursor=pointer]:
+            - generic [ref=e19]:
+              - generic [ref=e20]: Delivering to Los Angeles 90039
+              - generic [ref=e21]: Update location
+        - search [ref=e24]:
+          - generic [ref=e27]:
+            - generic [ref=e29]: Whole Foods Market
+            - combobox "Select the department you want to search in" [ref=e31] [cursor=pointer]:
+              - option "Whole Foods Market" [selected]
+              - option "All Departments"
+              - option "Alexa Skills"
+              - option "Amazon Autos"
+              - option "Amazon Devices"
+              - option "Amazon Fresh"
+              - option "Amazon Global Store"
+              - option "Amazon Haul"
+              - option "Amazon One Medical"
+              - option "Amazon Pharmacy"
+              - option "Amazon Resale"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Arts, Crafts & Sewing"
+              - option "Audible Books & Originals"
+              - option "Automotive Parts & Accessories"
+              - option "Baby"
+              - option "Beauty & Personal Care"
+              - option "Books"
+              - option "Bristol Farms"
+              - option "CDs & Vinyl"
+              - option "Cell Phones & Accessories"
+              - option "Clothing, Shoes & Jewelry"
+              - option "Women's Clothing, Shoes & Jewelry"
+              - option "Men's Clothing, Shoes & Jewelry"
+              - option "Girl's Clothing, Shoes & Jewelry"
+              - option "Boy's Clothing, Shoes & Jewelry"
+              - option "Baby Clothing, Shoes & Jewelry"
+              - option "Collectibles & Fine Art"
+              - option "Computers"
+              - option "Credit and Payment Cards"
+              - option "Digital Music"
+              - option "Electronics"
+              - option "Garden & Outdoor"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Food"
+              - option "Handmade"
+              - option "Health, Household & Baby Care"
+              - option "Home & Business Services"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Just for Prime"
+              - option "Kindle Store"
+              - option "Luggage & Travel Gear"
+              - option "Luxury Stores"
+              - option "Magazine Subscriptions"
+              - option "Mission Wine & Spirits"
+              - option "Movies & TV"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Food Express"
+              - option "Pet Supplies"
+              - option "Premium Beauty"
+              - option "Prime Video"
+              - option "Same-Day Store"
+              - option "Smart Home"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Subscribe & Save"
+              - option "Subscription Boxes"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under $10"
+              - option "Video Games"
+          - searchbox "Search Amazon" [ref=e34]
+          - generic "Go" [ref=e37] [cursor=pointer]:
+            - button "Go" [ref=e38]
+        - generic [ref=e40]:
+          - link "Choose a language for shopping in Amazon United States. The current selection is English (EN)." [ref=e42] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+            - generic [ref=e45]:
+              - img "United States" [ref=e46]
+              - generic [ref=e47]: EN
+          - link "Hello, sign in Account & Lists" [ref=e49] [cursor=pointer]:
+            - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Falm%2Fstorefront%2Fwhole-foods-market%2F%3F_encoding%3DUTF8%26almBrandId%3DVUZHIFdob2xlIEZvb2Rz%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - generic [ref=e51]: Hello, sign in
+            - generic [ref=e52]: Account & Lists
+          - link "Returns & Orders" [ref=e53] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e54]: Returns
+            - generic [ref=e55]: "& Orders"
+          - link [ref=e56] [cursor=pointer]:
+            - /url: /cart/localmarket?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=dnav_alm_cart
+            - generic [ref=e58]: "0"
+      - generic [ref=e60]:
+        - button "Open All Categories Menu" [ref=e62] [cursor=pointer]:
+          - generic [ref=e64]: All
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "Amazon Haul" [ref=e71] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=e72]:
+            - link "Medical Care" [ref=e74] [cursor=pointer]:
+              - /url: https://health.amazon.com/prime?ref_=nav_cs_all_health_ingress_onem_h
+          - listitem [ref=e75]:
+            - link "Amazon Basics" [ref=e77] [cursor=pointer]:
+              - /url: /Amazon_Basics?channel=discovbar&field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=e78]:
+            - link "Best Sellers" [ref=e80] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e81]:
+            - link "Books" [ref=e83] [cursor=pointer]:
+              - /url: /books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books
+          - listitem [ref=e84]:
+            - link "Today's Deals" [ref=e86] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e87]:
+            - link "Prime" [ref=e89] [cursor=pointer]:
+              - /url: /prime?ref_=nav_cs_primelink_nonmember
+          - listitem [ref=e90]:
+            - link "Gift Cards" [ref=e92] [cursor=pointer]:
+              - /url: /gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+          - listitem [ref=e93]:
+            - link "Sell" [ref=e95] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=e96]:
+            - link "Groceries" [ref=e98] [cursor=pointer]:
+              - /url: /fmc/grocery-gateway?gsc=fe16aGPfFs46S&ref_=nav_cs_groceries
+          - listitem [ref=e99]:
+            - link "New Releases" [ref=e101] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e102]:
+            - link "Registry" [ref=e104] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - listitem [ref=e105]:
+            - link "Smart Home" [ref=e107] [cursor=pointer]:
+              - /url: /Smart-Home/b/?ie=UTF8&node=6563140011&ref_=nav_cs_smart_home
+          - listitem [ref=e108]:
+            - link "Music" [ref=e110] [cursor=pointer]:
+              - /url: /music/player?ref_=nav_cs_music
+          - listitem [ref=e111]:
+            - link "Fashion" [ref=e113] [cursor=pointer]:
+              - /url: /amazon-fashion/b/?ie=UTF8&node=7141123011&ref_=nav_cs_fashion
+          - listitem [ref=e114]:
+            - link "Amazon Home" [ref=e116] [cursor=pointer]:
+              - /url: /home-garden-kitchen-furniture-bedding/b/?ie=UTF8&node=1055398&ref_=nav_cs_home
+          - listitem [ref=e117]:
+            - link "Automotive" [ref=e119] [cursor=pointer]:
+              - /url: /automotive-auto-truck-replacements-parts/b/?ie=UTF8&node=15684181&ref_=nav_cs_automotive
+          - listitem [ref=e120]:
+            - link "Sports & Outdoors" [ref=e122] [cursor=pointer]:
+              - /url: /sports-outdoors/b/?ie=UTF8&node=3375251&ref_=nav_cs_sports
+          - listitem [ref=e123]:
+            - link "Toys & Games" [ref=e125] [cursor=pointer]:
+              - /url: /toys/b/?ie=UTF8&node=165793011&ref_=nav_cs_toys
+          - listitem [ref=e126]:
+            - link "Baby" [ref=e128] [cursor=pointer]:
+              - /url: /baby-car-seats-strollers-bedding/b/?ie=UTF8&node=165796011&ref_=nav_cs_baby
+          - listitem [ref=e129]:
+            - link "Home Improvement" [ref=e131] [cursor=pointer]:
+              - /url: /Tools-and-Home-Improvement/b/?ie=UTF8&node=228013&ref_=nav_cs_hi
+          - listitem [ref=e132]:
+            - link "Shop By Interest" [ref=e134] [cursor=pointer]:
+              - /url: /finds?ref_=nav_cs_foundit
+          - listitem [ref=e135]:
+            - link "Pharmacy" [ref=e137] [cursor=pointer]:
+              - /url: https://pharmacy.amazon.com/?nodl=0&ref_=nav_cs_pharmacy
+          - listitem [ref=e138]:
+            - link "Kindle Books" [ref=e140] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=154606011&ref_=nav_cs_kindle_books
+          - listitem [ref=e141]:
+            - link "Beauty & Personal Care" [ref=e143] [cursor=pointer]:
+              - /url: /Beauty-Makeup-Skin-Hair-Products/b/?ie=UTF8&node=3760911&ref_=nav_cs_beauty
+      - navigation [ref=e150]:
+        - link "Whole Foods" [ref=e153] [cursor=pointer]:
+          - /url: /alm/storefront/whole-foods-market?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref=wf_dsk_sn_logo-14ee8
+          - img "Whole Foods" [ref=e154]
+        - link "Past Purchases" [ref=e161] [cursor=pointer]:
+          - /url: /afx/lists/pastpurchases/whole-foods-market?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref=wf_dsk_sn_pastPurchases-d9ad7
+          - generic [ref=e162]: Past Purchases
+        - link "Repeat Items" [ref=e165] [cursor=pointer]:
+          - /url: /repeatitems/whole-foods-market?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref=wf_dsk_sn_repeatItems-34617
+          - generic [ref=e166]: Repeat Items
+        - link "Alexa Lists" [ref=e169] [cursor=pointer]:
+          - /url: /alexaquantum/sp/alexaShoppingList?shop=true&almBrandId=VUZHIFdob2xlIEZvb2Rz&ref=wf_dsk_sn_alexaLists-1f36e
+          - generic [ref=e170]: Alexa Lists
+        - link "Save" [ref=e176] [cursor=pointer]:
+          - /url: /fmc/deals?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref=wf_dsk_sn_Save-4c0a5
+          - generic [ref=e177]: Save
+        - generic [ref=e181]: Explore
+        - generic [ref=e185]: Shop Aisles
+        - link "Catering" [ref=e189] [cursor=pointer]:
+          - /url: /alm/storefront?almBrandId=aNHVc2Akvg&ref=wf_dsk_sn_springcatering-58268
+          - generic [ref=e190]: Catering
+  - generic [ref=e195]:
+    - link "Get your first delivery FREE on orders $25+. Shop now" [ref=e206] [cursor=pointer]:
+      - /url: /fmc/deals?_encoding=UTF8&almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=cct_cg_WF24718_1a1&pf_rd_p=357eec8b-5d19-4bc6-ad90-b791dca3b923&pf_rd_r=YA7F8HQ4TCT2H72QRV6P
+      - img "Get your first delivery FREE on orders $25+. Shop now" [ref=e207]
+    - generic [ref=e208]:
+      - list [ref=e220]:
+        - listitem [ref=e221]:
+          - link "Large Hass Avocados2 for $3 with Prime" [ref=e222] [cursor=pointer]:
+            - /url: /fmc/deals/?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=WF25290&pf_rd_r=YA7F8HQ4TCT2H72QRV6P&pf_rd_p=779a3f5a-43bd-4a9b-9709-642d98543f8a&pf_rd_m=A2R2RITDJNW1Q6&pf_rd_s=alm-storefront-desktop-tcg-1&pf_rd_t=&pf_rd_i=128909
+            - img "Large Hass Avocados2 for $3 with Prime" [ref=e224]
+        - listitem [ref=e225]:
+          - link "Save on tropical treats and fruit finds. Shop now" [ref=e226] [cursor=pointer]:
+            - /url: /fmc/m/30005612/?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=WF25115&pf_rd_r=YA7F8HQ4TCT2H72QRV6P&pf_rd_p=a16371e9-bd56-4857-808a-a1bace558dbc&pf_rd_m=A2R2RITDJNW1Q6&pf_rd_s=alm-storefront-desktop-tcg-1&pf_rd_t=&pf_rd_i=128909
+            - img "Save on tropical treats and fruit finds. Shop now" [ref=e228]
+      - generic [ref=e232]:
+        - link "SALE. Shop this week's savings ›" [ref=e245] [cursor=pointer]:
+          - /url: /fmc/deals?_encoding=UTF8&almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=cct_cg_WF16473_1a1&pf_rd_p=b7acd5eb-d688-488d-9d0e-e84e8cb431b2&pf_rd_r=YA7F8HQ4TCT2H72QRV6P
+          - img "SALE. Shop this week's savings ›" [ref=e246]
+        - link "Quick and easy meals. Shop now" [ref=e259] [cursor=pointer]:
+          - /url: /fmc/m/20190047?_encoding=UTF8&almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=cct_cg_WF25127_1a1&pf_rd_p=ab18c9ed-0040-4b7d-bb84-0b9e77c2d64d&pf_rd_r=YA7F8HQ4TCT2H72QRV6P
+          - img "Quick and easy meals. Shop now" [ref=e260]

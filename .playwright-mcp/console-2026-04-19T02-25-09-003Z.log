@@ -1,0 +1,2 @@
+[      16ms] [ERROR] Error initializing CloudWatch RUM web client: missing environment variables @ https://www.wholefoodsmarket.com/_next/static/chunks/pages/_app-d5a96733ff45e62a.js:93
+[      38ms] [LOG] %cThis page was rendered by Brazil font-size: large; color: green; @ https://www.wholefoodsmarket.com/_next/static/chunks/pages/_app-d5a96733ff45e62a.js:84

@@ -1,0 +1,805 @@
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=e8]
+    - heading "Keyboard shortcuts" [level=2] [ref=e9]
+    - list "Keyboard shortcuts" [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Search, option, forward slash" [ref=e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e13]:
+            - generic [ref=e14]: Search
+            - generic [ref=e15]:
+              - generic [ref=e16]: opt
+              - generic [ref=e17]: +
+              - generic [ref=e18]: /
+      - listitem [ref=e19]:
+        - link "Cart, shift, option, c" [ref=e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e21]:
+            - generic [ref=e22]: Cart
+            - generic [ref=e23]:
+              - generic [ref=e24]: shift
+              - generic [ref=e25]: +
+              - generic [ref=e26]: opt
+              - generic [ref=e27]: +
+              - generic [ref=e28]: C
+      - listitem [ref=e29]:
+        - link "Home, shift, option, h" [ref=e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e31]:
+            - generic [ref=e32]: Home
+            - generic [ref=e33]:
+              - generic [ref=e34]: shift
+              - generic [ref=e35]: +
+              - generic [ref=e36]: opt
+              - generic [ref=e37]: +
+              - generic [ref=e38]: H
+      - listitem [ref=e39]:
+        - link "Your orders, shift, option, o" [ref=e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e41]:
+            - generic [ref=e42]: Orders
+            - generic [ref=e43]:
+              - generic [ref=e44]: shift
+              - generic [ref=e45]: +
+              - generic [ref=e46]: opt
+              - generic [ref=e47]: +
+              - generic [ref=e48]: O
+      - listitem [ref=e49]:
+        - button "Show/hide shortcuts, shift, option, z" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: Show/Hide shortcuts
+            - generic [ref=e53]:
+              - generic [ref=e54]: shift
+              - generic [ref=e55]: +
+              - generic [ref=e56]: opt
+              - generic [ref=e57]: +
+              - generic [ref=e58]: Z
+    - generic [ref=e64]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e65]:
+    - navigation "Primary" [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link "Amazon" [ref=e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+          - button "Delivering to Los Angeles 90039 Update location" [ref=e73] [cursor=pointer]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: Delivering to Los Angeles 90039
+              - generic [ref=e77]: Update location
+        - search [ref=e80]:
+          - generic [ref=e83]:
+            - generic [ref=e85]: Amazon Fresh
+            - combobox "Select the department you want to search in" [ref=e87] [cursor=pointer]:
+              - option "Amazon Fresh" [selected]
+              - option "All Departments"
+              - option "Alexa Skills"
+              - option "Amazon Autos"
+              - option "Amazon Devices"
+              - option "Amazon Global Store"
+              - option "Amazon Haul"
+              - option "Amazon One Medical"
+              - option "Amazon Pharmacy"
+              - option "Amazon Resale"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Arts, Crafts & Sewing"
+              - option "Audible Books & Originals"
+              - option "Automotive Parts & Accessories"
+              - option "Baby"
+              - option "Beauty & Personal Care"
+              - option "Books"
+              - option "Bristol Farms"
+              - option "CDs & Vinyl"
+              - option "Cell Phones & Accessories"
+              - option "Clothing, Shoes & Jewelry"
+              - option "Women's Clothing, Shoes & Jewelry"
+              - option "Men's Clothing, Shoes & Jewelry"
+              - option "Girl's Clothing, Shoes & Jewelry"
+              - option "Boy's Clothing, Shoes & Jewelry"
+              - option "Baby Clothing, Shoes & Jewelry"
+              - option "Collectibles & Fine Art"
+              - option "Computers"
+              - option "Credit and Payment Cards"
+              - option "Digital Music"
+              - option "Electronics"
+              - option "Garden & Outdoor"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Food"
+              - option "Handmade"
+              - option "Health, Household & Baby Care"
+              - option "Home & Business Services"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Just for Prime"
+              - option "Kindle Store"
+              - option "Luggage & Travel Gear"
+              - option "Luxury Stores"
+              - option "Magazine Subscriptions"
+              - option "Mission Wine & Spirits"
+              - option "Movies & TV"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Food Express"
+              - option "Pet Supplies"
+              - option "Premium Beauty"
+              - option "Prime Video"
+              - option "Same-Day Store"
+              - option "Smart Home"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Subscribe & Save"
+              - option "Subscription Boxes"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under $10"
+              - option "Video Games"
+              - option "Whole Foods Market"
+          - searchbox "Search Amazon" [ref=e90]
+          - generic "Go" [ref=e93] [cursor=pointer]:
+            - button "Go" [ref=e94]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - link "Choose a language for shopping in Amazon United States. The current selection is English (EN)." [ref=e98] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e101]:
+                - img "United States" [ref=e102]
+                - generic [ref=e103]: EN
+            - button "Expand to Change Language or Country" [ref=e104] [cursor=pointer]
+          - generic [ref=e105]:
+            - link "Hello, sign in Account & Lists" [ref=e106] [cursor=pointer]:
+              - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Falm%2Fstorefront%3FalmBrandId%3DQW1hem9uIEZyZXNo%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e108]: Hello, sign in
+              - generic [ref=e109]: Account & Lists
+            - button "Expand Account and Lists" [ref=e110] [cursor=pointer]
+          - link "Returns & Orders" [ref=e111] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e112]: Returns
+            - generic [ref=e113]: "& Orders"
+          - link [ref=e114] [cursor=pointer]:
+            - /url: /cart/localmarket?almBrandId=QW1hem9uIEZyZXNo&ref_=dnav_alm_cart
+            - generic [ref=e116]: "0"
+      - generic [ref=e121]:
+        - link "Sign in" [ref=e122] [cursor=pointer]:
+          - /url: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Falm%2Fstorefront%3FalmBrandId%3DQW1hem9uIEZyZXNo%26ref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+          - generic [ref=e123]: Sign in
+        - generic [ref=e124]:
+          - text: New customer?
+          - link "New to Amazon? Start here to create an account" [ref=e125] [cursor=pointer]:
+            - /url: https://www.amazon.com/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Falm%2Fstorefront%2F%3F_encoding%3DUTF8%26almBrandId%3DQW1hem9uIEZyZXNo%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - text: Start here.
+      - generic [ref=e130]:
+        - button "Open All Categories Menu" [ref=e132] [cursor=pointer]:
+          - generic [ref=e134]: All
+        - list [ref=e138]:
+          - listitem [ref=e139]:
+            - link "Amazon Haul" [ref=e141] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=e142]:
+            - generic [ref=e143]:
+              - link "Medical Care" [ref=e144] [cursor=pointer]:
+                - /url: https://health.amazon.com/prime?ref_=nav_cs_all_health_ingress_onem_h
+              - button "Medical Care Details" [ref=e145] [cursor=pointer]
+          - listitem [ref=e146]:
+            - link "Amazon Basics" [ref=e148] [cursor=pointer]:
+              - /url: /Amazon_Basics?channel=discovbar&field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=e149]:
+            - link "Best Sellers" [ref=e151] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e152]:
+            - link "Books" [ref=e154] [cursor=pointer]:
+              - /url: /books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books
+          - listitem [ref=e155]:
+            - link "Today's Deals" [ref=e157] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e158]:
+            - generic [ref=e159]:
+              - link "Prime" [ref=e160] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e161] [cursor=pointer]
+          - listitem [ref=e162]:
+            - generic [ref=e163]:
+              - link "Gift Cards" [ref=e164] [cursor=pointer]:
+                - /url: /gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+              - button "Gift Cards Details" [ref=e165] [cursor=pointer]
+          - listitem [ref=e166]:
+            - link "Sell" [ref=e168] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=e169]:
+            - link "Groceries" [ref=e171] [cursor=pointer]:
+              - /url: /fmc/grocery-gateway?gsc=fe16aGPfFs46S&ref_=nav_cs_groceries
+          - listitem [ref=e172]:
+            - link "New Releases" [ref=e174] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e175]:
+            - link "Registry" [ref=e177] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - listitem [ref=e178]:
+            - link "Smart Home" [ref=e180] [cursor=pointer]:
+              - /url: /Smart-Home/b/?ie=UTF8&node=6563140011&ref_=nav_cs_smart_home
+          - listitem [ref=e181]:
+            - link "Music" [ref=e183] [cursor=pointer]:
+              - /url: /music/player?ref_=nav_cs_music
+          - listitem [ref=e184]:
+            - link "Fashion" [ref=e186] [cursor=pointer]:
+              - /url: /amazon-fashion/b/?ie=UTF8&node=7141123011&ref_=nav_cs_fashion
+          - listitem [ref=e187]:
+            - link "Amazon Home" [ref=e189] [cursor=pointer]:
+              - /url: /home-garden-kitchen-furniture-bedding/b/?ie=UTF8&node=1055398&ref_=nav_cs_home
+          - listitem [ref=e190]:
+            - link "Automotive" [ref=e192] [cursor=pointer]:
+              - /url: /automotive-auto-truck-replacements-parts/b/?ie=UTF8&node=15684181&ref_=nav_cs_automotive
+          - listitem [ref=e193]:
+            - link "Sports & Outdoors" [ref=e195] [cursor=pointer]:
+              - /url: /sports-outdoors/b/?ie=UTF8&node=3375251&ref_=nav_cs_sports
+          - listitem [ref=e196]:
+            - link "Toys & Games" [ref=e198] [cursor=pointer]:
+              - /url: /toys/b/?ie=UTF8&node=165793011&ref_=nav_cs_toys
+          - listitem [ref=e199]:
+            - link "Baby" [ref=e201] [cursor=pointer]:
+              - /url: /baby-car-seats-strollers-bedding/b/?ie=UTF8&node=165796011&ref_=nav_cs_baby
+          - listitem [ref=e202]:
+            - link "Home Improvement" [ref=e204] [cursor=pointer]:
+              - /url: /Tools-and-Home-Improvement/b/?ie=UTF8&node=228013&ref_=nav_cs_hi
+          - listitem [ref=e205]:
+            - link "Shop By Interest" [ref=e207] [cursor=pointer]:
+              - /url: /finds?ref_=nav_cs_foundit
+          - listitem [ref=e208]:
+            - link "Pharmacy" [ref=e210] [cursor=pointer]:
+              - /url: https://pharmacy.amazon.com/?nodl=0&ref_=nav_cs_pharmacy
+          - listitem [ref=e211]:
+            - link "Kindle Books" [ref=e213] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=154606011&ref_=nav_cs_kindle_books
+          - listitem [ref=e214]:
+            - link "Beauty & Personal Care" [ref=e216] [cursor=pointer]:
+              - /url: /Beauty-Makeup-Skin-Hair-Products/b/?ie=UTF8&node=3760911&ref_=nav_cs_beauty
+        - link "Watch NBA Hawks vs. Knicks Live now" [ref=e220] [cursor=pointer]:
+          - /url: /gp/video/detail/B0GD5CNYR7/ref=dvm_crs_gat_us_se_dt_swm_l_al_76NBA2026_tp/?ie=UTF8&ref_=nav_swm_dvm_crs_gat_us_se_dt_swm_l_al_76NBA2026_tp&pf_rd_p=c5894c58-c9e8-4930-9f85-592208c3b89c&pf_rd_s=nav-sitewide-msg-text&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=NTJQBAERXCTJ89DH0R2G
+          - img "Watch NBA Hawks vs. Knicks Live now" [ref=e221]
+      - navigation [ref=e226]:
+        - link "Amazon Fresh Logo" [ref=e229] [cursor=pointer]:
+          - /url: /alm/storefront/fresh?almBrandId=QW1hem9uIEZyZXNo&ref=fs_dsk_sn_logo-239db
+          - img "Amazon Fresh Logo" [ref=e230]
+        - link "Past Purchases" [ref=e237] [cursor=pointer]:
+          - /url: /afx/lists/pastpurchases/fresh?almBrandId=QW1hem9uIEZyZXNo&ref=fs_dsk_sn_pastPurchases-1e6f8
+          - generic [ref=e238]: Past Purchases
+        - link "Repeat Items" [ref=e241] [cursor=pointer]:
+          - /url: /repeatitems/fresh?almBrandId=QW1hem9uIEZyZXNo&ref=fs_dsk_sn_repeatItems-1b717
+          - generic [ref=e242]: Repeat Items
+        - link "Alexa Lists" [ref=e245] [cursor=pointer]:
+          - /url: /alexaquantum/sp/alexaShoppingList?shop=true&almBrandId=QW1hem9uIEZyZXNo&ref=fs_dsk_sn_alexaLists-b4b90
+          - generic [ref=e246]: Alexa Lists
+        - link "Savings" [ref=e252] [cursor=pointer]:
+          - /url: /fmc/deals?almBrandId=QW1hem9uIEZyZXNo&ref=fs_dsk_sn_savings-bef20
+          - generic [ref=e253]: Savings
+        - generic [ref=e257]: Explore
+        - generic [ref=e261]: Aisles
+        - link "Mother's Day" [ref=e265] [cursor=pointer]:
+          - /url: /fmc/m/40002740/fresh/2026MothersDay?almBrandId=QW1hem9uIEZyZXNo&ref=fs_dsk_sn_Mom26-712db
+          - generic [ref=e266]: Mother's Day
+      - dialog [ref=e267]
+  - generic [ref=e271]:
+    - generic [ref=e272]:
+      - list [ref=e284]:
+        - listitem [ref=e285]:
+          - img "Lower prices" [ref=e287]
+        - listitem [ref=e288]:
+          - link "Savings that make Mom proud." [ref=e289] [cursor=pointer]:
+            - /url: /fmc/m/40002740/fresh/2026MothersDay?almBrandId=QW1hem9uIEZyZXNo&ref_=Fr110437A&pf_rd_r=NTJQBAERXCTJ89DH0R2G&pf_rd_p=8a26a101-f3ea-4c94-81dc-3c56aed73dac&pf_rd_m=A2R2RITDJNW1Q6&pf_rd_s=alm-storefront-desktop-tcg-1&pf_rd_t=&pf_rd_i=128909
+            - img "Savings that make Mom proud." [ref=e291]
+        - listitem [ref=e292]:
+          - link "Lower prices" [ref=e293] [cursor=pointer]:
+            - /url: /fmc/deals?almBrandId=QW1hem9uIEZyZXNo&ref_=Fr108538A&pf_rd_r=NTJQBAERXCTJ89DH0R2G&pf_rd_p=0e6fb5ab-0e66-4fa9-9de5-caed02585739&pf_rd_m=A2R2RITDJNW1Q6&pf_rd_s=alm-storefront-desktop-tcg-1&pf_rd_t=&pf_rd_i=128909
+            - img "Lower prices" [ref=e295]
+        - listitem [ref=e296]:
+          - img "Savings that make Mom proud." [ref=e298]
+      - generic [ref=e302]:
+        - link "Taste what's in season › a PRODUCE Organic Celery Hearts, 16 OZ Wonderful Naturally Seedless Lemons - Healthy Food, Fresh Fruit, 1lb Bag" [ref=e309] [cursor=pointer]:
+          - /url: /s?_encoding=UTF8&i=amazonfresh&field-asin=B00HT7U55W%7CB00HT7U55W%7CB07X4JNFTG%7CB002B8Z98W%7CB000P6J0SM%7CB07FTVYNM3%7CB00E3JM7UU%7CB000P717MI%7CB08332J6N5%7CB079D5RY71%7CB08911ZP3Y%7CB07XVZLV79%7CB08731CTJS%7CB07QV5G8HY%7CB002B9280S%7CB077L5RXJY%7CB00E3J92PS%7CB07XW1681L%7CB0F4DVZRJM%7CB001GIP2BM%7CB001W3T2SK%7CB000P6L436%7CB07TMBY1B8%7CB003IMLTXE%7CB000P6J1NQ%7CB000SE7Y7U%7CB00E3J9QSG%7CB07FXSZ49R%7CB0014GLSE6%7CB07Y45NJCW%7CB09KNXYWPK%7CB07ZLFKBFD%7CB07ZLF9WQ5%7CB00B4K3PFC%7CB002GIUITC%7CB0792P6WBP%7CB001QTL8FU%7CB0792NT1VJ%7CB07XW1BZR5%7CB07XLV5S5M%7CB07PSVHCQM%7CB07FZKSH9S%7CB07XW19QBH%7CB08GH7R8CR%7CB07XW1R4VL%7CB0050PRHSI%7CB00E3K33KW%7CB001W3JEKG%7CB001GIP2A8%7CB07JN25KY5%7CB07GM88NWG%7CB08GHP4J11%7CB01LEYI3ZO%7CB003TQA73M%7CB09NBYL38B%7CB08GHD5MSJ%7CB000YTXXDI%7CB08GHD4KHX%7CB0DYK3CSNF%7CB07FTTVRNY%7CB000RGZMTQ%7CB001W3T35C%7CB001GIP5CI%7CB000P6J12M%7CB09HQGDCKV%7CB07H5Q6YF1%7CB07XW1BZRB%7CB07XW1RWXG%7CB000P6L3V4&pf_rd_p=38cbd04a-4055-4fc3-a505-24de6e31e6ce&pf_rd_r=NTJQBAERXCTJ89DH0R2G
+          - generic [ref=e310]:
+            - generic [ref=e312]: Taste what's in season ›
+            - generic [ref=e313]:
+              - img "a" [ref=e316]
+              - img "PRODUCE Organic Celery Hearts, 16 OZ" [ref=e319]
+              - img "Wonderful Naturally Seedless Lemons - Healthy Food, Fresh Fruit, 1lb Bag" [ref=e322]
+        - link "Gut-friendly picks › Poppi Sparkling Prebiotic Soda Beverage with Apple Cider Vinegar, Seltzer Water and Fruit Juice, Cherry Cola, 12 Fl Oz, 1 Count, Packaging May Vary Manitoba Harvest Organic Ground Flaxseed, 3g Plant Based Protein and 4.5g Omegas 3 & 6 per 15g Serving - Perfect for Smoothies, Yogurt & Cereal - Non-GMO, Organic, Vegan, 14oz (Pack of 1) SYNERGY The Real Kombucha Trilogy Kombucha - 16 fl oz Bottle - Raw Probiotic Drink for Gut Health and Immune Support" [ref=e329] [cursor=pointer]:
+          - /url: /s?_encoding=UTF8&i=amazonfresh&field-asin=B00P2QI5Y0%7CB0BT32GSJH%7CB0078TTJO4%7CB01J590ALK%7CB07NSVJWWZ%7CB01NBBX1FW%7CB076CHDX7P%7CB078HHK1W4%7CB01N79KB1D%7CB00TZFU3RG%7CB000QJAG6I%7CB000QJ8CVE%7CB000QJAGC2%7CB0069FZFQO%7CB00G6867HA%7CB09VS7CQKC%7CB014JS3E3I%7CB08TGWS7ZS%7CB089CCL9B4%7CB086SDS3HJ%7CB0CBM7ZR7C%7CB00P2QI7F2%7CB01CRLP1U8%7CB08NPF8J2H%7CB09XBKQSBV%7CB07813K57X%7CB0787CVDNB%7CB000XGDKBM%7CB000XGF592%7CB00O9VA1GO%7CB07815Q76J%7CB0052T7R28%7CB000XGGYVA%7CB07F9ZNC2M%7CB074H6M2VP%7CB00ZKEEU8O%7CB00494LQRY%7CB00NKQ8KBC%7CB00112IYZ4%7CB000VDZ4C0%7CB084SB82QP%7CB01EM9K7H0%7CB001FWXLYE%7CB07FTJMM4N%7CB000QJ7CRE%7CB000QJAH0I%7CB0DLZNSM6F%7CB00108GRPS%7CB06XSG4S4G%7CB002ZIDELM%7CB00108EPCU%7CB06XRR9DZT%7CB08BJW9TNZ%7CB08BJYXX16%7CB00LMC4XVW%7CB0DQVXSLV9%7CB00N39C31Y%7CB002MO28GQ%7CB01NBIRN9X%7CB089GSHSVL%7CB076V66FZ4%7CB07587FL9H%7CB0FPMPGK14%7CB01H7GI7V8%7CB0DZCMLTMK%7CB08ZPZ45L6%7CB0048IMRZ6%7CB0DQ6CTYLK%7CB0002JFU6S%7CB00DOKFLYI%7CB00QFR9X8W%7CB07T2793YS%7CB00012NHAC%7CB071J87V9M%7CB0DQ6DCB6F%7CB07LGG2QGQ%7CB0DB5RWWZH%7CB000A4174E%7CB01FOW12CS%7CB00E1KXG0Q%7CB0CDQK8LVV%7CB08YKF1J79%7CB07ZLFPXHC%7CB000Q3X4C2%7CB00DM02URG%7CB0DTZYQKT9%7CB00NL5DR2O%7CB077X8GYNL%7CB0041ICVYA%7CB000VHWLHW%7CB00OBFNVGA%7CB000VHYMN8%7CB06XSC89WZ%7CB000Q3U9PM%7CB0DTZYNL3C%7CB0DTZZ55ZB%7CB00DM02UV2%7CB00OFQEXVW%7CB07CR4Y9DG%7CB00CFY665W%7CB0CZYLNFWL%7CB074H5Y3TM%7CB077RYGD4L%7CB06XKXJFK6%7CB008U5OSTQ%7CB0D9PB6948%7CB0DV1FDYRB%7CB0DQVT9SK1%7CB09SGSD39P%7CB0DBCB21WP%7CB000GG1O7Q%7CB0024SJ2LE%7CB008XAB0VC%7CB001714V1U%7CB0024SASYY%7CB0D61M6W6Z%7CB000VK2OSU%7CB078GVS6FL%7CB0B2JGT1LH%7CB09V1YK425%7CB000R4G4PO%7CB000GG5IYQ%7CB0CQFBFVHK%7CB0932NQYRV%7CB001SAQ546%7CB0D68R2D7R%7CB0CGTJZSY4%7CB08T6LZWKW%7CB084L3Z6LY%7CB084RR2DQX%7CB0FYHCK8CR%7CB0C34V55QP%7CB09G9GZJCR%7CB07813QZCR%7CB0C4X7BWH4%7CB0FD16JTPQ%7CB0DWHVFK7S%7CB0D74PH1SN%7CB0DJN5B63J%7CB0DJN5XJV5%7CB0FN69NSL6%7CB0DWHJZNPM%7CB0FBPK2DB8%7CB0FBPP2PSX&pf_rd_p=ac7cf45b-9ffb-43e6-b655-f9646edd9e76&pf_rd_r=NTJQBAERXCTJ89DH0R2G
+          - generic [ref=e330]:
+            - generic [ref=e332]: Gut-friendly picks ›
+            - generic [ref=e333]:
+              - img "Poppi Sparkling Prebiotic Soda Beverage with Apple Cider Vinegar, Seltzer Water and Fruit Juice, Cherry Cola, 12 Fl Oz, 1 Count, Packaging May Vary" [ref=e336]
+              - img "Manitoba Harvest Organic Ground Flaxseed, 3g Plant Based Protein and 4.5g Omegas 3 & 6 per 15g Serving - Perfect for Smoothies, Yogurt & Cereal - Non-GMO, Organic, Vegan, 14oz (Pack of 1)" [ref=e339]
+              - img "SYNERGY The Real Kombucha Trilogy Kombucha - 16 fl oz Bottle - Raw Probiotic Drink for Gut Health and Immune Support" [ref=e342]
+    - generic [ref=e383]:
+      - group [ref=e386]:
+        - heading "Mother's Day brunch essentials See more" [level=2] [ref=e387]:
+          - text: Mother's Day brunch essentials
+          - link "See more" [ref=e388] [cursor=pointer]:
+            - /url: /fmc/m/40002740/fresh/2026MothersDay?almBrandId=QW1hem9uIEZyZXNo&ref_=fs_dsk_sf_fs_merch_Fr110442A_sml_6&pd_rd_w=KA3Xx&content-id=amzn1.sym.69c2878e-0695-426b-a231-5b96531b198f&pf_rd_p=69c2878e-0695-426b-a231-5b96531b198f&pf_rd_r=NTJQBAERXCTJ89DH0R2G&pd_rd_wg=YFJtm&pd_rd_r=15b07722-85f1-4b48-9f9c-e8998f710c75
+        - separator [ref=e389]
+        - table [ref=e390]:
+          - rowgroup [ref=e391]:
+            - row [ref=e392]:
+              - cell [ref=e393]:
+                - group [ref=e397]:
+                  - list [ref=e398]:
+                    - listitem [ref=e399]:
+                      - generic [ref=e402]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link:
+                                - /url: /afx/lists/pastpurchases?almBrandId=QW1hem9uIEZyZXNo
+                        - link "Tulips 15 Stem, Colors May Vary" [ref=e404] [cursor=pointer]:
+                          - /url: /Whole-Foods-Market-Pink-Tulips/dp/B07Q1Y17MN?pd_rd_w=KA3Xx&content-id=amzn1.sym.69c2878e-0695-426b-a231-5b96531b198f&pf_rd_p=69c2878e-0695-426b-a231-5b96531b198f&pf_rd_r=NTJQBAERXCTJ89DH0R2G&pd_rd_wg=YFJtm&pd_rd_r=15b07722-85f1-4b48-9f9c-e8998f710c75&pd_rd_i=B07Q1Y17MN&fpw=alm&almBrandId=QW1hem9uIEZyZXNo&ref_=pd_alm_fs_dsk_sf_fs_merch_Fr110442A_6_1_i
+                          - img "Tulips 15 Stem, Colors May Vary" [ref=e407]
+                        - link "Tulips 15 Stem, Colors May Vary" [ref=e409] [cursor=pointer]:
+                          - /url: /Whole-Foods-Market-Pink-Tulips/dp/B07Q1Y17MN?pd_rd_w=KA3Xx&content-id=amzn1.sym.69c2878e-0695-426b-a231-5b96531b198f&pf_rd_p=69c2878e-0695-426b-a231-5b96531b198f&pf_rd_r=NTJQBAERXCTJ89DH0R2G&pd_rd_wg=YFJtm&pd_rd_r=15b07722-85f1-4b48-9f9c-e8998f710c75&pd_rd_i=B07Q1Y17MN&fpw=alm&almBrandId=QW1hem9uIEZyZXNo&ref_=pd_alm_fs_dsk_sf_fs_merch_Fr110442A_6_1_t
+                          - generic [ref=e411]:
+                            - generic [ref=e412]: Tulips 15 Stem, Colors May Vary
+                            - generic [ref=e413]: Tulips 15 Stem, Colors May Vary
+                        - generic [ref=e414]: Out of Stock
+      - dialog "side-sheet-display" [ref=e415]:
+        - generic [ref=e418] [cursor=pointer]:
+          - button "Close" [ref=e419]
+          - img [ref=e421]
+    - generic [ref=e428]:
+      - group [ref=e431]:
+        - heading "Proteins for Mom's main dish See more" [level=2] [ref=e432]:
+          - text: Proteins for Mom's main dish
+          - link "See more" [ref=e433] [cursor=pointer]:
+            - /url: /fmc/m/40002740/fresh/2026MothersDay?almBrandId=QW1hem9uIEZyZXNo&ref_=fs_dsk_sf_fs_merch_Fr110443A_sml_7&pd_rd_w=K445m&content-id=amzn1.sym.56b5d063-84ff-4afe-9dcd-1cc6156a4c02&pf_rd_p=56b5d063-84ff-4afe-9dcd-1cc6156a4c02&pf_rd_r=NTJQBAERXCTJ89DH0R2G&pd_rd_wg=YFJtm&pd_rd_r=15b07722-85f1-4b48-9f9c-e8998f710c75
+        - separator [ref=e434]
+        - table [ref=e435]:
+          - rowgroup [ref=e436]:
+            - row [ref=e437]:
+              - cell [ref=e438]:
+                - group [ref=e442]:
+                  - list [ref=e443]:
+                    - listitem [ref=e444]:
+                      - generic [ref=e447]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link:
+                                - /url: /afx/lists/pastpurchases?almBrandId=QW1hem9uIEZyZXNo
+                        - link "Amazon Grocery, Beef Ribeye Steak, Boneless, Value Pack, USDA Choice, Weight Varies" [ref=e449] [cursor=pointer]:
+                          - /url: /Amazon-Grocery-Ribeye-Boneless-Choice/dp/B0D4GJ35SX?pd_rd_w=K445m&content-id=amzn1.sym.56b5d063-84ff-4afe-9dcd-1cc6156a4c02&pf_rd_p=56b5d063-84ff-4afe-9dcd-1cc6156a4c02&pf_rd_r=NTJQBAERXCTJ89DH0R2G&pd_rd_wg=YFJtm&pd_rd_r=15b07722-85f1-4b48-9f9c-e8998f710c75&pd_rd_i=B0D4GJ35SX&fpw=alm&almBrandId=QW1hem9uIEZyZXNo&ref_=pd_alm_fs_dsk_sf_fs_merch_Fr110443A_7_1_i
+                          - img "Amazon Grocery, Beef Ribeye Steak, Boneless, Value Pack, USDA Choice, Weight Varies" [ref=e452]
+                        - generic [ref=e456]:
+                          - generic [ref=e457]:
+                            - generic [ref=e458]: $17.49
+                            - generic [ref=e459]:
+                              - text: $
+                              - generic [ref=e460]:
+                                - text: "17"
+                                - generic [ref=e461]: .
+                              - text: "49"
+                          - text: /lb
+                        - link "Amazon Grocery, Beef Ribeye Steak, Boneless, Value Pack, USDA Choice, Weight Varies" [ref=e463] [cursor=pointer]:
+                          - /url: /Amazon-Grocery-Ribeye-Boneless-Choice/dp/B0D4GJ35SX?pd_rd_w=K445m&content-id=amzn1.sym.56b5d063-84ff-4afe-9dcd-1cc6156a4c02&pf_rd_p=56b5d063-84ff-4afe-9dcd-1cc6156a4c02&pf_rd_r=NTJQBAERXCTJ89DH0R2G&pd_rd_wg=YFJtm&pd_rd_r=15b07722-85f1-4b48-9f9c-e8998f710c75&pd_rd_i=B0D4GJ35SX&fpw=alm&almBrandId=QW1hem9uIEZyZXNo&ref_=pd_alm_fs_dsk_sf_fs_merch_Fr110443A_7_1_t
+                          - generic [ref=e465]:
+                            - generic [ref=e466]: Amazon Grocery, Beef Ribeye Steak, Boneless, Value Pack, USDA Choice, Weight Varies
+                            - generic [ref=e467]: Amazon Grocery, Beef Ribeye Steak, Boneless, Value Pac…
+      - dialog "side-sheet-display" [ref=e468]:
+        - generic [ref=e471] [cursor=pointer]:
+          - button "Close" [ref=e472]
+          - img [ref=e474]
+  - generic [ref=e581]:
+    - button "Back to top" [ref=e582] [cursor=pointer]:
+      - generic [ref=e583]: Back to top
+    - generic [ref=e584]:
+      - generic [ref=e585]:
+        - heading "Get to Know Us" [level=6] [ref=e586]
+        - list [ref=e587]:
+          - listitem [ref=e588]:
+            - link "Careers" [ref=e589] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e590]:
+            - link "Amazon Newsletter" [ref=e591] [cursor=pointer]:
+              - /url: https://email.aboutamazon.com/l/637851/2020-10-29/pd87g?utm_source=gateway&utm_medium=amazonfooters&utm_campaign=newslettersubscribers&utm_content=amazonnewssignup
+          - listitem [ref=e592]:
+            - link "About Amazon" [ref=e593] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer&token=about
+          - listitem [ref=e594]:
+            - link "Accessibility" [ref=e595] [cursor=pointer]:
+              - /url: https://www.amazon.com/b?node=15701038011&ie=UTF8
+          - listitem [ref=e596]:
+            - link "Sustainability" [ref=e597] [cursor=pointer]:
+              - /url: https://sustainability.aboutamazon.com/?utm_source=gateway&utm_medium=footer&ref_=susty_footer
+          - listitem [ref=e598]:
+            - link "Press Center" [ref=e599] [cursor=pointer]:
+              - /url: https://www.amazon.com/pr
+          - listitem [ref=e600]:
+            - link "Investor Relations" [ref=e601] [cursor=pointer]:
+              - /url: https://www.amazon.com/ir
+          - listitem [ref=e602]:
+            - link "Amazon Devices" [ref=e603] [cursor=pointer]:
+              - /url: /gp/browse.html?node=2102313011&ref_=footer_devices
+          - listitem [ref=e604]:
+            - link "Amazon Science" [ref=e605] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e607]:
+        - heading "Make Money with Us" [level=6] [ref=e608]
+        - list [ref=e609]:
+          - listitem [ref=e610]:
+            - link "Sell on Amazon" [ref=e611] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZFSSOA_FTSELL-C&ref_=footer_soa
+          - listitem [ref=e612]:
+            - link "Sell apps on Amazon" [ref=e613] [cursor=pointer]:
+              - /url: https://developer.amazon.com
+          - listitem [ref=e614]:
+            - link "Supply to Amazon" [ref=e615] [cursor=pointer]:
+              - /url: https://supply.amazon.com
+          - listitem [ref=e616]:
+            - link "Protect & Build Your Brand" [ref=e617] [cursor=pointer]:
+              - /url: https://sell.amazon.com/brand-registry?ld=AZUSSOA_ABR-FT
+          - listitem [ref=e618]:
+            - link "Become an Affiliate" [ref=e619] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.com/
+          - listitem [ref=e620]:
+            - link "Become a Delivery Driver" [ref=e621] [cursor=pointer]:
+              - /url: https://dspjobhub.com/
+          - listitem [ref=e622]:
+            - link "Start a Package Delivery Business" [ref=e623] [cursor=pointer]:
+              - /url: https://logistics.amazon.com/marketing?utm_source=amzn&utm_medium=footer&utm_campaign=home
+          - listitem [ref=e624]:
+            - link "Advertise Your Products" [ref=e625] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=ext_amzn_ftr
+          - listitem [ref=e626]:
+            - link "Self-Publish with Us" [ref=e627] [cursor=pointer]:
+              - /url: /gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&topic=200260520&ref_=footer_publishing
+          - listitem [ref=e628]:
+            - link "Become an Amazon Hub Partner" [ref=e629] [cursor=pointer]:
+              - /url: https://www.amazon.com/b?node=216188543011
+          - listitem [ref=e630]:
+            - text: ›
+            - link "See More Ways to Make Money" [ref=e631] [cursor=pointer]:
+              - /url: /b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore
+      - generic [ref=e633]:
+        - heading "Amazon Payment Products" [level=6] [ref=e634]
+        - list [ref=e635]:
+          - listitem [ref=e636]:
+            - link "Amazon Visa" [ref=e637] [cursor=pointer]:
+              - /url: /iss/credit/rewardscardmember?plattr=CBFOOT&ref_=footer_cbcc
+          - listitem [ref=e638]:
+            - link "Amazon Store Card" [ref=e639] [cursor=pointer]:
+              - /url: /credit/storecard/member?plattr=PLCCFOOT&ref_=footer_plcc
+          - listitem [ref=e640]:
+            - link "Amazon Secured Card" [ref=e641] [cursor=pointer]:
+              - /url: /dp/product/B084KP3NG6?plattr=SCFOOT&ref_=footer_ACB
+          - listitem [ref=e642]:
+            - link "Amazon Business Card" [ref=e643] [cursor=pointer]:
+              - /url: /dp/B0DVBL912R?plattr=ACOMFO&ie=UTF-8
+          - listitem [ref=e644]:
+            - link "Shop with Points" [ref=e645] [cursor=pointer]:
+              - /url: https://www.amazon.com/hp/shopwithpoints/servicing
+          - listitem [ref=e646]:
+            - link "Credit Card Marketplace" [ref=e647] [cursor=pointer]:
+              - /url: /gp/browse.html?node=3561432011&ref_=footer_ccmp
+          - listitem [ref=e648]:
+            - link "Reload Your Balance" [ref=e649] [cursor=pointer]:
+              - /url: /gp/browse.html?node=10232440011&ref_=footer_reload_us
+          - listitem [ref=e650]:
+            - link "Gift Cards" [ref=e651] [cursor=pointer]:
+              - /url: https://www.amazon.com/b/?node=2238192011&ref=shop_footer_payments_gc_desktop
+          - listitem [ref=e652]:
+            - link "Amazon Currency Converter" [ref=e653] [cursor=pointer]:
+              - /url: /gp/browse.html?node=388305011&ref_=footer_tfx
+      - generic [ref=e655]:
+        - heading "Let Us Help You" [level=6] [ref=e656]
+        - list [ref=e657]:
+          - listitem [ref=e658]:
+            - link "Your Account" [ref=e659] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e660]:
+            - link "Your Orders" [ref=e661] [cursor=pointer]:
+              - /url: https://www.amazon.com/gp/css/order-history?ref_=footer_yo
+          - listitem [ref=e662]:
+            - link "Shipping Rates & Policies" [ref=e663] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates
+          - listitem [ref=e664]:
+            - link "Amazon Prime" [ref=e665] [cursor=pointer]:
+              - /url: /gp/prime?ref_=footer_prime
+          - listitem [ref=e666]:
+            - link "Returns & Replacements" [ref=e667] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e668]:
+            - link "Manage Your Content and Devices" [ref=e669] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e670]:
+            - link "Recalls and Product Safety Alerts" [ref=e671] [cursor=pointer]:
+              - /url: https://www.amazon.com/product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e672]:
+            - link "Registry & Gift List" [ref=e673] [cursor=pointer]:
+              - /url: /registries?ref_=nav_footer_registry_giftlist_desktop
+          - listitem [ref=e674]:
+            - link "Help" [ref=e675] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e677]:
+      - link "Amazon US Home" [ref=e680] [cursor=pointer]:
+        - /url: /?ref_=footer_logo
+      - generic [ref=e683]:
+        - generic [ref=e684]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e685] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e687]: English
+          - button "Expand to Change Language or Country" [ref=e688] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is United States." [ref=e689] [cursor=pointer]:
+          - generic [ref=e691]: United States
+    - navigation "More on Amazon" [ref=e692]:
+      - generic "More on Amazon" [ref=e693]:
+        - list [ref=e694]:
+          - listitem [ref=e695]:
+            - link "Amazon Music Stream millions of songs" [ref=e696] [cursor=pointer]:
+              - /url: https://music.amazon.com?ref=dm_aff_amz_com
+              - heading "Amazon Music" [level=5] [ref=e697]
+              - generic [ref=e698]:
+                - text: Stream millions
+                - text: of songs
+          - listitem [ref=e699]
+          - listitem [ref=e700]:
+            - link "Amazon Ads Reach customers wherever they spend their time" [ref=e701] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/?ref=footer_advtsing_amzn_com
+              - heading "Amazon Ads" [level=5] [ref=e702]
+              - generic [ref=e703]:
+                - text: Reach customers
+                - text: wherever they
+                - text: spend their time
+          - listitem [ref=e704]
+          - listitem [ref=e705]:
+            - link "6pm Score deals on fashion brands" [ref=e706] [cursor=pointer]:
+              - /url: https://www.6pm.com
+              - heading "6pm" [level=5] [ref=e707]
+              - generic [ref=e708]:
+                - text: Score deals
+                - text: on fashion brands
+          - listitem [ref=e709]
+          - listitem [ref=e710]:
+            - link "AbeBooks Books, art & collectibles" [ref=e711] [cursor=pointer]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=e712]
+              - generic [ref=e713]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e714]
+          - listitem [ref=e715]:
+            - link "ACX Audiobook Publishing Made Easy" [ref=e716] [cursor=pointer]:
+              - /url: https://www.acx.com/
+              - heading "ACX" [level=5] [ref=e717]
+              - generic [ref=e718]:
+                - text: Audiobook Publishing
+                - text: Made Easy
+          - listitem [ref=e719]
+          - listitem [ref=e720]:
+            - link "Sell on Amazon Start a Selling Account" [ref=e721] [cursor=pointer]:
+              - /url: https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell
+              - heading "Sell on Amazon" [level=5] [ref=e722]
+              - generic [ref=e723]: Start a Selling Account
+          - listitem [ref=e724]
+          - listitem [ref=e725]:
+            - link "Veeqo Shipping Software Inventory Management" [ref=e726] [cursor=pointer]:
+              - /url: https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer
+              - heading "Veeqo" [level=5] [ref=e727]
+              - generic [ref=e728]:
+                - text: Shipping Software
+                - text: Inventory Management
+        - list [ref=e729]:
+          - listitem [ref=e730]:
+            - link "Amazon Business Everything For Your Business" [ref=e731] [cursor=pointer]:
+              - /url: /business?ref_=footer_retail_b2b
+              - heading "Amazon Business" [level=5] [ref=e732]
+              - generic [ref=e733]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e734]
+          - listitem [ref=e735]:
+            - link "Amazon Fresh Groceries & More Right To Your Door" [ref=e736] [cursor=pointer]:
+              - /url: /alm/storefront?almBrandId=QW1hem9uIEZyZXNo&ref_=footer_aff_fresh
+              - heading "Amazon Fresh" [level=5] [ref=e737]
+              - generic [ref=e738]:
+                - text: Groceries & More
+                - text: Right To Your Door
+          - listitem [ref=e739]
+          - listitem [ref=e740]:
+            - link "AmazonGlobal Ship Orders Internationally" [ref=e741] [cursor=pointer]:
+              - /url: /gp/browse.html?node=230659011&ref_=footer_amazonglobal
+              - heading "AmazonGlobal" [level=5] [ref=e742]
+              - generic [ref=e743]:
+                - text: Ship Orders
+                - text: Internationally
+          - listitem [ref=e744]
+          - listitem [ref=e745]:
+            - link "Home Services Experienced Pros Happiness Guarantee" [ref=e746] [cursor=pointer]:
+              - /url: /services?ref_=footer_services
+              - heading "Home Services" [level=5] [ref=e747]
+              - generic [ref=e748]:
+                - text: Experienced Pros
+                - text: Happiness Guarantee
+          - listitem [ref=e749]
+          - listitem [ref=e750]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e751] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e752]
+              - generic [ref=e753]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e754]
+          - listitem [ref=e755]:
+            - link "Audible Listen to Books & Original Audio Performances" [ref=e756] [cursor=pointer]:
+              - /url: https://www.audible.com
+              - heading "Audible" [level=5] [ref=e757]
+              - generic [ref=e758]:
+                - text: Listen to Books & Original
+                - text: Audio Performances
+          - listitem [ref=e759]
+          - listitem [ref=e760]:
+            - link "Box Office Mojo Find Movie Box Office Data" [ref=e761] [cursor=pointer]:
+              - /url: https://www.boxofficemojo.com/?ref_=amzn_nav_ftr
+              - heading "Box Office Mojo" [level=5] [ref=e762]
+              - generic [ref=e763]:
+                - text: Find Movie
+                - text: Box Office Data
+        - list [ref=e764]:
+          - listitem [ref=e765]:
+            - link "Goodreads Book reviews & recommendations" [ref=e766] [cursor=pointer]:
+              - /url: https://www.goodreads.com
+              - heading "Goodreads" [level=5] [ref=e767]
+              - generic [ref=e768]:
+                - text: Book reviews
+                - text: "& recommendations"
+          - listitem [ref=e769]
+          - listitem [ref=e770]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e771] [cursor=pointer]:
+              - /url: https://www.imdb.com
+              - heading "IMDb" [level=5] [ref=e772]
+              - generic [ref=e773]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+          - listitem [ref=e774]
+          - listitem [ref=e775]:
+            - link "IMDbPro Get Info Entertainment Professionals Need" [ref=e776] [cursor=pointer]:
+              - /url: https://pro.imdb.com?ref_=amzn_nav_ftr
+              - heading "IMDbPro" [level=5] [ref=e777]
+              - generic [ref=e778]:
+                - text: Get Info Entertainment
+                - text: Professionals Need
+          - listitem [ref=e779]
+          - listitem [ref=e780]:
+            - link "Kindle Direct Publishing Indie Digital & Print Publishing Made Easy" [ref=e781] [cursor=pointer]:
+              - /url: https://kdp.amazon.com
+              - heading "Kindle Direct Publishing" [level=5] [ref=e782]
+              - generic [ref=e783]:
+                - text: Indie Digital & Print Publishing
+                - text: Made Easy
+          - listitem [ref=e784]
+          - listitem [ref=e785]:
+            - link "Amazon Photos Unlimited Photo Storage Free With Prime" [ref=e786] [cursor=pointer]:
+              - /url: /gp/browse.html?node=13234696011&ref_=_gno_p_foot
+              - heading "Amazon Photos" [level=5] [ref=e787]
+              - generic [ref=e788]:
+                - text: Unlimited Photo Storage
+                - text: Free With Prime
+          - listitem [ref=e789]
+          - listitem [ref=e790]:
+            - link "Prime Video Direct Video Distribution Made Easy" [ref=e791] [cursor=pointer]:
+              - /url: https://videodirect.amazon.com/home/landing
+              - heading "Prime Video Direct" [level=5] [ref=e792]
+              - generic [ref=e793]:
+                - text: Video Distribution
+                - text: Made Easy
+          - listitem [ref=e794]
+          - listitem [ref=e795]:
+            - link "Shopbop Designer Fashion Brands" [ref=e796] [cursor=pointer]:
+              - /url: https://www.shopbop.com
+              - heading "Shopbop" [level=5] [ref=e797]
+              - generic [ref=e798]:
+                - text: Designer
+                - text: Fashion Brands
+        - list [ref=e799]:
+          - listitem [ref=e800]:
+            - link "Amazon Resale Great Deals on Quality Used Products" [ref=e801] [cursor=pointer]:
+              - /url: /gp/browse.html?node=10158976011&ref_=footer_wrhsdls
+              - heading "Amazon Resale" [level=5] [ref=e802]
+              - generic [ref=e803]:
+                - text: Great Deals on
+                - text: Quality Used Products
+          - listitem [ref=e804]
+          - listitem [ref=e805]:
+            - link "Whole Foods Market America’s Healthiest Grocery Store" [ref=e806] [cursor=pointer]:
+              - /url: https://www.wholefoodsmarket.com
+              - heading "Whole Foods Market" [level=5] [ref=e807]
+              - generic [ref=e808]:
+                - text: America’s Healthiest
+                - text: Grocery Store
+          - listitem [ref=e809]
+          - listitem [ref=e810]:
+            - link "Woot! Deals and Shenanigans" [ref=e811] [cursor=pointer]:
+              - /url: https://www.woot.com/
+              - heading "Woot!" [level=5] [ref=e812]
+              - generic [ref=e813]:
+                - text: Deals and
+                - text: Shenanigans
+          - listitem [ref=e814]
+          - listitem [ref=e815]:
+            - link "Zappos Shoes & Clothing" [ref=e816] [cursor=pointer]:
+              - /url: https://www.zappos.com
+              - heading "Zappos" [level=5] [ref=e817]
+              - generic [ref=e818]:
+                - text: Shoes &
+                - text: Clothing
+          - listitem [ref=e819]
+          - listitem [ref=e820]:
+            - link "Ring Smart Home Security Systems" [ref=e821] [cursor=pointer]:
+              - /url: https://ring.com
+              - heading "Ring" [level=5] [ref=e822]
+              - generic [ref=e823]:
+                - text: Smart Home
+                - text: Security Systems
+          - listitem [ref=e824]
+          - listitem [ref=e825]:
+            - link "eero WiFi Stream 4K Video in Every Room" [ref=e826] [cursor=pointer]:
+              - /url: https://eero.com/
+              - heading "eero WiFi" [level=5] [ref=e827]
+              - generic [ref=e828]:
+                - text: Stream 4K Video
+                - text: in Every Room
+          - listitem [ref=e829]
+          - listitem [ref=e830]:
+            - link "Blink Smart Security for Every Home" [ref=e831] [cursor=pointer]:
+              - /url: https://blinkforhome.com/?ref=nav_footer
+              - heading "Blink" [level=5] [ref=e832]
+              - generic [ref=e833]:
+                - text: Smart Security
+                - text: for Every Home
+        - list [ref=e834]:
+          - listitem [ref=e835]
+          - listitem [ref=e836]
+          - listitem [ref=e837]
+          - listitem [ref=e838]
+          - listitem [ref=e839]:
+            - link "Neighbors App Real-Time Crime & Safety Alerts" [ref=e840] [cursor=pointer]:
+              - /url: https://shop.ring.com/pages/neighbors-app
+              - heading "Neighbors App" [level=5] [ref=e841]
+              - generic [ref=e842]:
+                - text: Real-Time Crime
+                - text: "& Safety Alerts"
+          - listitem [ref=e843]
+          - listitem [ref=e844]:
+            - link "PillPack Pharmacy Simplified" [ref=e845] [cursor=pointer]:
+              - /url: https://www.pillpack.com
+              - heading "PillPack" [level=5] [ref=e846]
+              - generic [ref=e847]: Pharmacy Simplified
+          - listitem [ref=e848]
+          - listitem [ref=e849]:
+            - link "Amazon Renewed Refurbished tech you can trust" [ref=e850] [cursor=pointer]:
+              - /url: /gp/browse.html?node=12653393011&ref_=footer_usrenew
+              - heading "Amazon Renewed" [level=5] [ref=e851]
+              - generic [ref=e852]:
+                - text: Refurbished tech
+                - text: you can trust
+          - listitem [ref=e853]
+          - listitem [ref=e854]
+          - listitem [ref=e855]
+          - listitem [ref=e856]
+    - generic [ref=e857]:
+      - list [ref=e858]:
+        - listitem [ref=e859]:
+          - link "Conditions of Use" [ref=e860] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=508088&ref_=footer_cou
+        - listitem [ref=e861]:
+          - link "Privacy Notice" [ref=e862] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy
+        - listitem [ref=e863]:
+          - link "Consumer Health Data Privacy Disclosure" [ref=e864] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy
+        - listitem [ref=e865]:
+          - link "Your Ads Privacy Choices" [ref=e866] [cursor=pointer]:
+            - /url: /privacyprefs?ref_=footer_iba
+        - listitem [ref=e867]
+      - generic [ref=e869]: © 1996-2026, Amazon.com, Inc. or its affiliates

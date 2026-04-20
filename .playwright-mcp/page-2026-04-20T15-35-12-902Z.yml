@@ -1,0 +1,271 @@
+- generic [active] [ref=e15]:
+  - textbox [ref=e14]
+  - generic [ref=e16]:
+    - generic [ref=e17]:
+      - banner [ref=e18]:
+        - generic [ref=e19]:
+          - generic:
+            - navigation:
+              - list
+          - generic [ref=e20]:
+            - navigation:
+              - list
+            - 'button "In-Store Cudahy (Store #467)" [ref=e22] [cursor=pointer]':
+              - generic [ref=e23]:
+                - img [ref=e24]
+                - generic [ref=e26]:
+                  - generic [ref=e27]: In-Store
+                  - generic [ref=e28]: "Cudahy (Store #467)"
+                - img [ref=e29]
+            - link "Sign In / Register" [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]: Sign In / Register
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - link "Sprouts Home" [ref=e35] [cursor=pointer]:
+              - /url: /store/sprouts/storefront
+              - img "Sprouts Home" [ref=e36]
+            - navigation "Primary navigation" [ref=e37]:
+              - list [ref=e38]:
+                - listitem [ref=e39]:
+                  - button "Explore" [ref=e41] [cursor=pointer]:
+                    - generic [ref=e42]:
+                      - text: Explore
+                      - img [ref=e43]
+                - listitem [ref=e45]:
+                  - button "Save" [ref=e47] [cursor=pointer]:
+                    - generic [ref=e48]:
+                      - text: Save
+                      - img [ref=e49]
+                - listitem [ref=e51]:
+                  - button "Shop" [ref=e53] [cursor=pointer]:
+                    - generic [ref=e54]:
+                      - text: Shop
+                      - img [ref=e55]
+          - generic [ref=e57]:
+            - search [ref=e61]:
+              - generic [ref=e62]:
+                - button:
+                  - img
+                - paragraph [ref=e63]
+                - textbox [ref=e64]
+            - navigation:
+              - list
+      - generic [ref=e69]:
+        - main [ref=e70]:
+          - heading "Sprouts Farmers Market - Shop" [level=1] [ref=e71]
+          - generic [ref=e73]:
+            - generic [ref=e75]:
+              - link "Sign Up/Log In" [ref=e77] [cursor=pointer]:
+                - /url: /rest/sso/auth/sprouts/init
+                - img [ref=e78]
+                - text: Sign Up/Log In
+              - link "Weekly Ad" [ref=e81] [cursor=pointer]:
+                - /url: /store/sprouts/flyers/view/weekly/print?utm_source=shop.sprouts.com&utm_medium=Quick+Link&utm_campaign=Quick+Link+-+Weekly+Ad
+                - img [ref=e82]
+                - text: Weekly Ad
+            - generic [ref=e84]:
+              - heading "What's Trending" [level=2] [ref=e85]
+              - generic [ref=e86]:
+                - link "Three day sale, limited time only. Click here to shop now. 3 Day Sale" [ref=e88] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pages/72-hour-sale?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=3+day+sale
+                  - img "Three day sale, limited time only. Click here to shop now." [ref=e90]
+                  - paragraph [ref=e91]: 3 Day Sale
+                - link "Buy One, Get One Free or Buy One, Get One 50% Off! Click here to shop now. Can’t-Miss Deals" [ref=e93] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pages/save?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=savings
+                  - img "Buy One, Get One Free or Buy One, Get One 50% Off! Click here to shop now." [ref=e95]
+                  - paragraph [ref=e96]: Can’t-Miss Deals
+                - link "A bottle of Sprouts Brand Organic Coconut Water and a pack of Hydration Energy mix on a green background. Click here to shop now. Hydration" [ref=e98] [cursor=pointer]:
+                  - /url: /store/sprouts/collections/rc-hydration-functional-beverages/?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=hydration
+                  - img "A bottle of Sprouts Brand Organic Coconut Water and a pack of Hydration Energy mix on a green background. Click here to shop now." [ref=e100]
+                  - paragraph [ref=e101]: Hydration
+                - link "Gluten Free Gluten Free" [ref=e103] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/collections/rc-gluten-free?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=Gluten-Free
+                  - img "Gluten Free" [ref=e105]
+                  - paragraph [ref=e106]: Gluten Free
+                - link "Organic Organic" [ref=e108] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/collections/rc-organic?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=Organic
+                  - img "Organic" [ref=e110]
+                  - paragraph [ref=e111]: Organic
+                - link "Plant Based Plant-Based" [ref=e113] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/collections/rc-plant-based?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=Plant+Based
+                  - img "Plant Based" [ref=e115]
+                  - paragraph [ref=e116]: Plant-Based
+                - link "Prepared Foods Prepared Foods" [ref=e118] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/store/sprouts/pages/prepared-foods?utm_source=shop.sprouts.com&utm_medium=What%27s+Trending&utm_campaign=Prepared+Foods
+                  - img "Prepared Foods" [ref=e120]
+                  - paragraph [ref=e121]: Prepared Foods
+            - region "carousel" [ref=e123]:
+              - generic [ref=e124]:
+                - generic [ref=e125]: Use Next and Previous buttons to navigate or jump to a slide with the progress bars. Progress bar shows the current slide and total slides.
+                - generic [ref=e126]:
+                  - group "Slide 1 of 2" [ref=e127]:
+                    - link "Log in or join to earn points - up to 3x faster! Terms apply" [ref=e128] [cursor=pointer]:
+                      - /url: /rest/sso/auth/sprouts/init
+                      - img "Log in or join to earn points - up to 3x faster! Terms apply" [ref=e130]
+                  - group [ref=e133]:
+                    - link [ref=e134] [cursor=pointer]:
+                      - /url: /store/sprouts/pages/72-hour-sale
+                      - img [ref=e136]
+                - button "Next item" [ref=e139] [cursor=pointer]:
+                  - img [ref=e141]
+              - generic [ref=e143]:
+                - button "Stop animation" [ref=e145] [cursor=pointer]:
+                  - img
+                - list [ref=e146]:
+                  - listitem [ref=e147]:
+                    - button "Go to slide 1" [ref=e149] [cursor=pointer]:
+                      - generic [ref=e150]: Go to slide 1
+                  - listitem [ref=e151]:
+                    - button "Go to slide 2" [ref=e153] [cursor=pointer]:
+                      - generic [ref=e154]: Go to slide 2
+            - generic [ref=e158]:
+              - group "Slide 1 of 2" [ref=e159]:
+                - link "Organic Sale - now through April 14th. Select items. Click here to shop now." [ref=e160] [cursor=pointer]:
+                  - /url: /store/sprouts/pages/organic-sale
+                  - img "Organic Sale - now through April 14th. Select items. Click here to shop now." [ref=e162]
+              - group "Slide 2 of 2" [ref=e165]:
+                - link "Forager Finds - Our foragers' new favorite discoveries. Click here to shop now." [ref=e166] [cursor=pointer]:
+                  - /url: /store/sprouts/pages/new-at-sprouts
+                  - img "Forager Finds - Our foragers' new favorite discoveries. Click here to shop now." [ref=e168]
+            - region "Weekly Ad" [ref=e171]:
+              - generic [ref=e173]:
+                - generic [ref=e175]:
+                  - heading "Weekly Ad" [level=2] [ref=e176]:
+                    - link "Weekly Ad" [ref=e177] [cursor=pointer]:
+                      - /url: /store/sprouts/flyers/weekly
+                  - generic [ref=e179]: Sale ends tomorrow
+                - generic [ref=e180]:
+                  - link "View all (700+)" [ref=e182] [cursor=pointer]:
+                    - /url: /store/sprouts/flyers/weekly
+                    - text: View all (700+)
+                    - img [ref=e183]
+                  - generic [ref=e185]:
+                    - button "Previous page" [disabled] [ref=e187]:
+                      - img [ref=e189]
+                    - button "Next page" [ref=e192] [cursor=pointer]:
+                      - img [ref=e194]
+        - contentinfo [ref=e353]:
+          - generic [ref=e355]:
+            - generic [ref=e356]:
+              - generic "Shop" [ref=e357]:
+                - heading "Shop" [level=2] [ref=e358]
+                - list [ref=e359]:
+                  - listitem [ref=e360]:
+                    - link "Sprouts Brands" [ref=e361] [cursor=pointer]:
+                      - /url: https://shop.sprouts.com/store/sprouts/pages/sprouts-brand
+                  - listitem [ref=e362]:
+                    - link "Weekly Deals" [ref=e363] [cursor=pointer]:
+                      - /url: https://shop.sprouts.com/store/sprouts/flyers/view/weekly/print
+                  - listitem [ref=e364]:
+                    - link "Deals of the Month" [ref=e365] [cursor=pointer]:
+                      - /url: https://shop.sprouts.com/store/sprouts/flyers/view/monthly/print
+                  - listitem [ref=e366]:
+                    - link "New For You" [ref=e367] [cursor=pointer]:
+                      - /url: https://shop.sprouts.com/store/sprouts/pages/exclusive-at-sprouts
+                  - listitem [ref=e368]:
+                    - link "Gift Cards" [ref=e369] [cursor=pointer]:
+                      - /url: https://www.sprouts.com/gift-cards/
+              - generic "Get Sprouts" [ref=e370]:
+                - heading "Get Sprouts" [level=2] [ref=e371]
+                - list [ref=e372]:
+                  - listitem [ref=e373]:
+                    - link "Pickup" [ref=e374] [cursor=pointer]:
+                      - /url: https://shop.sprouts.com/store/sprouts/pickup
+                  - listitem [ref=e375]:
+                    - link "Delivery" [ref=e376] [cursor=pointer]:
+                      - /url: https://shop.sprouts.com/store/sprouts/delivery
+                  - listitem [ref=e377]:
+                    - link "Catering" [ref=e378] [cursor=pointer]:
+                      - /url: https://catering.sprouts.com/
+            - generic [ref=e379]:
+              - generic "Socials" [ref=e380]:
+                - heading "Socials" [level=2] [ref=e381]
+                - list [ref=e382]:
+                  - listitem [ref=e383]:
+                    - link "Facebook" [ref=e384] [cursor=pointer]:
+                      - /url: https://www.facebook.com/SproutsFarmersMarket
+                  - listitem [ref=e385]:
+                    - link "Instagram" [ref=e386] [cursor=pointer]:
+                      - /url: https://www.instagram.com/sprouts/
+                  - listitem [ref=e387]:
+                    - link "Tiktok" [ref=e388] [cursor=pointer]:
+                      - /url: https://www.tiktok.com/@sproutsfarmersmarket
+                  - listitem [ref=e389]:
+                    - link "Youtube" [ref=e390] [cursor=pointer]:
+                      - /url: https://youtube.com/user/SproutsFarmersMarket
+                  - listitem [ref=e391]:
+                    - link "Pinterest" [ref=e392] [cursor=pointer]:
+                      - /url: https://pinterest.com/sproutsfm/
+                  - listitem [ref=e393]:
+                    - link "Threads" [ref=e394] [cursor=pointer]:
+                      - /url: https://www.threads.net/@sprouts
+              - generic "Customer Care" [ref=e395]:
+                - heading "Customer Care" [level=2] [ref=e396]
+                - list [ref=e397]:
+                  - listitem [ref=e398]:
+                    - link "FAQs" [ref=e399] [cursor=pointer]:
+                      - /url: https://www.sprouts.com/faq/
+                  - listitem [ref=e400]:
+                    - link "Product Recalls" [ref=e401] [cursor=pointer]:
+                      - /url: https://www.sprouts.com/product-recall/
+                  - listitem [ref=e402]:
+                    - link "Contact Us" [ref=e403] [cursor=pointer]:
+                      - /url: https://www.sprouts.com/contact/
+            - generic "About" [ref=e405]:
+              - heading "About" [level=2] [ref=e406]
+              - list [ref=e407]:
+                - listitem [ref=e408]:
+                  - link "Community" [ref=e409] [cursor=pointer]:
+                    - /url: https://about.sprouts.com/culture-and-community/
+                - listitem [ref=e410]:
+                  - link "Sustainability" [ref=e411] [cursor=pointer]:
+                    - /url: https://www.sprouts.com/about/sustainability/
+                - listitem [ref=e412]:
+                  - link "Careers" [ref=e413] [cursor=pointer]:
+                    - /url: https://www.sprouts.com/careers/
+                - listitem [ref=e414]:
+                  - link "Stores" [ref=e415] [cursor=pointer]:
+                    - /url: https://www.sprouts.com/stores/
+                - listitem [ref=e416]:
+                  - link "New Vendors" [ref=e417] [cursor=pointer]:
+                    - /url: https://about.sprouts.com/new-vendors/
+                - listitem [ref=e418]:
+                  - link "Sprouts Foundation" [ref=e419] [cursor=pointer]:
+                    - /url: https://www.sprouts.com/about/sprouts-foundation/
+                - listitem [ref=e420]:
+                  - link "Investors" [ref=e421] [cursor=pointer]:
+                    - /url: https://investors.sprouts.com/
+                - listitem [ref=e422]:
+                  - link "Press Releases" [ref=e423] [cursor=pointer]:
+                    - /url: https://www.sprouts.com/newsroom/press-releases/
+            - generic "Sign Up & Save" [ref=e425]:
+              - heading "Sign Up & Save" [level=2] [ref=e426]
+              - list [ref=e427]:
+                - listitem [ref=e428]:
+                  - link "Subscribe" [ref=e429] [cursor=pointer]:
+                    - /url: https://shop.sprouts.com/login
+          - generic [ref=e430]:
+            - list [ref=e432]:
+              - listitem [ref=e433]:
+                - link "Accessibility Statement" [ref=e434] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/accessibility-policy-page/
+              - listitem [ref=e435]:
+                - link "Disclosures" [ref=e436] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/disclosures/
+              - listitem [ref=e437]:
+                - link "Home" [ref=e438] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/
+              - listitem [ref=e439]:
+                - link "Privacy Policy" [ref=e440] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/privacy/
+              - listitem [ref=e441]:
+                - link "Sitemap" [ref=e442] [cursor=pointer]:
+                  - /url: https://shop.sprouts.com/#
+              - listitem [ref=e443]:
+                - link "Terms" [ref=e444] [cursor=pointer]:
+                  - /url: https://www.sprouts.com/terms/
+            - generic [ref=e445]:
+              - link "Cookie Preferences" [ref=e447] [cursor=pointer]
+              - text: © 2026 SFM LLC.
+    - generic:
+      - list

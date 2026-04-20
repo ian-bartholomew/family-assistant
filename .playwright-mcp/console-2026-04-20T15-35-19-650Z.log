@@ -1,0 +1,23 @@
+[     353ms] [LOG] nothing to redirect @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-onload.min.f9ea08c5ace33771345d4cabcd506a8c.js:187
+[     386ms] [WARNING] --------- Target deps ran ------ @ :7
+[     434ms] [WARNING] [TEMP DO NOT DELETE] THis is to check the value if data-success-email-checkbox-label is coming or component is triggering  Email me offers, surveys, and special promotions. @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
+[     436ms] [WARNING] [TEMP DO NOT DELETE] THis is to check the value if data-success-email-checkbox-label is coming or component is triggering  Email me offers, surveys, and special promotions. @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
+[     439ms] [WARNING] ========> AB TESTING ====> target flag is not loaded @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
+[     451ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'length')
+    at e.refreshCrossSell (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:4071146)
+    at Object.next (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:4063394)
+    at lt.next (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:238088)
+    at ct._next (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:237771)
+    at ct.next (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:237464)
+    at Pt._subscribe (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:244573)
+    at Pt._trySubscribe (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:239551)
+    at Pt._trySubscribe (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:243422)
+    at https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:239495
+    at rt (https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:1:237214) @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-global.min.0978823129d09446ccdcea053be50ecf.js:0
+[     452ms] [WARNING] Wine Shop Enabled @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-onload.min.f9ea08c5ace33771345d4cabcd506a8c.js:31
+[     556ms] [WARNING] == GLOBAL FLAG NOT ON OR NOT AUTHORIZED @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-header/vons.min.f2ba65def567317fb1deea3b1c90d7c7.js:1
+[     556ms] [WARNING] == AR FINAL FLAG IS SET false v2 @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-header/vons.min.f2ba65def567317fb1deea3b1c90d7c7.js:1
+[     556ms] [WARNING] == AR FINAL FLAG IS SET false DISPATCHED THE EVENT @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-header/vons.min.f2ba65def567317fb1deea3b1c90d7c7.js:1
+[     619ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://ciam.albertsons.com/api/v1/sessions/me/lifecycle/refresh:0
+[     623ms] [WARNING] GAM Array: 1 @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-header/vons.min.f2ba65def567317fb1deea3b1c90d7c7.js:4878
+[     628ms] [WARNING] test order details @ https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:22

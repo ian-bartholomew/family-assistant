@@ -1,0 +1,17 @@
+[     380ms] [LOG] nothing to redirect @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-onload.min.f9ea08c5ace33771345d4cabcd506a8c.js:187
+[     595ms] [WARNING] Wine Shop Enabled @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-onload.min.f9ea08c5ace33771345d4cabcd506a8c.js:31
+[     638ms] [WARNING] --------- Target deps ran ------ @ :7
+[    1123ms] [WARNING] [TEMP DO NOT DELETE] THis is to check the value if data-success-email-checkbox-label is coming or component is triggering  Email me offers, surveys, and special promotions. @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-home.min.93e8ce06d8a6a62290bbb6f1c8f3b756.js:0
+[    1125ms] [WARNING] [TEMP DO NOT DELETE] THis is to check the value if data-success-email-checkbox-label is coming or component is triggering  Email me offers, surveys, and special promotions. @ https://www.vons.com/etc.clientlibs/wcax-microapps/clientlib.angular_v2/clientlib-angular-home.min.93e8ce06d8a6a62290bbb6f1c8f3b756.js:0
+[    1356ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://www.vons.com/etc/designs/wcax-core/fonts/poppins-font-family/poppins-latin.woff2 @ https://www.vons.com/etc.clientlibs/wcax-commons/clientlibs/clientlib-jquery.min.1f2d1b7c8142fad2b09a92d1f906596e.js:133
+[    1374ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://ciam.albertsons.com/api/v1/sessions/me/lifecycle/refresh:0
+[    1412ms] [WARNING] AT: request failed Error: Network request failed
+    at e.onerror (https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:7:1015) @ https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:5
+[    1412ms] [WARNING] [Target Error]:at-request-failed :  @ :86
+[    1413ms] [WARNING] AT: [page-init] View delivery error Error: Network request failed
+    at e.onerror (https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:7:1015) @ https://assets.adobedtm.com/launch-ENd8a7ca47a5e943c9915bbea04a4d1b05.min.js:5
+[    1413ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://safewayinc.tt.omtrdc.net/rest/v1/delivery?client=safewayinc&sessionId=68e946df07af4d3e90073881599a2335&version=2.11.3:0
+[    1628ms] [WARNING] OptanonWrapper rendered from AEM @ https://www.vons.com/:102
+[    1640ms] [WARNING] == GLOBAL FLAG NOT ON OR NOT AUTHORIZED @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-header/vons.min.f2ba65def567317fb1deea3b1c90d7c7.js:1
+[    1640ms] [WARNING] == AR FINAL FLAG IS SET false v2 @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-header/vons.min.f2ba65def567317fb1deea3b1c90d7c7.js:1
+[    1640ms] [WARNING] == AR FINAL FLAG IS SET false DISPATCHED THE EVENT @ https://www.vons.com/etc.clientlibs/wcax-core/clientlibs/clientlib-unified-header/vons.min.f2ba65def567317fb1deea3b1c90d7c7.js:1

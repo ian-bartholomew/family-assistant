@@ -1,0 +1,13 @@
+[      29ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://www.wholefoodsmarket.com/wfm-web-assets/__ENV.js:0
+[      85ms] [ERROR] Error initializing CloudWatch RUM web client: missing environment variables @ https://www.wholefoodsmarket.com/_next/static/chunks/pages/_app-d5a96733ff45e62a.js:93
+[     114ms] [LOG] %cThis page was rendered by Brazil font-size: large; color: green; @ https://www.wholefoodsmarket.com/_next/static/chunks/pages/_app-d5a96733ff45e62a.js:84
+[     187ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://www.wholefoodsmarket.com/wfm-web-assets/images/icon-social-tiktok.svg:0
+[     187ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://www.wholefoodsmarket.com/wfm-web-assets/images/icon-social-threads.svg:0
+[     189ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://www.wholefoodsmarket.com/wfm-web-assets/images/icon-social-x.svg:0
+[     260ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://www.wholefoodsmarket.com/api/stores/10145/summary:0
+[     394ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://www.wholefoodsmarket.com/api/wwos/weblab?weblabId=WFMCX_STOREFRONT_SIGNIN_PROMPT_1380836:0
+[     394ms] [ERROR] Failed to fetch weblab data FetcherError: FetcherError - non 2xx status returned
+    at fetcher (https://www.wholefoodsmarket.com/_next/static/chunks/pages/_app-d5a96733ff45e62a.js:94:91248) @ https://www.wholefoodsmarket.com/_next/static/chunks/pages/_app-d5a96733ff45e62a.js:84
+[     399ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://www.wholefoodsmarket.com/api/wwos/weblab?weblabId=WWGS_APLF_WHOLEFOODS_CONTEXT_1225777:0
+[     399ms] [ERROR] Failed to fetch weblab data FetcherError: FetcherError - non 2xx status returned
+    at fetcher (https://www.wholefoodsmarket.com/_next/static/chunks/pages/_app-d5a96733ff45e62a.js:94:91248) @ https://www.wholefoodsmarket.com/_next/static/chunks/pages/_app-d5a96733ff45e62a.js:84
