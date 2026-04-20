@@ -1,26 +1,19 @@
 stores:
-  - name: Whole Foods
-    url: https://www.amazon.com/alm/storefront?almBrandId=QW1hem9uIEZyZXNo&ref_=ewc_wf
-    search_url: https://www.amazon.com/s?k={query}&i=wholefoods
-    delivery_fee: 0
-    tip_flat: 10
   - name: Vons
     url: https://www.instacart.com/store/vons
-    search_url: https://www.instacart.com/store/vons/search/{query}
+    search_url: https://www.instacart.com/store/vons/search?q={query}
     tip_percent: 20
+    playwright_instance: 1
   - name: Sprouts
-    url: https://www.sprouts.com
-    search_url: https://www.sprouts.com/search/?search_term={query}
+    url: https://www.instacart.com/store/sprouts
+    search_url: https://www.instacart.com/store/sprouts/search?q={query}
     tip_percent: 20
-  - name: Amazon Fresh
-    url: https://www.amazon.com/fresh
-    search_url: https://www.amazon.com/s?k={query}&i=amazonfresh
-    delivery_fee: 0
-    tip_flat: 10
+    playwright_instance: 2
   - name: Costco
     url: https://www.instacart.com/store/costco
-    search_url: https://www.instacart.com/store/costco/search/{query}
+    search_url: https://www.instacart.com/store/costco/search?q={query}
     tip_percent: 20
+    playwright_instance: 3
 
 preferences:
   prefer_organic: true

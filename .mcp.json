@@ -1,6 +1,22 @@
 {
   "mcpServers": {
-    "playwright": {
+    "playwright-1": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--caps", "vision",
+        "--headless"
+      ]
+    },
+    "playwright-2": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--caps", "vision",
+        "--headless"
+      ]
+    },
+    "playwright-3": {
       "command": "npx",
       "args": [
         "@playwright/mcp@latest",

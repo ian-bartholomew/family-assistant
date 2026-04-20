@@ -24,15 +24,18 @@ If there are no unchecked items, tell the user and stop.
 
 Read `${CLAUDE_PLUGIN_ROOT}/config/stores.yaml` and parse:
 
-- The list of stores (each with `name`, `search_url`, optional `delivery_fee`, and `tip_flat` or `tip_percent`)
+- The list of stores (each with `name`, `search_url`, `playwright_instance`, optional `delivery_fee`, and `tip_flat` or `tip_percent`)
 - Preferences (`prefer_organic`, `delivery`, `zip_code`, `default_tip_percent`)
 
 ## Step 3: Dispatch Store Scraper Agents
 
 For each store in the config, launch a `store-scraper` agent using the Agent tool. **Dispatch all agents in parallel** (all Agent tool calls in a single message).
 
+Each store has a `playwright_instance` number (1, 2, or 3) that maps to a dedicated Playwright MCP server (`playwright-1`, `playwright-2`, `playwright-3`). This ensures each agent gets its own isolated browser — no navigation conflicts between agents.
+
 Each agent prompt must include:
 
+- The **Playwright instance number** from the store config
 - The store name and search URL template
 - The full list of unchecked grocery items
 - The preferences (organic, etc.)
@@ -41,10 +44,12 @@ Each agent prompt must include:
 Example prompt for one agent:
 
 ```
-You are scraping prices from Whole Foods.
+You are scraping prices from Vons via Instacart.
 
-Store: Whole Foods
-Search URL template: https://www.wholefoodsmarket.com/search?text={query}
+**Playwright instance: 1** — Use ONLY mcp__playwright-1__browser_* tools.
+
+Store: Vons
+Search URL template: https://www.instacart.com/store/vons/search?q={query}
 
 Preferences:
 - Prefer organic: yes
