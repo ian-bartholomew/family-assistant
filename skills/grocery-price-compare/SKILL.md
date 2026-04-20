@@ -10,7 +10,7 @@ Compare prices for unchecked grocery list items across multiple stores, find the
 
 **Screenshot management:** All Playwright screenshots during this run should be saved to a single folder: `${CLAUDE_PLUGIN_ROOT}/screenshots/`. Create this folder at the start of the run using Bash (`mkdir -p`). Tell each agent to save screenshots there with descriptive names (e.g., `vons-butter.png`). After the report is generated and appended, delete the entire screenshots folder using Bash (`rm -rf ${CLAUDE_PLUGIN_ROOT}/screenshots/`).
 
-**Run logging:** Every run writes a detailed log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. Create the logs folder at the start using Bash (`mkdir -p`). This log is designed to be reviewed later to improve the skill — it captures what worked, what didn't, and why.
+**Run logging:** Every run writes a detailed log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. Use the `obsidian-cli` skill to create notes in the vault (this ensures proper Obsidian integration). This log is designed to be reviewed later to improve the skill — it captures what worked, what didn't, and why.
 
 ## Step 1: Read the Grocery List
 
@@ -198,7 +198,7 @@ Full report appended to: Grocery List - 2026-04-18.md
 
 ## Step 8: Write Run Log and Cleanup
 
-Write the run log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. This log is intended to be reviewed later to improve the skill, agent, and store config. Use the Write tool to create it.
+Write the run log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. This log is intended to be reviewed later to improve the skill, agent, and store config. Use the `obsidian:obsidian-cli` skill to create the note in the vault.
 
 **Run log format:**
 
