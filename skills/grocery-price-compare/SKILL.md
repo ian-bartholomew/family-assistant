@@ -29,7 +29,11 @@ Read `${CLAUDE_PLUGIN_ROOT}/config/stores.yaml` and parse:
 
 ## Step 3: Dispatch Store Scraper Agents
 
-For each store AND each item, launch a separate `store-scraper` agent using the Agent tool. **Dispatch ALL agents in parallel** (all Agent tool calls in a single message). This means if there are 5 stores and 5 items, you dispatch 25 agents simultaneously.
+Dispatch **at most 2 agents per store at a time** to avoid overloading browser sessions. Process items in batches:
+
+1. Split the item list into batches of 2.
+2. For each batch, dispatch agents across all stores in parallel (up to 2 per store x N stores).
+3. Wait for all agents in the batch to complete before dispatching the next batch.
 
 Each agent prompt must include:
 
@@ -38,13 +42,15 @@ Each agent prompt must include:
 - The preferences (organic, etc.)
 - Instructions to return results in the structured format defined in the agent
 
-Example prompts (all dispatched in one message):
+Example: With 5 items and 5 stores, batch 1 dispatches 10 agents (2 items x 5 stores), batch 2 dispatches 10 more, batch 3 dispatches 5 (1 remaining item x 5 stores).
+
+Example prompt for one agent:
 
 ```
 You are scraping a price from Whole Foods.
 
 Store: Whole Foods
-Search URL template: https://www.wholefoodsmarket.com/search?text={query}
+Search URL template: https://www.amazon.com/s?k={query}&i=wholefoods
 
 Preferences:
 - Prefer organic: yes
@@ -54,23 +60,7 @@ Item to search for: butter
 Search for this item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Also note the delivery fee if visible. Return results in the structured format from your instructions.
 ```
 
-```
-You are scraping a price from Whole Foods.
-
-Store: Whole Foods
-Search URL template: https://www.wholefoodsmarket.com/search?text={query}
-
-Preferences:
-- Prefer organic: yes
-
-Item to search for: Organic strawberries
-
-Search for this item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Also note the delivery fee if visible. Return results in the structured format from your instructions.
-```
-
-...and so on for every store + item combination.
-
-## Step 4: Parse Agent Results
+## Step 4: Parse Agent Results and Log Errors
 
 Collect the structured text output from each agent. Each agent returns a single item result for a single store. Parse and group by store:
 
@@ -85,6 +75,32 @@ For each store, build a list of items with:
 - `notes`: any explanation
 
 For each store's `delivery_fee`, use the first non-"unknown" value reported by any of that store's agents (since all agents for the same store see the same delivery fee). If all report "unknown", use "unknown".
+
+**Error handling:** If any agent fails, times out, returns unparseable output, or encounters an error (CAPTCHA, blocked, crash, etc.):
+
+1. **Do not fail the entire run.** Continue with results from agents that succeeded.
+2. **Log the error** to a file in the same directory as the grocery list, named `errors-YYYY-MM-DD.md`. Create or append to this file using the Write/Edit tool.
+3. **Error log format:**
+
+```markdown
+# Grocery Price Compare — Error Log — {YYYY-MM-DD HH:MM}
+
+## {Store Name} — {Item Name}
+- **Error type:** {agent_failed | timeout | unparseable_output | blocked | other}
+- **Details:** {error message or description of what went wrong}
+- **Agent output (if any):**
+```
+
+{raw agent output}
+
+```
+
+## {Store Name} — {Item Name}
+...
+```
+
+1. Treat errored items as `not_found` for that store in the optimization step, with a note referencing the error log.
+2. Mention the error log path in the terminal summary if any errors occurred.
 
 ## Step 5: Optimize Fulfillment Strategies
 
