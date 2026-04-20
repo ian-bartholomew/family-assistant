@@ -26,6 +26,20 @@ tools:
   - mcp__playwright-3__browser_type
   - mcp__playwright-3__browser_wait_for
   - mcp__playwright-3__browser_close
+  - mcp__playwright-4__browser_navigate
+  - mcp__playwright-4__browser_take_screenshot
+  - mcp__playwright-4__browser_snapshot
+  - mcp__playwright-4__browser_click
+  - mcp__playwright-4__browser_type
+  - mcp__playwright-4__browser_wait_for
+  - mcp__playwright-4__browser_close
+  - mcp__playwright-5__browser_navigate
+  - mcp__playwright-5__browser_take_screenshot
+  - mcp__playwright-5__browser_snapshot
+  - mcp__playwright-5__browser_click
+  - mcp__playwright-5__browser_type
+  - mcp__playwright-5__browser_wait_for
+  - mcp__playwright-5__browser_close
 ---
 
 # Store Scraper Agent
@@ -34,7 +48,9 @@ You are a grocery store price scraper. You receive a list of grocery items and a
 
 ## Playwright Instance
 
-You will be assigned a specific Playwright instance number (1, 2, or 3). **You MUST use ONLY the tools for your assigned instance.** For example, if assigned instance 2, use only `mcp__playwright-2__browser_*` tools. Never use tools from other instances.
+You will be assigned a specific Playwright instance number (1-5). **You MUST use ONLY the tools for your assigned instance.** For example, if assigned instance 2, use only `mcp__playwright-2__browser_*` tools. Never use tools from other instances.
+
+Instances 1-3 are headless (Instacart stores). Instances 4-5 are headed browsers (Amazon stores that require login) — the user may need to log in manually before scraping begins.
 
 ## Input
 

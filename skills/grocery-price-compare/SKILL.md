@@ -27,11 +27,21 @@ Read `${CLAUDE_PLUGIN_ROOT}/config/stores.yaml` and parse:
 - The list of stores (each with `name`, `search_url`, `playwright_instance`, optional `delivery_fee`, and `tip_flat` or `tip_percent`)
 - Preferences (`prefer_organic`, `delivery`, `zip_code`, `default_tip_percent`)
 
-## Step 3: Dispatch Store Scraper Agents
+## Step 3: Handle Auth Stores (if any)
+
+Check if any stores have `requires_auth: true`. For each auth store:
+
+1. Navigate to the store's URL using that store's Playwright instance (e.g., `mcp__playwright-4__browser_navigate`). This opens a headed browser window.
+2. Tell the user: **"A browser window has opened for {store name}. Please log in, then let me know when you're ready."**
+3. Wait for the user to confirm they've logged in before proceeding.
+
+Do this for all auth stores before dispatching any scraper agents. Auth stores can be opened in parallel (since they use separate Playwright instances).
+
+## Step 4: Dispatch Store Scraper Agents
 
 For each store in the config, launch a `store-scraper` agent using the Agent tool. **Dispatch all agents in parallel** (all Agent tool calls in a single message).
 
-Each store has a `playwright_instance` number (1, 2, or 3) that maps to a dedicated Playwright MCP server (`playwright-1`, `playwright-2`, `playwright-3`). This ensures each agent gets its own isolated browser — no navigation conflicts between agents.
+Each store has a `playwright_instance` number (1-5) that maps to a dedicated Playwright MCP server. Instances 1-3 are headless (Instacart). Instances 4-5 are headed (Amazon, already logged in from Step 3). This ensures each agent gets its own isolated browser — no navigation conflicts between agents.
 
 Each agent prompt must include:
 
@@ -64,7 +74,7 @@ Items to search for:
 Search for each item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Return results in the structured format from your instructions.
 ```
 
-## Step 4: Parse Agent Results and Log Errors
+## Step 5: Parse Agent Results and Log Errors
 
 Collect the structured text output from each agent. Parse each block into structured data:
 
@@ -106,7 +116,7 @@ Also capture each store's `delivery_fee` (numeric or "unknown").
 1. Treat errored items as `not_found` for that store in the optimization step, with a note referencing the error log.
 2. Mention the error log path in the terminal summary if any errors occurred.
 
-## Step 5: Optimize Fulfillment Strategies
+## Step 6: Optimize Fulfillment Strategies
 
 **IMPORTANT: Do NOT write or run any scripts (Python, JavaScript, bash, etc.) for this step. Do all calculations using your own reasoning. The item counts are small enough to work through manually.**
 
@@ -115,8 +125,8 @@ Generate multiple fulfillment options ranked by total cost (item prices + delive
 **Cost calculation per store:**
 
 - **Item subtotal** = sum of item prices at that store
-- **Delivery fee** = use `delivery_fee` from config if set (e.g., 0 for Prime stores), otherwise use the fee scraped by agents, otherwise "unknown"
-- **Tip** = if store has `tip_flat`, use that fixed amount; otherwise item subtotal * (`tip_percent` from store config, or `default_tip_percent` from preferences) / 100
+- **Delivery fee** = use `delivery_fee` from config if set (e.g., 0 for Prime stores like Whole Foods and Amazon Fresh — these NEVER have delivery fees), otherwise use the fee scraped by agents, otherwise "unknown"
+- **Tip** = if store has `tip_flat`, use that fixed dollar amount (e.g., Whole Foods and Amazon Fresh always $10 tip), otherwise item subtotal * (`tip_percent` from store config, or `default_tip_percent` from preferences) / 100
 - **Store total** = item subtotal + delivery fee + tip
 
 **Work through it step by step:**
@@ -129,7 +139,7 @@ Generate multiple fulfillment options ranked by total cost (item prices + delive
 
 If a store's delivery fee is "unknown", note it in the report and exclude it from the total (with a warning).
 
-## Step 6: Generate and Append Report
+## Step 7: Generate and Append Report
 
 Build the markdown report and append it to the original grocery list file.
 
@@ -171,7 +181,7 @@ Build the markdown report and append it to the original grocery list file.
 
 Use the Edit tool to append the report after the last line of the grocery list file (after a `---` separator).
 
-## Step 7: Print Terminal Summary
+## Step 8: Print Terminal Summary
 
 Print a concise summary to the terminal:
 

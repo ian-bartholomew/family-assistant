@@ -26,6 +26,20 @@
         "--headless",
         "--isolated"
       ]
+    },
+    "playwright-4": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--caps", "vision"
+      ]
+    },
+    "playwright-5": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--caps", "vision"
+      ]
     }
   }
 }
