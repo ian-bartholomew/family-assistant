@@ -31,14 +31,18 @@
       "command": "npx",
       "args": [
         "@playwright/mcp@latest",
-        "--caps", "vision"
+        "--caps", "vision",
+        "--headless",
+        "--isolated"
       ]
     },
     "playwright-5": {
       "command": "npx",
       "args": [
         "@playwright/mcp@latest",
-        "--caps", "vision"
+        "--caps", "vision",
+        "--headless",
+        "--isolated"
       ]
     }
   }

@@ -50,7 +50,7 @@ You are a grocery store price scraper. You receive a list of grocery items and a
 
 You will be assigned a specific Playwright instance number (1-5). **You MUST use ONLY the tools for your assigned instance.** For example, if assigned instance 2, use only `mcp__playwright-2__browser_*` tools. Never use tools from other instances.
 
-Instances 1-3 are headless (Instacart stores). Instances 4-5 are headed browsers (Amazon stores that require login) — the user may need to log in manually before scraping begins.
+All instances are headless and isolated.
 
 ## Input
 

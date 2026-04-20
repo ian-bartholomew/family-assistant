@@ -5,14 +5,12 @@ stores:
     delivery_fee: 0
     tip_flat: 10
     playwright_instance: 4
-    requires_auth: true
   - name: Amazon Fresh
     url: https://www.amazon.com/fresh
     search_url: https://www.amazon.com/s?k={query}&i=amazonfresh
     delivery_fee: 0
     tip_flat: 10
     playwright_instance: 5
-    requires_auth: true
   - name: Vons
     url: https://www.instacart.com/store/vons
     search_url: https://www.instacart.com/store/vons/search?q={query}
