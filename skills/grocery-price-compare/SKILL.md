@@ -8,7 +8,7 @@ version: 1.0.0
 
 Compare prices for unchecked grocery list items across multiple stores, find the cheapest fulfillment strategy, and append a report to the grocery list.
 
-**Screenshot management:** All Playwright screenshots during this run should be saved to a single folder: `${CLAUDE_PLUGIN_ROOT}/screenshots/`. Create this folder at the start of the run using Bash (`mkdir -p`). Tell each agent to save screenshots there with descriptive names (e.g., `vons-butter.png`). After the report is generated and appended, delete the entire screenshots folder using Bash (`rm -rf ${CLAUDE_PLUGIN_ROOT}/screenshots/`).
+**Screenshot management:** All Playwright screenshots during this run should be saved to `{vault_path}/screenshots/`. Use the `obsidian:obsidian-cli` skill to create the folder. Tell each agent to save screenshots there with descriptive names (e.g., `vons-butter.png`). After the report is generated and appended, delete the screenshots folder using Bash (`rm -rf {vault_path}/screenshots/`).
 
 **Run logging:** Every run writes a detailed log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. Use the `obsidian-cli` skill to create notes in the vault (this ensures proper Obsidian integration). This log is designed to be reviewed later to improve the skill — it captures what worked, what didn't, and why.
 
@@ -65,7 +65,7 @@ Items to search for:
 4. 2 dozen eggs
 5. English muffins
 
-Screenshots folder: ${CLAUDE_PLUGIN_ROOT}/screenshots/
+Screenshots folder: {vault_path}/screenshots/
 
 IMPORTANT: Do NOT write or run any scripts. Use only Playwright MCP tools and your own reasoning.
 
@@ -263,7 +263,7 @@ Write the run log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. This log is i
 After writing the log, delete the screenshots folder:
 
 ```bash
-rm -rf ${CLAUDE_PLUGIN_ROOT}/screenshots/
+rm -rf {vault_path}/screenshots/
 ```
 
 Mention the log file path in the terminal summary.
