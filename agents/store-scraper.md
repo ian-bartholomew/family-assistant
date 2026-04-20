@@ -67,7 +67,7 @@ For each item in the list:
 
 1. **Navigate** to the store's search URL with the item name as the query using `browser_navigate`.
 2. **Wait** for search results to load. Use `browser_wait_for` to wait for product elements to appear (Instacart renders results client-side via JavaScript, so you must wait for the dynamic content).
-3. **Take a screenshot** of the search results page using `browser_take_screenshot`.
+3. **Take a screenshot** of the search results page using `browser_take_screenshot`. Save it to the screenshots folder provided in your prompt (e.g., `screenshots/{store-slug}-{item-slug}.png`).
 4. **Analyze the screenshot** to find the best matching product:
    - Prefer organic versions if `prefer_organic` is true
    - Look for the closest match to the requested item

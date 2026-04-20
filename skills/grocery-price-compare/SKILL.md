@@ -8,6 +8,8 @@ version: 1.0.0
 
 Compare prices for unchecked grocery list items across multiple stores, find the cheapest fulfillment strategy, and append a report to the grocery list.
 
+**Screenshot management:** All Playwright screenshots during this run should be saved to a single folder: `${CLAUDE_PLUGIN_ROOT}/screenshots/`. Create this folder at the start of the run using Bash (`mkdir -p`). Tell each agent to save screenshots there with descriptive names (e.g., `vons-butter.png`). After the report is generated and appended, delete the entire screenshots folder using Bash (`rm -rf ${CLAUDE_PLUGIN_ROOT}/screenshots/`).
+
 ## Step 1: Read the Grocery List
 
 Find the latest grocery list file:
@@ -61,7 +63,9 @@ Items to search for:
 4. 2 dozen eggs
 5. English muffins
 
-Search for each item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Return results in the structured format from your instructions.
+Screenshots folder: ${CLAUDE_PLUGIN_ROOT}/screenshots/
+
+Search for each item, take a screenshot of the results (save to the screenshots folder as {store-slug}-{item-slug}.png), extract the best matching product name, price, size, unit price, and URL. Prefer organic products. Return results in the structured format from your instructions.
 ```
 
 ## Step 4: Parse Agent Results and Log Errors
@@ -204,4 +208,12 @@ Option 3: Best Single Store — $38.94 (Sprouts)
 ⚠ Blueberries substituted at Amazon Fresh (conventional, organic unavailable)
 
 Full report appended to: Grocery List - 2026-04-18.md
+```
+
+## Step 8: Cleanup
+
+Delete the screenshots folder:
+
+```bash
+rm -rf ${CLAUDE_PLUGIN_ROOT}/screenshots/
 ```
