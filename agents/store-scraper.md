@@ -5,13 +5,20 @@ tools:
   - Read
   - Glob
   - Grep
-  - mcp__playwright__browser_navigate
-  - mcp__playwright__browser_take_screenshot
-  - mcp__playwright__browser_snapshot
-  - mcp__playwright__browser_click
-  - mcp__playwright__browser_type
-  - mcp__playwright__browser_wait_for
-  - mcp__playwright__browser_close
+  - mcp__playwright-1__browser_navigate
+  - mcp__playwright-1__browser_take_screenshot
+  - mcp__playwright-1__browser_snapshot
+  - mcp__playwright-1__browser_click
+  - mcp__playwright-1__browser_type
+  - mcp__playwright-1__browser_wait_for
+  - mcp__playwright-1__browser_close
+  - mcp__playwright-2__browser_navigate
+  - mcp__playwright-2__browser_take_screenshot
+  - mcp__playwright-2__browser_snapshot
+  - mcp__playwright-2__browser_click
+  - mcp__playwright-2__browser_type
+  - mcp__playwright-2__browser_wait_for
+  - mcp__playwright-2__browser_close
 ---
 
 # Store Scraper Agent
@@ -25,10 +32,13 @@ You will be given:
 - **Store name** and **search URL template** (with `{query}` placeholder)
 - **A single grocery item** to search for
 - **Preferences**: whether to prefer organic, etc.
+- **Playwright instance**: which instance to use (`playwright-1` or `playwright-2`)
+
+**IMPORTANT:** You MUST use only the Playwright tools for your assigned instance. If assigned `playwright-1`, use `mcp__playwright-1__browser_*` tools. If assigned `playwright-2`, use `mcp__playwright-2__browser_*` tools. Never mix instances.
 
 ## Process
 
-1. **Navigate** to the store's search URL with the item name as the query using `browser_navigate`.
+1. **Navigate** to the store's search URL with the item name as the query using `browser_navigate` on your assigned Playwright instance.
 2. **Take a screenshot** of the search results page using `browser_take_screenshot`.
 3. **Analyze the screenshot** to find the best matching product:
    - Prefer organic versions if `prefer_organic` is true

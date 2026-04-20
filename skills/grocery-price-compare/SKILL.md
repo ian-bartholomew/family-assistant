@@ -29,35 +29,55 @@ Read `${CLAUDE_PLUGIN_ROOT}/config/stores.yaml` and parse:
 
 ## Step 3: Dispatch Store Scraper Agents
 
-Dispatch **at most 2 agents per store at a time** to avoid overloading browser sessions. Process items in batches:
+There are **2 Playwright MCP instances** available: `playwright-1` and `playwright-2`. Each is an independent headless browser. Dispatch **at most 2 agents at a time total** (one per Playwright instance) to avoid browser conflicts.
 
-1. Split the item list into batches of 2.
-2. For each batch, dispatch agents across all stores in parallel (up to 2 per store x N stores).
-3. Wait for all agents in the batch to complete before dispatching the next batch.
+**Batching process:**
+
+1. Build the full list of (store, item) pairs to scrape.
+2. Process them in batches of 2. For each batch:
+   - Assign the first agent to `playwright-1` and the second to `playwright-2`.
+   - Dispatch both agents in parallel.
+   - Wait for both to complete before dispatching the next batch.
+3. Continue until all (store, item) pairs are scraped.
 
 Each agent prompt must include:
 
 - The store name and search URL template
 - A **single** grocery item to search for
 - The preferences (organic, etc.)
+- **Which Playwright instance to use** (`playwright-1` or `playwright-2`)
 - Instructions to return results in the structured format defined in the agent
 
-Example: With 5 items and 5 stores, batch 1 dispatches 10 agents (2 items x 5 stores), batch 2 dispatches 10 more, batch 3 dispatches 5 (1 remaining item x 5 stores).
-
-Example prompt for one agent:
+Example batch (2 agents dispatched in one message):
 
 ```
 You are scraping a price from Whole Foods.
 
 Store: Whole Foods
 Search URL template: https://www.amazon.com/s?k={query}&i=wholefoods
+Playwright instance: playwright-1
 
 Preferences:
 - Prefer organic: yes
 
 Item to search for: butter
 
-Search for this item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Also note the delivery fee if visible. Return results in the structured format from your instructions.
+Use ONLY mcp__playwright-1__browser_* tools. Search for this item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Also note the delivery fee if visible. Return results in the structured format from your instructions.
+```
+
+```
+You are scraping a price from Vons.
+
+Store: Vons
+Search URL template: https://www.instacart.com/store/vons/search/{query}
+Playwright instance: playwright-2
+
+Preferences:
+- Prefer organic: yes
+
+Item to search for: butter
+
+Use ONLY mcp__playwright-2__browser_* tools. Search for this item, take a screenshot of the results, extract the best matching product name, price, and URL. Prefer organic products. Also note the delivery fee if visible. Return results in the structured format from your instructions.
 ```
 
 ## Step 4: Parse Agent Results and Log Errors
