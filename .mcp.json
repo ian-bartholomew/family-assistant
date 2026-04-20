@@ -5,7 +5,8 @@
       "args": [
         "@playwright/mcp@latest",
         "--caps", "vision",
-        "--headless"
+        "--headless",
+        "--isolated"
       ]
     },
     "playwright-2": {
@@ -13,7 +14,8 @@
       "args": [
         "@playwright/mcp@latest",
         "--caps", "vision",
-        "--headless"
+        "--headless",
+        "--isolated"
       ]
     },
     "playwright-3": {
@@ -21,7 +23,8 @@
       "args": [
         "@playwright/mcp@latest",
         "--caps", "vision",
-        "--headless"
+        "--headless",
+        "--isolated"
       ]
     }
   }
