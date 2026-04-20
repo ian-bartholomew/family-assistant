@@ -14,18 +14,38 @@ stores:
   - name: Vons
     url: https://www.instacart.com/store/vons
     search_url: https://www.instacart.com/store/vons/search?q={query}
+    service_fee_percent: 8
+    delivery_fee: 1.99
     tip_percent: 20
     playwright_instance: 1
   - name: Sprouts
     url: https://www.instacart.com/store/sprouts
     search_url: https://www.instacart.com/store/sprouts/search?q={query}
+    service_fee_percent: 8
+    delivery_fee: 1.99
     tip_percent: 20
     playwright_instance: 2
   - name: Costco
     url: https://www.instacart.com/store/costco
     search_url: https://www.instacart.com/store/costco/search?q={query}
+    service_fee_percent: 8
+    delivery_fee: 5.99
     tip_percent: 20
     playwright_instance: 3
+  - name: Ralphs
+    url: https://www.instacart.com/store/ralphs
+    search_url: https://www.instacart.com/store/ralphs/search?q={query}
+    service_fee_percent: 8
+    delivery_fee: 1.99
+    tip_percent: 20
+    playwright_instance: 6
+  - name: Aldi
+    url: https://www.instacart.com/store/aldi
+    search_url: https://www.instacart.com/store/aldi/search?q={query}
+    service_fee_percent: 8
+    delivery_fee: 1.99
+    tip_percent: 20
+    playwright_instance: 7
 
 preferences:
   prefer_organic: true

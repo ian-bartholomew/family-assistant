@@ -30,14 +30,14 @@ If there are no unchecked items, tell the user and stop.
 
 Read `${CLAUDE_PLUGIN_ROOT}/config/stores.yaml` and parse:
 
-- The list of stores (each with `name`, `search_url`, `playwright_instance`, optional `delivery_fee`, and `tip_flat` or `tip_percent`)
+- The list of stores (each with `name`, `search_url`, `playwright_instance`, optional `delivery_fee`, `service_fee_percent`, and `tip_flat` or `tip_percent`)
 - Preferences (`prefer_organic`, `delivery`, `zip_code`, `default_tip_percent`)
 
 ## Step 3: Dispatch Store Scraper Agents
 
 For each store in the config, launch a `store-scraper` agent using the Agent tool. **Dispatch all agents in parallel** (all Agent tool calls in a single message).
 
-Each store has a `playwright_instance` number (1-5) that maps to a dedicated Playwright MCP server. Each instance is a separate headless, isolated browser — no navigation conflicts between agents.
+Each store has a `playwright_instance` number (1-7) that maps to a dedicated Playwright MCP server. Each instance is a separate headless, isolated browser — no navigation conflicts between agents.
 
 Each agent prompt must include:
 
@@ -107,9 +107,10 @@ Generate multiple fulfillment options ranked by total cost (item prices + delive
 **Cost calculation per store:**
 
 - **Item subtotal** = sum of item prices at that store
+- **Service fee** = item subtotal * (`service_fee_percent` from store config) / 100. If not set, 0.
 - **Delivery fee** = use `delivery_fee` from config if set (e.g., 0 for Prime stores like Whole Foods and Amazon Fresh — these NEVER have delivery fees), otherwise use the fee scraped by agents, otherwise "unknown"
 - **Tip** = if store has `tip_flat`, use that fixed dollar amount (e.g., Whole Foods and Amazon Fresh always $10 tip), otherwise item subtotal * (`tip_percent` from store config, or `default_tip_percent` from preferences) / 100
-- **Store total** = item subtotal + delivery fee + tip
+- **Store total** = item subtotal + service fee + delivery fee + tip
 
 **Work through it step by step:**
 
@@ -144,14 +145,15 @@ For each cell: show product name, size, price, and unit price. Use "N/A" if not 
 
 ### Option {N}: {Label} (${total}) — {Store1} + {Store2}
 
-#### {Store1} — ${store_total} (items ${item_subtotal} + ${delivery} delivery + ${tip} tip)
+#### {Store1} — ${store_total} (items ${item_subtotal} + ${service_fee} service fee + ${delivery} delivery + ${tip} tip)
 | Item | Product | Size | Price | Unit Price | Link | Notes |
 |------|---------|------|-------|------------|------|-------|
 | {item} | {product_name} | {size} | ${price} | ${unit_price}/oz | [link]({url}) | {notes — include "SUBSTITUTED" or "OUT OF STOCK" here if applicable} |
+| *Service Fee ({service_fee_percent}%)* | | | ${service_fee} | | | |
 | *Delivery* | | | ${fee} | | | |
 | *Tip ({tip_percent}% or flat)* | | | ${tip} | | | |
 
-#### {Store2} — ${store_total} (items ${item_subtotal} + ${delivery} delivery + ${tip} tip)
+#### {Store2} — ${store_total} (items ${item_subtotal} + ${service_fee} service fee + ${delivery} delivery + ${tip} tip)
 | Item | Product | Size | Price | Unit Price | Link | Notes |
 |------|---------|------|-------|------------|------|-------|
 ...

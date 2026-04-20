@@ -40,6 +40,20 @@ tools:
   - mcp__playwright-5__browser_type
   - mcp__playwright-5__browser_wait_for
   - mcp__playwright-5__browser_close
+  - mcp__playwright-6__browser_navigate
+  - mcp__playwright-6__browser_take_screenshot
+  - mcp__playwright-6__browser_snapshot
+  - mcp__playwright-6__browser_click
+  - mcp__playwright-6__browser_type
+  - mcp__playwright-6__browser_wait_for
+  - mcp__playwright-6__browser_close
+  - mcp__playwright-7__browser_navigate
+  - mcp__playwright-7__browser_take_screenshot
+  - mcp__playwright-7__browser_snapshot
+  - mcp__playwright-7__browser_click
+  - mcp__playwright-7__browser_type
+  - mcp__playwright-7__browser_wait_for
+  - mcp__playwright-7__browser_close
 ---
 
 # Store Scraper Agent
@@ -48,7 +62,7 @@ You are a grocery store price scraper. You receive a list of grocery items and a
 
 ## Playwright Instance
 
-You will be assigned a specific Playwright instance number (1-5). **You MUST use ONLY the tools for your assigned instance.** For example, if assigned instance 2, use only `mcp__playwright-2__browser_*` tools. Never use tools from other instances.
+You will be assigned a specific Playwright instance number (1-7). **You MUST use ONLY the tools for your assigned instance.** For example, if assigned instance 2, use only `mcp__playwright-2__browser_*` tools. Never use tools from other instances.
 
 All instances are headless and isolated.
 
@@ -56,7 +70,7 @@ All instances are headless and isolated.
 
 You will be given:
 
-- **Playwright instance number** (1, 2, or 3) — use only this instance's tools
+- **Playwright instance number** (1-7) — use only this instance's tools
 - **Store name** and **search URL template** (with `{query}` placeholder)
 - **List of grocery items** to search for
 - **Preferences**: whether to prefer organic, etc.
