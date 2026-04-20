@@ -10,6 +10,8 @@ Compare prices for unchecked grocery list items across multiple stores, find the
 
 **Screenshot management:** All Playwright screenshots during this run should be saved to a single folder: `${CLAUDE_PLUGIN_ROOT}/screenshots/`. Create this folder at the start of the run using Bash (`mkdir -p`). Tell each agent to save screenshots there with descriptive names (e.g., `vons-butter.png`). After the report is generated and appended, delete the entire screenshots folder using Bash (`rm -rf ${CLAUDE_PLUGIN_ROOT}/screenshots/`).
 
+**Run logging:** Every run writes a detailed log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. Create the logs folder at the start using Bash (`mkdir -p`). This log is designed to be reviewed later to improve the skill — it captures what worked, what didn't, and why.
+
 ## Step 1: Read the Grocery List
 
 Find the latest grocery list file:
@@ -91,26 +93,8 @@ Also capture each store's `delivery_fee` (numeric or "unknown").
 **Error handling:** If any agent fails, times out, returns unparseable output, or encounters an error (CAPTCHA, blocked, crash, etc.):
 
 1. **Do not fail the entire run.** Continue with results from agents that succeeded.
-2. **Log the error** to a file in the same directory as the grocery list, named `errors-YYYY-MM-DD.md`. Create or append to this file.
-3. **Error log format:**
-
-```markdown
-# Grocery Price Compare — Error Log — {YYYY-MM-DD HH:MM}
-
-## {Store Name}
-- **Error type:** {agent_failed | timeout | unparseable_output | blocked | other}
-- **Items affected:** {list of items that could not be scraped}
-- **Details:** {error message or description of what went wrong}
-- **Agent output (if any):**
-```
-
-{raw agent output}
-
-```
-```
-
-1. Treat errored items as `not_found` for that store in the optimization step, with a note referencing the error log.
-2. Mention the error log path in the terminal summary if any errors occurred.
+2. Treat errored items as `not_found` for that store in the optimization step.
+3. All errors are captured in the run log (see Step 8).
 
 ## Step 5: Optimize Fulfillment Strategies
 
@@ -212,10 +196,74 @@ Option 3: Best Single Store — $38.94 (Sprouts)
 Full report appended to: Grocery List - 2026-04-18.md
 ```
 
-## Step 8: Cleanup
+## Step 8: Write Run Log and Cleanup
 
-Delete the screenshots folder:
+Write the run log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. This log is intended to be reviewed later to improve the skill, agent, and store config. Use the Write tool to create it.
+
+**Run log format:**
+
+```markdown
+# Grocery Price Compare — Run Log — {YYYY-MM-DD HH:MM}
+
+## Run Summary
+- **Grocery list:** {filename}
+- **Items searched:** {count}
+- **Stores scraped:** {list of store names}
+- **Total run time:** {approximate duration}
+- **Outcome:** {success | partial success | failed}
+
+## Items Searched
+{list of unchecked items from the grocery list}
+
+## Per-Store Results
+
+### {Store Name} (playwright-{N})
+- **Status:** {success | partial | failed}
+- **Items found:** {count} / {total}
+- **Items substituted:** {count} — {list with reasons}
+- **Items not found:** {count} — {list}
+- **Items out of stock:** {count} — {list}
+- **Delivery fee:** {amount or "unknown"}
+- **Raw agent output:**
+```
+
+{full structured output from the agent}
+
+```
+
+### {Next Store}
+...
+
+## Errors
+{If any agents failed, timed out, or returned unparseable output:}
+
+### {Store Name}
+- **Error type:** {agent_failed | timeout | unparseable_output | blocked | other}
+- **Details:** {error message or description}
+- **Raw agent output (if any):**
+```
+
+{raw output}
+
+```
+
+## Optimization Results
+- **Options generated:** {count}
+- **Cheapest option:** {label} — ${total}
+- **Best single-store:** {store} — ${total}
+
+## Issues & Improvement Notes
+{Note anything that could be improved for future runs:}
+- {e.g., "Instacart showed location popup on Vons, had to dismiss — consider adding zip code"}
+- {e.g., "Costco search returned bulk items only — may need different search terms for small quantities"}
+- {e.g., "Amazon Fresh returned no results for 'English muffins' — try 'Thomas English muffins' next time"}
+- {e.g., "Unit price extraction failed for produce items with estimated weights"}
+```
+
+After writing the log, delete the screenshots folder:
 
 ```bash
 rm -rf ${CLAUDE_PLUGIN_ROOT}/screenshots/
 ```
+
+Mention the log file path in the terminal summary.
