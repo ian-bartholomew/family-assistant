@@ -33,7 +33,23 @@ Read `${CLAUDE_PLUGIN_ROOT}/config/stores.yaml` and parse:
 - The list of stores (each with `name`, `search_url`, `playwright_instance`, optional `delivery_fee`, `service_fee_percent`, and `tip_flat` or `tip_percent`)
 - Preferences (`prefer_organic`, `delivery`, `zip_code`, `default_tip_percent`)
 
-## Step 3: Dispatch Store Scraper Agents
+## Step 3: Pre-flight Check
+
+Before dispatching agents, verify that each store's Playwright instance is available:
+
+1. For each store in the config, use `ToolSearch` to check for its Playwright tools:
+
+   ```
+   ToolSearch("+plugin_family-assistant_playwright-{N} navigate")
+   ```
+
+   where `{N}` is the store's `playwright_instance` number.
+2. If a Playwright instance is **not found**, warn the user: "Playwright instance {N} for {store name} is not available. Skipping this store."
+3. Remove unavailable stores from the dispatch list — do not send an agent that will fail.
+4. If **no** Playwright instances are available, tell the user and stop.
+5. Log all pre-flight results (available and missing) in the run log.
+
+## Step 4: Dispatch Store Scraper Agents
 
 For each store in the config, launch a `store-scraper` agent using the Agent tool. **Dispatch all agents in parallel** (all Agent tool calls in a single message).
 
@@ -52,7 +68,7 @@ Example prompt for one agent:
 ```
 You are scraping prices from Vons via Instacart.
 
-**Playwright instance: 1** — Use ONLY mcp__playwright-1__browser_* tools.
+**Playwright instance: 1** — Use ONLY mcp__plugin_family-assistant_playwright-1__browser_* tools.
 
 Store: Vons
 Search URL template: https://www.instacart.com/store/vons/search?q={query}
@@ -74,7 +90,7 @@ IMPORTANT: Do NOT write or run any scripts. Use only Playwright MCP tools and yo
 Search for each item, take a screenshot of the results (save to the screenshots folder as {store-slug}-{item-slug}.png), extract the best matching product name, price, size, unit price, and URL. Prefer organic products. Return results in the structured format from your instructions.
 ```
 
-## Step 4: Parse Agent Results and Log Errors
+## Step 5: Parse Agent Results and Log Errors
 
 Collect the structured text output from each agent. Parse each block into structured data:
 
@@ -96,9 +112,9 @@ Also capture each store's `delivery_fee` (numeric or "unknown").
 
 1. **Do not fail the entire run.** Continue with results from agents that succeeded.
 2. Treat errored items as `not_found` for that store in the optimization step.
-3. All errors are captured in the run log (see Step 8).
+3. All errors are captured in the run log (see Step 9).
 
-## Step 5: Optimize Fulfillment Strategies
+## Step 6: Optimize Fulfillment Strategies
 
 **IMPORTANT: Do NOT write or run any scripts (Python, JavaScript, bash, etc.) for this step. Do all calculations using your own reasoning. The item counts are small enough to work through manually.**
 
@@ -122,7 +138,7 @@ Generate multiple fulfillment options ranked by total cost (item prices + delive
 
 If a store's delivery fee is "unknown", note it in the report and exclude it from the total (with a warning).
 
-## Step 6: Generate and Append Report
+## Step 7: Generate and Append Report
 
 Build the markdown report and append it to the original grocery list file.
 
@@ -176,7 +192,7 @@ For each cell: show product name, size, price, and unit price. Use "N/A" if not 
 
 Use the Edit tool to append the report after the last line of the grocery list file (after a `---` separator).
 
-## Step 7: Print Terminal Summary
+## Step 8: Print Terminal Summary
 
 Print a concise summary to the terminal:
 
@@ -200,7 +216,7 @@ Option 3: Best Single Store — $38.94 (Sprouts)
 Full report appended to: Grocery List - 2026-04-18.md
 ```
 
-## Step 8: Write Run Log and Cleanup
+## Step 9: Write Run Log and Cleanup
 
 Write the run log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. This log is intended to be reviewed later to improve the skill, agent, and store config. Use the `obsidian:obsidian-cli` skill to create the note in the vault.
 

@@ -5,55 +5,63 @@ tools:
   - Read
   - Glob
   - Grep
-  - mcp__playwright-1__browser_navigate
-  - mcp__playwright-1__browser_take_screenshot
-  - mcp__playwright-1__browser_snapshot
-  - mcp__playwright-1__browser_click
-  - mcp__playwright-1__browser_type
-  - mcp__playwright-1__browser_wait_for
-  - mcp__playwright-1__browser_close
-  - mcp__playwright-2__browser_navigate
-  - mcp__playwright-2__browser_take_screenshot
-  - mcp__playwright-2__browser_snapshot
-  - mcp__playwright-2__browser_click
-  - mcp__playwright-2__browser_type
-  - mcp__playwright-2__browser_wait_for
-  - mcp__playwright-2__browser_close
-  - mcp__playwright-3__browser_navigate
-  - mcp__playwright-3__browser_take_screenshot
-  - mcp__playwright-3__browser_snapshot
-  - mcp__playwright-3__browser_click
-  - mcp__playwright-3__browser_type
-  - mcp__playwright-3__browser_wait_for
-  - mcp__playwright-3__browser_close
-  - mcp__playwright-4__browser_navigate
-  - mcp__playwright-4__browser_take_screenshot
-  - mcp__playwright-4__browser_snapshot
-  - mcp__playwright-4__browser_click
-  - mcp__playwright-4__browser_type
-  - mcp__playwright-4__browser_wait_for
-  - mcp__playwright-4__browser_close
-  - mcp__playwright-5__browser_navigate
-  - mcp__playwright-5__browser_take_screenshot
-  - mcp__playwright-5__browser_snapshot
-  - mcp__playwright-5__browser_click
-  - mcp__playwright-5__browser_type
-  - mcp__playwright-5__browser_wait_for
-  - mcp__playwright-5__browser_close
-  - mcp__playwright-6__browser_navigate
-  - mcp__playwright-6__browser_take_screenshot
-  - mcp__playwright-6__browser_snapshot
-  - mcp__playwright-6__browser_click
-  - mcp__playwright-6__browser_type
-  - mcp__playwright-6__browser_wait_for
-  - mcp__playwright-6__browser_close
-  - mcp__playwright-7__browser_navigate
-  - mcp__playwright-7__browser_take_screenshot
-  - mcp__playwright-7__browser_snapshot
-  - mcp__playwright-7__browser_click
-  - mcp__playwright-7__browser_type
-  - mcp__playwright-7__browser_wait_for
-  - mcp__playwright-7__browser_close
+  - ToolSearch
+  - mcp__plugin_family-assistant_playwright-1__browser_navigate
+  - mcp__plugin_family-assistant_playwright-1__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-1__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-1__browser_click
+  - mcp__plugin_family-assistant_playwright-1__browser_type
+  - mcp__plugin_family-assistant_playwright-1__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-1__browser_close
+  - mcp__plugin_family-assistant_playwright-1__browser_run_code
+  - mcp__plugin_family-assistant_playwright-2__browser_navigate
+  - mcp__plugin_family-assistant_playwright-2__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-2__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-2__browser_click
+  - mcp__plugin_family-assistant_playwright-2__browser_type
+  - mcp__plugin_family-assistant_playwright-2__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-2__browser_close
+  - mcp__plugin_family-assistant_playwright-2__browser_run_code
+  - mcp__plugin_family-assistant_playwright-3__browser_navigate
+  - mcp__plugin_family-assistant_playwright-3__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-3__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-3__browser_click
+  - mcp__plugin_family-assistant_playwright-3__browser_type
+  - mcp__plugin_family-assistant_playwright-3__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-3__browser_close
+  - mcp__plugin_family-assistant_playwright-3__browser_run_code
+  - mcp__plugin_family-assistant_playwright-4__browser_navigate
+  - mcp__plugin_family-assistant_playwright-4__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-4__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-4__browser_click
+  - mcp__plugin_family-assistant_playwright-4__browser_type
+  - mcp__plugin_family-assistant_playwright-4__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-4__browser_close
+  - mcp__plugin_family-assistant_playwright-4__browser_run_code
+  - mcp__plugin_family-assistant_playwright-5__browser_navigate
+  - mcp__plugin_family-assistant_playwright-5__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-5__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-5__browser_click
+  - mcp__plugin_family-assistant_playwright-5__browser_type
+  - mcp__plugin_family-assistant_playwright-5__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-5__browser_close
+  - mcp__plugin_family-assistant_playwright-5__browser_run_code
+  - mcp__plugin_family-assistant_playwright-6__browser_navigate
+  - mcp__plugin_family-assistant_playwright-6__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-6__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-6__browser_click
+  - mcp__plugin_family-assistant_playwright-6__browser_type
+  - mcp__plugin_family-assistant_playwright-6__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-6__browser_close
+  - mcp__plugin_family-assistant_playwright-6__browser_run_code
+  - mcp__plugin_family-assistant_playwright-7__browser_navigate
+  - mcp__plugin_family-assistant_playwright-7__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-7__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-7__browser_click
+  - mcp__plugin_family-assistant_playwright-7__browser_type
+  - mcp__plugin_family-assistant_playwright-7__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-7__browser_close
+  - mcp__plugin_family-assistant_playwright-7__browser_run_code
 ---
 
 # Store Scraper Agent
@@ -62,7 +70,9 @@ You are a grocery store price scraper. You receive a list of grocery items and a
 
 ## Playwright Instance
 
-You will be assigned a specific Playwright instance number (1-7). **You MUST use ONLY the tools for your assigned instance.** For example, if assigned instance 2, use only `mcp__playwright-2__browser_*` tools. Never use tools from other instances.
+You will be assigned a specific Playwright instance number (1-7). **You MUST use ONLY the tools for your assigned instance.** For example, if assigned instance 2, use only `mcp__plugin_family-assistant_playwright-2__browser_*` tools. Never use tools from other instances.
+
+If you cannot find your assigned Playwright tools, use `ToolSearch` to discover them: `ToolSearch("+plugin_family-assistant_playwright-N")` where N is your instance number.
 
 All instances are headless and isolated.
 
@@ -101,6 +111,8 @@ After all items are searched, try to find the **delivery fee** for this store:
 
 ## Instacart-Specific Tips
 
+- **Cookie isolation:** Before your first search, clear all cookies using `browser_run_code` with `await page.context().clearCookies()`. Instacart uses cookies to remember your last store and will redirect you to the wrong store if stale cookies exist.
+- **Verify correct store:** After navigating, check the page URL or content to confirm you're on the right store. If Instacart redirected you to a different store, clear cookies and try again.
 - Instacart search results load dynamically via JavaScript. After navigating, wait for product cards to appear before taking screenshots.
 - If Instacart shows a location/zip code popup, try dismissing it or entering a zip code if one was provided.
 - Product prices on Instacart may show "estimated" weights for produce — note this in the NOTES field.
