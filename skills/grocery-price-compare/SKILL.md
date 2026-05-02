@@ -61,11 +61,9 @@ Each store has a `playwright_instance` number (1-7) that maps to a dedicated Pla
 Example prompt for one agent:
 
 ```
-Playwright instance: 1 — Use ONLY mcp__plugin_family-assistant_playwright-1__browser_* tools.
+Playwright instance: 1 — Use ONLY mcp__playwright-1__browser_* tools.
 Store: Vons | Platform: instacart | Delivery fee: 1.99
 Search URL: https://www.instacart.com/store/vons/search?q={query}
-Wait: selector | [data-testid='item_card'], [class*='ProductCard'], [class*='product-card']
-Zip code: 90210
 Prefer organic: yes
 
 Items:
@@ -75,7 +73,7 @@ Items:
 4. 2 dozen eggs
 5. English muffins
 
-Snapshot-first extraction. Screenshot only for fallback. No scripts.
+Snapshot-first. No scripts.
 ```
 
 ## Step 5: Parse Agent Results and Log Errors
