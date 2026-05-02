@@ -35,59 +35,55 @@ Read `${CLAUDE_PLUGIN_ROOT}/config/stores.yaml` and parse:
 
 ## Step 3: Pre-flight Check
 
-Before dispatching agents, verify that each store's Playwright instance is available. **Issue all ToolSearch calls in parallel** (all in a single message) to avoid sequential delays:
+Verify Playwright instances are available. **Issue all ToolSearch calls in parallel:**
 
-1. For each store in the config, call `ToolSearch("+plugin_family-assistant_playwright-{N} navigate")` — **dispatch all calls in one message** (do not wait for each one individually).
-2. If a Playwright instance is **not found**, warn the user: "Playwright instance {N} for {store name} is not available. Skipping this store."
-3. Remove unavailable stores from the dispatch list — do not send an agent that will fail.
-4. If **no** Playwright instances are available, tell the user and stop.
-5. Log all pre-flight results (available and missing) in the run log.
+1. For each store, call `ToolSearch("+playwright-{N} navigate")` — **all calls in one message**.
+2. If not found, warn user and remove from list.
+3. If **no** instances available, stop.
 
-## Step 4: Dispatch Store Scraper Agents
+## Step 4: Scrape All Stores (Direct Orchestration)
 
-For each store in the config, launch a `store-scraper` agent using the Agent tool. **Dispatch all agents in parallel** (all Agent tool calls in a single message). **Use `model: "haiku"` for all agents** — scraping is mechanical work that benefits from haiku's faster inference speed.
+**IMPORTANT: Do NOT dispatch subagents. Subagents cannot access MCP tools.** Instead, orchestrate scraping directly from the main conversation using parallel Playwright calls.
 
-Each store has a `playwright_instance` number (1-7) that maps to a dedicated Playwright MCP server. Each instance is a separate headless, isolated browser — no navigation conflicts between agents.
+Each store has a `playwright_instance` number (1-7) mapping to an isolated headless browser. Use `browser_navigate` and `browser_evaluate` — NOT `browser_snapshot` (too large) or `browser_take_screenshot` (too slow).
 
-**Keep agent prompts concise** — fewer tokens means faster agent startup. Each prompt must include only:
+**For each grocery item, execute 2 parallel rounds:**
 
-- The **Playwright instance number** from the store config
-- The store name, platform, and search URL template
-- The **delivery fee** from the store config (so the agent doesn't navigate to find it)
-- The full list of unchecked grocery items (just names, numbered)
-- The preferences (organic preference only)
-- One-line reminder: snapshot-first, no scripts
+### Round 1: Navigate all stores in parallel
 
-Example prompt for one agent:
+For each store, call `mcp__playwright-{N}__browser_navigate` with the search URL:
 
-```
-Playwright instance: 1 — Use ONLY mcp__playwright-1__browser_* tools.
-Store: Vons | Platform: instacart | Delivery fee: 1.99
-Search URL: https://www.instacart.com/store/vons/search?q={query}
-Prefer organic: yes
+- **Instacart stores:** `https://www.instacart.com/store/{slug}/s?k={url_encoded_query}` (use `/s?k=` NOT `/search?q=`)
+- **Amazon stores:** `https://www.amazon.com/s?k={url_encoded_query}&i={wholefoods|amazonfresh}`
+- If `prefer_organic` is true, prepend "organic " to produce searches
 
-Items:
-1. butter
-2. Organic strawberries
-3. Fresh blueberries
-4. 2 dozen eggs
-5. English muffins
+### Round 2: Extract prices from all stores in parallel
 
-Snapshot-first. No scripts.
+For each store, call `mcp__playwright-{N}__browser_evaluate` with the platform-appropriate extractor:
+
+**Amazon extractor:**
+
+```javascript
+() => { const r=[]; document.querySelectorAll('[data-component-type="s-search-result"]').forEach(c => { const n=c.querySelector('h2 a span,.a-text-normal'); const p=c.querySelector('.a-price .a-offscreen'); if(n&&p) r.push({n:n.textContent.trim().substring(0,80), p:p.textContent.trim().substring(0,12)}); }); return r.slice(0,3); }
 ```
 
-## Step 5: Parse Agent Results and Log Errors
+**Instacart extractor:**
 
-Collect the structured text output from each agent. Parse each block into structured data:
+```javascript
+() => { const r=[]; document.querySelectorAll('li').forEach(li => { const t=li.innerText; if(!t.match(/\$\d/)||t.length<30||t.length>500) return; const p=t.split('\n').map(s=>s.trim()).filter(s=>s); let price='',name='',size='',unit=''; for(const l of p){ if(l.startsWith('Current price:')) price=l.replace('Current price: ','').replace(' each (estimated)',''); if(!name&&l.length>5&&!l.match(/^\$|Current|Original|Best|Store|Many|Likely|Low|Only|Sold|Add|About|each|carousel|\d+ sizes|in stock|delivery|off$/i)) name=l; if(!size&&l.match(/\d+\s*(oz|lb|ct|pack|gal|fl)/i)&&l.length<40&&!l.match(/About/)) size=l; if(l.match(/\$[\d.]+ \/ (lb|oz|ct)/)) unit=l; } if(price&&name) r.push({n:name.substring(0,80),p:price,s:size,u:unit}); }); return r.slice(0,3); }
+```
 
-For each store, parse the compact output format:
+**No wait needed between navigate and evaluate** — pages load during the navigate call.
 
-- `item`: original item name
-- `status`: found / substituted / out_of_stock / not_found
-- `product_name`, `size`, `price`, `unit_price`: parsed from the PRODUCT line (pipe-delimited)
-- `notes`: only present for substitutions or notable issues
+Pick the best match from each store's results: prefer organic, closest name match to the searched item.
 
-Use the `delivery_fee` from `stores.yaml` config (agents no longer scrape this).
+## Step 5: Build Price Table
+
+For each item × store, record:
+
+- `product_name`, `price`, `size`, `unit_price`
+- `status`: found / substituted / not_found
+- Use `delivery_fee` from `stores.yaml` config (do NOT navigate to find it)
 
 **Error handling:** If any agent fails, times out, returns unparseable output, or encounters an error (CAPTCHA, blocked, crash, etc.):
 
