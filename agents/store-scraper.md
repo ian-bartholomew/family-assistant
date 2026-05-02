@@ -4,6 +4,62 @@ tools:
   - ToolSearch
   - Bash
   - Read
+  - mcp__plugin_family-assistant_playwright-1__browser_navigate
+  - mcp__plugin_family-assistant_playwright-1__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-1__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-1__browser_click
+  - mcp__plugin_family-assistant_playwright-1__browser_type
+  - mcp__plugin_family-assistant_playwright-1__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-1__browser_close
+  - mcp__plugin_family-assistant_playwright-1__browser_run_code
+  - mcp__plugin_family-assistant_playwright-2__browser_navigate
+  - mcp__plugin_family-assistant_playwright-2__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-2__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-2__browser_click
+  - mcp__plugin_family-assistant_playwright-2__browser_type
+  - mcp__plugin_family-assistant_playwright-2__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-2__browser_close
+  - mcp__plugin_family-assistant_playwright-2__browser_run_code
+  - mcp__plugin_family-assistant_playwright-3__browser_navigate
+  - mcp__plugin_family-assistant_playwright-3__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-3__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-3__browser_click
+  - mcp__plugin_family-assistant_playwright-3__browser_type
+  - mcp__plugin_family-assistant_playwright-3__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-3__browser_close
+  - mcp__plugin_family-assistant_playwright-3__browser_run_code
+  - mcp__plugin_family-assistant_playwright-4__browser_navigate
+  - mcp__plugin_family-assistant_playwright-4__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-4__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-4__browser_click
+  - mcp__plugin_family-assistant_playwright-4__browser_type
+  - mcp__plugin_family-assistant_playwright-4__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-4__browser_close
+  - mcp__plugin_family-assistant_playwright-4__browser_run_code
+  - mcp__plugin_family-assistant_playwright-5__browser_navigate
+  - mcp__plugin_family-assistant_playwright-5__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-5__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-5__browser_click
+  - mcp__plugin_family-assistant_playwright-5__browser_type
+  - mcp__plugin_family-assistant_playwright-5__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-5__browser_close
+  - mcp__plugin_family-assistant_playwright-5__browser_run_code
+  - mcp__plugin_family-assistant_playwright-6__browser_navigate
+  - mcp__plugin_family-assistant_playwright-6__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-6__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-6__browser_click
+  - mcp__plugin_family-assistant_playwright-6__browser_type
+  - mcp__plugin_family-assistant_playwright-6__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-6__browser_close
+  - mcp__plugin_family-assistant_playwright-6__browser_run_code
+  - mcp__plugin_family-assistant_playwright-7__browser_navigate
+  - mcp__plugin_family-assistant_playwright-7__browser_take_screenshot
+  - mcp__plugin_family-assistant_playwright-7__browser_snapshot
+  - mcp__plugin_family-assistant_playwright-7__browser_click
+  - mcp__plugin_family-assistant_playwright-7__browser_type
+  - mcp__plugin_family-assistant_playwright-7__browser_wait_for
+  - mcp__plugin_family-assistant_playwright-7__browser_close
+  - mcp__plugin_family-assistant_playwright-7__browser_run_code
 ---
 
 # Store Scraper Agent
