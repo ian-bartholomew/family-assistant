@@ -18,7 +18,7 @@ stores:
   - name: Vons
     platform: instacart
     url: https://www.instacart.com/store/vons
-    search_url: https://www.instacart.com/store/vons/search?q={query}
+    search_url: https://www.instacart.com/store/vons/s?k={query}
     service_fee_percent: 8
     delivery_fee: 1.99
     tip_percent: 20
@@ -27,7 +27,7 @@ stores:
   - name: Sprouts
     platform: instacart
     url: https://www.instacart.com/store/sprouts
-    search_url: https://www.instacart.com/store/sprouts/search?q={query}
+    search_url: https://www.instacart.com/store/sprouts/s?k={query}
     service_fee_percent: 8
     delivery_fee: 1.99
     tip_percent: 20
@@ -36,7 +36,7 @@ stores:
   - name: Costco
     platform: instacart
     url: https://www.instacart.com/store/costco
-    search_url: https://www.instacart.com/store/costco/search?q={query}
+    search_url: https://www.instacart.com/store/costco/s?k={query}
     service_fee_percent: 8
     delivery_fee: 5.99
     tip_percent: 20
@@ -45,7 +45,7 @@ stores:
   - name: Ralphs
     platform: instacart
     url: https://www.instacart.com/store/ralphs
-    search_url: https://www.instacart.com/store/ralphs/search?q={query}
+    search_url: https://www.instacart.com/store/ralphs/s?k={query}
     service_fee_percent: 8
     delivery_fee: 1.99
     tip_percent: 20
@@ -54,7 +54,7 @@ stores:
   - name: Aldi
     platform: instacart
     url: https://www.instacart.com/store/aldi
-    search_url: https://www.instacart.com/store/aldi/search?q={query}
+    search_url: https://www.instacart.com/store/aldi/s?k={query}
     service_fee_percent: 8
     delivery_fee: 1.99
     tip_percent: 20
