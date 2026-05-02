@@ -8,7 +8,7 @@ version: 1.0.0
 
 Compare prices for unchecked grocery list items across multiple stores, find the cheapest fulfillment strategy, and append a report to the grocery list.
 
-**Screenshot management:** All Playwright screenshots during this run should be saved to `{vault_path}/screenshots/`. Use the `obsidian:obsidian-cli` skill to create the folder. Tell each agent to save screenshots there with descriptive names (e.g., `vons-butter.png`). After the report is generated and appended, delete the screenshots folder using Bash (`rm -rf {vault_path}/screenshots/`).
+**Screenshot management:** Screenshots are optional — agents use `browser_snapshot` (DOM accessibility tree) for data extraction by default. Screenshots are only taken as fallback when popups or blockers are detected. If any screenshots are saved to `{vault_path}/screenshots/`, clean up with `rm -rf {vault_path}/screenshots/` after the run.
 
 **Run logging:** Every run writes a detailed log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. Use the `obsidian-cli` skill to create notes in the vault (this ensures proper Obsidian integration). This log is designed to be reviewed later to improve the skill — it captures what worked, what didn't, and why.
 
@@ -35,15 +35,9 @@ Read `${CLAUDE_PLUGIN_ROOT}/config/stores.yaml` and parse:
 
 ## Step 3: Pre-flight Check
 
-Before dispatching agents, verify that each store's Playwright instance is available:
+Before dispatching agents, verify that each store's Playwright instance is available. **Issue all ToolSearch calls in parallel** (all in a single message) to avoid sequential delays:
 
-1. For each store in the config, use `ToolSearch` to check for its Playwright tools:
-
-   ```
-   ToolSearch("+plugin_family-assistant_playwright-{N} navigate")
-   ```
-
-   where `{N}` is the store's `playwright_instance` number.
+1. For each store in the config, call `ToolSearch("+plugin_family-assistant_playwright-{N} navigate")` — **dispatch all calls in one message** (do not wait for each one individually).
 2. If a Playwright instance is **not found**, warn the user: "Playwright instance {N} for {store name} is not available. Skipping this store."
 3. Remove unavailable stores from the dispatch list — do not send an agent that will fail.
 4. If **no** Playwright instances are available, tell the user and stop.
@@ -51,62 +45,51 @@ Before dispatching agents, verify that each store's Playwright instance is avail
 
 ## Step 4: Dispatch Store Scraper Agents
 
-For each store in the config, launch a `store-scraper` agent using the Agent tool. **Dispatch all agents in parallel** (all Agent tool calls in a single message).
+For each store in the config, launch a `store-scraper` agent using the Agent tool. **Dispatch all agents in parallel** (all Agent tool calls in a single message). **Use `model: "haiku"` for all agents** — scraping is mechanical work that benefits from haiku's faster inference speed.
 
 Each store has a `playwright_instance` number (1-7) that maps to a dedicated Playwright MCP server. Each instance is a separate headless, isolated browser — no navigation conflicts between agents.
 
-Each agent prompt must include:
+**Keep agent prompts concise** — fewer tokens means faster agent startup. Each prompt must include only:
 
 - The **Playwright instance number** from the store config
-- The store name and search URL template
-- The full list of unchecked grocery items
-- The preferences (organic, etc.)
-- Instructions to return results in the structured format defined in the agent
+- The store name, platform, and search URL template
+- The **delivery fee** from the store config (so the agent doesn't navigate to find it)
+- The full list of unchecked grocery items (just names, numbered)
+- The preferences (organic preference only)
+- One-line reminder: snapshot-first, no scripts
 
 Example prompt for one agent:
 
 ```
-You are scraping prices from Vons via Instacart.
+Playwright instance: 1 — Use ONLY mcp__plugin_family-assistant_playwright-1__browser_* tools.
+Store: Vons | Platform: instacart | Delivery fee: 1.99
+Search URL: https://www.instacart.com/store/vons/search?q={query}
+Wait: selector | [data-testid='item_card'], [class*='ProductCard'], [class*='product-card']
+Zip code: 90210
+Prefer organic: yes
 
-**Playwright instance: 1** — Use ONLY mcp__plugin_family-assistant_playwright-1__browser_* tools.
-
-Store: Vons
-Search URL template: https://www.instacart.com/store/vons/search?q={query}
-
-Preferences:
-- Prefer organic: yes
-
-Items to search for:
+Items:
 1. butter
 2. Organic strawberries
 3. Fresh blueberries
 4. 2 dozen eggs
 5. English muffins
 
-Screenshots folder: {vault_path}/screenshots/
-
-IMPORTANT: Do NOT write or run any scripts. Use only Playwright MCP tools and your own reasoning.
-
-Search for each item, take a screenshot of the results (save to the screenshots folder as {store-slug}-{item-slug}.png), extract the best matching product name, price, size, unit price, and URL. Prefer organic products. Return results in the structured format from your instructions.
+Snapshot-first extraction. Screenshot only for fallback. No scripts.
 ```
 
 ## Step 5: Parse Agent Results and Log Errors
 
 Collect the structured text output from each agent. Parse each block into structured data:
 
-For each store, build a list of items with:
+For each store, parse the compact output format:
 
 - `item`: original item name
 - `status`: found / substituted / out_of_stock / not_found
-- `exact_match`: true / false
-- `product_name`: what the store calls it
-- `price`: numeric price
-- `size`: package size (e.g., "8 oz", "1 lb", "24 ct")
-- `unit_price`: price per standard unit (per oz, per ct, etc.)
-- `url`: link to the product
-- `notes`: any explanation
+- `product_name`, `size`, `price`, `unit_price`: parsed from the PRODUCT line (pipe-delimited)
+- `notes`: only present for substitutions or notable issues
 
-Also capture each store's `delivery_fee` (numeric or "unknown").
+Use the `delivery_fee` from `stores.yaml` config (agents no longer scrape this).
 
 **Error handling:** If any agent fails, times out, returns unparseable output, or encounters an error (CAPTCHA, blocked, crash, etc.):
 
@@ -142,55 +125,36 @@ If a store's delivery fee is "unknown", note it in the report and exclude it fro
 
 Build the markdown report and append it to the original grocery list file.
 
-**Report structure:**
+**Report structure** (keep it compact — fewer tokens to generate):
 
 ```markdown
 ---
-## Price Comparison Report — {YYYY-MM-DD HH:MM}
+## Price Comparison — {YYYY-MM-DD HH:MM}
 
-### Price Comparison Table
+### Prices
 
-This table shows every item across all stores for easy comparison. The **best unit price** for each item is marked with ✓.
+| Item | {Store1} | {Store2} | ... |
+|------|----------|----------|-----|
+| {item} | ${price} ({size}) ✓ | ${price} ({size}) | ... |
 
-| Item | Vons | Sprouts | Costco | Whole Foods | Amazon Fresh |
-|------|------|---------|--------|-------------|--------------|
-| {item} | {product} {size} ${price} (${unit_price}/oz) | ... | ... | ... | ... |
-| | | | | | |
+Mark best unit price per row with ✓. Use "—" if not found, "OOS" if out of stock.
 
-For each cell: show product name, size, price, and unit price. Use "N/A" if not found, "OOS" if out of stock, or "SUB: {product}" if substituted. Mark the best unit price per row with ✓.
+### Best Options
 
-### Option {N}: {Label} (${total}) — {Store1} + {Store2}
+**Option 1: {Label} — ${total}**
+{Store}: ${item_subtotal} items + ${service_fee} svc + ${delivery} dlv + ${tip} tip = ${store_total}
 
-#### {Store1} — ${store_total} (items ${item_subtotal} + ${service_fee} service fee + ${delivery} delivery + ${tip} tip)
-| Item | Product | Size | Price | Unit Price | Link | Notes |
-|------|---------|------|-------|------------|------|-------|
-| {item} | {product_name} | {size} | ${price} | ${unit_price}/oz | [link]({url}) | {notes — include "SUBSTITUTED" or "OUT OF STOCK" here if applicable} |
-| *Service Fee ({service_fee_percent}%)* | | | ${service_fee} | | | |
-| *Delivery* | | | ${fee} | | | |
-| *Tip ({tip_percent}% or flat)* | | | ${tip} | | | |
-
-#### {Store2} — ${store_total} (items ${item_subtotal} + ${service_fee} service fee + ${delivery} delivery + ${tip} tip)
-| Item | Product | Size | Price | Unit Price | Link | Notes |
-|------|---------|------|-------|------------|------|-------|
+**Option 2: {Label} — ${total}**
 ...
 
-### Items Not Found
-| Item | Store | Notes |
-|------|-------|-------|
-| {item} | {store} | Store does not carry this item |
-
-### Out of Stock
-| Item | Store | Notes |
-|------|-------|-------|
-| {item} | {store} | Currently out of stock |
-
-### Substitutions Made
-| Item | Store | Substituted With | Notes |
-|------|-------|-----------------|-------|
-| {item} | {store} | {substituted_product} | {reason} |
+### Issues
+- {item}: not found at {stores} / out of stock at {stores} / substituted at {store} with {product}
 ```
 
-Use the Edit tool to append the report after the last line of the grocery list file (after a `---` separator).
+**Perform these two writes in parallel** (they target different files):
+
+1. Use the Edit tool to append the report after the last line of the grocery list file (after a `---` separator).
+2. Write the run log (see Step 9) at the same time — don't wait for the report append to finish.
 
 ## Step 8: Print Terminal Summary
 
@@ -289,10 +253,10 @@ Write the run log to `{vault_path}/logs/run-YYYY-MM-DD-HHMMSS.md`. This log is i
 - {e.g., "Unit price extraction failed for produce items with estimated weights"}
 ```
 
-After writing the log, delete the screenshots folder:
+After writing the log, clean up any screenshots if they exist:
 
 ```bash
-rm -rf {vault_path}/screenshots/
+rm -rf {vault_path}/screenshots/ 2>/dev/null
 ```
 
 Mention the log file path in the terminal summary.

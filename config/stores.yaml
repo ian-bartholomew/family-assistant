@@ -1,51 +1,70 @@
 stores:
   - name: Whole Foods
+    platform: amazon
     url: https://www.amazon.com/alm/storefront?almBrandId=QW1hem9uIEZyZXNo&ref_=ewc_wf
     search_url: https://www.amazon.com/s?k={query}&i=wholefoods
     delivery_fee: 0
     tip_flat: 10
     playwright_instance: 4
+    wait_strategy: networkidle
   - name: Amazon Fresh
+    platform: amazon
     url: https://www.amazon.com/fresh
     search_url: https://www.amazon.com/s?k={query}&i=amazonfresh
     delivery_fee: 0
     tip_flat: 10
     playwright_instance: 5
+    wait_strategy: networkidle
   - name: Vons
+    platform: instacart
     url: https://www.instacart.com/store/vons
     search_url: https://www.instacart.com/store/vons/search?q={query}
     service_fee_percent: 8
     delivery_fee: 1.99
     tip_percent: 20
     playwright_instance: 1
+    wait_strategy: selector
+    wait_selector: "[data-testid='item_card'], [class*='ProductCard'], [class*='product-card']"
   - name: Sprouts
+    platform: instacart
     url: https://www.instacart.com/store/sprouts
     search_url: https://www.instacart.com/store/sprouts/search?q={query}
     service_fee_percent: 8
     delivery_fee: 1.99
     tip_percent: 20
     playwright_instance: 2
+    wait_strategy: selector
+    wait_selector: "[data-testid='item_card'], [class*='ProductCard'], [class*='product-card']"
   - name: Costco
+    platform: instacart
     url: https://www.instacart.com/store/costco
     search_url: https://www.instacart.com/store/costco/search?q={query}
     service_fee_percent: 8
     delivery_fee: 5.99
     tip_percent: 20
     playwright_instance: 3
+    wait_strategy: selector
+    wait_selector: "[data-testid='item_card'], [class*='ProductCard'], [class*='product-card']"
   - name: Ralphs
+    platform: instacart
     url: https://www.instacart.com/store/ralphs
     search_url: https://www.instacart.com/store/ralphs/search?q={query}
     service_fee_percent: 8
     delivery_fee: 1.99
     tip_percent: 20
     playwright_instance: 6
+    wait_strategy: selector
+    wait_selector: "[data-testid='item_card'], [class*='ProductCard'], [class*='product-card']"
   - name: Aldi
+    platform: instacart
     url: https://www.instacart.com/store/aldi
     search_url: https://www.instacart.com/store/aldi/search?q={query}
     service_fee_percent: 8
     delivery_fee: 1.99
     tip_percent: 20
     playwright_instance: 7
+    wait_strategy: selector
+    wait_selector: "[data-testid='item_card'], [class*='ProductCard'], [class*='product-card']"
 
 preferences:
   prefer_organic: true
