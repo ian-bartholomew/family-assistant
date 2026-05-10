@@ -1,5 +1,5 @@
 ---
-name: Grocery Price Compare
+name: grocery-price-compare
 description: "Compare grocery prices across multiple stores. Use when the user asks to compare grocery prices, find the cheapest groceries, check grocery prices, or run a price comparison on their grocery list."
 version: 2.0.0
 ---
