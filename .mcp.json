@@ -2,38 +2,31 @@
   "mcpServers": {
     "playwright-1": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
-      "env": { "INSTANCE": "1" }
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated", "--port", "3101"]
     },
     "playwright-2": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
-      "env": { "INSTANCE": "2" }
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated", "--port", "3102"]
     },
     "playwright-3": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
-      "env": { "INSTANCE": "3" }
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated", "--port", "3103"]
     },
     "playwright-4": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
-      "env": { "INSTANCE": "4" }
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated", "--port", "3104"]
     },
     "playwright-5": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
-      "env": { "INSTANCE": "5" }
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated", "--port", "3105"]
     },
     "playwright-6": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
-      "env": { "INSTANCE": "6" }
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated", "--port", "3106"]
     },
     "playwright-7": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
-      "env": { "INSTANCE": "7" }
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated", "--port", "3107"]
     }
   }
 }
