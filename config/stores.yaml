@@ -6,7 +6,7 @@ stores:
     service_fee_percent: 8
     delivery_fee: 1.99
     tip_percent: 20
-    playwright_instances: [1, 2, 3]
+    playwright_instance: 1
   - name: Sprouts
     platform: instacart
     url: https://www.instacart.com/store/sprouts
@@ -14,7 +14,7 @@ stores:
     service_fee_percent: 8
     delivery_fee: 1.99
     tip_percent: 20
-    playwright_instances: [4, 5, 6]
+    playwright_instance: 2
   - name: Costco
     platform: instacart
     url: https://www.instacart.com/store/costco
@@ -22,21 +22,21 @@ stores:
     service_fee_percent: 8
     delivery_fee: 5.99
     tip_percent: 20
-    playwright_instances: [7, 8, 9]
+    playwright_instance: 3
   - name: Whole Foods
     platform: amazon
     url: https://www.amazon.com/alm/storefront?almBrandId=QW1hem9uIEZyZXNo&ref_=ewc_wf
     search_url: https://www.amazon.com/s?k={query}&i=wholefoods
     delivery_fee: 0
     tip_flat: 10
-    playwright_instances: [10, 11, 12]
+    playwright_instance: 4
   - name: Amazon Fresh
     platform: amazon
     url: https://www.amazon.com/fresh
     search_url: https://www.amazon.com/s?k={query}&i=amazonfresh
     delivery_fee: 0
     tip_flat: 10
-    playwright_instances: [13, 14, 15]
+    playwright_instance: 5
   - name: Ralphs
     platform: instacart
     url: https://www.instacart.com/store/ralphs
@@ -44,7 +44,7 @@ stores:
     service_fee_percent: 8
     delivery_fee: 1.99
     tip_percent: 20
-    playwright_instances: [16, 17, 18]
+    playwright_instance: 6
   - name: Aldi
     platform: instacart
     url: https://www.instacart.com/store/aldi
@@ -52,7 +52,7 @@ stores:
     service_fee_percent: 8
     delivery_fee: 1.99
     tip_percent: 20
-    playwright_instances: [19, 20, 21]
+    playwright_instance: 7
 
 preferences:
   prefer_organic: true

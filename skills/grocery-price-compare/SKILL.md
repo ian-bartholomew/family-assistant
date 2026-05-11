@@ -27,12 +27,12 @@ Compare prices for unchecked grocery list items across ALL configured stores, fi
 
 Read `${CLAUDE_PLUGIN_ROOT}/config/stores.yaml` and parse:
 
-- Stores: `name`, `platform`, `search_url`, `playwright_instances` (array of 3 instance numbers), `delivery_fee`, `service_fee_percent`, `tip_flat` or `tip_percent`
+- Stores: `name`, `platform`, `search_url`, `playwright_instance` (single instance number 1-7), `delivery_fee`, `service_fee_percent`, `tip_flat` or `tip_percent`
 - Preferences: `prefer_organic`, `delivery`, `zip_code`, `default_tip_percent`
 
 ## Step 3: Pre-flight Check
 
-Verify Playwright instances are available. For each store, check ONE instance from its `playwright_instances` array:
+Verify Playwright instances are available. For each store, check its `playwright_instance`:
 
 ```
 ToolSearch("+playwright-{N} navigate")
@@ -40,24 +40,22 @@ ToolSearch("+playwright-{N} navigate")
 
 Issue all ToolSearch calls in parallel (one message). If a store's instance is not found, warn and remove that store. If no stores available, stop.
 
-## Step 4: Scrape All Stores (Direct Orchestration — 21 Instances)
+## Step 4: Scrape All Stores (Direct Orchestration)
 
 **Do NOT dispatch subagents.** Subagents cannot access MCP tools. Orchestrate scraping directly from the main conversation.
 
-Each store has 3 Playwright instances (`playwright_instances: [N, N+1, N+2]`). This allows searching **3 items per store per round** — all 7 stores simultaneously = **21 parallel searches per round**.
+Each store has 1 Playwright instance (`playwright_instance: N`, where N is 1-7). This means **1 item per round across all 7 stores = 7 parallel searches per round**.
 
 **NEVER drop stores. Search ALL configured stores for ALL items.**
 
-### Pipeline: Process items in batches of 3
+### Pipeline: Process 1 item per round across all 7 stores
 
-For each batch of 3 items (A, B, C):
+For each item:
 
-**Round 1 — Navigate 21 instances in parallel:**
-For each store, navigate its 3 instances to search for items A, B, C:
+**Round 1 — Navigate 7 instances in parallel:**
+For each store, navigate its instance to the search URL with the item as query:
 
-- Instance N → `search_url` with item A as query
-- Instance N+1 → `search_url` with item B as query
-- Instance N+2 → `search_url` with item C as query
+- `mcp__playwright-{N}__browser_navigate` where N is the store's `playwright_instance`
 
 URL patterns:
 
@@ -65,7 +63,7 @@ URL patterns:
 - **Amazon:** `https://www.amazon.com/s?k={url_encoded_query}&i={wholefoods|amazonfresh}`
 - If `prefer_organic` is true, prepend "organic " to produce searches (fruits, vegetables)
 
-**Round 2 — Extract from 21 instances in parallel:**
+**Round 2 — Extract from 7 instances in parallel:**
 For each instance, call `mcp__playwright-{N}__browser_evaluate` with the platform-appropriate extractor:
 
 **Amazon extractor:**
@@ -88,10 +86,10 @@ Pick the best match from each store's results: prefer organic, closest name matc
 
 ### Timing
 
-For N items across 7 stores with 21 instances (3 per store):
+For N items across 7 stores with 7 instances (1 per store):
 
-- Rounds = ceil(N / 3) × 2 (navigate + evaluate)
-- 36 items → 12 rounds × 2 = 24 tool call batches → ~5 minutes
+- Rounds = N × 2 (navigate + evaluate)
+- 36 items → 72 tool call batches → ~35 minutes
 
 ## Step 5: Build Price Table
 
