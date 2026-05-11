@@ -2,87 +2,38 @@
   "mcpServers": {
     "playwright-1": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
+      "env": { "INSTANCE": "1" }
     },
     "playwright-2": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
+      "env": { "INSTANCE": "2" }
     },
     "playwright-3": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
+      "env": { "INSTANCE": "3" }
     },
     "playwright-4": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
+      "env": { "INSTANCE": "4" }
     },
     "playwright-5": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
+      "env": { "INSTANCE": "5" }
     },
     "playwright-6": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
+      "env": { "INSTANCE": "6" }
     },
     "playwright-7": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-8": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-9": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-10": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-11": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-12": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-13": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-14": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-15": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-16": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-17": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-18": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-19": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-20": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
-    },
-    "playwright-21": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"]
+      "args": ["@playwright/mcp@latest", "--caps", "vision", "--headless", "--isolated"],
+      "env": { "INSTANCE": "7" }
     }
   }
 }
